@@ -3,6 +3,7 @@ import copy
 import gzip
 import io
 import json
+import time
 import urllib.request
 import xml.etree.ElementTree as ET
 from collections import defaultdict
@@ -15,6 +16,8 @@ MAP_PATH = REPO_ROOT / 'epg' / 'channel_map.json'
 OUT_XML = REPO_ROOT / 'epg' / 'epg.xml'
 OUT_GZ = REPO_ROOT / 'epg' / 'epg.xml.gz'
 BJ_TZ = ZoneInfo('Asia/Shanghai')
+PUBLIC_REPO_URL = 'https://github.com/Shincyann128/iptv-epg'
+WOWOW_CHANNELS = {'WOWOW Prime', 'WOWOW Live', 'WOWOW Cinema'}
 SOURCE_MODE = {
     'CN': 'epgpw_local',
     'BJ': 'keep_offset',
@@ -34,13 +37,22 @@ SOURCE_TZ = {
 }
 
 
-def fetch_bytes(url: str) -> bytes:
-    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 Hermes EPG Builder"})
-    with urllib.request.urlopen(req, timeout=120) as resp:
-        data = resp.read()
-    if url.endswith('.gz'):
-        return gzip.decompress(data)
-    return data
+def fetch_bytes(url: str, retries: int = 3, backoff_seconds: float = 1.0) -> bytes:
+    last_error = None
+    for attempt in range(1, retries + 1):
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 Hermes EPG Builder"})
+            with urllib.request.urlopen(req, timeout=120) as resp:
+                data = resp.read()
+            if url.endswith('.gz'):
+                return gzip.decompress(data)
+            return data
+        except Exception as exc:
+            last_error = exc
+            if attempt == retries:
+                break
+            time.sleep(backoff_seconds * (2 ** (attempt - 1)))
+    raise RuntimeError(f'failed to fetch {url}: {last_error}') from last_error
 
 
 def convert_xmltv_time(dt_str: str, source_key: str) -> str:
@@ -63,6 +75,20 @@ def convert_xmltv_time(dt_str: str, source_key: str) -> str:
     return bj_dt.strftime('%Y%m%d%H%M%S +0800')
 
 
+def parse_bj_time(dt_str: str) -> datetime | None:
+    if not dt_str:
+        return None
+    return datetime.strptime(dt_str, '%Y%m%d%H%M%S +0800')
+
+
+def programme_duration_seconds(start: str, stop: str) -> float:
+    start_dt = parse_bj_time(start)
+    stop_dt = parse_bj_time(stop)
+    if not start_dt or not stop_dt:
+        return 0
+    return max((stop_dt - start_dt).total_seconds(), 0)
+
+
 def should_skip_programme(start_raw: str, stop_raw: str, source_key: str) -> bool:
     if source_key not in {'JP', 'JPT'}:
         return False
@@ -78,17 +104,118 @@ def should_skip_programme(start_raw: str, stop_raw: str, source_key: str) -> boo
     return duration_hours > 8
 
 
+def should_cleanup_overlaps(target_name: str, source_key: str) -> bool:
+    return source_key in {'JP', 'JPT'} and target_name in WOWOW_CHANNELS
+
+
+def should_replace_existing(existing: dict, candidate_start: str, candidate_stop: str) -> bool:
+    existing_duration = programme_duration_seconds(existing['start'], existing['stop'])
+    candidate_duration = programme_duration_seconds(candidate_start, candidate_stop)
+    if candidate_duration > existing_duration:
+        return True
+    if candidate_duration == existing_duration:
+        return candidate_stop > existing['stop']
+    return False
+
+
+def append_programme(root_out: ET.Element, programme_seen: set, last_programme_by_target: dict,
+                     target_name: str, elem: ET.Element, start: str, stop: str, title: str,
+                     source_key: str) -> bool:
+    key = (target_name, start, stop, title)
+    if key in programme_seen:
+        return False
+
+    candidate_start_dt = parse_bj_time(start)
+    last = last_programme_by_target.get(target_name)
+    if (
+        last
+        and should_cleanup_overlaps(target_name, source_key)
+        and candidate_start_dt
+        and candidate_start_dt < last['stop_dt']
+    ):
+        if should_replace_existing(last, start, stop):
+            try:
+                root_out.remove(last['element'])
+            except ValueError:
+                pass
+            programme_seen.discard(last['key'])
+        else:
+            return False
+
+    elem.attrib['channel'] = target_name
+    if start:
+        elem.attrib['start'] = start
+    if stop:
+        elem.attrib['stop'] = stop
+    root_out.append(elem)
+    programme_seen.add(key)
+
+    stop_dt = parse_bj_time(stop)
+    if stop_dt:
+        last_programme_by_target[target_name] = {
+            'element': elem,
+            'key': key,
+            'start': start,
+            'stop': stop,
+            'stop_dt': stop_dt,
+        }
+    return True
+
+
+def resolve_channel_config(channel_name: str, channels: dict, stack: set | None = None) -> dict:
+    if stack is None:
+        stack = set()
+    if channel_name in stack:
+        raise ValueError(f'alias cycle detected: {channel_name}')
+
+    cfg = dict(channels[channel_name])
+    alias_of = cfg.get('alias_of')
+    if not alias_of:
+        return cfg
+
+    # Some mappings use alias_of only as a human-readable canonical label
+    # while still providing explicit source/epg_name in the same row.
+    if alias_of not in channels:
+        if 'source' in cfg and 'epg_name' in cfg:
+            return cfg
+        raise KeyError(f'alias target not found: {alias_of}')
+
+    stack.add(channel_name)
+    base_cfg = resolve_channel_config(alias_of, channels, stack)
+    stack.remove(channel_name)
+
+    merged = dict(base_cfg)
+    merged.update(cfg)
+    merged['alias_of'] = alias_of
+    return merged
+
+
+def build_targets_by_source(channels: dict):
+    targets_by_source = defaultdict(lambda: defaultdict(list))
+    for m3u_name in channels:
+        cfg = resolve_channel_config(m3u_name, channels)
+        if not cfg.get('enabled'):
+            continue
+        targets_by_source[cfg['source']][cfg['epg_name']].append(m3u_name)
+    return targets_by_source
+
+
 def parse_source(source_key: str, url: str, targets_by_epg_name: dict, root_out: ET.Element):
     if not targets_by_epg_name:
         return {"channels": 0, "programmes": 0}
 
-    raw = fetch_bytes(url)
+    try:
+        raw = fetch_bytes(url)
+    except Exception as exc:
+        return {"channels": 0, "programmes": 0, "error": str(exc)}
+
     source_to_targets = defaultdict(list)
     channels_added = 0
     programme_count = 0
     channel_written = set()
     programme_seen = set()
     claimed_epg_names = {}
+    last_programme_by_target = {}
 
     context = ET.iterparse(io.BytesIO(raw), events=("start", "end"))
     _, root_in = next(context)
@@ -150,18 +277,10 @@ def parse_source(source_key: str, url: str, targets_by_epg_name: dict, root_out:
                 start = convert_xmltv_time(start_raw, source_key)
                 stop = convert_xmltv_time(stop_raw, source_key)
                 for target_name in targets:
-                    key = (target_name, start, stop, title)
-                    if key in programme_seen:
-                        continue
                     new_prog = copy.deepcopy(elem)
-                    new_prog.attrib['channel'] = target_name
-                    if start:
-                        new_prog.attrib['start'] = start
-                    if stop:
-                        new_prog.attrib['stop'] = stop
-                    root_out.append(new_prog)
-                    programme_seen.add(key)
-                    programme_count += 1
+                    if append_programme(root_out, programme_seen, last_programme_by_target,
+                                        target_name, new_prog, start, stop, title, source_key):
+                        programme_count += 1
             elem.clear()
             root_in.clear()
 
@@ -173,15 +292,11 @@ def main():
     source_urls = data['sources']
     channels = data['channels']
 
-    targets_by_source = defaultdict(lambda: defaultdict(list))
-    for m3u_name, cfg in channels.items():
-        if not cfg.get('enabled'):
-            continue
-        targets_by_source[cfg['source']][cfg['epg_name']].append(m3u_name)
+    targets_by_source = build_targets_by_source(channels)
 
     root = ET.Element('tv', {
         'generator-info-name': 'Hermes custom EPG builder',
-        'generator-info-url': 'https://github.com/Shincyann128/iptv'
+        'generator-info-url': PUBLIC_REPO_URL
     })
 
     stats = {}

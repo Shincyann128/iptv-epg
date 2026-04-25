@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<tv generator-info-name="Hermes custom EPG builder" generator-info-url="https://github.com/Shincyann128/iptv">
+<tv generator-info-name="Hermes custom EPG builder" generator-info-url="https://github.com/Shincyann128/iptv-epg">
   <channel id="CCTV1">
     <display-name lang="zh">CCTV1</display-name>
   </channel>
@@ -50186,11 +50186,6 @@ Juror #2
     <icon src="https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/56278/L_f817afa647e14391926e140a05095e2d_20260203153458026.jpg" />
     <url>https://www.skyperfectv.co.jp/program/detail/?uid=c31193398</url>
   </programme>
-  <programme start="20260426024000 +0800" stop="20260426033000 +0800" channel="WOWOW Cinema">
-    <title lang="ja">[初][映]ＮＩＮＩＦＵＮＩ[字]</title>
-    <icon src="https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/61398/L_b4ca249770654419bdb8ec73626678ad_20260304161032971.jpg" />
-    <url>https://www.skyperfectv.co.jp/program/detail/?uid=c31220497</url>
-  </programme>
   <programme start="20260426031500 +0800" stop="20260426050000 +0800" channel="WOWOW Cinema">
     <title lang="ja">[映]ファンシイダンス[SS][字]</title>
     <sub-title lang="ja">後の人気監督、周防正行監督の一般映画デビュー作。岡野玲子のヒットコミックを映画化。実家の寺を継ぐことになる青年の騒動を綴ったコメディ。本木雅弘の初単独主演映画。</sub-title>
@@ -50396,31 +50391,9 @@ Dear Stranger
     <icon src="https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/27228/L_937da03b52824d229135ab76ba011657_20250902153013004.jpg" />
     <url>https://www.skyperfectv.co.jp/program/detail/?uid=c31193334</url>
   </programme>
-  <programme start="20260425000000 +0800" stop="20260425020000 +0800" channel="WOWOW Live">
-    <title lang="ja">田原俊彦「６０ｔｈ　Ｂｉｒｔｈ　Ａｎｎｉｖｅｒｓａｒｙ　ＴＯＳＨＩＨＩＫＯ　Ｔ…</title>
-    <sub-title lang="ja">２０２１年２月２８日に還暦を迎えた田原俊彦が、同年１１月１０日に東京国際フォーラム　ホールＡで行なったアニバーサリーライブの模様をお送りする。</sub-title>
-    <desc lang="ja">みどころ
-１９８０年にシングル「哀愁でいと」で歌手デビュー。以降、ヒット曲を連発し１９８０年代以降のアイドルシーンの象徴的存在として歌謡界を牽引し続けてきた田原俊彦。卓越したダンススキルを武器にエンターテイナーの新たなスタイルを築き上げた彼が、２０２１年に還暦を迎え、その還暦を祝うアニバーサリーライブが１１月１０日に開催された。“生涯現役”をキーワードに掲げ、個性的なボーカル、華麗なターンや鮮やかなハイキック、そして魅せるダンスなど、デビュー以来４０年以上にわたって最前線で輝き続ける彼のストイックかつ華やかなステージングは必見！誰もが耳にし、今なお心躍る数々の名曲、ヒット曲に加え、彼ならではの表現力の高いパフォーマンスで、記憶に残る一夜限りの“うたげ”が繰り広げられる。
-
-開催日
-2021/11/10
-
-出演
-田原俊彦
-
-開催場所
-東京　東京国際フォーラム　ホールＡ</desc>
-    <icon src="https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/11815/L_3d8b8e98017e47d29510ee0787bacabe_20250603135142497.jpg" />
-    <url>https://www.skyperfectv.co.jp/program/detail/?uid=c31194362</url>
-  </programme>
   <programme start="20260425000000 +0800" stop="20260425023000 +0800" channel="WOWOW Live">
     <title lang="ja">[初][生]ＵＥＦＡ女子ＣＬ　準決勝　バイエルンｖｓバルセロナ[ニ]</title>
     <url>https://www.skyperfectv.co.jp/program/detail/?uid=c31193337</url>
-  </programme>
-  <programme start="20260425020000 +0800" stop="20260425040000 +0800" channel="WOWOW Live">
-    <title lang="ja">田原俊彦「ＴＯＳＨＩＨＩＫＯ　ＴＡＨＡＲＡ　ＤＯＵＢＬＥ　‘Ｔ’　ＴＯＵＲ　２…</title>
-    <icon src="https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/17886/L_2363c7953cbe4b7392c50c3649309483_20250702164930069.jpg" />
-    <url>https://www.skyperfectv.co.jp/program/detail/?uid=c31194363</url>
   </programme>
   <programme start="20260425040000 +0800" stop="20260425060000 +0800" channel="WOWOW Live">
     <title lang="ja">エキサイトマッチ　＃３　ＷＢＣ世界ウェルター級ＴＭ　バリオスｖｓガルシア</title>
@@ -50566,45 +50539,9 @@ NBAバスケットボール
     <icon src="https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/52000/L_13772b23f84f42549e5a21fb6b4f1943_20260107131506422.jpg" />
     <url>https://www.skyperfectv.co.jp/program/detail/?uid=c31220546</url>
   </programme>
-  <programme start="20260426023000 +0800" stop="20260426050000 +0800" channel="WOWOW Live">
-    <title lang="ja">[映]ラ・コシーナ／厨房（字幕版）[SS]</title>
-    <sub-title lang="ja">大勢の外国人移民が働く、ＮＹのレストランの厨房。夢と現実の狭間で苦闘する彼らの多忙な１日を、メキシコの俊英Ａ・ルイスパラシオス監督が痛切に描いた辛口の群像劇。</sub-title>
-    <desc lang="ja">みどころ
-ＮＹの繁華街にある大型レストラン＜ザ・グリル＞。そこで働く同郷の先輩ペドロを頼って、メキシコからお上りさんよろしく、若い娘のエステラが店を訪れ、厨房の新たなスタッフとして働くことに。腕の立つ料理人のペドロと恋仲になったアメリカ人ウエートレスのジュリアは、彼の子どもを妊娠。２人は中絶費用の工面に苦慮していた。そんな折、店の売上金の一部が紛失していることが判明し、厨房の従業員全員に盗難の容疑がかかる。
-
-出演
-ラウール・ブリオネス、ルーニー・マーラ、アンナ・ディアス、エドゥアルド・オルモス、ローラ・ゴメス
-
-原題
-La Cocina
-
-監督
-アロンソ・ルイスパラシオス
-
-製作
-ローレン・マン、アイヴァン・オーリック、アロンソ・ルイスパラシオスほか
-
-脚本
-アロンソ・ルイスパラシオス
-
-撮影
-フアン・パブロ・ラミレス
-
-音楽
-トマース・バレイロ</desc>
-    <icon src="https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/61273/L_7d647c4d471d459d82ca8b5e09de6a93_20260304142944677.jpg" />
-    <url>https://www.skyperfectv.co.jp/program/detail/?uid=c31193335</url>
-  </programme>
   <programme start="20260426024500 +0800" stop="20260426051500 +0800" channel="WOWOW Live">
     <title lang="ja">[初]ＵＥＦＡ女子ＣＬ　準決勝　１ｓｔ　ｌｅｇ　アーセナルｖｓリヨン[ニ]</title>
     <url>https://www.skyperfectv.co.jp/program/detail/?uid=c31220548</url>
-  </programme>
-  <programme start="20260426050000 +0800" stop="20260426051500 +0800" channel="WOWOW Live">
-    <title lang="ja">[無]グランドスラムテニス忘れられない瞬間を。　全仏オープンテニス２０２５</title>
-    <sub-title lang="ja">グランドスラム（四大大会）での数々のスーパープレーを紹介します。</sub-title>
-    <desc lang="ja">大会名
-全仏オープンテニス2025</desc>
-    <url>https://www.skyperfectv.co.jp/program/detail/?uid=c31198789</url>
   </programme>
   <programme start="20260426051500 +0800" stop="20260426054500 +0800" channel="WOWOW Live">
     <title lang="ja">ＵＥＦＡ　ＣＬマガジン　準々決勝　２ｎｄ　ｌｅｇ　Ｒｅｖｉｅｗ</title>
@@ -50946,11 +50883,6 @@ Orgazmo
     <icon src="https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/61046/L_93384c59fca249c5bae83630d51707da_20260304112217890.jpg" />
     <url>https://www.skyperfectv.co.jp/program/detail/?uid=c31193274</url>
   </programme>
-  <programme start="20260425023500 +0800" stop="20260425024000 +0800" channel="WOWOW Prime">
-    <title lang="ja">[無]絶賛公開中！映画『ゴールデンカムイ　網走監獄襲撃編』公開記念特番　＃２</title>
-    <icon src="https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/61194/L_ffa31e812a8d4d728373d9c5aa4eecab_20260304132818424.jpg" />
-    <url>https://www.skyperfectv.co.jp/program/detail/?uid=c31193293</url>
-  </programme>
   <programme start="20260425034000 +0800" stop="20260425050000 +0800" channel="WOWOW Prime">
     <title lang="ja">[映]リンダはチキンがたべたい！（吹替版）[SS][字]</title>
     <icon src="https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/55480/L_dfe74cc8e459416f96c2f360860b6fd5_20260203094803567.jpg" />
@@ -51153,81 +51085,15 @@ FBI Season 8
     <icon src="https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/60969/L_fd08bcc44f5647a9a85c4912ee0c198e_20260304103427950.jpg" />
     <url>https://www.skyperfectv.co.jp/program/detail/?uid=c31193290</url>
   </programme>
-  <programme start="20260425225000 +0800" stop="20260426005000 +0800" channel="WOWOW Prime">
-    <title lang="ja">[映]３００＜スリーハンドレッド＞（吹替版）[R-15][SS][字]</title>
-    <icon src="https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/55029/L_1ca9f24c1bef4359b5a4cb2c9f9a369a_20260202161534122.jpg" />
-    <url>https://www.skyperfectv.co.jp/program/detail/?uid=c31193291</url>
-  </programme>
   <programme start="20260426000000 +0800" stop="20260426021000 +0800" channel="WOWOW Prime">
     <title lang="ja">[映]ベッドタイムアイズ[R-15][字]</title>
     <icon src="https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/60990/L_9dccf5184aba43708a7c72986005f7d5_20260304104630428.jpg" />
     <url>https://www.skyperfectv.co.jp/program/detail/?uid=c31220477</url>
   </programme>
-  <programme start="20260426005000 +0800" stop="20260426023500 +0800" channel="WOWOW Prime">
-    <title lang="ja">[映]３００＜スリーハンドレッド＞～帝国の進撃～（吹替版）[R15+][SS][字]</title>
-    <sub-title lang="ja">激闘はまだ終わっていなかった！　エーゲ海に現われたペルシア帝国の大艦隊に、ギリシャ連合はわずかな勢力で立ち向かう。史実を背景にしたスペクタクルアクション第２弾。</sub-title>
-    <desc lang="ja">みどころ
-紀元前４８０年。スパルタのレオニダス王がペルシア軍と死闘を繰り広げる一方で、ギリシャ連合を率いるテミストクレス将軍もまた、エーゲ海を渡って現われたペルシア大艦隊に相対していた。その指揮官は、ギリシャ生まれながら両親を殺された恨みでペルシアに寝返った女アルテミシア。３倍もの軍勢を誇る艦隊を相手に一歩も引かないギリシャ連合の戦いぶりを見て、アルテミシアはテミストクレスを誘惑しようとするが……。
-
-出演
-サリヴァン・ステイプルトン(山路和弘)、エヴァ・グリーン(朴ろ美（「ろ」は王偏に路）)、レナ・ヘディ(湯屋敦子)、ハンス・マシソン(成田剣)、カラン・マルヴェイ(井上和彦)、デヴィッド・ウェナム(山野井仁)、ロドリゴ・サントロ(咲野俊介)
-
-監督
-ノーム・ムーロ
-
-原題
-300: Rise of an Empire
-
-製作総指揮
-フランク・ミラーほか
-
-製作
-ジャンニ・ヌナリ、マーク・キャントンほか
-
-脚本
-ザック・スナイダー、カート・ジョンスタッド
-
-撮影
-サイモン・ダガン
-
-音楽
-ジャンキー・ＸＬ</desc>
-    <icon src="https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/55030/L_c701a243474e42ed840ee384d3327e18_20260202161547376.jpg" />
-    <url>https://www.skyperfectv.co.jp/program/detail/?uid=c31193292</url>
-  </programme>
   <programme start="20260426021500 +0800" stop="20260426041000 +0800" channel="WOWOW Prime">
     <title lang="ja">[映]ツインズ・エフェクト（字幕版）[SS]</title>
     <icon src="https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/61090/L_4ba9f190868241b788852fc29cf5a8af_20260304114018149.jpg" />
     <url>https://www.skyperfectv.co.jp/program/detail/?uid=c31220479</url>
-  </programme>
-  <programme start="20260426024000 +0800" stop="20260426043000 +0800" channel="WOWOW Prime">
-    <title lang="ja">[映]卒業（１９６７）（字幕版）[SS]</title>
-    <sub-title lang="ja">Ｄ・ホフマン主演で、サイモン＆ガーファンクルの音楽も有名な青春映画の名作。大学を卒業した若き主人公は、美しい母娘の間で揺れる。第４０回アカデミー賞で監督賞受賞。</sub-title>
-    <desc lang="ja">みどころ
-学問やスポーツで数々の賞を獲得した優等生ベンジャミン（ベン）は大学を卒業するが、順調過ぎる生活に疑問を感じたか、将来への不安にいらだつ。そんなとき、両親が盛大なパーティーを催し、ロビンソン夫人が家にやって来る。夫人はベンを誘惑し、２人はしばしばホテルで会うようになるが、夫人の娘エレインが学校の休みで戻ってきてから関係は一変。両親の勧めでベンはエレインと付き合うようになり、彼女に魅了されるが……。
-
-出演
-ダスティン・ホフマン、キャサリン・ロス、アン・バンクロフト、マーレイ・ハミルトン、ウィリアム・ダニエルズ、エリザベス・ウィルソン
-
-原題
-The Graduate
-
-監督
-マイク・ニコルズ
-
-製作
-ローレンス・ターマン
-
-脚本
-バック・ヘンリー、カルダー・ウィリンガム
-
-撮影
-ロバート・サーティース
-
-音楽
-ポール・サイモン、デーヴ・グルーシン</desc>
-    <icon src="https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/61195/L_5e3921f1c6e44d1e8e2ebb8db2f64860_20260304133108980.jpg" />
-    <url>https://www.skyperfectv.co.jp/program/detail/?uid=c31193294</url>
   </programme>
   <programme start="20260426043000 +0800" stop="20260426064500 +0800" channel="WOWOW Prime">
     <title lang="ja">[映]アクロス・ザ・ユニバース（字幕版）[SS]</title>
@@ -51573,8 +51439,8 @@ Kingdom
     <category lang="ja">バラエティ</category>
   </programme>
   <programme start="20260426185800 +0800" stop="20260426195400 +0800" channel="ytv">
-    <title lang="ja">イッテＱ【世界遺産駅伝】３区イモトはジンバブエ【Qtube】初上陸スリランカ[字]</title>
-    <desc lang="ja">▽イモト大地を切り裂くヴィクトリアの滝!圧巻上空500m水煙&amp;激流ラフティングで絶叫… ▽Qtubeスリランカで地球上最大動物シロナガスクジラ激写へ＆(秘)炎舞挑戦</desc>
+    <title lang="ja">イッテＱ【世界遺産駅伝】３区イモトはジンバブエ▼２４時間テレビ重大発表[字]</title>
+    <desc lang="ja">▼イモト大地を切り裂くヴィクトリアの滝！圧巻の上空500m水煙&amp;最恐激流ラフティングで絶叫… ▼Qtubeスリランカ ▼24時間テレビ重大発表</desc>
     <category lang="ja">バラエティ</category>
   </programme>
   <programme start="20260426195400 +0800" stop="20260426200000 +0800" channel="ytv">
@@ -51792,7 +51658,6 @@ Kingdom
     <title lang="ja">満天☆青空レストラン 「幸えび」のフルコース！驚異の旨みを持つ静岡の極上食材[解][字]</title>
     <desc lang="ja">静岡県磐田市で見つけた極上食材は、驚異の旨み成分を誇り、殻まで丸ごと食べられる「幸えび」!THEW覇者のニッチェも感動の極上エビフルコース!</desc>
     <category lang="ja">バラエティ</category>
-    <image>https://tvguide.myjcom.jp/monomedia/sirc/450000/451227/image/757e0bdc44ece5b25563271f08618c4e.jpg</image>
   </programme>
   <programme start="20260425180000 +0800" stop="20260425185600 +0800" channel="ytv">
     <title lang="ja">嗚呼!!みんなの動物園[字]ティモンディ前田×激かわ子猫の人なれに津田健次郎参戦！</title>
@@ -52806,7 +52671,7 @@ Kingdom
   </programme>
   <programme start="20260425195400 +0800" stop="20260425211400 +0800" channel="ABC">
     <title lang="ja">サタデーステーション[字]</title>
-    <desc lang="ja">生放送だからできる“LIVE感”を大切に、週末だからできる“注目ニュース”の掘り下げと“週末も動いているニュース”を速報で高島彩キャスターが分かりやすくお伝えします</desc>
+    <desc lang="ja">高島彩▽岩手・大槌町…鎮圧見込み立たず影響拡大▽ＧＷ直前クマ被害…自治体も対策急ぐ▽米イラン再協議か？米代表団派遣へ…長期化で国内影響も▽“モスク建設”で賛否(他)</desc>
     <category lang="ja">ニュース／報道</category>
   </programme>
   <programme start="20260425211400 +0800" stop="20260425212000 +0800" channel="ABC">
