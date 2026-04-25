@@ -1,0 +1,41 @@
+name: update-epg
+
+on:
+  schedule:
+    - cron: '10 0 * * *'  # 北京时间每天 08:10
+  workflow_dispatch:
+
+concurrency:
+  group: update-epg
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Build EPG
+        run: python scripts/build_epg.py
+
+      - name: Verify output
+        run: |
+          test -s epg/epg.xml
+          test -s epg/epg.xml.gz
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add epg/epg.xml epg/epg.xml.gz
+          git diff --cached --quiet && exit 0
+          git commit -m "chore: refresh EPG"
+          git push

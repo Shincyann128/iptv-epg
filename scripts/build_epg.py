@@ -10,7 +10,7 @@ from datetime import datetime
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
-REPO_ROOT = Path('/home/ubuntu/iptv')
+REPO_ROOT = Path(__file__).resolve().parent.parent
 MAP_PATH = REPO_ROOT / 'epg' / 'channel_map.json'
 OUT_XML = REPO_ROOT / 'epg' / 'epg.xml'
 OUT_GZ = REPO_ROOT / 'epg' / 'epg.xml.gz'
@@ -64,7 +64,7 @@ def convert_xmltv_time(dt_str: str, source_key: str) -> str:
 
 
 def should_skip_programme(start_raw: str, stop_raw: str, source_key: str) -> bool:
-    if source_key not in {'JP', 'JPT'} or SOURCE_MODE[source_key] != 'epgpw_local':
+    if source_key not in {'JP', 'JPT'}:
         return False
     s = (start_raw or '').strip().split()[0]
     e = (stop_raw or '').strip().split()[0]
