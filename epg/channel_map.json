@@ -112,10 +112,10 @@
     "Czcjiaxu": {"enabled": false, "reason": "直播/主播源，无标准XMLTV"},
     "百里浪": {"enabled": false, "reason": "直播/主播源，无标准XMLTV"},
     "🐼直播熊猫": {"enabled": false, "reason": "直播/主播源，无标准XMLTV"},
-    "松视1": {"enabled": false, "reason": "非标准频道，暂无稳定源"},
-    "松视2": {"enabled": false, "reason": "非标准频道，暂无稳定源"},
-    "松视3": {"enabled": false, "reason": "非标准频道，暂无稳定源"},
-    "潘朵拉": {"enabled": false, "reason": "非标准频道，暂无稳定源"},
-    "惊艳台": {"enabled": false, "reason": "非标准频道，暂无稳定源"}
+    "松视1": {"enabled": true, "source": "TW", "epg_name": "松視1台", "notes": "epg.pw TW 源"},
+    "松视2": {"enabled": true, "source": "TW", "epg_name": "松視2台", "notes": "epg.pw TW 源"},
+    "松视3": {"enabled": true, "source": "TW", "epg_name": "松視3台", "notes": "epg.pw TW 源"},
+    "潘朵拉": {"enabled": true, "source": "TW", "epg_name": "潘朵啦高畫質玩美台", "notes": "按用户要求固定用玩美台"},
+    "惊艳台": {"enabled": true, "source": "TW", "epg_name": "驚豔成人電影台", "notes": "epg.pw TW 源"}
   }
 }
