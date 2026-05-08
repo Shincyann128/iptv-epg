@@ -4,6 +4,8 @@ on:
   schedule:
     - cron: '10 0 * * *'  # 北京时间每天 08:10
   workflow_dispatch:
+  repository_dispatch:
+    types: [myself-updated]
 
 concurrency:
   group: update-epg
@@ -15,13 +17,29 @@ jobs:
     permissions:
       contents: write
     steps:
-      - name: Checkout
+      - name: Checkout public EPG repo
         uses: actions/checkout@v4
+
+      - name: Checkout private IPTV repo
+        uses: actions/checkout@v4
+        with:
+          repository: Shincyann128/iptv
+          token: ${{ secrets.IPTV_REPO_PAT }}
+          path: iptv-private
 
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+
+      - name: Install test dependency
+        run: python -m pip install --quiet pytest
+
+      - name: Verify channel map matches current myself.m3u
+        run: python scripts/check_playlist_sync.py --playlist iptv-private/myself.m3u --require-exact
+
+      - name: Run tests
+        run: python -m pytest tests/ -q
 
       - name: Build EPG
         run: python scripts/build_epg.py
