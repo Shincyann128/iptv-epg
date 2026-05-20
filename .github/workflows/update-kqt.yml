@@ -1,4 +1,4 @@
-name: Update 看球通 M3U
+name: Update 看球通 M3U (hourly)
 
 on:
   schedule:

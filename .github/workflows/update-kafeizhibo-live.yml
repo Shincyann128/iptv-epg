@@ -1,4 +1,4 @@
-name: Update Kafeizhibo Live
+name: Update Kafeizhibo Live (hourly)
 
 on:
   schedule:
