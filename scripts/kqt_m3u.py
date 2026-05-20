@@ -36,9 +36,21 @@ def api_get(path: str) -> dict:
         return json.loads(resp.read())
 
 
+def fetch_hot_rooms() -> list:
+    """Fetch hot/featured rooms from hotAppRoom endpoint — these may not appear in room/page."""
+    try:
+        data = api_get("/api/room/hotAppRoom?size=50&channelId=3&platform=1")
+        if data.get("code") == 200 and data.get("data", {}).get("list"):
+            return data["data"]["list"]
+    except Exception as e:
+        print(f"  WARN: hotAppRoom error: {e}", file=sys.stderr)
+    return []
+
+
 def fetch_all_rooms() -> list:
-    """Fetch all live rooms across all types."""
+    """Fetch all live rooms across all types + hot rooms, deduplicated by roomId."""
     all_rooms = []
+    seen = set()
     for rt, label in ROOM_TYPES.items():
         page = 1
         while True:
@@ -50,12 +62,26 @@ def fetch_all_rooms() -> list:
             if data.get("code") != 200 or not data.get("data"):
                 break
             rooms = data["data"].get("list", [])
-            all_rooms.extend(rooms)
+            for r in rooms:
+                rid = r.get("roomId")
+                if rid and rid not in seen:
+                    seen.add(rid)
+                    all_rooms.append(r)
             total = data["data"].get("total", 0)
             if len(rooms) < PAGE_SIZE or len(all_rooms) >= total:
                 break
             page += 1
         print(f"  roomType={rt}({label}): {len(rooms)} rooms", file=sys.stderr)
+    
+    # Also fetch hot rooms (may include rooms not in page listing)
+    hot_rooms = fetch_hot_rooms()
+    for r in hot_rooms:
+        rid = r.get("roomId")
+        if rid and rid not in seen:
+            seen.add(rid)
+            all_rooms.append(r)
+    print(f"  hotAppRoom: {len(hot_rooms)} rooms, new={len([r for r in hot_rooms if r.get('roomId') not in seen or True])}", file=sys.stderr)
+    print(f"  total after merge: {len(all_rooms)}", file=sys.stderr)
     return all_rooms
 
 
