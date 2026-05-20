@@ -2,19 +2,5 @@
 # Generated from https://www.kafeizhibo.com/live/living
 # Auto-updated by GitHub Actions every 2 hours
 
-#EXTINF:-1 tvg-name="WNBA 节奏 vs 水星｜官方直播5" group-title="WNBA" tvg-logo="https://www.kafeizhibo.com/static/uploads/avatars/default_archor.png?v=1776038324456",WNBA 节奏 vs 水星｜官方直播5
-https://pull.livecdn.cc/live/3909112.m3u8
-#EXTINF:-1 tvg-name="南球杯 昆卡竞技 vs 雷科莱塔｜官方直播2" group-title="南球杯" tvg-logo="https://www.kafeizhibo.com/static/uploads/avatars/default_archor.png?v=1776038324456",南球杯 昆卡竞技 vs 雷科莱塔｜官方直播2
-https://pull.livecdn.cc/live/4518186.m3u8
-#EXTINF:-1 tvg-name="自由杯 山谷独立 vs 亚松森自由｜官方直播3" group-title="自由杯" tvg-logo="https://www.kafeizhibo.com/static/uploads/avatars/default_archor.png?v=1776038324456",自由杯 山谷独立 vs 亚松森自由｜官方直播3
-https://pull.livecdn.cc/live/4518365.m3u8
-#EXTINF:-1 tvg-name="WNBA 节奏 vs 水星｜原声直播37" group-title="WNBA" tvg-logo="https://www.kafeizhibo.com/static/uploads/avatars/default_archor.png?v=1776038324456",WNBA 节奏 vs 水星｜原声直播37
-https://pul-tenm.nbs3g.com/live/hd-en-2-3909112.m3u8?txSecret=80e825dbe058d5695a7f100b12f209e7&txTime=6A0E7879
-#EXTINF:-1 tvg-name="南球杯 卡利美洲 vs 堤格雷" group-title="南球杯" tvg-logo="https://www.kafeizhibo.com/static/uploads/avatars/default_archor.png?v=1776038324456",南球杯 卡利美洲 vs 堤格雷
-https://pul-tenm.nbs3g.com/live/sd-1-4518150.m3u8?txSecret=01bc453d0b96aa84fdf33d80367b58b4&txTime=6A0E7879
-#EXTINF:-1 tvg-name="南球杯 昆卡竞技 vs 雷科莱塔｜原声直播18" group-title="南球杯" tvg-logo="https://www.kafeizhibo.com/static/uploads/avatars/default_archor.png?v=1776038324456",南球杯 昆卡竞技 vs 雷科莱塔｜原声直播18
-https://pul-tenm.nbs3g.com/live/hd-en-1-4518186.m3u8?txSecret=e85f616d8e871471bf30fe90a5a71494&txTime=6A0E7879
-#EXTINF:-1 tvg-name="自由杯 山谷独立 vs 亚松森自由｜原声直播36" group-title="自由杯" tvg-logo="https://www.kafeizhibo.com/static/uploads/avatars/default_archor.png?v=1776038324456",自由杯 山谷独立 vs 亚松森自由｜原声直播36
-https://pul-tenm.nbs3g.com/live/hd-en-1-4518365.m3u8?txSecret=fc637b4f6bad1140a7a7aedc6dd78e54&txTime=6A0E7879
 #EXTINF:-1 tvg-name="CCTV5" group-title="自由直播" tvg-logo="https://www.kafeizhibo.com/static/uploads/avatars/37eb4260d9f240b69dba915066b3b996.png?v=1776038324456",CCTV5
 https://pull.livecdn.cc/stream/85042987.m3u8
