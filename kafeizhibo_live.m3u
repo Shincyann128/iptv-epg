@@ -2,11 +2,17 @@
 # Generated from https://www.kafeizhibo.com/live/living
 # Auto-updated by GitHub Actions every 2 hours
 
+#EXTINF:-1 tvg-name="蒙古超 德仁FC vs 浩日莫尔｜官方直播3" group-title="蒙古超" tvg-logo="https://www.kafeizhibo.com/static/uploads/avatars/default_archor.png?v=1776038324456",蒙古超 德仁FC vs 浩日莫尔｜官方直播3
+https://pull.livecdn.cc/live/4536267.m3u8
 #EXTINF:-1 tvg-name="中冠 北京一生和球 vs 新疆斯巴达｜官方直播1" group-title="中冠" tvg-logo="https://www.kafeizhibo.com/static/uploads/avatars/default_archor.png?v=1776038324456",中冠 北京一生和球 vs 新疆斯巴达｜官方直播1
 https://pull.livecdn.cc/live/4519736.m3u8
-#EXTINF:-1 tvg-name="中冠 陕西陕安 vs 北京灵动星空" group-title="中冠" tvg-logo="https://www.kafeizhibo.com/static/uploads/avatars/default_archor.png?v=1776038324456",中冠 陕西陕安 vs 北京灵动星空
+#EXTINF:-1 tvg-name="中冠 陕西陕安 vs 北京灵动星空｜官方直播2" group-title="中冠" tvg-logo="https://www.kafeizhibo.com/static/uploads/avatars/default_archor.png?v=1776038324456",中冠 陕西陕安 vs 北京灵动星空｜官方直播2
 https://pull.livecdn.cc/live/4519742.m3u8
 #EXTINF:-1 tvg-name="中冠 北京一生和球 vs 新疆斯巴达｜原声直播13" group-title="中冠" tvg-logo="https://www.kafeizhibo.com/static/uploads/avatars/default_archor.png?v=1776038324456",中冠 北京一生和球 vs 新疆斯巴达｜原声直播13
-https://pul-tenm.nbs3g.com/live/sd-1-4519736.m3u8?txSecret=b1c97e7aa225ce83d9c37f6cd3434fa0&txTime=6A0EBD62
+https://pul-tenm.nbs3g.com/live/sd-1-4519736.m3u8?txSecret=91890cf67c8480929efda023a42fa18f&txTime=6A0EC0AA
+#EXTINF:-1 tvg-name="中冠 陕西陕安 vs 北京灵动星空｜原声直播25" group-title="中冠" tvg-logo="https://www.kafeizhibo.com/static/uploads/avatars/default_archor.png?v=1776038324456",中冠 陕西陕安 vs 北京灵动星空｜原声直播25
+https://pul-tenm.nbs3g.com/live/sd-1-4519742.m3u8?txSecret=222cfdf5ead8cbccde1829ae4986ef31&txTime=6A0EC0AA
+#EXTINF:-1 tvg-name="蒙古超 德仁FC vs 浩日莫尔｜原声直播83" group-title="蒙古超" tvg-logo="https://www.kafeizhibo.com/static/uploads/avatars/default_archor.png?v=1776038324456",蒙古超 德仁FC vs 浩日莫尔｜原声直播83
+https://pul-tenm.nbs3g.com/live/sd-1-4536267.m3u8?txSecret=d1129fdd49b85fd18fde64ec6c065ffc&txTime=6A0EC0AA
 #EXTINF:-1 tvg-name="CCTV5" group-title="自由直播" tvg-logo="https://www.kafeizhibo.com/static/uploads/avatars/37eb4260d9f240b69dba915066b3b996.png?v=1776038324456",CCTV5
 https://pull.livecdn.cc/stream/85042987.m3u8
