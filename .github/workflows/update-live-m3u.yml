@@ -1,0 +1,62 @@
+name: Update Live M3U (hourly)
+
+on:
+  schedule:
+    - cron: '0 * * * *'  # 每小时整点UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-kqt:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Fetch 看球通 live rooms and generate M3U
+        run: python scripts/kqt_m3u.py
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -f "看球通.m3u"
+          if git diff --cached --quiet; then
+            echo "看球通: No changes to commit"
+          else
+            git commit -m "auto: update 看球通.m3u ($(date -u '+%Y-%m-%d %H:%M UTC'))"
+            git pull --rebase
+            git push
+          fi
+
+  update-kafeizhibo:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Update kafeizhibo live file
+        run: python scripts/update_kafeizhibo_live.py
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add kafeizhibo_live.m3u
+          if git diff --cached --quiet; then
+            echo "咖啡直播: No changes to commit"
+            exit 0
+          fi
+          git commit -m "chore: refresh kafeizhibo live"
+          git pull --rebase
+          git push
