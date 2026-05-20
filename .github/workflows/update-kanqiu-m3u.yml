@@ -1,4 +1,5 @@
 name: Update 看球吧 M3U (hourly)
+# scheduler activation bump 2026-05-20T13:50Z
 
 on:
   schedule:
