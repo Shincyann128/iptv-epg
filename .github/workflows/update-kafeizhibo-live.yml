@@ -9,6 +9,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: iptv-epg-m3u-push
+  cancel-in-progress: false
+
 jobs:
   update-kafeizhibo:
     runs-on: ubuntu-latest
