@@ -1,9 +1,9 @@
-name: Update Live M3U (hourly)
-# scheduler activation bump 2026-05-20T13:50Z
+name: Update 看球通 M3U (hourly)
+# scheduler reactivation + split to avoid push race 2026-05-20T14:15Z
 
 on:
   schedule:
-    - cron: '0 * * * *'  # 每小时整点UTC
+    - cron: '0 * * * *'  # 每小时整点 UTC
   workflow_dispatch:
 
 permissions:
@@ -35,29 +35,3 @@ jobs:
             git pull --rebase
             git push
           fi
-
-  update-kafeizhibo:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-
-      - name: Update kafeizhibo live file
-        run: python scripts/update_kafeizhibo_live.py
-
-      - name: Commit and push if changed
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add kafeizhibo_live.m3u
-          if git diff --cached --quiet; then
-            echo "咖啡直播: No changes to commit"
-            exit 0
-          fi
-          git commit -m "chore: refresh kafeizhibo live"
-          git pull --rebase
-          git push
