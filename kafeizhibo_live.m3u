@@ -1,0 +1,28 @@
+#EXTM3U
+# Generated from https://www.kafeizhibo.com/live/living
+# Auto-updated by GitHub Actions every 2 hours
+
+#EXTINF:-1 tvg-name="NBA 骑士 vs 尼克斯｜中文解说44" group-title="NBA" tvg-logo="https://www.kafeizhibo.com/static/uploads/avatars/default_archor.png?v=1776038324456",NBA 骑士 vs 尼克斯｜中文解说44
+https://pull.livecdn.cc/public/94067754.m3u8
+#EXTINF:-1 tvg-name="NBA 骑士 vs 尼克斯｜官方直播10" group-title="NBA" tvg-logo="https://www.kafeizhibo.com/static/uploads/avatars/default_archor.png?v=1776038324456",NBA 骑士 vs 尼克斯｜官方直播10
+https://pull.livecdn.cc/live/3920789.m3u8
+#EXTINF:-1 tvg-name="美公开赛 奥兰多城 vs 亚特兰大联｜官方直播12" group-title="美公开赛" tvg-logo="https://www.kafeizhibo.com/static/uploads/avatars/default_archor.png?v=1776038324456",美公开赛 奥兰多城 vs 亚特兰大联｜官方直播12
+https://pull.livecdn.cc/live/4542325.m3u8
+#EXTINF:-1 tvg-name="自由杯 圣塔菲 vs 普拉滕斯｜官方直播6" group-title="自由杯" tvg-logo="https://www.kafeizhibo.com/static/uploads/avatars/default_archor.png?v=1776038324456",自由杯 圣塔菲 vs 普拉滕斯｜官方直播6
+https://pull.livecdn.cc/live/4518329.m3u8
+#EXTINF:-1 tvg-name="自由杯 拉巴斯准备 vs 米拉索｜官方直播7" group-title="自由杯" tvg-logo="https://www.kafeizhibo.com/static/uploads/avatars/default_archor.png?v=1776038324456",自由杯 拉巴斯准备 vs 米拉索｜官方直播7
+https://pull.livecdn.cc/live/4518354.m3u8
+#EXTINF:-1 tvg-name="美公开赛 圣路易斯城 vs 休斯敦迪纳摩｜官方直播11" group-title="美公开赛" tvg-logo="https://www.kafeizhibo.com/static/uploads/avatars/default_archor.png?v=1776038324456",美公开赛 圣路易斯城 vs 休斯敦迪纳摩｜官方直播11
+https://pull.livecdn.cc/live/4542328.m3u8
+#EXTINF:-1 tvg-name="NBA 骑士 vs 尼克斯｜原声直播48" group-title="NBA" tvg-logo="https://www.kafeizhibo.com/static/uploads/avatars/default_archor.png?v=1776038324456",NBA 骑士 vs 尼克斯｜原声直播48
+https://pul-tenm.nbs3g.com/live/hd-en-2-3920789.m3u8?txSecret=602b5cf9e344e81eb3c25fc6795b82a4&txTime=6A0E502D
+#EXTINF:-1 tvg-name="自由杯 拉巴斯准备 vs 米拉索｜原声直播4" group-title="自由杯" tvg-logo="https://www.kafeizhibo.com/static/uploads/avatars/default_archor.png?v=1776038324456",自由杯 拉巴斯准备 vs 米拉索｜原声直播4
+https://pul-tenm.nbs3g.com/live/sd-1-4518354.m3u8?txSecret=7c8a1f54b2be5e7a08e829c8c5049b97&txTime=6A0E502D
+#EXTINF:-1 tvg-name="美公开赛 圣路易斯城 vs 休斯敦迪纳摩｜原声直播62" group-title="美公开赛" tvg-logo="https://www.kafeizhibo.com/static/uploads/avatars/default_archor.png?v=1776038324456",美公开赛 圣路易斯城 vs 休斯敦迪纳摩｜原声直播62
+https://pul-tenm.nbs3g.com/live/sd-1-4542328.m3u8?txSecret=be16fdaaf5142932e4d4c65f77f17b94&txTime=6A0E502D
+#EXTINF:-1 tvg-name="美公开赛 奥兰多城 vs 亚特兰大联｜原声直播41" group-title="美公开赛" tvg-logo="https://www.kafeizhibo.com/static/uploads/avatars/default_archor.png?v=1776038324456",美公开赛 奥兰多城 vs 亚特兰大联｜原声直播41
+https://pul-tenm.nbs3g.com/live/sd-1-4542325.m3u8?txSecret=be9bd03d454f7dc0cd68359ddfce96d6&txTime=6A0E502D
+#EXTINF:-1 tvg-name="自由杯 圣塔菲 vs 普拉滕斯｜原声直播3" group-title="自由杯" tvg-logo="https://www.kafeizhibo.com/static/uploads/avatars/default_archor.png?v=1776038324456",自由杯 圣塔菲 vs 普拉滕斯｜原声直播3
+https://pul-tenm.nbs3g.com/live/sd-1-4518329.m3u8?txSecret=34bd6974af443400ebdcc253c21434df&txTime=6A0E502D
+#EXTINF:-1 tvg-name="CCTV5" group-title="自由直播" tvg-logo="https://www.kafeizhibo.com/static/uploads/avatars/37eb4260d9f240b69dba915066b3b996.png?v=1776038324456",CCTV5
+https://pull.livecdn.cc/stream/85042987.m3u8
