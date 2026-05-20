@@ -2,5 +2,11 @@
 # Generated from https://www.kafeizhibo.com/live/living
 # Auto-updated by GitHub Actions every 2 hours
 
+#EXTINF:-1 tvg-name="中冠 北京一生和球 vs 新疆斯巴达｜官方直播1" group-title="中冠" tvg-logo="https://www.kafeizhibo.com/static/uploads/avatars/default_archor.png?v=1776038324456",中冠 北京一生和球 vs 新疆斯巴达｜官方直播1
+https://pull.livecdn.cc/live/4519736.m3u8
+#EXTINF:-1 tvg-name="中冠 陕西陕安 vs 北京灵动星空" group-title="中冠" tvg-logo="https://www.kafeizhibo.com/static/uploads/avatars/default_archor.png?v=1776038324456",中冠 陕西陕安 vs 北京灵动星空
+https://pull.livecdn.cc/live/4519742.m3u8
+#EXTINF:-1 tvg-name="中冠 北京一生和球 vs 新疆斯巴达｜原声直播13" group-title="中冠" tvg-logo="https://www.kafeizhibo.com/static/uploads/avatars/default_archor.png?v=1776038324456",中冠 北京一生和球 vs 新疆斯巴达｜原声直播13
+https://pul-tenm.nbs3g.com/live/sd-1-4519736.m3u8?txSecret=b1c97e7aa225ce83d9c37f6cd3434fa0&txTime=6A0EBD62
 #EXTINF:-1 tvg-name="CCTV5" group-title="自由直播" tvg-logo="https://www.kafeizhibo.com/static/uploads/avatars/37eb4260d9f240b69dba915066b3b996.png?v=1776038324456",CCTV5
 https://pull.livecdn.cc/stream/85042987.m3u8
