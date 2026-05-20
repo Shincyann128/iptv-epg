@@ -3,15 +3,12 @@ name: Update 看球通 M3U (hourly)
 
 on:
   schedule:
-    - cron: '0 * * * *'  # 每小时整点 UTC
+    - cron: '0 * * * *'  # 每小时 UTC:00（北京时间整点）
   workflow_dispatch:
 
 permissions:
   contents: write
 
-concurrency:
-  group: iptv-epg-m3u-push
-  cancel-in-progress: false
 
 jobs:
   update-kqt:

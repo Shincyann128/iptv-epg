@@ -3,15 +3,12 @@ name: Update Kafeizhibo Live (hourly)
 
 on:
   schedule:
-    - cron: '0 * * * *'  # 每小时整点 UTC
+    - cron: '10 * * * *'  # 每小时 UTC:10，错开避免 push 冲突
   workflow_dispatch:
 
 permissions:
   contents: write
 
-concurrency:
-  group: iptv-epg-m3u-push
-  cancel-in-progress: false
 
 jobs:
   update-kafeizhibo:
