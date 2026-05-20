@@ -31,5 +31,6 @@ jobs:
             echo "No changes to commit"
           else
             git commit -m "auto: update 看球通.m3u ($(date -u '+%Y-%m-%d %H:%M UTC'))"
+            git pull --rebase
             git push
           fi
