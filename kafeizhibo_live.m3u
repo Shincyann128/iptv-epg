@@ -2,17 +2,35 @@
 # Generated from https://www.kafeizhibo.com/live/living
 # Auto-updated by GitHub Actions every 2 hours
 
-#EXTINF:-1 tvg-name="蒙古超 德仁FC vs 浩日莫尔｜官方直播3" group-title="蒙古超" tvg-logo="https://www.kafeizhibo.com/static/uploads/avatars/default_archor.png?v=1776038324456",蒙古超 德仁FC vs 浩日莫尔｜官方直播3
-https://pull.livecdn.cc/live/4536267.m3u8
-#EXTINF:-1 tvg-name="中冠 北京一生和球 vs 新疆斯巴达｜官方直播1" group-title="中冠" tvg-logo="https://www.kafeizhibo.com/static/uploads/avatars/default_archor.png?v=1776038324456",中冠 北京一生和球 vs 新疆斯巴达｜官方直播1
-https://pull.livecdn.cc/live/4519736.m3u8
-#EXTINF:-1 tvg-name="中冠 陕西陕安 vs 北京灵动星空｜官方直播2" group-title="中冠" tvg-logo="https://www.kafeizhibo.com/static/uploads/avatars/default_archor.png?v=1776038324456",中冠 陕西陕安 vs 北京灵动星空｜官方直播2
-https://pull.livecdn.cc/live/4519742.m3u8
-#EXTINF:-1 tvg-name="中冠 北京一生和球 vs 新疆斯巴达｜原声直播13" group-title="中冠" tvg-logo="https://www.kafeizhibo.com/static/uploads/avatars/default_archor.png?v=1776038324456",中冠 北京一生和球 vs 新疆斯巴达｜原声直播13
-https://pul-tenm.nbs3g.com/live/sd-1-4519736.m3u8?txSecret=91890cf67c8480929efda023a42fa18f&txTime=6A0EC0AA
-#EXTINF:-1 tvg-name="中冠 陕西陕安 vs 北京灵动星空｜原声直播25" group-title="中冠" tvg-logo="https://www.kafeizhibo.com/static/uploads/avatars/default_archor.png?v=1776038324456",中冠 陕西陕安 vs 北京灵动星空｜原声直播25
-https://pul-tenm.nbs3g.com/live/sd-1-4519742.m3u8?txSecret=222cfdf5ead8cbccde1829ae4986ef31&txTime=6A0EC0AA
-#EXTINF:-1 tvg-name="蒙古超 德仁FC vs 浩日莫尔｜原声直播83" group-title="蒙古超" tvg-logo="https://www.kafeizhibo.com/static/uploads/avatars/default_archor.png?v=1776038324456",蒙古超 德仁FC vs 浩日莫尔｜原声直播83
-https://pul-tenm.nbs3g.com/live/sd-1-4536267.m3u8?txSecret=d1129fdd49b85fd18fde64ec6c065ffc&txTime=6A0EC0AA
-#EXTINF:-1 tvg-name="CCTV5" group-title="自由直播" tvg-logo="https://www.kafeizhibo.com/static/uploads/avatars/37eb4260d9f240b69dba915066b3b996.png?v=1776038324456",CCTV5
-https://pull.livecdn.cc/stream/85042987.m3u8
+#EXTINF:-1 tvg-name="中超 辽宁铁人 vs 青岛海牛｜官方直播3" group-title="中超" tvg-logo="https://www.kafeizhibo.com/static/uploads/avatars/default_archor.png?v=1776038324456",中超 辽宁铁人 vs 青岛海牛｜官方直播3
+https://pull.livecdn.cc/live/4498962.m3u8
+#EXTINF:-1 tvg-name="菲篮杯 马尼拉电气 vs 菲律宾电信TNT｜官方直播8" group-title="菲篮杯" tvg-logo="https://www.kafeizhibo.com/static/uploads/avatars/default_archor.png?v=1776038324456",菲篮杯 马尼拉电气 vs 菲律宾电信TNT｜官方直播8
+https://pull.livecdn.cc/live/3920663.m3u8
+#EXTINF:-1 tvg-name="澳足总 半岛电力 vs 莫格基尔｜官方直播16" group-title="澳足总" tvg-logo="https://www.kafeizhibo.com/static/uploads/avatars/default_archor.png?v=1776038324456",澳足总 半岛电力 vs 莫格基尔｜官方直播16
+https://pull.livecdn.cc/live/4543565.m3u8
+#EXTINF:-1 tvg-name="澳足总 阿祖里FC vs 达尔文港足球俱乐部｜官方直播20" group-title="澳足总" tvg-logo="https://www.kafeizhibo.com/static/uploads/avatars/default_archor.png?v=1776038324456",澳足总 阿祖里FC vs 达尔文港足球俱乐部｜官方直播20
+https://pull.livecdn.cc/live/4544219.m3u8
+#EXTINF:-1 tvg-name="澳首女联 堪培拉奥林匹克女足 vs 坎培拉FC女足｜官方直播18" group-title="澳首女联" tvg-logo="https://www.kafeizhibo.com/static/uploads/avatars/default_archor.png?v=1776038324456",澳首女联 堪培拉奥林匹克女足 vs 坎培拉FC女足｜官方直播18
+https://pull.livecdn.cc/live/4544040.m3u8
+#EXTINF:-1 tvg-name="澳首女联 塔格拉诺联女足 vs 贝尔康纳联女足｜官方直播19" group-title="澳首女联" tvg-logo="https://www.kafeizhibo.com/static/uploads/avatars/default_archor.png?v=1776038324456",澳首女联 塔格拉诺联女足 vs 贝尔康纳联女足｜官方直播19
+https://pull.livecdn.cc/live/4544041.m3u8
+#EXTINF:-1 tvg-name="澳首女联 西堪培拉流浪者女足 vs 马朱拉女足｜官方直播17" group-title="澳首女联" tvg-logo="https://www.kafeizhibo.com/static/uploads/avatars/default_archor.png?v=1776038324456",澳首女联 西堪培拉流浪者女足 vs 马朱拉女足｜官方直播17
+https://pull.livecdn.cc/live/4544039.m3u8
+#EXTINF:-1 tvg-name="蒙古超 猎人FC vs 乌兰巴托FC｜官方直播7" group-title="蒙古超" tvg-logo="https://www.kafeizhibo.com/static/uploads/avatars/default_archor.png?v=1776038324456",蒙古超 猎人FC vs 乌兰巴托FC｜官方直播7
+https://pull.livecdn.cc/live/4536268.m3u8
+#EXTINF:-1 tvg-name="中超 辽宁铁人 vs 青岛海牛｜原声直播45" group-title="中超" tvg-logo="https://www.kafeizhibo.com/static/uploads/avatars/default_archor.png?v=1776038324456",中超 辽宁铁人 vs 青岛海牛｜原声直播45
+https://pul-tenm.nbs3g.com/live/hd-zh-1-4498962.m3u8?txSecret=449fddae587405f5c3154e1784c33323&txTime=6A0EE6A1
+#EXTINF:-1 tvg-name="澳足总 半岛电力 vs 莫格基尔｜原声直播113" group-title="澳足总" tvg-logo="https://www.kafeizhibo.com/static/uploads/avatars/default_archor.png?v=1776038324456",澳足总 半岛电力 vs 莫格基尔｜原声直播113
+https://pul-tenm.nbs3g.com/live/sd-1-4543565.m3u8?txSecret=000055bd2ee8503a6e7d383115614412&txTime=6A0EE6A1
+#EXTINF:-1 tvg-name="澳足总 阿祖里FC vs 达尔文港足球俱乐部｜原声直播13" group-title="澳足总" tvg-logo="https://www.kafeizhibo.com/static/uploads/avatars/default_archor.png?v=1776038324456",澳足总 阿祖里FC vs 达尔文港足球俱乐部｜原声直播13
+https://pul-tenm.nbs3g.com/live/sd-1-4544219.m3u8?txSecret=6628d4a7d8d60817128572b0fd55673b&txTime=6A0EE6A1
+#EXTINF:-1 tvg-name="澳首女联 堪培拉奥林匹克女足 vs 坎培拉FC女足｜原声直播115" group-title="澳首女联" tvg-logo="https://www.kafeizhibo.com/static/uploads/avatars/default_archor.png?v=1776038324456",澳首女联 堪培拉奥林匹克女足 vs 坎培拉FC女足｜原声直播115
+https://pul-tenm.nbs3g.com/live/sd-1-4544040.m3u8?txSecret=8d5a2d77d49bfe93400bf5c819e30ab0&txTime=6A0EE6A1
+#EXTINF:-1 tvg-name="澳首女联 塔格拉诺联女足 vs 贝尔康纳联女足｜原声直播116" group-title="澳首女联" tvg-logo="https://www.kafeizhibo.com/static/uploads/avatars/default_archor.png?v=1776038324456",澳首女联 塔格拉诺联女足 vs 贝尔康纳联女足｜原声直播116
+https://pul-tenm.nbs3g.com/live/sd-1-4544041.m3u8?txSecret=ea479e99e0152dfc8a61016f0599a2c3&txTime=6A0EE6A1
+#EXTINF:-1 tvg-name="澳首女联 西堪培拉流浪者女足 vs 马朱拉女足｜原声直播114" group-title="澳首女联" tvg-logo="https://www.kafeizhibo.com/static/uploads/avatars/default_archor.png?v=1776038324456",澳首女联 西堪培拉流浪者女足 vs 马朱拉女足｜原声直播114
+https://pul-tenm.nbs3g.com/live/sd-1-4544039.m3u8?txSecret=47a880e229cbb23f121d74f61c67cc95&txTime=6A0EE6A1
+#EXTINF:-1 tvg-name="菲篮杯 马尼拉电气 vs 菲律宾电信TNT｜原声直播12" group-title="菲篮杯" tvg-logo="https://www.kafeizhibo.com/static/uploads/avatars/default_archor.png?v=1776038324456",菲篮杯 马尼拉电气 vs 菲律宾电信TNT｜原声直播12
+https://pul-tenm.nbs3g.com/live/sd-2-3920663.m3u8?txSecret=9f8cc56b274d738ee6185be69b10007f&txTime=6A0EE6A1
+#EXTINF:-1 tvg-name="蒙古超 猎人FC vs 乌兰巴托FC｜原声直播23" group-title="蒙古超" tvg-logo="https://www.kafeizhibo.com/static/uploads/avatars/default_archor.png?v=1776038324456",蒙古超 猎人FC vs 乌兰巴托FC｜原声直播23
+https://pul-tenm.nbs3g.com/live/sd-1-4536268.m3u8?txSecret=58a0b2c58205a83a230da42db0fe2464&txTime=6A0EE6A1
