@@ -3,7 +3,6 @@ const PPV_STREAMS = 'https://api.ppv.to/api/streams';
 const POO_FETCH = 'https://pooembed.eu/fetch';
 const POO_ORIGIN = 'https://pooembed.eu';
 const BROWSER_UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36';
-const TOKEN_MARGIN = 60;
 
 function http_call(string $url, string $method = 'GET', ?string $body = null, array $headers = []): array {
     $ch = curl_init($url);
@@ -24,7 +23,7 @@ function http_call(string $url, string $method = 'GET', ?string $body = null, ar
     $err = curl_error($ch);
     $code = curl_getinfo($ch, CURLINFO_RESPONSE_CODE);
     curl_close($ch);
-    if ($raw === false || $code < 200 || $code >= 300) throw new RuntimeException($err !== '' ? $err : "http {$code}");
+    if ($raw === false || $code < 200 || $code >= 300) throw new RuntimeException($err ?: "http {$code}");
     return [$raw, $bag, $code];
 }
 
@@ -132,7 +131,6 @@ function hls_get(string $url, string $slug): string {
 $id = $argv[1] ?? 'rally-tv';
 echo "Testing: $id\n";
 
-// Get slug from streams API
 [$json] = http_call(PPV_STREAMS);
 $data = json_decode($json, true);
 $want = preg_replace('/^ppv-/', '', $id);
@@ -149,7 +147,6 @@ foreach (($data['streams'] ?? []) as $cat) {
 if (!$slug) { echo "ERROR: stream not found\n"; exit(1); }
 echo "Slug: $slug\n";
 
-// Decrypt and fetch
 try {
     $source = fresh_url($slug);
     echo "CDN URL: $source\n";
