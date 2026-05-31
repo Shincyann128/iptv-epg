@@ -3,14 +3,7 @@ const PPV_STREAMS = 'https://api.ppv.to/api/streams';
 const POO_FETCH = 'https://pooembed.eu/fetch';
 const POO_ORIGIN = 'https://pooembed.eu';
 const BROWSER_UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36';
-const DEFAULT_ID = 'rally-tv';
-const ROOM_TTL = 600;
-const SOURCE_TTL = 300;
-const TOKEN_MARGIN = 90;
-
-function starts_with(string $s, string $prefix): bool { return strncmp($s, $prefix, strlen($prefix)) === 0; }
-function ends_with(string $s, string $suffix): bool { $n = strlen($suffix); return $n === 0 || substr($s, -$n) === $suffix; }
-function has_text(string $s, string $needle): bool { return strpos($s, $needle) !== false; }
+const TOKEN_MARGIN = 60;
 
 function http_call(string $url, string $method = 'GET', ?string $body = null, array $headers = []): array {
     $ch = curl_init($url);
@@ -35,32 +28,10 @@ function http_call(string $url, string $method = 'GET', ?string $body = null, ar
     return [$raw, $bag, $code];
 }
 
-function cache_dir(): string {
-    $dir = sys_get_temp_dir() . '/ppv_fetch_cache';
-    if (!is_dir($dir)) mkdir($dir, 0775, true);
-    return $dir;
-}
-function cache_path(string $kind, string $key): string { return cache_dir() . '/' . $kind . '-' . sha1($key) . '.json'; }
-function cache_get(string $kind, string $key) {
-    $file = cache_path($kind, $key);
-    if (!is_file($file)) return null;
-    $raw = file_get_contents($file);
-    $box = is_string($raw) ? json_decode($raw, true) : null;
-    if (!is_array($box) || ($box['until'] ?? 0) <= time()) { @unlink($file); return null; }
-    return $box['data'] ?? null;
-}
-function cache_set(string $kind, string $key, $data, int $until): void {
-    if ($until <= time()) return;
-    $file = cache_path($kind, $key);
-    $tmp = $file . '.' . getmypid() . '.tmp';
-    file_put_contents($tmp, json_encode(['until' => $until, 'data' => $data], JSON_UNESCAPED_SLASHES), LOCK_EX);
-    rename($tmp, $file);
-}
-
 function enc_varint(int $n): string { $s = ''; while (true) { $b = $n & 0x7f; $n >>= 7; if ($n === 0) return $s . chr($b); $s .= chr($b | 0x80); } }
 function get_varint(string $s, int &$i): int {
     $n = 0; $shift = 0; $len = strlen($s);
-    while ($i < $len) { $b = ord($s[$i++]); $n |= ($b & 0x7f) << $shift; if ($b < 0x80) return $n; $shift += 7; if ($shift > 63) throw new RuntimeException('bad varint'); }
+    while ($i < $len) { $b = ord($s[$i++]); $n |= ($b & 0x7f) << $shift; if ($b < 0x80) return $n; $shift += 7; }
     throw new RuntimeException('short varint');
 }
 function pb_put(int $field, string $value): string { return enc_varint(($field << 3) | 2) . enc_varint(strlen($value)) . $value; }
@@ -72,11 +43,9 @@ function pb_read(string $s): array {
         $out[$field] = substr($s, (int)$i, (int)$n); $i += $n; }
     return $out;
 }
-function shift_payload(string $s): string {
-    $s = trim($s); $o = ''; $len = strlen($s);
+function shift_payload(string $s): string { $o = ''; $len = strlen($s);
     for ($i = 0; $i < $len; $i++) { $c = ord($s[$i]); $o .= ($c >= 33 && $c <= 126) ? chr((($c - 33 + 71) % 94) + 33) : $s[$i]; }
-    return $o;
-}
+    return $o; }
 function u32(int $n): int { return $n & 0xffffffff; }
 function le32(string $s, int $i): int { return ord($s[$i]) | (ord($s[$i + 1]) << 8) | (ord($s[$i + 2]) << 16) | (ord($s[$i + 3]) << 24); }
 function put32(int $n): string { return pack('V', u32($n)); }
@@ -104,7 +73,6 @@ function chacha_stream(string $key, string $nonce, int $len, int $counter): stri
 function pad16(string $s): string { $n = strlen($s) % 16; return $n === 0 ? '' : str_repeat("\0", 16 - $n); }
 function le64(int $n): string { $lo = $n & 0xffffffff; $hi = intdiv($n, 4294967296); return pack('V2', $lo, $hi); }
 function poly1305_mac(string $msg, string $key): string {
-    if (PHP_INT_SIZE < 8) throw new RuntimeException('need 64-bit php');
     $t0=le32($key,0);$t1=le32($key,4);$t2=le32($key,8);$t3=le32($key,12);
     $r0=$t0&0x3ffffff;$r1=(($t0>>26)|($t1<<6))&0x3ffff03;$r2=(($t1>>20)|($t2<<12))&0x3ffc0ff;$r3=(($t2>>14)|($t3<<18))&0x3f03fff;$r4=($t3>>8)&0x00fffff;
     $s1=$r1*5;$s2=$r2*5;$s3=$r3*5;$s4=$r4*5;
@@ -114,11 +82,11 @@ function poly1305_mac(string $msg, string $key): string {
         if ($n<16) { $block.="\x01".str_repeat("\0",15-$n);$hibit=0; }
         $t0=le32($block,0);$t1=le32($block,4);$t2=le32($block,8);$t3=le32($block,12);
         $h0+=$t0&$mask;$h1+=(($t0>>26)|($t1<<6))&$mask;$h2+=(($t1>>20)|($t2<<12))&$mask;$h3+=(($t2>>14)|($t3<<18))&$mask;$h4+=(($t3>>8)&0x00ffffff)|$hibit;
-        $d0=($h0*$r0)+($h1*$s4)+($h2*$s3)+($h3*$s2)+($h4*$s1);
-        $d1=($h0*$r1)+($h1*$r0)+($h2*$s4)+($h3*$s3)+($h4*$s2);
-        $d2=($h0*$r2)+($h1*$r1)+($h2*$r0)+($h3*$s4)+($h4*$s3);
-        $d3=($h0*$r3)+($h1*$r2)+($h2*$r1)+($h3*$r0)+($h4*$s4);
-        $d4=($h0*$r4)+($h1*$r3)+($h2*$r2)+($h3*$r1)+($h4*$r0);
+        $d0=$h0*$r0+$h1*$s4+$h2*$s3+$h3*$s2+$h4*$s1;
+        $d1=$h0*$r1+$h1*$r0+$h2*$s4+$h3*$s3+$h4*$s2;
+        $d2=$h0*$r2+$h1*$r1+$h2*$r0+$h3*$s4+$h4*$s3;
+        $d3=$h0*$r3+$h1*$r2+$h2*$r1+$h3*$r0+$h4*$s4;
+        $d4=$h0*$r4+$h1*$r3+$h2*$r2+$h3*$r1+$h4*$r0;
         $c=$d0>>26;$h0=$d0&$mask;$d1+=$c;$c=$d1>>26;$h1=$d1&$mask;$d2+=$c;
         $c=$d2>>26;$h2=$d2&$mask;$d3+=$c;$c=$d3>>26;$h3=$d3&$mask;$d4+=$c;
         $c=$d4>>26;$h4=$d4&$mask;$h0+=$c*5;$c=$h0>>26;$h0&=$mask;$h1+=$c; }
@@ -140,155 +108,55 @@ function open_payload(string $payload, string $island): string {
     $key = substr($island, 0, 32); $key = str_pad($key, 32, "\0");
     $tag = substr($box, -16); $ciphertext = substr($box, 0, -16);
     $poly_key = chacha_stream($key, $nonce, 32, 0);
-    $got = poly1305_mac(aead_input('', $ciphertext), $poly_key);
-    if (!hash_equals($got, $tag)) throw new RuntimeException('bad tag');
+    if (!hash_equals(poly1305_mac(aead_input('', $ciphertext), $poly_key), $tag)) throw new RuntimeException('bad tag');
     return bxor_stream($ciphertext, chacha_stream($key, $nonce, strlen($ciphertext), 1));
 }
-
-function room_slug(string $id): string {
-    $hit = cache_get('room', $id);
-    if (is_string($hit) && $hit !== '') return $hit;
-    [$json] = http_call(PPV_STREAMS);
-    $data = json_decode($json, true);
-    if (!is_array($data)) throw new RuntimeException('bad streams json');
-    $want = preg_replace('/^ppv-/', '', trim($id));
-    foreach (($data['streams'] ?? []) as $cat) {
-        foreach (($cat['streams'] ?? []) as $item) {
-            $num = isset($item['id']) ? (string)$item['id'] : '';
-            if ($num === $want || ('ppv-' . $num) === $id || (($item['uri_name'] ?? '') === $id)) {
-                $slug = trim((string)($item['uri_name'] ?? ''));
-                if ($slug !== '') { cache_set('room', $id, $slug, time() + ROOM_TTL); return $slug; }
-            }
-        }
-    }
-    throw new RuntimeException('room not found');
-}
 function fresh_url(string $slug): string {
-    $body = pb_put(1, $slug);
-    [$bin, $headers] = http_call(POO_FETCH, 'POST', $body, [
-        'Content-Type: application/octet-stream', 'Origin: ' . POO_ORIGIN,
-        'Referer: ' . POO_ORIGIN . '/embed/' . rawurlencode($slug),
-        'Accept: */*', 'User-Agent: ' . BROWSER_UA,
+    [$bin, $headers] = http_call(POO_FETCH, 'POST', pb_put(1, $slug), [
+        'Content-Type: application/octet-stream', 'Origin: '.POO_ORIGIN,
+        'Referer: '.POO_ORIGIN.'/embed/'.rawurlencode($slug), 'Accept: */*', 'User-Agent: '.BROWSER_UA,
     ]);
-    $island = $headers['island'] ?? '';
-    if ($island === '') throw new RuntimeException('no island');
-    $fields = pb_read($bin);
-    if (!isset($fields[1])) throw new RuntimeException('no payload');
+    $island = $headers['island'] ?? ''; if ($island === '') throw new RuntimeException('no island');
+    $fields = pb_read($bin); if (!isset($fields[1])) throw new RuntimeException('no payload');
     return open_payload($fields[1], $island);
 }
 function hls_get(string $url, string $slug): string {
     [$text] = http_call($url, 'GET', null, [
-        'Origin: ' . POO_ORIGIN, 'Referer: ' . POO_ORIGIN . '/embed/' . rawurlencode($slug),
-        'Accept: */*', 'User-Agent: ' . BROWSER_UA,
+        'Origin: '.POO_ORIGIN, 'Referer: '.POO_ORIGIN.'/embed/'.rawurlencode($slug),
+        'Accept: */*', 'User-Agent: '.BROWSER_UA,
     ]);
-    if (!starts_with(ltrim($text), '#EXTM3U')) throw new RuntimeException('not m3u8');
+    if (substr(ltrim($text), 0, 7) !== '#EXTM3U') throw new RuntimeException('not m3u8');
     return $text;
 }
-function dot_path(string $path): string {
-    $lead = starts_with($path, '/'); $tail = ends_with($path, '/'); $stack = [];
-    foreach (explode('/', $path) as $part) { if ($part === '' || $part === '.') continue; if ($part === '..') { array_pop($stack); continue; } $stack[] = $part; }
-    $out = ($lead ? '/' : '') . implode('/', $stack);
-    return $tail && $out !== '/' ? $out . '/' : ($out === '' ? ($lead ? '/' : '') : $out);
-}
-function url_join(string $base, string $ref): string {
-    $ref = trim($ref);
-    if ($ref === '' || preg_match('~^[a-z][a-z0-9+.-]*:~i', $ref)) return $ref;
-    $b = parse_url($base);
-    if (!$b || empty($b['scheme']) || empty($b['host'])) throw new RuntimeException('bad base url');
-    if (starts_with($ref, '//')) return $b['scheme'] . ':' . $ref;
-    $scheme = $b['scheme']; $host = $b['host']; $port = isset($b['port']) ? ':' . $b['port'] : '';
-    if (starts_with($ref, '/')) return "{$scheme}://{$host}{$port}" . dot_path($ref);
-    $dir = isset($b['path']) ? preg_replace('~/[^/]*$~', '/', $b['path']) : '/';
-    return "{$scheme}://{$host}{$port}" . dot_path($dir . $ref);
-}
-function quote_uris(string $line, string $base): string {
-    return preg_replace_callback('/URI="([^"]+)"/', static function (array $m) use ($base): string { return 'URI="' . url_join($base, $m[1]) . '"'; }, $line);
-}
-function maybe_m3u8(string $uri): bool { $path = parse_url($uri, PHP_URL_PATH); return stripos($path !== false && $path !== null ? $path : $uri, '.m3u8') !== false; }
-function stream_score(string $line): int {
-    $score = 0;
-    if (preg_match('/BANDWIDTH=(\d+)/', $line, $m)) $score += (int)$m[1];
-    if (preg_match('/RESOLUTION=(\d+)x(\d+)/', $line, $m)) $score += ((int)$m[1] * (int)$m[2]) * 10;
-    return $score;
-}
-function m3u8_refs(string $text, string $base): array {
-    $refs = []; $pending = 0;
-    foreach (explode("\n", str_replace(["\r\n", "\r"], "\n", $text)) as $line) {
-        $trim = trim($line); if ($trim === '') continue;
-        if (starts_with($trim, '#')) {
-            if (starts_with($trim, '#EXT-X-STREAM-INF')) $pending = stream_score($trim);
-            if (has_text($line, 'URI="')) { preg_match_all('/URI="([^"]+)"/', $line, $hits);
-                foreach ($hits[1] ?? [] as $uri) { if (maybe_m3u8($uri)) $refs[] = ['url'=>url_join($base,$uri),'rank'=>has_text($trim,'I-FRAME')?0:1,'score'=>stream_score($trim)]; } }
-            continue;
-        }
-        if (maybe_m3u8($trim)) $refs[] = ['url'=>url_join($base,$trim),'rank'=>$pending>0?3:2,'score'=>$pending];
-        $pending = 0;
-    }
-    usort($refs, static function (array $a, array $b): int { return ($b['rank'] <=> $a['rank']) ?: ($b['score'] <=> $a['score']); });
-    return $refs;
-}
-function final_m3u8(string $url, string $slug): array {
-    $seen = [];
-    for ($i = 0; $i < 8; $i++) {
-        if (isset($seen[$url])) throw new RuntimeException('m3u8 loop');
-        $seen[$url] = true;
-        $text = hls_get($url, $slug);
-        $refs = m3u8_refs($text, $url);
-        if (!$refs) return [$text, $url];
-        $url = $refs[0]['url'];
-    }
-    throw new RuntimeException('m3u8 too deep');
-}
-function secure_until(string $url): ?int {
-    $path = parse_url($url, PHP_URL_PATH);
-    if (!is_string($path)) return null;
-    $parts = explode('/', $path); $n = count($parts);
-    for ($i = 0; $i < $n; $i++) { if ($parts[$i] === 'secure' && isset($parts[$i + 3]) && ctype_digit($parts[$i + 3])) return ((int)$parts[$i + 3]) - TOKEN_MARGIN; }
-    return null;
-}
-function source_until(string $source, string $final): int {
-    $until = time() + SOURCE_TTL;
-    foreach ([$source, $final] as $url) { $end = secure_until($url); if ($end !== null) $until = min($until, $end); }
-    return max(time() + 20, $until);
-}
-function live_m3u8(string $slug): array {
-    $hit = cache_get('source', $slug);
-    if (is_array($hit) && isset($hit['final']) && is_string($hit['final'])) {
-        try { $text = hls_get($hit['final'], $slug); if (!m3u8_refs($text, $hit['final'])) return [$text, $hit['final'], 'HIT']; }
-        catch (Throwable $e) {}
-    }
-    $source = fresh_url($slug);
-    [$text, $final] = final_m3u8($source, $slug);
-    cache_set('source', $slug, ['source' => $source, 'final' => $final], source_until($source, $final));
-    return [$text, $final, 'MISS'];
-}
-function abs_m3u8(string $text, string $base): string {
-    $text = str_replace(["\r\n", "\r"], "\n", $text);
-    $out = [];
-    foreach (explode("\n", $text) as $line) { $trim = trim($line);
-        if ($trim === '') $out[] = $line;
-        elseif (starts_with($trim, '#')) $out[] = has_text($line, 'URI="') ? quote_uris($line, $base) : $line;
-        else $out[] = url_join($base, $trim);
-    }
-    return rtrim(implode("\n", $out)) . "\n";
-}
 
-// ── Main ──
-$id = $argv[1] ?? DEFAULT_ID;
-try {
-    $slug = room_slug($id);
-    echo "Slug: $slug\n";
-    $source = fresh_url($slug);
-    echo "Source URL: $source\n";
-    try {
-        [$m3u8, $final, $cache] = live_m3u8($slug);
-        echo "Cache: $cache\nFinal URL: $final\n";
-        echo "M3U8 preview:\n";
-        $lines = explode("\n", $m3u8);
-        for ($i = 0; $i < min(10, count($lines)); $i++) echo "  {$lines[$i]}\n";
-    } catch (Throwable $e) {
-        echo "M3U8 fetch FAILED: " . $e->getMessage() . "\n";
+$id = $argv[1] ?? 'rally-tv';
+echo "Testing: $id\n";
+
+// Get slug from streams API
+[$json] = http_call(PPV_STREAMS);
+$data = json_decode($json, true);
+$want = preg_replace('/^ppv-/', '', $id);
+$slug = null;
+foreach (($data['streams'] ?? []) as $cat) {
+    foreach (($cat['streams'] ?? []) as $item) {
+        $num = isset($item['id']) ? (string)$item['id'] : '';
+        if ($num === $want || ('ppv-'.$num) === $id || (($item['uri_name'] ?? '') === $id)) {
+            $slug = trim((string)($item['uri_name'] ?? ''));
+            break 2;
+        }
     }
+}
+if (!$slug) { echo "ERROR: stream not found\n"; exit(1); }
+echo "Slug: $slug\n";
+
+// Decrypt and fetch
+try {
+    $source = fresh_url($slug);
+    echo "CDN URL: $source\n";
+    $text = hls_get($source, $slug);
+    $lines = explode("\n", $text);
+    echo "M3U8 OK: " . count($lines) . " lines\n";
+    for ($i = 0; $i < min(15, count($lines)); $i++) echo "  {$lines[$i]}\n";
 } catch (Throwable $e) {
-    echo "ERROR: " . $e->getMessage() . "\n";
+    echo "FAILED: " . $e->getMessage() . "\n";
 }
