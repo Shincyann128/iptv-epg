@@ -1,0 +1,632 @@
+#EXTM3U
+# Generated locally by merge_live_m3u.py
+# Sources: 自用, 看球通, 咖啡直播, 看球吧, 857直播, popo直播, live-event, PPV
+# Static channels (自用): from GitHub Shincyann128/iptv myself.m3u
+# Live sports: 看球通 + 咖啡直播 + 看球吧 + 857直播 + popo直播 + 看个球 + PPV (refreshed every 30 minutes)
+# Total streams: 208
+
+#EXTINF:-1 group-title="央视频道" tvg-name="CCTV1",CCTV1
+rtsp://112.245.125.44:1554/iptv/import/Tvod/iptv/001/001/ch12122514263996485740.rsc/69958_Uni.sdp
+
+#EXTINF:-1 group-title="央视频道" tvg-name="CCTV2",CCTV2
+rtsp://112.245.125.41:1554/iptv/import/Tvod/iptv/001/001/ch15111015505054435886.rsc/70018_Uni.sdp
+
+#EXTINF:-1 group-title="央视频道" tvg-name="CCTV3",CCTV3
+rtsp://112.245.125.48:1554/iptv/import/Tvod/iptv/001/001/ch21072816504132734115.rsc/91877_Uni.sdp
+
+#EXTINF:-1 group-title="央视频道" tvg-name="CCTV4",CCTV4
+rtsp://112.245.125.39:1554/iptv/import/Tvod/iptv/001/001/ch17121814361050007455.rsc/75843_Uni.sdp
+
+#EXTINF:-1 group-title="央视频道" tvg-name="CCTV4欧洲",CCTV4欧洲
+rtsp://112.245.125.47:1554/iptv/import/Tvod/iptv/001/001/ch21062215382556856499.rsc/91655_Uni.sdp
+
+#EXTINF:-1 group-title="央视频道" tvg-name="CCTV4美洲",CCTV4美洲
+rtsp://112.245.125.48:1554/iptv/import/Tvod/iptv/001/001/ch21062215392161397058.rsc/91682_Uni.sdp
+
+#EXTINF:-1 group-title="央视频道" tvg-name="CCTV5",CCTV5
+rtsp://112.245.125.41:1554/iptv/import/Tvod/iptv/001/001/ch21072816512692879794.rsc/91882_Uni.sdp
+
+#EXTINF:-1 group-title="央视频道" tvg-name="CCTV5+",CCTV5+
+rtsp://112.245.125.41:1554/iptv/import/Tvod/iptv/001/001/ch11061217321508656858.rsc/70007_Uni.sdp
+
+#EXTINF:-1 group-title="央视频道" tvg-name="CCTV6",CCTV6
+rtsp://112.245.125.39:1554/iptv/import/Tvod/iptv/001/001/ch21072816530254611367.rsc/91842_Uni.sdp
+
+#EXTINF:-1 group-title="央视频道" tvg-name="CCTV7",CCTV7
+rtsp://112.245.125.38:1554/iptv/import/Tvod/iptv/001/001/ch15111015535263088598.rsc/69960_Uni.sdp
+
+#EXTINF:-1 group-title="央视频道" tvg-name="CCTV8",CCTV8
+rtsp://112.245.125.38:1554/iptv/import/Tvod/iptv/001/001/ch21072816531463294165.rsc/91850_Uni.sdp
+
+#EXTINF:-1 group-title="央视频道" tvg-name="CCTV9",CCTV9
+rtsp://112.245.125.48:1554/iptv/import/Tvod/iptv/001/001/ch15050917541424212319.rsc/70042_Uni.sdp
+
+#EXTINF:-1 group-title="央视频道" tvg-name="CCTV10",CCTV10
+rtsp://112.245.125.48:1554/iptv/import/Tvod/iptv/001/001/ch15111015554384702984.rsc/69941_Uni.sdp
+
+#EXTINF:-1 group-title="央视频道" tvg-name="CCTV11",CCTV11
+rtsp://112.245.125.48:1554/iptv/import/Tvod/iptv/001/001/ch11122400354496191158.rsc/70045_Uni.sdp
+
+#EXTINF:-1 group-title="央视频道" tvg-name="CCTV12",CCTV12
+rtsp://112.245.125.41:1554/iptv/import/Tvod/iptv/001/001/ch15111015571407754299.rsc/70056_Uni.sdp
+
+#EXTINF:-1 group-title="央视频道" tvg-name="CCTV13",CCTV13
+rtsp://112.245.125.41:1554/iptv/import/Tvod/iptv/001/001/ch15050914361303395989.rsc/69923_Uni.sdp
+
+#EXTINF:-1 group-title="央视频道" tvg-name="CCTV14",CCTV14
+rtsp://112.245.125.48:1554/iptv/import/Tvod/iptv/001/001/ch15111016003483433803.rsc/69975_Uni.sdp
+
+#EXTINF:-1 group-title="央视频道" tvg-name="CCTV15",CCTV15
+rtsp://112.245.125.38:1554/iptv/import/Tvod/iptv/001/001/ch11122400365842237336.rsc/70037_Uni.sdp
+
+#EXTINF:-1 group-title="央视频道" tvg-name="CCTV17",CCTV17
+rtsp://112.245.125.41:1554/iptv/import/Tvod/iptv/001/001/ch19073116233495000222.rsc/85717_Uni.sdp
+
+#EXTINF:-1 group-title="4K" tvg-name="CCTV4K超高清",CCTV4K超高清
+rtsp://112.245.125.39:1554/iptv/import/Tvod/iptv/001/001/ch23122814382128126762.rsc/99912_Uni.sdp
+
+#EXTINF:-1 group-title="4K" tvg-name="CCTV-4K超高清",CCTV-4K超高清
+https://live.264788.xyz/channel/cctv4k?streamid=ddf7c8a2b9355fd0327077c06958bd0f&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
+
+#EXTINF:-1 group-title="4K" tvg-name="CCTV4K超高清",CCTV4K超高清
+http://home.amucn.net:8800/udp/239.49.0.82:8000
+
+#EXTINF:-1 group-title="卫视频道" tvg-name="北京卫视",北京卫视
+rtsp://112.245.125.44:1554/iptv/import/Tvod/iptv/001/001/ch12051116365437815794.rsc/69968_Uni.sdp
+
+#EXTINF:-1 group-title="4K" tvg-name="北京卫视4K超高清",北京卫视4K超高清
+rtsp://112.245.125.39:1554/iptv/import/Tvod/iptv/001/001/ch25032514071097767315.rsc/102825_Uni.sdp
+
+#EXTINF:-1 group-title="北京" tvg-name="北京纪实科教",北京纪实科教
+rtsp://112.245.125.48:1554/iptv/import/Tvod/iptv/001/001/ch24020510150834566089.rsc/99953_Uni.sdp
+
+#EXTINF:-1 group-title="北京" tvg-name="北京纪实科教",北京纪实科教
+http://223.70.234.222:20080/hls/24/index.m3u8
+
+#EXTINF:-1 group-title="北京" tvg-name="北京纪实科教",北京纪实科教
+http://114.242.62.109:888/hls/19/index.m3u8
+
+#EXTINF:-1 group-title="北京" tvg-name="北京新闻",北京新闻
+http://223.70.234.222:20080/hls/25/index.m3u8
+
+#EXTINF:-1 group-title="北京" tvg-name="北京新闻",北京新闻
+http://114.242.62.109:888/hls/25/index.m3u8
+
+#EXTINF:-1 group-title="北京" tvg-name="北京新闻",北京新闻
+http://m.061899.xyz/mg/bjxw
+
+#EXTINF:-1 group-title="体育" tvg-name="北京体育休闲",北京体育休闲
+http://123.112.19.118:58686/rtp/239.3.1.243:8000
+
+#EXTINF:-1 group-title="体育" tvg-name="北京体育休闲",北京体育休闲
+http://223.70.234.222:20080/hls/26/index.m3u8
+
+#EXTINF:-1 group-title="体育" tvg-name="北京体育休闲",北京体育休闲
+http://114.242.62.109:888/hls/22/index.m3u8
+
+#EXTINF:-1 group-title="体育" tvg-name="北京体育休闲",北京体育休闲
+http://m.061899.xyz/mg/bjty
+
+#EXTINF:-1 group-title="北京" tvg-name="北京财经",北京财经
+http://223.70.234.222:20080/hls/21/index.m3u8
+
+#EXTINF:-1 group-title="北京" tvg-name="北京财经",北京财经
+http://114.242.62.109:888/hls/21/index.m3u8
+
+#EXTINF:-1 group-title="北京" tvg-name="北京财经",北京财经
+http://m.061899.xyz/mg/bjcj
+
+#EXTINF:-1 group-title="北京" tvg-name="北京文艺",北京文艺
+http://223.70.234.222:20080/hls/27/index.m3u8
+
+#EXTINF:-1 group-title="北京" tvg-name="北京文艺",北京文艺
+http://114.242.62.109:888/hls/18/index.m3u8
+
+#EXTINF:-1 group-title="北京" tvg-name="北京文艺",北京文艺
+http://m.061899.xyz/mg/bjwy
+
+#EXTINF:-1 group-title="北京" tvg-name="北京生活",北京生活
+http://223.70.234.222:20080/hls/22/index.m3u8
+
+#EXTINF:-1 group-title="北京" tvg-name="北京生活",北京生活
+http://114.242.62.109:888/hls/23/index.m3u8
+
+#EXTINF:-1 group-title="北京" tvg-name="北京生活",北京生活
+http://m.061899.xyz/mg/bjsh
+
+#EXTINF:-1 group-title="北京" tvg-name="北京影视",北京影视
+http://223.70.234.222:20080/hls/20/index.m3u8
+
+#EXTINF:-1 group-title="北京" tvg-name="北京影视",北京影视
+http://114.242.62.109:888/hls/20/index.m3u8
+
+#EXTINF:-1 group-title="北京" tvg-name="北京影视",北京影视
+http://m.061899.xyz/mg/bjys
+
+#EXTINF:-1 group-title="4K" tvg-name="山东卫视4K",山东卫视4K
+rtsp://112.245.125.45:1554/iptv/import/Tvod/iptv/001/001/ch25081411425529721444.rsc/103166_Uni.sdp
+
+#EXTINF:-1 group-title="4K" tvg-name="江苏卫视4K",江苏卫视4K
+rtsp://112.245.125.45:1554/iptv/import/Tvod/iptv/001/001/ch25092214081313070909.rsc/103254_Uni.sdp
+
+#EXTINF:-1 group-title="4K" tvg-name="浙江卫视4K",浙江卫视4K
+rtsp://112.245.125.44:1554/iptv/import/Tvod/iptv/001/001/ch25092214075944736959.rsc/103230_Uni.sdp
+
+#EXTINF:-1 group-title="4K" tvg-name="湖南卫视4K",湖南卫视4K
+rtsp://112.245.125.45:1554/iptv/import/Tvod/iptv/001/001/ch25092214073911761412.rsc/103206_Uni.sdp
+
+#EXTINF:-1 group-title="4K" tvg-name="四川卫视4K",四川卫视4K
+rtsp://112.245.125.45:1554/iptv/import/Tvod/iptv/001/001/ch25092214084431033201.rsc/103302_Uni.sdp
+
+#EXTINF:-1 group-title="4K" tvg-name="深圳卫视4K",深圳卫视4K
+rtsp://112.245.125.47:1554/iptv/import/Tvod/iptv/001/001/ch25061910020901468282.rsc/103007_Uni.sdp
+
+#EXTINF:-1 group-title="4K" tvg-name="广东卫视4K",广东卫视4K
+rtsp://112.245.125.41:1554/iptv/import/Tvod/iptv/001/001/ch25062414535257116401.rsc/103043_Uni.sdp
+
+#EXTINF:-1 group-title="4K" tvg-name="东方卫视4K",东方卫视4K
+rtsp://112.245.125.44:1554/iptv/import/Tvod/iptv/001/001/ch25092214082801723362.rsc/103278_Uni.sdp
+
+#EXTINF:-1 group-title="4K" tvg-name="至臻视界4K",至臻视界4K
+http://anfeind1.kmdns.net:19999/migunohosts.php?channel-id=FifastbLive&Contentid=3000000010000015686
+
+#EXTINF:-1 group-title="体育" tvg-name="Dallas Mavericks",Dallas Mavericks
+http://lucidhosting.xyz:82/derekwinford@gmail.com/Q8HKO7JwzL/418411
+
+#EXTINF:-1 group-title="体育" tvg-name="DALLAS MAVERICKS",DALLAS MAVERICKS
+http://hardcoremedia.xyz/rabdsbmz/3731346838/33316
+
+#EXTINF:-1 group-title="4K" tvg-name="UK: Sky Sports F1 UHD",UK: Sky Sports F1 UHD
+https://xemzi.short.gy/2000016
+
+#EXTINF:-1 group-title="体育" tvg-name="Sky Sports F1 FHD",Sky Sports F1 FHD
+https://xemzi.short.gy/2000005
+
+#EXTINF:-1 group-title="体育" tvg-name="UK: SKY SPORTS F1",UK: SKY SPORTS F1
+http://apexelite.xyz:8880/leedale@nycap.rr.com/mY8TwKjP3J/508246
+
+#EXTINF:-1 group-title="体育" tvg-name="F1 TV",F1 TV
+https://amg12058-c15studio-amg12058c1-lg-us-5787.playouts.now.amagi.tv/ts-us-e2-n2/playlist/amg12058-c15medianetworkslimitedfast-formula1tv-lgus/cb553d1e7f6c678a93d43e61d4ef41a4da2427fc087a8d6933fb4b926bc10f41f8eda29ab30fb02b04940fa73f4e380d4d1a9a4ace0362d7b66aa9515b7d121b9d81a20a99d94e5cd58d5d5173f7651b52f91016d6354b59f1dd3724c97db9700e16a82e6b553982f449de2e109add5f947e2d88b3dd7f39635a4ffc0c0bb4e207bcfae25a5bdb6ab3a51e4f9d2b44b6d640d4821ab882c95a9f15866bf9409bc6edda8643d0d29966af06ba305f025617f1817d80875ab2ca881b51f61713613a65d49ec980245087435012faeac5bb69fa1acafb4beb0c0c9a30a870a605a44f862c9abb0dcac2badb510f3da1d2526222adeaa48ff74743d708c086cceb5a5fbcc9395763ec41e5785152fbfccf07cac01a83b83797ad1b7652a9aa66b4a89cb7dd89b010ec4facc6f08b734b5e116268e2668baa50816ab717a9ca006f5b4954bf995aca95dc5024103fecee65f3372b8be4a8acf13d1ee4542600a90ab75a017f8230696aec2efc973d678c5465ef5806df7d03a961d98701d48cfed85c4bdfb8c646ec21fab478b49c6692581d6458cb98415e415f33d4e16802246ac649e8a1ad8b123224c2c4f0a4b2395f063d041c058de39517f1ebfb003b37fc09650a1b1113854ad779cf135d0f3ccc0bc1a07b04ef681a0cd697006e6e43a4ed84b3abeb9005df11d2cbee772e2b4975b821162f61ddc4e23390036a4e4a62b62a56709428747fb0eaa38898847d808977ba2a6b0262c6e9652f633e485639a4a05afe68c3b02484c1b136a7ee89010b842cb30f1193d5ae009287bae67f3faf84763442aa8966af1d2cc3049a2f8dc479dbb5411f0c393227a8e36fdb7a8ff6b9e214ae159d6a3e249112d09de7a0986f50e6855323367b397d15695f0a2d87eeec542546b6f84d8a5ce2f81bbd4346343a53df86722aec9a4c28bd0759459181efb48ce62f3ffd4bd048931d69ca56093dafc83dfc8ab1f6f3831d396ab28d8f698d88aba4f3ffee1b247906579ac54c1b7bd93282eb6d84963151dbb4b9e5b016fff449a8d9fed41bd77ecdfeb207ba9599bec863164a5f448eb99d983afaccc7c12619a12003178e9eecb444f6dfae0e7beb2780cf673ce856f63ab8283eff6c6b38c419537fb4ea9c2e600a61aa900711cd36ae233332d2c5886d3ac8cc35422cf180da0056850412e5080b2ffc3cb2aabe6a66efa81c1359b64b2e826381c499715871eebd5565124d5d45368015637bad7e4bb50abee1d5b46a0b8715c55a6ce837fc9417ef8924dadee8bfeee9316ea2b72b13f104e842f900c6cb80f53deb0235f926c15432e88f9ccdc9eac6a5c6904b094fd817cd7ba71cfee99ad14d746d2b8e306a1f17ab6784616f749bcb52c6a23f09a7ceed0fc67c39660a063fc21cfed155677663b1a41ab9d879697d6320e2a157e7f3d5b1ca5bfc11573123955e54f2e3ab6751e554ccfbf3/10/1920x1080_5287612/index.m3u8
+
+#EXTINF:-1 group-title="体育" tvg-name="F1-TV",F1-TV
+http://1tv41.icu:8080/Y06DNq/295733/125947
+
+#EXTINF:-1 group-title="国际" tvg-name="CNBC",CNBC
+http://aflaxtv.xyz:8080/mitrovic/19106b7cb4/2295
+
+#EXTINF:-1 group-title="新闻" tvg-name="CNN",CNN
+https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8
+
+#EXTINF:-1 group-title="新闻" tvg-name="Reuters",Reuters
+https://dbrb49pjoymg4.cloudfront.net/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/e7493ea5-5c1c-4d7a-a3f7-e95516048ad8/3.m3u8
+
+#EXTINF:-1 group-title="国际" tvg-name="BBC One UK",BBC One UK
+http://fr3d0m.tebasya.work:8080/JVanmci423/dncSExXxmS/1155
+
+#EXTINF:-1 group-title="国际" tvg-name="BBC Two UK",BBC Two UK
+http://aflaxtv.xyz:8080/mitrovic/19106b7cb4/283047
+
+#EXTINF:-1 group-title="新闻" tvg-name="BBC News",BBC News
+https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/t=3840/v=pv14/b=5070016/main.m3u8
+
+#EXTINF:-1 group-title="体育" tvg-name="ESPNEWS",ESPNEWS
+http://kstv.us:8080/live/4VUyfZBQzk/95104974615/15952.rtmp
+
+#EXTINF:-1 group-title="体育" tvg-name="ESPN",ESPN
+http://41.205.93.154/ESPN/index.m3u8
+
+#EXTINF:-1 group-title="体育" tvg-name="ESPN2",ESPN2
+http://mytvstream.net:8080/live/30550113/30550113/2210.m3u8
+
+#EXTINF:-1 group-title="体育" tvg-name="ESPNU",ESPNU
+http://cord-cutter.net:8080/bn80NG/909467/10255
+
+#EXTINF:-1 group-title="体育" tvg-name="ESPN8: The Ocho",ESPN8: The Ocho
+https://d3b6q2ou5kp8ke.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-vz67vw1bljinm/aab88f58-adb6-4466-aceb-3b71a6f23411/4.m3u8
+
+#EXTINF:-1 group-title="新闻" tvg-name="NBC 5 Dallas-Fort Worth News",NBC 5 Dallas-Fort Worth News
+https://d4whmvwm0rdvi.cloudfront.net/10007/99951182/hls/master.m3u8?ads.xumo_channelId=99951182&ads.asnw=169843&ads.afid=348207725&ads.sfid=17135549&ads.csid=xumo_web_NBCNDAL_ssai_cro&ads._fw_is_lat=0&ads._fw_us_privacy=&ads._fw_coppa=0&ads._fw_did=8aada526-4e55-4fd4-b116-5a1fcce7e229&ads._fw_vcid2=512116:8aada526-4e55-4fd4-b116-5a1fcce7e229&ads._fw_app_bundle=web.xumo.com&ads._fw_app_store_url=&ads._fw_content_category=&ads._fw_content_genre=&ads._fw_content_language=en&ads._fw_content_rating=&ads._fw_deviceMake=GitHubAction&ads._fw_device_model=PythonScript&ads._fw_deviceType=3-Connected_TV&ads.appVersion=1.0.0&ads.appName=XumoPlay&ads.xumo_contentId=3831&ads.xumo_contentName=NBCNDAL&ads.xumo_providerId=3831&ads.xumo_providerName=NBCNDAL&ads.channelId=99951182&ads._fw_ifa_type=
+
+#EXTINF:-1 group-title="国际" tvg-name="KDFW FOX 4 Dallas Fort Worth TX",KDFW FOX 4 Dallas Fort Worth TX
+https://s11host1.localnow.api.cms.amdvids.com/v1/master/c189661feba961c19bc5fb60b57879ee9b84548a/config13/playlist.m3u8?ads.cdnhost=s11host1.localnow.api.cms.amdvids.com&ads.playbackid=9B0632AF-6883-42E5-9BB6-F8827ADD7C0F&ads.n1=rule_id&ads.v1=CA34390D-452C-4830-B084-998E2DB1A079-1755113457&ads.n3=qp_content_id&ads.v3=9B0632AF-6883-42E5-9BB6-F8827ADD7C0F&ads.n4=content_name&ads.v4=KDFW%20Dallas%20Fort%20Worth%20TX&ads.n21=app_name&ads.v21=&ads.n22=url&ads.v22=https%25253A%25252F%25252Flocalnow.com%25252Fchannels%25252Fcbs-news-chicago-hyperlocal&ads.n23=app_version&ads.v23=0.0.0&ads.n24=device_model&ads.v24=&ads.n25=channel_brand_id&ads.v25=AMDB013669&ads.n26=cust_devicename&ads.v26=desktop_web&ads.n27=channel_name&ads.v27=KDFW%20Dallas%20Fort%20Worth%20TX&ads.n28=app_store_url&ads.v28=&ads.n29=gpp&ads.v29=&ads.n30=ua&ads.v30=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F122.0.0.0%20Safari%2F537.36&ads.n31=network_name&ads.v31=kdfw-dallas-fort-worth&ads.n32=ip&ads.v32=86.48.9.131&ads.n33=pos&ads.v33=midroll&ads.n34=channel_company_id&ads.v34=AMDP500565&ads.n35=us_privacy&ads.v35=1YNY&ads.n36=app_bundle&ads.v36=&ads.n37=ifa_type&ads.v37=&ads.n38=gpp_sid&ads.v38=&ads.n39=did&ads.v39=&ads.n40=channel_ext_id&ads.v40=&ads.n41=content_livestream&ads.v41=1&ads.n42=dnt&ads.v42=&ads.n43=channel_language&ads.v43=en&ads.n44=content_provider&ads.v44=kdfw-dallas-fort-worth&ads.n45=content_type&ads.v45=channel&ads.n46=device_type&ads.v46=&ads.n47=channel_rating&ads.v47=TV-PG&ads.n48=w&ads.v48=1920&ads.n49=h&ads.v49=1080&ads.n50=device_make&ads.v50=&ads.n51=channel_title&ads.v51=KDFW%20Dallas%20Fort%20Worth%20TX&ads.n52=content_custom_1_param&ads.v52=9B0632AF-6883-42E5-9BB6-F8827ADD7C0F&ads.n53=channel_id&ads.v53=9B0632AF-6883-42E5-9BB6-F8827ADD7C0F&ads.n54=content_custom_2_param&ads.v54=AMDB013669&ads.n55=channel_genre&ads.v55=More%20Cities&ads.n56=channel_corp&ads.v56=Fox%20News%20Network&ads.n57=content_producer_name&ads.v57=Fox%20News%20Network&ads.n58=content_custom_3_param&ads.v58=channel
+
+#EXTINF:-1 group-title="国际" tvg-name="FOX LOCAL Dallas-Fort Worth",FOX LOCAL Dallas-Fort Worth
+https://dbrb49pjoymg4.cloudfront.net/10001/99951418/hls/playlist.m3u8?ads.xumo_channelId=99951418&ads._fw_ifa_type=&ads._fw_did=92753c93-c3f1-4ce9-84dc-560f13aad85c&ads.amznappId=&ads.lat=&ads.lon=&ads.os=&ads.osv=&ads.asnw=&ads.caid=FoxDallasFortWorth&ads.csid=xumo_web_FoxDallasFortWorth_ssai&ads._fw_is_lat=0&ads._fw_us_privacy=&ads._fw_coppa=0&ads.genre=&ads._fw_content_category=&ads._fw_content_language=en&ads._fw_content_genre=&ads._fw_content_rating=&ads.xumo_contentId=4152&ads.xumo_contentName=FoxDallasFortWorth&ads.xumo_providerId=4152&ads.xumo_providerName=FoxDallasFortWorth&ads._fw_deviceMake=GitHubAction&ads._fw_device_model=PythonScript&ads.channelId=99951418&ads.xumo_platform=web&ads.site_id=&ads.appName=xumo&ads.appVersion=1.0.0&ads._fw_app_bundle=web.xumo.com&ads._fw_app_store_url=
+
+#EXTINF:-1 group-title="日本" tvg-name="ABC 8 Dallas TX (WFAA) (1080p)",ABC 8 Dallas TX (WFAA) (1080p)
+https://livevideo.tegnadigital.com/wfaa/v1/master/f9c1bf9ffd6ac86b6173a7c169ff6e3f4efbd693/WFAA/elvs/live.m3u8
+
+#EXTINF:-1 group-title="新闻" tvg-name="CBS News Texas (720p)",CBS News Texas (720p)
+https://cbsn-dal.cbsnstream.cbsnews.com/out/v1/ffa98bbf7d2b4c038c229bd4d9122708/master.m3u8
+
+#EXTINF:-1 group-title="其他" tvg-name="主播阿飞",主播阿飞
+http://192.168.31.35:35455/douyu/84452?stream=m3u
+
+#EXTINF:-1 group-title="其他" tvg-name="主播阿飞",主播阿飞
+http://192.168.31.35:35455/douyu/84452
+
+#EXTINF:-1 group-title="其他" tvg-name="Zz1tai",Zz1tai
+http://192.168.31.35:35455/huya/333003
+
+#EXTINF:-1 group-title="其他" tvg-name="Letme",Letme
+http://192.168.31.35:35455/huya/518518
+
+#EXTINF:-1 group-title="其他" tvg-name="Ming",Ming
+http://192.168.31.35:35455/huya/991222
+
+#EXTINF:-1 group-title="其他" tvg-name="Czcjiaxu",Czcjiaxu
+http://192.168.31.35:35455/bilibili/20984
+
+#EXTINF:-1 group-title="其他" tvg-name="百里浪",百里浪
+http://192.168.31.35:35455/bilibili/3419977?platform=hls&line=first&quality=4
+
+#EXTINF:-1 group-title="其他" tvg-name="🐼直播熊猫",🐼直播熊猫
+https://gcwbndali.v.myalicdn.com/gcwbnd/ipanda1000_2/index.m3u8
+
+#EXTINF:-1 group-title="其他" tvg-name="松视1",松视1
+http://15.204.105.50:25461/G2s9zK2n9m/xDtwVfWM8T/88
+
+#EXTINF:-1 group-title="其他" tvg-name="松视2",松视2
+http://15.204.105.50:25461/G2s9zK2n9m/xDtwVfWM8T/89
+
+#EXTINF:-1 group-title="其他" tvg-name="松视3",松视3
+http://15.204.105.50:25461/G2s9zK2n9m/xDtwVfWM8T/90
+
+#EXTINF:-1 group-title="其他" tvg-name="潘朵拉",潘朵拉
+http://15.204.105.50:25461/G2s9zK2n9m/xDtwVfWM8T/86
+
+#EXTINF:-1 group-title="其他" tvg-name="惊艳台",惊艳台
+http://15.204.105.50:25461/G2s9zK2n9m/xDtwVfWM8T/87
+
+#EXTINF:-1 group-title="日本" tvg-name="NHK G",NHK G
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd01
+
+#EXTINF:-1 group-title="日本" tvg-name="NHK G Osaka",NHK G Osaka
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx06
+
+#EXTINF:-1 group-title="日本" tvg-name="NHK E",NHK E
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd02
+
+#EXTINF:-1 group-title="4K" tvg-name="NHK BS4K",NHK BS4K
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs01
+
+#EXTINF:-1 group-title="4K" tvg-name="NHKBSP4K",NHKBSP4K
+https://tsb-mega.i9.ee/stream/nhkbsp4k_hevc
+
+#EXTINF:-1 group-title="日本" tvg-name="NTV",NTV
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd03
+
+#EXTINF:-1 group-title="日本" tvg-name="ytv",ytv
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx04
+
+#EXTINF:-1 group-title="日本" tvg-name="TBS",TBS
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd04
+
+#EXTINF:-1 group-title="日本" tvg-name="MBS",MBS
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx01
+
+#EXTINF:-1 group-title="日本" tvg-name="Fuji TV",Fuji TV
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd05
+
+#EXTINF:-1 group-title="日本" tvg-name="Kansai TV",Kansai TV
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx03
+
+#EXTINF:-1 group-title="日本" tvg-name="TV Asahi",TV Asahi
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd06
+
+#EXTINF:-1 group-title="日本" tvg-name="ABC",ABC
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx02
+
+#EXTINF:-1 group-title="日本" tvg-name="TV Tokyo",TV Tokyo
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd07
+
+#EXTINF:-1 group-title="日本" tvg-name="TV Osaka",TV Osaka
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx05
+
+#EXTINF:-1 group-title="日本" tvg-name="KBS",KBS
+http://arva.netgenx.site/stream/jp/kbs/stream-output.m3u8?mode=hls
+
+#EXTINF:-1 group-title="日本" tvg-name="SUN",SUN
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx07
+
+#EXTINF:-1 group-title="日本" tvg-name="WOWOW Prime",WOWOW Prime
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs12
+
+#EXTINF:-1 group-title="日本" tvg-name="WOWOW Cinema",WOWOW Cinema
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs07
+
+#EXTINF:-1 group-title="日本" tvg-name="WOWOW Live",WOWOW Live
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs20
+
+#EXTINF:-1 group-title="日本" tvg-name="WOWOW Plus",WOWOW Plus
+http://arva.netgenx.site/stream/jp/wowow_plus/stream-output.m3u8?mode=hls
+
+# ===== 体育直播（每小时刷新）=====
+
+#EXTINF:-1 group-title="咖啡" tvg-name="[咖啡] CCTV5",[咖啡] CCTV5
+https://live12.xiazhix1.top/live/85042987.m3u8
+
+#EXTINF:-1 group-title="咖啡" tvg-name="[咖啡] 新西兰联 富兰克林公牛 vs 奥克兰鳄蜥 | 直播21",[咖啡] 新西兰联 富兰克林公牛 vs 奥克兰鳄蜥 | 直播21
+https://live.666666.zip/live/3890086.m3u8
+
+#EXTINF:-1 group-title="咖啡" tvg-name="[咖啡] 新西兰联 富兰克林公牛 vs 奥克兰鳄蜥 | 原声75",[咖啡] 新西兰联 富兰克林公牛 vs 奥克兰鳄蜥 | 原声75
+https://pul-tenm.nbs3g.com/live/sd-2-3890086.m3u8?txSecret=94e20864507575fd785a6fb0256310c7&txTime=6A1D0B41
+
+#EXTINF:-1 group-title="咖啡" tvg-name="[咖啡] 澳东部女联 中央海岸十字军女篮 vs 班克斯顿棕熊女篮",[咖啡] 澳东部女联 中央海岸十字军女篮 vs 班克斯顿棕熊女篮
+https://pul-tenm.nbs3g.com/live/sd-2-3912887.m3u8?txSecret=6e1d6d5414c3c91cb8e6f9db5c86a4e6&txTime=6A1D0B41
+
+#EXTINF:-1 group-title="咖啡" tvg-name="[咖啡] 澳威北超 布罗德美度兰 vs 林顿加法斯 | 直播28",[咖啡] 澳威北超 布罗德美度兰 vs 林顿加法斯 | 直播28
+https://live.666666.zip/live/4498400.m3u8
+
+#EXTINF:-1 group-title="咖啡" tvg-name="[咖啡] 澳威北超 布罗德美度兰 vs 林顿加法斯 | 原声59",[咖啡] 澳威北超 布罗德美度兰 vs 林顿加法斯 | 原声59
+https://pul-tenm.nbs3g.com/live/sd-1-4498400.m3u8?txSecret=0e74df89a9ce6c12d276cb5522273ac8&txTime=6A1D0B41
+
+#EXTINF:-1 group-title="咖啡" tvg-name="[咖啡] 澳昆超 魔法联合TFA vs 昆士兰狮",[咖啡] 澳昆超 魔法联合TFA vs 昆士兰狮
+https://pul-tenm.nbs3g.com/live/sd-1-4457366.m3u8?txSecret=0a38fbce6762f10fcb84034762c5e09e&txTime=6A1D0B41
+
+#EXTINF:-1 group-title="咖啡" tvg-name="[咖啡] 美乙 凤凰重生 vs 萨克拉门托",[咖啡] 美乙 凤凰重生 vs 萨克拉门托
+https://pul-tenm.nbs3g.com/live/sd-1-4473081.m3u8?txSecret=47c97e03ed9382514ed627c9b7a32b0d&txTime=6A1D0B41
+
+#EXTINF:-1 group-title="看个球" tvg-name="[看个球] 新西兰联 富兰克林公牛 vs 奥克兰鳄蜥",[看个球] 新西兰联 富兰克林公牛 vs 奥克兰鳄蜥
+https://pullgz721.qmuiw.com/live/sd-2-3890086.m3u8?auth_key=1780201834-0-0-d0ef4dad4a4b149a5451f93a38490d49
+
+#EXTINF:-1 group-title="看个球" tvg-name="[看个球] 澳东部女联 中央海岸十字军女篮 vs 班克斯顿棕熊女篮",[看个球] 澳东部女联 中央海岸十字军女篮 vs 班克斯顿棕熊女篮
+https://pullgz721.qmuiw.com/live/sd-2-3912887.m3u8?auth_key=1780201839-0-0-158accdfd6cf858ed87fab877e05055c
+
+#EXTINF:-1 group-title="看个球" tvg-name="[看个球] 澳东部联 山丘黄蜂 vs 内西公牛",[看个球] 澳东部联 山丘黄蜂 vs 内西公牛
+https://pullgz721.qmuiw.com/live/sd-2-3912853.m3u8?auth_key=1780201837-0-0-bc1b03b81a253231af7d7630f91e2412
+
+#EXTINF:-1 group-title="看个球" tvg-name="[看个球] 澳东部联 霍恩斯比蜘蛛 vs 堪培拉枪手",[看个球] 澳东部联 霍恩斯比蜘蛛 vs 堪培拉枪手
+https://pullgz721.qmuiw.com/live/sd-2-3913100.m3u8?auth_key=1780201840-0-0-74c44886aac9c1ab4784c860a0ad0ce3
+
+#EXTINF:-1 group-title="看个球" tvg-name="[看个球] 澳中部女联 东部小牛女篮 vs 北阿德莱德火箭女篮",[看个球] 澳中部女联 东部小牛女篮 vs 北阿德莱德火箭女篮
+https://pullgz721.qmuiw.com/live/sd-2-3896292.m3u8?auth_key=1780201843-0-0-c962a0067f4dd5fc58bc27d8a0a0792c
+
+#EXTINF:-1 group-title="看个球" tvg-name="[看个球] 澳中部女联 南阿德莱德黑豹女篮 vs 森林维尔老鹰女篮",[看个球] 澳中部女联 南阿德莱德黑豹女篮 vs 森林维尔老鹰女篮
+https://pullgz721.qmuiw.com/live/sd-2-3896206.m3u8?auth_key=1780201842-0-0-15cfec46109609df999ddf8a6c830091
+
+#EXTINF:-1 group-title="看个球" tvg-name="[看个球] 澳中部女联 诺伍德火焰女篮 vs 南部老虎女篮",[看个球] 澳中部女联 诺伍德火焰女篮 vs 南部老虎女篮
+https://pullgz721.qmuiw.com/live/sd-2-3895776.m3u8?auth_key=1780201838-0-0-48d25739c87774fe6eac319183da66a9
+
+#EXTINF:-1 group-title="看个球" tvg-name="[看个球] 澳北部女联 斯巴达女篮 vs 凤凰阳光海岸女篮",[看个球] 澳北部女联 斯巴达女篮 vs 凤凰阳光海岸女篮
+https://pullgz721.qmuiw.com/live/sd-2-3916386.m3u8?auth_key=1780201844-0-0-443177fa0d4fbebbcef82c87a95c4055
+
+#EXTINF:-1 group-title="看个球" tvg-name="[看个球] 澳北部女联 西南新城海盗女篮 vs 伊普斯维奇部队女篮",[看个球] 澳北部女联 西南新城海盗女篮 vs 伊普斯维奇部队女篮
+https://pullgz721.qmuiw.com/live/sd-2-3916408.m3u8?auth_key=1780201836-0-0-2d040347c84753ff5a0e309046414521
+
+#EXTINF:-1 group-title="看个球" tvg-name="[看个球] 澳南部女联 巴拉瑞特矿工女篮 vs 诺克斯女篮",[看个球] 澳南部女联 巴拉瑞特矿工女篮 vs 诺克斯女篮
+https://pullgz721.qmuiw.com/live/sd-2-3895644.m3u8?auth_key=1780201837-0-0-bdf24e3b87f3429d3ab0bc774d2ccaea
+
+#EXTINF:-1 group-title="看个球" tvg-name="[看个球] 澳南部联 丹德农游骑兵 vs 吉朗联",[看个球] 澳南部联 丹德农游骑兵 vs 吉朗联
+https://pullgz721.qmuiw.com/live/sd-2-3896105.m3u8?auth_key=1780201841-0-0-3a299678d90912ea9d49400bd6205c6f
+
+#EXTINF:-1 group-title="看个球" tvg-name="[看个球] 澳威北超 布罗德美度兰 vs 林顿加法斯",[看个球] 澳威北超 布罗德美度兰 vs 林顿加法斯
+https://pullgz721.qmuiw.com/live/sd-1-4498400.m3u8?auth_key=1780201833-0-0-394062af1e435e3af861f8d19f8af022
+
+#EXTINF:-1 group-title="看个球" tvg-name="[看个球] 美冠 凤凰重生 vs 萨克拉门托",[看个球] 美冠 凤凰重生 vs 萨克拉门托
+https://pullgz721.qmuiw.com/live/sd-1-4473081.m3u8?auth_key=1780201832-0-0-85f44c1d453cfec9d090c2f8459e8f44
+
+#EXTINF:-1 group-title="popo" tvg-name="[popo] 美国足球冠军联赛 凤凰城展翅 vs 萨克拉门托 | 线路B1",[popo] 美国足球冠军联赛 凤凰城展翅 vs 萨克拉门托 | 线路B1
+https://play1nm.hnyongshun.cn/live/5f94f5ac50ff197c0b1263fda1c45748.m3u8
+
+#EXTINF:-1 group-title="popo" tvg-name="[popo] 美国足球冠军联赛 拉斯维加斯光 vs 塔尔萨 | 线路B1",[popo] 美国足球冠军联赛 拉斯维加斯光 vs 塔尔萨 | 线路B1
+https://play1nm.hnyongshun.cn/live/cd6285f43583ad0f863b9565d600fcbe.m3u8
+
+#EXTINF:-1 group-title="popo" tvg-name="[popo] 美职棒-MLB 奥克兰运动家 vs 纽约洋基 | 线路B1",[popo] 美职棒-MLB 奥克兰运动家 vs 纽约洋基 | 线路B1
+https://play1nm.hnyongshun.cn/live/9d22a4c1faf4cdb34b9504592b831a3b.m3u8
+
+#EXTINF:-1 group-title="popo" tvg-name="[popo] 美职棒-MLB 洛杉矶道奇 vs 费城人 | 线路B1",[popo] 美职棒-MLB 洛杉矶道奇 vs 费城人 | 线路B1
+https://play1nm.hnyongshun.cn/live/e41153d6ca58fc547f8e8fb9d0faf148.m3u8
+
+#EXTINF:-1 group-title="popo" tvg-name="[popo] 美职棒-MLB 西雅图水手 vs 亚利桑那响尾蛇 | 线路B1",[popo] 美职棒-MLB 西雅图水手 vs 亚利桑那响尾蛇 | 线路B1
+https://play1nm.hnyongshun.cn/live/922a9e28b494e48703f34f4b6d338304.m3u8
+
+#EXTINF:-1 group-title="PPV" tvg-name="[PPV] 板球 5/31 22:00-02:00 Gujarat Titans vs . Royal Challengers Bengaluru",[PPV] 板球 5/31 22:00-02:00 Gujarat Titans vs . Royal Challengers Bengaluru
+http://77.90.60.172:8080/22365
+
+#EXTINF:-1 group-title="PPV" tvg-name="[PPV] 格斗 5/31 08:00-14:00 O'Shaquie Foster vs . Raymond Ford",[PPV] 格斗 5/31 08:00-14:00 O'Shaquie Foster vs . Raymond Ford
+http://77.90.60.172:8080/22339
+
+#EXTINF:-1 group-title="PPV" tvg-name="[PPV] 格斗 5/31 08:00-14:00 RAF 09: Steveson vs . Romanov",[PPV] 格斗 5/31 08:00-14:00 RAF 09: Steveson vs . Romanov
+http://77.90.60.172:8080/22379
+
+#EXTINF:-1 group-title="PPV" tvg-name="[PPV] 棒球 5/31 09:10-12:40 San Francisco Giants vs . Colorado Rockies",[PPV] 棒球 5/31 09:10-12:40 San Francisco Giants vs . Colorado Rockies
+http://77.90.60.172:8080/22361
+
+#EXTINF:-1 group-title="PPV" tvg-name="[PPV] 棒球 5/31 10:05-13:35 New York Yankees vs . Athletics",[PPV] 棒球 5/31 10:05-13:35 New York Yankees vs . Athletics
+http://77.90.60.172:8080/22362
+
+#EXTINF:-1 group-title="PPV" tvg-name="[PPV] 棒球 5/31 10:10-13:40 Arizona Diamondbacks vs . Seattle Mariners",[PPV] 棒球 5/31 10:10-13:40 Arizona Diamondbacks vs . Seattle Mariners
+http://77.90.60.172:8080/22363
+
+#EXTINF:-1 group-title="PPV" tvg-name="[PPV] 棒球 5/31 10:10-13:40 Philadelphia Phillies vs . Los Angeles Dodgers",[PPV] 棒球 5/31 10:10-13:40 Philadelphia Phillies vs . Los Angeles Dodgers
+http://77.90.60.172:8080/22364
+
+#EXTINF:-1 group-title="PPV" tvg-name="[PPV] 澳式橄榄球 5/31 13:15-16:15 Melbourne vs . GWS GIANTS",[PPV] 澳式橄榄球 5/31 13:15-16:15 Melbourne vs . GWS GIANTS
+http://77.90.60.172:8080/22251
+
+#EXTINF:-1 group-title="PPV" tvg-name="[PPV] 澳式橄榄球 5/31 17:20-20:20 West Coast Eagles vs . Essendon",[PPV] 澳式橄榄球 5/31 17:20-20:20 West Coast Eagles vs . Essendon
+http://77.90.60.172:8080/22252
+
+#EXTINF:-1 group-title="PPV" tvg-name="[PPV] Roland-Garros: TNT Sports 1",[PPV] Roland-Garros: TNT Sports 1
+http://77.90.60.172:8080/22274
+
+#EXTINF:-1 group-title="PPV" tvg-name="[PPV] Roland-Garros: TNT Sports 4",[PPV] Roland-Garros: TNT Sports 4
+http://77.90.60.172:8080/22275
+
+#EXTINF:-1 group-title="PPV" tvg-name="[PPV] 美式橄榄球 6/1 00:00-03:30 Orlando Storm vs . DC Defenders",[PPV] 美式橄榄球 6/1 00:00-03:30 Orlando Storm vs . DC Defenders
+http://77.90.60.172:8080/22237
+
+#EXTINF:-1 group-title="PPV" tvg-name="[PPV] 美式橄榄球 6/1 06:00-09:30 Louisville Kings vs . Columbus Aviators",[PPV] 美式橄榄球 6/1 06:00-09:30 Louisville Kings vs . Columbus Aviators
+http://77.90.60.172:8080/22241
+
+#EXTINF:-1 group-title="PPV" tvg-name="[PPV] 美式橄榄球 6/5 07:30-11:00 Montreal Alouettes vs . Hamilton Tiger-Cats",[PPV] 美式橄榄球 6/5 07:30-11:00 Montreal Alouettes vs . Hamilton Tiger-Cats
+http://77.90.60.172:8080/22334
+
+#EXTINF:-1 group-title="PPV" tvg-name="[PPV] 英式橄榄球 5/31 12:00-14:30 Broncos vs . Dragons",[PPV] 英式橄榄球 5/31 12:00-14:30 Broncos vs . Dragons
+http://77.90.60.172:8080/22208
+
+#EXTINF:-1 group-title="PPV" tvg-name="[PPV] 英式橄榄球 5/31 14:05-16:35 Raiders vs . Cowboys",[PPV] 英式橄榄球 5/31 14:05-16:35 Raiders vs . Cowboys
+http://77.90.60.172:8080/22209
+
+#EXTINF:-1 group-title="PPV" tvg-name="[PPV] 英式橄榄球 5/31 16:15-18:45 Panthers vs . Warriors",[PPV] 英式橄榄球 5/31 16:15-18:45 Panthers vs . Warriors
+http://77.90.60.172:8080/22210
+
+#EXTINF:-1 group-title="PPV" tvg-name="[PPV] 5/31 01:00-13:00 Pro Motocross: Fox Raceway",[PPV] 5/31 01:00-13:00 Pro Motocross: Fox Raceway
+http://77.90.60.172:8080/15856
+
+#EXTINF:-1 group-title="PPV" tvg-name="[PPV] 6/5 19:30-21:30 Monaco Grand Prix - Practice 1",[PPV] 6/5 19:30-21:30 Monaco Grand Prix - Practice 1
+http://77.90.60.172:8080/22294
+
+#EXTINF:-1 group-title="PPV" tvg-name="[PPV] 6/5 23:00-01:00 Monaco Grand Prix - Practice 2",[PPV] 6/5 23:00-01:00 Monaco Grand Prix - Practice 2
+http://77.90.60.172:8080/22297
+
+#EXTINF:-1 group-title="PPV" tvg-name="[PPV] 6/6 18:30-20:30 Monaco Grand Prix - Practice 3",[PPV] 6/6 18:30-20:30 Monaco Grand Prix - Practice 3
+http://77.90.60.172:8080/22300
+
+#EXTINF:-1 group-title="PPV" tvg-name="[PPV] 6/6 22:00-00:00 Monaco Grand Prix - Qualifying",[PPV] 6/6 22:00-00:00 Monaco Grand Prix - Qualifying
+http://77.90.60.172:8080/22303
+
+#EXTINF:-1 group-title="PPV" tvg-name="[PPV] 6/7 21:00-00:00 Monaco Grand Prix - Race",[PPV] 6/7 21:00-00:00 Monaco Grand Prix - Race
+http://77.90.60.172:8080/22306
+
+#EXTINF:-1 group-title="PPV" tvg-name="[PPV] 足球 5/31 21:00-23:30 Switzerland vs . Jordan",[PPV] 足球 5/31 21:00-23:30 Switzerland vs . Jordan
+http://77.90.60.172:8080/22374
+
+#EXTINF:-1 group-title="PPV" tvg-name="[PPV] 足球 5/31 22:00-00:30 Brighton & Hove Albion vs . Manchester City",[PPV] 足球 5/31 22:00-00:30 Brighton & Hove Albion vs . Manchester City
+http://77.90.60.172:8080/22373
+
+#EXTINF:-1 group-title="PPV" tvg-name="[PPV] 足球 5/31 22:00-00:30 Czechia vs . Kosovo",[PPV] 足球 5/31 22:00-00:30 Czechia vs . Kosovo
+http://77.90.60.172:8080/22375
+
+#EXTINF:-1 group-title="PPV" tvg-name="[PPV] 足球 5/31 23:30-02:00 Poland vs . Ukraine",[PPV] 足球 5/31 23:30-02:00 Poland vs . Ukraine
+http://77.90.60.172:8080/22376
+
+#EXTINF:-1 group-title="PPV" tvg-name="[PPV] 足球 6/1 02:45-05:15 Germany vs . Finland",[PPV] 足球 6/1 02:45-05:15 Germany vs . Finland
+http://77.90.60.172:8080/22377
+
+#EXTINF:-1 group-title="PPV" tvg-name="[PPV] 足球 6/1 03:30-06:00 United States vs . Senegal",[PPV] 足球 6/1 03:30-06:00 United States vs . Senegal
+http://77.90.60.172:8080/22378
+
+#EXTINF:-1 group-title="PPV" tvg-name="[PPV] 足球 6/12 03:00-05:30 Mexico vs . South Africa",[PPV] 足球 6/12 03:00-05:30 Mexico vs . South Africa
+http://77.90.60.172:8080/22392
+
+#EXTINF:-1 group-title="PPV" tvg-name="[PPV] 足球 6/12 10:00-12:30 South Korea vs . Czechia",[PPV] 足球 6/12 10:00-12:30 South Korea vs . Czechia
+http://77.90.60.172:8080/22395
+
+#EXTINF:-1 group-title="857" tvg-name="[857] 新西联 公牛 vs 鳄蜥",[857] 新西联 公牛 vs 鳄蜥
+https://b365cf61a574808030887b0b8706ebf1.livehwc4.com/pullsgp.yyzb456.top/live/stream-5435118_lhd.m3u8?edge_slice=true&user_session_id=edc5e3e1e79ac7221b8c8cc3ac05bb9d&sub_m3u8=true&auth_key=1780205518-0-0-50700537e7475848fc30e4b362941443
+
+#EXTINF:-1 group-title="857" tvg-name="[857] 新西联 富兰克林公牛 vs 奥克兰鳄蜥",[857] 新西联 富兰克林公牛 vs 奥克兰鳄蜥
+https://b365cf61a574808030887b0b8706ebf1.livehwc4.com/pullsgp.yyzb456.top/live/stream-659282_lhd.m3u8?auth_key=1780205518-0-0-04ecba4cd56c41671fdc5c3d0d6bd709&edge_slice=true&user_session_id=ca8f5b9f0cfaaf89dd687d27dab904e6&sub_m3u8=true
+
+#EXTINF:-1 group-title="857" tvg-name="[857] 新西联 富兰克林公牛 vs 奥克兰鳄蜥",[857] 新西联 富兰克林公牛 vs 奥克兰鳄蜥
+https://b365cf61a574808030887b0b8706ebf1.livehwc4.com/pullsgp.yyzb456.top/live/stream-7988511_lhd.m3u8?auth_key=1780205578-0-0-2f1f4a9870d38af6115d3d1a54675fc4&user_session_id=f8906f5a6c86ea0f47bed692b7cdf324&sub_m3u8=true&edge_slice=true
+
+#EXTINF:-1 group-title="857" tvg-name="[857] 澳东部联 霍恩斯比顾林凯蜘蛛 vs 堪培拉枪手",[857] 澳东部联 霍恩斯比顾林凯蜘蛛 vs 堪培拉枪手
+https://b365cf61a574808030887b0b8706ebf1.livehwc4.com/pullsgp.yyzb456.top/live/stream-525429_lhd.m3u8?user_session_id=7fad86cf19130b33831688b9684bd1f3&auth_key=1780205518-0-0-026137c3b4b04818a5022bf53d699151&edge_slice=true&sub_m3u8=true
+
+#EXTINF:-1 group-title="857" tvg-name="[857] 澳东部联 霍恩斯比顾林凯蜘蛛 vs 堪培拉枪手",[857] 澳东部联 霍恩斯比顾林凯蜘蛛 vs 堪培拉枪手
+https://b365cf61a574808030887b0b8706ebf1.livehwc4.com/pullsgp.yyzb456.top/live/stream-5611355_lhd.m3u8?auth_key=1780205518-0-0-6ff98efba6b134482270e82a68982071&edge_slice=true&sub_m3u8=true&user_session_id=b6d6f40fa9a62836db446b6fc726df0b
+
+#EXTINF:-1 group-title="857" tvg-name="[857] 粤 澳东部联 霍恩斯比顾林凯蜘蛛 vs 堪培拉枪手",[857] 粤 澳东部联 霍恩斯比顾林凯蜘蛛 vs 堪培拉枪手
+https://b365cf61a574808030887b0b8706ebf1.livehwc4.com/pullsgp.yyzb456.top/live/stream-1573951_lhd.m3u8?auth_key=1780205518-0-0-4376cd3557074a2b83bc6d908bb0de4f&edge_slice=true&user_session_id=e0b853d3d5551d710b6ae029497f3523&sub_m3u8=true
+
+#EXTINF:-1 group-title="857" tvg-name="[857] 日职 清水心跳 vs 横滨水手",[857] 日职 清水心跳 vs 横滨水手
+https://b365cf61a574808030887b0b8706ebf1.livehwc4.com/pullsgp.yyzb456.top/live/stream-956896_lhd.m3u8?auth_key=1780205518-0-0-2ff3c24c2575c1e8174ba77433c3ac24&user_session_id=3cca458d9d809232c22a38b806908466&edge_slice=true&sub_m3u8=true
+
+#EXTINF:-1 group-title="857" tvg-name="[857] 日职乙 秋天蓝色闪电 vs 札幌冈萨多",[857] 日职乙 秋天蓝色闪电 vs 札幌冈萨多
+https://b365cf61a574808030887b0b8706ebf1.livehwc4.com/pullsgp.yyzb456.top/live/stream-396937_lhd.m3u8?user_session_id=38cfbccc3808b9001792ce7eff5234f2&auth_key=1780205518-0-0-4465917f4f76fa159f09e68b9102e139&sub_m3u8=true&edge_slice=true
+
+#EXTINF:-1 group-title="857" tvg-name="[857] 日职乙 秋田蓝色闪电 vs 札幌冈萨多",[857] 日职乙 秋田蓝色闪电 vs 札幌冈萨多
+https://b365cf61a574808030887b0b8706ebf1.livehwc4.com/pullsgp.yyzb456.top/live/stream-580939_lhd.m3u8?sub_m3u8=true&edge_slice=true&auth_key=1780205518-0-0-43e142c9b2e14ef0873f13003a54da0c&user_session_id=be0adfb861464bd8921fa7e02e14fc95
+
+#EXTINF:-1 group-title="857" tvg-name="[857] 日职联 清水鼓动 vs 横滨水手",[857] 日职联 清水鼓动 vs 横滨水手
+https://b365cf61a574808030887b0b8706ebf1.livehwc4.com/pullsgp.yyzb456.top/live/stream-758611_lhd.m3u8?edge_slice=true&auth_key=1780205518-0-0-a96fd894787a8139b30c2215b084284d&sub_m3u8=true&user_session_id=06124be1969ac9913bcd50d477e1e6c2
+
+#EXTINF:-1 group-title="857" tvg-name="[857] 澳塔超 霍巴特斑马 vs 东南联合",[857] 澳塔超 霍巴特斑马 vs 东南联合
+https://b365cf61a574808030887b0b8706ebf1.livehwc4.com/pullsgp.yyzb456.top/live/stream-306929_lhd.m3u8?sub_m3u8=true&auth_key=1780205518-0-0-9f4d1a1d605dcf63843b33fe24b6b6ec&user_session_id=91ad904a52f4f5592c9ec655866141e2&edge_slice=true
+
+#EXTINF:-1 group-title="857" tvg-name="[857] 澳塔超 霍巴特斑马 vs 东南联合",[857] 澳塔超 霍巴特斑马 vs 东南联合
+https://b365cf61a574808030887b0b8706ebf1.livehwc4.com/pullsgp.yyzb456.top/live/stream-543840_lhd.m3u8?edge_slice=true&user_session_id=1f603281006ff148d0149396d6e46cc4&sub_m3u8=true&auth_key=1780205518-0-0-7f8a7c7d509a0930a1722d4a8fa3cfa5
+
+#EXTINF:-1 group-title="857" tvg-name="[857] 澳威北超 布罗德美度兰 vs 林顿加法斯",[857] 澳威北超 布罗德美度兰 vs 林顿加法斯
+https://b365cf61a574808030887b0b8706ebf1.livehwc4.com/pullsgp.yyzb456.top/live/stream-780421_lhd.m3u8?edge_slice=true&auth_key=1780205518-0-0-f037b6aa9e0ba41d9ddb9f3c12cc8c9f&sub_m3u8=true&user_session_id=26f16bede896bcf4056a73ba0e6650fc
+
+#EXTINF:-1 group-title="857" tvg-name="[857] 澳威北超 布罗德美度兰 vs 林顿加法斯",[857] 澳威北超 布罗德美度兰 vs 林顿加法斯
+https://b365cf61a574808030887b0b8706ebf1.livehwc4.com/pullsgp.yyzb456.top/live/stream-284564_lhd.m3u8?auth_key=1780205518-0-0-537eb3e63653c1d3e62eb45a81df801a&user_session_id=5f7315d50d56d2881b7a451c94625075&edge_slice=true&sub_m3u8=true
+
+#EXTINF:-1 group-title="857" tvg-name="[857] 澳威超 悉尼联盟 vs 萨瑟兰鲨鱼",[857] 澳威超 悉尼联盟 vs 萨瑟兰鲨鱼
+https://b365cf61a574808030887b0b8706ebf1.livehwc4.com/pullsgp.yyzb456.top/live/stream-431156_lhd.m3u8?auth_key=1780205518-0-0-e725204d572f9060196b6642c29abf81&edge_slice=true&sub_m3u8=true&user_session_id=78255f021f9b66405a98ebe8cc7dbd46
+
+#EXTINF:-1 group-title="857" tvg-name="[857] 澳威超 悉尼联盟 vs 萨瑟兰鲨鱼",[857] 澳威超 悉尼联盟 vs 萨瑟兰鲨鱼
+https://b365cf61a574808030887b0b8706ebf1.livehwc4.com/pullsgp.yyzb456.top/live/stream-658764_lhd.m3u8?auth_key=1780205578-0-0-8bec40ce1378d4ed040d35ca93f7417e&sub_m3u8=true&edge_slice=true&user_session_id=95f52135b8d3d367472096a9a8068b7c
+
+#EXTINF:-1 group-title="857" tvg-name="[857] 美冠联 凤凰重生 vs 萨克拉门托",[857] 美冠联 凤凰重生 vs 萨克拉门托
+https://b365cf61a574808030887b0b8706ebf1.livehwc4.com/pullsgp.yyzb456.top/live/stream-598002_lhd.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=7b31dc544e2025946a6e9be5f4248a5c&auth_key=1780205518-0-0-846c2991fa43ef3150bec3e3fc4d6e81
+
+#EXTINF:-1 group-title="857" tvg-name="[857] 美冠联 凤凰重生 vs 萨克拉门托",[857] 美冠联 凤凰重生 vs 萨克拉门托
+https://b365cf61a574808030887b0b8706ebf1.livehwc4.com/pullsgp.yyzb456.top/live/stream-435066_lhd.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=426e7840ac18a0adedcc11808288a572&auth_key=1780205518-0-0-b36e2b4bf8e17dd92b9618f50ded902e
+
+#EXTINF:-1 group-title="857" tvg-name="[857] 美冠联 凤凰重生 vs 萨克拉门托 | 粤语",[857] 美冠联 凤凰重生 vs 萨克拉门托 | 粤语
+https://b365cf61a574808030887b0b8706ebf1.livehwc4.com/pullsgp.yyzb456.top/live/stream-724913_lhd.m3u8?auth_key=1780205518-0-0-8e76fa395d5c66a143cf93246e27438e&edge_slice=true&sub_m3u8=true&user_session_id=a27cfcc56cb03fbece5e9558a4876b1e
+
+#EXTINF:-1 group-title="看球吧" tvg-name="[看球吧] NBA 猛龙 vs 骑士(G6) [篮球回放06] [HLS]",[看球吧] NBA 猛龙 vs 骑士(G6) [篮球回放06] [HLS]
+https://xzb-vod.52kq.top/64664c68vodsgp1386416388/4b22f7e95145403725289482816/playlist_eof.m3u8?t=6a1c0068&us=d34f35c7bd&sign=10315ecb52154b5c89c0dab6919a8fb5
+
+#EXTINF:-1 group-title="看球吧" tvg-name="[看球吧] NBA 森林狼 vs 掘金(G4) [篮球回放10] [HLS]",[看球吧] NBA 森林狼 vs 掘金(G4) [篮球回放10] [HLS]
+https://xzb-vod.52kq.top/64664c68vodsgp1386416388/b7dc45885145403724521684976/playlist_eof.m3u8?t=6a1c0068&us=d34f35c7bd&sign=a16f27ad867838af026f943a6edf3d07
+
+#EXTINF:-1 group-title="看球吧" tvg-name="[看球吧] NBA 马刺 vs 雷霆(G6) [篮球回放03] [HLS]",[看球吧] NBA 马刺 vs 雷霆(G6) [篮球回放03] [HLS]
+https://xzb-vod.52kq.top/64664c68vodsgp1386416388/32ad0d615001834805430713996/playlist_eof.m3u8?t=6a1c0068&us=d34f35c7bd&sign=9bf45b961912ab07991553b8013bb34c
+
+#EXTINF:-1 group-title="看球吧" tvg-name="[看球吧] NBA 雷霆 vs 马刺(G2) [篮球回放08] [HLS]",[看球吧] NBA 雷霆 vs 马刺(G2) [篮球回放08] [HLS]
+https://xzb-vod.52kq.top/64664c68vodsgp1386416388/d53e8fa15145403727552617237/playlist_eof.m3u8?t=6a1c0068&us=d34f35c7bd&sign=81dff2ef2ca0821a989bdc44a2324409
+
+#EXTINF:-1 group-title="看球吧" tvg-name="[看球吧] NBA 马刺 vs 雷霆(G4) [篮球回放07] [HLS]",[看球吧] NBA 马刺 vs 雷霆(G4) [篮球回放07] [HLS]
+https://xzb-vod.52kq.top/64664c68vodsgp1386416388/26479b6a5145403727998640704/playlist_eof.m3u8?t=6a1c0068&us=d34f35c7bd&sign=e6c388b72cc9fefa4d69ba30f1f67357
+
+#EXTINF:-1 group-title="看球吧" tvg-name="[看球吧] NBA 雷霆 vs 马刺(G1) [篮球回放04] [HLS]",[看球吧] NBA 雷霆 vs 马刺(G1) [篮球回放04] [HLS]
+https://xzb-vod.52kq.top/64664c68vodsgp1386416388/f64afc545145403727335450401/playlist_eof.m3u8?t=6a1c0068&us=d34f35c7bd&sign=6584e8070b3c688a613193d8922fd82e
+
+#EXTINF:-1 group-title="看球吧" tvg-name="[看球吧] NBA 雷霆 vs 马刺(G5) [篮球回放09] [HLS]",[看球吧] NBA 雷霆 vs 马刺(G5) [篮球回放09] [HLS]
+https://xzb-vod.52kq.top/64664c68vodsgp1386416388/3ad7937d5145403728115507725/playlist_eof.m3u8?t=6a1c0068&us=d34f35c7bd&sign=4a2b777bc6fedb85f96276c3d494f451
+
+#EXTINF:-1 group-title="看球吧" tvg-name="[看球吧] NBA 马刺 vs 雷霆(G3) [篮球回放05] [HLS]",[看球吧] NBA 马刺 vs 雷霆(G3) [篮球回放05] [HLS]
+https://xzb-vod.52kq.top/64664c68vodsgp1386416388/f20d5d355145403727800203472/playlist_eof.m3u8?t=6a1c0068&us=d34f35c7bd&sign=a62ff0bc78e5553e756f0dbc441f4bfe
+
+#EXTINF:-1 group-title="看球吧" tvg-name="[看球吧] NBA 火箭 vs 湖人(G3) [篮球回放01] [HLS]",[看球吧] NBA 火箭 vs 湖人(G3) [篮球回放01] [HLS]
+https://xzb-vod.52kq.top/64664c68vodsgp1386416388/66347e085145403724561535878/playlist_eof.m3u8?t=6a1c0068&us=d34f35c7bd&sign=e221df859c17c24f58b8c826536cc64a
+
+#EXTINF:-1 group-title="看球吧" tvg-name="[看球吧] 官方活动直播间,福利全开! [活动专员 - 艾米莉] [FLV]",[看球吧] 官方活动直播间,福利全开! [活动专员 - 艾米莉] [FLV]
+https://hw3pull.bszb.me/live/1850782_1780189431.flv
+
+#EXTINF:-1 group-title="看球吧" tvg-name="[看球吧] 新西兰联 富兰克林公牛 vs 奥克兰鳄蜥 | 晚宁 | FLV",[看球吧] 新西兰联 富兰克林公牛 vs 奥克兰鳄蜥 | 晚宁 | FLV
+https://hwc777pullb.bszb.me/live/2317251_1780195431.flv
+
+#EXTINF:-1 group-title="看球吧" tvg-name="[看球吧] 澳威超 悉尼联 vs 萨瑟兰鲨鱼 | 琪琪 | FLV",[看球吧] 澳威超 悉尼联 vs 萨瑟兰鲨鱼 | 琪琪 | FLV
+https://hwc777pullb.bszb.me/live/583717_1780200842.flv
+
+#EXTINF:-1 group-title="看球通" tvg-name="[看球通] NBA 马刺 vs 雷霆 回放 - 篮球原声全场回放3",[看球通] NBA 马刺 vs 雷霆 回放 - 篮球原声全场回放3
+https://hdl6.szsummer.cn/live/94424934.m3u8?auth_key=1780128120-1560049fe48040d595fabb9451cbd579-0-66efcf38b57307f5ee3c019c19016c89
+
+#EXTINF:-1 group-title="看球通" tvg-name="[看球通] 意甲 莱切 vs 热那亚 回放 - 足球回放5",[看球通] 意甲 莱切 vs 热那亚 回放 - 足球回放5
+https://hdl6.szsummer.cn/live/25769521.m3u8?auth_key=1780156930-b88ec01ec9324cb4a99e1b0778d4c4fd-0-022d4ecbeae3ea0b1f323a6aee645375
+
+#EXTINF:-1 group-title="看球通" tvg-name="[看球通] NBA 狂热 vs 火焰 | 樱木花道 [WNBA]",[看球通] NBA 狂热 vs 火焰 | 樱木花道 [WNBA]
+https://hdl6.szsummer.cn/live/28118853.m3u8?auth_key=1780156935-e005cb89acec4e058493398ffee469f4-0-17899622a8dac01ec7e942bbc5d80191
+
+#EXTINF:-1 group-title="看球通" tvg-name="[看球通] 新西兰联 奥克兰鳄蜥 vs 富兰克林公牛 11:00 | 官方直播14",[看球通] 新西兰联 奥克兰鳄蜥 vs 富兰克林公牛 11:00 | 官方直播14
+https://hdl6.szsummer.cn/live/22429115.m3u8?auth_key=1780156927-04ae19ed232f459fad8456b0ccc7462d-0-0a6fe066a0f10f24bb46aca33ea67b9a
+
+#EXTINF:-1 group-title="看球通" tvg-name="[看球通] 👾VCT EWC世界杯 - LOUD vs SENTINELS 👾 | 电竞直播2",[看球通] 👾VCT EWC世界杯 - LOUD vs SENTINELS 👾 | 电竞直播2
+https://hdl6.szsummer.cn/live/26440384.m3u8?auth_key=1780156931-a74f1d32f1f3410ab9650444bf2d744d-0-e287ed41af1894abad4695e56726acca
+
+#EXTINF:-1 group-title="看球通" tvg-name="[看球通] 新西兰联 奥克兰鳄蜥 vs 富兰克林公牛 | 珈乐",[看球通] 新西兰联 奥克兰鳄蜥 vs 富兰克林公牛 | 珈乐
+https://hdl6.szsummer.cn/live/16022182.m3u8?auth_key=1780156931-90cc281549d54565820c967c37135f99-0-3f8edc168e2c2e88efc0259c32539d67
+
+#EXTINF:-1 group-title="看球通" tvg-name="[看球通] 新西兰联 奥克兰鳄蜥 vs 富兰克林公牛 | 婉婉说球",[看球通] 新西兰联 奥克兰鳄蜥 vs 富兰克林公牛 | 婉婉说球
+https://hdl6.szsummer.cn/live/74253286.m3u8?auth_key=1780156935-04dfbaa94e3c40319491849dc5cc4fb1-0-f9d9d2c299f61a285e6e1a7f9a33c7ab
+
+#EXTINF:-1 group-title="看球通" tvg-name="[看球通] 新西兰联 奥克兰鳄蜥 vs 富兰克林公牛 | 二郎侃球",[看球通] 新西兰联 奥克兰鳄蜥 vs 富兰克林公牛 | 二郎侃球
+https://hdl6.szsummer.cn/live/35230521.m3u8?auth_key=1780156935-9d1600d799f44f34ac4285f0ebfa280c-0-6fa64e58a12edc31ec975a377978a3e8
