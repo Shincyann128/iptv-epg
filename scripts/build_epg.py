@@ -92,8 +92,11 @@ def programme_duration_seconds(start: str, stop: str) -> float:
 def should_skip_programme(start_raw: str, stop_raw: str, source_key: str) -> bool:
     if source_key not in {'JP', 'JPT'}:
         return False
-    s = (start_raw or '').strip().split()[0]
-    e = (stop_raw or '').strip().split()[0]
+    s_tokens = (start_raw or '').strip().split()
+    e_tokens = (stop_raw or '').strip().split()
+    if not s_tokens or not e_tokens:
+        return True
+    s, e = s_tokens[0], e_tokens[0]
     if len(s) < 14 or len(e) < 14:
         return False
     if not e.endswith('000000'):
