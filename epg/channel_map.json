@@ -9,7 +9,8 @@
     "BJ": "https://raw.githubusercontent.com/zzzz0317/beijing-unicom-iptv-playlist/main/epg.xml.gz",
     "JPT": "https://animenosekai.github.io/japanterebi-xmltv/guide.xml",
     "HK": "https://epg.pw/xmltv/epg_HK.xml.gz",
-    "TW": "https://epg.pw/xmltv/epg_TW.xml.gz"
+    "TW": "https://epg.pw/xmltv/epg_TW.xml.gz",
+    "DE": "https://epg.pw/xmltv/epg_DE.xml.gz"
   },
   "channels": {
     "CCTV1": {
@@ -299,13 +300,6 @@
       "epg_name": "ESPN8 The Ocho",
       "notes": ""
     },
-    "UK: Sky Sports F1 UHD": {
-      "enabled": true,
-      "source": "GB",
-      "epg_name": "SkySp F1 HD",
-      "alias_of": "Sky Sports F1",
-      "notes": "统一复用Sky Sports F1节目单"
-    },
     "NHK G": {
       "enabled": true,
       "source": "JP",
@@ -317,19 +311,6 @@
       "source": "JP",
       "epg_name": "NHK東京　教育",
       "notes": ""
-    },
-    "NHK BS4K": {
-      "enabled": true,
-      "source": "JP",
-      "epg_name": "NHK BS4K",
-      "notes": "japanterebi 可用"
-    },
-    "NHKBSP4K": {
-      "enabled": true,
-      "source": "JP",
-      "epg_name": "NHK BS4K",
-      "alias_of": "NHK BS4K",
-      "notes": "japanterebi 可用"
     },
     "NTV": {
       "enabled": true,
@@ -409,21 +390,11 @@
       "epg_name": "テレビ大阪",
       "notes": "关西地方台走japanterebi"
     },
-    "KBS": {
-      "enabled": true,
-      "source": "JPT",
-      "epg_name": "KBS京都",
-      "notes": "关西地方台走japanterebi"
-    },
     "CCTV4欧洲": {
       "enabled": false,
       "reason": "暂未找到稳定免费对应源"
     },
     "CCTV4美洲": {
-      "enabled": false,
-      "reason": "暂未找到稳定免费对应源"
-    },
-    "至臻视界4K": {
       "enabled": false,
       "reason": "暂未找到稳定免费对应源"
     },
@@ -529,27 +500,7 @@
       "epg_name": "ＷＯＷＯＷプラス 映画・ドラマ・スポーツ・音楽",
       "notes": "japanterebi 可用"
     },
-    "SUN": {
-      "enabled": true,
-      "source": "JPT",
-      "epg_name": "サンテレビ",
-      "notes": "关西地方台走japanterebi"
-    },
     "Sky Sports F1 FHD": {
-      "enabled": true,
-      "source": "GB",
-      "epg_name": "SkySp F1 HD",
-      "alias_of": "Sky Sports F1",
-      "notes": "统一复用 Sky Sports F1 节目单"
-    },
-    "Sky Sports F1 UHD": {
-      "enabled": true,
-      "source": "GB",
-      "epg_name": "SkySp F1 HD",
-      "alias_of": "Sky Sports F1",
-      "notes": "统一复用 Sky Sports F1 节目单"
-    },
-    "UK: SKY SPORTS F1": {
       "enabled": true,
       "source": "GB",
       "epg_name": "SkySp F1 HD",
@@ -563,6 +514,71 @@
     "F1-TV": {
       "enabled": false,
       "reason": "平台专属流，无标准XMLTV"
+    },
+    "BBC TWO UK": {
+      "enabled": true,
+      "source": "GB",
+      "epg_name": "BBC Two HD",
+      "notes": "复用原BBC Two UK"
+    },
+    "NHK BSP4K": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "NHK BS4K",
+      "notes": "复用NHK BS4K"
+    },
+    "Sky Sport Bundesliga DE": {
+      "enabled": true,
+      "source": "DE",
+      "epg_name": "Sky Sport Bundesliga HD",
+      "notes": "epg.pw DE源"
+    },
+    "Sky Sport F1 DE": {
+      "enabled": true,
+      "source": "DE",
+      "epg_name": "Sky Sport F1 HD",
+      "notes": "epg.pw DE源"
+    },
+    "Sky Sports 1 4K UK": {
+      "enabled": true,
+      "source": "GB",
+      "epg_name": "SkySp MainEv HD",
+      "alias_of": "Sky Sports Main Event",
+      "notes": "4K流复用Main Event节目单"
+    },
+    "Sky Sports 2 4K UK": {
+      "enabled": true,
+      "source": "GB",
+      "epg_name": "SkySp MainEv HD",
+      "alias_of": "Sky Sports Main Event",
+      "notes": "4K流复用Main Event节目单"
+    },
+    "Sky Sports F1 4K UK": {
+      "enabled": true,
+      "source": "GB",
+      "epg_name": "SkySp F1 HD",
+      "alias_of": "Sky Sports F1",
+      "notes": "4K流复用F1节目单"
+    },
+    "Sky Sports F1 UK": {
+      "enabled": true,
+      "source": "GB",
+      "epg_name": "SkySp F1 HD",
+      "alias_of": "Sky Sports F1",
+      "notes": "复用F1节目单"
+    },
+    "Sky Sports Main Event 4K UK": {
+      "enabled": true,
+      "source": "GB",
+      "epg_name": "SkySp MainEv HD",
+      "alias_of": "Sky Sports Main Event",
+      "notes": "4K流复用Main Event节目单"
+    },
+    "TNT Sports Ultimate 4K UK": {
+      "enabled": true,
+      "source": "GB",
+      "epg_name": "TNT Sport Ultimate",
+      "notes": "epg.pw GB源"
     }
   }
 }
