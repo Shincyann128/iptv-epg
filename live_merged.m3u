@@ -3,7 +3,7 @@
 # Sources: 自用, 看球通, 咖啡直播, 看球吧, 857直播, popo直播, live-event, PPV
 # Static channels (自用): from GitHub Shincyann128/iptv myself.m3u
 # Live sports: 看球通 + 咖啡直播 + 看球吧 + 857直播 + popo直播 + 看个球 + PPV (refreshed every 30 minutes)
-# Total streams: 395
+# Total streams: 400
 
 #EXTINF:-1 group-title="央视频道" tvg-name="CCTV1",CCTV1
 rtsp://112.245.125.44:1554/iptv/import/Tvod/iptv/001/001/ch12122514263996485740.rsc/69958_Uni.sdp
@@ -353,31 +353,31 @@ https://live.666666.zip/stream/85042987.m3u8
 https://live.666666.zip/stream/97353249.m3u8
 
 #EXTINF:-1 group-title="看个球" tvg-name="[看个球] IEM科隆Major PARIVISION vs 9z",[看个球] IEM科隆Major PARIVISION vs 9z
-https://pullgz721.qmuiw.com/live/sd-102-291340.m3u8?auth_key=1781173792-0-0-9f284a84cbf0042c54c6bd34fcd29761
+https://pullgz721.qmuiw.com/live/sd-102-291340.m3u8?auth_key=1781174857-0-0-242f86b6ef0916702b345e787d4d6fb5
 
 #EXTINF:-1 group-title="看个球" tvg-name="[看个球] IEM科隆Major The MongolZ vs BetBoom",[看个球] IEM科隆Major The MongolZ vs BetBoom
-https://pullgz721.qmuiw.com/live/sd-102-291335.m3u8?auth_key=1781173714-0-0-ceab64368660059a4884ff392c86ffa8
+https://pullgz721.qmuiw.com/live/sd-102-291335.m3u8?auth_key=1781174940-0-0-d62d49fdade6f34613f3275bd26c7ff0
 
 #EXTINF:-1 group-title="看个球" tvg-name="[看个球] NODWIN Clutch Acend vs INOX Division",[看个球] NODWIN Clutch Acend vs INOX Division
-https://pullgz721.qmuiw.com/live/sd-102-291353.m3u8?auth_key=1781173769-0-0-9e99407cd982e9a3381d7a6adf528d08
+https://pullgz721.qmuiw.com/live/sd-102-291353.m3u8?auth_key=1781174827-0-0-b689140f31bb7f79b24f6411d767da67
 
 #EXTINF:-1 group-title="看个球" tvg-name="[看个球] 亚洲大师赛 TES.C vs CFO.A",[看个球] 亚洲大师赛 TES.C vs CFO.A
-https://pullgz721.qmuiw.com/live/sd-101-3564148.m3u8?auth_key=1781173764-0-0-f0c9ff22529867ea5b8d738a5a684aff
+https://pullgz721.qmuiw.com/live/sd-101-3564148.m3u8?auth_key=1781174816-0-0-b04c18e78d69ad15fd3d1dd636e6b62e
 
 #EXTINF:-1 group-title="看个球" tvg-name="[看个球] 欧洲职业联赛 Lazer-cats vs Genone",[看个球] 欧洲职业联赛 Lazer-cats vs Genone
 http://127.0.0.1:28989/esport/18756
 
 #EXTINF:-1 group-title="看个球" tvg-name="[看个球] 菲MPBL 巴丹崛起 vs 巴科洛德土蕃",[看个球] 菲MPBL 巴丹崛起 vs 巴科洛德土蕃
-https://pullgz721.qmuiw.com/live/sd-2-3920807.m3u8?auth_key=1781173825-0-0-6383ca0f74ac1708978d12ed9c163cbf
+https://pullgz721.qmuiw.com/live/sd-2-3920807.m3u8?auth_key=1781174937-0-0-b2a0f2e5d29e715f78eded885e7752d8
 
 #EXTINF:-1 group-title="看个球" tvg-name="[看个球] 菲律宾季前赛杯 远东大学矮水牛 vs NU斗牛犬",[看个球] 菲律宾季前赛杯 远东大学矮水牛 vs NU斗牛犬
-https://pullgz721.qmuiw.com/live/sd-2-3922519.m3u8?auth_key=1781173824-0-0-479c44264ffb1d1ecaf5ad3ba5f1d70a
+https://pullgz721.qmuiw.com/live/sd-2-3922519.m3u8?auth_key=1781174936-0-0-73ccd96f582db90fc208dd71c3d7eb67
 
 #EXTINF:-1 group-title="看个球" tvg-name="[看个球] 东南亚U19 泰国U19 vs 柬埔寨U19",[看个球] 东南亚U19 泰国U19 vs 柬埔寨U19
-https://pullgz721.qmuiw.com/live/sd-1-4550412.m3u8?auth_key=1781173823-0-0-76bd8a564aa7e544a29bf53735ec4220
+https://pullgz721.qmuiw.com/live/sd-1-4550412.m3u8?auth_key=1781174934-0-0-dc08b67cd612af20b5986dfcc27632ba
 
-#EXTINF:-1 group-title="popo" tvg-name="[popo] 中国女子足球甲级联赛 河北雪如意女足 vs 重庆奥体女足 | 线路B1",[popo] 中国女子足球甲级联赛 河北雪如意女足 vs 重庆奥体女足 | 线路B1
-https://elive.mayizhibo.net/livestream/hls/6fde6c412aadde502081e1ffcfcc8a39/index.m3u8?md5=fJEZHeewNgzKxKNDwgvu3Q
+#EXTINF:-1 group-title="看个球" tvg-name="[看个球] 捷U19 伊赫拉瓦U19 vs 卡尔维纳U19",[看个球] 捷U19 伊赫拉瓦U19 vs 卡尔维纳U19
+http://127.0.0.1:28989/football/8336140
 
 #EXTINF:-1 group-title="popo" tvg-name="[popo] 女排亚洲杯 韩国 vs 澳大利亚 | 线路B1",[popo] 女排亚洲杯 韩国 vs 澳大利亚 | 线路B1
 https://elive.mayizhibo.net/livestream/hls/34ad29309028aaef82d20745d8e23183/index.m3u8?md5=gMLG7q2VWYANrWWTZjuTmQ
@@ -398,22 +398,28 @@ https://elive.mayizhibo.net/livestream/hls/806eaa93ae382b26a3de17f0d095fa95/inde
 https://elive.mayizhibo.net/livestream/hls/e2d7f6febd39dcb7241835882273b448/index.m3u8?md5=IhG3tlIO99yc1VsMCByAWw
 
 #EXTINF:-1 group-title="857" tvg-name="[857] 菲MPBL 巴塔安利瑟斯 vs 巴科洛德土蕃",[857] 菲MPBL 巴塔安利瑟斯 vs 巴科洛德土蕃
-https://b365cf61a574808030887b0b8706ebf1.livehwc4.com/pullsgp.yyzb456.top/live/stream-881166_lhd.m3u8?auth_key=1781177927-0-0-f63440465a28b32d8b6bcb362411316c&edge_slice=true&user_session_id=289d0a440a71821b29c7a310c97e8d62&sub_m3u8=true
+https://b365cf61a574808030887b0b8706ebf1.livehwc4.com/pullsgp.yyzb456.top/live/stream-881166_lhd.m3u8?user_session_id=4138e2afe6c1a8bad526387fc6a050c8&auth_key=1781178467-0-0-c902e997dd6df61745cf3d5b84425472&sub_m3u8=true&edge_slice=true
 
 #EXTINF:-1 group-title="857" tvg-name="[857] 菲MPBL 巴塔安利瑟斯 vs 巴科洛德土蕃",[857] 菲MPBL 巴塔安利瑟斯 vs 巴科洛德土蕃
-https://b365cf61a574808030887b0b8706ebf1.livehwc4.com/pullsgp.yyzb456.top/live/stream-350300_lhd.m3u8?auth_key=1781177927-0-0-817b3873ecdfad9caab316ab5a9a2741&user_session_id=8693c335c88b01090e58f2cbb6f4e2c3&edge_slice=true&sub_m3u8=true
+https://b365cf61a574808030887b0b8706ebf1.livehwc4.com/pullsgp.yyzb456.top/live/stream-350300_lhd.m3u8?auth_key=1781178467-0-0-6b836ccba0fe3d6dc77a33bbcf4404d9&edge_slice=true&sub_m3u8=true&user_session_id=6beaf55acd960f093a8c54abf5992692
 
 #EXTINF:-1 group-title="857" tvg-name="[857] 越南杯 宁平FC-越电信",[857] 越南杯 宁平FC-越电信
-https://b365cf61a574808030887b0b8706ebf1.livehwc4.com/pullsgp.yyzb456.top/live/stream-771123_lhd.m3u8?sub_m3u8=true&user_session_id=8874d2231104623dcf86a250687978ad&edge_slice=true&auth_key=1781177927-0-0-0c552aa8d6c89045e1dd15f96ada674f
+https://b365cf61a574808030887b0b8706ebf1.livehwc4.com/pullsgp.yyzb456.top/live/stream-771123_lhd.m3u8?auth_key=1781178467-0-0-5f4c863a5b31c42ad9c36322b042c853&user_session_id=1641b290aa088ab377ae43a58de2c5b8&edge_slice=true&sub_m3u8=true
 
 #EXTINF:-1 group-title="857" tvg-name="[857] 东南亚U19 泰国 vs 柬埔寨",[857] 东南亚U19 泰国 vs 柬埔寨
-https://b365cf61a574808030887b0b8706ebf1.livehwc4.com/pullsgp.yyzb456.top/live/stream-318894_lhd.m3u8?auth_key=1781177867-0-0-3f56ac2c2fcc97e7c5babb0b839c50b0&user_session_id=5166b2b635bba0574e657cc95643d48a&sub_m3u8=true&edge_slice=true
+https://b365cf61a574808030887b0b8706ebf1.livehwc4.com/pullsgp.yyzb456.top/live/stream-318894_lhd.m3u8?edge_slice=true&auth_key=1781178467-0-0-b6444f4fa16892494382c4d1c1875779&user_session_id=2c62886e8a1869627c31088c3791c63e&sub_m3u8=true
 
 #EXTINF:-1 group-title="857" tvg-name="[857] 东南亚U19 泰国 vs 柬埔寨",[857] 东南亚U19 泰国 vs 柬埔寨
-https://b365cf61a574808030887b0b8706ebf1.livehwc4.com/pullsgp.yyzb456.top/live/stream-552917_lhd.m3u8?user_session_id=a08b2bf3f58e138444e581d943b87283&edge_slice=true&auth_key=1781177867-0-0-d7e44c82b49a424e1a69747ac1f79ea0&sub_m3u8=true
+https://b365cf61a574808030887b0b8706ebf1.livehwc4.com/pullsgp.yyzb456.top/live/stream-552917_lhd.m3u8?auth_key=1781178467-0-0-ca5a20a125f4f351c1ddc0ef3fad65e0&edge_slice=true&user_session_id=7b3b48fc9e680a8de9ff8469525d302c&sub_m3u8=true
+
+#EXTINF:-1 group-title="857" tvg-name="[857] 越南杯 南定 vs 胡志明市",[857] 越南杯 南定 vs 胡志明市
+https://b365cf61a574808030887b0b8706ebf1.livehwc4.com/pullsgp.yyzb456.top/live/stream-506605_lhd.m3u8?auth_key=1781178467-0-0-da313aa296d808a391a23e32e21be34c&user_session_id=260e978d6f42455697f38fef04075967&sub_m3u8=true&edge_slice=true
+
+#EXTINF:-1 group-title="857" tvg-name="[857] 越南杯 宁平 vs 越电信",[857] 越南杯 宁平 vs 越电信
+https://b365cf61a574808030887b0b8706ebf1.livehwc4.com/pullsgp.yyzb456.top/live/stream-710088_lhd.m3u8?auth_key=1781178467-0-0-09e674c91ebaff9af77e2824b5dd9e15&edge_slice=true&user_session_id=a6d8c7c38be1d050faae9e30d49ea532&sub_m3u8=true
 
 #EXTINF:-1 group-title="857" tvg-name="[857] 越南联 南定 vs 胡志明市",[857] 越南联 南定 vs 胡志明市
-https://b365cf61a574808030887b0b8706ebf1.livehwc4.com/pullsgp.yyzb456.top/live/stream-500894_lhd.m3u8?sub_m3u8=true&user_session_id=df769ee20fc4afe3809b42a99e4895f9&edge_slice=true&auth_key=1781177927-0-0-449252b4ebe3ff1c9211c6dde855aa6e
+https://b365cf61a574808030887b0b8706ebf1.livehwc4.com/pullsgp.yyzb456.top/live/stream-500894_lhd.m3u8?user_session_id=b9a0f27dfbd20fcc78f65fef1f7d5765&auth_key=1781178467-0-0-73db9e33ed211632fb75ee59443922cc&edge_slice=true&sub_m3u8=true
 
 #EXTINF:-1 group-title="看球吧" tvg-name="[看球吧] CSGO IEM MongolZ vs BetBoom | 浪哥 | FLV",[看球吧] CSGO IEM MongolZ vs BetBoom | 浪哥 | FLV
 https://hw3pull.bszb.me/live/2350952_1781165739.flv
@@ -427,6 +433,9 @@ https://hw3pull.bszb.me/live/2401667_1781167537.flv
 #EXTINF:-1 group-title="看球吧" tvg-name="[看球吧] 菲MPBL 巴丹崛起 vs 巴科洛德土蕃 | 朵朵 | FLV",[看球吧] 菲MPBL 巴丹崛起 vs 巴科洛德土蕃 | 朵朵 | FLV
 https://hw3pull.bszb.me/live/2165019_1781163997.flv
 
+#EXTINF:-1 group-title="看球吧" tvg-name="[看球吧] 越南杯 南定绿钢 vs 胡志明市公安 | 尼克 | FLV",[看球吧] 越南杯 南定绿钢 vs 胡志明市公安 | 尼克 | FLV
+https://hw3pull.bszb.me/live/2629596_1781174829.flv
+
 #EXTINF:-1 group-title="看球通" tvg-name="[看球通] IEM科隆 Mongolz vs BB | 粤语解说 - 广佬",[看球通] IEM科隆 Mongolz vs BB | 粤语解说 - 广佬
 https://hdl6.szsummer.cn/live/584763.m3u8?auth_key=1781164920-b7970ec0c7414855bd7e128852b00738-0-d41f7f3ffcc75694406570f07ac893c8
 
@@ -438,6 +447,12 @@ https://hdl6.szsummer.cn/live/28730808.m3u8?auth_key=1781164920-0336d1982d294579
 
 #EXTINF:-1 group-title="看球通" tvg-name="[看球通] 菲MPBL 巴科洛德土蕃 vs 巴丹崛起 | 老叮",[看球通] 菲MPBL 巴科洛德土蕃 vs 巴丹崛起 | 老叮
 https://hdl6.szsummer.cn/live/12897937.m3u8?auth_key=1781164920-31aa0d46110342cb933e513e9ddc37d7-0-e8ae3dc3d76e3c4fe82bdb413c6c34b4
+
+#EXTINF:-1 group-title="看球通" tvg-name="[看球通] 越南杯 南定绿钢 vs 胡志明市公安 | 鳌拜说球",[看球通] 越南杯 南定绿钢 vs 胡志明市公安 | 鳌拜说球
+https://hdl6.szsummer.cn/live/72109383.m3u8?auth_key=1781164920-c9c67775eb704e11af9ccd28d0989c59-0-9ab0888887d0f722fd4e1da7393c6bc2
+
+#EXTINF:-1 group-title="看球通" tvg-name="[看球通] 越南杯 宁平 vs 越电信体工 | 老乡",[看球通] 越南杯 宁平 vs 越电信体工 | 老乡
+https://hdl6.szsummer.cn/live/651335.m3u8?auth_key=1781164920-d131c4354b1b4821b840b738074ac61c-0-7dd7bbff7a97de64cec7cd317a16c654
 
 #EXTINF:-1 group-title="PPV" tvg-name="[PPV] 法国足球频道4K",[PPV] 法国足球频道4K
 http://77.90.60.172:3333/xc/http://195.128.24.20/live/jjyw70ss4w/ek5ui8ithc/250612.m3u8
