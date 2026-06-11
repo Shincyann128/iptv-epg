@@ -300,96 +300,6 @@
       "epg_name": "ESPN8 The Ocho",
       "notes": ""
     },
-    "NHK G": {
-      "enabled": true,
-      "source": "JP",
-      "epg_name": "NHK東京　総合",
-      "notes": ""
-    },
-    "NHK E": {
-      "enabled": true,
-      "source": "JP",
-      "epg_name": "NHK東京　教育",
-      "notes": ""
-    },
-    "NTV": {
-      "enabled": true,
-      "source": "JP",
-      "epg_name": "日本テレビ",
-      "notes": ""
-    },
-    "TBS": {
-      "enabled": true,
-      "source": "JP",
-      "epg_name": "TBS",
-      "notes": ""
-    },
-    "Fuji TV": {
-      "enabled": true,
-      "source": "JP",
-      "epg_name": "フジテレビ",
-      "notes": ""
-    },
-    "TV Asahi": {
-      "enabled": true,
-      "source": "JP",
-      "epg_name": "テレビ朝日",
-      "notes": ""
-    },
-    "TV Tokyo": {
-      "enabled": true,
-      "source": "JP",
-      "epg_name": "テレビ東京",
-      "notes": "japanterebi 命名"
-    },
-    "WOWOW Prime": {
-      "enabled": true,
-      "source": "JP",
-      "epg_name": "ＷＯＷＯＷプライム",
-      "notes": "japanterebi 可用"
-    },
-    "WOWOW Cinema": {
-      "enabled": true,
-      "source": "JP",
-      "epg_name": "ＷＯＷＯＷシネマ",
-      "notes": "japanterebi 可用"
-    },
-    "WOWOW Live": {
-      "enabled": true,
-      "source": "JP",
-      "epg_name": "ＷＯＷＯＷライブ",
-      "notes": "japanterebi 可用"
-    },
-    "ytv": {
-      "enabled": true,
-      "source": "JPT",
-      "epg_name": "読売テレビ",
-      "notes": "关西地方台走japanterebi"
-    },
-    "MBS": {
-      "enabled": true,
-      "source": "JPT",
-      "epg_name": "毎日テレビ",
-      "notes": "关西地方台走japanterebi"
-    },
-    "Kansai TV": {
-      "enabled": true,
-      "source": "JPT",
-      "epg_name": "関西テレビ",
-      "notes": "关西地方台走japanterebi"
-    },
-    "ABC": {
-      "enabled": true,
-      "source": "JPT",
-      "epg_name": "ABCテレビ",
-      "notes": "关西地方台走japanterebi"
-    },
-    "TV Osaka": {
-      "enabled": true,
-      "source": "JPT",
-      "epg_name": "テレビ大阪",
-      "notes": "关西地方台走japanterebi"
-    },
     "CCTV4欧洲": {
       "enabled": false,
       "reason": "暂未找到稳定免费对应源"
@@ -397,14 +307,6 @@
     "CCTV4美洲": {
       "enabled": false,
       "reason": "暂未找到稳定免费对应源"
-    },
-    "Dallas Mavericks": {
-      "enabled": false,
-      "reason": "队伍专属流，无标准XMLTV"
-    },
-    "DALLAS MAVERICKS": {
-      "enabled": false,
-      "reason": "队伍专属流，无标准XMLTV"
     },
     "Reuters": {
       "enabled": false,
@@ -423,10 +325,6 @@
       "reason": "美国地方台，免费EPG不稳"
     },
     "ABC 8 Dallas TX (WFAA) (1080p)": {
-      "enabled": false,
-      "reason": "美国地方台，免费EPG不稳"
-    },
-    "CBS News Texas (720p)": {
       "enabled": false,
       "reason": "美国地方台，免费EPG不稳"
     },
@@ -488,18 +386,6 @@
       "epg_name": "驚豔成人電影台",
       "notes": "epg.pw TW 源"
     },
-    "NHK G Osaka": {
-      "enabled": true,
-      "source": "JP",
-      "epg_name": "NHK大阪　総合",
-      "notes": "大阪版 NHK 总合"
-    },
-    "WOWOW Plus": {
-      "enabled": true,
-      "source": "JP",
-      "epg_name": "ＷＯＷＯＷプラス 映画・ドラマ・スポーツ・音楽",
-      "notes": "japanterebi 可用"
-    },
     "Sky Sports F1 FHD": {
       "enabled": true,
       "source": "GB",
@@ -510,22 +396,6 @@
     "F1 TV": {
       "enabled": false,
       "reason": "平台专属流，无标准XMLTV"
-    },
-    "F1-TV": {
-      "enabled": false,
-      "reason": "平台专属流，无标准XMLTV"
-    },
-    "BBC TWO UK": {
-      "enabled": true,
-      "source": "GB",
-      "epg_name": "BBC Two HD",
-      "notes": "复用原BBC Two UK"
-    },
-    "NHK BSP4K": {
-      "enabled": true,
-      "source": "JP",
-      "epg_name": "NHK BS4K",
-      "notes": "复用NHK BS4K"
     },
     "Sky Sport Bundesliga DE": {
       "enabled": true,
@@ -538,20 +408,6 @@
       "source": "DE",
       "epg_name": "Sky Sport F1 HD",
       "notes": "epg.pw DE源"
-    },
-    "Sky Sports 1 4K UK": {
-      "enabled": true,
-      "source": "GB",
-      "epg_name": "SkySp MainEv HD",
-      "alias_of": "Sky Sports Main Event",
-      "notes": "4K流复用Main Event节目单"
-    },
-    "Sky Sports 2 4K UK": {
-      "enabled": true,
-      "source": "GB",
-      "epg_name": "SkySp MainEv HD",
-      "alias_of": "Sky Sports Main Event",
-      "notes": "4K流复用Main Event节目单"
     },
     "Sky Sports F1 4K UK": {
       "enabled": true,
@@ -574,11 +430,149 @@
       "alias_of": "Sky Sports Main Event",
       "notes": "4K流复用Main Event节目单"
     },
-    "TNT Sports Ultimate 4K UK": {
+    "NHK G HD (Primehome)": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "NHK東京　総合",
+      "notes": "Primehome源"
+    },
+    "NHK E HD (Primehome)": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "NHK東京　教育",
+      "notes": "Primehome源"
+    },
+    "NHK BS4K (Primehome)": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "NHK BS4K",
+      "notes": "Primehome源"
+    },
+    "NTV HD (Primehome)": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "日本テレビ",
+      "notes": "Primehome源"
+    },
+    "TBS HD (Primehome)": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "TBS",
+      "notes": "Primehome源"
+    },
+    "Fuji TV HD (Primehome)": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "フジテレビ",
+      "notes": "Primehome源"
+    },
+    "TV Asahi HD (Primehome)": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "テレビ朝日",
+      "notes": "Primehome源"
+    },
+    "TV Tokyo HD (Primehome)": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "テレビ東京",
+      "notes": "Primehome源"
+    },
+    "WOWOW Prime (Primehome)": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "ＷＯＷＯＷプライム",
+      "notes": "Primehome源"
+    },
+    "WOWOW Live (Primehome)": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "ＷＯＷＯＷライブ",
+      "notes": "Primehome源"
+    },
+    "WOWOW Cinema (Primehome)": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "ＷＯＷＯＷシネマ",
+      "notes": "Primehome源"
+    },
+    "NHK G Osaka (Primehome)": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "NHK大阪　総合",
+      "notes": "Primehome源"
+    },
+    "ytv (Primehome)": {
+      "enabled": true,
+      "source": "JPT",
+      "epg_name": "読売テレビ",
+      "notes": "Primehome源"
+    },
+    "MBS (Primehome)": {
+      "enabled": true,
+      "source": "JPT",
+      "epg_name": "毎日テレビ",
+      "notes": "Primehome源"
+    },
+    "Kansai TV (Primehome)": {
+      "enabled": true,
+      "source": "JPT",
+      "epg_name": "関西テレビ",
+      "notes": "Primehome源"
+    },
+    "ABC (Primehome)": {
+      "enabled": true,
+      "source": "JPT",
+      "epg_name": "ABCテレビ",
+      "notes": "Primehome源"
+    },
+    "TV Osaka (Primehome)": {
+      "enabled": true,
+      "source": "JPT",
+      "epg_name": "テレビ大阪",
+      "notes": "Primehome源"
+    },
+    "cctv5": {
+      "enabled": true,
+      "source": "CN",
+      "epg_name": "CCTV5",
+      "notes": "本地源，复用CCTV5节目单"
+    },
+    "cctv16-4k": {
+      "enabled": true,
+      "source": "CN",
+      "epg_name": "CCTV16",
+      "notes": "FIFA 4K"
+    },
+    "cctv4k": {
+      "enabled": true,
+      "source": "CN",
+      "epg_name": "CCTV4K",
+      "notes": "本地4K"
+    },
+    "cctv8k": {
+      "enabled": true,
+      "source": "CN",
+      "epg_name": "CCTV8K",
+      "notes": "8K源"
+    },
+    "BBC TWO UK": {
       "enabled": true,
       "source": "GB",
-      "epg_name": "TNT Sport Ultimate",
-      "notes": "epg.pw GB源"
+      "epg_name": "BBC Two HD",
+      "notes": "复用原BBC Two UK"
+    },
+    "SUN (Primehome)": {
+      "enabled": true,
+      "source": "JPT",
+      "epg_name": "サンテレビ",
+      "notes": "Primehome源"
+    },
+    "ytv": {
+      "enabled": true,
+      "source": "JPT",
+      "epg_name": "読売テレビ",
+      "notes": "关西地方台 ytv"
     }
   }
 }
