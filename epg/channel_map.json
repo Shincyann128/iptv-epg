@@ -10,7 +10,9 @@
     "JPT": "https://animenosekai.github.io/japanterebi-xmltv/guide.xml",
     "HK": "https://epg.pw/xmltv/epg_HK.xml.gz",
     "TW": "https://epg.pw/xmltv/epg_TW.xml.gz",
-    "DE": "https://epg.pw/xmltv/epg_DE.xml.gz"
+    "DE": "https://epg.pw/xmltv/epg_DE.xml.gz",
+    "SD": "https://raw.githubusercontent.com/sggc/SD-EPG/refs/heads/main/EPG/sggc-desc.xml.gz",
+    "CA": "https://epg.pw/xmltv/epg_CA.xml.gz"
   },
   "channels": {
     "ABC (Primehome)": {
@@ -20,8 +22,10 @@
       "notes": "Primehome源"
     },
     "ABC 8 Dallas TX (WFAA) (1080p)": {
-      "enabled": false,
-      "reason": "美国地方台，免费EPG不稳"
+      "enabled": true,
+      "source": "US",
+      "epg_name": "WFAA-DT",
+      "notes": "Dallas ABC本地台"
     },
     "BBC News": {
       "enabled": true,
@@ -128,12 +132,14 @@
       "notes": "4K台用CCTV4K节目单"
     },
     "CCTV4欧洲": {
-      "enabled": false,
-      "reason": "暂未找到稳定免费对应源"
+      "enabled": true,
+      "source": "SD",
+      "epg_name": "CCTV4欧洲"
     },
     "CCTV4美洲": {
-      "enabled": false,
-      "reason": "暂未找到稳定免费对应源"
+      "enabled": true,
+      "source": "SD",
+      "epg_name": "CCTV4美洲"
     },
     "CCTV5": {
       "enabled": true,
@@ -222,8 +228,10 @@
       "reason": "平台专属流，无标准XMLTV"
     },
     "FOX LOCAL Dallas-Fort Worth": {
-      "enabled": false,
-      "reason": "美国地方台，免费EPG不稳"
+      "enabled": true,
+      "source": "US",
+      "epg_name": "KDFW-DT",
+      "notes": "复用KDFW-DT节目单"
     },
     "FS1 01": {
       "enabled": true,
@@ -238,8 +246,10 @@
       "notes": "Primehome源"
     },
     "KDFW FOX 4 Dallas Fort Worth TX": {
-      "enabled": false,
-      "reason": "美国地方台，免费EPG不稳"
+      "enabled": true,
+      "source": "US",
+      "epg_name": "KDFW-DT",
+      "notes": "Dallas FOX本地台"
     },
     "Kansai TV (Primehome)": {
       "enabled": true,
@@ -262,8 +272,10 @@
       "reason": "直播/主播源，无标准XMLTV"
     },
     "NBC 5 Dallas-Fort Worth News": {
-      "enabled": false,
-      "reason": "美国地方台，免费EPG不稳"
+      "enabled": true,
+      "source": "US",
+      "epg_name": "KXAS-DT",
+      "notes": "Dallas NBC本地台"
     },
     "NHK BS4K (Primehome)": {
       "enabled": true,
@@ -292,25 +304,25 @@
     "NOW Sports 616 4K": {
       "enabled": true,
       "source": "HK",
-      "epg_name": "NOW Sports 616",
+      "epg_name": "Now Sports 4K 616",
       "notes": "NOW 4K体育"
     },
     "NOW Sports 617 4K": {
       "enabled": true,
       "source": "HK",
-      "epg_name": "NOW Sports 617",
+      "epg_name": "Now Sports 4K 617",
       "notes": "NOW 4K体育"
     },
     "NOW Sports 618": {
       "enabled": true,
       "source": "HK",
-      "epg_name": "NOW Sports 618",
+      "epg_name": "Now Sports 618",
       "notes": "NOW体育"
     },
     "NOW Sports 619": {
       "enabled": true,
       "source": "HK",
-      "epg_name": "NOW Sports 619",
+      "epg_name": "Now Sports 619",
       "notes": "NOW体育"
     },
     "NTV HD (Primehome)": {
@@ -322,28 +334,28 @@
     "Now616": {
       "enabled": true,
       "source": "HK",
-      "epg_name": "NOW Sports 616",
+      "epg_name": "Now Sports 4K 616",
       "alias_of": "NOW Sports 616 4K",
       "notes": "RTSP版"
     },
     "Now617": {
       "enabled": true,
       "source": "HK",
-      "epg_name": "NOW Sports 617",
+      "epg_name": "Now Sports 4K 617",
       "alias_of": "NOW Sports 617 4K",
       "notes": "RTSP版"
     },
     "Now618": {
       "enabled": true,
       "source": "HK",
-      "epg_name": "NOW Sports 618",
+      "epg_name": "Now Sports 618",
       "alias_of": "NOW Sports 618",
       "notes": "RTSP版"
     },
     "Now619": {
       "enabled": true,
       "source": "HK",
-      "epg_name": "NOW Sports 619",
+      "epg_name": "Now Sports 619",
       "alias_of": "NOW Sports 619",
       "notes": "RTSP版"
     },
@@ -354,13 +366,13 @@
     "Sky Sport Bundesliga DE": {
       "enabled": true,
       "source": "DE",
-      "epg_name": "Sky Sport Bundesliga HD",
+      "epg_name": "Sky Sport Bundesliga",
       "notes": "epg.pw DE源"
     },
     "Sky Sport F1 DE": {
       "enabled": true,
       "source": "DE",
-      "epg_name": "Sky Sport F1 HD",
+      "epg_name": "SKY Sport F1",
       "notes": "epg.pw DE源"
     },
     "Sky Sports F1 4K UK": {
@@ -387,7 +399,7 @@
     "Sky Sports Main Event 4K UK": {
       "enabled": true,
       "source": "GB",
-      "epg_name": "SkySp MainEv HD",
+      "epg_name": "SkySpMainEvHD",
       "alias_of": "Sky Sports Main Event",
       "notes": "4K流复用Main Event节目单"
     },
@@ -404,8 +416,10 @@
       "notes": "4K流"
     },
     "TSN 4K CA": {
-      "enabled": false,
-      "reason": "加拿大台，暂无稳定EPG"
+      "enabled": true,
+      "source": "CA",
+      "epg_name": "TSN 4K",
+      "notes": "加拿大TSN 4K"
     },
     "TV Asahi HD (Primehome)": {
       "enabled": true,
@@ -473,7 +487,7 @@
     },
     "cctv8k": {
       "enabled": true,
-      "source": "CN",
+      "source": "SD",
       "epg_name": "CCTV8K",
       "notes": "8K源"
     },
@@ -522,7 +536,7 @@
     "北京国际": {
       "enabled": true,
       "source": "BJ",
-      "epg_name": "BRTV国际高清",
+      "epg_name": "BTV国际频道",
       "notes": ""
     },
     "北京影视": {
@@ -562,10 +576,9 @@
       "notes": "北京联通专属源"
     },
     "即墨综合": {
-      "enabled": true,
-      "source": "CN",
-      "epg_name": "即墨综合",
-      "notes": ""
+      "enabled": false,
+      "notes": "",
+      "reason": "未找到稳定XMLTV源（SD-EPG/epg.pw均无）"
     },
     "四川卫视4K": {
       "enabled": true,
@@ -575,10 +588,9 @@
       "notes": "4K台先复用普通卫视节目单"
     },
     "城阳综合": {
-      "enabled": true,
-      "source": "CN",
-      "epg_name": "城阳综合",
-      "notes": ""
+      "enabled": false,
+      "notes": "",
+      "reason": "未找到稳定XMLTV源（SD-EPG/epg.pw均无）"
     },
     "山东卫视4K": {
       "enabled": true,
@@ -601,10 +613,9 @@
       "notes": "epg.pw TW 源"
     },
     "李沧TV": {
-      "enabled": true,
-      "source": "CN",
-      "epg_name": "李沧TV",
-      "notes": ""
+      "enabled": false,
+      "notes": "",
+      "reason": "未找到稳定XMLTV源（SD-EPG/epg.pw均无）"
     },
     "松视1": {
       "enabled": true,
@@ -633,8 +644,8 @@
     },
     "泰山TV": {
       "enabled": true,
-      "source": "CN",
-      "epg_name": "泰山TV",
+      "source": "SD",
+      "epg_name": "泰山综合",
       "notes": ""
     },
     "浙江卫视4K": {
@@ -671,58 +682,58 @@
     "福克斯体育1": {
       "enabled": true,
       "source": "US",
-      "epg_name": "Fox Sports 1 HD",
+      "epg_name": "FS1 Fox Sports 1 HD",
       "notes": ""
     },
     "青岛1": {
       "enabled": true,
-      "source": "CN",
+      "source": "SD",
       "epg_name": "QTV-1",
       "alias_of": "青岛电视台1套",
       "notes": ""
     },
     "青岛2": {
       "enabled": true,
-      "source": "CN",
+      "source": "SD",
       "epg_name": "QTV-2",
       "alias_of": "青岛电视台2套",
       "notes": ""
     },
     "青岛3": {
       "enabled": true,
-      "source": "CN",
+      "source": "SD",
       "epg_name": "QTV-3",
       "alias_of": "青岛电视台3套",
       "notes": ""
     },
     "青岛4": {
       "enabled": true,
-      "source": "CN",
+      "source": "SD",
       "epg_name": "QTV-4",
       "alias_of": "青岛电视台4套",
       "notes": ""
     },
     "青岛电视台1套": {
       "enabled": true,
-      "source": "CN",
+      "source": "SD",
       "epg_name": "QTV-1",
       "notes": ""
     },
     "青岛电视台2套": {
       "enabled": true,
-      "source": "CN",
+      "source": "SD",
       "epg_name": "QTV-2",
       "notes": ""
     },
     "青岛电视台3套": {
       "enabled": true,
-      "source": "CN",
+      "source": "SD",
       "epg_name": "QTV-3",
       "notes": ""
     },
     "青岛电视台4套": {
       "enabled": true,
-      "source": "CN",
+      "source": "SD",
       "epg_name": "QTV-4",
       "notes": ""
     },
