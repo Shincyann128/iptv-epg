@@ -22,13 +22,15 @@ SCRIPT_DIR = Path(__file__).resolve().parent
 REPO_ROOT = SCRIPT_DIR.parent
 OUTPUT_FILE = REPO_ROOT / "live_merged.m3u"
 MYSELF_CACHE = REPO_ROOT / "myself.m3u"
+PPV_CACHE = REPO_ROOT / "ppv_cache.m3u"
+PPV_CACHE_TTL = 12 * 3600  # 12 hours
 SOURCES = ["自用", "看球通", "咖啡直播", "看球吧", "857直播", "popo直播", "live-event", "PPV"]
 REPLAY_KEYWORDS = ("回放", "录像", "VOD")
 
 # ── Source short names & ordering ──
 SOURCE_SHORT = {"857直播": "857", "咖啡直播": "咖啡", "看球吧": "看球吧", "看球通": "看球通", "popo直播": "popo", "live-event": "看个球", "PPV": "PPV"}
-# Within each match group: 咖啡 → 看个球 → popo → PPV → 857 → 看球吧 → 看球通
-SOURCE_ORDER = {"咖啡直播": 0, "live-event": 1, "popo直播": 2, "PPV": 3, "857直播": 4, "看球吧": 5, "看球通": 6}
+# Within output groups: 咖啡 → 看个球 → popo → 857 → 看球吧 → 看球通 → PPV
+SOURCE_ORDER = {"咖啡直播": 0, "live-event": 1, "popo直播": 2, "857直播": 3, "看球吧": 4, "看球通": 5, "PPV": 6}
 SPORT_ORDER = {"足球": 0, "篮球": 1, "电竞": 2, "综合": 3, "回放": 4}
 
 # ── Static category ordering (unchanged) ──
@@ -646,6 +648,10 @@ def process_sports_entries(raw_entries: list[dict]) -> list[dict]:
             entry["raw_name"] = name
             parsed.append(entry)
 
+    # Filter out replays, official event rooms, talk shows
+    _FILTER_NAMES = ("回放", "官方活动", "一起来聊球")
+    parsed = [e for e in parsed if not any(kw in e.get("raw_name", "") for kw in _FILTER_NAMES)]
+
     # 3. Assign display_name
     for e in parsed:
         e["display_name"] = render_sports_display(e)
@@ -731,11 +737,14 @@ def normalize_self_group(entry: dict) -> str:
     name = entry.get("name", "")
     text = f"{group} {name}"
 
-    if group in ("央视频道", "央视", "🔥[移动]央卫视直播") or name.startswith("CCTV"):
-        if "4K" in name:
+    name_upper = name.upper()
+
+    # CCTV names may be lowercase in some hand-written lists (cctv5/cctv8k/etc.)
+    if group in ("央视频道", "央视", "🔥[移动]央卫视直播") or name_upper.startswith("CCTV"):
+        if "4K" in name_upper or "8K" in name_upper or "UHD" in name_upper:
             return "4K"
         return "央视频道"
-    if group in ("4K", "UHD | 4K") or "4K" in name or "UHD" in name:
+    if group in ("4K", "UHD | 4K", "4KUHD-FIFA", "8K频道") or "4K" in name_upper or "8K" in name_upper or "UHD" in name_upper or name in ("Now616", "Now617"):
         return "4K"
     if group in ("卫视频道", "卫视") or "卫视" in name:
         return "卫视频道"
@@ -743,35 +752,37 @@ def normalize_self_group(entry: dict) -> str:
         if "体育" in name:
             return "体育"
         return "北京"
-    if group == "山东频道" or "山东" in name:
+    if group == "山东频道" or "山东" in name or "青岛" in name or name in ("城阳综合", "即墨综合", "李沧TV", "泰山TV"):
         return "卫视频道"
 
-    jp_keywords = ("NHK", "NTV", "TBS", "Fuji TV", "TV Asahi", "TV Tokyo", "TV Osaka",
-                   "Kansai TV", "MBS", "ABC", "ytv", "SUN", "KBS", "WOWOW")
-    if any(kw in name for kw in jp_keywords):
-        if "4K" in name:
+    # Sports-like hand-written groups must be checked before broad international/news rules.
+    sports_keywords = (
+        "体育", "SPORT", "ESPN", "FS1", "F1", "FORMULA", "NBA", "WNBA",
+        "MAVERICKS", "BUNDESLIGA", "NOW SPORTS", "TSN", "TNT SPORTS", "FOX SPORTS", "NOW618", "NOW619"
+    )
+    if group in ("体育", "体育频道", "【体育频道】", "UK Sports", "UK SPORTS", "NBA TEAMS", "NBA",
+                 "F1 Formula", "体育竞技 - 北美", "Sports - NA", "Sports - EU", "FIFA World Cup 2026",
+                 "🏀[联通]咪视界直播") or any(kw in name_upper for kw in sports_keywords):
+        return "体育"
+
+    jp_groups = ("Tokyo", "Kansai", "BS")
+    jp_keywords = ("NHK", "NTV", "TBS", "FUJI TV", "TV ASAHI", "TV TOKYO", "TV OSAKA",
+                   "KANSAI TV", "MBS", "YTV", "SUN", "KBS", "WOWOW")
+    if group in jp_groups or any(kw in name_upper for kw in jp_keywords) or name in ("ABC (Primehome)",):
+        if "4K" in name_upper:
             return "4K"
         return "日本"
 
-    intl_keywords = ("BBC", "CNN", "CNBC", "Reuters", "ESPN", "FOX", "NBC", "CBS",
-                     "ABC 8", "Sky Sports", "F1", "Dallas", "LocalNow", "Xumo",
-                     "UK:", "UK ")
-    if any(kw in name for kw in intl_keywords) or group in ("国际台", "国际", "英国综合",
-                                                              "Xumo频道", "Undefined",
-                                                              "LocalNow🇺🇸: More Cities",
-                                                              "体育竞技 - 北美"):
-        if any(kw in name for kw in ("ESPN", "Sky Sports", "F1", "Mavericks", "NBA")):
-            return "体育"
-        if any(kw in name for kw in ("News", "Reuters", "CNN")):
-            return "新闻"
-        return "国际"
-
-    sports_keywords = ("体育", "Sports", "SPORTS", "NBA", "F1 Formula", "🏀")
-    if group in ("体育", "【体育频道】", "UK Sports", "UK SPORTS", "NBA TEAMS", "NBA",
-                 "F1 Formula", "🏀[联通]咪视界直播") or any(kw in name for kw in sports_keywords):
-        return "体育"
-    if group == "新闻资讯" or "News" in name:
+    news_keywords = ("NEWS", "REUTERS", "CNN", "BBC NEWS", "NBC 5", "WFAA", "KDFW", "FOX LOCAL")
+    if group == "新闻资讯" or any(kw in name_upper for kw in news_keywords):
         return "新闻"
+
+    intl_keywords = ("BBC", "CNBC", "FOX", "NBC", "CBS", "ABC 8", "DALLAS", "LOCALNOW", "XUMO",
+                     "UK:", "UK ")
+    if any(kw in name_upper for kw in intl_keywords) or group in ("国际台", "国际", "英国综合",
+                                                              "Xumo频道", "Undefined",
+                                                              "LocalNow🇺🇸: More Cities"):
+        return "国际"
     if group in ("💓专享源🅰️", "TV"):
         return "其他"
     if group in ("其他频道",):
@@ -818,7 +829,7 @@ def render_m3u(entries: list[dict]) -> str:
         "# Generated locally by merge_live_m3u.py",
         f"# Sources: {', '.join(SOURCES)}",
         f"# Static channels (自用): from GitHub Shincyann128/iptv myself.m3u",
-        f"# Live sports: 看球通 + 咖啡直播 + 看球吧 + 857直播 + popo直播 + 看个球 + PPV (refreshed every 30 minutes)",
+        f"# Live sports: 看球通 + 咖啡直播 + 看球吧 + 857直播 + popo直播 + 看个球 + PPV (refreshed every 15 minutes)",
         f"# Total streams: {len(entries)}",
         "",
     ]
@@ -940,43 +951,37 @@ def fetch_liveevent_entries() -> list[dict]:
 
 
 def fetch_ppv_entries() -> list[dict]:
-    """Fetch PPV TVK-format list from German proxy."""
+    """Fetch PPV M3U from korice.eu.org, cached for 12 hours."""
+    import os
+    import time
+
+    # Check cache
+    try:
+        cache_mtime = os.path.getmtime(PPV_CACHE)
+        if time.time() - cache_mtime < PPV_CACHE_TTL:
+            text = PPV_CACHE.read_text(encoding="utf-8")
+            print("PPV: (cache)", file=sys.stderr)
+            return parse_m3u(text, source="PPV")
+    except (OSError, FileNotFoundError):
+        pass
+
+    # Fetch fresh
     import urllib.request
 
-    url = "http://77.90.60.172:8080"
+    url = "https://www.korice.eu.org/ppv_m3u.php"
     try:
-        with urllib.request.urlopen(url, timeout=15) as resp:
+        req = urllib.request.Request(
+            url,
+            headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"}
+        )
+        with urllib.request.urlopen(req, timeout=20) as resp:
             text = resp.read().decode("utf-8")
     except Exception as exc:
-        raise RuntimeError(f"PPV 代理不可用: {exc}")
+        raise RuntimeError(f"PPV 不可用: {exc}")
 
-    # Convert TVK format to M3U for parse_m3u()
-    # Format: category,#genre#\n time name,http://IP:PORT/ID
-    m3u_lines = ["#EXTM3U"]
-    skip_categories = {"轮播"}
-    current_category = ""
-    for line in text.splitlines():
-        line = line.strip()
-        if not line:
-            current_category = ""
-            continue
-        if line.endswith(",#genre#"):
-            current_category = line.replace(",#genre#", "").strip()
-            continue
-        if current_category in skip_categories:
-            continue
-        # Parse: time name,URL
-        if "," in line:
-            name, stream_url = line.rsplit(",", 1)
-            name = name.strip()
-            stream_url = stream_url.strip()
-            cat_tag = current_category if current_category else "综合"
-            m3u_lines.append(
-                f'#EXTINF:-1 group-title="PPV|{cat_tag}" tvg-name="{name}",{name}'
-            )
-            m3u_lines.append(stream_url)
-
-    return parse_m3u("\n".join(m3u_lines), source="PPV")
+    # Write cache
+    PPV_CACHE.write_text(text, encoding="utf-8")
+    return parse_m3u(text, source="PPV")
 
 
 def write_atomic(path: Path, content: str):
