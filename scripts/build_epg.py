@@ -20,6 +20,7 @@ PUBLIC_REPO_URL = 'https://github.com/Shincyann128/iptv-epg'
 WOWOW_CHANNELS = {'WOWOW Prime', 'WOWOW Live', 'WOWOW Cinema'}
 SOURCE_MODE = {
     'CN': 'epgpw_local',
+    'SD': 'keep_offset',
     'BJ': 'keep_offset',
     'HK': 'epgpw_local',
     'TW': 'epgpw_local',
@@ -27,6 +28,8 @@ SOURCE_MODE = {
     'JPT': 'keep_offset',
     'GB': 'epgpw_local',
     'US': 'epgpw_local',
+    'CA': 'epgpw_local',
+    'DE': 'epgpw_local',
 }
 SOURCE_TZ = {
     'CN': ZoneInfo('Asia/Shanghai'),
@@ -34,6 +37,8 @@ SOURCE_TZ = {
     'TW': ZoneInfo('Asia/Taipei'),
     'GB': ZoneInfo('Europe/London'),
     'US': ZoneInfo('America/New_York'),
+    'CA': ZoneInfo('America/Toronto'),
+    'DE': ZoneInfo('Europe/Berlin'),
 }
 
 
