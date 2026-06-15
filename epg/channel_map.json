@@ -533,12 +533,6 @@
       "alias_of": "北京卫视",
       "notes": "4K台用普通北京卫视节目单"
     },
-    "北京国际": {
-      "enabled": true,
-      "source": "BJ",
-      "epg_name": "BTV国际频道",
-      "notes": ""
-    },
     "北京影视": {
       "enabled": true,
       "source": "BJ",
@@ -575,22 +569,12 @@
       "epg_name": "BRTV财经高清",
       "notes": "北京联通专属源"
     },
-    "即墨综合": {
-      "enabled": false,
-      "notes": "",
-      "reason": "未找到稳定XMLTV源（SD-EPG/epg.pw均无）"
-    },
     "四川卫视4K": {
       "enabled": true,
       "source": "CN",
       "epg_name": "四川卫视",
       "alias_of": "四川卫视",
       "notes": "4K台先复用普通卫视节目单"
-    },
-    "城阳综合": {
-      "enabled": false,
-      "notes": "",
-      "reason": "未找到稳定XMLTV源（SD-EPG/epg.pw均无）"
     },
     "山东卫视4K": {
       "enabled": true,
@@ -611,11 +595,6 @@
       "source": "TW",
       "epg_name": "驚豔成人電影台",
       "notes": "epg.pw TW 源"
-    },
-    "李沧TV": {
-      "enabled": false,
-      "notes": "",
-      "reason": "未找到稳定XMLTV源（SD-EPG/epg.pw均无）"
     },
     "松视1": {
       "enabled": true,
@@ -641,12 +620,6 @@
       "epg_name": "江苏卫视",
       "alias_of": "江苏卫视",
       "notes": "4K台先复用普通卫视节目单"
-    },
-    "泰山TV": {
-      "enabled": true,
-      "source": "SD",
-      "epg_name": "泰山综合",
-      "notes": ""
     },
     "浙江卫视4K": {
       "enabled": true,
@@ -683,58 +656,6 @@
       "enabled": true,
       "source": "US",
       "epg_name": "FS1 Fox Sports 1 HD",
-      "notes": ""
-    },
-    "青岛1": {
-      "enabled": true,
-      "source": "SD",
-      "epg_name": "QTV-1",
-      "alias_of": "青岛电视台1套",
-      "notes": ""
-    },
-    "青岛2": {
-      "enabled": true,
-      "source": "SD",
-      "epg_name": "QTV-2",
-      "alias_of": "青岛电视台2套",
-      "notes": ""
-    },
-    "青岛3": {
-      "enabled": true,
-      "source": "SD",
-      "epg_name": "QTV-3",
-      "alias_of": "青岛电视台3套",
-      "notes": ""
-    },
-    "青岛4": {
-      "enabled": true,
-      "source": "SD",
-      "epg_name": "QTV-4",
-      "alias_of": "青岛电视台4套",
-      "notes": ""
-    },
-    "青岛电视台1套": {
-      "enabled": true,
-      "source": "SD",
-      "epg_name": "QTV-1",
-      "notes": ""
-    },
-    "青岛电视台2套": {
-      "enabled": true,
-      "source": "SD",
-      "epg_name": "QTV-2",
-      "notes": ""
-    },
-    "青岛电视台3套": {
-      "enabled": true,
-      "source": "SD",
-      "epg_name": "QTV-3",
-      "notes": ""
-    },
-    "青岛电视台4套": {
-      "enabled": true,
-      "source": "SD",
-      "epg_name": "QTV-4",
       "notes": ""
     },
     "🐼直播熊猫": {
