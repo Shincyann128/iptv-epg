@@ -1120,13 +1120,17 @@ def group_beijing_static_entries(entries: list[dict]) -> list[dict]:
 
 
 def merge_all_entries(myself_entries: list[dict], sports_entries: list[dict]) -> list[dict]:
-    # Static entries: keep original order, URL dedup
-    seen_urls: set[str] = set()
+    # Static entries: keep original order. Deduplicate only exact same channel name + URL.
+    # Do NOT dedup by URL alone: some IPTV providers expose regional variants with the
+    # same stream URL but different channel names (e.g. TSN 4K CA vs TSN East 4K CA).
+    seen_static: set[tuple[str, str]] = set()
     myself_list: list[dict] = []
     for entry in myself_entries:
         url = entry["url"].strip()
-        if url and url not in seen_urls:
-            seen_urls.add(url)
+        name = entry.get("name", "").strip()
+        key = (name, url)
+        if url and key not in seen_static:
+            seen_static.add(key)
             myself_list.append(dict(entry))
 
     myself_list = group_beijing_static_entries(myself_list)
