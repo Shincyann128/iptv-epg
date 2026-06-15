@@ -1206,7 +1206,7 @@ def fetch_kanqiu_entries() -> list[dict]:
     base, home_data = module.find_api()
     if not base:
         raise RuntimeError("看球吧 API 不可用")
-    streams = module.extract_all_lives(base, home_data)
+    streams = module.extract_recommend_lives(home_data)
     buffer = io.StringIO()
     with redirect_stdout(buffer):
         text = module.generate_m3u(streams)
