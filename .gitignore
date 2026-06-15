@@ -1,1 +1,5 @@
 __pycache__/
+
+# local runtime caches
+tv1288_cache.txt
+tv1288_cache.*

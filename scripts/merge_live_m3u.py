@@ -31,7 +31,10 @@ DYNAMIC_LOCAL_CACHE_TTL = 3 * 3600  # 3 hours; sports merge still runs every 15 
 PPV_CACHE = REPO_ROOT / "ppv_cache.m3u"
 PPV_CACHE_TTL = 12 * 3600  # 12 hours
 FWC4K_URL = "http://82.156.243.185:33389/fwc.m3u"
-SOURCES = ["自用", "动态地方台", "FWC4K", "看球通", "咖啡直播", "看球吧", "857直播", "popo直播", "live-event", "PPV", "damizhibo"]
+TV1288_URL = "https://itv.tv1288.xyz"
+TV1288_CACHE = REPO_ROOT / "tv1288_cache.txt"
+TV1288_CACHE_MAX_AGE = 24 * 3600  # merge skips cache older than 24h
+SOURCES = ["自用", "动态地方台", "FWC4K", "看球通", "咖啡直播", "咪咕直播", "看球吧", "857直播", "popo直播", "live-event", "PPV", "damizhibo"]
 REPLAY_KEYWORDS = ("回放", "录像", "VOD")
 
 DYNAMIC_LOCAL_TARGET_ORDER = [
@@ -44,9 +47,9 @@ DYNAMIC_LOCAL_TARGET_ORDER = [
 DYNAMIC_LOCAL_TARGETS = set(DYNAMIC_LOCAL_TARGET_ORDER)
 
 # ── Source short names & ordering ──
-SOURCE_SHORT = {"FWC4K": "4K杜比", "857直播": "857", "咖啡直播": "咖啡", "看球吧": "看球吧", "看球通": "看球通", "popo直播": "popo", "live-event": "看个球", "PPV": "PPV", "damizhibo": "dami"}
-# Within output groups: 4K杜比 → 咖啡 → 看个球 → popo → dami → 857 → 看球吧 → 看球通 → PPV
-SOURCE_ORDER = {"FWC4K": -1, "咖啡直播": 0, "live-event": 1, "popo直播": 2, "damizhibo": 3, "857直播": 4, "看球吧": 5, "看球通": 6, "PPV": 7}
+SOURCE_SHORT = {"FWC4K": "4K杜比", "857直播": "857", "咖啡直播": "咖啡", "咪咕直播": "咪咕", "看球吧": "看球吧", "看球通": "看球通", "popo直播": "popo", "live-event": "看个球", "PPV": "PPV", "damizhibo": "dami"}
+# Within output groups: 4K杜比 → 咖啡 → 咪咕 → 看个球 → popo → dami → 857 → 看球吧 → 看球通 → PPV
+SOURCE_ORDER = {"FWC4K": -1, "咖啡直播": 0, "咪咕直播": 1, "live-event": 2, "popo直播": 3, "damizhibo": 4, "857直播": 5, "看球吧": 6, "看球通": 7, "PPV": 8}
 SPORT_ORDER = {"足球": 0, "篮球": 1, "电竞": 2, "综合": 3, "回放": 4}
 
 # ── Static category ordering (unchanged) ──
@@ -541,6 +544,21 @@ def parse_damizhibo(raw_name: str, group: str) -> dict:
     }
 
 
+def parse_tv1288(raw_name: str, group: str) -> dict:
+    text = normalize_text(raw_name)
+    m_time = re.match(r'^(\d{1,2}:\d{2})\s+(.+)$', text)
+    display_time = m_time.group(1) if m_time else ""
+    body = m_time.group(2).strip() if m_time else text
+    m = re.match(r'^(.+?)\s+(.+?)\s+vs\s+([^|]+?)(?:\s+(?:清流播出|赛场原声|原声|官方|\d号桌).*)?$', body)
+    if m:
+        league, team1, team2 = m.groups()
+        sport = "篮球" if any(kw in body for kw in ["篮球", "U21", "CBA", "NBA", "篮"]) else "足球"
+        if any(kw in body for kw in ["WTT", "网球", "WTA", "ATP", "斯诺克", "UFC", "女篮热身赛"]):
+            sport = "综合"
+        return {"sport": sport, "is_match": True, "league": league.strip(), "team1": clean_team(team1), "team2": clean_team(team2), "sort_time": display_time, "display_time": display_time}
+    return {"sport": "综合", "is_match": False, "display_extra": f"{display_time} {body}".strip(), "sort_time": display_time}
+
+
 def parse_fwc4k(raw_name: str, group: str) -> dict | None:
     """Parse FWC4K event entry; keep only live-window fixtures."""
     if group != "4K杜比视界世界杯正赛":
@@ -587,6 +605,7 @@ SOURCE_PARSERS = {
     "PPV": parse_ppv,
     "damizhibo": parse_damizhibo,
     "FWC4K": parse_fwc4k,
+    "咪咕直播": parse_tv1288,
 }
 
 # ══════════════════════════════════════════════════
@@ -1144,7 +1163,7 @@ def render_m3u(entries: list[dict]) -> str:
         "# Generated locally by merge_live_m3u.py",
         f"# Sources: {', '.join(SOURCES)}",
         f"# Static channels (自用): from GitHub Shincyann128/iptv myself.m3u",
-        f"# Live sports: 看球通 + 咖啡直播 + 看球吧 + 857直播 + popo直播 + 看个球 + PPV + damizhibo (refreshed every 15 minutes)",
+        f"# Live sports: 看球通 + 咖啡直播 + 咪咕直播 + 看球吧 + 857直播 + popo直播 + 看个球 + PPV + damizhibo (refreshed every 15 minutes)",
         f"# Total streams: {len(entries)}",
         "",
     ]
@@ -1227,6 +1246,121 @@ def fetch_popozhibo_entries() -> list[dict]:
     module = load_module("popozhibo_m3u.py", "popozhibo_m3u")
     text = module.generate_m3u()
     return parse_m3u(text, source="popo直播")
+
+
+def _tv1288_cache_text() -> str:
+    import time
+    import urllib.request
+    if TV1288_CACHE.exists():
+        age = time.time() - TV1288_CACHE.stat().st_mtime
+        if age <= TV1288_CACHE_MAX_AGE:
+            text = TV1288_CACHE.read_text(encoding="utf-8")
+            print(f"  tv1288 cache: {int(age // 60)}m old", file=sys.stderr)
+            return text
+        print(f"  tv1288 cache expired: {int(age // 3600)}h old; skip", file=sys.stderr)
+        return ""
+    try:
+        req = urllib.request.Request(TV1288_URL, headers={"User-Agent": "Mozilla/5.0"})
+        with urllib.request.urlopen(req, timeout=20) as resp:
+            text = resp.read().decode("utf-8", errors="replace")
+        if "#genre#" not in text:
+            raise RuntimeError("返回内容不是 tv1288 文本列表")
+        TV1288_CACHE.write_text(text, encoding="utf-8")
+        print(f"  tv1288 cache: bootstrapped {len(text)} bytes", file=sys.stderr)
+        return text
+    except Exception as exc:
+        print(f"WARN tv1288 cache missing and fetch failed: {exc}", file=sys.stderr)
+        return ""
+
+
+def _tv1288_parse_plain(text: str) -> list[dict]:
+    entries = []
+    group = ""
+    for raw in text.splitlines():
+        line = raw.strip()
+        if not line:
+            continue
+        if line.endswith(",#genre#"):
+            group = line.split(",", 1)[0].strip()
+            continue
+        if "," not in line:
+            continue
+        name, url = line.split(",", 1)
+        name, url = name.strip(), url.strip()
+        if url.startswith("http"):
+            entries.append({"group": group, "name": name, "url": url})
+    return entries
+
+
+def _tv1288_match_time(name: str, group: str):
+    m = list(re.finditer(r'(?:^|\s)(\d{1,2}:\d{2})(?:\s|$)', name))
+    if not m:
+        return None
+    hhmm = m[-1].group(1)
+    try:
+        hh, mm = map(int, hhmm.split(":"))
+    except ValueError:
+        return None
+    today = datetime.now(BJ_TZ).date()
+    if group == "昨天":
+        today = today - timedelta(days=1)
+    elif group == "明天":
+        today = today + timedelta(days=1)
+    return datetime.combine(today, datetime.min.time().replace(hour=hh, minute=mm), BJ_TZ)
+
+
+def _tv1288_is_hls(url: str) -> bool:
+    import urllib.request
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+        with urllib.request.urlopen(req, timeout=7) as resp:
+            status = getattr(resp, "status", 200)
+            data = resp.read(4096).decode("utf-8", errors="ignore")
+        if status != 200:
+            return False
+        return "#EXTM3U" in data and ("#EXT-X-" in data or ".m3u8" in data)
+    except Exception:
+        return False
+
+
+def fetch_tv1288_entries() -> list[dict]:
+    text = _tv1288_cache_text()
+    if not text:
+        return []
+    now = datetime.now(BJ_TZ)
+    raw_entries = _tv1288_parse_plain(text)
+    drop_kw = ("回放", "全场回放", "纯享版回放", "录像", "集锦", "录播", "明天", "预告")
+    host_rank = {"121.23.132.38:7788": 0, "222.134.19.49:8090": 1, "14.153.176.157:1234": 2}
+    candidates: dict[str, list[tuple[int, dict, datetime]]] = {}
+    for e in raw_entries:
+        if e.get("group") != "今天":
+            continue
+        name = e.get("name", "")
+        if any(kw in name for kw in drop_kw):
+            continue
+        match_dt = _tv1288_match_time(name, "今天")
+        if not match_dt:
+            continue
+        if not (match_dt - timedelta(minutes=20) <= now <= match_dt + timedelta(hours=3)):
+            continue
+        key = normalize_text(name)
+        host = re.sub(r'^https?://([^/]+).*', r'\1', e.get("url", ""))
+        candidates.setdefault(key, []).append((host_rank.get(host, 99), e, match_dt))
+    result = []
+    probed = 0
+    for key, variants in sorted(candidates.items(), key=lambda item: item[0]):
+        for _rank, e, match_dt in sorted(variants, key=lambda item: item[0]):
+            probed += 1
+            if not _tv1288_is_hls(e["url"]):
+                continue
+            name = normalize_text(e["name"])
+            hhmm = match_dt.strftime("%H:%M")
+            if not name.startswith(hhmm):
+                name = f"{hhmm} {name}"
+            result.append({"source": "咪咕直播", "group": "咪咕", "name": name, "url": e["url"], "attrs": 'group-title="咪咕"'})
+            break
+    print(f"  tv1288: raw={len(raw_entries)} candidates={len(candidates)} probed={probed} live={len(result)}", file=sys.stderr)
+    return result
 
 
 def fetch_liveevent_entries() -> list[dict]:
@@ -1416,6 +1550,7 @@ def main() -> int:
         ("FWC4K", fetch_fwc4k_entries),
         ("看球通", fetch_kqt_entries),
         ("咖啡直播", fetch_kafei_entries),
+        ("咪咕直播", fetch_tv1288_entries),
         ("看球吧", fetch_kanqiu_entries),
         ("857直播", fetch_857_entries),
         ("popo直播", fetch_popozhibo_entries),
