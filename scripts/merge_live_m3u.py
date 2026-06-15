@@ -1347,19 +1347,17 @@ def fetch_tv1288_entries() -> list[dict]:
         host = re.sub(r'^https?://([^/]+).*', r'\1', e.get("url", ""))
         candidates.setdefault(key, []).append((host_rank.get(host, 99), e, match_dt))
     result = []
-    probed = 0
     for key, variants in sorted(candidates.items(), key=lambda item: item[0]):
-        for _rank, e, match_dt in sorted(variants, key=lambda item: item[0]):
-            probed += 1
-            if not _tv1288_is_hls(e["url"]):
-                continue
-            name = normalize_text(e["name"])
-            hhmm = match_dt.strftime("%H:%M")
-            if not name.startswith(hhmm):
-                name = f"{hhmm} {name}"
-            result.append({"source": "咪咕直播", "group": "咪咕", "name": name, "url": e["url"], "attrs": 'group-title="咪咕"'})
-            break
-    print(f"  tv1288: raw={len(raw_entries)} candidates={len(candidates)} probed={probed} live={len(result)}", file=sys.stderr)
+        if not variants:
+            continue
+        _best = min(variants, key=lambda item: item[0])
+        _rank, e, match_dt = _best
+        name = normalize_text(e["name"])
+        hhmm = match_dt.strftime("%H:%M")
+        if not name.startswith(hhmm):
+            name = f"{hhmm} {name}"
+        result.append({"source": "咪咕直播", "group": "咪咕", "name": name, "url": e["url"], "attrs": 'group-title="咪咕"'})
+    print(f"  tv1288: raw={len(raw_entries)} candidates={len(candidates)} live={len(result)}", file=sys.stderr)
     return result
 
 
