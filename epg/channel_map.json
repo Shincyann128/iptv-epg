@@ -661,6 +661,64 @@
     "🐼直播熊猫": {
       "enabled": false,
       "reason": "直播/主播源，无标准XMLTV"
+    },
+    "Apple f1": {
+      "enabled": false,
+      "reason": "平台专属流(Apple TV)，无标准XMLTV"
+    },
+    "FIFAWC 2026 GAME 01": {
+      "enabled": false,
+      "reason": "2026世界杯临时频道，无标准XMLTV"
+    },
+    "FIFAWC 2026 GAME 02": {
+      "enabled": false,
+      "reason": "2026世界杯临时频道，无标准XMLTV"
+    },
+    "FIFAWC 2026 GAME 03": {
+      "enabled": false,
+      "reason": "2026世界杯临时频道，无标准XMLTV"
+    },
+    "FIFAWC 2026 GAME 04": {
+      "enabled": false,
+      "reason": "2026世界杯临时频道，无标准XMLTV"
+    },
+    "Fussball TV 1 4K DE": {
+      "enabled": true,
+      "source": "DE",
+      "epg_name": "Fussball TV 1 4K",
+      "notes": "德甲足球4K"
+    },
+    "Fussball TV 2 4K DE": {
+      "enabled": true,
+      "source": "DE",
+      "epg_name": "Fussball TV 2 4K",
+      "notes": "德甲足球4K"
+    },
+    "Fussball TV 3 4K DE": {
+      "enabled": true,
+      "source": "DE",
+      "epg_name": "Fussball TV 3 4K",
+      "notes": "德甲足球4K"
+    },
+    "TSN East 4K CA": {
+      "enabled": true,
+      "source": "CA",
+      "epg_name": "TSN 4K",
+      "alias_of": "TSN 4K CA",
+      "notes": "加拿大TSN东部4K"
+    },
+    "TSN West 4K CA": {
+      "enabled": true,
+      "source": "CA",
+      "epg_name": "TSN 4K",
+      "alias_of": "TSN 4K CA",
+      "notes": "加拿大TSN西部4K"
+    },
+    "五星体育": {
+      "enabled": true,
+      "source": "CN",
+      "epg_name": "五星体育",
+      "notes": "上海五星体育"
     }
   }
 }
