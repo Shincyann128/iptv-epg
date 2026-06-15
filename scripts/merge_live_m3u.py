@@ -14,23 +14,39 @@ import re
 import sys
 import unicodedata
 from contextlib import redirect_stdout
+from datetime import datetime, timedelta, timezone
 from difflib import SequenceMatcher
 from pathlib import Path
 from tempfile import NamedTemporaryFile
+
+BJ_TZ = timezone(timedelta(hours=8))
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 REPO_ROOT = SCRIPT_DIR.parent
 OUTPUT_FILE = REPO_ROOT / "live_merged.m3u"
 MYSELF_CACHE = REPO_ROOT / "myself.m3u"
+DYNAMIC_LOCAL_CACHE = REPO_ROOT / "dynamic_local_cache.m3u"
+DYNAMIC_LOCAL_URL = "http://m3u.sjbox.cc/113.m3u"
+DYNAMIC_LOCAL_CACHE_TTL = 3 * 3600  # 3 hours; sports merge still runs every 15 min
 PPV_CACHE = REPO_ROOT / "ppv_cache.m3u"
 PPV_CACHE_TTL = 12 * 3600  # 12 hours
-SOURCES = ["自用", "看球通", "咖啡直播", "看球吧", "857直播", "popo直播", "live-event", "PPV"]
+FWC4K_URL = "http://82.156.243.185:33389/fwc.m3u"
+SOURCES = ["自用", "动态地方台", "FWC4K", "看球通", "咖啡直播", "看球吧", "857直播", "popo直播", "live-event", "PPV", "damizhibo"]
 REPLAY_KEYWORDS = ("回放", "录像", "VOD")
 
+DYNAMIC_LOCAL_TARGET_ORDER = [
+    "青岛电视台1套", "青岛1", "青岛电视台2套", "青岛2",
+    "青岛电视台3套", "青岛3", "青岛电视台4套", "青岛4",
+    "城阳综合", "李沧TV", "即墨综合", "泰山TV",
+    "北京新闻", "北京文艺", "北京生活", "北京影视", "北京财经",
+    "北京体育休闲", "北京纪实科教", "北京纪实", "北京国际",
+]
+DYNAMIC_LOCAL_TARGETS = set(DYNAMIC_LOCAL_TARGET_ORDER)
+
 # ── Source short names & ordering ──
-SOURCE_SHORT = {"857直播": "857", "咖啡直播": "咖啡", "看球吧": "看球吧", "看球通": "看球通", "popo直播": "popo", "live-event": "看个球", "PPV": "PPV"}
-# Within output groups: 咖啡 → 看个球 → popo → 857 → 看球吧 → 看球通 → PPV
-SOURCE_ORDER = {"咖啡直播": 0, "live-event": 1, "popo直播": 2, "857直播": 3, "看球吧": 4, "看球通": 5, "PPV": 6}
+SOURCE_SHORT = {"FWC4K": "4K杜比", "857直播": "857", "咖啡直播": "咖啡", "看球吧": "看球吧", "看球通": "看球通", "popo直播": "popo", "live-event": "看个球", "PPV": "PPV", "damizhibo": "dami"}
+# Within output groups: 4K杜比 → 咖啡 → 看个球 → popo → dami → 857 → 看球吧 → 看球通 → PPV
+SOURCE_ORDER = {"FWC4K": -1, "咖啡直播": 0, "live-event": 1, "popo直播": 2, "damizhibo": 3, "857直播": 4, "看球吧": 5, "看球通": 6, "PPV": 7}
 SPORT_ORDER = {"足球": 0, "篮球": 1, "电竞": 2, "综合": 3, "回放": 4}
 
 # ── Static category ordering (unchanged) ──
@@ -464,6 +480,102 @@ def parse_ppv(raw_name: str, group: str) -> dict:
     }
 
 
+def parse_damizhibo(raw_name: str, group: str) -> dict:
+    """Parse damizhibo.com entry name.
+
+    Format: ⚽ MM-DD HH:MM league team1 vs team2 [line_label]
+    or:     🏀 MM-DD HH:MM league team1 vs team2 [line_label]
+
+    录像 (replay) entries are filtered upstream in fetch_damizhibo_entries().
+    Placeholder entries (官网) are also filtered upstream.
+    """
+    text = normalize_text(raw_name)
+
+    # Emoji → sport detection
+    sport = "足球"
+    if "🏀" in raw_name or "篮球" in raw_name:
+        sport = "篮球"
+
+    # Parse: MM-DD HH:MM league team1 vs team2 [line_label]
+    # Line label is in brackets at the end
+    line_label = ""
+    m_label = re.search(r'\[([^\]]+)\]\s*$', text)
+    if m_label:
+        line_label = m_label.group(1).strip()
+        text = text[:m_label.start()].strip()
+
+    # Match: date time league team1 vs team2
+    m = re.match(r'^(\d{2}-\d{2})\s+(\d{2}:\d{2})\s+(.+?)\s+(.+?)\s+vs\s+(.+?)$', text)
+    if not m:
+        return {"sport": "综合", "is_match": False}
+
+    date_str, time_str, league, team1, team2 = m.groups()
+
+    # Time filter: only include if match is within live window
+    now = datetime.now(BJ_TZ)
+    try:
+        this_year = now.year
+        match_dt = datetime.strptime(f"{this_year}-{date_str} {time_str}", "%Y-%m-%d %H:%M")
+        match_dt = match_dt.replace(tzinfo=BJ_TZ)
+
+        # Handle year boundary (Dec → Jan next year)
+        if match_dt > now + timedelta(days=180):
+            match_dt = match_dt.replace(year=this_year - 1)
+
+        # Live window: 30 min before match to 3 hours after start
+        window_start = match_dt - timedelta(minutes=30)
+        window_end = match_dt + timedelta(hours=3)
+
+        if not (window_start <= now <= window_end):
+            return None  # not live, skip entirely
+
+    except ValueError:
+        return {"sport": "综合", "is_match": False}
+
+    return {
+        "sport": sport, "is_match": True,
+        "league": league.strip(),
+        "team1": clean_team(team1),
+        "team2": clean_team(team2),
+        "line_label": line_label,
+    }
+
+
+def parse_fwc4k(raw_name: str, group: str) -> dict | None:
+    """Parse FWC4K event entry; keep only live-window fixtures."""
+    if group != "4K杜比视界世界杯正赛":
+        return None
+
+    text = raw_name.strip()
+    m = re.match(r'^(.+?)_(\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2})_(\d+)$', text)
+    if not m:
+        return None
+
+    teams, dt_str, _ts_ms = m.groups()
+    parts = re.split(r'\s+v\.\s+', teams, maxsplit=1)
+    if len(parts) != 2:
+        return None
+
+    try:
+        match_dt = datetime.strptime(dt_str, "%Y-%m-%d %H:%M:%S").replace(tzinfo=BJ_TZ)
+    except ValueError:
+        return None
+
+    now = datetime.now(BJ_TZ)
+    if not (match_dt - timedelta(minutes=10) <= now <= match_dt + timedelta(hours=2, minutes=45)):
+        return None
+
+    return {
+        "sport": "足球",
+        "is_match": True,
+        "league": "世界杯",
+        "team1": clean_team(parts[0]),
+        "team2": clean_team(parts[1]),
+        "sort_time": match_dt.strftime("%Y-%m-%d %H:%M:%S"),
+        "display_time": match_dt.strftime("%m-%d %H:%M"),
+    }
+
+
 # Source parser dispatch
 SOURCE_PARSERS = {
     "857直播": parse_857,
@@ -473,6 +585,8 @@ SOURCE_PARSERS = {
     "popo直播": parse_kafei,   # popozhibo 格式与咖啡直播相同: 联赛 Team vs Team | 线路
     "live-event": parse_liveevent,
     "PPV": parse_ppv,
+    "damizhibo": parse_damizhibo,
+    "FWC4K": parse_fwc4k,
 }
 
 # ══════════════════════════════════════════════════
@@ -576,12 +690,15 @@ def render_sports_display(entry: dict) -> str:
         return f"[{src}] {raw}"
 
     parts = [f"[{src}]"]
-    # For PPV entries, show sport category before the match info
-    sport = entry.get("sport", "")
-    if sport and sport != "综合" and src == "PPV":
-        parts.append(sport)
-    if league:
-        parts.append(league)
+    if src == "4K杜比" and entry.get("display_time"):
+        parts.append(entry["display_time"])
+    else:
+        # For PPV entries, show sport category before the match info
+        sport = entry.get("sport", "")
+        if sport and sport != "综合" and src == "PPV":
+            parts.append(sport)
+        if league:
+            parts.append(league)
     parts.append(f"{team1} vs {team2}")
 
     base = " ".join(parts)
@@ -666,6 +783,7 @@ def process_sports_entries(raw_entries: list[dict]) -> list[dict]:
 
     for gkey in groups:
         groups[gkey].sort(key=lambda x: (
+            x.get("sort_time", ""),
             x.get("sport", ""),
             x.get("league", ""),
             x.get("team1", ""),
@@ -799,12 +917,206 @@ def fetch_myself_m3u_text() -> str:
     return "#EXTM3U\n"
 
 
+def fetch_dynamic_local_m3u_text() -> str:
+    """Fetch sjbox local-channel M3U at most every 3h; fall back to cache."""
+    import time
+    import urllib.request
+
+    if DYNAMIC_LOCAL_CACHE.exists():
+        age = time.time() - DYNAMIC_LOCAL_CACHE.stat().st_mtime
+        if age < DYNAMIC_LOCAL_CACHE_TTL:
+            text = DYNAMIC_LOCAL_CACHE.read_text(encoding="utf-8")
+            print(f"动态地方台: cache ({int(age // 60)}m old)", file=sys.stderr)
+            return text
+
+    try:
+        req = urllib.request.Request(
+            DYNAMIC_LOCAL_URL,
+            headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"},
+        )
+        with urllib.request.urlopen(req, timeout=15) as resp:
+            text = resp.read().decode("utf-8", errors="replace")
+        if "#EXTM3U" not in text or "#EXTINF" not in text:
+            raise RuntimeError("返回内容不是 M3U")
+        DYNAMIC_LOCAL_CACHE.write_text(text, encoding="utf-8")
+        print(f"动态地方台: fetched {len(text)} bytes", file=sys.stderr)
+        return text
+    except Exception as exc:
+        if DYNAMIC_LOCAL_CACHE.exists():
+            text = DYNAMIC_LOCAL_CACHE.read_text(encoding="utf-8")
+            print(f"WARN 动态地方台: {exc}; using cache", file=sys.stderr)
+            return text
+        raise RuntimeError(f"动态地方台不可用: {exc}")
+
+
+def dynamic_target_key(name: str) -> str:
+    name = normalize_text(name)
+    name = re.sub(r"\s+", "", name)
+    aliases = {
+        "北京纪实": "北京纪实科教",
+    }
+    return aliases.get(name, name)
+
+
+def dynamic_url_script(url: str) -> str:
+    m = re.search(r"/(live_[a-z0-9_]+\.php)\?", url)
+    return m.group(1) if m else ""
+
+
+def is_dynamic_local_stream_usable(url: str) -> bool:
+    """Probe sjbox dynamic local streams before exposing them to APTV."""
+    if not url.startswith("http"):
+        return False
+    import urllib.request
+
+    try:
+        req = urllib.request.Request(
+            url,
+            headers={
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+                "Range": "bytes=0-2047",
+            },
+        )
+        with urllib.request.urlopen(req, timeout=6) as resp:
+            status = getattr(resp, "status", 200)
+            data = resp.read(2048)
+        if status >= 400:
+            return False
+        if not data:
+            return False
+        head = data[:512].decode("utf-8", errors="ignore")
+        # Accept HLS playlists and obvious media bytes; reject HTML/error pages.
+        if "<html" in head.lower() or "error" in head.lower():
+            return False
+        return True
+    except Exception:
+        return False
+
+
+def dynamic_entry_score(entry: dict) -> int:
+    """Prefer 山东/北京联通 direct live PHP URLs from the sjbox source."""
+    group = entry.get("group", "")
+    url = entry.get("url", "")
+    name = entry.get("name", "")
+    score = 0
+    if group == "山东频道" and any(x in name for x in ("青岛", "城阳", "李沧", "即墨", "泰山")):
+        score += 50
+    if group == "北京联通" and name.startswith("北京"):
+        score += 50
+    if "live_sd.php" in url or "live_bjlt.php" in url:
+        score += 20
+    if url.startswith("http"):
+        score += 5
+    return score
+
+
+def fetch_dynamic_local_entries() -> list[dict]:
+    """Fetch selected daily-refreshed local channels as standalone entries.
+
+    These streams are intentionally not written back into myself.m3u: sjbox URLs
+    can rotate daily, so they are appended during merge only.
+    """
+    text = fetch_dynamic_local_m3u_text()
+    entries = parse_m3u(text, source="动态地方台")
+    wanted = {dynamic_target_key(n) for n in DYNAMIC_LOCAL_TARGETS}
+    picked: dict[tuple[str, str], dict] = {}
+    for entry in entries:
+        name_key = dynamic_target_key(entry.get("name", ""))
+        if name_key not in wanted:
+            continue
+        entry = dict(entry)
+        # Normalize aliases so identical Beijing channels are rendered together.
+        if name_key == "北京纪实科教" and entry.get("name") == "北京纪实":
+            entry["name"] = "北京纪实科教"
+        entry["source"] = "动态地方台"
+        entry["group"] = normalize_self_group(entry)
+        key = (name_key, dynamic_url_script(entry.get("url", "")))
+        old = picked.get(key)
+        if old is None or dynamic_entry_score(entry) > dynamic_entry_score(old):
+            picked[key] = entry
+
+    usable_picked: dict[tuple[str, str], dict] = {}
+    disabled_markers = ("110.40.170.5:8889",)
+    disabled = 0
+    for key, entry in picked.items():
+        url = entry.get("url", "")
+        if any(marker in url for marker in disabled_markers):
+            disabled += 1
+            continue
+        if is_dynamic_local_stream_usable(url):
+            usable_picked[key] = entry
+    skipped = len(picked) - len(usable_picked)
+    picked = usable_picked
+    if disabled:
+        print(f"动态地方台: disabled {disabled} sjbox streams", file=sys.stderr)
+    elif skipped:
+        print(f"动态地方台: skipped {skipped} unusable streams", file=sys.stderr)
+
+    found_names = {name for name, _script in picked}
+    print(f"动态地方台: picked {len(found_names)}/{len(wanted)} names, {len(picked)} variants", file=sys.stderr)
+
+    # Stable output order follows DYNAMIC_LOCAL_TARGETS display order, variants grouped by script.
+    target_order = {dynamic_target_key(name): i for i, name in enumerate(DYNAMIC_LOCAL_TARGET_ORDER)}
+    return sorted(
+        picked.values(),
+        key=lambda e: (target_order.get(dynamic_target_key(e.get("name", "")), 999), e.get("name", ""), dynamic_url_script(e.get("url", ""))),
+    )
+
+
 def fetch_myself_entries() -> list[dict]:
     text = fetch_myself_m3u_text()
     entries = parse_m3u(text, source="自用")
+    # Global disabled-markers filter: block known-dead URLs from ANY source.
+    _DISABLED_URL_MARKERS = ("110.40.170.5:8889",)
+    filtered = []
     for entry in entries:
+        url = entry.get("url", "")
+        if any(marker in url for marker in _DISABLED_URL_MARKERS):
+            continue
         entry["group"] = normalize_self_group(entry)
-    return entries
+        filtered.append(entry)
+    if len(filtered) < len(entries):
+        print(f"自用: filtered out {len(entries) - len(filtered)} disabled-URL entries", file=sys.stderr)
+    return filtered
+
+
+def beijing_group_key(entry: dict) -> str:
+    aliases = {
+        "北京纪实": "北京纪实科教",
+    }
+    name = str(entry.get("name") or "")
+    return aliases.get(name, name)
+
+
+def is_beijing_entry(entry: dict) -> bool:
+    return entry.get("name", "").startswith("北京")
+
+
+def group_beijing_static_entries(entries: list[dict]) -> list[dict]:
+    """Keep Beijing variants together while preserving non-Beijing static order."""
+    first_beijing_index = next((i for i, e in enumerate(entries) if is_beijing_entry(e)), None)
+    if first_beijing_index is None:
+        return entries
+
+    first_seen: dict[str, int] = {}
+    for entry in entries:
+        if is_beijing_entry(entry):
+            first_seen.setdefault(beijing_group_key(entry), len(first_seen))
+
+    beijing_entries = [e for e in entries if is_beijing_entry(e)]
+    non_beijing_entries = [e for e in entries if not is_beijing_entry(e)]
+    sorted_beijing = sorted(
+        beijing_entries,
+        key=lambda e: (
+            first_seen.get(beijing_group_key(e), 999),
+            beijing_group_key(e),
+            0 if e.get("source") == "自用" else 1,
+            e.get("url", ""),
+        ),
+    )
+
+    insert_at = sum(1 for e in entries[:first_beijing_index] if not is_beijing_entry(e))
+    return non_beijing_entries[:insert_at] + sorted_beijing + non_beijing_entries[insert_at:]
 
 
 def merge_all_entries(myself_entries: list[dict], sports_entries: list[dict]) -> list[dict]:
@@ -816,6 +1128,8 @@ def merge_all_entries(myself_entries: list[dict], sports_entries: list[dict]) ->
         if url and url not in seen_urls:
             seen_urls.add(url)
             myself_list.append(dict(entry))
+
+    myself_list = group_beijing_static_entries(myself_list)
 
     # Process sports entries through new pipeline
     sports_processed = process_sports_entries(sports_entries)
@@ -829,20 +1143,21 @@ def render_m3u(entries: list[dict]) -> str:
         "# Generated locally by merge_live_m3u.py",
         f"# Sources: {', '.join(SOURCES)}",
         f"# Static channels (自用): from GitHub Shincyann128/iptv myself.m3u",
-        f"# Live sports: 看球通 + 咖啡直播 + 看球吧 + 857直播 + popo直播 + 看个球 + PPV (refreshed every 15 minutes)",
+        f"# Live sports: 看球通 + 咖啡直播 + 看球吧 + 857直播 + popo直播 + 看个球 + PPV + damizhibo (refreshed every 15 minutes)",
         f"# Total streams: {len(entries)}",
         "",
     ]
+    static_sources = {"自用", "动态地方台"}
     last_source = None
     for entry in entries:
         source = entry.get("source", "")
-        if last_source == "自用" and source != "自用":
-            lines.append("# ===== 体育直播（每小时刷新）=====")
+        if last_source in static_sources and source not in static_sources:
+            lines.append("# ===== 体育直播（每15分钟刷新）=====")
             lines.append("")
         last_source = source
 
-        if source == "自用":
-            # Static: keep original format
+        if source in static_sources:
+            # Static/local channels: keep original format
             display_name = entry["name"]
             group = entry.get("group", "其他")
         else:
@@ -950,6 +1265,50 @@ def fetch_liveevent_entries() -> list[dict]:
     return parse_m3u("\n".join(resolved), source="live-event")
 
 
+def _fwc4k_playlist_is_live(url: str) -> bool:
+    """Return True only for real live event playlists, not end*.ts placeholders."""
+    import urllib.request
+
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+        with urllib.request.urlopen(req, timeout=8) as resp:
+            text = resp.read(4096).decode("utf-8", errors="ignore")
+    except Exception:
+        return False
+
+    if "#EXT-X-ENDLIST" in text:
+        return False
+    if re.search(r'(^|/)end\d+\.ts', text):
+        return False
+    return bool(".ts" in text or "/s?n=" in text or "#EXT-X-MEDIA-SEQUENCE" in text)
+
+
+def fetch_fwc4k_entries() -> list[dict]:
+    """Fetch FWC4K events and keep only currently live 4K Dolby World Cup matches."""
+    import urllib.request
+
+    try:
+        req = urllib.request.Request(FWC4K_URL, headers={"User-Agent": "Mozilla/5.0"})
+        with urllib.request.urlopen(req, timeout=15) as resp:
+            text = resp.read().decode("utf-8")
+    except Exception as exc:
+        raise RuntimeError(f"FWC4K 不可用: {exc}")
+
+    raw_entries = parse_m3u(text, source="FWC4K")
+    candidates = []
+    for e in raw_entries:
+        if e.get("group") != "4K杜比视界世界杯正赛":
+            continue
+        if not parse_fwc4k(e.get("name", ""), e.get("group", "")):
+            continue
+        if not _fwc4k_playlist_is_live(e.get("url", "")):
+            continue
+        candidates.append(e)
+
+    print(f"  FWC4K: raw={len(raw_entries)} live={len(candidates)}", file=sys.stderr)
+    return candidates
+
+
 def fetch_ppv_entries() -> list[dict]:
     """Fetch PPV M3U from korice.eu.org, cached for 12 hours."""
     import os
@@ -984,6 +1343,45 @@ def fetch_ppv_entries() -> list[dict]:
     return parse_m3u(text, source="PPV")
 
 
+def fetch_damizhibo_entries() -> list[dict]:
+    """Fetch M3U from damizhibo.com, filter to only live matches.
+
+    Filters out:
+    - 录像 (replay) entries
+    - Placeholder entries (官网：)
+    - Future matches not yet in live window
+    """
+    import urllib.request
+
+    url = "https://damizhibo.com/iptv.m3u"
+    try:
+        req = urllib.request.Request(
+            url,
+            headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
+        )
+        with urllib.request.urlopen(req, timeout=15) as resp:
+            text = resp.read().decode("utf-8")
+    except Exception as exc:
+        raise RuntimeError(f"damizhibo 不可用: {exc}")
+
+    entries = parse_m3u(text, source="damizhibo")
+
+    # Filter: remove 录像 groups, placeholder entries, and non-live matches
+    filtered = []
+    for e in entries:
+        # Skip 录像 groups
+        if "录像" in e.get("group", ""):
+            continue
+        # Skip placeholder entries (官网：)
+        name = e.get("name", "")
+        if "官网" in name or "dami.live" in name or "ricetv" in name:
+            continue
+        filtered.append(e)
+
+    print(f"  damizhibo: raw={len(entries)} filtered={len(filtered)}", file=sys.stderr)
+    return filtered
+
+
 def write_atomic(path: Path, content: str):
     path.parent.mkdir(parents=True, exist_ok=True)
     with NamedTemporaryFile("w", encoding="utf-8", delete=False, dir=path.parent) as tmp:
@@ -1003,9 +1401,18 @@ def main() -> int:
         print(f"WARN 自用: {exc}", file=sys.stderr)
         myself_entries = []
 
-    # 2) Sports
+    # 2) Daily-refreshed local channels
+    try:
+        dynamic_local_entries = fetch_dynamic_local_entries()
+        print(f"动态地方台: {len(dynamic_local_entries)}", file=sys.stderr)
+    except Exception as exc:
+        print(f"WARN 动态地方台: {exc}", file=sys.stderr)
+        dynamic_local_entries = []
+
+    # 3) Sports
     sports_entries = []
     for label, fn in (
+        ("FWC4K", fetch_fwc4k_entries),
         ("看球通", fetch_kqt_entries),
         ("咖啡直播", fetch_kafei_entries),
         ("看球吧", fetch_kanqiu_entries),
@@ -1013,6 +1420,7 @@ def main() -> int:
         ("popo直播", fetch_popozhibo_entries),
         ("live-event", fetch_liveevent_entries),
         ("PPV", fetch_ppv_entries),
+        ("damizhibo", fetch_damizhibo_entries),
     ):
         try:
             entries = fn()
@@ -1021,14 +1429,16 @@ def main() -> int:
         except Exception as exc:
             print(f"WARN {label}: {exc}", file=sys.stderr)
 
-    if not sports_entries and not myself_entries:
+    static_entries = myself_entries + dynamic_local_entries
+
+    if not sports_entries and not static_entries:
         raise RuntimeError("所有源都没有抓到可用流")
 
-    merged = merge_all_entries(myself_entries, sports_entries)
+    merged = merge_all_entries(static_entries, sports_entries)
     content = render_m3u(merged)
     write_atomic(OUTPUT_FILE, content)
 
-    static_count = len(myself_entries)
+    static_count = len(static_entries)
     sports_count = len(merged) - static_count
     print(
         f"Wrote {len(merged)} merged streams ({static_count} static + {sports_count} sports) to {OUTPUT_FILE}"
