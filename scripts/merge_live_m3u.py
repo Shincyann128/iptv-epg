@@ -1350,13 +1350,13 @@ def fetch_tv1288_entries() -> list[dict]:
     for key, variants in sorted(candidates.items(), key=lambda item: item[0]):
         if not variants:
             continue
-        _best = min(variants, key=lambda item: item[0])
-        _rank, e, match_dt = _best
-        name = normalize_text(e["name"])
-        hhmm = match_dt.strftime("%H:%M")
-        if not name.startswith(hhmm):
-            name = f"{hhmm} {name}"
-        result.append({"source": "咪咕直播", "group": "咪咕", "name": name, "url": e["url"], "attrs": 'group-title="咪咕"'})
+        # Keep all mirrors — different hosts may have different availability for the user's APTV
+        for _rank, e, match_dt in sorted(variants, key=lambda item: item[0]):
+            name = normalize_text(e["name"])
+            hhmm = match_dt.strftime("%H:%M")
+            if not name.startswith(hhmm):
+                name = f"{hhmm} {name}"
+            result.append({"source": "咪咕直播", "group": "咪咕", "name": name, "url": e["url"], "attrs": 'group-title="咪咕"'})
     print(f"  tv1288: raw={len(raw_entries)} candidates={len(candidates)} live={len(result)}", file=sys.stderr)
     return result
 
