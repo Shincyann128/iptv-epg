@@ -719,6 +719,26 @@
       "source": "CN",
       "epg_name": "五星体育",
       "notes": "上海五星体育"
+    },
+    "五四广场": {
+      "enabled": false,
+      "notes": "城市直播-无EPG"
+    },
+    "奥帆中心": {
+      "enabled": false,
+      "notes": "城市直播-无EPG"
+    },
+    "快速路大润发/南京路方向": {
+      "enabled": false,
+      "notes": "城市直播-无EPG"
+    },
+    "胶宁高架福州路口南段": {
+      "enabled": false,
+      "notes": "城市直播-无EPG"
+    },
+    "胶宁高架银川西路/宁夏路口": {
+      "enabled": false,
+      "notes": "城市直播-无EPG"
     }
   }
 }
