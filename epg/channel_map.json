@@ -497,6 +497,49 @@
       "epg_name": "読売テレビ",
       "notes": "关西地方台 ytv"
     },
+    "CCTV4K": {
+      "enabled": true,
+      "source": "CN",
+      "epg_name": "CCTV4K",
+      "alias_of": "CCTV4K",
+      "notes": "未分类条目"
+    },
+    "崂山二龙山": {
+      "enabled": false,
+      "reason": "崂山景点监控摄像头，无标准XMLTV"
+    },
+    "崂山华藏世界门": {
+      "enabled": false,
+      "reason": "崂山景点监控摄像头，无标准XMLTV"
+    },
+    "崂山太清湾": {
+      "enabled": false,
+      "reason": "崂山景点监控摄像头，无标准XMLTV"
+    },
+    "崂山寿字峰": {
+      "enabled": false,
+      "reason": "崂山景点监控摄像头，无标准XMLTV"
+    },
+    "崂山山海胜境": {
+      "enabled": false,
+      "reason": "崂山景点监控摄像头，无标准XMLTV"
+    },
+    "崂山巨峰广场": {
+      "enabled": false,
+      "reason": "崂山景点监控摄像头，无标准XMLTV"
+    },
+    "崂山潮音瀑": {
+      "enabled": false,
+      "reason": "崂山景点监控摄像头，无标准XMLTV"
+    },
+    "崂山灵旗峰": {
+      "enabled": false,
+      "reason": "崂山景点监控摄像头，无标准XMLTV"
+    },
+    "崂山狮子峰": {
+      "enabled": false,
+      "reason": "崂山景点监控摄像头，无标准XMLTV"
+    },
     "ytv (Primehome)": {
       "enabled": true,
       "source": "JPT",
