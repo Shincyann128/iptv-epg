@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Merge static + sports M3U with per-source parsing & match-grouped output.
 
-Sports entries from 看球通/咖啡直播/看球吧/857直播 are parsed per-source,
+Sports entries from 看球通/咖啡直播/看球吧 are parsed per-source,
 clustered by match within the same sport+league, and rendered in
 a uniform `[src] league team1 vs team2 | extra` format.
 
@@ -34,7 +34,7 @@ FWC4K_URL = "http://82.156.243.185:33389/fwc.m3u"
 TV1288_URL = "https://itv.tv1288.xyz"
 TV1288_CACHE = REPO_ROOT / "tv1288_cache.txt"
 TV1288_CACHE_MAX_AGE = 24 * 3600  # merge skips cache older than 24h
-SOURCES = ["自用", "动态地方台", "FWC4K", "看球通", "咖啡直播", "咪咕直播", "看球吧", "857直播", "popo直播", "live-event", "PPV", "damizhibo"]
+SOURCES = ["自用", "动态地方台", "FWC4K", "看球通", "咖啡直播", "咪咕直播", "看球吧", "popo直播", "live-event", "PPV", "damizhibo"]
 REPLAY_KEYWORDS = ("回放", "录像", "VOD")
 
 DYNAMIC_LOCAL_TARGET_ORDER = [
@@ -47,9 +47,9 @@ DYNAMIC_LOCAL_TARGET_ORDER = [
 DYNAMIC_LOCAL_TARGETS = set(DYNAMIC_LOCAL_TARGET_ORDER)
 
 # ── Source short names & ordering ──
-SOURCE_SHORT = {"FWC4K": "4K杜比", "857直播": "857", "咖啡直播": "咖啡", "咪咕直播": "咪咕", "看球吧": "看球吧", "看球通": "看球通", "popo直播": "popo", "live-event": "看个球", "PPV": "PPV", "damizhibo": "dami"}
-# Within output groups: 4K杜比 → 咖啡 → 咪咕 → 看个球 → popo → dami → 857 → 看球吧 → 看球通 → PPV
-SOURCE_ORDER = {"FWC4K": -1, "咖啡直播": 0, "咪咕直播": 1, "live-event": 2, "popo直播": 3, "damizhibo": 4, "857直播": 5, "看球吧": 6, "看球通": 7, "PPV": 8}
+SOURCE_SHORT = {"FWC4K": "4K杜比", "咖啡直播": "咖啡", "咪咕直播": "咪咕", "看球吧": "看球吧", "看球通": "看球通", "popo直播": "popo", "live-event": "看个球", "PPV": "PPV", "damizhibo": "dami"}
+# Within output groups: 4K杜比 → 咖啡 → 咪咕 → 看个球 → popo → dami → 看球吧 → 看球通 → PPV
+SOURCE_ORDER = {"FWC4K": -1, "咖啡直播": 0, "咪咕直播": 1, "live-event": 2, "popo直播": 3, "damizhibo": 4, "看球吧": 5, "看球通": 6, "PPV": 7}
 SPORT_ORDER = {"足球": 0, "篮球": 1, "电竞": 2, "综合": 3, "回放": 4}
 
 # ── Static category ordering (unchanged) ──
@@ -113,10 +113,10 @@ def to_simplified(text: str) -> str:
 
 # Phonetic normalization for sports team name variants
 _PHONETIC_FIXES = [
-    ("莎索罗", "萨索洛"),   # 857 uses 莎索羅→莎索罗, standard is 萨索洛 (Sassuolo)
+    ("莎索罗", "萨索洛"),   # Sassuolo phonetic variant
     ("莎索洛", "萨索洛"),
-    ("萨索罗", "萨索洛"),   # after trad→simp: 莎→萨 but 罗≠洛
-    ("史托港", "斯托克港"),  # 857 phonetic variant (Stockport)
+    ("萨索罗", "萨索洛"),
+    ("史托港", "斯托克港"),  # Stockport phonetic variant
 ]
 
 
@@ -126,7 +126,7 @@ def normalize_text(text: str) -> str:
     text = text.replace('：', ' ').replace('｜', ' | ')
     text = unicodedata.normalize("NFKC", text)
     text = to_simplified(text)
-    # 857-specific: convert special separator symbols (must be BEFORE decorative removal)
+    # Convert special separator symbols (must be BEFORE decorative removal)
     text = text.replace('✔', ' vs ').replace('▲', ' vs ')
     # Strip bracket-wrapped league prefixes: 【英超】→ 英超, 〖中超〗→ 中超
     text = re.sub(r'[【〖]([^】〗]*)[】〗]', r' \1 ', text)
@@ -596,7 +596,6 @@ def parse_fwc4k(raw_name: str, group: str) -> dict | None:
 
 # Source parser dispatch
 SOURCE_PARSERS = {
-    "857直播": parse_857,
     "咖啡直播": parse_kafei,
     "看球吧": parse_kanqiu,
     "看球通": parse_kqt,
@@ -1163,7 +1162,7 @@ def render_m3u(entries: list[dict]) -> str:
         "# Generated locally by merge_live_m3u.py",
         f"# Sources: {', '.join(SOURCES)}",
         f"# Static channels (自用): from GitHub Shincyann128/iptv myself.m3u",
-        f"# Live sports: 看球通 + 咖啡直播 + 咪咕直播 + 看球吧 + 857直播 + popo直播 + 看个球 + PPV + damizhibo (refreshed every 15 minutes)",
+        f"# Live sports: 看球通 + 咖啡直播 + 咪咕直播 + 看球吧 + popo直播 + 看个球 + PPV + damizhibo (refreshed every 15 minutes)",
         f"# Total streams: {len(entries)}",
         "",
     ]
@@ -1231,15 +1230,6 @@ def fetch_kanqiu_entries() -> list[dict]:
     with redirect_stdout(buffer):
         text = module.generate_m3u(streams)
     return parse_m3u(text, source="看球吧")
-
-
-def fetch_857_entries() -> list[dict]:
-    module = load_module("update_857_live.py", "update_857_live")
-    rooms = module.fetch_rooms()
-    entries = module.build_entries(rooms)
-    print(f"  857 DEBUG: raw={len(rooms)} built={len(entries)}", file=sys.stderr)
-    text = module.render(entries)
-    return parse_m3u(text, source="857直播")
 
 
 def fetch_popozhibo_entries() -> list[dict]:
@@ -1550,7 +1540,6 @@ def main() -> int:
         ("咖啡直播", fetch_kafei_entries),
         ("咪咕直播", fetch_tv1288_entries),
         ("看球吧", fetch_kanqiu_entries),
-        ("857直播", fetch_857_entries),
         ("popo直播", fetch_popozhibo_entries),
         ("live-event", fetch_liveevent_entries),
         ("PPV", fetch_ppv_entries),

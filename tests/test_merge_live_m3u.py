@@ -60,7 +60,7 @@ def test_render_adds_source_prefix_and_header_summary():
 
     text = merge_live_m3u.render_m3u(entries)
 
-    assert '# Sources: 自用, 动态地方台, FWC4K, 看球通, 咖啡直播, 咪咕直播, 看球吧, 857直播, popo直播, live-event, PPV, damizhibo' in text
+    assert '# Sources: 自用, 动态地方台, FWC4K, 看球通, 咖啡直播, 咪咕直播, 看球吧, popo直播, live-event, PPV, damizhibo' in text
     assert '# Total streams: 2' in text
     assert '欧联杯 弗赖堡 vs 阿斯顿维拉' in text
     assert 'NBA 骑士VS猛龙' in text

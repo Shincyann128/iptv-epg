@@ -3,3 +3,11 @@ __pycache__/
 # local runtime caches
 tv1288_cache.txt
 tv1288_cache.*
+
+# generated/copied files
+dynamic_local_cache.m3u
+live_merged.m3u
+myself.m3u
+ppv_cache.m3u
+*.log
+*.bak
