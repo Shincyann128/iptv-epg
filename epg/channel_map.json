@@ -743,6 +743,36 @@
     "胶宁高架银川西路/宁夏路口": {
       "enabled": false,
       "notes": "城市直播-无EPG"
+    },
+    "惊艳台": {
+      "enabled": true,
+      "source": "TW",
+      "epg_name": "驚豔成人電影台",
+      "notes": "epg.pw TW 源"
+    },
+    "松视1": {
+      "enabled": true,
+      "source": "TW",
+      "epg_name": "松視1台",
+      "notes": "epg.pw TW 源"
+    },
+    "松视2": {
+      "enabled": true,
+      "source": "TW",
+      "epg_name": "松視2台",
+      "notes": "epg.pw TW 源"
+    },
+    "松视3": {
+      "enabled": true,
+      "source": "TW",
+      "epg_name": "松視3台",
+      "notes": "epg.pw TW 源"
+    },
+    "潘朵拉": {
+      "enabled": true,
+      "source": "TW",
+      "epg_name": "潘朵啦高畫質玩美台",
+      "notes": "按用户要求固定用玩美台"
     }
   }
 }
