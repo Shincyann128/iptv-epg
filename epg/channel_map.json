@@ -632,30 +632,6 @@
       "alias_of": "广东卫视",
       "notes": "4K台先复用普通卫视节目单"
     },
-    "惊艳台": {
-      "enabled": true,
-      "source": "TW",
-      "epg_name": "驚豔成人電影台",
-      "notes": "epg.pw TW 源"
-    },
-    "松视1": {
-      "enabled": true,
-      "source": "TW",
-      "epg_name": "松視1台",
-      "notes": "epg.pw TW 源"
-    },
-    "松视2": {
-      "enabled": true,
-      "source": "TW",
-      "epg_name": "松視2台",
-      "notes": "epg.pw TW 源"
-    },
-    "松视3": {
-      "enabled": true,
-      "source": "TW",
-      "epg_name": "松視3台",
-      "notes": "epg.pw TW 源"
-    },
     "江苏卫视4K": {
       "enabled": true,
       "source": "CN",
@@ -683,12 +659,6 @@
       "epg_name": "湖南卫视",
       "alias_of": "湖南卫视",
       "notes": "4K台先复用普通卫视节目单"
-    },
-    "潘朵拉": {
-      "enabled": true,
-      "source": "TW",
-      "epg_name": "潘朵啦高畫質玩美台",
-      "notes": "按用户要求固定用玩美台"
     },
     "百里浪": {
       "enabled": false,
