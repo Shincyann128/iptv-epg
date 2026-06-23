@@ -1069,7 +1069,7 @@
   </programme>
   <programme start="20260624042500 +0800" stop="20260624062000 +0800" channel="Kansai TV (Primehome)">
     <title lang="ja">めざましテレビ[デ]</title>
-    <desc lang="ja">ニュース&amp;スポーツにエンタメ&amp;トレンド家族で見たい新情報のシャワー▽ココ調で身近な疑問検証▽めざましじゃんけん▽きょうのわんこ▽紙兎ロペ▽占い</desc>
+    <desc lang="ja">目覚める朝に新情報をニュース&amp;スポーツ&amp;エンタメ▽ココ調でギモン検証▽イマドキなトレンド▽話題深掘りカイトウ▽わんこ&amp;ロペ&amp;占い▽最新!あまゆか天気</desc>
     <category lang="ja">ニュース／報道</category>
   </programme>
   <programme start="20260624062000 +0800" stop="20260624091000 +0800" channel="Kansai TV (Primehome)">
@@ -1098,7 +1098,7 @@
     <category lang="ja">ニュース／報道</category>
   </programme>
   <programme start="20260624104700 +0800" stop="20260624125000 +0800" channel="Kansai TV (Primehome)">
-    <title lang="ja">ぽかぽか[字]　スキマスイッチ語る人気チェーン店への愛▽工藤静香&amp;大泉洋が(秘)素顔暴露</title>
+    <title lang="ja">ぽかぽか[字]　スキマスイッチ語る人気チェーン店への愛▽工藤静香&amp;大泉洋明かす(秘)素顔</title>
     <desc lang="ja">数々のヒット曲を生む2人が楽曲誕生秘話を激白▽愛してやまない「CoCo壱」への愛を語る!現役社員激推しトッピングクイズで数量限定メニューをゲットせよ!</desc>
     <category lang="ja">バラエティ</category>
   </programme>
@@ -1132,6 +1132,7 @@
     <title lang="ja">奇跡体験!アンビリバボー[字]【カメラが捉えた!ご近所!衝撃の実話SP】</title>
     <desc lang="ja">あなたの身にも起こり得る?ご近所の天国と地獄▼閑静な住宅地に銃声…引き金は子供の声!?衝撃の映像が語る真相とは!!▼温もりあふれる6歳とおばあちゃんの交流</desc>
     <category lang="ja">バラエティ</category>
+    <image>https://tvguide.myjcom.jp/monomedia/sirc/460000/460246/image/cfd28f490bd5fe96e7a60fd969c792e9.jpg</image>
   </programme>
   <programme start="20260624195400 +0800" stop="20260624200000 +0800" channel="Kansai TV (Primehome)">
     <title lang="ja">newsランナープラス[字]　最新ニュースをチェック!</title>
@@ -1322,8 +1323,8 @@
     <category lang="ja">ニュース／報道</category>
   </programme>
   <programme start="20260623155000 +0800" stop="20260623164800 +0800" channel="Kansai TV (Primehome)">
-    <title lang="ja">newsランナー[字]　▼冷凍庫に男性損壊遺体…神戸の住宅で何が元刑事部長が事件解説</title>
-    <desc lang="ja">▼冷凍庫に男性の損壊遺体…神戸の集合住宅で何が、身元判明は?元刑事部長が事件を徹底解説▼高級カジノ投資詐欺、信じ込ませる巧妙手口、100億円詐取の闇をツイセキ</desc>
+    <title lang="ja">newsランナー[字]　▼神戸・冷凍庫に男性切断遺体死亡時期は約15年前捜査の行方は</title>
+    <desc lang="ja">▼冷凍庫の男性切断遺体…死亡時期は約15年前元刑事部長が事件を徹底解説▼9年前の暴力団員射殺事件指名手配の男逮捕▼高級カジノ投資詐欺100億円詐取の闇をツイセキ</desc>
     <category lang="ja">ニュース／報道</category>
   </programme>
   <programme start="20260623164800 +0800" stop="20260623180000 +0800" channel="Kansai TV (Primehome)">
@@ -1393,8 +1394,8 @@
     <category lang="ja">バラエティ</category>
   </programme>
   <programme start="20260624013000 +0800" stop="20260624020000 +0800" channel="MBS (Primehome)">
-    <title lang="ja">愛してるゲームを終わらせたい #11</title>
-    <desc lang="ja">▽負けられない『恋のゲーム』が今、始まる。</desc>
+    <title lang="ja">愛してるゲームを終わらせたい ＃１１「幼なじみは抱きしめる」</title>
+    <desc lang="ja">みくが熱を出して学校を休み、いてもたってもいられず駆けつけた優希也。差し入れを抱えて現れ、甲斐甲斐しく看病をしていく。一方、みくは胸にしまっていた想いが溢れ……</desc>
     <category lang="ja">アニメ／特撮</category>
   </programme>
   <programme start="20260624020000 +0800" stop="20260624023000 +0800" channel="MBS (Primehome)">
@@ -1638,8 +1639,8 @@
     <category lang="ja">情報／ワイドショー</category>
   </programme>
   <programme start="20260623125500 +0800" stop="20260623144000 +0800" channel="MBS (Primehome)">
-    <title lang="ja">ゴゴスマ</title>
-    <desc lang="ja">梅雨空続く 雲多くムシムシ天気…台風７号接近？影響は 今週後半は大雨警戒？▼知人女性に暴行か…注目デヴィ夫人初公判 (他)（予定）</desc>
+    <title lang="ja">ゴゴスマ【“ダブル台風”発生 週末列島へ 最新進路▼現場中継…５歳男児 行方不明】</title>
+    <desc lang="ja">“ダブル台風”発生 週末列島へ 日曜 関東直撃おそれも…▼現場中継…５歳男児 行方不明 家族４人で入浴中▼裁判速報…デヴィ夫人“暴行容疑”初公判 (他)(予定)</desc>
     <category lang="ja">情報／ワイドショー</category>
   </programme>
   <programme start="20260623144000 +0800" stop="20260623165000 +0800" channel="MBS (Primehome)">
@@ -55537,10 +55538,15 @@
     <desc lang="ja" />
     <category lang="ja">ニュース／報道</category>
   </programme>
-  <programme start="20260624052500 +0800" stop="20260624053000 +0800" channel="NHK G Osaka (Primehome)">
+  <programme start="20260624052500 +0800" stop="20260624052800 +0800" channel="NHK G Osaka (Primehome)">
     <title lang="ja">青海チベット鉄道「崑崙山脈をゆく」[字]</title>
     <desc lang="ja" />
     <category lang="ja">ドキュメンタリー／教養</category>
+  </programme>
+  <programme start="20260624052800 +0800" stop="20260624053000 +0800" channel="NHK G Osaka (Primehome)">
+    <title lang="ja">気象情報（関西）</title>
+    <desc lang="ja" />
+    <category lang="ja">ニュース／報道</category>
   </programme>
   <programme start="20260624053000 +0800" stop="20260624060000 +0800" channel="NHK G Osaka (Primehome)">
     <title lang="ja">NHKニュース　おはよう日本[字]</title>
@@ -55553,7 +55559,7 @@
     <category lang="ja">ニュース／報道</category>
   </programme>
   <programme start="20260624064500 +0800" stop="20260624070000 +0800" channel="NHK G Osaka (Primehome)">
-    <title lang="ja">おはよう関西</title>
+    <title lang="ja">おはよう関西　▼オストメイトモデルになりたい！10歳の挑戦</title>
     <desc lang="ja">▼関西の最新ニュースと地域の話題▼きょうの天気は？気象情報詳しく▼交通情報もきめ細かく</desc>
     <category lang="ja">ニュース／報道</category>
   </programme>
@@ -55577,8 +55583,8 @@
     <category lang="ja">ニュース／報道</category>
   </programme>
   <programme start="20260624090500 +0800" stop="20260624095500 +0800" channel="NHK G Osaka (Primehome)">
-    <title lang="ja">キャッチ！世界のトップニュース[二][字]</title>
-    <desc lang="ja">世界の放送局が伝える注目ニュースを、一日のはじまりに、いち早く解説。特派員がニュースの背景を探る特集も　【キャスター】川口由梨香，横川浩士</desc>
+    <title lang="ja">キャッチ！世界のトップニュース　国民投票から10年　イギリスはいま[二][字]</title>
+    <desc lang="ja">【解説委員が深堀り】EU離脱を問う国民投票から10年　イギリス政治の混迷を税所玲子解説委員が読みとく　▽米・イラン交渉は　キャスター：横川浩士・川口由梨香</desc>
     <category lang="ja">ニュース／報道</category>
   </programme>
   <programme start="20260624095500 +0800" stop="20260624100000 +0800" channel="NHK G Osaka (Primehome)">
@@ -55621,8 +55627,8 @@
     <category lang="ja">ニュース／報道</category>
   </programme>
   <programme start="20260624112000 +0800" stop="20260624113000 +0800" channel="NHK G Osaka (Primehome)">
-    <title lang="ja">みみより！解説[字]</title>
-    <desc lang="ja" />
+    <title lang="ja">みみより！解説　オーケストラ　苦境をどう乗り越える？[字]</title>
+    <desc lang="ja">プロのオーケストラは各地にありますが、経営面で苦労しているところが少なくありません。神戸や福岡、群馬などを例にどう苦境を乗り越えようとしているのか解説します。</desc>
     <category lang="ja">ニュース／報道</category>
   </programme>
   <programme start="20260624113000 +0800" stop="20260624114500 +0800" channel="NHK G Osaka (Primehome)">
@@ -55641,7 +55647,7 @@
     <category lang="ja">ニュース／報道</category>
   </programme>
   <programme start="20260624120500 +0800" stop="20260624125000 +0800" channel="NHK G Osaka (Primehome)">
-    <title lang="ja">列島ニュース[字]</title>
+    <title lang="ja">列島ニュース　大阪　103年の歴史に幕　大阪松竹座への思い[字]</title>
     <desc lang="ja">【午後1時台】日本列島の「いま」が見える！北から南までNHKの各放送局のニュースを選りすぐって大阪から全国に発信。地域の話題も交えて盛りだくさんでお届けします。</desc>
     <category lang="ja">ニュース／報道</category>
   </programme>
@@ -55726,7 +55732,7 @@
     <category lang="ja">ニュース／報道</category>
   </programme>
   <programme start="20260624171000 +0800" stop="20260624180000 +0800" channel="NHK G Osaka (Primehome)">
-    <title lang="ja">ほっと関西[字]</title>
+    <title lang="ja">ほっと関西▽企業を呼び込め！キタミナミ争奪戦の今後は[字]</title>
     <desc lang="ja">【関西のイマを凝縮　1分長く見たら「知っててよかった」が増える】水曜は旬の話題や場所をいち早く深く</desc>
     <category lang="ja">ニュース／報道</category>
   </programme>
@@ -56057,7 +56063,7 @@
     <category lang="ja">ニュース／報道</category>
   </programme>
   <programme start="20260623120500 +0800" stop="20260623125000 +0800" channel="NHK G Osaka (Primehome)">
-    <title lang="ja">列島ニュース[字]</title>
+    <title lang="ja">列島ニュース　大分　大火災被害の佐賀関　ラジオDJが伝える声[字]</title>
     <desc lang="ja">【午後1時台】日本列島の「いま」が見える！北から南までNHKの各放送局のニュースを選りすぐって大阪から全国に発信。地域の話題も交えて盛りだくさんでお届けします。</desc>
     <category lang="ja">ニュース／報道</category>
   </programme>
@@ -57004,8 +57010,8 @@
     <category lang="ja">ニュース／報道</category>
   </programme>
   <programme start="20260624090500 +0800" stop="20260624095500 +0800" channel="NHK G HD (Primehome)">
-    <title lang="ja">キャッチ！世界のトップニュース[二][字]</title>
-    <desc lang="ja">世界の放送局が伝える注目ニュースを、一日のはじまりに、いち早く解説。特派員がニュースの背景を探る特集も　【キャスター】川口由梨香，横川浩士</desc>
+    <title lang="ja">キャッチ！世界のトップニュース　国民投票から10年　イギリスはいま[二][字]</title>
+    <desc lang="ja">【解説委員が深堀り】EU離脱を問う国民投票から10年　イギリス政治の混迷を税所玲子解説委員が読みとく　▽米・イラン交渉は　キャスター：横川浩士・川口由梨香</desc>
     <category lang="ja">ニュース／報道</category>
   </programme>
   <programme start="20260624095500 +0800" stop="20260624100000 +0800" channel="NHK G HD (Primehome)">
@@ -57048,8 +57054,8 @@
     <category lang="ja">ニュース／報道</category>
   </programme>
   <programme start="20260624112000 +0800" stop="20260624113000 +0800" channel="NHK G HD (Primehome)">
-    <title lang="ja">みみより！解説[字]</title>
-    <desc lang="ja" />
+    <title lang="ja">みみより！解説　オーケストラ　苦境をどう乗り越える？[字]</title>
+    <desc lang="ja">プロのオーケストラは各地にありますが、経営面で苦労しているところが少なくありません。神戸や福岡、群馬などを例にどう苦境を乗り越えようとしているのか解説します。</desc>
     <category lang="ja">ニュース／報道</category>
   </programme>
   <programme start="20260624113000 +0800" stop="20260624114500 +0800" channel="NHK G HD (Primehome)">
@@ -57068,7 +57074,7 @@
     <category lang="ja">ニュース／報道</category>
   </programme>
   <programme start="20260624120500 +0800" stop="20260624125000 +0800" channel="NHK G HD (Primehome)">
-    <title lang="ja">列島ニュース[字]</title>
+    <title lang="ja">列島ニュース　大阪　103年の歴史に幕　大阪松竹座への思い[字]</title>
     <desc lang="ja">【午後1時台】日本列島の「いま」が見える！北から南までNHKの各放送局のニュースを選りすぐって大阪から全国に発信。地域の話題も交えて盛りだくさんでお届けします。</desc>
     <category lang="ja">ニュース／報道</category>
   </programme>
@@ -57485,7 +57491,7 @@
     <category lang="ja">ニュース／報道</category>
   </programme>
   <programme start="20260623120500 +0800" stop="20260623125000 +0800" channel="NHK G HD (Primehome)">
-    <title lang="ja">列島ニュース[字]</title>
+    <title lang="ja">列島ニュース　大分　大火災被害の佐賀関　ラジオDJが伝える声[字]</title>
     <desc lang="ja">【午後1時台】日本列島の「いま」が見える！北から南までNHKの各放送局のニュースを選りすぐって大阪から全国に発信。地域の話題も交えて盛りだくさんでお届けします。</desc>
     <category lang="ja">ニュース／報道</category>
   </programme>
@@ -57675,11 +57681,13 @@
     <title lang="ja">[初]チョン・イル×チョン・インソン主演「華麗なる日々」#14(字幕版)</title>
     <desc lang="ja">チョン・イル主演の話題作！独身主義のジヒョクと彼に憧れる後輩ウノ。仕事、家族、恋愛など人生の岐路に立つ２人を中心に描く全世代共感型ヒューマンラブストーリー。</desc>
     <category lang="ja">ドラマ</category>
+    <image>https://tvguide.myjcom.jp/monomedia/sirc/70400000/70402776/image/11e00a14595acb2ac570b4734af3e3ab.jpg</image>
   </programme>
   <programme start="20260624084500 +0800" stop="20260624100000 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">無法弁護士〜最高のパートナー#8(字幕版)</title>
     <desc lang="ja">ウ刑事の葬儀で偶然遭遇するジェイと母。だがジェイはそれが母と気付かない。娘が弁護士に復帰したことを喜ぶ父だが、サンピルのことは快く思わず…。</desc>
     <category lang="ja">ドラマ</category>
+    <image>https://tvguide.myjcom.jp/monomedia/sirc/70400000/70402777/image/bbbdd45f744db016a9d6dbb8dc7b54d3.jpg</image>
   </programme>
   <programme start="20260624100000 +0800" stop="20260624110000 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">ウー・ジンイエン×シュー・カイ「尚食（しょうしょく)」 #23(字幕版)</title>
@@ -57875,6 +57883,7 @@
     <title lang="ja">[初][生]ウィンブルドンテニス 予選 第２日 女子シングルス予選１回戦[多]</title>
     <desc lang="ja">予選第２日 女子シングルス 予選１回戦 本玉真唯×アカーシャ・ウロボ 木下晴結×ビクトリヤ・トモバ</desc>
     <category lang="ja">スポーツ</category>
+    <image>https://tvguide.myjcom.jp/monomedia/sirc/70400000/70403186/image/197408f5785233a9a257fc53a280ff4a.jpg</image>
   </programme>
   <programme start="20260624063000 +0800" stop="20260624083000 +0800" channel="WOWOW Live (Primehome)">
     <title lang="ja">エキサイトマッチ ＷＢＯ世界バンタム級TM メディナvsクリエル</title>
@@ -57920,6 +57929,7 @@
     <title lang="ja">[初][生]ウィンブルドンテニス 予選 第３日 男女シングルス予選２回戦[多]</title>
     <desc lang="ja">歴史と伝統を誇る世界最高峰の大会、ウィンブルドンテニス。熱戦の模様を連日生中継でお伝えする。今年は、本戦だけでなく予選の模様も放送・配信!</desc>
     <category lang="ja">スポーツ</category>
+    <image>https://tvguide.myjcom.jp/monomedia/sirc/3380000/3388025/image/64c1481168febf1538eb2f91fedb8f42.jpg</image>
   </programme>
   <programme start="20260624230000 +0800" stop="20260625063000 +0800" channel="WOWOW Live (Primehome)">
     <title lang="ja">[初][生]ウィンブルドンテニス 予選 第３日 男女シングルス予選２回戦[多]</title>
@@ -57986,6 +57996,7 @@
     <title lang="ja">[初][生]ウィンブルドンテニス 予選 第２日 女子シングルス予選１回戦[多]</title>
     <desc lang="ja">予選第２日 女子シングルス 予選１回戦 内島萌夏×エスター・アデシナ ケイトリン・ケベド×石井さやか 本玉真唯×アカーシャ・ウロボ</desc>
     <category lang="ja">スポーツ</category>
+    <image>https://tvguide.myjcom.jp/monomedia/sirc/3380000/3388024/image/527a6819ef57ea32b6b9b0b66212ab46.jpg</image>
   </programme>
   <programme start="20260623214500 +0800" stop="20260623234000 +0800" channel="WOWOW Cinema (Primehome)">
     <title lang="ja">[初][映]MELT メルト(字幕版)[PG12][SS]</title>
@@ -59148,8 +59159,8 @@
     <category lang="ja">ニュース／報道</category>
   </programme>
   <programme start="20260623125500 +0800" stop="20260623144900 +0800" channel="TBS HD (Primehome)">
-    <title lang="ja">ゴゴスマ</title>
-    <desc lang="ja">梅雨空続く　雲多くムシムシ天気…台風7号接近?影響は　今週後半は大雨警戒?▼知人女性に暴行か…注目デヴィ夫人初公判　(他)(予定)</desc>
+    <title lang="ja">ゴゴスマ【“ダブル台風"発生　週末列島へ 最新進路▼現場中継…5歳男児 行方不明】</title>
+    <desc lang="ja">“ダブル台風"発生　週末列島へ　日曜 関東直撃おそれも…▼現場中継…5歳男児 行方不明　家族4人で入浴中▼裁判速報…デヴィ夫人“暴行容疑"初公判　(他)(予定)</desc>
     <category lang="ja">情報／ワイドショー</category>
   </programme>
   <programme start="20260623144900 +0800" stop="20260623180000 +0800" channel="TBS HD (Primehome)">
@@ -59490,7 +59501,7 @@
   </programme>
   <programme start="20260623154800 +0800" stop="20260623180000 +0800" channel="TV Asahi HD (Primehome)">
     <title lang="ja">スーパーJチャンネル　井澤健太朗と森山みなみが&lt;ニュースのハテナ&gt;を深掘り[字]</title>
-    <desc lang="ja">両陛下歓迎式典に参加▽何語る?デヴィ夫人事件初公判…元従業員らに暴行疑い▽観光地で遊覧船放置▽警戒!梅雨の食中毒▽高級モモがピンチ!迷惑カラスを追い払え</desc>
+    <desc lang="ja">両陛下ベルギー歓迎式典に参加▽何語る?デヴィ夫人事件初公判…元従業員らに暴行疑い▽観光地で遊覧船放置▽警戒!梅雨の食中毒▽高級モモがピンチ!迷惑カラスを追い払え</desc>
     <category lang="ja">ニュース／報道</category>
   </programme>
   <programme start="20260623180000 +0800" stop="20260623205400 +0800" channel="TV Asahi HD (Primehome)">
@@ -59550,7 +59561,7 @@
   </programme>
   <programme start="20260624042500 +0800" stop="20260624062000 +0800" channel="Fuji TV HD (Primehome)">
     <title lang="ja">めざましテレビ[デ]</title>
-    <desc lang="ja">ニュース&amp;スポーツにエンタメ&amp;トレンド家族で見たい新情報のシャワー▽ココ調で身近な疑問検証▽めざましじゃんけん▽きょうのわんこ▽紙兎ロペ▽占い</desc>
+    <desc lang="ja">目覚める朝に新情報をニュース&amp;スポーツ&amp;エンタメ▽ココ調でギモン検証▽イマドキなトレンド▽話題深掘りカイトウ▽わんこ&amp;ロペ&amp;占い▽最新!あまゆか天気</desc>
     <category lang="ja">ニュース／報道</category>
   </programme>
   <programme start="20260624062000 +0800" stop="20260624091000 +0800" channel="Fuji TV HD (Primehome)">
@@ -59574,7 +59585,7 @@
     <category lang="ja">ニュース／報道</category>
   </programme>
   <programme start="20260624104700 +0800" stop="20260624125000 +0800" channel="Fuji TV HD (Primehome)">
-    <title lang="ja">ぽかぽか　スキマスイッチ語る人気チェーン店への愛▽工藤静香&amp;大泉洋が(秘)素顔暴露[字]</title>
+    <title lang="ja">ぽかぽか　スキマスイッチ語る人気チェーン店への愛▽工藤静香&amp;大泉洋明かす(秘)素顔[字]</title>
     <desc lang="ja">数々のヒット曲を生む2人が楽曲誕生秘話を激白▽愛してやまない「CoCo壱」への愛を語る!現役社員激推しトッピングクイズで数量限定メニューをゲットせよ!</desc>
     <category lang="ja">バラエティ</category>
   </programme>
@@ -60065,8 +60076,8 @@
     <category lang="ja">情報／ワイドショー</category>
   </programme>
   <programme start="20260623145000 +0800" stop="20260623180000 +0800" channel="NTV HD (Primehome)">
-    <title lang="ja">every.[字] 鈴江奈々&amp;森圭介がきょうを分かりやすく</title>
-    <desc lang="ja">鈴江奈々、森圭介が“今”を伝えます！ニュースを分かりやすく、いち早く…ネットの話題＆流行＆スポーツ＆芸能＆グルメからお得な生活情報まで満載!!</desc>
+    <title lang="ja">every.[字] 自民パー券めぐる“裏金”裁判 元参院議員に罰金６０万円、一部無罪</title>
+    <desc lang="ja">九州で“警報級”大雨ダブル台風今後の進路は▽両陛下ベルギー式典▽派閥“裏金”で判決一部無罪ナゼ…解説▽物価高＆暑さ新対策ゆでないそうめん料理</desc>
     <category lang="ja">ニュース／報道</category>
   </programme>
   <programme start="20260623180000 +0800" stop="20260623190000 +0800" channel="NTV HD (Primehome)">
@@ -60102,1182 +60113,1154 @@
     <desc lang="ja">夜に入ってくる最新のニュースや、その日の注目ニュースをいち早く伝えます</desc>
     <category lang="ja">ニュース／報道</category>
   </programme>
-  <programme start="20260623102007 +0800" stop="20260623121007 +0800" channel="WOWOW Cinema (Primehome)">
-    <title lang="ja">風のマジム</title>
-    <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/68316/S_070ee4f13b1b4f529252751c76f494c9_20260403093124791.jpg</image>
-  </programme>
-  <programme start="20260624013007 +0800" stop="20260624033007 +0800" channel="WOWOW Cinema (Primehome)">
+  <programme start="20260624013031 +0800" stop="20260624033031 +0800" channel="WOWOW Cinema (Primehome)">
     <title lang="ja">ストレイト・ストーリー（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/45908/S_0026302a84294a9ca982de55eef72e6e_20251203165339265.jpg</image>
   </programme>
-  <programme start="20260624033007 +0800" stop="20260624044007 +0800" channel="WOWOW Cinema (Primehome)">
+  <programme start="20260624033031 +0800" stop="20260624044031 +0800" channel="WOWOW Cinema (Primehome)">
     <title lang="ja">首都高速トライアル２</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/35443/S_4293b60656784b30899be70377072b65_20251002151525313.jpg</image>
   </programme>
-  <programme start="20260624044007 +0800" stop="20260624062007 +0800" channel="WOWOW Cinema (Primehome)">
+  <programme start="20260624044031 +0800" stop="20260624062031 +0800" channel="WOWOW Cinema (Primehome)">
     <title lang="ja">ホワイトシャーク　湖の水面の下に（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/18243/S_e5c2aa67d0a34e25abb63586e763c8b9_20250703111328967.jpg</image>
   </programme>
-  <programme start="20260624062007 +0800" stop="20260624080007 +0800" channel="WOWOW Cinema (Primehome)">
+  <programme start="20260624062031 +0800" stop="20260624080031 +0800" channel="WOWOW Cinema (Primehome)">
     <title lang="ja">リスボン特急（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/46083/S_565c3bf799f8495da58d0f065e7e5c7c_20251204154048047.jpg</image>
   </programme>
-  <programme start="20260624080007 +0800" stop="20260624094507 +0800" channel="WOWOW Cinema (Primehome)">
+  <programme start="20260624080031 +0800" stop="20260624094531 +0800" channel="WOWOW Cinema (Primehome)">
     <title lang="ja">パディントン２（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/4837/S_8267fcf2c94f43d2bc5b6053443ec992_20250508093544874.jpg</image>
   </programme>
-  <programme start="20260624094507 +0800" stop="20260624115007 +0800" channel="WOWOW Cinema (Primehome)">
+  <programme start="20260624094531 +0800" stop="20260624115031 +0800" channel="WOWOW Cinema (Primehome)">
     <title lang="ja">天然コケッコー</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/72791/S_0a827d2871b24feca93ae109e051fded_20260512115423223.jpg</image>
   </programme>
-  <programme start="20260625021007 +0800" stop="20260625041507 +0800" channel="WOWOW Cinema (Primehome)">
+  <programme start="20260625021031 +0800" stop="20260625041531 +0800" channel="WOWOW Cinema (Primehome)">
     <title lang="ja">ブルーベルベット（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/46071/S_6b7fc5f8b08748128fb940eb97b34847_20251204153501657.jpg</image>
   </programme>
-  <programme start="20260625041507 +0800" stop="20260625063007 +0800" channel="WOWOW Cinema (Primehome)">
+  <programme start="20260625041531 +0800" stop="20260625063031 +0800" channel="WOWOW Cinema (Primehome)">
     <title lang="ja">ゴースト　ニューヨークの幻（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/56301/S_aa2c7619e094466a988e5f2dd6174fa4_20260203154528293.jpg</image>
   </programme>
-  <programme start="20260625063007 +0800" stop="20260625084007 +0800" channel="WOWOW Cinema (Primehome)">
+  <programme start="20260625063031 +0800" stop="20260625084031 +0800" channel="WOWOW Cinema (Primehome)">
     <title lang="ja">愛・旅立ち</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/62201/S_57e8d813fd4d41058a08c0d48a04f995_20260306112020377.jpg</image>
   </programme>
-  <programme start="20260625084007 +0800" stop="20260625103007 +0800" channel="WOWOW Cinema (Primehome)">
+  <programme start="20260625084031 +0800" stop="20260625103031 +0800" channel="WOWOW Cinema (Primehome)">
     <title lang="ja">パディントン　消えた黄金郷の秘密（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/72734/S_3a73105fc80741a593908bfb551b01b1_20260512111640431.jpg</image>
   </programme>
-  <programme start="20260625103007 +0800" stop="20260625123007 +0800" channel="WOWOW Cinema (Primehome)">
+  <programme start="20260625103031 +0800" stop="20260625123031 +0800" channel="WOWOW Cinema (Primehome)">
     <title lang="ja">西の魔女が死んだ</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/68297/S_5ef3bbf5d08e4a30826fabee2468dfe2_20260403092618519.jpg</image>
   </programme>
-  <programme start="20260626014007 +0800" stop="20260626033007 +0800" channel="WOWOW Cinema (Primehome)">
+  <programme start="20260626014031 +0800" stop="20260626033031 +0800" channel="WOWOW Cinema (Primehome)">
     <title lang="ja">ラストサマー２（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/68261/S_361cbea633f2420ba2d2f5b49da49721_20260403090812632.jpg</image>
   </programme>
-  <programme start="20260626033007 +0800" stop="20260626050007 +0800" channel="WOWOW Cinema (Primehome)">
+  <programme start="20260626033031 +0800" stop="20260626050031 +0800" channel="WOWOW Cinema (Primehome)">
     <title lang="ja">きさらぎ駅</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/61497/S_5747361cab67480f919b6efb0b10e89d_20260304162718255.jpg</image>
   </programme>
-  <programme start="20260626050007 +0800" stop="20260626063007 +0800" channel="WOWOW Cinema (Primehome)">
+  <programme start="20260626050031 +0800" stop="20260626063031 +0800" channel="WOWOW Cinema (Primehome)">
     <title lang="ja">きさらぎ駅　Ｒｅ：</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/68178/S_60e010ecdd8c4c8890c99a9ac3a55111_20260402161737238.jpg</image>
   </programme>
-  <programme start="20260626063007 +0800" stop="20260626082007 +0800" channel="WOWOW Cinema (Primehome)">
+  <programme start="20260626063031 +0800" stop="20260626082031 +0800" channel="WOWOW Cinema (Primehome)">
     <title lang="ja">ゴリラ（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/45892/S_632bae3aac32413792424098793d5e58_20251203164530703.jpg</image>
   </programme>
-  <programme start="20260626082007 +0800" stop="20260626101007 +0800" channel="WOWOW Cinema (Primehome)">
+  <programme start="20260626082031 +0800" stop="20260626101031 +0800" channel="WOWOW Cinema (Primehome)">
     <title lang="ja">レッドブル（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/46088/S_ea72763a15fc484fa9992da4dbc876d2_20251204154216517.jpg</image>
   </programme>
-  <programme start="20260626101007 +0800" stop="20260626121507 +0800" channel="WOWOW Cinema (Primehome)">
+  <programme start="20260626101031 +0800" stop="20260626121531 +0800" channel="WOWOW Cinema (Primehome)">
     <title lang="ja">半落ち</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/62244/S_6295842aa49347879a971dce632ed46c_20260306113908077.jpg</image>
   </programme>
-  <programme start="20260627013007 +0800" stop="20260627033007 +0800" channel="WOWOW Cinema (Primehome)">
+  <programme start="20260627013031 +0800" stop="20260627033031 +0800" channel="WOWOW Cinema (Primehome)">
     <title lang="ja">ラストサマー：リターンズ（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/72753/S_0a80cce2ac214b63a44728a3c74c7275_20260512112715063.jpg</image>
   </programme>
-  <programme start="20260627033007 +0800" stop="20260627044007 +0800" channel="WOWOW Cinema (Primehome)">
+  <programme start="20260627033031 +0800" stop="20260627044031 +0800" channel="WOWOW Cinema (Primehome)">
     <title lang="ja">首都高速トライアル３</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/35444/S_827b73147fd5447ab6b0ff1e44d1eb3d_20251002151538128.jpg</image>
   </programme>
-  <programme start="20260627044007 +0800" stop="20260627044507 +0800" channel="WOWOW Cinema (Primehome)">
+  <programme start="20260627044031 +0800" stop="20260627044531 +0800" channel="WOWOW Cinema (Primehome)">
     <title lang="ja">絶賛公開中！映画『免許返納！？』公開記念特番　メイキング編</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/68270/S_6cfeacb6d7d24f738a16b5d8815cb74f_20260403091548937.jpg</image>
   </programme>
-  <programme start="20260627044507 +0800" stop="20260627063007 +0800" channel="WOWOW Cinema (Primehome)">
+  <programme start="20260627044531 +0800" stop="20260627063031 +0800" channel="WOWOW Cinema (Primehome)">
     <title lang="ja">あの夏、僕たちが好きだったソナへ（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/68163/S_5548fae5c2f141e890ad4fe646394708_20260402160813429.jpg</image>
   </programme>
-  <programme start="20260627063007 +0800" stop="20260627083007 +0800" channel="WOWOW Cinema (Primehome)">
+  <programme start="20260627063031 +0800" stop="20260627083031 +0800" channel="WOWOW Cinema (Primehome)">
     <title lang="ja">陪審員２番（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/56407/S_67ac5018bfb74a0dbf87748d1f87b65c_20260204092505514.jpg</image>
   </programme>
-  <programme start="20260627083007 +0800" stop="20260627103007 +0800" channel="WOWOW Cinema (Primehome)">
+  <programme start="20260627083031 +0800" stop="20260627103031 +0800" channel="WOWOW Cinema (Primehome)">
     <title lang="ja">雪の花−ともに在りて−</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/56393/S_30783373e82d4e2c9ded18704fd76b0b_20260204091700981.jpg</image>
   </programme>
-  <programme start="20260627103007 +0800" stop="20260627123007 +0800" channel="WOWOW Cinema (Primehome)">
+  <programme start="20260627103031 +0800" stop="20260627123031 +0800" channel="WOWOW Cinema (Primehome)">
     <title lang="ja">ちょっと思い出しただけ</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/72730/S_6148dd3f676c4f98abf742db7727963c_20260512111202830.jpg</image>
   </programme>
-  <programme start="20260628021507 +0800" stop="20260628043007 +0800" channel="WOWOW Cinema (Primehome)">
+  <programme start="20260628021531 +0800" stop="20260628043031 +0800" channel="WOWOW Cinema (Primehome)">
     <title lang="ja">トワイライト・ウォリアーズ　決戦！九龍城砦（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/52128/S_d2e77bf6cad64f23a66d0fd0da1d8453_20260107145612310.jpg</image>
   </programme>
-  <programme start="20260628043007 +0800" stop="20260628060507 +0800" channel="WOWOW Cinema (Primehome)">
+  <programme start="20260628043031 +0800" stop="20260628060531 +0800" channel="WOWOW Cinema (Primehome)">
     <title lang="ja">たべっ子どうぶつ　ＴＨＥ　ＭＯＶＩＥ</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/72729/S_47f556c90d4c42eeaf67024498517d03_20260512111058140.jpg</image>
   </programme>
-  <programme start="20260628060507 +0800" stop="20260628061007 +0800" channel="WOWOW Cinema (Primehome)">
+  <programme start="20260628060531 +0800" stop="20260628061031 +0800" channel="WOWOW Cinema (Primehome)">
     <title lang="ja">絶賛公開中！映画『免許返納！？』公開記念特番　メイキング編</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/68270/S_6cfeacb6d7d24f738a16b5d8815cb74f_20260403091548937.jpg</image>
   </programme>
-  <programme start="20260628061007 +0800" stop="20260628080007 +0800" channel="WOWOW Cinema (Primehome)">
+  <programme start="20260628061031 +0800" stop="20260628080031 +0800" channel="WOWOW Cinema (Primehome)">
     <title lang="ja">ザ・グリンベレー（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/68186/S_30dd2512c82749b9af70f22c64d19948_20260402162111819.jpg</image>
   </programme>
-  <programme start="20260628080007 +0800" stop="20260628102007 +0800" channel="WOWOW Cinema (Primehome)">
+  <programme start="20260628080031 +0800" stop="20260628102031 +0800" channel="WOWOW Cinema (Primehome)">
     <title lang="ja">ストロベリームーン　余命半年の恋</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/72617/S_38f4f341a92f4851862e6fe7d1adafa5_20260512095648831.jpg</image>
   </programme>
-  <programme start="20260628102007 +0800" stop="20260628120007 +0800" channel="WOWOW Cinema (Primehome)">
+  <programme start="20260628102031 +0800" stop="20260628120031 +0800" channel="WOWOW Cinema (Primehome)">
     <title lang="ja">ライブリポート（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/68258/S_581e1283a2984aada3b1c6f28c85f312_20260403090718771.jpg</image>
   </programme>
-  <programme start="20260629011007 +0800" stop="20260629031007 +0800" channel="WOWOW Cinema (Primehome)">
+  <programme start="20260629011031 +0800" stop="20260629031031 +0800" channel="WOWOW Cinema (Primehome)">
     <title lang="ja">九龍ジェネリックロマンス</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/46116/S_0354dcaca40a4225aeb49bf444ea910a_20251204155206844.jpg</image>
   </programme>
-  <programme start="20260629031007 +0800" stop="20260629051007 +0800" channel="WOWOW Cinema (Primehome)">
+  <programme start="20260629031031 +0800" stop="20260629051031 +0800" channel="WOWOW Cinema (Primehome)">
     <title lang="ja">さらば友よ（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/52112/S_531ed83b54274206b8d146ed513642ba_20260107144629473.jpg</image>
   </programme>
-  <programme start="20260629051007 +0800" stop="20260629052007 +0800" channel="WOWOW Cinema (Primehome)">
+  <programme start="20260629051031 +0800" stop="20260629052031 +0800" channel="WOWOW Cinema (Primehome)">
     <title lang="ja">絶賛公開中！映画『免許返納！？』公開記念特番　キャラクター編</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/68270/S_6cfeacb6d7d24f738a16b5d8815cb74f_20260403091548937.jpg</image>
   </programme>
-  <programme start="20260629052007 +0800" stop="20260629075007 +0800" channel="WOWOW Cinema (Primehome)">
+  <programme start="20260629052031 +0800" stop="20260629075031 +0800" channel="WOWOW Cinema (Primehome)">
     <title lang="ja">メガロポリス（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/68237/S_d9c86c6c9cc1424da8c788d4132b7b2b_20260402165345130.jpg</image>
   </programme>
-  <programme start="20260629075007 +0800" stop="20260629100007 +0800" channel="WOWOW Cinema (Primehome)">
+  <programme start="20260629075031 +0800" stop="20260629100031 +0800" channel="WOWOW Cinema (Primehome)">
     <title lang="ja">ベスト・キッド（１９８４）（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/62176/S_bd3da2a3a2694e119d519fb1630b829d_20260306110859050.jpg</image>
   </programme>
-  <programme start="20260629100007 +0800" stop="20260629120007 +0800" channel="WOWOW Cinema (Primehome)">
+  <programme start="20260629100031 +0800" stop="20260629120031 +0800" channel="WOWOW Cinema (Primehome)">
     <title lang="ja">ベスト・キッド２（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/62178/S_3713bec06d40452aa0d7f069a7e8f5f3_20260306110947202.jpg</image>
   </programme>
-  <programme start="20260623121007 +0800" stop="20260623134507 +0800" channel="WOWOW Cinema (Primehome)">
-    <title lang="ja">無名の人生</title>
-    <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/68328/S_6faa070b067d476e85642ea142edbcc3_20260403093340042.jpg</image>
-  </programme>
-  <programme start="20260623134507 +0800" stop="20260623150007 +0800" channel="WOWOW Cinema (Primehome)">
+  <programme start="20260623134531 +0800" stop="20260623150031 +0800" channel="WOWOW Cinema (Primehome)">
     <title lang="ja">Ｐｌａｙｇｒｏｕｎｄ／校庭（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/40330/S_40f2788f58a74770b3698bde2265efb3_20251105115034082.jpg</image>
   </programme>
-  <programme start="20260623150007 +0800" stop="20260623180007 +0800" channel="WOWOW Cinema (Primehome)">
+  <programme start="20260623150031 +0800" stop="20260623180031 +0800" channel="WOWOW Cinema (Primehome)">
     <title lang="ja">ミッション：インポッシブル／ファイナル・レコニング（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/62189/S_7e062dd39e8c4df19b48ae3437266cdf_20260306111350058.jpg</image>
   </programme>
-  <programme start="20260623180007 +0800" stop="20260623200007 +0800" channel="WOWOW Cinema (Primehome)">
+  <programme start="20260623180031 +0800" stop="20260623200031 +0800" channel="WOWOW Cinema (Primehome)">
     <title lang="ja">ナイトクローラー（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/68208/S_2111d9fe156749579d05991ed27b7bdf_20260402163559523.jpg</image>
   </programme>
-  <programme start="20260623200007 +0800" stop="20260623214507 +0800" channel="WOWOW Cinema (Primehome)">
+  <programme start="20260623200031 +0800" stop="20260623214531 +0800" channel="WOWOW Cinema (Primehome)">
     <title lang="ja">狂刃　残照の剣客（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/72634/S_2972c50b8c2e4c96af01d23bbd43a201_20260512100643759.jpg</image>
   </programme>
-  <programme start="20260623214507 +0800" stop="20260622234007 +0800" channel="WOWOW Cinema (Primehome)">
+  <programme start="20260623214531 +0800" stop="20260622234031 +0800" channel="WOWOW Cinema (Primehome)">
     <title lang="ja">ＭＥＬＴ　メルト（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/72638/S_083d86e5209745f980f4000125280f9f_20260512101010658.jpg</image>
   </programme>
-  <programme start="20260624115007 +0800" stop="20260624133007 +0800" channel="WOWOW Cinema (Primehome)">
+  <programme start="20260624115031 +0800" stop="20260624133031 +0800" channel="WOWOW Cinema (Primehome)">
     <title lang="ja">ＣｈａＯ</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/68152/S_48ff696de68f42ea88b758b3e2fe30cf_20260402160202018.jpg</image>
   </programme>
-  <programme start="20260624133007 +0800" stop="20260624153007 +0800" channel="WOWOW Cinema (Primehome)">
+  <programme start="20260624133031 +0800" stop="20260624153031 +0800" channel="WOWOW Cinema (Primehome)">
     <title lang="ja">私たちが光と想うすべて（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/72779/S_399bf4a216ae42f686a65546e62d7b5c_20260512114709690.jpg</image>
   </programme>
-  <programme start="20260624153007 +0800" stop="20260624173007 +0800" channel="WOWOW Cinema (Primehome)">
+  <programme start="20260624153031 +0800" stop="20260624173031 +0800" channel="WOWOW Cinema (Primehome)">
     <title lang="ja">劇場版『トリリオンゲーム』</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/40555/S_144555a305a24bb4a66937190bd401e9_20251105134527499.jpg</image>
   </programme>
-  <programme start="20260624173007 +0800" stop="20260624200007 +0800" channel="WOWOW Cinema (Primehome)">
+  <programme start="20260624173031 +0800" stop="20260624200031 +0800" channel="WOWOW Cinema (Primehome)">
     <title lang="ja">デトロイト（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/68204/S_a28a884d8e8b4efc90ab7ac1472e91f4_20260402163304079.jpg</image>
   </programme>
-  <programme start="20260624200007 +0800" stop="20260624220007 +0800" channel="WOWOW Cinema (Primehome)">
+  <programme start="20260624200031 +0800" stop="20260624220031 +0800" channel="WOWOW Cinema (Primehome)">
     <title lang="ja">ロスト・フライト（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/56365/S_7783b07ddb924412a697c42d5ba0e2e5_20260203161800201.jpg</image>
   </programme>
-  <programme start="20260624220007 +0800" stop="20260623234507 +0800" channel="WOWOW Cinema (Primehome)">
+  <programme start="20260624220031 +0800" stop="20260623234531 +0800" channel="WOWOW Cinema (Primehome)">
     <title lang="ja">さよならはスローボールで（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/72647/S_df4abb918bd54bbd8b1c95826907287f_20260512101533286.jpg</image>
   </programme>
-  <programme start="20260625123007 +0800" stop="20260625141007 +0800" channel="WOWOW Cinema (Primehome)">
+  <programme start="20260625123031 +0800" stop="20260625141031 +0800" channel="WOWOW Cinema (Primehome)">
     <title lang="ja">不思議の国でアリスと　Ｄｉｖｅ　ｉｎ　Ｗｏｎｄｅｒｌａｎｄ</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/72807/S_914fce20f213460ab74c0a1679f84850_20260512130721999.jpg</image>
   </programme>
-  <programme start="20260625141007 +0800" stop="20260625155507 +0800" channel="WOWOW Cinema (Primehome)">
+  <programme start="20260625141031 +0800" stop="20260625155531 +0800" channel="WOWOW Cinema (Primehome)">
     <title lang="ja">何も知らない夜（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/72762/S_95c714ff6e4e49c5a915e571f91fdff7_20260512113753605.jpg</image>
   </programme>
-  <programme start="20260625155507 +0800" stop="20260625160007 +0800" channel="WOWOW Cinema (Primehome)">
+  <programme start="20260625155531 +0800" stop="20260625160031 +0800" channel="WOWOW Cinema (Primehome)">
     <title lang="ja">絶賛公開中！映画『免許返納！？』公開記念特番　キャラクター編</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/68270/S_6cfeacb6d7d24f738a16b5d8815cb74f_20260403091548937.jpg</image>
   </programme>
-  <programme start="20260625160007 +0800" stop="20260625174007 +0800" channel="WOWOW Cinema (Primehome)">
+  <programme start="20260625160031 +0800" stop="20260625174031 +0800" channel="WOWOW Cinema (Primehome)">
     <title lang="ja">旅と日々</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/72682/S_05bb7b08ccc042bc9908746d2059e2c1_20260512103919110.jpg</image>
   </programme>
-  <programme start="20260625174007 +0800" stop="20260625200007 +0800" channel="WOWOW Cinema (Primehome)">
+  <programme start="20260625174031 +0800" stop="20260625200031 +0800" channel="WOWOW Cinema (Primehome)">
     <title lang="ja">チャイルド４４　森に消えた子供たち（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/68201/S_578256afeeb34a4389048e4b6ebd5030_20260402163145878.jpg</image>
   </programme>
-  <programme start="20260625200007 +0800" stop="20260625220007 +0800" channel="WOWOW Cinema (Primehome)">
+  <programme start="20260625200031 +0800" stop="20260625220031 +0800" channel="WOWOW Cinema (Primehome)">
     <title lang="ja">ブロークン・リベンジャーズ　−賭命−（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/72684/S_d05a9d23fda34dd38a8b43b25228e730_20260512104048137.jpg</image>
   </programme>
-  <programme start="20260625220007 +0800" stop="20260624235007 +0800" channel="WOWOW Cinema (Primehome)">
+  <programme start="20260625220031 +0800" stop="20260624235031 +0800" channel="WOWOW Cinema (Primehome)">
     <title lang="ja">タンゴの後で（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/72691/S_17c5ffb23e7243adb62d4835c5be705f_20260512104248403.jpg</image>
   </programme>
-  <programme start="20260626121507 +0800" stop="20260626140007 +0800" channel="WOWOW Cinema (Primehome)">
+  <programme start="20260626121531 +0800" stop="20260626140031 +0800" channel="WOWOW Cinema (Primehome)">
     <title lang="ja">機動警察パトレイバー　劇場版</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/72667/S_510b259990e84e82bd802778340cbdf0_20260512103206257.jpg</image>
   </programme>
-  <programme start="20260626140007 +0800" stop="20260626160007 +0800" channel="WOWOW Cinema (Primehome)">
+  <programme start="20260626140031 +0800" stop="20260626160031 +0800" channel="WOWOW Cinema (Primehome)">
     <title lang="ja">機動警察パトレイバー２　ｔｈｅ　Ｍｏｖｉｅ</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/72766/S_d3f3022ebb4146cbb06ee283849799f3_20260512113934962.jpg</image>
   </programme>
-  <programme start="20260626160007 +0800" stop="20260626174507 +0800" channel="WOWOW Cinema (Primehome)">
+  <programme start="20260626160031 +0800" stop="20260626174531 +0800" channel="WOWOW Cinema (Primehome)">
     <title lang="ja">ＷＸIII　機動警察パトレイバー</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/72705/S_856816bb306644c7a65544b405cf6cf7_20260512105114168.jpg</image>
   </programme>
-  <programme start="20260626174507 +0800" stop="20260626200007 +0800" channel="WOWOW Cinema (Primehome)">
+  <programme start="20260626174531 +0800" stop="20260626200031 +0800" channel="WOWOW Cinema (Primehome)">
     <title lang="ja">陽が落ちる</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/72662/S_b6d2b30c7c484ed6bd6a85bf68448400_20260512102948931.jpg</image>
   </programme>
-  <programme start="20260626200007 +0800" stop="20260626220007 +0800" channel="WOWOW Cinema (Primehome)">
+  <programme start="20260626200031 +0800" stop="20260626220031 +0800" channel="WOWOW Cinema (Primehome)">
     <title lang="ja">僕らは人生で一回だけ魔法が使える</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/72646/S_011b226302ec44b68da016688a39becf_20260512101455882.jpg</image>
   </programme>
-  <programme start="20260626220007 +0800" stop="20260625235007 +0800" channel="WOWOW Cinema (Primehome)">
+  <programme start="20260626220031 +0800" stop="20260625235031 +0800" channel="WOWOW Cinema (Primehome)">
     <title lang="ja">ＫＮＥＥＣＡＰ／ニーキャップ［Ｒ１５＋指定版］（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/72631/S_ee5732182ce24b83afddc9a9ba38ecd7_20260512100455433.jpg</image>
   </programme>
-  <programme start="20260627123007 +0800" stop="20260627143007 +0800" channel="WOWOW Cinema (Primehome)">
+  <programme start="20260627123031 +0800" stop="20260627143031 +0800" channel="WOWOW Cinema (Primehome)">
     <title lang="ja">ピンポン</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/72737/S_d05f0750919c4e29bbd1e4cbcef18f17_20260512111821943.jpg</image>
   </programme>
-  <programme start="20260627143007 +0800" stop="20260627164507 +0800" channel="WOWOW Cinema (Primehome)">
+  <programme start="20260627143031 +0800" stop="20260627164531 +0800" channel="WOWOW Cinema (Primehome)">
     <title lang="ja">エイプリルフールズ</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/72709/S_2a7745465fba403cb17ec643fc37dd9d_20260512105534037.jpg</image>
   </programme>
-  <programme start="20260627164507 +0800" stop="20260627190007 +0800" channel="WOWOW Cinema (Primehome)">
+  <programme start="20260627164531 +0800" stop="20260627190031 +0800" channel="WOWOW Cinema (Primehome)">
     <title lang="ja">信長協奏曲</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/72784/S_0d5d354ee1874ed587ad33d13966af63_20260512114952677.jpg</image>
   </programme>
-  <programme start="20260627190007 +0800" stop="20260627211507 +0800" channel="WOWOW Cinema (Primehome)">
+  <programme start="20260627190031 +0800" stop="20260627211531 +0800" channel="WOWOW Cinema (Primehome)">
     <title lang="ja">フロントライン</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/72740/S_3937fb0dd2284e8eb5861480d3581099_20260512112015442.jpg</image>
   </programme>
-  <programme start="20260627211507 +0800" stop="20260626231007 +0800" channel="WOWOW Cinema (Primehome)">
+  <programme start="20260627211531 +0800" stop="20260626231031 +0800" channel="WOWOW Cinema (Primehome)">
     <title lang="ja">コンテイジョン（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/72615/S_c76e29c1d50f42308978189462e50729_20260512095420998.jpg</image>
   </programme>
-  <programme start="20260628120007 +0800" stop="20260628140007 +0800" channel="WOWOW Cinema (Primehome)">
+  <programme start="20260628120031 +0800" stop="20260628140031 +0800" channel="WOWOW Cinema (Primehome)">
     <title lang="ja">ルームメイト（２０１３）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/72758/S_a42642d29c524017a5b981a427acb0db_20260512112855055.jpg</image>
   </programme>
-  <programme start="20260628140007 +0800" stop="20260628160007 +0800" channel="WOWOW Cinema (Primehome)">
+  <programme start="20260628140031 +0800" stop="20260628160031 +0800" channel="WOWOW Cinema (Primehome)">
     <title lang="ja">パレード</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/72735/S_66b05b9d51684aafa729919b72df1f62_20260512111653262.jpg</image>
   </programme>
-  <programme start="20260628160007 +0800" stop="20260628174507 +0800" channel="WOWOW Cinema (Primehome)">
+  <programme start="20260628160031 +0800" stop="20260628174531 +0800" channel="WOWOW Cinema (Primehome)">
     <title lang="ja">追憶（２０１７）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/72790/S_3231ab2ce9734f98acdf0423b1aaf8fd_20260512115409461.jpg</image>
   </programme>
-  <programme start="20260628174507 +0800" stop="20260628200007 +0800" channel="WOWOW Cinema (Primehome)">
+  <programme start="20260628174531 +0800" stop="20260628200031 +0800" channel="WOWOW Cinema (Primehome)">
     <title lang="ja">ストロベリーナイト</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/72678/S_3871f1ab85e64ecc86f1f069a73ff8fb_20260512103625914.jpg</image>
   </programme>
-  <programme start="20260628200007 +0800" stop="20260628220007 +0800" channel="WOWOW Cinema (Primehome)">
+  <programme start="20260628200031 +0800" stop="20260628220031 +0800" channel="WOWOW Cinema (Primehome)">
     <title lang="ja">ファンファーレ！ふたつの音（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/72619/S_3a0823a46a5c428abcbcf446e123764e_20260512095816133.jpg</image>
   </programme>
-  <programme start="20260628220007 +0800" stop="20260627232007 +0800" channel="WOWOW Cinema (Primehome)">
+  <programme start="20260628220031 +0800" stop="20260627232031 +0800" channel="WOWOW Cinema (Primehome)">
     <title lang="ja">ぼくらのふしだら</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/72645/S_5bd6873cd83146a9b78a7d9d5c718c7d_20260512101410774.jpg</image>
   </programme>
-  <programme start="20260629120007 +0800" stop="20260629140007 +0800" channel="WOWOW Cinema (Primehome)">
+  <programme start="20260629120031 +0800" stop="20260629140031 +0800" channel="WOWOW Cinema (Primehome)">
     <title lang="ja">ベスト・キッド３　最後の挑戦（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/62179/S_6b6a3deb35a24730877c4285fa3a8027_20260306111005758.jpg</image>
   </programme>
-  <programme start="20260629140007 +0800" stop="20260629160007 +0800" channel="WOWOW Cinema (Primehome)">
+  <programme start="20260629140031 +0800" stop="20260629160031 +0800" channel="WOWOW Cinema (Primehome)">
     <title lang="ja">顔を捨てた男（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/72632/S_42f8014961974fdca7673b7a4da1764c_20260512100529361.jpg</image>
   </programme>
-  <programme start="20260629160007 +0800" stop="20260629180007 +0800" channel="WOWOW Cinema (Primehome)">
+  <programme start="20260629160031 +0800" stop="20260629180031 +0800" channel="WOWOW Cinema (Primehome)">
     <title lang="ja">映画『グランメゾン・パリ』</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/46100/S_b4fb9ed2ec8a4caa91132c74ca2fc4d6_20251204154710612.jpg</image>
   </programme>
-  <programme start="20260629180007 +0800" stop="20260629200007 +0800" channel="WOWOW Cinema (Primehome)">
+  <programme start="20260629180031 +0800" stop="20260629200031 +0800" channel="WOWOW Cinema (Primehome)">
     <title lang="ja">エリア７４９（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/72711/S_6df8cefaf4ee44268178a6b89ae450cc_20260512105603952.jpg</image>
   </programme>
-  <programme start="20260629200007 +0800" stop="20260629220007 +0800" channel="WOWOW Cinema (Primehome)">
+  <programme start="20260629200031 +0800" stop="20260629220031 +0800" channel="WOWOW Cinema (Primehome)">
     <title lang="ja">ウェディング・ハイ</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/72708/S_3462d6194b374f9d8829d8cb1f125dbf_20260512105516650.jpg</image>
   </programme>
-  <programme start="20260629220007 +0800" stop="20260629001507 +0800" channel="WOWOW Cinema (Primehome)">
+  <programme start="20260629220031 +0800" stop="20260629001531 +0800" channel="WOWOW Cinema (Primehome)">
     <title lang="ja">海猫　ｕｍｉｎｅｋｏ</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/72763/S_87d8d2ed4d00439fb17e7c0f552d9d7f_20260512113852423.jpg</image>
   </programme>
-  <programme start="20260623234007 +0800" stop="20260624013007 +0800" channel="WOWOW Cinema (Primehome)">
+  <programme start="20260623234031 +0800" stop="20260624013031 +0800" channel="WOWOW Cinema (Primehome)">
     <title lang="ja">愛はステロイド（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/72633/S_a62d3ffc58b94fa78d2372acdc1ea99a_20260512100609481.jpg</image>
   </programme>
-  <programme start="20260624234507 +0800" stop="20260625020507 +0800" channel="WOWOW Cinema (Primehome)">
+  <programme start="20260624234531 +0800" stop="20260625020531 +0800" channel="WOWOW Cinema (Primehome)">
     <title lang="ja">クィア／ＱＵＥＥＲ（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/72716/S_b8e77a22c0db460ab883aa21ac21f9bf_20260512105845865.jpg</image>
   </programme>
-  <programme start="20260625020507 +0800" stop="20260625021007 +0800" channel="WOWOW Cinema (Primehome)">
+  <programme start="20260625020531 +0800" stop="20260625021031 +0800" channel="WOWOW Cinema (Primehome)">
     <title lang="ja">絶賛公開中！映画『免許返納！？』公開記念特番　メイキング編</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/68270/S_6cfeacb6d7d24f738a16b5d8815cb74f_20260403091548937.jpg</image>
   </programme>
-  <programme start="20260625235007 +0800" stop="20260626014007 +0800" channel="WOWOW Cinema (Primehome)">
+  <programme start="20260625235031 +0800" stop="20260626014031 +0800" channel="WOWOW Cinema (Primehome)">
     <title lang="ja">ラストサマー（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/68260/S_a14339314ebe41069e4edcb55f33c0e1_20260403090753617.jpg</image>
   </programme>
-  <programme start="20260626235007 +0800" stop="20260627013007 +0800" channel="WOWOW Cinema (Primehome)">
+  <programme start="20260626235031 +0800" stop="20260627013031 +0800" channel="WOWOW Cinema (Primehome)">
     <title lang="ja">ラストサマー３（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/68262/S_d25cb3ec30834973ae2f95b6289fdb35_20260403090824626.jpg</image>
   </programme>
-  <programme start="20260627231007 +0800" stop="20260628003007 +0800" channel="WOWOW Cinema (Primehome)">
+  <programme start="20260627231031 +0800" stop="20260628003031 +0800" channel="WOWOW Cinema (Primehome)">
     <title lang="ja">入国審査（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/72804/S_2a9441016f274246a6fbd1f29acae66a_20260512130540881.jpg</image>
   </programme>
-  <programme start="20260628003007 +0800" stop="20260628021507 +0800" channel="WOWOW Cinema (Primehome)">
+  <programme start="20260628003031 +0800" stop="20260628021531 +0800" channel="WOWOW Cinema (Primehome)">
     <title lang="ja">イースタン・プロミス［Ｒ−１５指定版］（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/68165/S_78583b214f4445748783b6aa41258aa8_20260402160943169.jpg</image>
   </programme>
-  <programme start="20260628232007 +0800" stop="20260629011007 +0800" channel="WOWOW Cinema (Primehome)">
+  <programme start="20260628232031 +0800" stop="20260629011031 +0800" channel="WOWOW Cinema (Primehome)">
     <title lang="ja">ヘルボーイ／ザ・クルキッドマン（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/72741/S_aa51d78811ea46c8b6ca1597de02e95b_20260512112139580.jpg</image>
   </programme>
-  <programme start="20260630001507 +0800" stop="20260630021007 +0800" channel="WOWOW Cinema (Primehome)">
+  <programme start="20260630001531 +0800" stop="20260630021031 +0800" channel="WOWOW Cinema (Primehome)">
     <title lang="ja">白昼夢　禁断の迷宮（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/35477/S_0c840f227c9e441883d0723e3f622a4e_20251002152511033.jpg</image>
   </programme>
-  <programme start="20260623090007 +0800" stop="20260623120007 +0800" channel="WOWOW Live (Primehome)">
-    <title lang="ja">緑黄色社会　Ｃｈａｎｎｅｌ　Ｕｓ　２０２５　ａｔ　東京体育館　【完全版】</title>
-    <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/40285/S_c9d6f064653e48de91bd71e541859bc4_20251105112146209.jpg</image>
-  </programme>
-  <programme start="20260623230007 +0800" stop="20260624063007 +0800" channel="WOWOW Live (Primehome)">
+  <programme start="20260623230031 +0800" stop="20260624063031 +0800" channel="WOWOW Live (Primehome)">
     <title lang="ja">ウィンブルドンテニス　予選　第２日　女子シングルス予選１回戦</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/74872/S_3fe477beb35a43c495a1d54c0ca7f923_20260601110214954.jpg</image>
   </programme>
-  <programme start="20260624063007 +0800" stop="20260624083007 +0800" channel="WOWOW Live (Primehome)">
+  <programme start="20260624063031 +0800" stop="20260624083031 +0800" channel="WOWOW Live (Primehome)">
     <title lang="ja">エキサイトマッチ～世界プロボクシング　ＷＢＯ世界バンタム級タイトルマッチ　クリスチャン・メディナｖｓアドリアン・クリエル</title>
   </programme>
-  <programme start="20260624083007 +0800" stop="20260624090007 +0800" channel="WOWOW Live (Primehome)">
+  <programme start="20260624083031 +0800" stop="20260624090031 +0800" channel="WOWOW Live (Primehome)">
     <title lang="ja">お金のことがちょっとわかる刑事ドラマ「カネデカ！」　積み立て殺人事件編</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/51934/S_72cbd10e846446eb869ee69a8bba8705_20260107114543308.jpg</image>
   </programme>
-  <programme start="20260624090007 +0800" stop="20260624093007 +0800" channel="WOWOW Live (Primehome)">
+  <programme start="20260624090031 +0800" stop="20260624093031 +0800" channel="WOWOW Live (Primehome)">
     <title lang="ja">ラグビー日本代表　いざネーションズチャンピオンシップへ！</title>
   </programme>
-  <programme start="20260624093007 +0800" stop="20260624112007 +0800" channel="WOWOW Live (Primehome)">
+  <programme start="20260624093031 +0800" stop="20260624112031 +0800" channel="WOWOW Live (Primehome)">
     <title lang="ja">Ａ　Ｔｒｉｂｕｔｅ　ｔｏ　Ｊｅｆｆ　Ｂｅｃｋ　ｂｙ　Ｃｈａｒ　ｗｉｔｈ　ＨＯＴＥＩ　ａｎｄ　Ｔａｋ　Ｍａｔｓｕｍｏｔｏ　ｆｅａｔｕｒｉｎｇ　Ｔｈｅ　Ｊｅｆｆ　Ｂｅｃｋ　Ｂａｎｄ</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/40117/S_c527d0e281554a049bf2006bd7f19791_20251105100042715.jpg</image>
   </programme>
-  <programme start="20260624230007 +0800" stop="20260625063007 +0800" channel="WOWOW Live (Primehome)">
+  <programme start="20260624230031 +0800" stop="20260625063031 +0800" channel="WOWOW Live (Primehome)">
     <title lang="ja">ウィンブルドンテニス　予選　第３日　男女シングルス予選２回戦</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/74872/S_3fe477beb35a43c495a1d54c0ca7f923_20260601110214954.jpg</image>
   </programme>
-  <programme start="20260625063007 +0800" stop="20260625083007 +0800" channel="WOWOW Live (Primehome)">
+  <programme start="20260625063031 +0800" stop="20260625083031 +0800" channel="WOWOW Live (Primehome)">
     <title lang="ja">エキサイトマッチ～世界プロボクシング　ＷＢＡ・ＷＢＯ世界Ｓ・ウェルター級王座統一戦　ザンダー・ザヤスｖｓアバス・バラオウ</title>
   </programme>
-  <programme start="20260625083007 +0800" stop="20260625095007 +0800" channel="WOWOW Live (Primehome)">
+  <programme start="20260625083031 +0800" stop="20260625095031 +0800" channel="WOWOW Live (Primehome)">
     <title lang="ja">グレイシー・エイブラムス　Ｔｈｅ　Ｓｅｃｒｅｔ　ｏｆ　Ｕｓ　Ｔｏｕｒ　ｉｎ　ＪＡＰＡＮ　２０２５</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/11652/S_01ecbf786108479f9ad37b5033cbcd34_20250603132225347.jpg</image>
   </programme>
-  <programme start="20260625095007 +0800" stop="20260625100007 +0800" channel="WOWOW Live (Primehome)">
+  <programme start="20260625095031 +0800" stop="20260625100031 +0800" channel="WOWOW Live (Primehome)">
     <title lang="ja">ＷＯＷＯＷ　ＭＵＳＩＣ　ＢＲＥＡＫ　＃４０１</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/11618/S_f09dbf0e3e7f4ed2b490c576396c3007_20250603131309024.jpg</image>
   </programme>
-  <programme start="20260625100007 +0800" stop="20260625121507 +0800" channel="WOWOW Live (Primehome)">
+  <programme start="20260625100031 +0800" stop="20260625121531 +0800" channel="WOWOW Live (Primehome)">
     <title lang="ja">荻野清子ＧｏＧｏコンサート～三谷幸喜を歌おう～</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/11760/S_03a6d7f77f7e4b7d909352b36de7f30f_20250603133931206.jpg</image>
   </programme>
-  <programme start="20260625230007 +0800" stop="20260626063007 +0800" channel="WOWOW Live (Primehome)">
+  <programme start="20260625230031 +0800" stop="20260626063031 +0800" channel="WOWOW Live (Primehome)">
     <title lang="ja">ウィンブルドンテニス　予選　最終日　男女シングルス予選決勝</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/74872/S_3fe477beb35a43c495a1d54c0ca7f923_20260601110214954.jpg</image>
   </programme>
-  <programme start="20260626063007 +0800" stop="20260626083007 +0800" channel="WOWOW Live (Primehome)">
+  <programme start="20260626063031 +0800" stop="20260626083031 +0800" channel="WOWOW Live (Primehome)">
     <title lang="ja">エキサイトマッチ～世界プロボクシング　＃１　ＷＢＯ世界Ｓ・ライト級タイトルマッチ　テオフィモ・ロペスｖｓシャクール・スティーブンソン</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/67976/S_7221b05195b64c5fbb58d009beaa206b_20260402132320229.jpg</image>
   </programme>
-  <programme start="20260626083007 +0800" stop="20260626090007 +0800" channel="WOWOW Live (Primehome)">
+  <programme start="20260626083031 +0800" stop="20260626090031 +0800" channel="WOWOW Live (Primehome)">
     <title lang="ja">ラグビー日本代表　いざネーションズチャンピオンシップへ！</title>
   </programme>
-  <programme start="20260626090007 +0800" stop="20260626120007 +0800" channel="WOWOW Live (Primehome)">
+  <programme start="20260626090031 +0800" stop="20260626120031 +0800" channel="WOWOW Live (Primehome)">
     <title lang="ja">三谷幸喜×東京サンシャインボーイズ「蒙古が襲来」</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/11793/S_2ed123f5422a4c3cbca7a04b27ceb81d_20250603134542328.jpg</image>
   </programme>
-  <programme start="20260627024507 +0800" stop="20260627045007 +0800" channel="WOWOW Live (Primehome)">
+  <programme start="20260627024531 +0800" stop="20260627045031 +0800" channel="WOWOW Live (Primehome)">
     <title lang="ja">デビルズ・バス（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/72489/S_14ff9145ec924dcd8f3711de1a123f7f_20260511140958663.jpg</image>
   </programme>
-  <programme start="20260627045007 +0800" stop="20260627063007 +0800" channel="WOWOW Live (Primehome)">
+  <programme start="20260627045031 +0800" stop="20260627063031 +0800" channel="WOWOW Live (Primehome)">
     <title lang="ja">マザーズ（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/72494/S_ad520f5acd0b487ebaaa479a1bcd9cdb_20260511141258718.jpg</image>
   </programme>
-  <programme start="20260627063007 +0800" stop="20260627071007 +0800" channel="WOWOW Live (Primehome)">
+  <programme start="20260627063031 +0800" stop="20260627071031 +0800" channel="WOWOW Live (Primehome)">
     <title lang="ja">銘酒誕生物語　三重県：而今</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/11845/S_1ec0f7cf4f154bf7a52fd400844fd9e3_20250603135936887.jpg</image>
   </programme>
-  <programme start="20260627071007 +0800" stop="20260627074007 +0800" channel="WOWOW Live (Primehome)">
+  <programme start="20260627071031 +0800" stop="20260627074031 +0800" channel="WOWOW Live (Primehome)">
     <title lang="ja">ラグビー日本代表　いざネーションズチャンピオンシップへ！</title>
   </programme>
-  <programme start="20260627074007 +0800" stop="20260627094007 +0800" channel="WOWOW Live (Primehome)">
+  <programme start="20260627074031 +0800" stop="20260627094031 +0800" channel="WOWOW Live (Primehome)">
     <title lang="ja">エキサイトマッチＳＰ「那須川天心ｖｓエストラーダ」　＃１２</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/67976/S_7221b05195b64c5fbb58d009beaa206b_20260402132320229.jpg</image>
   </programme>
-  <programme start="20260627094007 +0800" stop="20260627123007 +0800" channel="WOWOW Live (Primehome)">
+  <programme start="20260627094031 +0800" stop="20260627123031 +0800" channel="WOWOW Live (Primehome)">
     <title lang="ja">ジョン・ヨンファ「２０２６　ＪＵＮＧ　ＹＯＮＧＨＷＡ　ＳＯＬＯ　ＬＩＶＥ　ＩＮ　ＪＡＰＡＮ　"Ｏｎｅ　Ｌａｓｔ　Ｄａｙ"」</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/72485/S_59577d147163472a956254dfc9452e94_20260511140809194.jpg</image>
   </programme>
-  <programme start="20260628010007 +0800" stop="20260628031507 +0800" channel="WOWOW Live (Primehome)">
+  <programme start="20260628010031 +0800" stop="20260628031531 +0800" channel="WOWOW Live (Primehome)">
     <title lang="ja">ラグビー　テストマッチ　２０２５　キルター・ネーションズシリーズ　アイルランドｖｓ日本</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/40224/S_2dab25f5285943be8219bbdd2bc3ea31_20251105105626287.jpg</image>
   </programme>
-  <programme start="20260628031507 +0800" stop="20260628032507 +0800" channel="WOWOW Live (Primehome)">
+  <programme start="20260628031531 +0800" stop="20260628032531 +0800" channel="WOWOW Live (Primehome)">
     <title lang="ja">ＷＯＷＯＷ　ＭＵＳＩＣ　ＢＲＥＡＫ　＃４０５</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/11618/S_f09dbf0e3e7f4ed2b490c576396c3007_20250603131309024.jpg</image>
   </programme>
-  <programme start="20260628032507 +0800" stop="20260628052507 +0800" channel="WOWOW Live (Primehome)">
+  <programme start="20260628032531 +0800" stop="20260628052531 +0800" channel="WOWOW Live (Primehome)">
     <title lang="ja">カーテンコールの灯（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/72482/S_aaaa58bf1da54bb4a609b00ac4142f68_20260511140503182.jpg</image>
   </programme>
-  <programme start="20260628052507 +0800" stop="20260628072007 +0800" channel="WOWOW Live (Primehome)">
+  <programme start="20260628052531 +0800" stop="20260628072031 +0800" channel="WOWOW Live (Primehome)">
     <title lang="ja">探偵マーロウ（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/72525/S_623de07566f94c54b635549acd24bb62_20260511143341562.jpg</image>
   </programme>
-  <programme start="20260628072007 +0800" stop="20260628090007 +0800" channel="WOWOW Live (Primehome)">
+  <programme start="20260628072031 +0800" stop="20260628090031 +0800" channel="WOWOW Live (Primehome)">
     <title lang="ja">野菊の墓</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/72539/S_603f306722344feb89bfea7a678a112a_20260511145843534.jpg</image>
   </programme>
-  <programme start="20260628090007 +0800" stop="20260628103007 +0800" channel="WOWOW Live (Primehome)">
+  <programme start="20260628090031 +0800" stop="20260628103031 +0800" channel="WOWOW Live (Primehome)">
     <title lang="ja">松田聖子　４５ｔｈ　Ａｎｎｉｖｅｒｓａｒｙ　Ｓｅｉｋｏ　Ｍａｔｓｕｄａ　Ｃｏｎｃｅｒｔ　Ｔｏｕｒ　２０２５　“Ｓｉｎｇ！　Ｓｉｎｇ！　Ｓｉｎｇ！”</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/56044/S_7fda1b8ca85643e78ec87441a7a8ffc7_20260203134528803.jpg</image>
   </programme>
-  <programme start="20260628103007 +0800" stop="20260628110007 +0800" channel="WOWOW Live (Primehome)">
+  <programme start="20260628103031 +0800" stop="20260628110031 +0800" channel="WOWOW Live (Primehome)">
     <title lang="ja">ラグビー日本代表　いざネーションズチャンピオンシップへ！</title>
   </programme>
-  <programme start="20260629011507 +0800" stop="20260629033007 +0800" channel="WOWOW Live (Primehome)">
+  <programme start="20260629011531 +0800" stop="20260629033031 +0800" channel="WOWOW Live (Primehome)">
     <title lang="ja">ラグビー　テストマッチ　２０２５　南アフリカｖｓ日本</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/40227/S_720d554ef9434fd1bc652c4c40d213f9_20251105105657396.jpg</image>
   </programme>
-  <programme start="20260629033007 +0800" stop="20260629040007 +0800" channel="WOWOW Live (Primehome)">
+  <programme start="20260629033031 +0800" stop="20260629040031 +0800" channel="WOWOW Live (Primehome)">
     <title lang="ja">ラグビー日本代表　いざネーションズチャンピオンシップへ！</title>
   </programme>
-  <programme start="20260629040007 +0800" stop="20260629063007 +0800" channel="WOWOW Live (Primehome)">
+  <programme start="20260629040031 +0800" stop="20260629063031 +0800" channel="WOWOW Live (Primehome)">
     <title lang="ja">バックドラフト（吹替版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/72492/S_8fc47b0968134dfda2b75e1214601b5e_20260511141134316.jpg</image>
   </programme>
-  <programme start="20260629063007 +0800" stop="20260629064007 +0800" channel="WOWOW Live (Primehome)">
+  <programme start="20260629063031 +0800" stop="20260629064031 +0800" channel="WOWOW Live (Primehome)">
     <title lang="ja">ＷＯＷＯＷ　ＭＵＳＩＣ　ＢＲＥＡＫ　＃４０７</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/11618/S_f09dbf0e3e7f4ed2b490c576396c3007_20250603131309024.jpg</image>
   </programme>
-  <programme start="20260629064007 +0800" stop="20260629070007 +0800" channel="WOWOW Live (Primehome)">
+  <programme start="20260629064031 +0800" stop="20260629070031 +0800" channel="WOWOW Live (Primehome)">
     <title lang="ja">世界は布思議～布のおはなし～　＃４　遊牧民族カザフ、愛の布トゥスキーズ</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/72519/S_1266c4fefa6f4c67b13d6d67beb472c3_20260511143046117.jpg</image>
   </programme>
-  <programme start="20260629070007 +0800" stop="20260629090007 +0800" channel="WOWOW Live (Primehome)">
+  <programme start="20260629070031 +0800" stop="20260629090031 +0800" channel="WOWOW Live (Primehome)">
     <title lang="ja">エキサイトマッチ～世界プロボクシング　ＷＢＣ世界Ｓ・ライト級タイトルマッチ　スブリエル・マティアスｖｓダルトン・スミス</title>
   </programme>
-  <programme start="20260629090007 +0800" stop="20260629110007 +0800" channel="WOWOW Live (Primehome)">
+  <programme start="20260629090031 +0800" stop="20260629110031 +0800" channel="WOWOW Live (Primehome)">
     <title lang="ja">杉山清貴＆オメガトライブ　Ｔｈｅ　ｏｐｅｎ　ａｉｒ　ｌｉｖｅ　“Ｈｉｇｈ　＆　Ｈｉｇｈ”２０２０−２０２１</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/40247/S_43756cba262f46e5a4f1d5fa837c29be_20251105110852512.jpg</image>
   </programme>
-  <programme start="20260623120007 +0800" stop="20260623121507 +0800" channel="WOWOW Live (Primehome)">
-    <title lang="ja">ＷＯＷＯＷ　ＭＵＳＩＣ　ＢＲＥＡＫ　＃４０５</title>
-    <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/11618/S_f09dbf0e3e7f4ed2b490c576396c3007_20250603131309024.jpg</image>
-  </programme>
-  <programme start="20260623121507 +0800" stop="20260623131507 +0800" channel="WOWOW Live (Primehome)">
-    <title lang="ja">ＺＡＲＤ　３５ｔｈ　Ａｎｎｉｖｅｒｓａｒｙ　Ｓｐｅｃｉａｌ　Ｐｒｏｇｒａｍ　～Ｗｈａｔ　ａ　Ｂｅａｕｔｉｆｕｌ　Ｓｏｎｇ～</title>
-    <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/72478/S_65c5077fb45040d8a0e98c7f69f86a5b_20260511140017526.jpg</image>
-  </programme>
-  <programme start="20260623131507 +0800" stop="20260623151507 +0800" channel="WOWOW Live (Primehome)">
+  <programme start="20260623131531 +0800" stop="20260623151531 +0800" channel="WOWOW Live (Primehome)">
     <title lang="ja">ＺＡＲＤ　３５周年記念ライブ「Ｗｈａｔ　ａ　ｂｅａｕｔｉｆｕｌ　ｍｅｍｏｒｙ　～ｆｏｒｅｖｅｒ　ｍｏｍｅｎｔ～」</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/61238/S_ae5f55281fe54c65b15ad5fa8dfbeda1_20260304140939376.jpg</image>
   </programme>
-  <programme start="20260623151507 +0800" stop="20260623175007 +0800" channel="WOWOW Live (Primehome)">
+  <programme start="20260623151531 +0800" stop="20260623175031 +0800" channel="WOWOW Live (Primehome)">
     <title lang="ja">ＺＡＲＤ　ＬＩＶＥ　＆　ＭＵＳＩＣ　ＶＩＤＥＯ　ＨＩＳＴＯＲＹ</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/61239/S_cd2600ff26cf4daa9c8db8d7d2c308cd_20260304140951716.jpg</image>
   </programme>
-  <programme start="20260623175007 +0800" stop="20260622230007 +0800" channel="WOWOW Live (Primehome)">
+  <programme start="20260623175031 +0800" stop="20260622230031 +0800" channel="WOWOW Live (Primehome)">
     <title lang="ja">ウィンブルドンテニス　予選　第２日　女子シングルス予選１回戦</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/74872/S_3fe477beb35a43c495a1d54c0ca7f923_20260601110214954.jpg</image>
   </programme>
-  <programme start="20260624112007 +0800" stop="20260624134507 +0800" channel="WOWOW Live (Primehome)">
+  <programme start="20260624112031 +0800" stop="20260624134531 +0800" channel="WOWOW Live (Primehome)">
     <title lang="ja">ＪＵＪＵ　ＨＡＬＬ　ＴＯＵＲ　２０２５　Ｔｈｅ　Ｗａｔｅｒ</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/40131/S_c128f1e686af4186b053c034caafca28_20251105100559164.jpg</image>
   </programme>
-  <programme start="20260624134507 +0800" stop="20260624153007 +0800" channel="WOWOW Live (Primehome)">
+  <programme start="20260624134531 +0800" stop="20260624153031 +0800" channel="WOWOW Live (Primehome)">
     <title lang="ja">ＨＯＵＮＤ　ＤＯＧ　ＬＩＶＥ　２０２６　ＲＯＬＬＩＮＧ　７０“ＲＯＣＫ'Ｎ'ＲＯＬＬ　ＧＯＥＳ　ＯＮ”</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/67964/S_37f19188e12849d2828d72f75af06224_20260402131314637.jpg</image>
   </programme>
-  <programme start="20260624153007 +0800" stop="20260624174007 +0800" channel="WOWOW Live (Primehome)">
+  <programme start="20260624153031 +0800" stop="20260624174031 +0800" channel="WOWOW Live (Primehome)">
     <title lang="ja">ＴＵＢＥ　４０ｔｈ　Ａｎｎｉｖｅｒｓａｒｙ　Ｓｐｅｃｉａｌ　Ｈｉｓｔｏｒｙ　Ｐｒｏｇｒａｍ　後編</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/17698/S_7cd4eec5e36b4a83982113e7dac480a8_20250702160121214.jpg</image>
   </programme>
-  <programme start="20260624174007 +0800" stop="20260624175007 +0800" channel="WOWOW Live (Primehome)">
+  <programme start="20260624174031 +0800" stop="20260624175031 +0800" channel="WOWOW Live (Primehome)">
     <title lang="ja">ＷＯＷＯＷ　ＭＵＳＩＣ　ＢＲＥＡＫ　＃４０７</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/11618/S_f09dbf0e3e7f4ed2b490c576396c3007_20250603131309024.jpg</image>
   </programme>
-  <programme start="20260624175007 +0800" stop="20260623230007 +0800" channel="WOWOW Live (Primehome)">
+  <programme start="20260624175031 +0800" stop="20260623230031 +0800" channel="WOWOW Live (Primehome)">
     <title lang="ja">ウィンブルドンテニス　予選　第３日　男女シングルス予選２回戦</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/74872/S_3fe477beb35a43c495a1d54c0ca7f923_20260601110214954.jpg</image>
   </programme>
-  <programme start="20260625121507 +0800" stop="20260625124507 +0800" channel="WOWOW Live (Primehome)">
+  <programme start="20260625121531 +0800" stop="20260625124531 +0800" channel="WOWOW Live (Primehome)">
     <title lang="ja">宝塚プルミエール　宙組「黒蜥蜴」「Ｄｉａｍｏｎｄ　ＩＭＰＵＬＳＥ」</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/11835/S_d3d6b84bcbb847e595dad0eec6faae7e_20250603135639346.jpg</image>
   </programme>
-  <programme start="20260625124507 +0800" stop="20260625143007 +0800" channel="WOWOW Live (Primehome)">
+  <programme start="20260625124531 +0800" stop="20260625143031 +0800" channel="WOWOW Live (Primehome)">
     <title lang="ja">宝塚への招待　「ＲＲＲ　×　ＴＡＫＡ"Ｒ"ＡＺＵＫＡ　～√Ｂｈｅｅｍ～」（星組２０２４年）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/17918/S_963783d566ea4c3dba1d5d67ee0599fc_20250703091135593.jpg</image>
   </programme>
-  <programme start="20260625143007 +0800" stop="20260625163007 +0800" channel="WOWOW Live (Primehome)">
+  <programme start="20260625143031 +0800" stop="20260625163031 +0800" channel="WOWOW Live (Primehome)">
     <title lang="ja">佐野元春　＆　ＴＨＥ　ＣＯＹＯＴＥ　ＧＲＡＮＤ　ＲＯＣＫＥＳＴＲＡ「ヤァ！　４０年目の武道館　＆　大阪城ホール」</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/68000/S_a6b19bc7172d44a89180451372e198ef_20260402133736519.jpg</image>
   </programme>
-  <programme start="20260625163007 +0800" stop="20260625173007 +0800" channel="WOWOW Live (Primehome)">
+  <programme start="20260625163031 +0800" stop="20260625173031 +0800" channel="WOWOW Live (Primehome)">
     <title lang="ja">佐野元春　ｗｉｔｈ　ＴＨＥ　ＨＥＡＲＴＬＡＮＤ『Ｇｏｏｄｂｙｅ　Ｃｒｕｅｌ　Ｗｏｒｌｄ』</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/68001/S_bb66dfb5ca424c9690da55920181a0d4_20260402133748197.jpg</image>
   </programme>
-  <programme start="20260625173007 +0800" stop="20260625175007 +0800" channel="WOWOW Live (Primehome)">
+  <programme start="20260625173031 +0800" stop="20260625175031 +0800" channel="WOWOW Live (Primehome)">
     <title lang="ja">世界は布思議～布のおはなし～　＃３　ポーランド、ヤノフ村のタペストリー</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/72519/S_1266c4fefa6f4c67b13d6d67beb472c3_20260511143046117.jpg</image>
   </programme>
-  <programme start="20260625175007 +0800" stop="20260624230007 +0800" channel="WOWOW Live (Primehome)">
+  <programme start="20260625175031 +0800" stop="20260624230031 +0800" channel="WOWOW Live (Primehome)">
     <title lang="ja">ウィンブルドンテニス　予選　最終日　男女シングルス予選決勝</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/74872/S_3fe477beb35a43c495a1d54c0ca7f923_20260601110214954.jpg</image>
   </programme>
-  <programme start="20260626120007 +0800" stop="20260626140007 +0800" channel="WOWOW Live (Primehome)">
+  <programme start="20260626120031 +0800" stop="20260626140031 +0800" channel="WOWOW Live (Primehome)">
     <title lang="ja">三谷幸喜「昭和から騒ぎ」　大泉洋×宮沢りえ</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/22989/S_0ee9a6692b15469481007e74c739a113_20250804135947415.jpg</image>
   </programme>
-  <programme start="20260626140007 +0800" stop="20260626153007 +0800" channel="WOWOW Live (Primehome)">
+  <programme start="20260626140031 +0800" stop="20260626153031 +0800" channel="WOWOW Live (Primehome)">
     <title lang="ja">久保田利伸　『Ｋｅｅｐ　Ｏｎ　Ｄａｎｃｉｎｇ　Ｔｏｕｒ　１９８８』</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/67994/S_dd7a7e8a173a4dbc82f5810d2b933476_20260402133113895.jpg</image>
   </programme>
-  <programme start="20260626153007 +0800" stop="20260626170007 +0800" channel="WOWOW Live (Primehome)">
+  <programme start="20260626153031 +0800" stop="20260626170031 +0800" channel="WOWOW Live (Primehome)">
     <title lang="ja">久保田利伸　Ｃｏｎｃｅｒｔ　Ｔｏｕｒ　『Ｔｉｍｅｌｅｓｓ　Ｆｌｙ　２０１０』</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/67995/S_e17ef0064e264e83a56556006d3f630c_20260402133127683.jpg</image>
   </programme>
-  <programme start="20260626170007 +0800" stop="20260626175007 +0800" channel="WOWOW Live (Primehome)">
+  <programme start="20260626170031 +0800" stop="20260626175031 +0800" channel="WOWOW Live (Primehome)">
     <title lang="ja">ＴＭＮＥＴＷＯＲＫ　スケルラジオ　ＷＯＷＯＷ　ｖｅｒ．　＃１</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/67970/S_14c452385a44426d8eff9b458e4376de_20260402131821460.jpg</image>
   </programme>
-  <programme start="20260626175007 +0800" stop="20260626180007 +0800" channel="WOWOW Live (Primehome)">
+  <programme start="20260626175031 +0800" stop="20260626180031 +0800" channel="WOWOW Live (Primehome)">
     <title lang="ja">絶賛公開中！映画『免許返納！？』公開記念特番　メイキング編</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/67991/S_4a6686738b624d68a1ae9d170e1162f9_20260402132831956.jpg</image>
   </programme>
-  <programme start="20260626180007 +0800" stop="20260626194507 +0800" channel="WOWOW Live (Primehome)">
+  <programme start="20260626180031 +0800" stop="20260626194531 +0800" channel="WOWOW Live (Primehome)">
     <title lang="ja">ラッシュアワー（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/72498/S_41a7c7d9d34c435c9f1b07de7e5c4d4f_20260511141606572.jpg</image>
   </programme>
-  <programme start="20260626194507 +0800" stop="20260626212007 +0800" channel="WOWOW Live (Primehome)">
+  <programme start="20260626194531 +0800" stop="20260626212031 +0800" channel="WOWOW Live (Primehome)">
     <title lang="ja">ラッシュアワー２（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/72499/S_47e5cbbfc41a43588315df3f622e5b92_20260511141616719.jpg</image>
   </programme>
-  <programme start="20260626212007 +0800" stop="20260625230007 +0800" channel="WOWOW Live (Primehome)">
+  <programme start="20260626212031 +0800" stop="20260625230031 +0800" channel="WOWOW Live (Primehome)">
     <title lang="ja">ラッシュアワー３（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/72500/S_121d7980a02e474e9ccdf35ae9bd67a3_20260511141628105.jpg</image>
   </programme>
-  <programme start="20260627123007 +0800" stop="20260627143007 +0800" channel="WOWOW Live (Primehome)">
+  <programme start="20260627123031 +0800" stop="20260627143031 +0800" channel="WOWOW Live (Primehome)">
     <title lang="ja">平井堅　２０ｔｈ　Ａｎｎｉｖｅｒｓａｒｙ　Ｓｐｅｃｉａｌ　！！　Ｌｉｖｅ　Ｔｏｕｒ　２０１６</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/72535/S_fe6da5710cab444b94ae1148dfd05489_20260511145440893.jpg</image>
   </programme>
-  <programme start="20260627143007 +0800" stop="20260627150007 +0800" channel="WOWOW Live (Primehome)">
+  <programme start="20260627143031 +0800" stop="20260627150031 +0800" channel="WOWOW Live (Primehome)">
     <title lang="ja">宝塚プルミエール　彩風咲奈×夢白あや　ロケスペシャル</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/11835/S_d3d6b84bcbb847e595dad0eec6faae7e_20250603135639346.jpg</image>
   </programme>
-  <programme start="20260627150007 +0800" stop="20260627170007 +0800" channel="WOWOW Live (Primehome)">
+  <programme start="20260627150031 +0800" stop="20260627170031 +0800" channel="WOWOW Live (Primehome)">
     <title lang="ja">宝塚への招待「ボイルド・ドイル・オンザ・トイル・トレイル」　—彩風咲奈×夢白あや　副音声解説付—</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/72438/S_93ae00c69d3846c39c61cdb732253cc2_20260511114609336.jpg</image>
   </programme>
-  <programme start="20260627170007 +0800" stop="20260627180007 +0800" channel="WOWOW Live (Primehome)">
+  <programme start="20260627170031 +0800" stop="20260627180031 +0800" channel="WOWOW Live (Primehome)">
     <title lang="ja">ＩＮＶＩＴＡＴＩＯＮ／佐野元春</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/34541/S_8f1775f4d4a644c4b016b11cfd1ee83e_20251002103756325.jpg</image>
   </programme>
-  <programme start="20260627180007 +0800" stop="20260627200007 +0800" channel="WOWOW Live (Primehome)">
+  <programme start="20260627180031 +0800" stop="20260627200031 +0800" channel="WOWOW Live (Primehome)">
     <title lang="ja">佐野元春　＆　ＴＨＥ　ＣＯＹＯＴＥ　ＢＡＮＤ　４５ＴＨ　ＡＮＮＩＶＥＲＳＡＲＹ　ＴＯＵＲ　ａｔ　ＴＯＫＹＯ　ＧＡＲＤＥＮ　ＴＨＥＡＴＥＲ</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/72511/S_e052b7b0428346a0a614b1b2d6bca092_20260511142608020.jpg</image>
   </programme>
-  <programme start="20260627200007 +0800" stop="20260627220007 +0800" channel="WOWOW Live (Primehome)">
+  <programme start="20260627200031 +0800" stop="20260627220031 +0800" channel="WOWOW Live (Primehome)">
     <title lang="ja">三谷幸喜「いのこりぐみ」　小栗旬×菊地凛子×平岩紙×相島一之</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/72513/S_e39a1ca7b4814ea4af292e558ab17b96_20260511142710966.jpg</image>
   </programme>
-  <programme start="20260627220007 +0800" stop="20260627225007 +0800" channel="WOWOW Live (Primehome)">
+  <programme start="20260627220031 +0800" stop="20260627225031 +0800" channel="WOWOW Live (Primehome)">
     <title lang="ja">ＴＭＮＥＴＷＯＲＫ　スケルラジオ　ＷＯＷＯＷ　ｖｅｒ．　＃２</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/67970/S_14c452385a44426d8eff9b458e4376de_20260402131821460.jpg</image>
   </programme>
-  <programme start="20260627225007 +0800" stop="20260626230007 +0800" channel="WOWOW Live (Primehome)">
+  <programme start="20260627225031 +0800" stop="20260626230031 +0800" channel="WOWOW Live (Primehome)">
     <title lang="ja">ＷＯＷＯＷ　ＭＵＳＩＣ　ＢＲＥＡＫ　＃４０４</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/11618/S_f09dbf0e3e7f4ed2b490c576396c3007_20250603131309024.jpg</image>
   </programme>
-  <programme start="20260628110007 +0800" stop="20260628140007 +0800" channel="WOWOW Live (Primehome)">
+  <programme start="20260628110031 +0800" stop="20260628140031 +0800" channel="WOWOW Live (Primehome)">
     <title lang="ja">ＨＯＵＮＤ　ＤＯＧ　４０ｔｈ＋１　Ａｎｎｉｖｅｒｓａｒｙ　ＬＩＶＥ　Ｆｉｒｓｔ　Ｆｉｎａｌｅ　ＬＩＶＥ＆ＤＯＣＵＭＥＮＴ</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/67964/S_37f19188e12849d2828d72f75af06224_20260402131314637.jpg</image>
   </programme>
-  <programme start="20260628140007 +0800" stop="20260628160007 +0800" channel="WOWOW Live (Primehome)">
+  <programme start="20260628140031 +0800" stop="20260628160031 +0800" channel="WOWOW Live (Primehome)">
     <title lang="ja">久保田利伸　２５ｔｈ　Ａｎｎｉｖｅｒｓａｒｙ　Ｃｏｎｃｅｒｔ　Ｔｏｕｒ　２０１２　『Ｐａｒｔｙ　ａｉｎ’ｔ　Ａ　Ｐａｒｔｙ！』</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/72504/S_595a33e90e9a43088ad2bd6757f7f7ba_20260511142111765.jpg</image>
   </programme>
-  <programme start="20260628160007 +0800" stop="20260628182007 +0800" channel="WOWOW Live (Primehome)">
+  <programme start="20260628160031 +0800" stop="20260628182031 +0800" channel="WOWOW Live (Primehome)">
     <title lang="ja">久保田利伸　４０ｔｈ　Ａｎｎｉｖｅｒｓａｒｙ　Ａｒｅｎａ　Ｔｏｕｒ　２０２６　『Ｂｉｇ　ｕｐ！　“Ｓｕｐｒｅｍｅ”』</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/72505/S_360ee833c6c24ecf9a511f8048240afb_20260511142121602.jpg</image>
   </programme>
-  <programme start="20260628182007 +0800" stop="20260628183007 +0800" channel="WOWOW Live (Primehome)">
+  <programme start="20260628182031 +0800" stop="20260628183031 +0800" channel="WOWOW Live (Primehome)">
     <title lang="ja">ＷＯＷＯＷ　ＭＵＳＩＣ　ＢＲＥＡＫ　＃４０６</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/11618/S_f09dbf0e3e7f4ed2b490c576396c3007_20250603131309024.jpg</image>
   </programme>
-  <programme start="20260628183007 +0800" stop="20260628200007 +0800" channel="WOWOW Live (Primehome)">
+  <programme start="20260628183031 +0800" stop="20260628200031 +0800" channel="WOWOW Live (Primehome)">
     <title lang="ja">ＴＵＢＥ　４０ｔｈ　Ａｎｎｉｖｅｒｓａｒｙ　Ｌｉｖｅ　＆　Ｄｏｃｕｍｅｎｔａｒｙ　～４０周年の航海記～</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/72476/S_0dc471a7749a47dfab5c50775ad49aac_20260511135027578.jpg</image>
   </programme>
-  <programme start="20260628200007 +0800" stop="20260627230007 +0800" channel="WOWOW Live (Primehome)">
+  <programme start="20260628200031 +0800" stop="20260627230031 +0800" channel="WOWOW Live (Primehome)">
     <title lang="ja">ＣＮＢＬＵＥ「２０２６　ＣＮＢＬＵＥ　ＬＩＶＥ　'３ＬＯＧＹ'　ＩＮ　ＪＡＰＡＮ」</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/72466/S_64c86b5857ff44a9b65a3785f84ad527_20260511134016672.jpg</image>
   </programme>
-  <programme start="20260629110007 +0800" stop="20260629133007 +0800" channel="WOWOW Live (Primehome)">
+  <programme start="20260629110031 +0800" stop="20260629133031 +0800" channel="WOWOW Live (Primehome)">
     <title lang="ja">杉山清貴＆オメガトライブ　“お～い、ヒロイシ！！”</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/23001/S_5df31459f0b74d6792d233da66251729_20250804140204624.jpg</image>
   </programme>
-  <programme start="20260629133007 +0800" stop="20260629153007 +0800" channel="WOWOW Live (Primehome)">
+  <programme start="20260629133031 +0800" stop="20260629153031 +0800" channel="WOWOW Live (Primehome)">
     <title lang="ja">平井堅　Ｋｅｎ'ｓ　Ｂａｒ　２０ｔｈ　Ａｎｎｉｖｅｒｓａｒｙ　Ｓｐｅｃｉａｌ！！　Ｐｒｅｍｉｕｍ　Ｌｉｖｅ　ｉｎ　ＮＹ</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/68018/S_9491ece6db3142c58af66f70d0ff8da5_20260402134922354.jpg</image>
   </programme>
-  <programme start="20260629153007 +0800" stop="20260629174507 +0800" channel="WOWOW Live (Primehome)">
+  <programme start="20260629153031 +0800" stop="20260629174531 +0800" channel="WOWOW Live (Primehome)">
     <title lang="ja">武部聡志プロデュース　『ジブリをうたう』　コンサート　その２</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/68016/S_a9b4b2b1080c4ff7bb3803645a973fe6_20260402134846990.jpg</image>
   </programme>
-  <programme start="20260629174507 +0800" stop="20260628230007 +0800" channel="WOWOW Live (Primehome)">
+  <programme start="20260629174531 +0800" stop="20260628230031 +0800" channel="WOWOW Live (Primehome)">
     <title lang="ja">ウィンブルドンテニス　第１日　男女シングルス１回戦</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/74872/S_3fe477beb35a43c495a1d54c0ca7f923_20260601110214954.jpg</image>
   </programme>
-  <programme start="20260626230007 +0800" stop="20260627010007 +0800" channel="WOWOW Live (Primehome)">
+  <programme start="20260626230031 +0800" stop="20260627010031 +0800" channel="WOWOW Live (Primehome)">
     <title lang="ja">３００＜スリーハンドレッド＞（吹替版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/72442/S_b0959d8305024904840991394d7187a6_20260511115429877.jpg</image>
   </programme>
-  <programme start="20260627010007 +0800" stop="20260627024507 +0800" channel="WOWOW Live (Primehome)">
+  <programme start="20260627010031 +0800" stop="20260627024531 +0800" channel="WOWOW Live (Primehome)">
     <title lang="ja">３００＜スリーハンドレッド＞～帝国の進撃～（吹替版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/72443/S_f5db2016f3ce4e2490b126bfc41cd640_20260511115443490.jpg</image>
   </programme>
-  <programme start="20260627230007 +0800" stop="20260628010007 +0800" channel="WOWOW Live (Primehome)">
+  <programme start="20260627230031 +0800" stop="20260628010031 +0800" channel="WOWOW Live (Primehome)">
     <title lang="ja">ラグビー　テストマッチ　２０２３　サマー・ネーションズシリーズ　イタリアｖｓ日本</title>
   </programme>
-  <programme start="20260628230007 +0800" stop="20260629011507 +0800" channel="WOWOW Live (Primehome)">
+  <programme start="20260628230031 +0800" stop="20260629011531 +0800" channel="WOWOW Live (Primehome)">
     <title lang="ja">ラグビー　テストマッチ　２０２４　オータム・ネーションズシリーズ　フランスｖｓ日本</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/34612/S_b328941a1b2641bba5e64fc6ecc8121f_20251002110606038.jpg</image>
   </programme>
-  <programme start="20260623100007 +0800" stop="20260623110007 +0800" channel="WOWOW Prime (Primehome)">
-    <title lang="ja">ウー・ジンイエン×シュー・カイ「尚食（しょうしょく）～美味なる恋は紫禁城で～」　＃２２　上元（じょうげん）節の勝負（字幕版）</title>
-    <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/67700/S_c9a6f2a4a4a14df3a8e026fb4d812459_20260402091934866.jpg</image>
-  </programme>
-  <programme start="20260624003007 +0800" stop="20260624031507 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260624003031 +0800" stop="20260624031531 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">憐れみの３章（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/44944/S_7a02a24676934e80a2322c98981bcb9f_20251202140133682.jpg</image>
   </programme>
-  <programme start="20260624031507 +0800" stop="20260624053007 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260624031531 +0800" stop="20260624053031 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">ディスクロージャー（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/67750/S_941a4b2f3467464d8d0b99325a0e78d7_20260402094958442.jpg</image>
   </programme>
-  <programme start="20260624053007 +0800" stop="20260624062007 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260624053031 +0800" stop="20260624062031 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">唐朝詭事録＜とうちょうきじろく＞　第三季−Ｒｅｔｕｒｎ　ｔｏ　ｔｈｅ　Ｃａｐｉｔａｌ−　＃７　姿を消した娘（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/71992/S_a1aaff38a7a64dd09296682bd368505c_20260508105940293.jpg</image>
   </programme>
-  <programme start="20260624062007 +0800" stop="20260624071007 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260624062031 +0800" stop="20260624071031 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">唐朝詭事録＜とうちょうきじろく＞　第三季−Ｒｅｔｕｒｎ　ｔｏ　ｔｈｅ　Ｃａｐｉｔａｌ−　＃８　白髪の隠士（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/71992/S_a1aaff38a7a64dd09296682bd368505c_20260508105940293.jpg</image>
   </programme>
-  <programme start="20260624071007 +0800" stop="20260624073007 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260624071031 +0800" stop="20260624073031 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">「連続ドラマＷ　コンサルタント—死を執筆する男—」スペシャルコンテンツ　＃２　伊藤健太郎×木村文乃×ＧＡＣＫＴぶっちゃけ座談会～ｐａｒｔ２～</title>
   </programme>
-  <programme start="20260624073007 +0800" stop="20260624084507 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260624073031 +0800" stop="20260624084531 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">チョン・イル×チョン・インソン主演「華麗なる日々」　＃１４　「第１４話」（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/71275/S_4d341b5946fe413eaa0a0295e20b2e4d_20260507143744627.jpg</image>
   </programme>
-  <programme start="20260624084507 +0800" stop="20260624100007 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260624084531 +0800" stop="20260624100031 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">無法弁護士～最高のパートナー　＃８　守るべき人（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/72001/S_e07efc7b4de94bdab30d292bf8e82676_20260508110317790.jpg</image>
   </programme>
-  <programme start="20260624100007 +0800" stop="20260624110007 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260624100031 +0800" stop="20260624110031 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">ウー・ジンイエン×シュー・カイ「尚食（しょうしょく）～美味なる恋は紫禁城で～」　＃２３　最後の告白（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/67700/S_c9a6f2a4a4a14df3a8e026fb4d812459_20260402091934866.jpg</image>
   </programme>
-  <programme start="20260625020007 +0800" stop="20260625034507 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260625020031 +0800" stop="20260625034531 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">３つのグノシエンヌ</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/71486/S_7266db9078774df190e0767346d231ac_20260508091251659.jpg</image>
   </programme>
-  <programme start="20260625034507 +0800" stop="20260625053007 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260625034531 +0800" stop="20260625053031 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">盲山（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/72003/S_4bbd11fa01d84b41866206b6da52e468_20260508110414735.jpg</image>
   </programme>
-  <programme start="20260625053007 +0800" stop="20260625062007 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260625053031 +0800" stop="20260625062031 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">十二通の手紙～想いは時を越えて～　＃９　もしも…（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/67833/S_a1fbb30766a14e3c894a56d7d8a0ddf9_20260402102207870.jpg</image>
   </programme>
-  <programme start="20260625062007 +0800" stop="20260625073007 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260625062031 +0800" stop="20260625073031 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">十二通の手紙～想いは時を越えて～　＃１０　運命（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/67833/S_a1fbb30766a14e3c894a56d7d8a0ddf9_20260402102207870.jpg</image>
   </programme>
-  <programme start="20260625073007 +0800" stop="20260625084507 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260625073031 +0800" stop="20260625084531 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">チョン・イル×チョン・インソン主演「華麗なる日々」　＃１５　「第１５話」（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/71275/S_4d341b5946fe413eaa0a0295e20b2e4d_20260507143744627.jpg</image>
   </programme>
-  <programme start="20260625084507 +0800" stop="20260625100007 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260625084531 +0800" stop="20260625100031 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">無法弁護士～最高のパートナー　＃９　無敵の弁護人（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/72001/S_e07efc7b4de94bdab30d292bf8e82676_20260508110317790.jpg</image>
   </programme>
-  <programme start="20260625100007 +0800" stop="20260625110007 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260625100031 +0800" stop="20260625110031 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">ウー・ジンイエン×シュー・カイ「尚食（しょうしょく）～美味なる恋は紫禁城で～」　＃２４　すれ違い（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/67700/S_c9a6f2a4a4a14df3a8e026fb4d812459_20260402091934866.jpg</image>
   </programme>
-  <programme start="20260626030007 +0800" stop="20260626051507 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260626030031 +0800" stop="20260626051531 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">悪いやつら（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/71938/S_ae7b1c81fbce4b7397e43a91bd032e3b_20260508103938733.jpg</image>
   </programme>
-  <programme start="20260626051507 +0800" stop="20260626062007 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260626051531 +0800" stop="20260626062031 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">チョン・ヘジン主演「ライディング人生」　＃７　「第７話」（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/55080/S_725d4d2cf9cb4117b01583a6a2cefdcd_20260202165220083.jpg</image>
   </programme>
-  <programme start="20260626062007 +0800" stop="20260626073007 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260626062031 +0800" stop="20260626073031 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">チョン・ヘジン主演「ライディング人生」　＃８　「最終話」（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/55080/S_725d4d2cf9cb4117b01583a6a2cefdcd_20260202165220083.jpg</image>
   </programme>
-  <programme start="20260626073007 +0800" stop="20260626084507 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260626073031 +0800" stop="20260626084531 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">チョン・イル×チョン・インソン主演「華麗なる日々」　＃１６　「第１６話」（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/71275/S_4d341b5946fe413eaa0a0295e20b2e4d_20260507143744627.jpg</image>
   </programme>
-  <programme start="20260626084507 +0800" stop="20260626090007 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260626084531 +0800" stop="20260626090031 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">ＷＯＷＯＷ　ＭＵＳＩＣ　ＢＲＥＡＫ　＃４０３</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/10960/S_59c96d1c7e6a44e59130fba421f266c8_20250603093457683.jpg</image>
   </programme>
-  <programme start="20260626090007 +0800" stop="20260626101507 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260626090031 +0800" stop="20260626101531 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">チョン・ギョンホ主演「労務士ノ・ムジン」　＃９　怒りで正義を実現せよ（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/67748/S_fb395283ab1744b8837b0d234317ccd7_20260402094925745.jpg</image>
   </programme>
-  <programme start="20260626101507 +0800" stop="20260626113007 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260626101531 +0800" stop="20260626113031 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">チョン・ギョンホ主演「労務士ノ・ムジン」　＃１０　労務士　ノ・ムジン（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/67748/S_fb395283ab1744b8837b0d234317ccd7_20260402094925745.jpg</image>
   </programme>
-  <programme start="20260627021507 +0800" stop="20260627040007 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260627021531 +0800" stop="20260627040031 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">５７秒　復讐のタイムループ（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/44792/S_c57f628b582a493288b505d9fe586e60_20251202112120063.jpg</image>
   </programme>
-  <programme start="20260627040007 +0800" stop="20260627060007 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260627040031 +0800" stop="20260627060031 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">運び屋（吹替版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/55712/S_f5551bab73f0422582c17f8a3f04e4b7_20260203104409000.jpg</image>
   </programme>
-  <programme start="20260627060007 +0800" stop="20260627074507 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260627060031 +0800" stop="20260627074531 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">ドライブ・クレイジー：タイペイ・ミッション（吹替版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/71867/S_f35f2e455f064bff9bdfa3ee42407582_20260508102101114.jpg</image>
   </programme>
-  <programme start="20260627074507 +0800" stop="20260627090007 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260627074531 +0800" stop="20260627090031 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">ストーブリーグ　＃８　８話</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/74140/S_d03344d59b8f49c49b538289322900c4_20260525140547305.jpg</image>
   </programme>
-  <programme start="20260627090007 +0800" stop="20260627095007 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260627090031 +0800" stop="20260627095031 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">ＦＢＩ８：特別捜査班　＃１２　遠い夜明け</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/61016/S_fdcfa348fa7644399cc8954d5d5b39df_20260304110554957.jpg</image>
   </programme>
-  <programme start="20260627095007 +0800" stop="20260627100007 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260627095031 +0800" stop="20260627100031 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">絶賛公開中！映画『免許返納！？』公開記念特番　キャラクター編</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/67798/S_238b6cd7081e44d48cc7a83aed340af8_20260402101001953.jpg</image>
   </programme>
-  <programme start="20260627100007 +0800" stop="20260627110007 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260627100031 +0800" stop="20260627110031 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">ＰＯＮＩＥＳ：スパイな妻たち　＃１　初めての任務</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/71264/S_01b10f09bdcc4db1a4be31fd0dacf837_20260507142902399.jpg</image>
   </programme>
-  <programme start="20260628004007 +0800" stop="20260628031507 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260628004031 +0800" stop="20260628031531 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">インヒアレント・ヴァイス（吹替版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/67698/S_4b28aac629df4958b57d41fe755ad3b2_20260402091903263.jpg</image>
   </programme>
-  <programme start="20260628031507 +0800" stop="20260628053007 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260628031531 +0800" stop="20260628053031 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">レインマン（吹替版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/55481/S_ddd9f3adfaae4a978f3fba1f92e98048_20260203094820239.jpg</image>
   </programme>
-  <programme start="20260628053007 +0800" stop="20260628080007 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260628053031 +0800" stop="20260628080031 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">マイノリティ・リポート（吹替版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/51486/S_966e96c8a6cb4f649ea2222ba632d75b_20260107103717494.jpg</image>
   </programme>
-  <programme start="20260628080007 +0800" stop="20260628090007 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260628080031 +0800" stop="20260628090031 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">連続ドラマＷ　コンサルタント—死を執筆する男—　＃３　「第三話」</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/72009/S_c9432c509f61492b902d225361992226_20260508110712728.jpg</image>
   </programme>
-  <programme start="20260628090007 +0800" stop="20260628111507 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260628090031 +0800" stop="20260628111531 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">フロントライン</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/71891/S_0f83408b2d0c4fc6821ba715d8de6901_20260508102906883.jpg</image>
   </programme>
-  <programme start="20260629030007 +0800" stop="20260629035007 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260629030031 +0800" stop="20260629035031 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">大生意人（だいせいいじん）～大商人への道～　＃２　寧古塔脱出（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/71982/S_ef3685dc08c04f739ea150d7d0304434_20260508105618208.jpg</image>
   </programme>
-  <programme start="20260629035007 +0800" stop="20260629044007 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260629035031 +0800" stop="20260629044031 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">大生意人（だいせいいじん）～大商人への道～　＃３　命の恩人（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/71982/S_ef3685dc08c04f739ea150d7d0304434_20260508105618208.jpg</image>
   </programme>
-  <programme start="20260629044007 +0800" stop="20260629053007 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260629044031 +0800" stop="20260629053031 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">大生意人（だいせいいじん）～大商人への道～　＃４　初めての商談（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/71982/S_ef3685dc08c04f739ea150d7d0304434_20260508105618208.jpg</image>
   </programme>
-  <programme start="20260629053007 +0800" stop="20260629062007 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260629053031 +0800" stop="20260629062031 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">大生意人（だいせいいじん）～大商人への道～　＃５　草原の地（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/71982/S_ef3685dc08c04f739ea150d7d0304434_20260508105618208.jpg</image>
   </programme>
-  <programme start="20260629062007 +0800" stop="20260629071007 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260629062031 +0800" stop="20260629071031 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">大生意人（だいせいいじん）～大商人への道～　＃６　切ない思い（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/71982/S_ef3685dc08c04f739ea150d7d0304434_20260508105618208.jpg</image>
   </programme>
-  <programme start="20260629071007 +0800" stop="20260629073007 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260629071031 +0800" stop="20260629073031 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">「連続ドラマＷ　コンサルタント—死を執筆する男—」スペシャルコンテンツ　＃２　伊藤健太郎×木村文乃×ＧＡＣＫＴぶっちゃけ座談会～ｐａｒｔ２～</title>
   </programme>
-  <programme start="20260629073007 +0800" stop="20260629084507 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260629073031 +0800" stop="20260629084531 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">チョン・イル×チョン・インソン主演「華麗なる日々」　＃１７　「第１７話」（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/71275/S_4d341b5946fe413eaa0a0295e20b2e4d_20260507143744627.jpg</image>
   </programme>
-  <programme start="20260629084507 +0800" stop="20260629100007 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260629084531 +0800" stop="20260629100031 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">無法弁護士～最高のパートナー　＃１０　昨日の敵は今日の味方？！（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/72001/S_e07efc7b4de94bdab30d292bf8e82676_20260508110317790.jpg</image>
   </programme>
-  <programme start="20260629100007 +0800" stop="20260629110007 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260629100031 +0800" stop="20260629110031 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">ウー・ジンイエン×シュー・カイ「尚食（しょうしょく）～美味なる恋は紫禁城で～」　＃２５　駆け引き（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/67700/S_c9a6f2a4a4a14df3a8e026fb4d812459_20260402091934866.jpg</image>
   </programme>
-  <programme start="20260623110007 +0800" stop="20260623125507 +0800" channel="WOWOW Prime (Primehome)">
-    <title lang="ja">ユーズド・カー（字幕版）</title>
-    <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/71924/S_77abafa19ed64d9ea49101493a22324e_20260508103549635.jpg</image>
-  </programme>
-  <programme start="20260623125507 +0800" stop="20260623144007 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260623125531 +0800" stop="20260623144031 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">永遠に美しく…（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/71944/S_14eda47ed3524c3ba6869dd862c485c9_20260508104141685.jpg</image>
   </programme>
-  <programme start="20260623144007 +0800" stop="20260623171507 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260623144031 +0800" stop="20260623171531 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">コンタクト（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/55071/S_167fd2ef8e214c4680aa86cfd2f6999a_20260202164430863.jpg</image>
   </programme>
-  <programme start="20260623171507 +0800" stop="20260623190007 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260623171531 +0800" stop="20260623190031 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">ペナルティループ</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/71457/S_6319b547e77d4a1581524faaf75e6ca4_20260507171102675.jpg</image>
   </programme>
-  <programme start="20260623190007 +0800" stop="20260623210007 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260623190031 +0800" stop="20260623210031 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">天外者（てんがらもん）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/67855/S_e0c34cf4111140efbd7489a83c416d09_20260402103226388.jpg</image>
   </programme>
-  <programme start="20260623210007 +0800" stop="20260623215007 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260623210031 +0800" stop="20260623215031 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">ＦＢＩ８：特別捜査班　＃１２　遠い夜明け（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/61016/S_fdcfa348fa7644399cc8954d5d5b39df_20260304110554957.jpg</image>
   </programme>
-  <programme start="20260623215007 +0800" stop="20260623220007 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260623215031 +0800" stop="20260623220031 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">「コペンハーゲン・テスト−覗かれたスパイ−」ミニガイド</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/67669/S_aea1a88410a146cb8bc7d0b3fe94bab9_20260401165402457.jpg</image>
   </programme>
-  <programme start="20260623220007 +0800" stop="20260623225007 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260623220031 +0800" stop="20260623225031 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">ＬＡＷ　＆　ＯＲＤＥＲ　新章　＃１０　黒と青</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/67682/S_9c11d7da728542c2856aebf47d75f959_20260402091234161.jpg</image>
   </programme>
-  <programme start="20260623225007 +0800" stop="20260622230007 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260623225031 +0800" stop="20260622230031 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">ＷＯＷＯＷ　ＭＵＳＩＣ　ＢＲＥＡＫ　＃４０６</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/10960/S_59c96d1c7e6a44e59130fba421f266c8_20250603093457683.jpg</image>
   </programme>
-  <programme start="20260624110007 +0800" stop="20260624131507 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260624110031 +0800" stop="20260624131531 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">ザ・ウォーク（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/71799/S_a241f91b8d5841cfafa66bc9ed2331c2_20260508094308616.jpg</image>
   </programme>
-  <programme start="20260624131507 +0800" stop="20260624150007 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260624131531 +0800" stop="20260624150031 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">ＨＥＲＥ　時を越えて（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/71496/S_e198021fac9e4ec6bf6525c47857b8b2_20260508091658731.jpg</image>
   </programme>
-  <programme start="20260624150007 +0800" stop="20260624164507 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260624150031 +0800" stop="20260624164531 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">ＯＴＨＥＲ　アザー　顔のない監視者（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/71510/S_ce0905d825374406823b60aa9c9b39db_20260508092110049.jpg</image>
   </programme>
-  <programme start="20260624164507 +0800" stop="20260624190007 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260624164531 +0800" stop="20260624190031 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">ルノワール</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/71479/S_ac45a51329d043cc98b929f61b8fa227_20260508090945366.jpg</image>
   </programme>
-  <programme start="20260624190007 +0800" stop="20260624195007 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260624190031 +0800" stop="20260624195031 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">大生意人（だいせいいじん）～大商人への道～　＃５　草原の地（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/71278/S_36d46fbe2a664c2b8587cbb71da88267_20260507143954465.jpg</image>
   </programme>
-  <programme start="20260624195007 +0800" stop="20260624204007 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260624195031 +0800" stop="20260624204031 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">大生意人（だいせいいじん）～大商人への道～　＃６　切ない思い（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/71278/S_36d46fbe2a664c2b8587cbb71da88267_20260507143954465.jpg</image>
   </programme>
-  <programme start="20260624204007 +0800" stop="20260624210007 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260624204031 +0800" stop="20260624210031 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">ＷＯＷＯＷ　ＭＵＳＩＣ　ＢＲＥＡＫ　＃４０８</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/10960/S_59c96d1c7e6a44e59130fba421f266c8_20250603093457683.jpg</image>
   </programme>
-  <programme start="20260624210007 +0800" stop="20260624215007 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260624210031 +0800" stop="20260624215031 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">ＬＡＷ　＆　ＯＲＤＥＲ　新章　＃１０　黒と青（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/67682/S_9c11d7da728542c2856aebf47d75f959_20260402091234161.jpg</image>
   </programme>
-  <programme start="20260624215007 +0800" stop="20260624220007 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260624215031 +0800" stop="20260624220031 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">「コペンハーゲン・テスト−覗かれたスパイ−」ミニガイド</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/67669/S_aea1a88410a146cb8bc7d0b3fe94bab9_20260401165402457.jpg</image>
   </programme>
-  <programme start="20260624220007 +0800" stop="20260623230007 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260624220031 +0800" stop="20260623230031 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">コペンハーゲン・テスト−覗かれたスパイ−　＃４　黒曜石の瞳</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/71273/S_72d873929a234447a3f1fd7f7bdcc0e1_20260507143544893.jpg</image>
   </programme>
-  <programme start="20260625110007 +0800" stop="20260625130007 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260625110031 +0800" stop="20260625130031 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">グランド・イリュージョン（吹替版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/71796/S_61cbf9b7543a49e590fbe1570bcee97d_20260508094020483.jpg</image>
   </programme>
-  <programme start="20260625130007 +0800" stop="20260625151507 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260625130031 +0800" stop="20260625151531 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">グランド・イリュージョン　見破られたトリック（吹替版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/67720/S_1c4a48e2680846d7b2e3c7c18560b767_20260402092856137.jpg</image>
   </programme>
-  <programme start="20260625151507 +0800" stop="20260625173007 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260625151531 +0800" stop="20260625173031 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">ストロベリームーン　余命半年の恋</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/71452/S_86db857512a04fab8dfcbd6dec91d0e6_20260507170522665.jpg</image>
   </programme>
-  <programme start="20260625173007 +0800" stop="20260625190007 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260625173031 +0800" stop="20260625190031 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">六つの顔</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/67891/S_a11577a9ba494767a6793b395f64105a_20260402104635131.jpg</image>
   </programme>
-  <programme start="20260625190007 +0800" stop="20260625195007 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260625190031 +0800" stop="20260625195031 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">唐朝詭事録＜とうちょうきじろく＞　第三季−Ｒｅｔｕｒｎ　ｔｏ　ｔｈｅ　Ｃａｐｉｔａｌ−　＃９　天后の金簡（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/71992/S_a1aaff38a7a64dd09296682bd368505c_20260508105940293.jpg</image>
   </programme>
-  <programme start="20260625195007 +0800" stop="20260625204007 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260625195031 +0800" stop="20260625204031 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">唐朝詭事録＜とうちょうきじろく＞　第三季−Ｒｅｔｕｒｎ　ｔｏ　ｔｈｅ　Ｃａｐｉｔａｌ−　＃１０　顔を売る男（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/71992/S_a1aaff38a7a64dd09296682bd368505c_20260508105940293.jpg</image>
   </programme>
-  <programme start="20260625204007 +0800" stop="20260625210007 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260625204031 +0800" stop="20260625210031 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">「連続ドラマＷ　コンサルタント—死を執筆する男—」スペシャルコンテンツ　＃１　伊藤健太郎×木村文乃×ＧＡＣＫＴぶっちゃけ座談会～ｐａｒｔ１～</title>
   </programme>
-  <programme start="20260625210007 +0800" stop="20260625220007 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260625210031 +0800" stop="20260625220031 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">コペンハーゲン・テスト−覗かれたスパイ−　＃４　黒曜石の瞳（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/71273/S_72d873929a234447a3f1fd7f7bdcc0e1_20260507143544893.jpg</image>
   </programme>
-  <programme start="20260625220007 +0800" stop="20260625225007 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260625220031 +0800" stop="20260625225031 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">ザ・ルーキー８　＃５　ＬＡアンダーグラウンド</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/71831/S_865e971713dd41a0b836a6d8a46bb34e_20260508100251645.jpg</image>
   </programme>
-  <programme start="20260625225007 +0800" stop="20260624230007 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260625225031 +0800" stop="20260624230031 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">ＷＯＷＯＷ　ＭＵＳＩＣ　ＢＲＥＡＫ　＃４０２</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/10960/S_59c96d1c7e6a44e59130fba421f266c8_20250603093457683.jpg</image>
   </programme>
-  <programme start="20260626113007 +0800" stop="20260626120007 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260626113031 +0800" stop="20260626120031 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">ドラフトキング　−ＢＯＲＤＥＲ　ＬＩＮＥ−　＃６　「第６話　捨てられた天才(1)」</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/71868/S_3c3d22801b4d46ffb17f7e3c5fdfa375_20260508102153765.jpg</image>
   </programme>
-  <programme start="20260626120007 +0800" stop="20260626130507 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260626120031 +0800" stop="20260626130531 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">イ・シヨン主演「サロン・ド・ホームズ」　＃１　クァンソンマンション３団地（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/61030/S_54dcc36832b042ed83dc0e2e3f8f9c1a_20260304111210282.jpg</image>
   </programme>
-  <programme start="20260626130507 +0800" stop="20260626140507 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260626130531 +0800" stop="20260626140531 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">イ・シヨン主演「サロン・ド・ホームズ」　＃２　迷惑駐車との戦い（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/61030/S_54dcc36832b042ed83dc0e2e3f8f9c1a_20260304111210282.jpg</image>
   </programme>
-  <programme start="20260626140507 +0800" stop="20260626151007 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260626140531 +0800" stop="20260626151031 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">イ・シヨン主演「サロン・ド・ホームズ」　＃３　正義感に満ちた母親たち（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/61030/S_54dcc36832b042ed83dc0e2e3f8f9c1a_20260304111210282.jpg</image>
   </programme>
-  <programme start="20260626151007 +0800" stop="20260626161507 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260626151031 +0800" stop="20260626161531 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">イ・シヨン主演「サロン・ド・ホームズ」　＃４　女子大生　失踪事件（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/61030/S_54dcc36832b042ed83dc0e2e3f8f9c1a_20260304111210282.jpg</image>
   </programme>
-  <programme start="20260626161507 +0800" stop="20260626190007 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260626161531 +0800" stop="20260626190031 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">ウィキッド　ふたりの魔女（吹替版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/39813/S_758fb13b18f348689446a387fa3a4f52_20251104155149627.jpg</image>
   </programme>
-  <programme start="20260626190007 +0800" stop="20260626200007 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260626190031 +0800" stop="20260626200031 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">チュ・ジフン×ハ・ジウォン「クライマックス」　＃１　第１話（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/71857/S_251389fa65d8494296430f2a41196cc0_20260508101425937.jpg</image>
   </programme>
-  <programme start="20260626200007 +0800" stop="20260626210507 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260626200031 +0800" stop="20260626210531 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">チュ・ジフン×ハ・ジウォン「クライマックス」　＃２　第２話（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/71857/S_251389fa65d8494296430f2a41196cc0_20260508101425937.jpg</image>
   </programme>
-  <programme start="20260626210507 +0800" stop="20260626220007 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260626210531 +0800" stop="20260626220031 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">ＢＢＣ　Ｅａｒｔｈ　２０２６　ワイルド・チャイナ～命あふれる広東～　＃３　都市</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/61013/S_f1e6d3d7d1a64b219e8de010ec95a1bd_20260304110509273.jpg</image>
   </programme>
-  <programme start="20260626220007 +0800" stop="20260626223007 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260626220031 +0800" stop="20260626223031 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">ドラフトキング　−ＢＯＲＤＥＲ　ＬＩＮＥ−　＃７　「第７話　捨てられた天才(2)」</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/71868/S_3c3d22801b4d46ffb17f7e3c5fdfa375_20260508102153765.jpg</image>
   </programme>
-  <programme start="20260626223007 +0800" stop="20260626002507 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260626223031 +0800" stop="20260626002531 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">顔を捨てた男（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/71459/S_4e08b5d514c044d6a374fc43ccb1801a_20260507172140176.jpg</image>
   </programme>
-  <programme start="20260627110007 +0800" stop="20260627120007 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260627110031 +0800" stop="20260627120031 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">ＰＯＮＩＥＳ：スパイな妻たち　＃２　見知らぬ電話</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/71264/S_01b10f09bdcc4db1a4be31fd0dacf837_20260507142902399.jpg</image>
   </programme>
-  <programme start="20260627120007 +0800" stop="20260627125007 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260627120031 +0800" stop="20260627125031 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">ＰＯＮＩＥＳ：スパイな妻たち　＃３　危険なデート</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/71264/S_01b10f09bdcc4db1a4be31fd0dacf837_20260507142902399.jpg</image>
   </programme>
-  <programme start="20260627125007 +0800" stop="20260627134507 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260627125031 +0800" stop="20260627134531 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">ＰＯＮＩＥＳ：スパイな妻たち　＃４　名もなき女</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/71264/S_01b10f09bdcc4db1a4be31fd0dacf837_20260507142902399.jpg</image>
   </programme>
-  <programme start="20260627134507 +0800" stop="20260627143507 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260627134531 +0800" stop="20260627143531 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">ＰＯＮＩＥＳ：スパイな妻たち　＃５　いい年、悪い年</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/71264/S_01b10f09bdcc4db1a4be31fd0dacf837_20260507142902399.jpg</image>
   </programme>
-  <programme start="20260627143507 +0800" stop="20260627153007 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260627143531 +0800" stop="20260627153031 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">ＰＯＮＩＥＳ：スパイな妻たち　＃６　ハニートラップ大作戦</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/71264/S_01b10f09bdcc4db1a4be31fd0dacf837_20260507142902399.jpg</image>
   </programme>
-  <programme start="20260627153007 +0800" stop="20260627162507 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260627153031 +0800" stop="20260627162531 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">ＰＯＮＩＥＳ：スパイな妻たち　＃７　命がけの潜入</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/71264/S_01b10f09bdcc4db1a4be31fd0dacf837_20260507142902399.jpg</image>
   </programme>
-  <programme start="20260627162507 +0800" stop="20260627171507 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260627162531 +0800" stop="20260627171531 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">ＰＯＮＩＥＳ：スパイな妻たち　＃８　ペガサスが世界の上に</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/71264/S_01b10f09bdcc4db1a4be31fd0dacf837_20260507142902399.jpg</image>
   </programme>
-  <programme start="20260627171507 +0800" stop="20260627200007 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260627171531 +0800" stop="20260627200031 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">ワン・バトル・アフター・アナザー（吹替版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/71936/S_5c0cfd78a8d2485191761d58bc3b7098_20260508103916470.jpg</image>
   </programme>
-  <programme start="20260627200007 +0800" stop="20260627220007 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260627200031 +0800" stop="20260627220031 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">ＴＭＮＥＴＷＯＲＫ　ＴＯＵＲ　２０２６　ＱＵＡＮＴＵＭ　ａｔ　ＹＯＫＯＨＡＭＡ　ＡＲＥＮＡ</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/71709/S_a6c28b710dea4e4aafb254d5bac55350_20260508092321032.jpg</image>
   </programme>
-  <programme start="20260627220007 +0800" stop="20260627225007 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260627220031 +0800" stop="20260627225031 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">ＦＢＩ８：特別捜査班　＃１３　唯一の絆</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/61016/S_fdcfa348fa7644399cc8954d5d5b39df_20260304110554957.jpg</image>
   </programme>
-  <programme start="20260627225007 +0800" stop="20260627004007 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260627225031 +0800" stop="20260627004031 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">クソ野郎と美しき世界</title>
   </programme>
-  <programme start="20260628111507 +0800" stop="20260628134507 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260628111531 +0800" stop="20260628134531 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">感染列島</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/67808/S_9f6dee78eefa44ad8c7354195e803ff1_20260402101522773.jpg</image>
   </programme>
-  <programme start="20260628134507 +0800" stop="20260628151507 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260628134531 +0800" stop="20260628151531 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">ミッドナイト・エスケープ（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/71907/S_52b15d530e0649e985363491512b3ff4_20260508103335334.jpg</image>
   </programme>
-  <programme start="20260628151507 +0800" stop="20260628165007 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260628151531 +0800" stop="20260628165031 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">エレベーション　絶滅ライン（吹替版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/67712/S_f5fa1f1305514f4c94d6aea3dfac3e66_20260402092358924.jpg</image>
   </programme>
-  <programme start="20260628165007 +0800" stop="20260628184507 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260628165031 +0800" stop="20260628184531 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">トップガン（吹替版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/44876/S_74097ae08fe14e23bb4bf64aa16bb96b_20251202130319993.jpg</image>
   </programme>
-  <programme start="20260628184507 +0800" stop="20260628210007 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260628184531 +0800" stop="20260628210031 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">トップガン　マーヴェリック（吹替版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/51459/S_f6c0aeb97e1e4670850a4a5dfb17a280_20260107102911146.jpg</image>
   </programme>
-  <programme start="20260628210007 +0800" stop="20260628220007 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260628210031 +0800" stop="20260628220031 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">連続ドラマＷ　コンサルタント—死を執筆する男—　＃４　「第四話」</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/71283/S_78849120925b4bec930087e37cf752ad_20260507144136481.jpg</image>
   </programme>
-  <programme start="20260628220007 +0800" stop="20260628001007 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260628220031 +0800" stop="20260628001031 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">ローン・サバイバー（吹替版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/71934/S_54d2dee7c96d49a38f1a5f9d05001d13_20260508103843457.jpg</image>
   </programme>
-  <programme start="20260629110007 +0800" stop="20260629120007 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260629110031 +0800" stop="20260629120031 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">ＰＯＮＩＥＳ：スパイな妻たち　＃１　初めての任務（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/71551/S_9bda1c9e09a04555a71de6fd2950298b_20260508092159836.jpg</image>
   </programme>
-  <programme start="20260629120007 +0800" stop="20260629130007 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260629120031 +0800" stop="20260629130031 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">ＰＯＮＩＥＳ：スパイな妻たち　＃２　見知らぬ電話（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/71551/S_9bda1c9e09a04555a71de6fd2950298b_20260508092159836.jpg</image>
   </programme>
-  <programme start="20260629130007 +0800" stop="20260629135007 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260629130031 +0800" stop="20260629135031 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">ＰＯＮＩＥＳ：スパイな妻たち　＃３　危険なデート（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/71551/S_9bda1c9e09a04555a71de6fd2950298b_20260508092159836.jpg</image>
   </programme>
-  <programme start="20260629135007 +0800" stop="20260629144507 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260629135031 +0800" stop="20260629144531 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">ＰＯＮＩＥＳ：スパイな妻たち　＃４　名もなき女（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/71551/S_9bda1c9e09a04555a71de6fd2950298b_20260508092159836.jpg</image>
   </programme>
-  <programme start="20260629144507 +0800" stop="20260629161507 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260629144531 +0800" stop="20260629161531 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">ハイド・アウト（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/71870/S_30533f35f02b40cc8cb14b1a9de47f2b_20260508102359945.jpg</image>
   </programme>
-  <programme start="20260629161507 +0800" stop="20260629180007 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260629161531 +0800" stop="20260629180031 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">ＤＲＯＰ／ドロップ（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/55035/S_5daeb38fd2fb40ab96f60e8f5bf8c7f7_20260202161853894.jpg</image>
   </programme>
-  <programme start="20260629180007 +0800" stop="20260629200007 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260629180031 +0800" stop="20260629200031 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">ブロークン・リベンジャーズ　−賭命−（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/71478/S_31127080f5bc4ccfb603c833da9cc2c8_20260508090816820.jpg</image>
   </programme>
-  <programme start="20260629200007 +0800" stop="20260629220007 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260629200031 +0800" stop="20260629220031 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">対外秘（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/71979/S_3eca5c56a7cf437db383391c8d1c4246_20260508105518016.jpg</image>
   </programme>
-  <programme start="20260629220007 +0800" stop="20260629225007 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260629220031 +0800" stop="20260629225031 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">ザ・ルーキー８　＃５　ＬＡアンダーグラウンド（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/71831/S_865e971713dd41a0b836a6d8a46bb34e_20260508100251645.jpg</image>
   </programme>
-  <programme start="20260629225007 +0800" stop="20260628230007 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260629225031 +0800" stop="20260628230031 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">ＷＯＷＯＷ　ＭＵＳＩＣ　ＢＲＥＡＫ　＃４０８</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/10960/S_59c96d1c7e6a44e59130fba421f266c8_20250603093457683.jpg</image>
   </programme>
-  <programme start="20260623230007 +0800" stop="20260623233007 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260623230031 +0800" stop="20260623233031 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">ＮＥＥＤＹ　ＧＩＲＬ　ＯＶＥＲＤＯＳＥ　＃１２　ＩＮＴＥＲＮＥＴ　ＹＡＭＥＲＯ</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/67686/S_476e4944890f460c976405ac1c8a2e76_20260402091353521.jpg</image>
   </programme>
-  <programme start="20260623233007 +0800" stop="20260624000007 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260623233031 +0800" stop="20260624000031 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">ゴーストコンサート　：　ｍｉｓｓｉｎｇ　Ｓｏｎｇｓ　＃１２</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/61059/S_af4fdc1aed494e5f85e08f93fb0645ff_20260304112908252.jpg</image>
   </programme>
-  <programme start="20260624000007 +0800" stop="20260624003007 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260624000031 +0800" stop="20260624003031 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">姫騎士は蛮族の嫁　第十一話</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/61199/S_a1d9601dfb4d43a089ab7c657a67907c_20260304133439337.jpg</image>
   </programme>
-  <programme start="20260624230007 +0800" stop="20260625000007 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260624230031 +0800" stop="20260625000031 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">連続ドラマＷ　コンサルタント—死を執筆する男—　＃１　「第一話」</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/72009/S_c9432c509f61492b902d225361992226_20260508110712728.jpg</image>
   </programme>
-  <programme start="20260625000007 +0800" stop="20260625010007 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260625000031 +0800" stop="20260625010031 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">連続ドラマＷ　コンサルタント—死を執筆する男—　＃２　「第二話」</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/72009/S_c9432c509f61492b902d225361992226_20260508110712728.jpg</image>
   </programme>
-  <programme start="20260625010007 +0800" stop="20260625020007 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260625010031 +0800" stop="20260625020031 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">連続ドラマＷ　コンサルタント—死を執筆する男—　＃３　「第三話」</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/72009/S_c9432c509f61492b902d225361992226_20260508110712728.jpg</image>
   </programme>
-  <programme start="20260625230007 +0800" stop="20260625235507 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260625230031 +0800" stop="20260625235531 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">十二通の手紙～想いは時を越えて～　＃１１　花開く春　君に会いに行く（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/67833/S_a1fbb30766a14e3c894a56d7d8a0ddf9_20260402102207870.jpg</image>
   </programme>
-  <programme start="20260625235507 +0800" stop="20260626004507 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260625235531 +0800" stop="20260626004531 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">十二通の手紙～想いは時を越えて～　＃１２　十二通目の手紙（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/67833/S_a1fbb30766a14e3c894a56d7d8a0ddf9_20260402102207870.jpg</image>
   </programme>
-  <programme start="20260626004507 +0800" stop="20260626030007 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260626004531 +0800" stop="20260626030031 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">情愛中毒［Ｒ１５＋指定版］（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/71973/S_ee5327359db64ec19a81b6af13fede5a_20260508105134623.jpg</image>
   </programme>
-  <programme start="20260627002507 +0800" stop="20260627003007 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260627002531 +0800" stop="20260627003031 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">絶賛公開中！映画『免許返納！？』公開記念特番　キャラクター編</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/67798/S_238b6cd7081e44d48cc7a83aed340af8_20260402101001953.jpg</image>
   </programme>
-  <programme start="20260627003007 +0800" stop="20260627021507 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260627003031 +0800" stop="20260627021531 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">ソルト（吹替版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/71847/S_100ca02d42de4663bc6b4dd4c7d118ce_20260508101223089.jpg</image>
   </programme>
-  <programme start="20260629001007 +0800" stop="20260629021007 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260629001031 +0800" stop="20260629021031 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">秘顔　ひがん［Ｒ１５＋指定版］（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/71995/S_a119ecf07e63417e8c3f36976f340950_20260508110106283.jpg</image>
   </programme>
-  <programme start="20260629021007 +0800" stop="20260629030007 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260629021031 +0800" stop="20260629030031 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">大生意人（だいせいいじん）～大商人への道～　＃１　罪人の地（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/71982/S_ef3685dc08c04f739ea150d7d0304434_20260508105618208.jpg</image>
   </programme>
-  <programme start="20260629230007 +0800" stop="20260630000007 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260629230031 +0800" stop="20260630000031 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">連続ドラマＷ　コンサルタント—死を執筆する男—　＃４　「第四話」</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/72009/S_c9432c509f61492b902d225361992226_20260508110712728.jpg</image>
   </programme>
-  <programme start="20260630000007 +0800" stop="20260630005007 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260630000031 +0800" stop="20260630005031 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">国色芳華（こくしょくほうか）～牡丹の花咲く都で～　＃８　第８話（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/33897/S_c0d0bf3a1a6545cbb4bff544d3ec40a1_20251001162424886.jpg</image>
   </programme>
-  <programme start="20260630005007 +0800" stop="20260630014007 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260630005031 +0800" stop="20260630014031 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">国色芳華（こくしょくほうか）～牡丹の花咲く都で～　＃９　第９話（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/33897/S_c0d0bf3a1a6545cbb4bff544d3ec40a1_20251001162424886.jpg</image>
   </programme>
-  <programme start="20260630014007 +0800" stop="20260630023007 +0800" channel="WOWOW Prime (Primehome)">
+  <programme start="20260630014031 +0800" stop="20260630023031 +0800" channel="WOWOW Prime (Primehome)">
     <title lang="ja">国色芳華（こくしょくほうか）～牡丹の花咲く都で～　＃１０　第１０話（字幕版）</title>
     <image>https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/33897/S_c0d0bf3a1a6545cbb4bff544d3ec40a1_20251001162424886.jpg</image>
   </programme>
