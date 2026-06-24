@@ -208,6 +208,19 @@ def build_targets_by_source(channels: dict):
     return targets_by_source
 
 
+def count_programmes_per_channel(raw: bytes) -> dict:
+    """First pass: count total programmes per source channel ID."""
+    counts = defaultdict(int)
+    ctx = ET.iterparse(io.BytesIO(raw), events=("end",))
+    for _, el in ctx:
+        if el.tag == 'programme':
+            sid = el.attrib.get('channel', '')
+            if sid:
+                counts[sid] += 1
+        el.clear()
+    return dict(counts)
+
+
 def parse_source(source_key: str, url: str, targets_by_epg_name: dict, root_out: ET.Element):
     if not targets_by_epg_name:
         return {"channels": 0, "programmes": 0}
@@ -217,12 +230,15 @@ def parse_source(source_key: str, url: str, targets_by_epg_name: dict, root_out:
     except Exception as exc:
         return {"channels": 0, "programmes": 0, "error": str(exc)}
 
+    # First pass: count programmes per channel, to prefer channels that have data
+    prog_counts = count_programmes_per_channel(raw)
+
     source_to_targets = defaultdict(list)
     channels_added = 0
     programme_count = 0
     channel_written = set()
     programme_seen = set()
-    claimed_epg_names = {}
+    claimed_epg_names = {}  # epg_name -> (source_id, prog_count)
     last_programme_by_target = {}
 
     context = ET.iterparse(io.BytesIO(raw), events=("start", "end"))
@@ -246,10 +262,22 @@ def parse_source(source_key: str, url: str, targets_by_epg_name: dict, root_out:
                     matched_targets.extend(targets)
             if matched_targets:
                 source_id = elem.attrib.get('id')
+                this_count = prog_counts.get(source_id, 0)
                 active_epg_names = []
                 for epg_name in matched_epg_names:
-                    if epg_name not in claimed_epg_names:
-                        claimed_epg_names[epg_name] = source_id
+                    prev = claimed_epg_names.get(epg_name)
+                    if prev is None:
+                        claimed_epg_names[epg_name] = (source_id, this_count)
+                        active_epg_names.append(epg_name)
+                    elif this_count > prev[1]:
+                        # New channel has more programme data, prefer it
+                        old_src_id = prev[0]
+                        claimed_epg_names[epg_name] = (source_id, this_count)
+                        # Remove all targets previously mapped to old source_id
+                        if old_src_id in source_to_targets:
+                            del source_to_targets[old_src_id]
+                        # Also clean stale entries in channel_written
+                        # (they'll be re-written if needed)
                         active_epg_names.append(epg_name)
                 if active_epg_names:
                     active_targets = []

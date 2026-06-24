@@ -61,68 +61,68 @@
     "CCTV1": {
       "enabled": true,
       "source": "CN",
-      "epg_name": "CCTV1",
-      "notes": ""
+      "epg_name": "CCTV-1综合",
+      "notes": "epg.pw CN新ID(545998)，旧CCTV1已无数据"
     },
     "CCTV10": {
       "enabled": true,
       "source": "CN",
-      "epg_name": "CCTV10",
+      "epg_name": "CCTV-10 科教",
       "notes": ""
     },
     "CCTV11": {
       "enabled": true,
       "source": "CN",
-      "epg_name": "CCTV11",
+      "epg_name": "CCTV-11 戏曲",
       "notes": ""
     },
     "CCTV12": {
       "enabled": true,
       "source": "CN",
-      "epg_name": "CCTV12",
+      "epg_name": "CCTV-12法制",
       "notes": ""
     },
     "CCTV13": {
       "enabled": true,
       "source": "CN",
-      "epg_name": "CCTV13",
+      "epg_name": "CCTV-13新闻",
       "notes": ""
     },
     "CCTV14": {
       "enabled": true,
       "source": "CN",
-      "epg_name": "CCTV14",
+      "epg_name": "CCTV-14少儿",
       "notes": ""
     },
     "CCTV15": {
       "enabled": true,
       "source": "CN",
-      "epg_name": "CCTV15",
+      "epg_name": "CCTV-15 音乐",
       "notes": ""
     },
     "CCTV17": {
       "enabled": true,
       "source": "CN",
-      "epg_name": "CCTV17",
+      "epg_name": "CCTV-17农业农村",
       "notes": ""
     },
     "CCTV2": {
       "enabled": true,
       "source": "CN",
-      "epg_name": "CCTV2",
+      "epg_name": "CCTV-2财经",
       "notes": ""
     },
     "CCTV3": {
       "enabled": true,
       "source": "CN",
-      "epg_name": "CCTV3",
+      "epg_name": "CCTV-3 综艺",
       "notes": ""
     },
     "CCTV4": {
       "enabled": true,
       "source": "CN",
-      "epg_name": "CCTV4",
-      "notes": ""
+      "epg_name": "CCTV-4国际",
+      "notes": "epg.pw CN用CCTV-4 (亚洲)/CCTV-4国际等"
     },
     "CCTV4K超高清": {
       "enabled": true,
@@ -144,37 +144,37 @@
     "CCTV5": {
       "enabled": true,
       "source": "CN",
-      "epg_name": "CCTV5",
+      "epg_name": "CCTV-5体育",
       "notes": ""
     },
     "CCTV5+": {
       "enabled": true,
       "source": "CN",
       "epg_name": "CCTV5+",
-      "notes": ""
+      "notes": "保留，新ID(546016)有数据"
     },
     "CCTV6": {
       "enabled": true,
       "source": "CN",
-      "epg_name": "CCTV6",
+      "epg_name": "CCTV-6电影",
       "notes": ""
     },
     "CCTV7": {
       "enabled": true,
       "source": "CN",
-      "epg_name": "CCTV7",
+      "epg_name": "CCTV-7国防军事",
       "notes": ""
     },
     "CCTV8": {
       "enabled": true,
       "source": "CN",
-      "epg_name": "CCTV8",
+      "epg_name": "CCTV-8电视剧",
       "notes": ""
     },
     "CCTV9": {
       "enabled": true,
       "source": "CN",
-      "epg_name": "CCTV9",
+      "epg_name": "CCTV-9纪录",
       "notes": ""
     },
     "CNBC": {
@@ -464,7 +464,7 @@
     "cctv16-4k": {
       "enabled": true,
       "source": "CN",
-      "epg_name": "CCTV16",
+      "epg_name": "CCTV-16奥林匹克",
       "notes": "FIFA 4K"
     },
     "cctv4k": {
@@ -476,8 +476,8 @@
     "cctv5": {
       "enabled": true,
       "source": "CN",
-      "epg_name": "CCTV5",
-      "notes": "本地源，复用CCTV5节目单"
+      "epg_name": "CCTV-5体育",
+      "notes": "本地源，复用CCTV-5体育节目单"
     },
     "cctv5+": {
       "enabled": true,
