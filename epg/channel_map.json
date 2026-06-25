@@ -15,18 +15,6 @@
     "CA": "https://epg.pw/xmltv/epg_CA.xml.gz"
   },
   "channels": {
-    "ABC (Primehome)": {
-      "enabled": true,
-      "source": "JPT",
-      "epg_name": "ABCテレビ",
-      "notes": "Primehome源"
-    },
-    "ABC 8 Dallas TX (WFAA) (1080p)": {
-      "enabled": true,
-      "source": "US",
-      "epg_name": "WFAA-DT",
-      "notes": "Dallas ABC本地台"
-    },
     "BBC News": {
       "enabled": true,
       "source": "HK",
@@ -189,10 +177,6 @@
       "epg_name": "CNN",
       "notes": "国际新闻台固定一份源即可"
     },
-    "Czcjiaxu": {
-      "enabled": false,
-      "reason": "直播/主播源，无标准XMLTV"
-    },
     "ESPN": {
       "enabled": true,
       "source": "US",
@@ -239,67 +223,17 @@
       "epg_name": "FS1 HD",
       "notes": ""
     },
-    "Fuji TV HD (Primehome)": {
-      "enabled": true,
-      "source": "JP",
-      "epg_name": "フジテレビ",
-      "notes": "Primehome源"
-    },
     "KDFW FOX 4 Dallas Fort Worth TX": {
       "enabled": true,
       "source": "US",
       "epg_name": "KDFW-DT",
       "notes": "Dallas FOX本地台"
     },
-    "Kansai TV (Primehome)": {
-      "enabled": true,
-      "source": "JPT",
-      "epg_name": "関西テレビ",
-      "notes": "Primehome源"
-    },
-    "Letme": {
-      "enabled": false,
-      "reason": "直播/主播源，无标准XMLTV"
-    },
-    "MBS (Primehome)": {
-      "enabled": true,
-      "source": "JPT",
-      "epg_name": "毎日テレビ",
-      "notes": "Primehome源"
-    },
-    "Ming": {
-      "enabled": false,
-      "reason": "直播/主播源，无标准XMLTV"
-    },
     "NBC 5 Dallas-Fort Worth News": {
       "enabled": true,
       "source": "US",
       "epg_name": "KXAS-DT",
       "notes": "Dallas NBC本地台"
-    },
-    "NHK BS4K (Primehome)": {
-      "enabled": true,
-      "source": "JP",
-      "epg_name": "NHK BS4K",
-      "notes": "Primehome源"
-    },
-    "NHK E HD (Primehome)": {
-      "enabled": true,
-      "source": "JP",
-      "epg_name": "NHK東京　教育",
-      "notes": "Primehome源"
-    },
-    "NHK G HD (Primehome)": {
-      "enabled": true,
-      "source": "JP",
-      "epg_name": "NHK東京　総合",
-      "notes": "Primehome源"
-    },
-    "NHK G Osaka (Primehome)": {
-      "enabled": true,
-      "source": "JP",
-      "epg_name": "NHK大阪　総合",
-      "notes": "Primehome源"
     },
     "NOW Sports 616 4K": {
       "enabled": true,
@@ -324,40 +258,6 @@
       "source": "HK",
       "epg_name": "Now Sports 619",
       "notes": "NOW体育"
-    },
-    "NTV HD (Primehome)": {
-      "enabled": true,
-      "source": "JP",
-      "epg_name": "日本テレビ",
-      "notes": "Primehome源"
-    },
-    "Now616": {
-      "enabled": true,
-      "source": "HK",
-      "epg_name": "Now Sports 4K 616",
-      "alias_of": "NOW Sports 616 4K",
-      "notes": "RTSP版"
-    },
-    "Now617": {
-      "enabled": true,
-      "source": "HK",
-      "epg_name": "Now Sports 4K 617",
-      "alias_of": "NOW Sports 617 4K",
-      "notes": "RTSP版"
-    },
-    "Now618": {
-      "enabled": true,
-      "source": "HK",
-      "epg_name": "Now Sports 618",
-      "alias_of": "NOW Sports 618",
-      "notes": "RTSP版"
-    },
-    "Now619": {
-      "enabled": true,
-      "source": "HK",
-      "epg_name": "Now Sports 619",
-      "alias_of": "NOW Sports 619",
-      "notes": "RTSP版"
     },
     "Reuters": {
       "enabled": false,
@@ -403,63 +303,11 @@
       "alias_of": "Sky Sports Main Event",
       "notes": "4K流复用Main Event节目单"
     },
-    "TBS HD (Primehome)": {
-      "enabled": true,
-      "source": "JP",
-      "epg_name": "TBS",
-      "notes": "Primehome源"
-    },
     "TNT Sports Ultimate 4K UK": {
       "enabled": true,
       "source": "GB",
       "epg_name": "TNT Sports Ultimate HD",
       "notes": "4K流"
-    },
-    "TSN 4K CA": {
-      "enabled": true,
-      "source": "CA",
-      "epg_name": "TSN 4K",
-      "notes": "加拿大TSN 4K"
-    },
-    "TV Asahi HD (Primehome)": {
-      "enabled": true,
-      "source": "JP",
-      "epg_name": "テレビ朝日",
-      "notes": "Primehome源"
-    },
-    "TV Osaka (Primehome)": {
-      "enabled": true,
-      "source": "JPT",
-      "epg_name": "テレビ大阪",
-      "notes": "Primehome源"
-    },
-    "TV Tokyo HD (Primehome)": {
-      "enabled": true,
-      "source": "JP",
-      "epg_name": "テレビ東京",
-      "notes": "Primehome源"
-    },
-    "WOWOW Cinema (Primehome)": {
-      "enabled": true,
-      "source": "JP",
-      "epg_name": "ＷＯＷＯＷシネマ",
-      "notes": "Primehome源"
-    },
-    "WOWOW Live (Primehome)": {
-      "enabled": true,
-      "source": "JP",
-      "epg_name": "ＷＯＷＯＷライブ",
-      "notes": "Primehome源"
-    },
-    "WOWOW Prime (Primehome)": {
-      "enabled": true,
-      "source": "JP",
-      "epg_name": "ＷＯＷＯＷプライム",
-      "notes": "Primehome源"
-    },
-    "Zz1tai": {
-      "enabled": false,
-      "reason": "直播/主播源，无标准XMLTV"
     },
     "cctv16-4k": {
       "enabled": true,
@@ -497,64 +345,12 @@
       "epg_name": "読売テレビ",
       "notes": "关西地方台 ytv"
     },
-    "CCTV4K": {
-      "enabled": true,
-      "source": "CN",
-      "epg_name": "CCTV4K",
-      "notes": "未分类条目"
-    },
-    "崂山二龙山": {
-      "enabled": false,
-      "reason": "崂山景点监控摄像头，无标准XMLTV"
-    },
-    "崂山华藏世界门": {
-      "enabled": false,
-      "reason": "崂山景点监控摄像头，无标准XMLTV"
-    },
-    "崂山太清湾": {
-      "enabled": false,
-      "reason": "崂山景点监控摄像头，无标准XMLTV"
-    },
-    "崂山寿字峰": {
-      "enabled": false,
-      "reason": "崂山景点监控摄像头，无标准XMLTV"
-    },
-    "崂山山海胜境": {
-      "enabled": false,
-      "reason": "崂山景点监控摄像头，无标准XMLTV"
-    },
-    "崂山巨峰广场": {
-      "enabled": false,
-      "reason": "崂山景点监控摄像头，无标准XMLTV"
-    },
-    "崂山潮音瀑": {
-      "enabled": false,
-      "reason": "崂山景点监控摄像头，无标准XMLTV"
-    },
-    "崂山灵旗峰": {
-      "enabled": false,
-      "reason": "崂山景点监控摄像头，无标准XMLTV"
-    },
-    "崂山狮子峰": {
-      "enabled": false,
-      "reason": "崂山景点监控摄像头，无标准XMLTV"
-    },
-    "ytv (Primehome)": {
-      "enabled": true,
-      "source": "JPT",
-      "epg_name": "読売テレビ",
-      "notes": "Primehome源"
-    },
     "东方卫视4K": {
       "enabled": true,
       "source": "CN",
       "epg_name": "东方卫视",
       "alias_of": "东方卫视",
       "notes": "4K台先复用普通卫视节目单"
-    },
-    "主播阿飞": {
-      "enabled": false,
-      "reason": "直播/主播源，无标准XMLTV"
     },
     "北京体育休闲": {
       "enabled": true,
@@ -660,19 +456,11 @@
       "alias_of": "湖南卫视",
       "notes": "4K台先复用普通卫视节目单"
     },
-    "百里浪": {
-      "enabled": false,
-      "reason": "直播/主播源，无标准XMLTV"
-    },
     "福克斯体育1": {
       "enabled": true,
       "source": "US",
       "epg_name": "FS1 Fox Sports 1 HD",
       "notes": ""
-    },
-    "🐼直播熊猫": {
-      "enabled": false,
-      "reason": "直播/主播源，无标准XMLTV"
     },
     "Apple f1": {
       "enabled": false,
@@ -715,34 +503,20 @@
     "TSN East 4K CA": {
       "enabled": true,
       "source": "CA",
-      "epg_name": "TSN 4K",
-      "alias_of": "TSN 4K CA",
-      "notes": "加拿大TSN东部4K"
+      "epg_name": "TSN1 HD",
+      "notes": "TSN East 4K"
     },
     "TSN West 4K CA": {
       "enabled": true,
       "source": "CA",
-      "epg_name": "TSN 4K",
-      "alias_of": "TSN 4K CA",
-      "notes": "加拿大TSN西部4K"
+      "epg_name": "TSN3 HD",
+      "notes": "TSN West 4K"
     },
     "五星体育": {
       "enabled": true,
       "source": "CN",
       "epg_name": "五星体育",
       "notes": "上海五星体育"
-    },
-    "快速路大润发/南京路方向": {
-      "enabled": false,
-      "notes": "城市直播-无EPG"
-    },
-    "胶宁高架福州路口南段": {
-      "enabled": false,
-      "notes": "城市直播-无EPG"
-    },
-    "胶宁高架银川西路/宁夏路口": {
-      "enabled": false,
-      "notes": "城市直播-无EPG"
     },
     "惊艳台": {
       "enabled": true,
@@ -773,6 +547,952 @@
       "source": "TW",
       "epg_name": "潘朵啦高畫質玩美台",
       "notes": "按用户要求固定用玩美台"
+    },
+    "ABC": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "ABCテレビ",
+      "notes": "auto-match score=0.67"
+    },
+    "AT-X": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "アニメシアターX(AT-X)"
+    },
+    "Action Channel (AXN)": {
+      "enabled": true,
+      "source": "US",
+      "epg_name": "Action Channel",
+      "notes": "auto-match US score=0.82"
+    },
+    "Action Channel(AXN)": {
+      "enabled": true,
+      "source": "US",
+      "epg_name": "Action Channel",
+      "notes": "auto-match US score=0.85"
+    },
+    "Animal Planet": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "アニマルプラネット"
+    },
+    "Animax": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "アニマックス"
+    },
+    "BS 10": {
+      "enabled": true,
+      "source": "JPT",
+      "epg_name": "TBS1",
+      "notes": "auto-match score=0.67"
+    },
+    "BS 10 Premium": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "NHK World Premium",
+      "notes": "auto-match score=0.60"
+    },
+    "BS 11": {
+      "enabled": true,
+      "source": "JPT",
+      "epg_name": "BS11イ"
+    },
+    "BS 12": {
+      "enabled": true,
+      "source": "JPT",
+      "epg_name": "BS12ト"
+    },
+    "BS Asahi": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "BS朝日"
+    },
+    "BS Fuji": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "BSフジ"
+    },
+    "BS NTV": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "BS日テレ"
+    },
+    "BS TBS": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "BS-TBS"
+    },
+    "BS TV Tokyo": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "BSテレ東"
+    },
+    "BS Yoshimoto": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "BSよしもと"
+    },
+    "BS11": {
+      "enabled": true,
+      "source": "JPT",
+      "epg_name": "BS11イ"
+    },
+    "Bloomberg TV+": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "Bloomberg TV+"
+    },
+    "CGTN China Travel": {
+      "enabled": false,
+      "reason": "无匹配EPG源"
+    },
+    "CGTN Discovering China": {
+      "enabled": false,
+      "reason": "无匹配EPG源"
+    },
+    "CGTN Documentary": {
+      "enabled": false,
+      "reason": "无匹配EPG源"
+    },
+    "CGTN Español": {
+      "enabled": true,
+      "source": "US",
+      "epg_name": "EWTN Español",
+      "notes": "auto-match US score=0.83"
+    },
+    "CGTN Français": {
+      "enabled": false,
+      "reason": "无匹配EPG源"
+    },
+    "CGTN Global BIZ": {
+      "enabled": false,
+      "reason": "无匹配EPG源"
+    },
+    "CGTN Русский": {
+      "enabled": false,
+      "reason": "无匹配EPG源"
+    },
+    "CGTN العربية": {
+      "enabled": false,
+      "reason": "无匹配EPG源"
+    },
+    "CNNj": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "CNNj"
+    },
+    "Cartoon Network": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "カートゥーン ネットワーク"
+    },
+    "Channel Ginga": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "チャンネル銀河"
+    },
+    "Discovery": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "ディスカバリーチャンネル"
+    },
+    "Discovery Channel": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "ディスカバリーチャンネル"
+    },
+    "Disney Channel": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "ディズニーチャンネル"
+    },
+    "Disney Junior": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "ディズニージュニア"
+    },
+    "Dlife": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "Dlife"
+    },
+    "Eisei Gekijo": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "衛星劇場"
+    },
+    "Euronews": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "Euronews"
+    },
+    "FASHIONPLUS (FAST)": {
+      "enabled": false,
+      "reason": "无匹配EPG源"
+    },
+    "FNNプライムオンライン": {
+      "enabled": false,
+      "reason": "无匹配EPG源"
+    },
+    "FUEL TV": {
+      "enabled": false,
+      "reason": "无匹配EPG源"
+    },
+    "Family Gekijo": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "ファミリー劇場"
+    },
+    "Family Gekijyo": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "ファミリー劇場"
+    },
+    "Fighting TV Samurai": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "FIGHTING TV サムライ"
+    },
+    "Fishing Vision": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "FIGHTING TV サムライ",
+      "notes": "auto-match score=0.53"
+    },
+    "Fuji TV": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "フジテレビ"
+    },
+    "Fuji TV NEXT": {
+      "enabled": false,
+      "reason": "无匹配EPG源"
+    },
+    "Fuji TV Next": {
+      "enabled": false,
+      "reason": "无匹配EPG源"
+    },
+    "Fuji TV ONE": {
+      "enabled": false,
+      "reason": "无匹配EPG源"
+    },
+    "Fuji TV One": {
+      "enabled": false,
+      "reason": "无匹配EPG源"
+    },
+    "Fuji TV TWO": {
+      "enabled": false,
+      "reason": "无匹配EPG源"
+    },
+    "Fuji TV Two": {
+      "enabled": false,
+      "reason": "无匹配EPG源"
+    },
+    "GAORA": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "GAORA SPORTS"
+    },
+    "GOLF LIFE (FAST)": {
+      "enabled": false,
+      "reason": "无匹配EPG源"
+    },
+    "GSTV": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "MTV",
+      "notes": "auto-match score=0.57"
+    },
+    "Gaora Sports": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "GAORA SPORTS"
+    },
+    "Golf Network": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "ゴルフネットワーク"
+    },
+    "Green Channel": {
+      "enabled": false,
+      "reason": "无匹配EPG源"
+    },
+    "History": {
+      "enabled": true,
+      "source": "HK",
+      "epg_name": "HISTORY",
+      "notes": "auto-match HK score=1.00"
+    },
+    "Home Drama Channel": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "ホームドラマチャンネル"
+    },
+    "JCOM BS": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "J:COM BS"
+    },
+    "JSport 1": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "J SPORTS 1"
+    },
+    "JSport 2": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "J SPORTS 2"
+    },
+    "JSport 3": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "J SPORTS 3"
+    },
+    "JSport 4": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "J SPORTS 4"
+    },
+    "Jcom BS": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "J:COM BS"
+    },
+    "Jidaigeki Senmon": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "時代劇専門チャンネル"
+    },
+    "KBS": {
+      "enabled": true,
+      "source": "JPT",
+      "epg_name": "KBS"
+    },
+    "KBS World": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "KBS WORLD HD"
+    },
+    "KNTV": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "KNTV"
+    },
+    "Kansai TV": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "KNTV",
+      "notes": "auto-match score=0.62"
+    },
+    "Kayo Pops": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "歌謡ポップスチャンネル"
+    },
+    "Kids Station": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "キッズステーション"
+    },
+    "Kids Staton": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "キッズステーション"
+    },
+    "LaLa TV": {
+      "enabled": true,
+      "source": "JPT",
+      "epg_name": "LaLaTV"
+    },
+    "LeminoTV (FAST)": {
+      "enabled": false,
+      "reason": "无匹配EPG源"
+    },
+    "MBS": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "TBS",
+      "notes": "auto-match score=0.67"
+    },
+    "MBSニュース": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "BBCニュース"
+    },
+    "MTV": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "MTV HD"
+    },
+    "Me-Tele Next": {
+      "enabled": false,
+      "reason": "无匹配EPG源"
+    },
+    "Mnet": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "Mnet HD"
+    },
+    "Mondo TV": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "MONDO TV"
+    },
+    "Movie Plus": {
+      "enabled": true,
+      "source": "US",
+      "epg_name": "Ve Plus",
+      "notes": "auto-match US score=0.82"
+    },
+    "Music Air": {
+      "enabled": true,
+      "source": "JPT",
+      "epg_name": "MUSI",
+      "notes": "auto-match score=0.62"
+    },
+    "Music Japan TV": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "MUSIC ON! TV（エムオン!）",
+      "notes": "auto-match score=0.61"
+    },
+    "Music ON TV": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "MUSIC ON! TV（エムオン!）"
+    },
+    "Music On! TV": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "MUSIC ON! TV（エムオン!）"
+    },
+    "Mystery Channel": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "ミステリーチャンネル"
+    },
+    "NEW KPOP": {
+      "enabled": false,
+      "reason": "无匹配EPG源"
+    },
+    "NHK BS": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "NHK BS4K"
+    },
+    "NHK BS (Sub Ch.)": {
+      "enabled": false,
+      "reason": "无匹配EPG源"
+    },
+    "NHK BS4K": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "NHK BS4K"
+    },
+    "NHK E": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "NHK東京　教育"
+    },
+    "NHK G": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "NHK東京　総合"
+    },
+    "NHK G (Sub Ch.)": {
+      "enabled": false,
+      "reason": "无匹配EPG源"
+    },
+    "NHK G Osaka": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "NHK BS4K",
+      "notes": "auto-match score=0.63"
+    },
+    "NHK World-Japan": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "NHK World-Japan"
+    },
+    "NTV": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "日本テレビ"
+    },
+    "NTV G+": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "KNTV",
+      "notes": "auto-match score=0.60"
+    },
+    "NTV News24": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "TBS NEWS",
+      "notes": "auto-match score=0.67"
+    },
+    "NTV Plus": {
+      "enabled": true,
+      "source": "HK",
+      "epg_name": "TVB Plus",
+      "notes": "auto-match HK score=0.88"
+    },
+    "NTV Pro Wrestling": {
+      "enabled": false,
+      "reason": "无匹配EPG源"
+    },
+    "National Geographic": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "ナショナル ジオグラフィック"
+    },
+    "National Geographic Japan": {
+      "enabled": true,
+      "source": "US",
+      "epg_name": "National Geographic HD",
+      "notes": "auto-match US score=0.85"
+    },
+    "Neco Channel": {
+      "enabled": false,
+      "reason": "无匹配EPG源"
+    },
+    "NewsWorld": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "KBS WORLD HD",
+      "notes": "auto-match score=0.57"
+    },
+    "Nihon Eiga Senmon": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "日本映画専門チャンネル"
+    },
+    "Nittele G+": {
+      "enabled": false,
+      "reason": "无匹配EPG源"
+    },
+    "Nittele Plus": {
+      "enabled": false,
+      "reason": "无匹配EPG源"
+    },
+    "Pigoo": {
+      "enabled": false,
+      "reason": "无匹配EPG源"
+    },
+    "QVC": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "4Ｋ QVC"
+    },
+    "Reuters 60": {
+      "enabled": false,
+      "reason": "无匹配EPG源"
+    },
+    "STOCK VOICE": {
+      "enabled": false,
+      "reason": "无匹配EPG源"
+    },
+    "SUN": {
+      "enabled": false,
+      "reason": "无匹配EPG源"
+    },
+    "Shogi Channel": {
+      "enabled": false,
+      "reason": "无匹配EPG源"
+    },
+    "Shop Channel": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "ショップチャンネル"
+    },
+    "Sky A": {
+      "enabled": true,
+      "source": "JPT",
+      "epg_name": "スカイA"
+    },
+    "Sky Stage": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "TAKARAZUKA SKY STAGE"
+    },
+    "Space Shower TV": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "スペースシャワーTV"
+    },
+    "Space Shower TV (HD)": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "スペースシャワーTV"
+    },
+    "Sport Live Plus": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "スポーツライブ＋"
+    },
+    "Sport live plus": {
+      "enabled": true,
+      "source": "JPT",
+      "epg_name": "SPORTS 4",
+      "notes": "auto-match score=0.52"
+    },
+    "Super Drama TV": {
+      "enabled": false,
+      "reason": "无匹配EPG源"
+    },
+    "TBS": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "TBS"
+    },
+    "TBS Channel 1": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "TBS NEWS",
+      "notes": "auto-match score=0.57"
+    },
+    "TBS Channel 2": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "TBS NEWS",
+      "notes": "auto-match score=0.57"
+    },
+    "TBS News": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "TBS NEWS"
+    },
+    "TOKYO MX1": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "Tokyo MX1"
+    },
+    "TOKYO MX2 (HD 720p)": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "Tokyo MX2",
+      "notes": "auto-match score=0.64"
+    },
+    "TOP BARÇA": {
+      "enabled": false,
+      "reason": "无匹配EPG源"
+    },
+    "TV Asahi": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "テレビ朝日"
+    },
+    "TV Asahi Channel 1": {
+      "enabled": false,
+      "reason": "无匹配EPG源"
+    },
+    "TV Asahi Channel 2": {
+      "enabled": false,
+      "reason": "无匹配EPG源"
+    },
+    "TV Osaka": {
+      "enabled": true,
+      "source": "JPT",
+      "epg_name": "TAKA",
+      "notes": "auto-match score=0.67"
+    },
+    "TV Tokyo": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "テレビ東京"
+    },
+    "Tabi Channel": {
+      "enabled": false,
+      "reason": "无匹配EPG源"
+    },
+    "Takarazuka Sky Stage": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "TAKARAZUKA SKY STAGE"
+    },
+    "Tetsudo Channel": {
+      "enabled": false,
+      "reason": "无匹配EPG源"
+    },
+    "The Cinema": {
+      "enabled": false,
+      "reason": "无匹配EPG源"
+    },
+    "Toei Channel": {
+      "enabled": false,
+      "reason": "无匹配EPG源"
+    },
+    "Tokyo MX1": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "Tokyo MX1"
+    },
+    "Tokyo MX2": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "Tokyo MX2"
+    },
+    "V Paradise": {
+      "enabled": false,
+      "reason": "无匹配EPG源"
+    },
+    "WOWOW Cinema": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "ＷＯＷＯＷシネマ"
+    },
+    "WOWOW Live": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "ＷＯＷＯＷライブ"
+    },
+    "WOWOW Plus": {
+      "enabled": true,
+      "source": "JPT",
+      "epg_name": "WOWOWプ",
+      "notes": "auto-match score=0.62"
+    },
+    "WOWOW Prime": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "ＷＯＷＯＷプライム"
+    },
+    "Weather News": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "TBS NEWS",
+      "notes": "auto-match score=0.60"
+    },
+    "beIN Sports 1": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "J SPORTS 1"
+    },
+    "beIN Sports 2": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "J SPORTS 2"
+    },
+    "beIN Sports 3": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "J SPORTS 3"
+    },
+    "beIN Sports 4": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "J SPORTS 4"
+    },
+    "beIN Sports 5": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "J SPORTS 3",
+      "notes": "auto-match score=0.70"
+    },
+    "beIN Sports 6": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "J SPORTS 3",
+      "notes": "auto-match score=0.70"
+    },
+    "beIN Sports 7": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "J SPORTS 3",
+      "notes": "auto-match score=0.70"
+    },
+    "beIN Sports 8": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "J SPORTS 3",
+      "notes": "auto-match score=0.70"
+    },
+    "beIN Sports 9": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "J SPORTS 3",
+      "notes": "auto-match score=0.70"
+    },
+    "that’s 70s": {
+      "enabled": false,
+      "reason": "无匹配EPG源"
+    },
+    "that’s 80s": {
+      "enabled": false,
+      "reason": "无匹配EPG源"
+    },
+    "that’s 90s00s": {
+      "enabled": false,
+      "reason": "无匹配EPG源"
+    },
+    "that’s Rock": {
+      "enabled": false,
+      "reason": "无匹配EPG源"
+    },
+    "しまじろうチャンネル": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "旅チャンネル",
+      "notes": "auto-match score=0.62"
+    },
+    "ぴあ落語ざんまい (FAST)": {
+      "enabled": false,
+      "reason": "无匹配EPG源"
+    },
+    "ぷれいば！": {
+      "enabled": false,
+      "reason": "无匹配EPG源"
+    },
+    "アニマックス FREE (FAST)": {
+      "enabled": false,
+      "reason": "无匹配EPG源"
+    },
+    "エンタメニュース (FAST)": {
+      "enabled": false,
+      "reason": "无匹配EPG源"
+    },
+    "エンタメ・アジア (FAST)": {
+      "enabled": false,
+      "reason": "无匹配EPG源"
+    },
+    "エンタメ～テレDEEP": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "エンタメ～テレＨＤ☆",
+      "notes": "auto-match score=0.67"
+    },
+    "オリコンニュース": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "BBCニュース",
+      "notes": "auto-match score=0.53"
+    },
+    "キッズ": {
+      "enabled": true,
+      "source": "JPT",
+      "epg_name": "キッズス"
+    },
+    "キャンプ・アウトドア (FAST)": {
+      "enabled": false,
+      "reason": "无匹配EPG源"
+    },
+    "ショップチャンネル": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "ショップチャンネル"
+    },
+    "セクシーエンタメチャンネル": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "アクションチャンネル",
+      "notes": "auto-match score=0.70"
+    },
+    "パチンコ・パチスロ": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "パチンコ★パチスロTV！"
+    },
+    "ビジネス・プレミアム (FAST)": {
+      "enabled": false,
+      "reason": "无匹配EPG源"
+    },
+    "ペットTV (FAST)": {
+      "enabled": false,
+      "reason": "无匹配EPG源"
+    },
+    "ムビドラTV": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "ムビドラTV"
+    },
+    "ワンニャンチャンネル": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "レジャーチャンネル",
+      "notes": "auto-match score=0.63"
+    },
+    "丸ごと九州 (FAST)": {
+      "enabled": false,
+      "reason": "无匹配EPG源"
+    },
+    "丸ごと北海道 (FAST)": {
+      "enabled": false,
+      "reason": "无匹配EPG源"
+    },
+    "九州・沖縄　街ネタ": {
+      "enabled": false,
+      "reason": "无匹配EPG源"
+    },
+    "今日のごはんなに? (FAST)": {
+      "enabled": false,
+      "reason": "无匹配EPG源"
+    },
+    "共同通信News": {
+      "enabled": false,
+      "reason": "无匹配EPG源"
+    },
+    "刺激ストロング": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "刺激ストロングチャンネル"
+    },
+    "刺激ストロングSPORTS": {
+      "enabled": true,
+      "source": "JPT",
+      "epg_name": "SPORTS 4",
+      "notes": "auto-match score=0.57"
+    },
+    "囲碁・将棋ライト (FAST)": {
+      "enabled": false,
+      "reason": "无匹配EPG源"
+    },
+    "囲碁・将棋ライト (R)": {
+      "enabled": false,
+      "reason": "无匹配EPG源"
+    },
+    "手塚プロダクションTV": {
+      "enabled": false,
+      "reason": "无匹配EPG源"
+    },
+    "日テレNEWS": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "日テレNEWS24"
+    },
+    "日テレNEWSセレクト": {
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "日テレNEWS24",
+      "notes": "auto-match score=0.70"
+    },
+    "映画（年齢制限あり）": {
+      "enabled": false,
+      "reason": "无匹配EPG源"
+    },
+    "時代劇TV (FAST)": {
+      "enabled": false,
+      "reason": "无匹配EPG源"
+    },
+    "朝鲜中央电视台": {
+      "enabled": false,
+      "reason": "无匹配EPG源"
+    },
+    "東海ロキポ (FAST)": {
+      "enabled": false,
+      "reason": "无匹配EPG源"
+    },
+    "観るたび (FAST)": {
+      "enabled": false,
+      "reason": "无匹配EPG源"
+    },
+    "韓流チャンネル (FAST)": {
+      "enabled": false,
+      "reason": "无匹配EPG源"
+    },
+    "麻雀": {
+      "enabled": false,
+      "reason": "无匹配EPG源"
     }
   }
 }

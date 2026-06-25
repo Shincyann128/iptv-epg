@@ -35,8 +35,12 @@ jobs:
       - name: Install test dependency
         run: python -m pip install --quiet pytest
 
-      - name: Verify channel map matches current myself.m3u
-        run: python scripts/check_playlist_sync.py --playlist iptv-private/myself.m3u --require-exact
+      - name: Verify channel map matches all split playlist files
+        run: |
+          python scripts/check_playlist_sync.py \
+            --dir iptv-private/ \
+            --exclude myself.m3u,game.m3u,cameralive.m3u,livecam.m3u \
+            --require-exact
 
       - name: Run tests
         run: python -m pytest tests/ -q
