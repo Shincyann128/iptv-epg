@@ -39,7 +39,7 @@ jobs:
         run: |
           python scripts/check_playlist_sync.py \
             --dir iptv-private/ \
-            --exclude myself.m3u,game.m3u,cameralive.m3u,livecam.m3u \
+            --exclude myself.m3u,Game.m3u,cameralive.m3u,livecam.m3u,migu.m3u \
             --require-exact
 
       - name: Run tests
