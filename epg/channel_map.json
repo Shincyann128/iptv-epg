@@ -7,7 +7,7 @@
     "GB": "https://epg.pw/xmltv/epg_GB.xml.gz",
     "US": "https://epg.pw/xmltv/epg_US.xml.gz",
     "BJ": "https://raw.githubusercontent.com/zzzz0317/beijing-unicom-iptv-playlist/main/epg.xml.gz",
-    "JPT": "https://animenosekai.github.io/japanterebi-xmltv/guide.xml",
+    "JPT": "https://epg.pw/xmltv/epg_JP.xml.gz",
     "HK": "https://epg.pw/xmltv/epg_HK.xml.gz",
     "TW": "https://epg.pw/xmltv/epg_TW.xml.gz",
     "DE": "https://epg.pw/xmltv/epg_DE.xml.gz",
@@ -341,7 +341,7 @@
     },
     "ytv": {
       "enabled": true,
-      "source": "JPT",
+      "source": "JP",
       "epg_name": "読売テレビ",
       "notes": "关西地方台 ytv"
     },
@@ -578,8 +578,7 @@
     "BS 10": {
       "enabled": true,
       "source": "JPT",
-      "epg_name": "TBS1",
-      "notes": "auto-match score=0.67"
+      "epg_name": "ＢＳ１０"
     },
     "BS 10 Premium": {
       "enabled": true,
@@ -590,32 +589,32 @@
     "BS 11": {
       "enabled": true,
       "source": "JPT",
-      "epg_name": "BS11イ"
+      "epg_name": "BS11 イレブン"
     },
     "BS 12": {
       "enabled": true,
       "source": "JPT",
-      "epg_name": "BS12ト"
+      "epg_name": "BS12トゥエルビ"
     },
     "BS Asahi": {
       "enabled": true,
       "source": "JP",
-      "epg_name": "BS朝日"
+      "epg_name": "ＢＳ朝日１"
     },
     "BS Fuji": {
       "enabled": true,
       "source": "JP",
-      "epg_name": "BSフジ"
+      "epg_name": "ＢＳフジ・181"
     },
     "BS NTV": {
       "enabled": true,
       "source": "JP",
-      "epg_name": "BS日テレ"
+      "epg_name": "ＢＳ日テレ"
     },
     "BS TBS": {
       "enabled": true,
       "source": "JP",
-      "epg_name": "BS-TBS"
+      "epg_name": "ＢＳ－ＴＢＳ"
     },
     "BS TV Tokyo": {
       "enabled": true,
@@ -624,7 +623,7 @@
     },
     "BS Yoshimoto": {
       "enabled": true,
-      "source": "JP",
+      "source": "JPT",
       "epg_name": "BSよしもと"
     },
     "CGTN China Travel": {
@@ -669,12 +668,12 @@
     "Cartoon Network": {
       "enabled": true,
       "source": "JP",
-      "epg_name": "カートゥーン ネットワーク"
+      "epg_name": "カートゥーン ネットワーク 海外アニメ国内アニメ"
     },
     "Channel Ginga": {
       "enabled": true,
       "source": "JP",
-      "epg_name": "チャンネル銀河"
+      "epg_name": "チャンネル銀河　歴史ドラマ・サスペンス・日本のうた"
     },
     "Discovery": {
       "enabled": true,
@@ -684,7 +683,7 @@
     "Disney Channel": {
       "enabled": true,
       "source": "JP",
-      "epg_name": "ディズニーチャンネル"
+      "epg_name": "ディズニー･チャンネル"
     },
     "Disney Junior": {
       "enabled": true,
@@ -714,8 +713,7 @@
     "Fishing Vision": {
       "enabled": true,
       "source": "JP",
-      "epg_name": "FIGHTING TV サムライ",
-      "notes": "auto-match score=0.53"
+      "epg_name": "釣りビジョンHD"
     },
     "Fuji TV": {
       "enabled": true,
@@ -723,16 +721,19 @@
       "epg_name": "フジテレビ"
     },
     "Fuji TV Next": {
-      "enabled": false,
-      "reason": "无匹配EPG源"
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "フジテレビＮＥＸＴ　ライブ・プレミアム"
     },
     "Fuji TV One": {
-      "enabled": false,
-      "reason": "无匹配EPG源"
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "フジテレビＯＮＥ　スポーツ・バラエティ"
     },
     "Fuji TV Two": {
-      "enabled": false,
-      "reason": "无匹配EPG源"
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "フジテレビＴＷＯ　ドラマ・アニメ"
     },
     "GAORA": {
       "enabled": true,
@@ -742,8 +743,7 @@
     "GSTV": {
       "enabled": true,
       "source": "JP",
-      "epg_name": "MTV",
-      "notes": "auto-match score=0.57"
+      "epg_name": "ジュエリー☆GSTV"
     },
     "Golf Network": {
       "enabled": true,
@@ -751,8 +751,9 @@
       "epg_name": "ゴルフネットワーク"
     },
     "Green Channel": {
-      "enabled": false,
-      "reason": "无匹配EPG源"
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "グリーンチャンネルHD"
     },
     "History": {
       "enabled": true,
@@ -763,7 +764,7 @@
     "Home Drama Channel": {
       "enabled": true,
       "source": "JP",
-      "epg_name": "ホームドラマチャンネル"
+      "epg_name": "ホームドラマチャンネル　韓流・時代劇・国内ドラマ"
     },
     "JSport 1": {
       "enabled": true,
@@ -787,7 +788,7 @@
     },
     "Jcom BS": {
       "enabled": true,
-      "source": "JP",
+      "source": "JPT",
       "epg_name": "J:COM BS"
     },
     "Jidaigeki Senmon": {
@@ -797,8 +798,8 @@
     },
     "KBS": {
       "enabled": true,
-      "source": "JPT",
-      "epg_name": "KBS"
+      "source": "JP",
+      "epg_name": "KBS京都"
     },
     "KNTV": {
       "enabled": true,
@@ -808,8 +809,7 @@
     "Kansai TV": {
       "enabled": true,
       "source": "JP",
-      "epg_name": "KNTV",
-      "notes": "auto-match score=0.62"
+      "epg_name": "関西テレビ"
     },
     "Kayo Pops": {
       "enabled": true,
@@ -819,18 +819,17 @@
     "Kids Station": {
       "enabled": true,
       "source": "JP",
-      "epg_name": "キッズステーション"
+      "epg_name": "キッズステーション HD"
     },
     "LaLa TV": {
       "enabled": true,
       "source": "JPT",
-      "epg_name": "LaLaTV"
+      "epg_name": "女性チャンネル♪LaLa TV"
     },
     "MBS": {
       "enabled": true,
       "source": "JP",
-      "epg_name": "TBS",
-      "notes": "auto-match score=0.67"
+      "epg_name": "毎日テレビ"
     },
     "MTV": {
       "enabled": true,
@@ -838,8 +837,9 @@
       "epg_name": "MTV HD"
     },
     "Me-Tele Next": {
-      "enabled": false,
-      "reason": "无匹配EPG源"
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "エンタメ～テレＨＤ☆"
     },
     "Mnet": {
       "enabled": true,
@@ -860,8 +860,7 @@
     "Music Air": {
       "enabled": true,
       "source": "JPT",
-      "epg_name": "MUSI",
-      "notes": "auto-match score=0.62"
+      "epg_name": "ミュージック・エア"
     },
     "Music Japan TV": {
       "enabled": true,
@@ -882,7 +881,7 @@
     "NHK BS": {
       "enabled": true,
       "source": "JP",
-      "epg_name": "NHK BS4K"
+      "epg_name": "ＮＨＫ　ＢＳ"
     },
     "NHK BS4K": {
       "enabled": true,
@@ -909,8 +908,7 @@
     "NHK G Osaka": {
       "enabled": true,
       "source": "JP",
-      "epg_name": "NHK BS4K",
-      "notes": "auto-match score=0.63"
+      "epg_name": "NHK大阪　総合"
     },
     "NTV": {
       "enabled": true,
@@ -920,8 +918,7 @@
     "NTV G+": {
       "enabled": true,
       "source": "JP",
-      "epg_name": "KNTV",
-      "notes": "auto-match score=0.60"
+      "epg_name": "日テレジータス"
     },
     "NTV News24": {
       "enabled": true,
@@ -941,8 +938,9 @@
       "epg_name": "ナショナル ジオグラフィック"
     },
     "Neco Channel": {
-      "enabled": false,
-      "reason": "无匹配EPG源"
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "映画･チャンネルNECO-HD"
     },
     "Nihon Eiga Senmon": {
       "enabled": true,
@@ -950,8 +948,9 @@
       "epg_name": "日本映画専門チャンネル"
     },
     "Pigoo": {
-      "enabled": false,
-      "reason": "无匹配EPG源"
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "アイドル専門チャンネルＰｉｇｏｏ"
     },
     "QVC": {
       "enabled": true,
@@ -959,12 +958,14 @@
       "epg_name": "4Ｋ QVC"
     },
     "SUN": {
-      "enabled": false,
-      "reason": "无匹配EPG源"
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "サンテレビ"
     },
     "Shogi Channel": {
-      "enabled": false,
-      "reason": "无匹配EPG源"
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "囲碁・将棋チャンネル"
     },
     "Shop Channel": {
       "enabled": true,
@@ -984,13 +985,12 @@
     "Space Shower TV": {
       "enabled": true,
       "source": "JP",
-      "epg_name": "スペースシャワーTV"
+      "epg_name": "音楽・ライブ！　スペースシャワーTV HD"
     },
     "Sport live plus": {
       "enabled": true,
       "source": "JPT",
-      "epg_name": "SPORTS 4",
-      "notes": "auto-match score=0.52"
+      "epg_name": "スポーツライブ＋"
     },
     "TBS": {
       "enabled": true,
@@ -1031,18 +1031,19 @@
       "epg_name": "テレビ朝日"
     },
     "TV Asahi Channel 1": {
-      "enabled": false,
-      "reason": "无匹配EPG源"
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "テレ朝チャンネル１"
     },
     "TV Asahi Channel 2": {
-      "enabled": false,
-      "reason": "无匹配EPG源"
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "テレ朝チャンネル２"
     },
     "TV Osaka": {
       "enabled": true,
-      "source": "JPT",
-      "epg_name": "TAKA",
-      "notes": "auto-match score=0.67"
+      "source": "JP",
+      "epg_name": "テレビ大阪"
     },
     "TV Tokyo": {
       "enabled": true,
@@ -1050,20 +1051,24 @@
       "epg_name": "テレビ東京"
     },
     "Tabi Channel": {
-      "enabled": false,
-      "reason": "无匹配EPG源"
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "旅チャンネル　ＨＤ"
     },
     "Tetsudo Channel": {
-      "enabled": false,
-      "reason": "无匹配EPG源"
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "鉄道チャンネル"
     },
     "The Cinema": {
-      "enabled": false,
-      "reason": "无匹配EPG源"
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "ザ・シネマ HD"
     },
     "Toei Channel": {
-      "enabled": false,
-      "reason": "无匹配EPG源"
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "東映チャンネルHD"
     },
     "Tokyo MX1": {
       "enabled": true,
@@ -1076,8 +1081,9 @@
       "epg_name": "Tokyo MX2"
     },
     "V Paradise": {
-      "enabled": false,
-      "reason": "无匹配EPG源"
+      "enabled": true,
+      "source": "JP",
+      "epg_name": "V☆パラダイス"
     },
     "WOWOW Cinema": {
       "enabled": true,
@@ -1092,8 +1098,7 @@
     "WOWOW Plus": {
       "enabled": true,
       "source": "JPT",
-      "epg_name": "WOWOWプ",
-      "notes": "auto-match score=0.62"
+      "epg_name": "WOWOWプラス 映画・ドラマ・スポーツ・音楽"
     },
     "WOWOW Prime": {
       "enabled": true,
@@ -1153,6 +1158,10 @@
     "朝鲜中央电视台": {
       "enabled": false,
       "reason": "无匹配EPG源"
+    },
+    "香蕉台": {
+      "enabled": false,
+      "reason": "成人/临时频道，无标准XMLTV源"
     }
   }
 }

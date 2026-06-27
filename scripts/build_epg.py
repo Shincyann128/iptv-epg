@@ -241,18 +241,19 @@ def parse_source(source_key: str, url: str, targets_by_epg_name: dict, root_out:
     claimed_epg_names = {}  # epg_name -> (source_id, prog_count)
     last_programme_by_target = {}
 
-    context = ET.iterparse(io.BytesIO(raw), events=("start", "end"))
-    _, root_in = next(context)
-
-    for event, elem in context:
-        if event != 'end':
+    # First, collect all channel mappings (the source may interleave channels and programmes)
+    channel_ctx = ET.iterparse(io.BytesIO(raw), events=("end",))
+    for _, elem in channel_ctx:
+        if elem.tag not in {'channel', 'programme'}:
             continue
-
-        if elem.tag == 'channel':
-            names = []
-            for dn in elem.findall('display-name'):
-                if dn.text:
-                    names.append(dn.text.strip())
+        if elem.tag == 'programme':
+            elem.clear()
+            continue
+        # elem.tag == 'channel'
+        names = []
+        for dn in elem.findall('display-name'):
+            if dn.text:
+                names.append(dn.text.strip())
             matched_targets = []
             matched_epg_names = []
             for name in names:
@@ -270,14 +271,10 @@ def parse_source(source_key: str, url: str, targets_by_epg_name: dict, root_out:
                         claimed_epg_names[epg_name] = (source_id, this_count)
                         active_epg_names.append(epg_name)
                     elif this_count > prev[1]:
-                        # New channel has more programme data, prefer it
                         old_src_id = prev[0]
                         claimed_epg_names[epg_name] = (source_id, this_count)
-                        # Remove all targets previously mapped to old source_id
                         if old_src_id in source_to_targets:
                             del source_to_targets[old_src_id]
-                        # Also clean stale entries in channel_written
-                        # (they'll be re-written if needed)
                         active_epg_names.append(epg_name)
                 if active_epg_names:
                     active_targets = []
@@ -296,9 +293,15 @@ def parse_source(source_key: str, url: str, targets_by_epg_name: dict, root_out:
                             ET.SubElement(ch, 'icon', {'src': icon_src})
                         channel_written.add(target_name)
                         channels_added += 1
-            elem.clear()
+        elem.clear()
 
-        elif elem.tag == 'programme':
+    # Second pass: process all programme elements
+    prog_ctx = ET.iterparse(io.BytesIO(raw), events=("start", "end"))
+    _, root_in = next(prog_ctx)
+    for event, elem in prog_ctx:
+        if event != 'end':
+            continue
+        if elem.tag == 'programme':
             source_id = elem.attrib.get('channel')
             targets = source_to_targets.get(source_id)
             if targets:
