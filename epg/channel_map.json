@@ -207,10 +207,6 @@
       "epg_name": "ESPNU HD",
       "notes": ""
     },
-    "F1 TV": {
-      "enabled": false,
-      "reason": "平台专属流，无标准XMLTV"
-    },
     "FOX LOCAL Dallas-Fort Worth": {
       "enabled": true,
       "source": "US",
@@ -281,13 +277,6 @@
       "epg_name": "SkySp F1 HD",
       "alias_of": "Sky Sports F1",
       "notes": "4K流复用F1节目单"
-    },
-    "Sky Sports F1 FHD": {
-      "enabled": true,
-      "source": "GB",
-      "epg_name": "SkySp F1 HD",
-      "alias_of": "Sky Sports F1",
-      "notes": "统一复用 Sky Sports F1 节目单"
     },
     "Sky Sports F1 UK": {
       "enabled": true,
@@ -1104,56 +1093,6 @@
       "enabled": true,
       "source": "JP",
       "epg_name": "ＷＯＷＯＷプライム"
-    },
-    "beIN Sports 1": {
-      "enabled": true,
-      "source": "JP",
-      "epg_name": "J SPORTS 1"
-    },
-    "beIN Sports 2": {
-      "enabled": true,
-      "source": "JP",
-      "epg_name": "J SPORTS 2"
-    },
-    "beIN Sports 3": {
-      "enabled": true,
-      "source": "JP",
-      "epg_name": "J SPORTS 3"
-    },
-    "beIN Sports 4": {
-      "enabled": true,
-      "source": "JP",
-      "epg_name": "J SPORTS 4"
-    },
-    "beIN Sports 5": {
-      "enabled": true,
-      "source": "JP",
-      "epg_name": "J SPORTS 3",
-      "notes": "auto-match score=0.70"
-    },
-    "beIN Sports 6": {
-      "enabled": true,
-      "source": "JP",
-      "epg_name": "J SPORTS 3",
-      "notes": "auto-match score=0.70"
-    },
-    "beIN Sports 7": {
-      "enabled": true,
-      "source": "JP",
-      "epg_name": "J SPORTS 3",
-      "notes": "auto-match score=0.70"
-    },
-    "beIN Sports 8": {
-      "enabled": true,
-      "source": "JP",
-      "epg_name": "J SPORTS 3",
-      "notes": "auto-match score=0.70"
-    },
-    "beIN Sports 9": {
-      "enabled": true,
-      "source": "JP",
-      "epg_name": "J SPORTS 3",
-      "notes": "auto-match score=0.70"
     },
     "朝鲜中央电视台": {
       "enabled": false,
