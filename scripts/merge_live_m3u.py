@@ -1,11 +1,9 @@
 #!/usr/bin/env python3
-"""Merge static + sports M3U with per-source parsing & match-grouped output.
+"""Merge sports M3U with per-source parsing & match-grouped output.
 
 Sports entries from 看球通/咖啡直播/看球吧 are parsed per-source,
 clustered by match within the same sport+league, and rendered in
 a uniform `[src] league team1 vs team2 | extra` format.
-
-Static channels (自用) are left unchanged and placed first.
 """
 
 import importlib.util
@@ -28,13 +26,11 @@ MYSELF_CACHE = REPO_ROOT / "myself.m3u"
 DYNAMIC_LOCAL_CACHE = REPO_ROOT / "dynamic_local_cache.m3u"
 DYNAMIC_LOCAL_URL = "http://m3u.sjbox.cc/113.m3u"
 DYNAMIC_LOCAL_CACHE_TTL = 3 * 3600  # 3 hours; sports merge still runs every 15 min
-PPV_CACHE = REPO_ROOT / "ppv_cache.m3u"
-PPV_CACHE_TTL = 12 * 3600  # 12 hours
 FWC4K_URL = "http://82.156.243.185:33389/fwc.m3u"
 TV1288_URL = "https://itv.tv1288.xyz"
 TV1288_CACHE = REPO_ROOT / "tv1288_cache.txt"
 TV1288_CACHE_MAX_AGE = 24 * 3600  # merge skips cache older than 24h
-SOURCES = ["自用", "动态地方台", "FWC4K", "看球通", "咖啡直播", "咪咕直播", "看球吧", "popo直播", "live-event", "PPV", "damizhibo"]
+SOURCES = ["FWC4K", "看球通", "咖啡直播", "咪咕直播", "看球吧", "popo直播", "live-event", "damizhibo"]
 REPLAY_KEYWORDS = ("回放", "录像", "VOD")
 
 DYNAMIC_LOCAL_TARGET_ORDER = [
@@ -47,9 +43,9 @@ DYNAMIC_LOCAL_TARGET_ORDER = [
 DYNAMIC_LOCAL_TARGETS = set(DYNAMIC_LOCAL_TARGET_ORDER)
 
 # ── Source short names & ordering ──
-SOURCE_SHORT = {"FWC4K": "4K杜比", "咖啡直播": "咖啡", "咪咕直播": "咪咕", "看球吧": "看球吧", "看球通": "看球通", "popo直播": "popo", "live-event": "看个球", "PPV": "PPV", "damizhibo": "dami"}
-# Within output groups: 4K杜比 → 咖啡 → 咪咕 → 看个球 → popo → dami → 看球吧 → 看球通 → PPV
-SOURCE_ORDER = {"FWC4K": -1, "咖啡直播": 0, "咪咕直播": 1, "live-event": 2, "popo直播": 3, "damizhibo": 4, "看球吧": 5, "看球通": 6, "PPV": 7}
+SOURCE_SHORT = {"FWC4K": "4K杜比", "咖啡直播": "咖啡", "咪咕直播": "咪咕", "看球吧": "看球吧", "看球通": "看球通", "popo直播": "popo", "live-event": "看个球", "damizhibo": "dami"}
+# Within output groups: 4K杜比 → 咖啡 → 咪咕 → 看个球 → popo → dami → 看球吧 → 看球通
+SOURCE_ORDER = {"FWC4K": -1, "咖啡直播": 0, "咪咕直播": 1, "live-event": 2, "popo直播": 3, "damizhibo": 4, "看球吧": 5, "看球通": 6}
 SPORT_ORDER = {"足球": 0, "篮球": 1, "电竞": 2, "综合": 3, "回放": 4}
 
 # ── Static category ordering (unchanged) ──
@@ -444,45 +440,6 @@ def parse_liveevent(raw_name: str, group: str) -> dict:
     }
 
 
-def parse_ppv(raw_name: str, group: str) -> dict:
-    """Parse PPV TVK-format entry.
-
-    Format: M/D HH:MM-HH:MM TeamA vs TeamB
-    Non-match: channel names without time (e.g. "Roland-Garros: TNT Sports 1")
-    Group contains "PPV|category" — extract sport from it.
-    """
-    # Extract sport from group (e.g. "PPV|足球" → "足球")
-    sport = "综合"
-    if "|" in group:
-        sport = group.split("|", 1)[1].strip() or "综合"
-
-    text = normalize_text(raw_name)
-
-    # Strip time prefix: "5/31 08:00-11:00 " → keep it in display but parse teams after
-    # Pattern: M/D HH:MM-HH:MM ...
-    time_match = re.match(r'^(\d+/\d+\s+\d{2}:\d{2}-\d{2}:\d{2})\s+(.+)$', text)
-    if not time_match:
-        # Channel name without time (e.g. "Roland-Garros: TNT Sports 1")
-        return {"sport": sport, "is_match": False, "display_extra": text}
-
-    time_str = time_match.group(1)
-    rest = time_match.group(2).strip()
-
-    # Try to parse as match: TeamA vs TeamB
-    m = re.match(r'^(.+?)\s+vs\s+(.+?)$', rest)
-    if not m:
-        return {"sport": sport, "is_match": False, "display_extra": f"{time_str} {rest}"}
-
-    team1 = clean_team(m.group(1))
-    team2 = clean_team(m.group(2))
-
-    return {
-        "sport": sport, "is_match": True,
-        "league": time_str,  # store time in league field for sorting
-        "team1": team1, "team2": team2,
-    }
-
-
 def parse_damizhibo(raw_name: str, group: str) -> dict:
     """Parse damizhibo.com entry name.
 
@@ -601,7 +558,6 @@ SOURCE_PARSERS = {
     "看球通": parse_kqt,
     "popo直播": parse_kafei,   # popozhibo 格式与咖啡直播相同: 联赛 Team vs Team | 线路
     "live-event": parse_liveevent,
-    "PPV": parse_ppv,
     "damizhibo": parse_damizhibo,
     "FWC4K": parse_fwc4k,
     "咪咕直播": parse_tv1288,
@@ -711,10 +667,6 @@ def render_sports_display(entry: dict) -> str:
     if src == "4K杜比" and entry.get("display_time"):
         parts.append(entry["display_time"])
     else:
-        # For PPV entries, show sport category before the match info
-        sport = entry.get("sport", "")
-        if sport and sport != "综合" and src == "PPV":
-            parts.append(sport)
         if league:
             parts.append(league)
     parts.append(f"{team1} vs {team2}")
@@ -1137,23 +1089,8 @@ def group_beijing_static_entries(entries: list[dict]) -> list[dict]:
     return non_beijing_entries[:insert_at] + sorted_beijing + non_beijing_entries[insert_at:]
 
 
-def merge_all_entries(myself_entries: list[dict], sports_entries: list[dict]) -> list[dict]:
-    # Static entries: keep original order, URL dedup.
-    # TSN 4K CA already represents TSN East; TSN East 4K CA uses the same URL and should not be duplicated.
-    seen_urls: set[str] = set()
-    myself_list: list[dict] = []
-    for entry in myself_entries:
-        url = entry["url"].strip()
-        if url and url not in seen_urls:
-            seen_urls.add(url)
-            myself_list.append(dict(entry))
-
-    myself_list = group_beijing_static_entries(myself_list)
-
-    # Process sports entries through new pipeline
-    sports_processed = process_sports_entries(sports_entries)
-
-    return list(myself_list) + sports_processed
+def merge_all_entries(sports_entries: list[dict]) -> list[dict]:
+    return process_sports_entries(sports_entries)
 
 
 def render_m3u(entries: list[dict]) -> str:
@@ -1161,28 +1098,13 @@ def render_m3u(entries: list[dict]) -> str:
         "#EXTM3U",
         "# Generated locally by merge_live_m3u.py",
         f"# Sources: {', '.join(SOURCES)}",
-        f"# Static channels (自用): from GitHub Shincyann128/iptv myself.m3u",
-        f"# Live sports: 看球通 + 咖啡直播 + 咪咕直播 + 看球吧 + popo直播 + 看个球 + PPV + damizhibo (refreshed every 15 minutes)",
+        f"# Live sports: 看球通 + 咖啡直播 + 咪咕直播 + 看球吧 + popo直播 + 看个球 + damizhibo (refreshed every 15 minutes)",
         f"# Total streams: {len(entries)}",
         "",
     ]
-    static_sources = {"自用", "动态地方台"}
-    last_source = None
     for entry in entries:
-        source = entry.get("source", "")
-        if last_source in static_sources and source not in static_sources:
-            lines.append("# ===== 体育直播（每15分钟刷新）=====")
-            lines.append("")
-        last_source = source
-
-        if source in static_sources:
-            # Static/local channels: keep original format
-            display_name = entry["name"]
-            group = entry.get("group", "其他")
-        else:
-            # Sports: use processed display_name & group
-            display_name = entry.get("display_name", entry["name"])
-            group = entry.get("output_group", entry.get("group", "综合"))
+        display_name = entry.get("display_name", entry["name"])
+        group = entry.get("output_group", entry.get("group", "综合"))
 
         escaped_name = display_name.replace('"', "'")
         escaped_group = group.replace('"', "'")
@@ -1432,40 +1354,6 @@ def fetch_fwc4k_entries() -> list[dict]:
     return candidates
 
 
-def fetch_ppv_entries() -> list[dict]:
-    """Fetch PPV M3U from korice.eu.org, cached for 12 hours."""
-    import os
-    import time
-
-    # Check cache
-    try:
-        cache_mtime = os.path.getmtime(PPV_CACHE)
-        if time.time() - cache_mtime < PPV_CACHE_TTL:
-            text = PPV_CACHE.read_text(encoding="utf-8")
-            print("PPV: (cache)", file=sys.stderr)
-            return parse_m3u(text, source="PPV")
-    except (OSError, FileNotFoundError):
-        pass
-
-    # Fetch fresh
-    import urllib.request
-
-    url = "https://www.korice.eu.org/ppv_m3u.php"
-    try:
-        req = urllib.request.Request(
-            url,
-            headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"}
-        )
-        with urllib.request.urlopen(req, timeout=20) as resp:
-            text = resp.read().decode("utf-8")
-    except Exception as exc:
-        raise RuntimeError(f"PPV 不可用: {exc}")
-
-    # Write cache
-    PPV_CACHE.write_text(text, encoding="utf-8")
-    return parse_m3u(text, source="PPV")
-
-
 def fetch_damizhibo_entries() -> list[dict]:
     """Fetch M3U from damizhibo.com, filter to only live matches.
 
@@ -1516,23 +1404,7 @@ def write_atomic(path: Path, content: str):
 def main() -> int:
     all_entries = []
 
-    # 1) Static
-    try:
-        myself_entries = fetch_myself_entries()
-        print(f"自用: {len(myself_entries)}", file=sys.stderr)
-    except Exception as exc:
-        print(f"WARN 自用: {exc}", file=sys.stderr)
-        myself_entries = []
-
-    # 2) Daily-refreshed local channels
-    try:
-        dynamic_local_entries = fetch_dynamic_local_entries()
-        print(f"动态地方台: {len(dynamic_local_entries)}", file=sys.stderr)
-    except Exception as exc:
-        print(f"WARN 动态地方台: {exc}", file=sys.stderr)
-        dynamic_local_entries = []
-
-    # 3) Sports
+    # Sports only. Static 自用/动态地方台 channels are served by tvlive/cameralive and must not enter this merge.
     sports_entries = []
     for label, fn in (
         ("FWC4K", fetch_fwc4k_entries),
@@ -1542,7 +1414,6 @@ def main() -> int:
         ("看球吧", fetch_kanqiu_entries),
         ("popo直播", fetch_popozhibo_entries),
         ("live-event", fetch_liveevent_entries),
-        ("PPV", fetch_ppv_entries),
         ("damizhibo", fetch_damizhibo_entries),
     ):
         try:
@@ -1552,19 +1423,15 @@ def main() -> int:
         except Exception as exc:
             print(f"WARN {label}: {exc}", file=sys.stderr)
 
-    static_entries = myself_entries + dynamic_local_entries
-
-    if not sports_entries and not static_entries:
+    if not sports_entries:
         raise RuntimeError("所有源都没有抓到可用流")
 
-    merged = merge_all_entries(static_entries, sports_entries)
+    merged = merge_all_entries(sports_entries)
     content = render_m3u(merged)
     write_atomic(OUTPUT_FILE, content)
 
-    static_count = len(static_entries)
-    sports_count = len(merged) - static_count
     print(
-        f"Wrote {len(merged)} merged streams ({static_count} static + {sports_count} sports) to {OUTPUT_FILE}"
+        f"Wrote {len(merged)} sports streams to {OUTPUT_FILE}"
     )
     return len(merged)
 
