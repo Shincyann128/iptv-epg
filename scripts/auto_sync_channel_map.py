@@ -39,7 +39,10 @@ def run(cmd: list[str], cwd: Path, check: bool = True) -> subprocess.CompletedPr
 
 
 def git_pull(repo: Path) -> None:
+    run(["git", "stash", "push", "--quiet", "--include-untracked",
+         "-m", "auto-sync-stash"], repo, check=False)
     run(["git", "pull", "--rebase", "origin", "main"], repo)
+    run(["git", "stash", "pop", "--quiet"], repo, check=False)
 
 
 def extract_playlist_channels(path: Path) -> list[str]:

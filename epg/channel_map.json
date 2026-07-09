@@ -21,14 +21,6 @@
       "epg_name": "ABCテレビ",
       "notes": "auto-match score=0.67"
     },
-    "ABC 8 Dallas": {
-      "enabled": false,
-      "reason": "auto-added 2026-07-05, needs EPG config",
-      "playlist_files": [
-        "News.m3u"
-      ],
-      "source_hint": "US"
-    },
     "AT-X": {
       "enabled": true,
       "source": "JP",
@@ -388,6 +380,14 @@
       "source": "US",
       "epg_name": "KDFW-DT",
       "notes": "复用KDFW-DT节目单"
+    },
+    "ABC 8 Dallas": {
+      "enabled": false,
+      "reason": "auto-added 2026-07-05, needs EPG config",
+      "playlist_files": [
+        "News.m3u"
+      ],
+      "source_hint": "US"
     },
     "FS1 01": {
       "enabled": true,
