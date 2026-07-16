@@ -21,6 +21,14 @@
       "epg_name": "ABCテレビ",
       "notes": "auto-match score=0.67"
     },
+    "ABC 8 Dallas": {
+      "enabled": false,
+      "reason": "auto-added 2026-07-05, needs EPG config",
+      "playlist_files": [
+        "News.m3u"
+      ],
+      "source_hint": "US"
+    },
     "AT-X": {
       "enabled": true,
       "source": "JP",
@@ -61,12 +69,6 @@
       "source": "GB",
       "epg_name": "BBC One Lon HD",
       "notes": ""
-    },
-    "BBC TWO UK": {
-      "enabled": true,
-      "source": "GB",
-      "epg_name": "BBC Two HD",
-      "notes": "复用原BBC Two UK"
     },
     "BBC Two UK": {
       "enabled": true,
@@ -251,6 +253,14 @@
       "epg_name": "CCTV-9纪录",
       "notes": ""
     },
+    "CGTN": {
+      "enabled": false,
+      "reason": "auto-added 2026-07-17, needs EPG config",
+      "playlist_files": [
+        "News.m3u"
+      ],
+      "source_hint": "US"
+    },
     "CGTN China Travel": {
       "enabled": false,
       "reason": "无匹配EPG源"
@@ -380,14 +390,6 @@
       "source": "US",
       "epg_name": "KDFW-DT",
       "notes": "复用KDFW-DT节目单"
-    },
-    "ABC 8 Dallas": {
-      "enabled": false,
-      "reason": "auto-added 2026-07-05, needs EPG config",
-      "playlist_files": [
-        "News.m3u"
-      ],
-      "source_hint": "US"
     },
     "FS1 01": {
       "enabled": true,
@@ -628,24 +630,6 @@
       "source": "HK",
       "epg_name": "Now Sports 4K 616",
       "notes": "NOW 4K体育"
-    },
-    "NOW Sports 617 4K": {
-      "enabled": true,
-      "source": "HK",
-      "epg_name": "Now Sports 4K 617",
-      "notes": "NOW 4K体育"
-    },
-    "NOW Sports 618": {
-      "enabled": true,
-      "source": "HK",
-      "epg_name": "Now Sports 618",
-      "notes": "NOW体育"
-    },
-    "NOW Sports 619": {
-      "enabled": true,
-      "source": "HK",
-      "epg_name": "Now Sports 619",
-      "notes": "NOW体育"
     },
     "NTV": {
       "enabled": true,
