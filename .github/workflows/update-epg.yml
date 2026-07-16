@@ -35,6 +35,13 @@ jobs:
       - name: Install test dependency
         run: python -m pip install --quiet pytest
 
+      - name: Auto-sync channel map with playlist changes
+        run: |
+          python scripts/auto_sync_channel_map.py
+        env:
+          IPTV_REPO: iptv-private
+          EPG_REPO: ${{ github.workspace }}
+
       - name: Verify channel map matches all split playlist files
         run: |
           python scripts/check_playlist_sync.py \

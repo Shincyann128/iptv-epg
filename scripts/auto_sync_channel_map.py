@@ -9,14 +9,15 @@ This script is intentionally conservative:
 from __future__ import annotations
 
 import json
+import os
 import subprocess
 import sys
 from datetime import datetime
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
-IPTV_REPO = Path("/home/ubuntu/iptv")
-EPG_REPO = Path("/home/ubuntu/iptv-epg")
+IPTV_REPO = Path(os.environ.get("IPTV_REPO", "/home/ubuntu/iptv"))
+EPG_REPO = Path(os.environ.get("EPG_REPO", "/home/ubuntu/iptv-epg"))
 MAP_PATH = EPG_REPO / "epg" / "channel_map.json"
 CHECK_SCRIPT = EPG_REPO / "scripts" / "check_playlist_sync.py"
 
