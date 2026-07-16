@@ -601,10 +601,6 @@
       "source": "JP",
       "epg_name": "NHK BS4K"
     },
-    "NHK BS8K": {
-      "enabled": false,
-      "reason": "无标准XMLTV源"
-    },
     "NHK E": {
       "enabled": true,
       "source": "JP",
