@@ -312,13 +312,6 @@
       "source": "JP",
       "epg_name": "CNNj"
     },
-    "CS亚洲邀请赛 Mongolz⚔️B8 - 粤语解说-广佬": {
-      "enabled": false,
-      "reason": "auto-added 2026-07-20, needs EPG config",
-      "playlist_files": [
-        "看球通.m3u"
-      ]
-    },
     "Cartoon Network": {
       "enabled": true,
       "source": "JP",
@@ -536,13 +529,6 @@
       "enabled": true,
       "source": "JP",
       "epg_name": "キッズステーション HD"
-    },
-    "LCK常规赛 T1  -  KRX - 蛋黄": {
-      "enabled": false,
-      "reason": "auto-added 2026-07-20, needs EPG config",
-      "playlist_files": [
-        "看球通.m3u"
-      ]
     },
     "LaLa TV": {
       "enabled": true,
@@ -925,41 +911,6 @@
       "epg_name": "読売テレビ",
       "notes": "关西地方台 ytv"
     },
-    "⚽意甲 乌迪内斯 vs 克雷莫纳 回放⚽ - 足球回放4": {
-      "enabled": false,
-      "reason": "auto-added 2026-07-20, needs EPG config",
-      "playlist_files": [
-        "看球通.m3u"
-      ]
-    },
-    "⚽意甲 卡利亚里 vs 都灵 回放⚽ - 足球回放5": {
-      "enabled": false,
-      "reason": "auto-added 2026-07-20, needs EPG config",
-      "playlist_files": [
-        "看球通.m3u"
-      ]
-    },
-    "⚽意甲 萨索洛 vs 莱切 回放⚽ - 足球回放3": {
-      "enabled": false,
-      "reason": "auto-added 2026-07-20, needs EPG config",
-      "playlist_files": [
-        "看球通.m3u"
-      ]
-    },
-    "⚽英超 纽卡斯尔联 vs 西汉姆联 回放⚽ - 足球回放1": {
-      "enabled": false,
-      "reason": "auto-added 2026-07-20, needs EPG config",
-      "playlist_files": [
-        "看球通.m3u"
-      ]
-    },
-    "⚽西甲 巴塞罗那 vs 皇家贝蒂斯 回放⚽ - 足球回放2": {
-      "enabled": false,
-      "reason": "auto-added 2026-07-20, needs EPG config",
-      "playlist_files": [
-        "看球通.m3u"
-      ]
-    },
     "东方卫视4K": {
       "enabled": true,
       "source": "CN",
@@ -967,32 +918,11 @@
       "alias_of": "东方卫视",
       "notes": "4K台先复用普通卫视节目单"
     },
-    "中冠 北京一生和球 vs 新疆斯巴达懂球哥 15:00 - 官方直播04": {
-      "enabled": false,
-      "reason": "auto-added 2026-07-20, needs EPG config",
-      "playlist_files": [
-        "看球通.m3u"
-      ]
-    },
-    "中冠 陕西陕安 vs 北京灵动星空 16:00 - 官方直播05": {
-      "enabled": false,
-      "reason": "auto-added 2026-07-20, needs EPG config",
-      "playlist_files": [
-        "看球通.m3u"
-      ]
-    },
     "五星体育": {
       "enabled": true,
       "source": "CN",
       "epg_name": "五星体育",
       "notes": "上海五星体育"
-    },
-    "亚冠联 桃园领航猿 vs 特库高科技 17:00 - 官方直播07": {
-      "enabled": false,
-      "reason": "auto-added 2026-07-20, needs EPG config",
-      "playlist_files": [
-        "看球通.m3u"
-      ]
     },
     "北京体育休闲": {
       "enabled": true,
@@ -1063,13 +993,6 @@
       "alias_of": "山东卫视",
       "notes": "4K台先复用普通卫视节目单"
     },
-    "帕赛航海者 vs 马尼拉SV - 洛洛清音 [菲MPBL]": {
-      "enabled": false,
-      "reason": "auto-added 2026-07-20, needs EPG config",
-      "playlist_files": [
-        "看球通.m3u"
-      ]
-    },
     "广东卫视4K": {
       "enabled": true,
       "source": "CN",
@@ -1139,100 +1062,9 @@
       "epg_name": "潘朵啦高畫質玩美台",
       "notes": "按用户要求固定用玩美台"
     },
-    "菲MPBL 帕赛航海者 vs 马尼拉SV 16:00 - 官方直播06": {
-      "enabled": false,
-      "reason": "auto-added 2026-07-20, needs EPG config",
-      "playlist_files": [
-        "看球通.m3u"
-      ]
-    },
-    "蒙古超 德仁FC vs 浩日莫尔 15:00 - 官方直播03": {
-      "enabled": false,
-      "reason": "auto-added 2026-07-20, needs EPG config",
-      "playlist_files": [
-        "看球通.m3u"
-      ]
-    },
     "香蕉台": {
       "enabled": false,
       "reason": "成人/临时频道，无标准XMLTV源"
-    },
-    "🎾青年戴维斯杯资格赛🎾 - 网球直播": {
-      "enabled": false,
-      "reason": "auto-added 2026-07-20, needs EPG config",
-      "playlist_files": [
-        "看球通.m3u"
-      ]
-    },
-    "🎾青年戴维斯杯资格赛🎾 - 网球直播2": {
-      "enabled": false,
-      "reason": "auto-added 2026-07-20, needs EPG config",
-      "playlist_files": [
-        "看球通.m3u"
-      ]
-    },
-    "🏀NBA 尼克斯 vs 76人 回放🏀 - 篮球原声全场回放4": {
-      "enabled": false,
-      "reason": "auto-added 2026-07-20, needs EPG config",
-      "playlist_files": [
-        "看球通.m3u"
-      ]
-    },
-    "🏀NBA 森林狼 vs 马刺 回放🏀 - 篮球原声全场回放5": {
-      "enabled": false,
-      "reason": "auto-added 2026-07-20, needs EPG config",
-      "playlist_files": [
-        "看球通.m3u"
-      ]
-    },
-    "🏀NBA 马刺 vs 森林狼 回放🏀 - 篮球原声全场回放2": {
-      "enabled": false,
-      "reason": "auto-added 2026-07-20, needs EPG config",
-      "playlist_files": [
-        "看球通.m3u"
-      ]
-    },
-    "🏀NBA 马刺 vs 雷霆 回放🏀 - 篮球原声全场回放3": {
-      "enabled": false,
-      "reason": "auto-added 2026-07-20, needs EPG config",
-      "playlist_files": [
-        "看球通.m3u"
-      ]
-    },
-    "🏀NBA 骑士 vs 尼克斯 回放🏀 - 篮球原声全场回放1": {
-      "enabled": false,
-      "reason": "auto-added 2026-07-20, needs EPG config",
-      "playlist_files": [
-        "看球通.m3u"
-      ]
-    },
-    "👾CS亚洲邀请赛 - B8 vs The MongolZ👾 - 电竞直播2": {
-      "enabled": false,
-      "reason": "auto-added 2026-07-20, needs EPG config",
-      "playlist_files": [
-        "看球通.m3u"
-      ]
-    },
-    "👾CS亚洲邀请赛 - PARIVISION vs. Team Liquid👾 - 电竞直播4": {
-      "enabled": false,
-      "reason": "auto-added 2026-07-20, needs EPG config",
-      "playlist_files": [
-        "看球通.m3u"
-      ]
-    },
-    "👾LCK - T1 vs KRX - NS vs KT👾 - 电竞直播": {
-      "enabled": false,
-      "reason": "auto-added 2026-07-20, needs EPG config",
-      "playlist_files": [
-        "看球通.m3u"
-      ]
-    },
-    "👾梦幻联赛👾 - 电竞直播5": {
-      "enabled": false,
-      "reason": "auto-added 2026-07-20, needs EPG config",
-      "playlist_files": [
-        "看球通.m3u"
-      ]
     }
   }
 }
