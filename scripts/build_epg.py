@@ -99,6 +99,23 @@ def fix_stop_after_start(start: str, stop: str) -> str:
     return stop
 
 
+def should_filter_promo(title: str, target_name: str, duration_min: float) -> bool:
+    """Filter promo/INFO fragments that upstream feeds embed next to real
+    programmes (they overlap the actual show and produce bogus overlap pairs):
+    - NHK World: 'INFO' interstitial rows (2min)
+    - CCTV4K: '宣传片/节目预告/标识演绎' promo rows — upstream emits BOTH a
+      1-2min short version AND a 24h all-day version of the same promo; the
+      24h one overlaps every real show, so filter by keyword, not duration."""
+    t = (title or '').strip()
+    if target_name in ('NHK World Japan', 'NHK World-Japan') and t.upper().startswith('INFO'):
+        return True
+    if target_name in ('CCTV-4K超高清', 'CCTV4K超高清', 'cctv4k') and (
+        '宣传片' in t or '频道宣传' in t or '节目预告' in t or '标识演绎' in t
+    ):
+        return True
+    return False
+
+
 def parse_bj_time(dt_str: str) -> datetime | None:
     if not dt_str:
         return None
@@ -338,7 +355,10 @@ def parse_source(source_key: str, url: str, targets_by_epg_name: dict, root_out:
                 start = convert_xmltv_time(start_raw, source_key)
                 stop = convert_xmltv_time(stop_raw, source_key)
                 stop = fix_stop_after_start(start, stop)
+                duration_min = programme_duration_seconds(start, stop) / 60.0
                 for target_name in targets:
+                    if should_filter_promo(title, target_name, duration_min):
+                        continue
                     new_prog = copy.deepcopy(elem)
                     if append_programme(root_out, programme_seen, last_programme_by_target,
                                         target_name, new_prog, start, stop, title, source_key):
