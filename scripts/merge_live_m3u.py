@@ -29,7 +29,7 @@ DYNAMIC_LOCAL_CACHE_TTL = 3 * 3600  # 3 hours; sports merge still runs every 15 
 TV1288_URL = "https://itv.tv1288.xyz"
 TV1288_CACHE = REPO_ROOT / "tv1288_cache.txt"
 TV1288_CACHE_MAX_AGE = 24 * 3600  # merge skips cache older than 24h
-SOURCES = ["看球通", "咖啡直播", "咪咕直播", "看球吧", "popo直播", "live-event", "damizhibo"]
+SOURCES = ["看球通", "咖啡直播", "咪咕直播", "看球吧", "live-event", "damizhibo"]
 REPLAY_KEYWORDS = ("回放", "录像", "VOD")
 
 DYNAMIC_LOCAL_TARGET_ORDER = [
@@ -42,9 +42,9 @@ DYNAMIC_LOCAL_TARGET_ORDER = [
 DYNAMIC_LOCAL_TARGETS = set(DYNAMIC_LOCAL_TARGET_ORDER)
 
 # ── Source short names & ordering ──
-SOURCE_SHORT = {"咖啡直播": "咖啡", "咪咕直播": "咪咕", "看球吧": "看球吧", "看球通": "看球通", "popo直播": "popo", "live-event": "看个球", "damizhibo": "dami"}
-# 咖啡 → 咪咕 → 看个球 → popo → dami → 看球吧 → 看球通
-SOURCE_ORDER = {"咖啡直播": 0, "咪咕直播": 1, "live-event": 2, "popo直播": 3, "damizhibo": 4, "看球吧": 5, "看球通": 6}
+SOURCE_SHORT = {"咖啡直播": "咖啡", "咪咕直播": "咪咕", "看球吧": "看球吧", "看球通": "看球通", "live-event": "看个球", "damizhibo": "dami"}
+
+SOURCE_ORDER = {"咖啡直播": 0, "咪咕直播": 1, "live-event": 2, "damizhibo": 4, "看球吧": 5, "看球通": 6}
 SPORT_ORDER = {"足球": 0, "篮球": 1, "电竞": 2, "综合": 3, "回放": 4}
 
 # ── Static category ordering (unchanged) ──
@@ -520,7 +520,6 @@ SOURCE_PARSERS = {
     "咖啡直播": parse_kafei,
     "看球吧": parse_kanqiu,
     "看球通": parse_kqt,
-    "popo直播": parse_kafei,   # popozhibo 格式与咖啡直播相同: 联赛 Team vs Team | 线路
     "live-event": parse_liveevent,
     "damizhibo": parse_damizhibo,
     "咪咕直播": parse_tv1288,
@@ -1058,7 +1057,7 @@ def render_m3u(entries: list[dict]) -> str:
         "#EXTM3U",
         "# Generated locally by merge_live_m3u.py",
         f"# Sources: {', '.join(SOURCES)}",
-        f"# Live sports: 看球通 + 咖啡直播 + 咪咕直播 + 看球吧 + popo直播 + 看个球 + damizhibo (refreshed every 15 minutes)",
+        f"",
         f"# Total streams: {len(entries)}",
         "",
     ]
@@ -1113,11 +1112,6 @@ def fetch_kanqiu_entries() -> list[dict]:
         text = module.generate_m3u(streams)
     return parse_m3u(text, source="看球吧")
 
-
-def fetch_popozhibo_entries() -> list[dict]:
-    module = load_module("popozhibo_m3u.py", "popozhibo_m3u")
-    text = module.generate_m3u()
-    return parse_m3u(text, source="popo直播")
 
 
 def _tv1288_cache_text() -> str:
@@ -1329,7 +1323,6 @@ def main() -> int:
         ("咖啡直播", fetch_kafei_entries),
         ("咪咕直播", fetch_tv1288_entries),
         ("看球吧", fetch_kanqiu_entries),
-        ("popo直播", fetch_popozhibo_entries),
         ("live-event", fetch_liveevent_entries),
         ("damizhibo", fetch_damizhibo_entries),
     ):
