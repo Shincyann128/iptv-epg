@@ -1690,14 +1690,14 @@
     "TSN East 4K CA": {
       "enabled": true,
       "source": "CA",
-      "epg_name": "TSN1 HD",
-      "notes": "TSN East 4K"
+      "epg_name": "TSN 4K",
+      "notes": "TSN East 4K (CA源只有单一TSN 4K)"
     },
     "TSN West 4K CA": {
       "enabled": true,
       "source": "CA",
-      "epg_name": "TSN3 HD",
-      "notes": "TSN West 4K"
+      "epg_name": "TSN 4K",
+      "notes": "TSN West 4K (CA源只有单一TSN 4K)"
     },
     "TV Asahi": {
       "enabled": true,
