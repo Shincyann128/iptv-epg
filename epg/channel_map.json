@@ -2416,20 +2416,24 @@
       "epg_name": "中視新聞"
     },
     "中視經典台": {
-      "enabled": false,
+      "enabled": true,
       "reason": "auto-added 2026-08-06, needs EPG config",
       "playlist_files": [
         "Taiwan-Backup.m3u",
         "taiwan.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "中視經典台HD"
     },
     "中視菁采台": {
-      "enabled": false,
+      "enabled": true,
       "reason": "auto-added 2026-08-06, needs EPG config",
       "playlist_files": [
         "Taiwan-Backup.m3u",
         "taiwan.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "中視菁采台HD"
     },
     "丸ごと九州ch": {
       "enabled": false,
@@ -4211,12 +4215,14 @@
       ]
     },
     "浙江教科": {
-      "enabled": false,
+      "enabled": true,
       "reason": "auto-added 2026-08-06, needs EPG config",
       "playlist_files": [
         "China.m3u",
         "china-backup.m3u"
-      ]
+      ],
+      "source": "ERW",
+      "epg_name": "浙江教科影视"
     },
     "浙江教科影视": {
       "enabled": false,
@@ -4272,12 +4278,14 @@
       ]
     },
     "浙江经济": {
-      "enabled": false,
+      "enabled": true,
       "reason": "auto-added 2026-08-06, needs EPG config",
       "playlist_files": [
         "China.m3u",
         "china-backup.m3u"
-      ]
+      ],
+      "source": "ERW",
+      "epg_name": "浙江经济生活"
     },
     "浙江经济生活": {
       "enabled": false,
