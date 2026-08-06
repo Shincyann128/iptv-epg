@@ -38,12 +38,13 @@
       ]
     },
     "ANIMAX": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u",
         "taiwan.m3u"
-      ]
+      ],
+      "source": "HK",
+      "epg_name": "Animax"
     },
     "ANN JapaNews24": {
       "enabled": false,
@@ -65,12 +66,13 @@
       "epg_name": "アニメシアターX(AT-X)"
     },
     "AXN": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u",
         "taiwan.m3u"
-      ]
+      ],
+      "source": "HK",
+      "epg_name": "AXN"
     },
     "Action Channel": {
       "enabled": false,
@@ -95,12 +97,13 @@
       "notes": "auto-match US score=0.85"
     },
     "Al Jazeera English": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u",
         "taiwan.m3u"
-      ]
+      ],
+      "source": "CA",
+      "epg_name": "Al Jazeera English"
     },
     "Animal Planet": {
       "enabled": true,
@@ -186,40 +189,44 @@
       "epg_name": "BSよしもと"
     },
     "BS テレ東": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Japan-Backup.m3u",
         "Japan.m3u"
       ],
-      "source_hint": "JP"
+      "source_hint": "JP",
+      "source": "JP",
+      "epg_name": "BSテレ東"
     },
     "BS フジ": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Japan-Backup.m3u",
         "Japan.m3u"
       ],
-      "source_hint": "JP"
+      "source_hint": "JP",
+      "source": "JPT",
+      "epg_name": "ＢＳフジ・181"
     },
     "BS 日テレ": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Japan-Backup.m3u",
         "Japan.m3u"
       ],
-      "source_hint": "JP"
+      "source_hint": "JP",
+      "source": "JP",
+      "epg_name": "ＢＳ日テレ"
     },
     "BS 朝日": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Japan-Backup.m3u",
         "Japan.m3u"
       ],
-      "source_hint": "JP"
+      "source_hint": "JP",
+      "source": "JP",
+      "epg_name": "ＢＳ朝日１"
     },
     "BS10": {
       "enabled": false,
@@ -229,11 +236,12 @@
       ]
     },
     "BS11": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Japan-Backup.m3u"
-      ]
+      ],
+      "source": "JPT",
+      "epg_name": "BS11 イレブン"
     },
     "BS12": {
       "enabled": false,
@@ -243,12 +251,13 @@
       ]
     },
     "Bloomberg": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u",
         "taiwan.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "Bloomberg"
     },
     "Bloomberg TV": {
       "enabled": false,
@@ -258,12 +267,13 @@
       ]
     },
     "Bloomberg TV+": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-06, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Japan.m3u"
       ],
-      "source_hint": "JP"
+      "source_hint": "JP",
+      "source": "TW",
+      "epg_name": "Bloomberg TV"
     },
     "CCTV-4K超高清": {
       "enabled": true,
@@ -392,20 +402,22 @@
       "notes": ""
     },
     "CCTV世界地理": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-06, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "China.m3u",
         "china-backup.m3u"
-      ]
+      ],
+      "source": "SD",
+      "epg_name": "CCTV世界地理"
     },
     "CGTN": {
-      "enabled": false,
-      "reason": "auto-added 2026-07-17, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "News.m3u"
       ],
-      "source_hint": "US"
+      "source_hint": "US",
+      "source": "SD",
+      "epg_name": "CGTN"
     },
     "CGTN China Travel": {
       "enabled": false,
@@ -416,8 +428,9 @@
       "reason": "无匹配EPG源"
     },
     "CGTN Documentary": {
-      "enabled": false,
-      "reason": "无匹配EPG源"
+      "enabled": true,
+      "source": "CN",
+      "epg_name": "CGTN纪录"
     },
     "CGTN Español": {
       "enabled": true,
@@ -426,20 +439,23 @@
       "notes": "auto-match US score=0.83"
     },
     "CGTN Français": {
-      "enabled": false,
-      "reason": "无匹配EPG源"
+      "enabled": true,
+      "source": "CN",
+      "epg_name": "CGTN法语"
     },
     "CGTN Global BIZ": {
       "enabled": false,
       "reason": "无匹配EPG源"
     },
     "CGTN Русский": {
-      "enabled": false,
-      "reason": "无匹配EPG源"
+      "enabled": true,
+      "source": "CN",
+      "epg_name": "CGTN俄语"
     },
     "CGTN العربية": {
-      "enabled": false,
-      "reason": "无匹配EPG源"
+      "enabled": true,
+      "source": "CN",
+      "epg_name": "CGTN阿语"
     },
     "CGTN俄语": {
       "enabled": false,
@@ -491,20 +507,22 @@
       ]
     },
     "CI 罪案偵查頻道": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u",
         "taiwan.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "CI 罪案偵查頻道"
     },
     "CINEMAX": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u",
         "taiwan.m3u"
-      ]
+      ],
+      "source": "HK",
+      "epg_name": "CINEMAX"
     },
     "CLASSICA 古典樂": {
       "enabled": false,
@@ -533,12 +551,13 @@
       "notes": "国际新闻台固定一份源即可"
     },
     "CNN US": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u",
         "taiwan.m3u"
-      ]
+      ],
+      "source": "JPT",
+      "epg_name": "CNN U.S."
     },
     "CNNj": {
       "enabled": true,
@@ -546,12 +565,13 @@
       "epg_name": "CNNj"
     },
     "CN卡通頻道": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u",
         "taiwan.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "卡通頻道"
     },
     "Cartoon Network": {
       "enabled": true,
@@ -654,12 +674,13 @@
       "epg_name": "衛星劇場"
     },
     "Euronews": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-06, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Japan.m3u"
       ],
-      "source_hint": "JP"
+      "source_hint": "JP",
+      "source": "GB",
+      "epg_name": "Euronews"
     },
     "F1 TV": {
       "enabled": false,
@@ -865,13 +886,14 @@
       "notes": "auto-match HK score=1.00"
     },
     "History Channel": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Japan-Backup.m3u",
         "Japan.m3u"
       ],
-      "source_hint": "JP"
+      "source_hint": "JP",
+      "source": "DE",
+      "epg_name": "The HISTORY Channel"
     },
     "History 歷史頻道": {
       "enabled": false,
@@ -935,13 +957,14 @@
       "epg_name": "KBS京都"
     },
     "KBS World": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-06, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Japan-Backup.m3u",
         "Japan.m3u"
       ],
-      "source_hint": "JP"
+      "source_hint": "JP",
+      "source": "HK",
+      "epg_name": "KBS World"
     },
     "KDFW FOX 4 Dallas Fort Worth TX": {
       "enabled": true,
@@ -950,12 +973,13 @@
       "notes": "Dallas FOX本地台"
     },
     "KLT-靖天國際台": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u",
         "taiwan.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "KLT-靖天國際台"
     },
     "KNTV": {
       "enabled": true,
@@ -1013,12 +1037,13 @@
       ]
     },
     "LiveABC互動英語頻道": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u",
         "taiwan.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "LiveABC互動英語頻道"
     },
     "Love Nature": {
       "enabled": false,
@@ -1041,12 +1066,13 @@
       "source_hint": "JP"
     },
     "MOMO親子台": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u",
         "taiwan.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "MOMO親子台"
     },
     "MTV": {
       "enabled": true,
@@ -1210,21 +1236,21 @@
       "epg_name": "ＮＨＫ　ＢＳ"
     },
     "NHK BS (Sub Ch.)": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-06, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Japan-Backup.m3u",
         "Japan.m3u"
       ],
-      "source_hint": "JP"
+      "source_hint": "JP",
+      "alias_of": "NHK BS"
     },
     "NHK BS 備用": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-06, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Japan.m3u"
       ],
-      "source_hint": "JP"
+      "source_hint": "JP",
+      "alias_of": "NHK BS"
     },
     "NHK BS4K": {
       "enabled": true,
@@ -1232,12 +1258,12 @@
       "epg_name": "NHK BS4K"
     },
     "NHK BS4K 備用": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-06, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Japan.m3u"
       ],
-      "source_hint": "JP"
+      "source_hint": "JP",
+      "alias_of": "NHK BS4K"
     },
     "NHK BSP4K": {
       "enabled": false,
@@ -1252,12 +1278,12 @@
       "epg_name": "NHK東京　教育"
     },
     "NHK E 備用": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-06, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Japan.m3u"
       ],
-      "source_hint": "JP"
+      "source_hint": "JP",
+      "alias_of": "NHK E"
     },
     "NHK G": {
       "enabled": true,
@@ -1265,13 +1291,13 @@
       "epg_name": "NHK東京　総合"
     },
     "NHK G (Sub Ch.)": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-06, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Japan-Backup.m3u",
         "Japan.m3u"
       ],
-      "source_hint": "JP"
+      "source_hint": "JP",
+      "alias_of": "NHK G"
     },
     "NHK G AVC 1080p": {
       "enabled": true,
@@ -1286,12 +1312,12 @@
       "epg_name": "NHK大阪　総合"
     },
     "NHK G 備用": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-06, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Japan.m3u"
       ],
-      "source_hint": "JP"
+      "source_hint": "JP",
+      "alias_of": "NHK G"
     },
     "NHK WORLD-JAPAN": {
       "enabled": false,
@@ -1301,21 +1327,23 @@
       ]
     },
     "NHK World Japan": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u",
         "taiwan.m3u"
-      ]
+      ],
+      "source": "JP",
+      "epg_name": "NHK World-Japan"
     },
     "NHK World-Japan": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-06, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Japan-Backup.m3u",
         "Japan.m3u"
       ],
-      "source_hint": "JP"
+      "source_hint": "JP",
+      "source": "JP",
+      "epg_name": "NHK World-Japan"
     },
     "NHK 総合": {
       "enabled": false,
@@ -1379,20 +1407,22 @@
       "epg_name": "映画･チャンネルNECO-HD"
     },
     "NewsWorld": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-06, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Japan.m3u"
       ],
-      "source_hint": "JP"
+      "source_hint": "JP",
+      "source": "HK",
+      "epg_name": "NewsWorld"
     },
     "Nice TV 靖天歡樂台": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u",
         "taiwan.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "Nice TV 靖天歡樂台"
     },
     "Nick Jr. 兒童頻道": {
       "enabled": false,
@@ -1487,12 +1517,13 @@
       "source_hint": "JP"
     },
     "SBN全球財經台": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u",
         "taiwan.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "SBN全球財經台"
     },
     "STOCK VOICE": {
       "enabled": false,
@@ -1604,13 +1635,14 @@
       "notes": "auto-match score=0.57"
     },
     "TBS NEWS": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Japan-Backup.m3u",
         "Japan.m3u"
       ],
-      "source_hint": "JP"
+      "source_hint": "JP",
+      "source": "JP",
+      "epg_name": "TBS NEWS"
     },
     "TBS News": {
       "enabled": true,
@@ -1632,12 +1664,13 @@
       ]
     },
     "TLC旅遊生活": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u",
         "taiwan.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "TLC旅遊生活頻道"
     },
     "TNT Sports Ultimate 4K UK": {
       "enabled": true,
@@ -1658,13 +1691,14 @@
       ]
     },
     "TOKYO MX2 (HD 720p)": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-06, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Japan-Backup.m3u",
         "Japan.m3u"
       ],
-      "source_hint": "JP"
+      "source_hint": "JP",
+      "source": "JP",
+      "epg_name": "Tokyo MX2"
     },
     "TOP BARÇA": {
       "enabled": false,
@@ -1740,12 +1774,13 @@
       ]
     },
     "TVBS": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u",
         "taiwan.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "TVBS"
     },
     "TVBS台劇台": {
       "enabled": false,
@@ -1755,12 +1790,13 @@
       ]
     },
     "TVBS新聞": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u",
         "taiwan.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "TVBS新聞"
     },
     "TVBS新聞台": {
       "enabled": false,
@@ -1770,12 +1806,13 @@
       ]
     },
     "TVBS歡樂台": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u",
         "taiwan.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "TVBS歡樂台"
     },
     "TVBS看板人物-FastTV飛速看": {
       "enabled": false,
@@ -1785,12 +1822,13 @@
       ]
     },
     "TVBS精采台": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u",
         "taiwan.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "TVBS精采台"
     },
     "TVBS綜藝台": {
       "enabled": false,
@@ -1812,12 +1850,13 @@
       "epg_name": "旅チャンネル　ＨＤ"
     },
     "Taiwan Plus": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u",
         "taiwan.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "TaiwanPlus"
     },
     "Takarazuka Sky Stage": {
       "enabled": false,
@@ -1894,12 +1933,13 @@
       ]
     },
     "amc電影台": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u",
         "taiwan.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "amc電影台"
     },
     "cctv16-4k": {
       "enabled": true,
@@ -2053,12 +2093,13 @@
       "source_hint": "JP"
     },
     "キッズ": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-06, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Japan.m3u"
       ],
-      "source_hint": "JP"
+      "source_hint": "JP",
+      "source": "JPT",
+      "epg_name": "キッズステーション HD"
     },
     "キャンプ・アウトドアチャンネルPowered byハピキャン": {
       "enabled": false,
@@ -2070,21 +2111,23 @@
       "source_hint": "JP"
     },
     "グリーンチャンネル": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Japan-Backup.m3u",
         "Japan.m3u"
       ],
-      "source_hint": "JP"
+      "source_hint": "JP",
+      "source": "JP",
+      "epg_name": "グリーンチャンネル"
     },
     "ショップチャンネル": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-06, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Japan.m3u"
       ],
-      "source_hint": "JP"
+      "source_hint": "JP",
+      "source": "JP",
+      "epg_name": "ショップチャンネル"
     },
     "セクシーエンタメチャンネル": {
       "enabled": false,
@@ -2109,12 +2152,13 @@
       ]
     },
     "パチンコ・パチスロ": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-06, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Japan.m3u"
       ],
-      "source_hint": "JP"
+      "source_hint": "JP",
+      "source": "JPT",
+      "epg_name": "パチンコ★パチスロTV！"
     },
     "ビジネス・プレミアムチャンネル": {
       "enabled": false,
@@ -2133,13 +2177,14 @@
       ]
     },
     "フジテレビNEXT ライブ・プレミアム": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Japan-Backup.m3u",
         "Japan.m3u"
       ],
-      "source_hint": "JP"
+      "source_hint": "JP",
+      "source": "JP",
+      "epg_name": "フジテレビＮＥＸＴ ライブ・プレミアム"
     },
     "フジテレビONE スポーツ・バラエティ": {
       "enabled": false,
@@ -2202,44 +2247,49 @@
       ]
     },
     "三沙卫视": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-06, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "China.m3u",
         "china-backup.m3u"
-      ]
+      ],
+      "source": "CN",
+      "epg_name": "三沙卫视"
     },
     "三立台灣台": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u",
         "taiwan.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "三立台灣台"
     },
     "三立新聞iNEWS": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u",
         "taiwan.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "三立新聞iNEWS"
     },
     "三立新聞台": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u",
         "taiwan.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "三立新聞台"
     },
     "三立綜合台": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u",
         "taiwan.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "三立綜合台"
     },
     "上虞文化影院": {
       "enabled": false,
@@ -2270,12 +2320,13 @@
       ]
     },
     "东方卫视": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-06, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "China.m3u",
         "china-backup.m3u"
-      ]
+      ],
+      "source": "CN",
+      "epg_name": "东方卫视"
     },
     "东方卫视4K": {
       "enabled": true,
@@ -2320,44 +2371,49 @@
       ]
     },
     "中天娛樂": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u",
         "taiwan.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "中天娛樂台"
     },
     "中天新聞台": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u",
         "taiwan.m3u"
-      ]
+      ],
+      "source": "SD",
+      "epg_name": "中天新闻"
     },
     "中天綜合": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u",
         "taiwan.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "中天綜合台"
     },
     "中視": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u",
         "taiwan.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "中視"
     },
     "中視新聞": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-06, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u",
         "taiwan.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "中視新聞"
     },
     "中視經典台": {
       "enabled": false,
@@ -2430,12 +2486,13 @@
       "source_hint": "JP"
     },
     "云南卫视": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-06, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "China.m3u",
         "china-backup.m3u"
-      ]
+      ],
+      "source": "CN",
+      "epg_name": "云南卫视"
     },
     "云南娱乐": {
       "enabled": true,
@@ -2499,12 +2556,13 @@
       ]
     },
     "人間衛視": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u",
         "taiwan.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "人間衛視"
     },
     "今日のごはん なに？": {
       "enabled": false,
@@ -2572,12 +2630,13 @@
       ]
     },
     "八大第一": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u",
         "taiwan.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "八大第一台"
     },
     "八大精彩台": {
       "enabled": false,
@@ -2594,20 +2653,22 @@
       ]
     },
     "公視": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u",
         "taiwan.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "公視(HD)"
     },
     "公視台語台": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u",
         "taiwan.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "公視台語台"
     },
     "公視好劇-FastTV飛速看": {
       "enabled": false,
@@ -2617,12 +2678,13 @@
       ]
     },
     "公視戲劇": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u",
         "taiwan.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "公視戲劇"
     },
     "兰溪新闻综合": {
       "enabled": false,
@@ -2668,36 +2730,40 @@
       ]
     },
     "兵团卫视": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-06, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "China.m3u",
         "china-backup.m3u"
-      ]
+      ],
+      "source": "CN",
+      "epg_name": "兵团卫视"
     },
     "内蒙古卫视": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-06, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "China.m3u",
         "china-backup.m3u"
-      ]
+      ],
+      "source": "CN",
+      "epg_name": "内蒙古卫视"
     },
     "农林卫视": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-06, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "China.m3u",
         "china-backup.m3u"
-      ]
+      ],
+      "source": "SD",
+      "epg_name": "农林卫视"
     },
     "刺激ストロング": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-06, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Japan.m3u"
       ],
-      "source_hint": "JP"
+      "source_hint": "JP",
+      "source": "JP",
+      "epg_name": "刺激ストロングチャンネル"
     },
     "刺激ストロングSPORTS": {
       "enabled": false,
@@ -2715,12 +2781,13 @@
       ]
     },
     "動物星球": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u",
         "taiwan.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "動物星球"
     },
     "北京体育休闲": {
       "enabled": true,
@@ -2827,12 +2894,13 @@
       ]
     },
     "博斯網球": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u",
         "taiwan.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "博斯網球台"
     },
     "博斯網球台": {
       "enabled": false,
@@ -2842,12 +2910,13 @@
       ]
     },
     "博斯運動I": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u",
         "taiwan.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "博斯運動一台"
     },
     "博斯運動II": {
       "enabled": false,
@@ -2885,12 +2954,13 @@
       ]
     },
     "博斯高球I": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u",
         "taiwan.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "博斯高球一台"
     },
     "博斯高球二台": {
       "enabled": false,
@@ -2921,11 +2991,12 @@
       ]
     },
     "原住民族電視台": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "原住民族電視台"
     },
     "厦门卫视": {
       "enabled": false,
@@ -2977,36 +3048,40 @@
       ]
     },
     "台視": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u",
         "taiwan.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "台視"
     },
     "台視新聞": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-06, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u",
         "taiwan.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "台視新聞台"
     },
     "台視綜合": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u",
         "taiwan.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "台視綜合"
     },
     "台視財經": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u",
         "taiwan.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "台視財經台"
     },
     "合肥新闻": {
       "enabled": false,
@@ -3016,12 +3091,13 @@
       ]
     },
     "吉林卫视": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-06, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "China.m3u",
         "china-backup.m3u"
-      ]
+      ],
+      "source": "CN",
+      "epg_name": "吉林卫视"
     },
     "名山综合": {
       "enabled": false,
@@ -3067,12 +3143,13 @@
       ]
     },
     "四川卫视": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-06, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "China.m3u",
         "china-backup.m3u"
-      ]
+      ],
+      "source": "CN",
+      "epg_name": "四川卫视"
     },
     "四川卫视4K": {
       "enabled": true,
@@ -3089,13 +3166,14 @@
       ]
     },
     "囲碁・将棋ライト": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Japan-Backup.m3u",
         "Japan.m3u"
       ],
-      "source_hint": "JP"
+      "source_hint": "JP",
+      "source": "JPT",
+      "epg_name": "囲碁・将棋チャンネル"
     },
     "固镇新闻": {
       "enabled": false,
@@ -3112,20 +3190,22 @@
       ]
     },
     "國會頻道1": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u",
         "taiwan.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "國會頻道1"
     },
     "國會頻道2": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u",
         "taiwan.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "國會頻道2"
     },
     "大愛二台": {
       "enabled": false,
@@ -3135,12 +3215,13 @@
       ]
     },
     "大愛電視": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u",
         "taiwan.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "大愛電視"
     },
     "天映經典": {
       "enabled": false,
@@ -3227,28 +3308,31 @@
       ]
     },
     "好萊塢電影": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u",
         "taiwan.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "好萊塢電影台"
     },
     "宁夏卫视": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-06, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "China.m3u",
         "china-backup.m3u"
-      ]
+      ],
+      "source": "CN",
+      "epg_name": "宁夏卫视"
     },
     "安多卫视": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-06, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "China.m3u",
         "china-backup.m3u"
-      ]
+      ],
+      "source": "SD",
+      "epg_name": "安多卫视"
     },
     "安徽卫视": {
       "enabled": false,
@@ -3279,44 +3363,49 @@
       ]
     },
     "客家電視台": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u",
         "taiwan.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "客家電視台"
     },
     "寰宇新聞台": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u",
         "taiwan.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "寰宇新聞台"
     },
     "寰宇新聞台灣台": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u",
         "taiwan.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "寰宇新聞台灣台"
     },
     "小公視": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u",
         "taiwan.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "小公視"
     },
     "尼克兒童頻道": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u",
         "taiwan.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "尼克兒童頻道"
     },
     "山东卫视4K": {
       "enabled": true,
@@ -3333,19 +3422,21 @@
       ]
     },
     "山东教育卫视": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-06, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "China.m3u"
-      ]
+      ],
+      "source": "CN",
+      "epg_name": "山东教育卫视"
     },
     "山西卫视": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-06, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "China.m3u",
         "china-backup.m3u"
-      ]
+      ],
+      "source": "CN",
+      "epg_name": "山西卫视"
     },
     "嵊泗综合": {
       "enabled": false,
@@ -3481,12 +3572,13 @@
       ]
     },
     "延边卫视": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-06, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "China.m3u",
         "china-backup.m3u"
-      ]
+      ],
+      "source": "CN",
+      "epg_name": "延边卫视"
     },
     "开化国家公园": {
       "enabled": false,
@@ -3735,36 +3827,40 @@
       ]
     },
     "東森幼幼": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u",
         "taiwan.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "東森幼幼台"
     },
     "東森新聞": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u",
         "taiwan.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "東森新聞台"
     },
     "東森洋片": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u",
         "taiwan.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "東森洋片台"
     },
     "東森財經新聞台": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u",
         "taiwan.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "東森財經新聞台"
     },
     "東森購物一台": {
       "enabled": false,
@@ -3795,20 +3891,22 @@
       ]
     },
     "東森超視": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u",
         "taiwan.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "東森超視"
     },
     "東森電影": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u",
         "taiwan.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "東森電影台"
     },
     "東海ロキポch": {
       "enabled": false,
@@ -3887,12 +3985,13 @@
       ]
     },
     "民視": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u",
         "taiwan.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "民視"
     },
     "民視健康美麗生活-FastTV飛速看": {
       "enabled": false,
@@ -3902,12 +4001,13 @@
       ]
     },
     "民視台灣台": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u",
         "taiwan.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "民視台灣台"
     },
     "民視影劇台": {
       "enabled": false,
@@ -3917,12 +4017,13 @@
       ]
     },
     "民視新聞台": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u",
         "taiwan.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "民視新聞台"
     },
     "民視旅遊台": {
       "enabled": false,
@@ -3939,20 +4040,22 @@
       ]
     },
     "民視第一台": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u",
         "taiwan.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "民視第一台"
     },
     "民視綜藝台": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u",
         "taiwan.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "民視綜藝台"
     },
     "永嘉新闻综合": {
       "enabled": false,
@@ -4011,12 +4114,13 @@
       ]
     },
     "河南卫视": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-06, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "China.m3u",
         "china-backup.m3u"
-      ]
+      ],
+      "source": "CN",
+      "epg_name": "河南卫视"
     },
     "河源公共": {
       "enabled": false,
@@ -4075,12 +4179,13 @@
       ]
     },
     "浙江卫视": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-06, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "China.m3u",
         "china-backup.m3u"
-      ]
+      ],
+      "source": "CN",
+      "epg_name": "浙江卫视"
     },
     "浙江卫视4K": {
       "enabled": true,
@@ -4090,12 +4195,13 @@
       "notes": "4K台先复用普通卫视节目单"
     },
     "浙江国际": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-06, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "China.m3u",
         "china-backup.m3u"
-      ]
+      ],
+      "source": "ERW",
+      "epg_name": "浙江国际"
     },
     "浙江少儿": {
       "enabled": false,
@@ -4120,12 +4226,13 @@
       ]
     },
     "浙江教育": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-06, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "China.m3u",
         "china-backup.m3u"
-      ]
+      ],
+      "source": "CN",
+      "epg_name": "浙江教育"
     },
     "浙江数码时代": {
       "enabled": false,
@@ -4142,12 +4249,13 @@
       ]
     },
     "浙江民生": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-06, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "China.m3u",
         "china-backup.m3u"
-      ]
+      ],
+      "source": "CN",
+      "epg_name": "浙江民生"
     },
     "浙江民生休闲": {
       "enabled": false,
@@ -4179,12 +4287,13 @@
       ]
     },
     "浙江经视": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-06, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "China.m3u",
         "china-backup.m3u"
-      ]
+      ],
+      "source": "CN",
+      "epg_name": "浙江经视"
     },
     "浙江遂昌": {
       "enabled": false,
@@ -4201,12 +4310,13 @@
       ]
     },
     "浙江钱江都市": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-06, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "China.m3u",
         "china-backup.m3u"
-      ]
+      ],
+      "source": "CN",
+      "epg_name": "浙江钱江都市"
     },
     "浙江钱江频道": {
       "enabled": false,
@@ -4223,12 +4333,13 @@
       ]
     },
     "海峡卫视": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-06, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "China.m3u",
         "china-backup.m3u"
-      ]
+      ],
+      "source": "CN",
+      "epg_name": "海峡卫视"
     },
     "涟水电视台综合": {
       "enabled": false,
@@ -4245,12 +4356,13 @@
       ]
     },
     "深圳卫视": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-06, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "China.m3u",
         "china-backup.m3u"
-      ]
+      ],
+      "source": "CN",
+      "epg_name": "深圳卫视"
     },
     "深圳卫视4K": {
       "enabled": true,
@@ -4274,20 +4386,22 @@
       ]
     },
     "湖北卫视": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-06, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "China.m3u",
         "china-backup.m3u"
-      ]
+      ],
+      "source": "CN",
+      "epg_name": "湖北卫视"
     },
     "湖南卫视": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-06, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "China.m3u",
         "china-backup.m3u"
-      ]
+      ],
+      "source": "CN",
+      "epg_name": "湖南卫视"
     },
     "湖南卫视4K": {
       "enabled": true,
@@ -4450,12 +4564,13 @@
       ]
     },
     "精選動漫台": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u",
         "taiwan.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "精選動漫台"
     },
     "精選華語電影-FastTV飛速看": {
       "enabled": false,
@@ -4472,12 +4587,13 @@
       ]
     },
     "經典卡通台": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u",
         "taiwan.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "經典卡通台"
     },
     "經典迪士尼-FastTV飛速看": {
       "enabled": false,
@@ -4487,28 +4603,31 @@
       ]
     },
     "經典電影台": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u",
         "taiwan.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "經典電影台"
     },
     "緯來日本台": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u",
         "taiwan.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "緯來日本台"
     },
     "緯來電影": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u",
         "taiwan.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "緯來電影台"
     },
     "緯來體育台": {
       "enabled": false,
@@ -4546,12 +4665,13 @@
       ]
     },
     "翡翠台": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u",
         "taiwan.m3u"
-      ]
+      ],
+      "source": "CN",
+      "epg_name": "翡翠台"
     },
     "舒兰新闻": {
       "enabled": false,
@@ -4631,20 +4751,22 @@
       ]
     },
     "華藏衛視": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u",
         "taiwan.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "華藏衛視"
     },
     "華視": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u",
         "taiwan.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "華視"
     },
     "華視好劇-FastTV飛速看": {
       "enabled": false,
@@ -4654,12 +4776,13 @@
       ]
     },
     "華視教育體育文化台": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-06, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u",
         "taiwan.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "華視教育體育文化台"
     },
     "華視新聞資訊": {
       "enabled": false,
@@ -4726,12 +4849,13 @@
       ]
     },
     "西藏卫视": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-06, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "China.m3u",
         "china-backup.m3u"
-      ]
+      ],
+      "source": "CN",
+      "epg_name": "西藏卫视"
     },
     "視納華仁紀實頻道": {
       "enabled": false,
@@ -4855,12 +4979,13 @@
       ]
     },
     "金光布袋戲": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u",
         "taiwan.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "金光布袋戲"
     },
     "金光布袋戲-FastTV飛速看": {
       "enabled": false,
@@ -4884,12 +5009,13 @@
       ]
     },
     "鏡電視新聞台": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u",
         "taiwan.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "鏡電視新聞台"
     },
     "钱江都市": {
       "enabled": false,
@@ -4999,68 +5125,76 @@
       ]
     },
     "靖天卡通台": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u",
         "taiwan.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "靖天卡通台"
     },
     "靖天戲劇台": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u",
         "taiwan.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "靖天戲劇台"
     },
     "靖天日本台": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u",
         "taiwan.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "靖天日本台"
     },
     "靖天映畫": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u",
         "taiwan.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "靖天映畫"
     },
     "靖天綜合台": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u",
         "taiwan.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "靖天綜合台"
     },
     "靖天育樂台": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u",
         "taiwan.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "靖天育樂台"
     },
     "靖天資訊台": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u",
         "taiwan.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "靖天資訊台"
     },
     "靖天電影台": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u",
         "taiwan.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "靖天電影台"
     },
     "靖宇": {
       "enabled": false,
@@ -5070,28 +5204,31 @@
       ]
     },
     "靖洋卡通Nice Bingo": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u",
         "taiwan.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "靖洋卡通Nice Bingo"
     },
     "靖洋戲劇台": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u",
         "taiwan.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "靖洋戲劇台"
     },
     "非凡新聞": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u",
         "taiwan.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "非凡新聞台"
     },
     "韓國娛樂台 KMTV": {
       "enabled": false,
@@ -5110,16 +5247,18 @@
       "source_hint": "JP"
     },
     "香蕉台": {
-      "enabled": false,
-      "reason": "成人/临时频道，无标准XMLTV源"
+      "enabled": true,
+      "source": "TW",
+      "epg_name": "香蕉台"
     },
     "香蕉直擊台": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u",
         "taiwan.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "香蕉台"
     },
     "麻雀": {
       "enabled": false,
