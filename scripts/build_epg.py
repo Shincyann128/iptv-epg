@@ -39,7 +39,7 @@ SOURCE_TZ = {
     'TW': ZoneInfo('Asia/Taipei'),
     'JP': ZoneInfo('Asia/Tokyo'),
     'JPT': ZoneInfo('Asia/Tokyo'),
-    'GB': ZoneInfo('Europe/London'),
+    'GB': ZoneInfo('Etc/GMT+8'),  # epg.pw GB 时间戳 = 真实 UTC-8（ITV News at Ten 22:00英国→源13:00，差9h）
     'US': ZoneInfo('America/New_York'),
     'CA': ZoneInfo('America/Toronto'),
     'DE': ZoneInfo('Europe/Berlin'),
