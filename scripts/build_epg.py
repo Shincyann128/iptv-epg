@@ -249,15 +249,38 @@ def build_targets_by_source(channels: dict):
 
 def count_programmes_per_channel(raw: bytes) -> dict:
     """First pass: count total programmes per source channel ID."""
+    root = ET.fromstring(raw)
     counts = defaultdict(int)
-    ctx = ET.iterparse(io.BytesIO(raw), events=("end",))
-    for _, el in ctx:
-        if el.tag == 'programme':
-            sid = el.attrib.get('channel', '')
-            if sid:
-                counts[sid] += 1
-        el.clear()
+    for el in root.findall('programme'):
+        sid = el.attrib.get('channel', '')
+        if sid:
+            counts[sid] += 1
     return dict(counts)
+
+
+def empty_title_ratio(raw: bytes) -> float:
+    """Ratio of programme rows with empty <title>. Upstream feeds sometimes
+    ship thousands of rows whose titles are all blank (epg.pw DE 2026-08-06);
+    treating those as data would silently wipe good EPG data on the next build.
+
+    NOTE: this must NOT use ET.iterparse with el.clear() — element objects get
+    reused after clear, so elem.find('title') returns stale/blank nodes (the
+    2026-08-06 build falsely read 100% blank titles from healthy sources).
+    """
+    root = ET.fromstring(raw)
+    progs = root.findall('programme')
+    total = len(progs)
+    if not total:
+        return 0.0
+    empty = 0
+    for el in progs:
+        t = el.find('title')
+        if not (t is not None and t.text and t.text.strip()):
+            empty += 1
+    return empty / total
+
+
+EMPTY_TITLE_ABORT_RATIO = 0.5  # >50% blank titles → source is broken, skip it
 
 
 def parse_source(source_key: str, url: str, targets_by_epg_name: dict, root_out: ET.Element):
@@ -269,8 +292,30 @@ def parse_source(source_key: str, url: str, targets_by_epg_name: dict, root_out:
     except Exception as exc:
         return {"channels": 0, "programmes": 0, "error": str(exc)}
 
+    # Data-integrity gate: a source whose programmes are mostly blank-titled is
+    # broken upstream (not just sparse) — abort it so we never publish garbage.
+    er = empty_title_ratio(raw)
+    if er > EMPTY_TITLE_ABORT_RATIO:
+        return {
+            "channels": 0,
+            "programmes": 0,
+            "error": f"源数据损坏: {er*100:.0f}% 节目空标题（>50% 阈值）",
+        }
+
+    # Full in-memory parse: iterparse+clear is unreliable for child-text reads
+    # (element reuse), so we parse once and walk the tree directly.
+    try:
+        src_root = ET.fromstring(raw)
+    except ET.ParseError as exc:
+        return {"channels": 0, "programmes": 0, "error": f"XML解析失败: {exc}"}
+
     # First pass: count programmes per channel, to prefer channels that have data
-    prog_counts = count_programmes_per_channel(raw)
+    prog_counts = defaultdict(int)
+    for el in src_root.findall('programme'):
+        sid = el.attrib.get('channel', '')
+        if sid:
+            prog_counts[sid] += 1
+    prog_counts = dict(prog_counts)
 
     source_to_targets = defaultdict(list)
     channels_added = 0
@@ -280,91 +325,73 @@ def parse_source(source_key: str, url: str, targets_by_epg_name: dict, root_out:
     claimed_epg_names = {}  # epg_name -> (source_id, prog_count)
     last_programme_by_target = {}
 
-    # First, collect all channel mappings (the source may interleave channels and programmes)
-    channel_ctx = ET.iterparse(io.BytesIO(raw), events=("end",))
-    for _, elem in channel_ctx:
-        if elem.tag not in {'channel', 'programme'}:
+    # First pass: collect all channel mappings
+    for elem in src_root.findall('channel'):
+        names = [dn.text.strip() for dn in elem.findall('display-name') if dn.text]
+        matched_targets = []
+        matched_epg_names = []
+        for name in names:
+            targets = targets_by_epg_name.get(name, [])
+            if targets:
+                matched_epg_names.append(name)
+                matched_targets.extend(targets)
+        if not matched_targets:
             continue
-        if elem.tag == 'programme':
-            elem.clear()
-            continue
-        # elem.tag == 'channel'
-        names = []
-        for dn in elem.findall('display-name'):
-            if dn.text:
-                names.append(dn.text.strip())
-            matched_targets = []
-            matched_epg_names = []
-            for name in names:
-                targets = targets_by_epg_name.get(name, [])
-                if targets:
-                    matched_epg_names.append(name)
-                    matched_targets.extend(targets)
-            if matched_targets:
-                source_id = elem.attrib.get('id')
-                this_count = prog_counts.get(source_id, 0)
-                active_epg_names = []
-                for epg_name in matched_epg_names:
-                    prev = claimed_epg_names.get(epg_name)
-                    if prev is None:
-                        claimed_epg_names[epg_name] = (source_id, this_count)
-                        active_epg_names.append(epg_name)
-                    elif this_count > prev[1]:
-                        old_src_id = prev[0]
-                        claimed_epg_names[epg_name] = (source_id, this_count)
-                        if old_src_id in source_to_targets:
-                            del source_to_targets[old_src_id]
-                        active_epg_names.append(epg_name)
-                if active_epg_names:
-                    active_targets = []
-                    for epg_name in active_epg_names:
-                        active_targets.extend(targets_by_epg_name[epg_name])
-                    source_to_targets[source_id].extend(active_targets)
-                    icon_elem = elem.find('icon')
-                    icon_src = icon_elem.attrib.get('src') if icon_elem is not None else None
-                    for target_name in active_targets:
-                        if target_name in channel_written:
-                            continue
-                        ch = ET.SubElement(root_out, 'channel', {'id': target_name})
-                        dn = ET.SubElement(ch, 'display-name', {'lang': 'zh'})
-                        dn.text = target_name
-                        if icon_src:
-                            ET.SubElement(ch, 'icon', {'src': icon_src})
-                        channel_written.add(target_name)
-                        channels_added += 1
-        elem.clear()
+        source_id = elem.attrib.get('id')
+        this_count = prog_counts.get(source_id, 0)
+        active_epg_names = []
+        for epg_name in matched_epg_names:
+            prev = claimed_epg_names.get(epg_name)
+            if prev is None:
+                claimed_epg_names[epg_name] = (source_id, this_count)
+                active_epg_names.append(epg_name)
+            elif this_count > prev[1]:
+                old_src_id = prev[0]
+                claimed_epg_names[epg_name] = (source_id, this_count)
+                if old_src_id in source_to_targets:
+                    del source_to_targets[old_src_id]
+                active_epg_names.append(epg_name)
+        if active_epg_names:
+            active_targets = []
+            for epg_name in active_epg_names:
+                active_targets.extend(targets_by_epg_name[epg_name])
+            source_to_targets[source_id].extend(active_targets)
+            icon_elem = elem.find('icon')
+            icon_src = icon_elem.attrib.get('src') if icon_elem is not None else None
+            for target_name in active_targets:
+                if target_name in channel_written:
+                    continue
+                ch = ET.SubElement(root_out, 'channel', {'id': target_name})
+                dn = ET.SubElement(ch, 'display-name', {'lang': 'zh'})
+                dn.text = target_name
+                if icon_src:
+                    ET.SubElement(ch, 'icon', {'src': icon_src})
+                channel_written.add(target_name)
+                channels_added += 1
 
     # Second pass: process all programme elements
-    prog_ctx = ET.iterparse(io.BytesIO(raw), events=("start", "end"))
-    _, root_in = next(prog_ctx)
-    for event, elem in prog_ctx:
-        if event != 'end':
+    for elem in src_root.findall('programme'):
+        source_id = elem.attrib.get('channel')
+        targets = source_to_targets.get(source_id)
+        if not targets:
             continue
-        if elem.tag == 'programme':
-            source_id = elem.attrib.get('channel')
-            targets = source_to_targets.get(source_id)
-            if targets:
-                start_raw = elem.attrib.get('start', '')
-                stop_raw = elem.attrib.get('stop', '')
-                if should_skip_programme(start_raw, stop_raw, source_key):
-                    elem.clear()
-                    root_in.clear()
-                    continue
-                title_elem = elem.find('title')
-                title = title_elem.text.strip() if title_elem is not None and title_elem.text else ''
-                start = convert_xmltv_time(start_raw, source_key)
-                stop = convert_xmltv_time(stop_raw, source_key)
-                stop = fix_stop_after_start(start, stop)
-                duration_min = programme_duration_seconds(start, stop) / 60.0
-                for target_name in targets:
-                    if should_filter_promo(title, target_name, duration_min):
-                        continue
-                    new_prog = copy.deepcopy(elem)
-                    if append_programme(root_out, programme_seen, last_programme_by_target,
-                                        target_name, new_prog, start, stop, title, source_key):
-                        programme_count += 1
-            elem.clear()
-            root_in.clear()
+        start_raw = elem.attrib.get('start', '')
+        stop_raw = elem.attrib.get('stop', '')
+        if should_skip_programme(start_raw, stop_raw, source_key):
+            continue
+        title_elem = elem.find('title')
+        title = title_elem.text.strip() if title_elem is not None and title_elem.text else ''
+        start = convert_xmltv_time(start_raw, source_key)
+        stop = convert_xmltv_time(stop_raw, source_key)
+        stop = fix_stop_after_start(start, stop)
+        duration_min = programme_duration_seconds(start, stop) / 60.0
+        for target_name in targets:
+            if should_filter_promo(title, target_name, duration_min):
+                continue
+            new_prog = copy.deepcopy(elem)
+            if append_programme(root_out, programme_seen, last_programme_by_target,
+                                target_name, new_prog, start, stop, title, source_key):
+                programme_count += 1
 
     return {"channels": channels_added, "programmes": programme_count}
 
@@ -395,6 +422,23 @@ def main():
     tree = ET.ElementTree(root)
     ET.indent(tree, space='  ')
     OUT_XML.parent.mkdir(parents=True, exist_ok=True)
+    if failures:
+        # Never overwrite the last good build with partial/broken data: a
+        # broken upstream source (e.g. epg.pw DE blank titles) would otherwise
+        # silently wipe the previous valid epg.xml/epg.xml.gz.
+        result = {
+            'sources_used': {k: {'wanted_epg_names': len(v), **stats.get(k, {})} for k, v in targets_by_source.items()},
+            'failures': failures,
+            'preserved_previous_build': True,
+            'output_xml': str(OUT_XML),
+            'output_gz': str(OUT_GZ),
+            'size_xml': OUT_XML.stat().st_size if OUT_XML.exists() else 0,
+            'size_gz': OUT_GZ.stat().st_size if OUT_GZ.exists() else 0,
+        }
+        print(json.dumps(result, ensure_ascii=False, indent=2))
+        print(f"BUILD FAILED: {len(failures)} source(s) produced 0 programmes: {', '.join(f.split(':')[0] for f in failures)}")
+        sys.exit(1)
+
     tree.write(OUT_XML, encoding='utf-8', xml_declaration=True)
     with gzip.open(OUT_GZ, 'wb') as f:
         f.write(OUT_XML.read_bytes())
@@ -406,11 +450,6 @@ def main():
         'size_xml': OUT_XML.stat().st_size,
         'size_gz': OUT_GZ.stat().st_size,
     }
-    if failures:
-        result['failures'] = failures
-        print(json.dumps(result, ensure_ascii=False, indent=2))
-        print(f"BUILD FAILED: {len(failures)} source(s) produced 0 programmes: {', '.join(f.split(':')[0] for f in failures)}")
-        sys.exit(1)
     print(json.dumps(result, ensure_ascii=False, indent=2))
 
 
