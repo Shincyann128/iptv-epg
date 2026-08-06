@@ -892,8 +892,9 @@
         "Japan.m3u"
       ],
       "source_hint": "JP",
-      "source": "DE",
-      "epg_name": "The HISTORY Channel"
+      "source": "HK",
+      "epg_name": "HISTORY",
+      "notes": "原DE德语源错误，改HK英文"
     },
     "History 歷史頻道": {
       "enabled": false,

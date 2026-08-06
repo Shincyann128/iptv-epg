@@ -66139,6 +66139,10 @@
     <display-name lang="zh">History</display-name>
     <icon src="https://epg.pw/media/images/epg/2025/01/28/20250128162729505950_39" />
   </channel>
+  <channel id="History Channel">
+    <display-name lang="zh">History Channel</display-name>
+    <icon src="https://epg.pw/media/images/epg/2025/01/28/20250128162729505950_39" />
+  </channel>
   <channel id="CNBC">
     <display-name lang="zh">CNBC</display-name>
     <icon src="https://epg.pw/media/images/epg/2025/01/28/20250128165829297398_38" />
@@ -80321,7 +80325,23 @@
       <stereo>stereo</stereo>
     </audio>
   </programme>
+  <programme channel="History Channel" start="20260806004000 +0800" stop="20260806013500 +0800">
+    <title lang="zh">丹·艾克洛德之不可思議事件 第2季第1集 </title>
+    <desc>你知道嗎?留鬍子有時候竟然可能致命, 你是否聽說過這樣匪夷所思的事情?還有, 一場足球比賽之中, 曾經發生過割草機意外奪走觀眾生命的驚人事件。又或者, 如果我告訴你, 竟然有人因為喝下過量的清水而死亡, 你能想像得到嗎?這些全都是最瘋狂、最不可思議的故事, 這些死亡經歷既令人震驚又讓人難以置信。</desc>
+    <date>20260806</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
   <programme channel="History" start="20260806013500 +0800" stop="20260806023000 +0800">
+    <title lang="zh">橡樹島的詛咒 第12季第24集 </title>
+    <desc>當團隊急忙準備金坑進行本季最深和最後的挖掘時, 在馬爾他, 夥伴們發現了一條將馬爾他騎士與橡樹島相連的家族血脈。</desc>
+    <date>20260806</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History Channel" start="20260806013500 +0800" stop="20260806023000 +0800">
     <title lang="zh">橡樹島的詛咒 第12季第24集 </title>
     <desc>當團隊急忙準備金坑進行本季最深和最後的挖掘時, 在馬爾他, 夥伴們發現了一條將馬爾他騎士與橡樹島相連的家族血脈。</desc>
     <date>20260806</date>
@@ -80337,7 +80357,23 @@
       <stereo>stereo</stereo>
     </audio>
   </programme>
+  <programme channel="History Channel" start="20260806023000 +0800" stop="20260806032500 +0800">
+    <title lang="zh">摩根·費里曼之越獄風雲 第2季第13集 </title>
+    <desc>在南北戰爭期間, 一次大膽的越獄行動解救了數百名北方聯盟的士兵。這位越獄主謀成為戰俘後, 被送往弗吉尼亞州里士滿的利比監獄, 在那裏他策劃了史上其中一次最大規模的集體越獄。</desc>
+    <date>20260806</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
   <programme channel="History" start="20260806032500 +0800" stop="20260806042000 +0800">
+    <title lang="zh">城市祕境 第2季第8集 </title>
+    <desc>探索被遺忘的沙勞越懷特·拉賈王朝, 並揭開消失的獵人頭部落「伊班族」。</desc>
+    <date>20260806</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History Channel" start="20260806032500 +0800" stop="20260806042000 +0800">
     <title lang="zh">城市祕境 第2季第8集 </title>
     <desc>探索被遺忘的沙勞越懷特·拉賈王朝, 並揭開消失的獵人頭部落「伊班族」。</desc>
     <date>20260806</date>
@@ -80353,7 +80389,23 @@
       <stereo>stereo</stereo>
     </audio>
   </programme>
+  <programme channel="History Channel" start="20260806042000 +0800" stop="20260806051500 +0800">
+    <title lang="zh">威廉薛特納神祕檔案 第3季第23集 </title>
+    <desc>誰是開膛手傑克?這個問題讓警方調查人員、歷史學家和不跑現場的偵探都很困惑。無數的書籍、電影和電視節目都根據開膛手的命案加以改編。</desc>
+    <date>20260806</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
   <programme channel="History" start="20260806051500 +0800" stop="20260806061000 +0800">
+    <title lang="zh">歷史重大謎團 第6季第2集 </title>
+    <desc>在英國倫德爾沙姆森林附近的美國空軍基地外發生了一個超現實的事件, 這個事件成為了一個國際傳說, 也是歷史上最奇怪的未確認遭遇之一。</desc>
+    <date>20260806</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History Channel" start="20260806051500 +0800" stop="20260806061000 +0800">
     <title lang="zh">歷史重大謎團 第6季第2集 </title>
     <desc>在英國倫德爾沙姆森林附近的美國空軍基地外發生了一個超現實的事件, 這個事件成為了一個國際傳說, 也是歷史上最奇怪的未確認遭遇之一。</desc>
     <date>20260806</date>
@@ -80369,7 +80421,23 @@
       <stereo>stereo</stereo>
     </audio>
   </programme>
+  <programme channel="History Channel" start="20260806061000 +0800" stop="20260806070500 +0800">
+    <title lang="zh">山地硬漢 第13季第12集 </title>
+    <desc>勞羅逐漸接近艾迪塔羅德賽事的終點, 他沿著白令海海岸線橫越長達二百六十英里的冰層, 最終朝著終點城市諾姆前進；與此同時, 馬蒂和他的朋友戴夫則把各種補給物資運往偏遠荒野中的一間木屋。</desc>
+    <date>20260806</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
   <programme channel="History" start="20260806070500 +0800" stop="20260806080000 +0800">
+    <title lang="zh">城市祕境 第2季第8集 </title>
+    <desc>探索被遺忘的沙勞越懷特·拉賈王朝, 並揭開消失的獵人頭部落「伊班族」。</desc>
+    <date>20260806</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History Channel" start="20260806070500 +0800" stop="20260806080000 +0800">
     <title lang="zh">城市祕境 第2季第8集 </title>
     <desc>探索被遺忘的沙勞越懷特·拉賈王朝, 並揭開消失的獵人頭部落「伊班族」。</desc>
     <date>20260806</date>
@@ -80385,7 +80453,23 @@
       <stereo>stereo</stereo>
     </audio>
   </programme>
+  <programme channel="History Channel" start="20260806080000 +0800" stop="20260806085500 +0800">
+    <title lang="zh">威廉薛特納神祕檔案 第3季第23集 </title>
+    <desc>誰是開膛手傑克?這個問題讓警方調查人員、歷史學家和不跑現場的偵探都很困惑。無數的書籍、電影和電視節目都根據開膛手的命案加以改編。</desc>
+    <date>20260806</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
   <programme channel="History" start="20260806085500 +0800" stop="20260806095500 +0800">
+    <title lang="zh">丹·艾克洛德之不可思議事件 第2季第1集 </title>
+    <desc>你知道嗎?留鬍子有時候竟然可能致命, 你是否聽說過這樣匪夷所思的事情?還有, 一場足球比賽之中, 曾經發生過割草機意外奪走觀眾生命的驚人事件。又或者, 如果我告訴你, 竟然有人因為喝下過量的清水而死亡, 你能想像得到嗎?這些全都是最瘋狂、最不可思議的故事, 這些死亡經歷既令人震驚又讓人難以置信。</desc>
+    <date>20260806</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History Channel" start="20260806085500 +0800" stop="20260806095500 +0800">
     <title lang="zh">丹·艾克洛德之不可思議事件 第2季第1集 </title>
     <desc>你知道嗎?留鬍子有時候竟然可能致命, 你是否聽說過這樣匪夷所思的事情?還有, 一場足球比賽之中, 曾經發生過割草機意外奪走觀眾生命的驚人事件。又或者, 如果我告訴你, 竟然有人因為喝下過量的清水而死亡, 你能想像得到嗎?這些全都是最瘋狂、最不可思議的故事, 這些死亡經歷既令人震驚又讓人難以置信。</desc>
     <date>20260806</date>
@@ -80401,7 +80485,23 @@
       <stereo>stereo</stereo>
     </audio>
   </programme>
+  <programme channel="History Channel" start="20260806095500 +0800" stop="20260806105000 +0800">
+    <title lang="zh">歷史重大謎團 第6季第2集 </title>
+    <desc>在英國倫德爾沙姆森林附近的美國空軍基地外發生了一個超現實的事件, 這個事件成為了一個國際傳說, 也是歷史上最奇怪的未確認遭遇之一。</desc>
+    <date>20260806</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
   <programme channel="History" start="20260806105000 +0800" stop="20260806114500 +0800">
+    <title lang="zh">橡樹島的詛咒 第12季第24集 </title>
+    <desc>當團隊急忙準備金坑進行本季最深和最後的挖掘時, 在馬爾他, 夥伴們發現了一條將馬爾他騎士與橡樹島相連的家族血脈。</desc>
+    <date>20260806</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History Channel" start="20260806105000 +0800" stop="20260806114500 +0800">
     <title lang="zh">橡樹島的詛咒 第12季第24集 </title>
     <desc>當團隊急忙準備金坑進行本季最深和最後的挖掘時, 在馬爾他, 夥伴們發現了一條將馬爾他騎士與橡樹島相連的家族血脈。</desc>
     <date>20260806</date>
@@ -80417,7 +80517,23 @@
       <stereo>stereo</stereo>
     </audio>
   </programme>
+  <programme channel="History Channel" start="20260806114500 +0800" stop="20260806124000 +0800">
+    <title lang="zh">摩根·費里曼之越獄風雲 第2季第13集 </title>
+    <desc>在南北戰爭期間, 一次大膽的越獄行動解救了數百名北方聯盟的士兵。這位越獄主謀成為戰俘後, 被送往弗吉尼亞州里士滿的利比監獄, 在那裏他策劃了史上其中一次最大規模的集體越獄。</desc>
+    <date>20260806</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
   <programme channel="History" start="20260806124000 +0800" stop="20260806133500 +0800">
+    <title lang="zh">山地硬漢 第13季第12集 </title>
+    <desc>勞羅逐漸接近艾迪塔羅德賽事的終點, 他沿著白令海海岸線橫越長達二百六十英里的冰層, 最終朝著終點城市諾姆前進；與此同時, 馬蒂和他的朋友戴夫則把各種補給物資運往偏遠荒野中的一間木屋。</desc>
+    <date>20260806</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History Channel" start="20260806124000 +0800" stop="20260806133500 +0800">
     <title lang="zh">山地硬漢 第13季第12集 </title>
     <desc>勞羅逐漸接近艾迪塔羅德賽事的終點, 他沿著白令海海岸線橫越長達二百六十英里的冰層, 最終朝著終點城市諾姆前進；與此同時, 馬蒂和他的朋友戴夫則把各種補給物資運往偏遠荒野中的一間木屋。</desc>
     <date>20260806</date>
@@ -80433,7 +80549,23 @@
       <stereo>stereo</stereo>
     </audio>
   </programme>
+  <programme channel="History Channel" start="20260806133500 +0800" stop="20260806143000 +0800">
+    <title lang="zh">城市祕境 第2季第8集 </title>
+    <desc>探索被遺忘的沙勞越懷特·拉賈王朝, 並揭開消失的獵人頭部落「伊班族」。</desc>
+    <date>20260806</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
   <programme channel="History" start="20260806143000 +0800" stop="20260806152500 +0800">
+    <title lang="zh">歷史重大謎團 第6季第2集 </title>
+    <desc>在英國倫德爾沙姆森林附近的美國空軍基地外發生了一個超現實的事件, 這個事件成為了一個國際傳說, 也是歷史上最奇怪的未確認遭遇之一。</desc>
+    <date>20260806</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History Channel" start="20260806143000 +0800" stop="20260806152500 +0800">
     <title lang="zh">歷史重大謎團 第6季第2集 </title>
     <desc>在英國倫德爾沙姆森林附近的美國空軍基地外發生了一個超現實的事件, 這個事件成為了一個國際傳說, 也是歷史上最奇怪的未確認遭遇之一。</desc>
     <date>20260806</date>
@@ -80449,7 +80581,23 @@
       <stereo>stereo</stereo>
     </audio>
   </programme>
+  <programme channel="History Channel" start="20260806152500 +0800" stop="20260806162000 +0800">
+    <title lang="zh">摩根·費里曼之越獄風雲 第2季第13集 </title>
+    <desc>在南北戰爭期間, 一次大膽的越獄行動解救了數百名北方聯盟的士兵。這位越獄主謀成為戰俘後, 被送往弗吉尼亞州里士滿的利比監獄, 在那裏他策劃了史上其中一次最大規模的集體越獄。</desc>
+    <date>20260806</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
   <programme channel="History" start="20260806162000 +0800" stop="20260806172000 +0800">
+    <title lang="zh">威廉薛特納神祕檔案 第3季第23集 </title>
+    <desc>誰是開膛手傑克?這個問題讓警方調查人員、歷史學家和不跑現場的偵探都很困惑。無數的書籍、電影和電視節目都根據開膛手的命案加以改編。</desc>
+    <date>20260806</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History Channel" start="20260806162000 +0800" stop="20260806172000 +0800">
     <title lang="zh">威廉薛特納神祕檔案 第3季第23集 </title>
     <desc>誰是開膛手傑克?這個問題讓警方調查人員、歷史學家和不跑現場的偵探都很困惑。無數的書籍、電影和電視節目都根據開膛手的命案加以改編。</desc>
     <date>20260806</date>
@@ -80465,7 +80613,23 @@
       <stereo>stereo</stereo>
     </audio>
   </programme>
+  <programme channel="History Channel" start="20260806172000 +0800" stop="20260806181500 +0800">
+    <title lang="zh">丹·艾克洛德之不可思議事件 第2季第1集 </title>
+    <desc>你知道嗎?留鬍子有時候竟然可能致命, 你是否聽說過這樣匪夷所思的事情?還有, 一場足球比賽之中, 曾經發生過割草機意外奪走觀眾生命的驚人事件。又或者, 如果我告訴你, 竟然有人因為喝下過量的清水而死亡, 你能想像得到嗎?這些全都是最瘋狂、最不可思議的故事, 這些死亡經歷既令人震驚又讓人難以置信。</desc>
+    <date>20260806</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
   <programme channel="History" start="20260806181500 +0800" stop="20260806191000 +0800">
+    <title lang="zh">丹尼·崔橋的考古揭祕 第2季第9集 </title>
+    <desc>從一座被叢林完全吞沒的傳奇城市, 到一個向地下延伸、深達十八層的地下大都會, 甚至還包括一座被世人遺忘的金字塔, 有時候, 地球上最巨大的謎團, 其實離我們並沒有想像中那麼遙遠。</desc>
+    <date>20260806</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History Channel" start="20260806181500 +0800" stop="20260806191000 +0800">
     <title lang="zh">丹尼·崔橋的考古揭祕 第2季第9集 </title>
     <desc>從一座被叢林完全吞沒的傳奇城市, 到一個向地下延伸、深達十八層的地下大都會, 甚至還包括一座被世人遺忘的金字塔, 有時候, 地球上最巨大的謎團, 其實離我們並沒有想像中那麼遙遠。</desc>
     <date>20260806</date>
@@ -80481,7 +80645,23 @@
       <stereo>stereo</stereo>
     </audio>
   </programme>
+  <programme channel="History Channel" start="20260806191000 +0800" stop="20260806200500 +0800">
+    <title lang="zh">獨行俠 第12季第6集 </title>
+    <desc>在一次突如其來、異常而怪異的暴風雨過後, 倖存下來的生存者們開始清點, 檢查並重新衡量他們在遊戲中的處境與位置。某一位參賽者大膽冒險, 嘗試建造一座極具野心的庇護所, 而這樣的行動同時也帶來挑戰與風險。</desc>
+    <date>20260806</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
   <programme channel="History" start="20260806200500 +0800" stop="20260806210000 +0800">
+    <title lang="zh">千錘百鍊 第10季第18集 </title>
+    <desc>我們將深入回顧多年來最精彩的比賽。從角鬥士、古希臘, 到恐怖主題與節慶特集, 一同重溫《千錘百鍊》歷年最經典的比試。</desc>
+    <date>20260806</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History Channel" start="20260806200500 +0800" stop="20260806210000 +0800">
     <title lang="zh">千錘百鍊 第10季第18集 </title>
     <desc>我們將深入回顧多年來最精彩的比賽。從角鬥士、古希臘, 到恐怖主題與節慶特集, 一同重溫《千錘百鍊》歷年最經典的比試。</desc>
     <date>20260806</date>
@@ -80497,7 +80677,23 @@
       <stereo>stereo</stereo>
     </audio>
   </programme>
+  <programme channel="History Channel" start="20260806210000 +0800" stop="20260806215500 +0800">
+    <title lang="zh">建構世界的食品 第5季第8集 </title>
+    <desc>午餐對每個孩子來說都是一天之中最期待、最讓人開心的時光之一, 但在1960年代之前, 它不過只是日常三餐中的其中一餐, 並無太多特別之處。直到三位具有遠見卓識的創新者各自設計出風味獨特又深受小朋友喜愛的午餐經典品項, 才徹底改變了美國兒童對中午用餐的期待與印象。</desc>
+    <date>20260806</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
   <programme channel="History" start="20260806215500 +0800" stop="20260806225000 +0800">
+    <title lang="zh">建構世界的食品 第5季第7集 </title>
+    <desc>威爾•凱洛格 (Will Kellogg) 在與波斯特 (Post) 激烈的競爭中脫穎而出, 成功擊敗對手, 穩坐穀片產業的龍頭寶座。然而, 如今這位名副其實的穀片之王卻遭遇了強敵。一位年輕、來自製粉廠的高階主管, 擁有新世代的視野與野心。從此, 一場跨越數十年的產業霸權之爭正式揭開序幕, 雙方展開漫長且勢均力敵的對抗。</desc>
+    <date>20260806</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History Channel" start="20260806215500 +0800" stop="20260806225000 +0800">
     <title lang="zh">建構世界的食品 第5季第7集 </title>
     <desc>威爾•凱洛格 (Will Kellogg) 在與波斯特 (Post) 激烈的競爭中脫穎而出, 成功擊敗對手, 穩坐穀片產業的龍頭寶座。然而, 如今這位名副其實的穀片之王卻遭遇了強敵。一位年輕、來自製粉廠的高階主管, 擁有新世代的視野與野心。從此, 一場跨越數十年的產業霸權之爭正式揭開序幕, 雙方展開漫長且勢均力敵的對抗。</desc>
     <date>20260806</date>
@@ -80513,7 +80709,23 @@
       <stereo>stereo</stereo>
     </audio>
   </programme>
+  <programme channel="History Channel" start="20260806225000 +0800" stop="20260806234500 +0800">
+    <title lang="zh">橡樹島的詛咒 第11季第13集 </title>
+    <desc>就在團隊繼續追索錢坑中難以找到的隧道時, 證據顯示沼澤曾大量用於卸載作業, 而5號地的新線索則指向菲浦斯船長。</desc>
+    <date>20260806</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
   <programme channel="History" start="20260806234500 +0800" stop="20260807004000 +0800">
+    <title lang="zh">橡樹島的詛咒 第11季第14集 </title>
+    <desc>蓋瑞和瑞克在沼澤中有了前所未有的發現, 同時團隊終於抵達花園井的深處, 而探鑽作業立刻提供了令人興奮的結果。</desc>
+    <date>20260806</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History Channel" start="20260806234500 +0800" stop="20260807004000 +0800">
     <title lang="zh">橡樹島的詛咒 第11季第14集 </title>
     <desc>蓋瑞和瑞克在沼澤中有了前所未有的發現, 同時團隊終於抵達花園井的深處, 而探鑽作業立刻提供了令人興奮的結果。</desc>
     <date>20260806</date>
@@ -80529,7 +80741,23 @@
       <stereo>stereo</stereo>
     </audio>
   </programme>
+  <programme channel="History Channel" start="20260807004000 +0800" stop="20260807013500 +0800">
+    <title lang="zh">千錘百鍊 第10季第18集 </title>
+    <desc>我們將深入回顧多年來最精彩的比賽。從角鬥士、古希臘, 到恐怖主題與節慶特集, 一同重溫《千錘百鍊》歷年最經典的比試。</desc>
+    <date>20260807</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
   <programme channel="History" start="20260807013500 +0800" stop="20260807023000 +0800">
+    <title lang="zh">建構世界的食品 第5季第8集 </title>
+    <desc>午餐對每個孩子來說都是一天之中最期待、最讓人開心的時光之一, 但在1960年代之前, 它不過只是日常三餐中的其中一餐, 並無太多特別之處。直到三位具有遠見卓識的創新者各自設計出風味獨特又深受小朋友喜愛的午餐經典品項, 才徹底改變了美國兒童對中午用餐的期待與印象。</desc>
+    <date>20260807</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History Channel" start="20260807013500 +0800" stop="20260807023000 +0800">
     <title lang="zh">建構世界的食品 第5季第8集 </title>
     <desc>午餐對每個孩子來說都是一天之中最期待、最讓人開心的時光之一, 但在1960年代之前, 它不過只是日常三餐中的其中一餐, 並無太多特別之處。直到三位具有遠見卓識的創新者各自設計出風味獨特又深受小朋友喜愛的午餐經典品項, 才徹底改變了美國兒童對中午用餐的期待與印象。</desc>
     <date>20260807</date>
@@ -80545,7 +80773,23 @@
       <stereo>stereo</stereo>
     </audio>
   </programme>
+  <programme channel="History Channel" start="20260807023000 +0800" stop="20260807032500 +0800">
+    <title lang="zh">橡樹島的詛咒 第11季第13集 </title>
+    <desc>就在團隊繼續追索錢坑中難以找到的隧道時, 證據顯示沼澤曾大量用於卸載作業, 而5號地的新線索則指向菲浦斯船長。</desc>
+    <date>20260807</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
   <programme channel="History" start="20260807032500 +0800" stop="20260807042000 +0800">
+    <title lang="zh">丹尼·崔橋的考古揭祕 第2季第9集 </title>
+    <desc>從一座被叢林完全吞沒的傳奇城市, 到一個向地下延伸、深達十八層的地下大都會, 甚至還包括一座被世人遺忘的金字塔, 有時候, 地球上最巨大的謎團, 其實離我們並沒有想像中那麼遙遠。</desc>
+    <date>20260807</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History Channel" start="20260807032500 +0800" stop="20260807042000 +0800">
     <title lang="zh">丹尼·崔橋的考古揭祕 第2季第9集 </title>
     <desc>從一座被叢林完全吞沒的傳奇城市, 到一個向地下延伸、深達十八層的地下大都會, 甚至還包括一座被世人遺忘的金字塔, 有時候, 地球上最巨大的謎團, 其實離我們並沒有想像中那麼遙遠。</desc>
     <date>20260807</date>
@@ -80561,7 +80805,23 @@
       <stereo>stereo</stereo>
     </audio>
   </programme>
+  <programme channel="History Channel" start="20260807042000 +0800" stop="20260807051500 +0800">
+    <title lang="zh">獨行俠 第12季第6集 </title>
+    <desc>在一次突如其來、異常而怪異的暴風雨過後, 倖存下來的生存者們開始清點, 檢查並重新衡量他們在遊戲中的處境與位置。某一位參賽者大膽冒險, 嘗試建造一座極具野心的庇護所, 而這樣的行動同時也帶來挑戰與風險。</desc>
+    <date>20260807</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
   <programme channel="History" start="20260807051500 +0800" stop="20260807061000 +0800">
+    <title lang="zh">建構世界的食品 第5季第7集 </title>
+    <desc>威爾•凱洛格 (Will Kellogg) 在與波斯特 (Post) 激烈的競爭中脫穎而出, 成功擊敗對手, 穩坐穀片產業的龍頭寶座。然而, 如今這位名副其實的穀片之王卻遭遇了強敵。一位年輕、來自製粉廠的高階主管, 擁有新世代的視野與野心。從此, 一場跨越數十年的產業霸權之爭正式揭開序幕, 雙方展開漫長且勢均力敵的對抗。</desc>
+    <date>20260807</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History Channel" start="20260807051500 +0800" stop="20260807061000 +0800">
     <title lang="zh">建構世界的食品 第5季第7集 </title>
     <desc>威爾•凱洛格 (Will Kellogg) 在與波斯特 (Post) 激烈的競爭中脫穎而出, 成功擊敗對手, 穩坐穀片產業的龍頭寶座。然而, 如今這位名副其實的穀片之王卻遭遇了強敵。一位年輕、來自製粉廠的高階主管, 擁有新世代的視野與野心。從此, 一場跨越數十年的產業霸權之爭正式揭開序幕, 雙方展開漫長且勢均力敵的對抗。</desc>
     <date>20260807</date>
@@ -80577,7 +80837,23 @@
       <stereo>stereo</stereo>
     </audio>
   </programme>
+  <programme channel="History Channel" start="20260807061000 +0800" stop="20260807070500 +0800">
+    <title lang="zh">橡樹島的詛咒 第11季第13集 </title>
+    <desc>就在團隊繼續追索錢坑中難以找到的隧道時, 證據顯示沼澤曾大量用於卸載作業, 而5號地的新線索則指向菲浦斯船長。</desc>
+    <date>20260807</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
   <programme channel="History" start="20260807070500 +0800" stop="20260807080000 +0800">
+    <title lang="zh">丹尼·崔橋的考古揭祕 第2季第9集 </title>
+    <desc>從一座被叢林完全吞沒的傳奇城市, 到一個向地下延伸、深達十八層的地下大都會, 甚至還包括一座被世人遺忘的金字塔, 有時候, 地球上最巨大的謎團, 其實離我們並沒有想像中那麼遙遠。</desc>
+    <date>20260807</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History Channel" start="20260807070500 +0800" stop="20260807080000 +0800">
     <title lang="zh">丹尼·崔橋的考古揭祕 第2季第9集 </title>
     <desc>從一座被叢林完全吞沒的傳奇城市, 到一個向地下延伸、深達十八層的地下大都會, 甚至還包括一座被世人遺忘的金字塔, 有時候, 地球上最巨大的謎團, 其實離我們並沒有想像中那麼遙遠。</desc>
     <date>20260807</date>
@@ -80593,7 +80869,23 @@
       <stereo>stereo</stereo>
     </audio>
   </programme>
+  <programme channel="History Channel" start="20260807080000 +0800" stop="20260807085500 +0800">
+    <title lang="zh">獨行俠 第12季第6集 </title>
+    <desc>在一次突如其來、異常而怪異的暴風雨過後, 倖存下來的生存者們開始清點, 檢查並重新衡量他們在遊戲中的處境與位置。某一位參賽者大膽冒險, 嘗試建造一座極具野心的庇護所, 而這樣的行動同時也帶來挑戰與風險。</desc>
+    <date>20260807</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
   <programme channel="History" start="20260807085500 +0800" stop="20260807095500 +0800">
+    <title lang="zh">千錘百鍊 第10季第18集 </title>
+    <desc>我們將深入回顧多年來最精彩的比賽。從角鬥士、古希臘, 到恐怖主題與節慶特集, 一同重溫《千錘百鍊》歷年最經典的比試。</desc>
+    <date>20260807</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History Channel" start="20260807085500 +0800" stop="20260807095500 +0800">
     <title lang="zh">千錘百鍊 第10季第18集 </title>
     <desc>我們將深入回顧多年來最精彩的比賽。從角鬥士、古希臘, 到恐怖主題與節慶特集, 一同重溫《千錘百鍊》歷年最經典的比試。</desc>
     <date>20260807</date>
@@ -80609,7 +80901,23 @@
       <stereo>stereo</stereo>
     </audio>
   </programme>
+  <programme channel="History Channel" start="20260807095500 +0800" stop="20260807105000 +0800">
+    <title lang="zh">建構世界的食品 第5季第8集 </title>
+    <desc>午餐對每個孩子來說都是一天之中最期待、最讓人開心的時光之一, 但在1960年代之前, 它不過只是日常三餐中的其中一餐, 並無太多特別之處。直到三位具有遠見卓識的創新者各自設計出風味獨特又深受小朋友喜愛的午餐經典品項, 才徹底改變了美國兒童對中午用餐的期待與印象。</desc>
+    <date>20260807</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
   <programme channel="History" start="20260807105000 +0800" stop="20260807114500 +0800">
+    <title lang="zh">建構世界的食品 第5季第7集 </title>
+    <desc>威爾•凱洛格 (Will Kellogg) 在與波斯特 (Post) 激烈的競爭中脫穎而出, 成功擊敗對手, 穩坐穀片產業的龍頭寶座。然而, 如今這位名副其實的穀片之王卻遭遇了強敵。一位年輕、來自製粉廠的高階主管, 擁有新世代的視野與野心。從此, 一場跨越數十年的產業霸權之爭正式揭開序幕, 雙方展開漫長且勢均力敵的對抗。</desc>
+    <date>20260807</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History Channel" start="20260807105000 +0800" stop="20260807114500 +0800">
     <title lang="zh">建構世界的食品 第5季第7集 </title>
     <desc>威爾•凱洛格 (Will Kellogg) 在與波斯特 (Post) 激烈的競爭中脫穎而出, 成功擊敗對手, 穩坐穀片產業的龍頭寶座。然而, 如今這位名副其實的穀片之王卻遭遇了強敵。一位年輕、來自製粉廠的高階主管, 擁有新世代的視野與野心。從此, 一場跨越數十年的產業霸權之爭正式揭開序幕, 雙方展開漫長且勢均力敵的對抗。</desc>
     <date>20260807</date>
@@ -80625,7 +80933,23 @@
       <stereo>stereo</stereo>
     </audio>
   </programme>
+  <programme channel="History Channel" start="20260807114500 +0800" stop="20260807124000 +0800">
+    <title lang="zh">橡樹島的詛咒 第11季第13集 </title>
+    <desc>就在團隊繼續追索錢坑中難以找到的隧道時, 證據顯示沼澤曾大量用於卸載作業, 而5號地的新線索則指向菲浦斯船長。</desc>
+    <date>20260807</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
   <programme channel="History" start="20260807124000 +0800" stop="20260807133500 +0800">
+    <title lang="zh">橡樹島的詛咒 第11季第14集 </title>
+    <desc>蓋瑞和瑞克在沼澤中有了前所未有的發現, 同時團隊終於抵達花園井的深處, 而探鑽作業立刻提供了令人興奮的結果。</desc>
+    <date>20260807</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History Channel" start="20260807124000 +0800" stop="20260807133500 +0800">
     <title lang="zh">橡樹島的詛咒 第11季第14集 </title>
     <desc>蓋瑞和瑞克在沼澤中有了前所未有的發現, 同時團隊終於抵達花園井的深處, 而探鑽作業立刻提供了令人興奮的結果。</desc>
     <date>20260807</date>
@@ -80641,7 +80965,23 @@
       <stereo>stereo</stereo>
     </audio>
   </programme>
+  <programme channel="History Channel" start="20260807133500 +0800" stop="20260807143000 +0800">
+    <title lang="zh">丹尼·崔橋的考古揭祕 第2季第9集 </title>
+    <desc>從一座被叢林完全吞沒的傳奇城市, 到一個向地下延伸、深達十八層的地下大都會, 甚至還包括一座被世人遺忘的金字塔, 有時候, 地球上最巨大的謎團, 其實離我們並沒有想像中那麼遙遠。</desc>
+    <date>20260807</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
   <programme channel="History" start="20260807143000 +0800" stop="20260807152500 +0800">
+    <title lang="zh">建構世界的食品 第5季第8集 </title>
+    <desc>午餐對每個孩子來說都是一天之中最期待、最讓人開心的時光之一, 但在1960年代之前, 它不過只是日常三餐中的其中一餐, 並無太多特別之處。直到三位具有遠見卓識的創新者各自設計出風味獨特又深受小朋友喜愛的午餐經典品項, 才徹底改變了美國兒童對中午用餐的期待與印象。</desc>
+    <date>20260807</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History Channel" start="20260807143000 +0800" stop="20260807152500 +0800">
     <title lang="zh">建構世界的食品 第5季第8集 </title>
     <desc>午餐對每個孩子來說都是一天之中最期待、最讓人開心的時光之一, 但在1960年代之前, 它不過只是日常三餐中的其中一餐, 並無太多特別之處。直到三位具有遠見卓識的創新者各自設計出風味獨特又深受小朋友喜愛的午餐經典品項, 才徹底改變了美國兒童對中午用餐的期待與印象。</desc>
     <date>20260807</date>
@@ -80657,7 +80997,23 @@
       <stereo>stereo</stereo>
     </audio>
   </programme>
+  <programme channel="History Channel" start="20260807152500 +0800" stop="20260807162000 +0800">
+    <title lang="zh">橡樹島的詛咒 第11季第14集 </title>
+    <desc>蓋瑞和瑞克在沼澤中有了前所未有的發現, 同時團隊終於抵達花園井的深處, 而探鑽作業立刻提供了令人興奮的結果。</desc>
+    <date>20260807</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
   <programme channel="History" start="20260807162000 +0800" stop="20260807172000 +0800">
+    <title lang="zh">獨行俠 第12季第6集 </title>
+    <desc>在一次突如其來、異常而怪異的暴風雨過後, 倖存下來的生存者們開始清點, 檢查並重新衡量他們在遊戲中的處境與位置。某一位參賽者大膽冒險, 嘗試建造一座極具野心的庇護所, 而這樣的行動同時也帶來挑戰與風險。</desc>
+    <date>20260807</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History Channel" start="20260807162000 +0800" stop="20260807172000 +0800">
     <title lang="zh">獨行俠 第12季第6集 </title>
     <desc>在一次突如其來、異常而怪異的暴風雨過後, 倖存下來的生存者們開始清點, 檢查並重新衡量他們在遊戲中的處境與位置。某一位參賽者大膽冒險, 嘗試建造一座極具野心的庇護所, 而這樣的行動同時也帶來挑戰與風險。</desc>
     <date>20260807</date>
@@ -80673,7 +81029,23 @@
       <stereo>stereo</stereo>
     </audio>
   </programme>
+  <programme channel="History Channel" start="20260807172000 +0800" stop="20260807181500 +0800">
+    <title lang="zh">迪士尼如何打造美國 第6集 </title>
+    <desc>將近70年來, 迪士尼透過夢想家、設計師和建造者團隊 (亦即幻想工程部門) 的努力, 不斷突破藝術和科學的極限。</desc>
+    <date>20260807</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
   <programme channel="History" start="20260807181500 +0800" stop="20260807191000 +0800">
+    <title lang="zh">當鋪之星 第24季第621集 </title>
+    <desc>當一名賣家帶著由《陰屍路》演員簽名的人偶系列進店時, 查姆會上鉤嗎?當另一名賣家帶來《搖滾高中》的電影海報, 科里卻顯得異常冷靜。</desc>
+    <date>20260807</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History Channel" start="20260807181500 +0800" stop="20260807191000 +0800">
     <title lang="zh">當鋪之星 第24季第621集 </title>
     <desc>當一名賣家帶著由《陰屍路》演員簽名的人偶系列進店時, 查姆會上鉤嗎?當另一名賣家帶來《搖滾高中》的電影海報, 科里卻顯得異常冷靜。</desc>
     <date>20260807</date>
@@ -80689,7 +81061,23 @@
       <stereo>stereo</stereo>
     </audio>
   </programme>
+  <programme channel="History Channel" start="20260807191000 +0800" stop="20260807200500 +0800">
+    <title lang="zh">建構世界的食品 第4季第33集 </title>
+    <desc>一年當中糖果賣得最好的日子落在復活節、情人節和萬聖節。而這一切都始於幾位大膽的先驅。</desc>
+    <date>20260807</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
   <programme channel="History" start="20260807200500 +0800" stop="20260807210000 +0800">
+    <title lang="zh">威廉薛特納神祕檔案 第8季第6集 </title>
+    <desc>從埋藏在流動沙丘下的失落城市到歷史上最強大女王的難以捉摸的墓穴, 非洲廣袤而未被探索的古老土地上隱藏著什麼秘密?</desc>
+    <date>20260807</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History Channel" start="20260807200500 +0800" stop="20260807210000 +0800">
     <title lang="zh">威廉薛特納神祕檔案 第8季第6集 </title>
     <desc>從埋藏在流動沙丘下的失落城市到歷史上最強大女王的難以捉摸的墓穴, 非洲廣袤而未被探索的古老土地上隱藏著什麼秘密?</desc>
     <date>20260807</date>
@@ -80705,7 +81093,23 @@
       <stereo>stereo</stereo>
     </audio>
   </programme>
+  <programme channel="History Channel" start="20260807210000 +0800" stop="20260807225000 +0800">
+    <title lang="zh">東京歷史遺產</title>
+    <desc>本節目介紹東京的歷史, 從二戰後的毀滅狀態迅速發展, 在1964年舉辦奧運, 最終成為全球強權, 準備舉行2020年奧運。</desc>
+    <date>20260807</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
   <programme channel="History" start="20260807225000 +0800" stop="20260807234500 +0800">
+    <title lang="zh">亨利·溫克勒的危史奇談 第1季第4集 </title>
+    <desc>你是否曾經從香菸廣告中聽過醫療建議?曾有一段時間, 任何所謂「療效神奇」的產品, 都能毫無管制、毫無限制地向大眾公開銷售與宣傳。</desc>
+    <date>20260807</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History Channel" start="20260807225000 +0800" stop="20260807234500 +0800">
     <title lang="zh">亨利·溫克勒的危史奇談 第1季第4集 </title>
     <desc>你是否曾經從香菸廣告中聽過醫療建議?曾有一段時間, 任何所謂「療效神奇」的產品, 都能毫無管制、毫無限制地向大眾公開銷售與宣傳。</desc>
     <date>20260807</date>
@@ -80721,7 +81125,23 @@
       <stereo>stereo</stereo>
     </audio>
   </programme>
+  <programme channel="History Channel" start="20260807234500 +0800" stop="20260808004000 +0800">
+    <title lang="zh">丹尼斯·奎德的神聖奇觀 第1季第8集 </title>
+    <desc>古代文明充滿各種咒語與召喚詛咒的器物, 包括石板與聖石, 千百年來引發無盡好奇與恐懼。這些詛咒是否會成真?報應真的會降臨嗎?</desc>
+    <date>20260807</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
   <programme channel="History" start="20260808004000 +0800" stop="20260808013500 +0800">
+    <title lang="zh">威廉薛特納神祕檔案 第8季第6集 </title>
+    <desc>從埋藏在流動沙丘下的失落城市到歷史上最強大女王的難以捉摸的墓穴, 非洲廣袤而未被探索的古老土地上隱藏著什麼秘密?</desc>
+    <date>20260808</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History Channel" start="20260808004000 +0800" stop="20260808013500 +0800">
     <title lang="zh">威廉薛特納神祕檔案 第8季第6集 </title>
     <desc>從埋藏在流動沙丘下的失落城市到歷史上最強大女王的難以捉摸的墓穴, 非洲廣袤而未被探索的古老土地上隱藏著什麼秘密?</desc>
     <date>20260808</date>
@@ -80737,7 +81157,23 @@
       <stereo>stereo</stereo>
     </audio>
   </programme>
+  <programme channel="History Channel" start="20260808013500 +0800" stop="20260808023000 +0800">
+    <title lang="zh">建構世界的食品 第4季第33集 </title>
+    <desc>一年當中糖果賣得最好的日子落在復活節、情人節和萬聖節。而這一切都始於幾位大膽的先驅。</desc>
+    <date>20260808</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
   <programme channel="History" start="20260808023000 +0800" stop="20260808032500 +0800">
+    <title lang="zh">亨利·溫克勒的危史奇談 第1季第4集 </title>
+    <desc>你是否曾經從香菸廣告中聽過醫療建議?曾有一段時間, 任何所謂「療效神奇」的產品, 都能毫無管制、毫無限制地向大眾公開銷售與宣傳。</desc>
+    <date>20260808</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History Channel" start="20260808023000 +0800" stop="20260808032500 +0800">
     <title lang="zh">亨利·溫克勒的危史奇談 第1季第4集 </title>
     <desc>你是否曾經從香菸廣告中聽過醫療建議?曾有一段時間, 任何所謂「療效神奇」的產品, 都能毫無管制、毫無限制地向大眾公開銷售與宣傳。</desc>
     <date>20260808</date>
@@ -80753,7 +81189,23 @@
       <stereo>stereo</stereo>
     </audio>
   </programme>
+  <programme channel="History Channel" start="20260808032500 +0800" stop="20260808042000 +0800">
+    <title lang="zh">當鋪之星 第24季第621集 </title>
+    <desc>當一名賣家帶著由《陰屍路》演員簽名的人偶系列進店時, 查姆會上鉤嗎?當另一名賣家帶來《搖滾高中》的電影海報, 科里卻顯得異常冷靜。</desc>
+    <date>20260808</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
   <programme channel="History" start="20260808042000 +0800" stop="20260808061000 +0800">
+    <title lang="zh">東京歷史遺產</title>
+    <desc>本節目介紹東京的歷史, 從二戰後的毀滅狀態迅速發展, 在1964年舉辦奧運, 最終成為全球強權, 準備舉行2020年奧運。</desc>
+    <date>20260808</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History Channel" start="20260808042000 +0800" stop="20260808061000 +0800">
     <title lang="zh">東京歷史遺產</title>
     <desc>本節目介紹東京的歷史, 從二戰後的毀滅狀態迅速發展, 在1964年舉辦奧運, 最終成為全球強權, 準備舉行2020年奧運。</desc>
     <date>20260808</date>
@@ -80769,7 +81221,23 @@
       <stereo>stereo</stereo>
     </audio>
   </programme>
+  <programme channel="History Channel" start="20260808061000 +0800" stop="20260808070500 +0800">
+    <title lang="zh">丹尼斯·奎德的神聖奇觀 第1季第8集 </title>
+    <desc>古代文明充滿各種咒語與召喚詛咒的器物, 包括石板與聖石, 千百年來引發無盡好奇與恐懼。這些詛咒是否會成真?報應真的會降臨嗎?</desc>
+    <date>20260808</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
   <programme channel="History" start="20260808070500 +0800" stop="20260808080000 +0800">
+    <title lang="zh">當鋪之星 第24季第621集 </title>
+    <desc>當一名賣家帶著由《陰屍路》演員簽名的人偶系列進店時, 查姆會上鉤嗎?當另一名賣家帶來《搖滾高中》的電影海報, 科里卻顯得異常冷靜。</desc>
+    <date>20260808</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History Channel" start="20260808070500 +0800" stop="20260808080000 +0800">
     <title lang="zh">當鋪之星 第24季第621集 </title>
     <desc>當一名賣家帶著由《陰屍路》演員簽名的人偶系列進店時, 查姆會上鉤嗎?當另一名賣家帶來《搖滾高中》的電影海報, 科里卻顯得異常冷靜。</desc>
     <date>20260808</date>
@@ -80785,7 +81253,23 @@
       <stereo>stereo</stereo>
     </audio>
   </programme>
+  <programme channel="History Channel" start="20260808080000 +0800" stop="20260808085500 +0800">
+    <title lang="zh">建構世界的食品 第4季第33集 </title>
+    <desc>一年當中糖果賣得最好的日子落在復活節、情人節和萬聖節。而這一切都始於幾位大膽的先驅。</desc>
+    <date>20260808</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
   <programme channel="History" start="20260808085500 +0800" stop="20260808095500 +0800">
+    <title lang="zh">威廉薛特納神祕檔案 第8季第6集 </title>
+    <desc>從埋藏在流動沙丘下的失落城市到歷史上最強大女王的難以捉摸的墓穴, 非洲廣袤而未被探索的古老土地上隱藏著什麼秘密?</desc>
+    <date>20260808</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History Channel" start="20260808085500 +0800" stop="20260808095500 +0800">
     <title lang="zh">威廉薛特納神祕檔案 第8季第6集 </title>
     <desc>從埋藏在流動沙丘下的失落城市到歷史上最強大女王的難以捉摸的墓穴, 非洲廣袤而未被探索的古老土地上隱藏著什麼秘密?</desc>
     <date>20260808</date>
@@ -80801,7 +81285,23 @@
       <stereo>stereo</stereo>
     </audio>
   </programme>
+  <programme channel="History Channel" start="20260808095500 +0800" stop="20260808114500 +0800">
+    <title lang="zh">東京歷史遺產</title>
+    <desc>本節目介紹東京的歷史, 從二戰後的毀滅狀態迅速發展, 在1964年舉辦奧運, 最終成為全球強權, 準備舉行2020年奧運。</desc>
+    <date>20260808</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
   <programme channel="History" start="20260808114500 +0800" stop="20260808124000 +0800">
+    <title lang="zh">亨利·溫克勒的危史奇談 第1季第4集 </title>
+    <desc>你是否曾經從香菸廣告中聽過醫療建議?曾有一段時間, 任何所謂「療效神奇」的產品, 都能毫無管制、毫無限制地向大眾公開銷售與宣傳。</desc>
+    <date>20260808</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History Channel" start="20260808114500 +0800" stop="20260808124000 +0800">
     <title lang="zh">亨利·溫克勒的危史奇談 第1季第4集 </title>
     <desc>你是否曾經從香菸廣告中聽過醫療建議?曾有一段時間, 任何所謂「療效神奇」的產品, 都能毫無管制、毫無限制地向大眾公開銷售與宣傳。</desc>
     <date>20260808</date>
@@ -80817,7 +81317,23 @@
       <stereo>stereo</stereo>
     </audio>
   </programme>
+  <programme channel="History Channel" start="20260808124000 +0800" stop="20260808133500 +0800">
+    <title lang="zh">丹尼斯·奎德的神聖奇觀 第1季第8集 </title>
+    <desc>古代文明充滿各種咒語與召喚詛咒的器物, 包括石板與聖石, 千百年來引發無盡好奇與恐懼。這些詛咒是否會成真?報應真的會降臨嗎?</desc>
+    <date>20260808</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
   <programme channel="History" start="20260808133500 +0800" stop="20260808143000 +0800">
+    <title lang="zh">當鋪之星 第24季第621集 </title>
+    <desc>當一名賣家帶著由《陰屍路》演員簽名的人偶系列進店時, 查姆會上鉤嗎?當另一名賣家帶來《搖滾高中》的電影海報, 科里卻顯得異常冷靜。</desc>
+    <date>20260808</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History Channel" start="20260808133500 +0800" stop="20260808143000 +0800">
     <title lang="zh">當鋪之星 第24季第621集 </title>
     <desc>當一名賣家帶著由《陰屍路》演員簽名的人偶系列進店時, 查姆會上鉤嗎?當另一名賣家帶來《搖滾高中》的電影海報, 科里卻顯得異常冷靜。</desc>
     <date>20260808</date>
@@ -80833,7 +81349,23 @@
       <stereo>stereo</stereo>
     </audio>
   </programme>
+  <programme channel="History Channel" start="20260808143000 +0800" stop="20260808162000 +0800">
+    <title lang="zh">東京歷史遺產</title>
+    <desc>本節目介紹東京的歷史, 從二戰後的毀滅狀態迅速發展, 在1964年舉辦奧運, 最終成為全球強權, 準備舉行2020年奧運。</desc>
+    <date>20260808</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
   <programme channel="History" start="20260808162000 +0800" stop="20260808172000 +0800">
+    <title lang="zh">建構世界的食品 第4季第33集 </title>
+    <desc>一年當中糖果賣得最好的日子落在復活節、情人節和萬聖節。而這一切都始於幾位大膽的先驅。</desc>
+    <date>20260808</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History Channel" start="20260808162000 +0800" stop="20260808172000 +0800">
     <title lang="zh">建構世界的食品 第4季第33集 </title>
     <desc>一年當中糖果賣得最好的日子落在復活節、情人節和萬聖節。而這一切都始於幾位大膽的先驅。</desc>
     <date>20260808</date>
@@ -80849,7 +81381,23 @@
       <stereo>stereo</stereo>
     </audio>
   </programme>
+  <programme channel="History Channel" start="20260808172000 +0800" stop="20260808181500 +0800">
+    <title lang="zh">威廉薛特納神祕檔案 第8季第6集 </title>
+    <desc>從埋藏在流動沙丘下的失落城市到歷史上最強大女王的難以捉摸的墓穴, 非洲廣袤而未被探索的古老土地上隱藏著什麼秘密?</desc>
+    <date>20260808</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
   <programme channel="History" start="20260808181500 +0800" stop="20260808191000 +0800">
+    <title lang="zh">遠古外星人 第16季第256集 </title>
+    <desc>位置玻利維亞的普瑪彭古遺城擁有地球上一些最大的石板, 每一塊都經過精確的雕刻。新技術能否協助我們解開這古老的謎團, 並提供外星人在地球活動的證據?</desc>
+    <date>20260808</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History Channel" start="20260808181500 +0800" stop="20260808191000 +0800">
     <title lang="zh">遠古外星人 第16季第256集 </title>
     <desc>位置玻利維亞的普瑪彭古遺城擁有地球上一些最大的石板, 每一塊都經過精確的雕刻。新技術能否協助我們解開這古老的謎團, 並提供外星人在地球活動的證據?</desc>
     <date>20260808</date>
@@ -80865,7 +81413,23 @@
       <stereo>stereo</stereo>
     </audio>
   </programme>
+  <programme channel="History Channel" start="20260808191000 +0800" stop="20260808200500 +0800">
+    <title lang="zh">摩根·費里曼之越獄風雲 第2季第16集 </title>
+    <desc>小偷勒內·貝爾布諾瓦失手被捕, 並被關在法屬圭亞那臭名昭著的殖民地監獄中。他決心逃亡, 寧願失敗喪命也不願終身被困。他的故事成為多部著名電影的靈感來源。</desc>
+    <date>20260808</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
   <programme channel="History" start="20260808200500 +0800" stop="20260808210000 +0800">
+    <title lang="zh">尋寶雙星 第26季第398集 </title>
+    <desc>羅比與澤西對艾德的經典老爺車收藏興奮不已, 但艾德卻捨不得放手任何一樣收藏。麥克在翻找漢克•威廉斯二世 (Hank Williams Jr.) 的私人物品時, 也意外感受到鄉村音樂巨星的風采。</desc>
+    <date>20260808</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History Channel" start="20260808200500 +0800" stop="20260808210000 +0800">
     <title lang="zh">尋寶雙星 第26季第398集 </title>
     <desc>羅比與澤西對艾德的經典老爺車收藏興奮不已, 但艾德卻捨不得放手任何一樣收藏。麥克在翻找漢克•威廉斯二世 (Hank Williams Jr.) 的私人物品時, 也意外感受到鄉村音樂巨星的風采。</desc>
     <date>20260808</date>
@@ -80881,7 +81445,23 @@
       <stereo>stereo</stereo>
     </audio>
   </programme>
+  <programme channel="History Channel" start="20260808210000 +0800" stop="20260808215500 +0800">
+    <title lang="zh">湯姆漢克斯: 二戰風雲 第1集 </title>
+    <desc>1939年9月, 在阿道夫•希特勒與約瑟夫•史達林之間祕密協議的默許之下, 德國以閃電般的坦克戰術入侵波蘭, 使整個歐洲再次陷入戰爭之中。</desc>
+    <date>20260808</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
   <programme channel="History" start="20260808215500 +0800" stop="20260808225000 +0800">
+    <title lang="zh">湯姆漢克斯: 二戰風雲 第2集 </title>
+    <desc>在擊敗波蘭之後, 希特勒把目光轉向西方, 計畫對法國發動攻擊, 並準備利用法軍防線中的薄弱環節。英國首相邱吉爾則急忙設法撤離盟軍部隊。</desc>
+    <date>20260808</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History Channel" start="20260808215500 +0800" stop="20260808225000 +0800">
     <title lang="zh">湯姆漢克斯: 二戰風雲 第2集 </title>
     <desc>在擊敗波蘭之後, 希特勒把目光轉向西方, 計畫對法國發動攻擊, 並準備利用法軍防線中的薄弱環節。英國首相邱吉爾則急忙設法撤離盟軍部隊。</desc>
     <date>20260808</date>
@@ -80897,7 +81477,23 @@
       <stereo>stereo</stereo>
     </audio>
   </programme>
+  <programme channel="History Channel" start="20260808225000 +0800" stop="20260808234500 +0800">
+    <title lang="zh">橡樹島的詛咒 第12季第23集 </title>
+    <desc>當團隊與即將到來的寒冬賽跑, 試圖進入「排水通道」, 並終於取回橡樹島上的寶藏時, 瑞克與同盟會成員則在四千英里之外的馬爾他建立起新的關聯線索。</desc>
+    <date>20260808</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
   <programme channel="History" start="20260808234500 +0800" stop="20260809004000 +0800">
+    <title lang="zh">百慕達三角洲: 進入受詛咒的水域 第2季第5集 </title>
+    <desc>新的線索是否指出通往最大百慕達三角洲之謎的道路?麥克·巴內特、吉米·加多姆斯基和調查團隊追溯讓他們徹夜難眠的懸案線索。</desc>
+    <date>20260808</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History Channel" start="20260808234500 +0800" stop="20260809004000 +0800">
     <title lang="zh">百慕達三角洲: 進入受詛咒的水域 第2季第5集 </title>
     <desc>新的線索是否指出通往最大百慕達三角洲之謎的道路?麥克·巴內特、吉米·加多姆斯基和調查團隊追溯讓他們徹夜難眠的懸案線索。</desc>
     <date>20260808</date>
@@ -80913,7 +81509,23 @@
       <stereo>stereo</stereo>
     </audio>
   </programme>
+  <programme channel="History Channel" start="20260809004000 +0800" stop="20260809013500 +0800">
+    <title lang="zh">尋寶雙星 第26季第398集 </title>
+    <desc>羅比與澤西對艾德的經典老爺車收藏興奮不已, 但艾德卻捨不得放手任何一樣收藏。麥克在翻找漢克•威廉斯二世 (Hank Williams Jr.) 的私人物品時, 也意外感受到鄉村音樂巨星的風采。</desc>
+    <date>20260809</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
   <programme channel="History" start="20260809013500 +0800" stop="20260809023000 +0800">
+    <title lang="zh">湯姆漢克斯: 二戰風雲 第2集 </title>
+    <desc>在擊敗波蘭之後, 希特勒把目光轉向西方, 計畫對法國發動攻擊, 並準備利用法軍防線中的薄弱環節。英國首相邱吉爾則急忙設法撤離盟軍部隊。</desc>
+    <date>20260809</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History Channel" start="20260809013500 +0800" stop="20260809023000 +0800">
     <title lang="zh">湯姆漢克斯: 二戰風雲 第2集 </title>
     <desc>在擊敗波蘭之後, 希特勒把目光轉向西方, 計畫對法國發動攻擊, 並準備利用法軍防線中的薄弱環節。英國首相邱吉爾則急忙設法撤離盟軍部隊。</desc>
     <date>20260809</date>
@@ -80929,7 +81541,23 @@
       <stereo>stereo</stereo>
     </audio>
   </programme>
+  <programme channel="History Channel" start="20260809023000 +0800" stop="20260809032500 +0800">
+    <title lang="zh">橡樹島的詛咒 第12季第23集 </title>
+    <desc>當團隊與即將到來的寒冬賽跑, 試圖進入「排水通道」, 並終於取回橡樹島上的寶藏時, 瑞克與同盟會成員則在四千英里之外的馬爾他建立起新的關聯線索。</desc>
+    <date>20260809</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
   <programme channel="History" start="20260809032500 +0800" stop="20260809042000 +0800">
+    <title lang="zh">遠古外星人 第16季第256集 </title>
+    <desc>位置玻利維亞的普瑪彭古遺城擁有地球上一些最大的石板, 每一塊都經過精確的雕刻。新技術能否協助我們解開這古老的謎團, 並提供外星人在地球活動的證據?</desc>
+    <date>20260809</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History Channel" start="20260809032500 +0800" stop="20260809042000 +0800">
     <title lang="zh">遠古外星人 第16季第256集 </title>
     <desc>位置玻利維亞的普瑪彭古遺城擁有地球上一些最大的石板, 每一塊都經過精確的雕刻。新技術能否協助我們解開這古老的謎團, 並提供外星人在地球活動的證據?</desc>
     <date>20260809</date>
@@ -80945,7 +81573,23 @@
       <stereo>stereo</stereo>
     </audio>
   </programme>
+  <programme channel="History Channel" start="20260809042000 +0800" stop="20260809051500 +0800">
+    <title lang="zh">摩根·費里曼之越獄風雲 第2季第16集 </title>
+    <desc>小偷勒內·貝爾布諾瓦失手被捕, 並被關在法屬圭亞那臭名昭著的殖民地監獄中。他決心逃亡, 寧願失敗喪命也不願終身被困。他的故事成為多部著名電影的靈感來源。</desc>
+    <date>20260809</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
   <programme channel="History" start="20260809051500 +0800" stop="20260809061000 +0800">
+    <title lang="zh">湯姆漢克斯: 二戰風雲 第1集 </title>
+    <desc>1939年9月, 在阿道夫•希特勒與約瑟夫•史達林之間祕密協議的默許之下, 德國以閃電般的坦克戰術入侵波蘭, 使整個歐洲再次陷入戰爭之中。</desc>
+    <date>20260809</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History Channel" start="20260809051500 +0800" stop="20260809061000 +0800">
     <title lang="zh">湯姆漢克斯: 二戰風雲 第1集 </title>
     <desc>1939年9月, 在阿道夫•希特勒與約瑟夫•史達林之間祕密協議的默許之下, 德國以閃電般的坦克戰術入侵波蘭, 使整個歐洲再次陷入戰爭之中。</desc>
     <date>20260809</date>
@@ -80961,7 +81605,23 @@
       <stereo>stereo</stereo>
     </audio>
   </programme>
+  <programme channel="History Channel" start="20260809061000 +0800" stop="20260809070500 +0800">
+    <title lang="zh">百慕達三角洲: 進入受詛咒的水域 第2季第5集 </title>
+    <desc>新的線索是否指出通往最大百慕達三角洲之謎的道路?麥克·巴內特、吉米·加多姆斯基和調查團隊追溯讓他們徹夜難眠的懸案線索。</desc>
+    <date>20260809</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
   <programme channel="History" start="20260809070500 +0800" stop="20260809080000 +0800">
+    <title lang="zh">遠古外星人 第16季第256集 </title>
+    <desc>位置玻利維亞的普瑪彭古遺城擁有地球上一些最大的石板, 每一塊都經過精確的雕刻。新技術能否協助我們解開這古老的謎團, 並提供外星人在地球活動的證據?</desc>
+    <date>20260809</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History Channel" start="20260809070500 +0800" stop="20260809080000 +0800">
     <title lang="zh">遠古外星人 第16季第256集 </title>
     <desc>位置玻利維亞的普瑪彭古遺城擁有地球上一些最大的石板, 每一塊都經過精確的雕刻。新技術能否協助我們解開這古老的謎團, 並提供外星人在地球活動的證據?</desc>
     <date>20260809</date>
@@ -80977,7 +81637,23 @@
       <stereo>stereo</stereo>
     </audio>
   </programme>
+  <programme channel="History Channel" start="20260809080000 +0800" stop="20260809085500 +0800">
+    <title lang="zh">摩根·費里曼之越獄風雲 第2季第16集 </title>
+    <desc>小偷勒內·貝爾布諾瓦失手被捕, 並被關在法屬圭亞那臭名昭著的殖民地監獄中。他決心逃亡, 寧願失敗喪命也不願終身被困。他的故事成為多部著名電影的靈感來源。</desc>
+    <date>20260809</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
   <programme channel="History" start="20260809085500 +0800" stop="20260809095500 +0800">
+    <title lang="zh">尋寶雙星 第26季第398集 </title>
+    <desc>羅比與澤西對艾德的經典老爺車收藏興奮不已, 但艾德卻捨不得放手任何一樣收藏。麥克在翻找漢克•威廉斯二世 (Hank Williams Jr.) 的私人物品時, 也意外感受到鄉村音樂巨星的風采。</desc>
+    <date>20260809</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History Channel" start="20260809085500 +0800" stop="20260809095500 +0800">
     <title lang="zh">尋寶雙星 第26季第398集 </title>
     <desc>羅比與澤西對艾德的經典老爺車收藏興奮不已, 但艾德卻捨不得放手任何一樣收藏。麥克在翻找漢克•威廉斯二世 (Hank Williams Jr.) 的私人物品時, 也意外感受到鄉村音樂巨星的風采。</desc>
     <date>20260809</date>
@@ -80993,7 +81669,23 @@
       <stereo>stereo</stereo>
     </audio>
   </programme>
+  <programme channel="History Channel" start="20260809095500 +0800" stop="20260809105000 +0800">
+    <title lang="zh">湯姆漢克斯: 二戰風雲 第1集 </title>
+    <desc>1939年9月, 在阿道夫•希特勒與約瑟夫•史達林之間祕密協議的默許之下, 德國以閃電般的坦克戰術入侵波蘭, 使整個歐洲再次陷入戰爭之中。</desc>
+    <date>20260809</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
   <programme channel="History" start="20260809105000 +0800" stop="20260809114500 +0800">
+    <title lang="zh">湯姆漢克斯: 二戰風雲 第2集 </title>
+    <desc>在擊敗波蘭之後, 希特勒把目光轉向西方, 計畫對法國發動攻擊, 並準備利用法軍防線中的薄弱環節。英國首相邱吉爾則急忙設法撤離盟軍部隊。</desc>
+    <date>20260809</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History Channel" start="20260809105000 +0800" stop="20260809114500 +0800">
     <title lang="zh">湯姆漢克斯: 二戰風雲 第2集 </title>
     <desc>在擊敗波蘭之後, 希特勒把目光轉向西方, 計畫對法國發動攻擊, 並準備利用法軍防線中的薄弱環節。英國首相邱吉爾則急忙設法撤離盟軍部隊。</desc>
     <date>20260809</date>
@@ -81009,7 +81701,23 @@
       <stereo>stereo</stereo>
     </audio>
   </programme>
+  <programme channel="History Channel" start="20260809114500 +0800" stop="20260809124000 +0800">
+    <title lang="zh">橡樹島的詛咒 第12季第23集 </title>
+    <desc>當團隊與即將到來的寒冬賽跑, 試圖進入「排水通道」, 並終於取回橡樹島上的寶藏時, 瑞克與同盟會成員則在四千英里之外的馬爾他建立起新的關聯線索。</desc>
+    <date>20260809</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
   <programme channel="History" start="20260809124000 +0800" stop="20260809133500 +0800">
+    <title lang="zh">百慕達三角洲: 進入受詛咒的水域 第2季第5集 </title>
+    <desc>新的線索是否指出通往最大百慕達三角洲之謎的道路?麥克·巴內特、吉米·加多姆斯基和調查團隊追溯讓他們徹夜難眠的懸案線索。</desc>
+    <date>20260809</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History Channel" start="20260809124000 +0800" stop="20260809133500 +0800">
     <title lang="zh">百慕達三角洲: 進入受詛咒的水域 第2季第5集 </title>
     <desc>新的線索是否指出通往最大百慕達三角洲之謎的道路?麥克·巴內特、吉米·加多姆斯基和調查團隊追溯讓他們徹夜難眠的懸案線索。</desc>
     <date>20260809</date>
@@ -81025,7 +81733,23 @@
       <stereo>stereo</stereo>
     </audio>
   </programme>
+  <programme channel="History Channel" start="20260809133500 +0800" stop="20260809143000 +0800">
+    <title lang="zh">遠古外星人 第16季第256集 </title>
+    <desc>位置玻利維亞的普瑪彭古遺城擁有地球上一些最大的石板, 每一塊都經過精確的雕刻。新技術能否協助我們解開這古老的謎團, 並提供外星人在地球活動的證據?</desc>
+    <date>20260809</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
   <programme channel="History" start="20260809143000 +0800" stop="20260809152500 +0800">
+    <title lang="zh">湯姆漢克斯: 二戰風雲 第1集 </title>
+    <desc>1939年9月, 在阿道夫•希特勒與約瑟夫•史達林之間祕密協議的默許之下, 德國以閃電般的坦克戰術入侵波蘭, 使整個歐洲再次陷入戰爭之中。</desc>
+    <date>20260809</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History Channel" start="20260809143000 +0800" stop="20260809152500 +0800">
     <title lang="zh">湯姆漢克斯: 二戰風雲 第1集 </title>
     <desc>1939年9月, 在阿道夫•希特勒與約瑟夫•史達林之間祕密協議的默許之下, 德國以閃電般的坦克戰術入侵波蘭, 使整個歐洲再次陷入戰爭之中。</desc>
     <date>20260809</date>
@@ -81041,7 +81765,23 @@
       <stereo>stereo</stereo>
     </audio>
   </programme>
+  <programme channel="History Channel" start="20260809152500 +0800" stop="20260809162000 +0800">
+    <title lang="zh">橡樹島的詛咒 第12季第23集 </title>
+    <desc>當團隊與即將到來的寒冬賽跑, 試圖進入「排水通道」, 並終於取回橡樹島上的寶藏時, 瑞克與同盟會成員則在四千英里之外的馬爾他建立起新的關聯線索。</desc>
+    <date>20260809</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
   <programme channel="History" start="20260809162000 +0800" stop="20260809172000 +0800">
+    <title lang="zh">摩根·費里曼之越獄風雲 第2季第16集 </title>
+    <desc>小偷勒內·貝爾布諾瓦失手被捕, 並被關在法屬圭亞那臭名昭著的殖民地監獄中。他決心逃亡, 寧願失敗喪命也不願終身被困。他的故事成為多部著名電影的靈感來源。</desc>
+    <date>20260809</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History Channel" start="20260809162000 +0800" stop="20260809172000 +0800">
     <title lang="zh">摩根·費里曼之越獄風雲 第2季第16集 </title>
     <desc>小偷勒內·貝爾布諾瓦失手被捕, 並被關在法屬圭亞那臭名昭著的殖民地監獄中。他決心逃亡, 寧願失敗喪命也不願終身被困。他的故事成為多部著名電影的靈感來源。</desc>
     <date>20260809</date>
@@ -81057,7 +81797,23 @@
       <stereo>stereo</stereo>
     </audio>
   </programme>
+  <programme channel="History Channel" start="20260809172000 +0800" stop="20260809181500 +0800">
+    <title lang="zh">尋寶雙星 第26季第398集 </title>
+    <desc>羅比與澤西對艾德的經典老爺車收藏興奮不已, 但艾德卻捨不得放手任何一樣收藏。麥克在翻找漢克•威廉斯二世 (Hank Williams Jr.) 的私人物品時, 也意外感受到鄉村音樂巨星的風采。</desc>
+    <date>20260809</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
   <programme channel="History" start="20260809181500 +0800" stop="20260809191000 +0800">
+    <title lang="zh">建構世界的玩具 第3季第8集 </title>
+    <desc>聖誕老人是世上最受喜愛、亦最具代表性的形象之一, 象徵希望與善意。然而, 這位三世紀的聖人, 究竟如何演變成我們今日熟悉的聖誕老人?</desc>
+    <date>20260809</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History Channel" start="20260809181500 +0800" stop="20260809191000 +0800">
     <title lang="zh">建構世界的玩具 第3季第8集 </title>
     <desc>聖誕老人是世上最受喜愛、亦最具代表性的形象之一, 象徵希望與善意。然而, 這位三世紀的聖人, 究竟如何演變成我們今日熟悉的聖誕老人?</desc>
     <date>20260809</date>
@@ -81073,7 +81829,23 @@
       <stereo>stereo</stereo>
     </audio>
   </programme>
+  <programme channel="History Channel" start="20260809191000 +0800" stop="20260809200500 +0800">
+    <title lang="zh">歷史重大謎團 第4季第25集 </title>
+    <desc>竊賊從嘉納藝術博物館偷走了五億美元的藝術品。經過全面的搜索後, 仍然找不到失竊的物品。是誰策劃了這起史上最大的藝術品搶案?以及為什麼?</desc>
+    <date>20260809</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
   <programme channel="History" start="20260809200500 +0800" stop="20260809215500 +0800">
+    <title lang="zh">東京歷史遺產</title>
+    <desc>本節目介紹東京的歷史, 從二戰後的毀滅狀態迅速發展, 在1964年舉辦奧運, 最終成為全球強權, 準備舉行2020年奧運。</desc>
+    <date>20260809</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History Channel" start="20260809200500 +0800" stop="20260809215500 +0800">
     <title lang="zh">東京歷史遺產</title>
     <desc>本節目介紹東京的歷史, 從二戰後的毀滅狀態迅速發展, 在1964年舉辦奧運, 最終成為全球強權, 準備舉行2020年奧運。</desc>
     <date>20260809</date>
@@ -81089,7 +81861,23 @@
       <stereo>stereo</stereo>
     </audio>
   </programme>
+  <programme channel="History Channel" start="20260809215500 +0800" stop="20260809225000 +0800">
+    <title lang="zh">Vat 69: 馬來西亞任務部隊</title>
+    <desc>該部隊由英國空降特勤隊訓練, 成立於1969年, 負責與復甦的共產黨戰鬥。節目要探討英雄主義與馬來西亞精英突擊隊的犧牲。</desc>
+    <date>20260809</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
   <programme channel="History" start="20260809225000 +0800" stop="20260809234500 +0800">
+    <title lang="zh">歷史重大謎團 第6季第2集 </title>
+    <desc>在英國倫德爾沙姆森林附近的美國空軍基地外發生了一個超現實的事件, 這個事件成為了一個國際傳說, 也是歷史上最奇怪的未確認遭遇之一。</desc>
+    <date>20260809</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History Channel" start="20260809225000 +0800" stop="20260809234500 +0800">
     <title lang="zh">歷史重大謎團 第6季第2集 </title>
     <desc>在英國倫德爾沙姆森林附近的美國空軍基地外發生了一個超現實的事件, 這個事件成為了一個國際傳說, 也是歷史上最奇怪的未確認遭遇之一。</desc>
     <date>20260809</date>
@@ -81105,7 +81893,23 @@
       <stereo>stereo</stereo>
     </audio>
   </programme>
+  <programme channel="History Channel" start="20260809234500 +0800" stop="20260810004000 +0800">
+    <title lang="zh">迪士尼如何打造美國 第5集 </title>
+    <desc>儘管困難重重, 迪士尼仍將佛羅里達州27,000英畝的泥濘沼澤地改造成全世界最大且最多人造訪的主題公園。</desc>
+    <date>20260809</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
   <programme channel="History" start="20260810004000 +0800" stop="20260810023000 +0800">
+    <title lang="zh">東京歷史遺產</title>
+    <desc>本節目介紹東京的歷史, 從二戰後的毀滅狀態迅速發展, 在1964年舉辦奧運, 最終成為全球強權, 準備舉行2020年奧運。</desc>
+    <date>20260810</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History Channel" start="20260810004000 +0800" stop="20260810023000 +0800">
     <title lang="zh">東京歷史遺產</title>
     <desc>本節目介紹東京的歷史, 從二戰後的毀滅狀態迅速發展, 在1964年舉辦奧運, 最終成為全球強權, 準備舉行2020年奧運。</desc>
     <date>20260810</date>
@@ -81121,7 +81925,23 @@
       <stereo>stereo</stereo>
     </audio>
   </programme>
+  <programme channel="History Channel" start="20260810023000 +0800" stop="20260810032500 +0800">
+    <title lang="zh">歷史重大謎團 第6季第2集 </title>
+    <desc>在英國倫德爾沙姆森林附近的美國空軍基地外發生了一個超現實的事件, 這個事件成為了一個國際傳說, 也是歷史上最奇怪的未確認遭遇之一。</desc>
+    <date>20260810</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
   <programme channel="History" start="20260810032500 +0800" stop="20260810042000 +0800">
+    <title lang="zh">建構世界的玩具 第3季第8集 </title>
+    <desc>聖誕老人是世上最受喜愛、亦最具代表性的形象之一, 象徵希望與善意。然而, 這位三世紀的聖人, 究竟如何演變成我們今日熟悉的聖誕老人?</desc>
+    <date>20260810</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History Channel" start="20260810032500 +0800" stop="20260810042000 +0800">
     <title lang="zh">建構世界的玩具 第3季第8集 </title>
     <desc>聖誕老人是世上最受喜愛、亦最具代表性的形象之一, 象徵希望與善意。然而, 這位三世紀的聖人, 究竟如何演變成我們今日熟悉的聖誕老人?</desc>
     <date>20260810</date>
@@ -81137,7 +81957,23 @@
       <stereo>stereo</stereo>
     </audio>
   </programme>
+  <programme channel="History Channel" start="20260810042000 +0800" stop="20260810051500 +0800">
+    <title lang="zh">歷史重大謎團 第4季第25集 </title>
+    <desc>竊賊從嘉納藝術博物館偷走了五億美元的藝術品。經過全面的搜索後, 仍然找不到失竊的物品。是誰策劃了這起史上最大的藝術品搶案?以及為什麼?</desc>
+    <date>20260810</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
   <programme channel="History" start="20260810051500 +0800" stop="20260810061000 +0800">
+    <title lang="zh">柔佛御林軍</title>
+    <desc>柔佛御林軍精英部隊旨在保護柔佛和國王的安全。該部隊被視為馬來西亞最古老的軍事單位, 也是聯邦唯一的國家軍隊, 在許多事件上發揮了重要作用。</desc>
+    <date>20260810</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History Channel" start="20260810051500 +0800" stop="20260810061000 +0800">
     <title lang="zh">柔佛御林軍</title>
     <desc>柔佛御林軍精英部隊旨在保護柔佛和國王的安全。該部隊被視為馬來西亞最古老的軍事單位, 也是聯邦唯一的國家軍隊, 在許多事件上發揮了重要作用。</desc>
     <date>20260810</date>
@@ -81153,7 +81989,23 @@
       <stereo>stereo</stereo>
     </audio>
   </programme>
+  <programme channel="History Channel" start="20260810061000 +0800" stop="20260810070500 +0800">
+    <title lang="zh">迪士尼如何打造美國 第5集 </title>
+    <desc>儘管困難重重, 迪士尼仍將佛羅里達州27,000英畝的泥濘沼澤地改造成全世界最大且最多人造訪的主題公園。</desc>
+    <date>20260810</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
   <programme channel="History" start="20260810070500 +0800" stop="20260810080000 +0800">
+    <title lang="zh">建構世界的玩具 第3季第8集 </title>
+    <desc>聖誕老人是世上最受喜愛、亦最具代表性的形象之一, 象徵希望與善意。然而, 這位三世紀的聖人, 究竟如何演變成我們今日熟悉的聖誕老人?</desc>
+    <date>20260810</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History Channel" start="20260810070500 +0800" stop="20260810080000 +0800">
     <title lang="zh">建構世界的玩具 第3季第8集 </title>
     <desc>聖誕老人是世上最受喜愛、亦最具代表性的形象之一, 象徵希望與善意。然而, 這位三世紀的聖人, 究竟如何演變成我們今日熟悉的聖誕老人?</desc>
     <date>20260810</date>
@@ -81169,7 +82021,23 @@
       <stereo>stereo</stereo>
     </audio>
   </programme>
+  <programme channel="History Channel" start="20260810080000 +0800" stop="20260810085500 +0800">
+    <title lang="zh">歷史重大謎團 第4季第25集 </title>
+    <desc>竊賊從嘉納藝術博物館偷走了五億美元的藝術品。經過全面的搜索後, 仍然找不到失竊的物品。是誰策劃了這起史上最大的藝術品搶案?以及為什麼?</desc>
+    <date>20260810</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
   <programme channel="History" start="20260810085500 +0800" stop="20260810105000 +0800">
+    <title lang="zh">東京歷史遺產</title>
+    <desc>本節目介紹東京的歷史, 從二戰後的毀滅狀態迅速發展, 在1964年舉辦奧運, 最終成為全球強權, 準備舉行2020年奧運。</desc>
+    <date>20260810</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History Channel" start="20260810085500 +0800" stop="20260810105000 +0800">
     <title lang="zh">東京歷史遺產</title>
     <desc>本節目介紹東京的歷史, 從二戰後的毀滅狀態迅速發展, 在1964年舉辦奧運, 最終成為全球強權, 準備舉行2020年奧運。</desc>
     <date>20260810</date>
@@ -81185,7 +82053,23 @@
       <stereo>stereo</stereo>
     </audio>
   </programme>
+  <programme channel="History Channel" start="20260810105000 +0800" stop="20260810114500 +0800">
+    <title lang="zh">特種部隊 第1季第1集 </title>
+    <desc>從距離地面10米的人猿泰山式攻擊訓練, 到160公里的強行軍, 馬來西亞陸軍特種部隊的新隊員為了贏得令眾人垂涎的綠色貝雷帽可謂不遺餘力。</desc>
+    <date>20260810</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
   <programme channel="History" start="20260810114500 +0800" stop="20260810124000 +0800">
+    <title lang="zh">歷史重大謎團 第6季第2集 </title>
+    <desc>在英國倫德爾沙姆森林附近的美國空軍基地外發生了一個超現實的事件, 這個事件成為了一個國際傳說, 也是歷史上最奇怪的未確認遭遇之一。</desc>
+    <date>20260810</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History Channel" start="20260810114500 +0800" stop="20260810124000 +0800">
     <title lang="zh">歷史重大謎團 第6季第2集 </title>
     <desc>在英國倫德爾沙姆森林附近的美國空軍基地外發生了一個超現實的事件, 這個事件成為了一個國際傳說, 也是歷史上最奇怪的未確認遭遇之一。</desc>
     <date>20260810</date>
@@ -81201,7 +82085,23 @@
       <stereo>stereo</stereo>
     </audio>
   </programme>
+  <programme channel="History Channel" start="20260810124000 +0800" stop="20260810133500 +0800">
+    <title lang="zh">迪士尼如何打造美國 第5集 </title>
+    <desc>儘管困難重重, 迪士尼仍將佛羅里達州27,000英畝的泥濘沼澤地改造成全世界最大且最多人造訪的主題公園。</desc>
+    <date>20260810</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
   <programme channel="History" start="20260810133500 +0800" stop="20260810143000 +0800">
+    <title lang="zh">建構世界的玩具 第3季第8集 </title>
+    <desc>聖誕老人是世上最受喜愛、亦最具代表性的形象之一, 象徵希望與善意。然而, 這位三世紀的聖人, 究竟如何演變成我們今日熟悉的聖誕老人?</desc>
+    <date>20260810</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History Channel" start="20260810133500 +0800" stop="20260810143000 +0800">
     <title lang="zh">建構世界的玩具 第3季第8集 </title>
     <desc>聖誕老人是世上最受喜愛、亦最具代表性的形象之一, 象徵希望與善意。然而, 這位三世紀的聖人, 究竟如何演變成我們今日熟悉的聖誕老人?</desc>
     <date>20260810</date>
@@ -81217,7 +82117,23 @@
       <stereo>stereo</stereo>
     </audio>
   </programme>
+  <programme channel="History Channel" start="20260810143000 +0800" stop="20260810152500 +0800">
+    <title lang="zh">丹·艾克洛德之不可思議事件 第3季第9集 </title>
+    <desc>從利用投石機拋射屍體, 到將動物變成致命武器, 甚至研發由鴿子導引的飛彈, 這些故事揭示了歷史上最荒謬、也最令人瞠目結舌的武器背後, 所隱藏的真實背景。</desc>
+    <date>20260810</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
   <programme channel="History" start="20260810152500 +0800" stop="20260810162000 +0800">
+    <title lang="zh">歷史重大謎團 第6季第2集 </title>
+    <desc>在英國倫德爾沙姆森林附近的美國空軍基地外發生了一個超現實的事件, 這個事件成為了一個國際傳說, 也是歷史上最奇怪的未確認遭遇之一。</desc>
+    <date>20260810</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History Channel" start="20260810152500 +0800" stop="20260810162000 +0800">
     <title lang="zh">歷史重大謎團 第6季第2集 </title>
     <desc>在英國倫德爾沙姆森林附近的美國空軍基地外發生了一個超現實的事件, 這個事件成為了一個國際傳說, 也是歷史上最奇怪的未確認遭遇之一。</desc>
     <date>20260810</date>
@@ -81233,7 +82149,23 @@
       <stereo>stereo</stereo>
     </audio>
   </programme>
+  <programme channel="History Channel" start="20260810162000 +0800" stop="20260810172000 +0800">
+    <title lang="zh">歷史重大謎團 第4季第25集 </title>
+    <desc>竊賊從嘉納藝術博物館偷走了五億美元的藝術品。經過全面的搜索後, 仍然找不到失竊的物品。是誰策劃了這起史上最大的藝術品搶案?以及為什麼?</desc>
+    <date>20260810</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
   <programme channel="History" start="20260810172000 +0800" stop="20260810191000 +0800">
+    <title lang="zh">東京歷史遺產</title>
+    <desc>本節目介紹東京的歷史, 從二戰後的毀滅狀態迅速發展, 在1964年舉辦奧運, 最終成為全球強權, 準備舉行2020年奧運。</desc>
+    <date>20260810</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History Channel" start="20260810172000 +0800" stop="20260810191000 +0800">
     <title lang="zh">東京歷史遺產</title>
     <desc>本節目介紹東京的歷史, 從二戰後的毀滅狀態迅速發展, 在1964年舉辦奧運, 最終成為全球強權, 準備舉行2020年奧運。</desc>
     <date>20260810</date>
@@ -81249,7 +82181,23 @@
       <stereo>stereo</stereo>
     </audio>
   </programme>
+  <programme channel="History Channel" start="20260810191000 +0800" stop="20260810200500 +0800">
+    <title lang="zh">丹尼斯·奎德的神聖奇觀 第2季第15集 </title>
+    <desc>歷經數千年的歲月流轉, 人類憑藉創造力建起令人驚歎的壯麗建築。無論是位於教廷之城的壯觀聖堂, 還是高掛於祕魯雲層中的隱沒古都, 本集將深入追尋這些建物背後延續千年的神祕故事。</desc>
+    <date>20260810</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
   <programme channel="History" start="20260810200500 +0800" stop="20260810210000 +0800">
+    <title lang="zh">當鋪之星 第24季第621集 </title>
+    <desc>當一名賣家帶著由《陰屍路》演員簽名的人偶系列進店時, 查姆會上鉤嗎?當另一名賣家帶來《搖滾高中》的電影海報, 科里卻顯得異常冷靜。</desc>
+    <date>20260810</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History Channel" start="20260810200500 +0800" stop="20260810210000 +0800">
     <title lang="zh">當鋪之星 第24季第621集 </title>
     <desc>當一名賣家帶著由《陰屍路》演員簽名的人偶系列進店時, 查姆會上鉤嗎?當另一名賣家帶來《搖滾高中》的電影海報, 科里卻顯得異常冷靜。</desc>
     <date>20260810</date>
@@ -81265,7 +82213,23 @@
       <stereo>stereo</stereo>
     </audio>
   </programme>
+  <programme channel="History Channel" start="20260810210000 +0800" stop="20260810215500 +0800">
+    <title lang="zh">新加坡10件你不知道的事</title>
+    <desc>本節目將以栩栩如生的細節, 講述在這個小國家連當地人都不知道的奇聞軼事, 披露歷史傳說、人物和地點背後的故事。</desc>
+    <date>20260810</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
   <programme channel="History" start="20260810215500 +0800" stop="20260810225000 +0800">
+    <title lang="zh">建構世界的大廠牌 第1季第3集 </title>
+    <desc>100年前, 包裹運送很緩慢, 隔夜送達完全不可能, 直到兩個西雅圖兄弟冒著一切風險, 為所有人改造了送貨產業。</desc>
+    <date>20260810</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History Channel" start="20260810215500 +0800" stop="20260810225000 +0800">
     <title lang="zh">建構世界的大廠牌 第1季第3集 </title>
     <desc>100年前, 包裹運送很緩慢, 隔夜送達完全不可能, 直到兩個西雅圖兄弟冒著一切風險, 為所有人改造了送貨產業。</desc>
     <date>20260810</date>
@@ -81281,7 +82245,23 @@
       <stereo>stereo</stereo>
     </audio>
   </programme>
+  <programme channel="History Channel" start="20260810225000 +0800" stop="20260810234500 +0800">
+    <title lang="zh">建構世界的食品 第5季第9集 </title>
+    <desc>在二十世紀初的美國, 那個時代裡「汽水」幾乎等同於「可樂」的代名詞, 小規模經營的汽水製造商查爾斯．李柏爾．格里格 (Charles Leiper Grigg) , 勇敢無懼、毫不退縮地挑戰龐大的企業巨頭。他決定推出一種完全嶄新、與眾不同的飲料, 試圖在壟斷格局中開闢出屬於自己的道路。</desc>
+    <date>20260810</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
   <programme channel="History" start="20260810234500 +0800" stop="20260811001500 +0800">
+    <title lang="zh">城市探密極限篇 第1季第5集 </title>
+    <desc>這個科技國不僅擁有智慧型手機和電視；強烈的文化傳統也塑造出充滿極端行為的社會。跟著尹西蒙, 進行一場不適合懦弱者的旅程。</desc>
+    <date>20260810</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History Channel" start="20260810234500 +0800" stop="20260811001500 +0800">
     <title lang="zh">城市探密極限篇 第1季第5集 </title>
     <desc>這個科技國不僅擁有智慧型手機和電視；強烈的文化傳統也塑造出充滿極端行為的社會。跟著尹西蒙, 進行一場不適合懦弱者的旅程。</desc>
     <date>20260810</date>
@@ -81297,7 +82277,23 @@
       <stereo>stereo</stereo>
     </audio>
   </programme>
+  <programme channel="History Channel" start="20260811001500 +0800" stop="20260811004500 +0800">
+    <title lang="zh">城市探密極限篇 第1季第6集 </title>
+    <desc>西蒙要挖掘北臺灣的祕密面貌並克服一切。除了加入原住民部落, 西蒙也將遊覽怪誕的農場、瘋狂的景觀以及令人毛骨悚然的墓地。</desc>
+    <date>20260811</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
   <programme channel="History" start="20260811004500 +0800" stop="20260811013500 +0800">
+    <title lang="zh">當鋪之星 第24季第621集 </title>
+    <desc>當一名賣家帶著由《陰屍路》演員簽名的人偶系列進店時, 查姆會上鉤嗎?當另一名賣家帶來《搖滾高中》的電影海報, 科里卻顯得異常冷靜。</desc>
+    <date>20260811</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History Channel" start="20260811004500 +0800" stop="20260811013500 +0800">
     <title lang="zh">當鋪之星 第24季第621集 </title>
     <desc>當一名賣家帶著由《陰屍路》演員簽名的人偶系列進店時, 查姆會上鉤嗎?當另一名賣家帶來《搖滾高中》的電影海報, 科里卻顯得異常冷靜。</desc>
     <date>20260811</date>
@@ -81313,7 +82309,23 @@
       <stereo>stereo</stereo>
     </audio>
   </programme>
+  <programme channel="History Channel" start="20260811013500 +0800" stop="20260811023000 +0800">
+    <title lang="zh">建構世界的大廠牌 第1季第3集 </title>
+    <desc>100年前, 包裹運送很緩慢, 隔夜送達完全不可能, 直到兩個西雅圖兄弟冒著一切風險, 為所有人改造了送貨產業。</desc>
+    <date>20260811</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
   <programme channel="History" start="20260811023000 +0800" stop="20260811032500 +0800">
+    <title lang="zh">建構世界的食品 第5季第9集 </title>
+    <desc>在二十世紀初的美國, 那個時代裡「汽水」幾乎等同於「可樂」的代名詞, 小規模經營的汽水製造商查爾斯．李柏爾．格里格 (Charles Leiper Grigg) , 勇敢無懼、毫不退縮地挑戰龐大的企業巨頭。他決定推出一種完全嶄新、與眾不同的飲料, 試圖在壟斷格局中開闢出屬於自己的道路。</desc>
+    <date>20260811</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History Channel" start="20260811023000 +0800" stop="20260811032500 +0800">
     <title lang="zh">建構世界的食品 第5季第9集 </title>
     <desc>在二十世紀初的美國, 那個時代裡「汽水」幾乎等同於「可樂」的代名詞, 小規模經營的汽水製造商查爾斯．李柏爾．格里格 (Charles Leiper Grigg) , 勇敢無懼、毫不退縮地挑戰龐大的企業巨頭。他決定推出一種完全嶄新、與眾不同的飲料, 試圖在壟斷格局中開闢出屬於自己的道路。</desc>
     <date>20260811</date>
@@ -81329,7 +82341,23 @@
       <stereo>stereo</stereo>
     </audio>
   </programme>
+  <programme channel="History Channel" start="20260811032500 +0800" stop="20260811042000 +0800">
+    <title lang="zh">丹·艾克洛德之不可思議事件 第3季第9集 </title>
+    <desc>從利用投石機拋射屍體, 到將動物變成致命武器, 甚至研發由鴿子導引的飛彈, 這些故事揭示了歷史上最荒謬、也最令人瞠目結舌的武器背後, 所隱藏的真實背景。</desc>
+    <date>20260811</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
   <programme channel="History" start="20260811042000 +0800" stop="20260811051500 +0800">
+    <title lang="zh">丹尼斯·奎德的神聖奇觀 第2季第15集 </title>
+    <desc>歷經數千年的歲月流轉, 人類憑藉創造力建起令人驚歎的壯麗建築。無論是位於教廷之城的壯觀聖堂, 還是高掛於祕魯雲層中的隱沒古都, 本集將深入追尋這些建物背後延續千年的神祕故事。</desc>
+    <date>20260811</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History Channel" start="20260811042000 +0800" stop="20260811051500 +0800">
     <title lang="zh">丹尼斯·奎德的神聖奇觀 第2季第15集 </title>
     <desc>歷經數千年的歲月流轉, 人類憑藉創造力建起令人驚歎的壯麗建築。無論是位於教廷之城的壯觀聖堂, 還是高掛於祕魯雲層中的隱沒古都, 本集將深入追尋這些建物背後延續千年的神祕故事。</desc>
     <date>20260811</date>
@@ -81345,7 +82373,23 @@
       <stereo>stereo</stereo>
     </audio>
   </programme>
+  <programme channel="History Channel" start="20260811051500 +0800" stop="20260811061000 +0800">
+    <title lang="zh">新加坡10件你不知道的事</title>
+    <desc>本節目將以栩栩如生的細節, 講述在這個小國家連當地人都不知道的奇聞軼事, 披露歷史傳說、人物和地點背後的故事。</desc>
+    <date>20260811</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
   <programme channel="History" start="20260811061000 +0800" stop="20260811064000 +0800">
+    <title lang="zh">城市探密極限篇 第1季第5集 </title>
+    <desc>這個科技國不僅擁有智慧型手機和電視；強烈的文化傳統也塑造出充滿極端行為的社會。跟著尹西蒙, 進行一場不適合懦弱者的旅程。</desc>
+    <date>20260811</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History Channel" start="20260811061000 +0800" stop="20260811064000 +0800">
     <title lang="zh">城市探密極限篇 第1季第5集 </title>
     <desc>這個科技國不僅擁有智慧型手機和電視；強烈的文化傳統也塑造出充滿極端行為的社會。跟著尹西蒙, 進行一場不適合懦弱者的旅程。</desc>
     <date>20260811</date>
@@ -81361,7 +82405,23 @@
       <stereo>stereo</stereo>
     </audio>
   </programme>
+  <programme channel="History Channel" start="20260811064000 +0800" stop="20260811071000 +0800">
+    <title lang="zh">城市探密極限篇 第1季第6集 </title>
+    <desc>西蒙要挖掘北臺灣的祕密面貌並克服一切。除了加入原住民部落, 西蒙也將遊覽怪誕的農場、瘋狂的景觀以及令人毛骨悚然的墓地。</desc>
+    <date>20260811</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
   <programme channel="History" start="20260811071000 +0800" stop="20260811080500 +0800">
+    <title lang="zh">丹·艾克洛德之不可思議事件 第3季第9集 </title>
+    <desc>從利用投石機拋射屍體, 到將動物變成致命武器, 甚至研發由鴿子導引的飛彈, 這些故事揭示了歷史上最荒謬、也最令人瞠目結舌的武器背後, 所隱藏的真實背景。</desc>
+    <date>20260811</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History Channel" start="20260811071000 +0800" stop="20260811080500 +0800">
     <title lang="zh">丹·艾克洛德之不可思議事件 第3季第9集 </title>
     <desc>從利用投石機拋射屍體, 到將動物變成致命武器, 甚至研發由鴿子導引的飛彈, 這些故事揭示了歷史上最荒謬、也最令人瞠目結舌的武器背後, 所隱藏的真實背景。</desc>
     <date>20260811</date>
@@ -81377,7 +82437,23 @@
       <stereo>stereo</stereo>
     </audio>
   </programme>
+  <programme channel="History Channel" start="20260811080500 +0800" stop="20260811090000 +0800">
+    <title lang="zh">丹尼斯·奎德的神聖奇觀 第2季第15集 </title>
+    <desc>歷經數千年的歲月流轉, 人類憑藉創造力建起令人驚歎的壯麗建築。無論是位於教廷之城的壯觀聖堂, 還是高掛於祕魯雲層中的隱沒古都, 本集將深入追尋這些建物背後延續千年的神祕故事。</desc>
+    <date>20260811</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
   <programme channel="History" start="20260811090000 +0800" stop="20260811095500 +0800">
+    <title lang="zh">當鋪之星 第24季第621集 </title>
+    <desc>當一名賣家帶著由《陰屍路》演員簽名的人偶系列進店時, 查姆會上鉤嗎?當另一名賣家帶來《搖滾高中》的電影海報, 科里卻顯得異常冷靜。</desc>
+    <date>20260811</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History Channel" start="20260811090000 +0800" stop="20260811095500 +0800">
     <title lang="zh">當鋪之星 第24季第621集 </title>
     <desc>當一名賣家帶著由《陰屍路》演員簽名的人偶系列進店時, 查姆會上鉤嗎?當另一名賣家帶來《搖滾高中》的電影海報, 科里卻顯得異常冷靜。</desc>
     <date>20260811</date>
@@ -81393,7 +82469,23 @@
       <stereo>stereo</stereo>
     </audio>
   </programme>
+  <programme channel="History Channel" start="20260811095500 +0800" stop="20260811105000 +0800">
+    <title lang="zh">新加坡10件你不知道的事</title>
+    <desc>本節目將以栩栩如生的細節, 講述在這個小國家連當地人都不知道的奇聞軼事, 披露歷史傳說、人物和地點背後的故事。</desc>
+    <date>20260811</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
   <programme channel="History" start="20260811105000 +0800" stop="20260811114500 +0800">
+    <title lang="zh">建構世界的大廠牌 第1季第3集 </title>
+    <desc>100年前, 包裹運送很緩慢, 隔夜送達完全不可能, 直到兩個西雅圖兄弟冒著一切風險, 為所有人改造了送貨產業。</desc>
+    <date>20260811</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History Channel" start="20260811105000 +0800" stop="20260811114500 +0800">
     <title lang="zh">建構世界的大廠牌 第1季第3集 </title>
     <desc>100年前, 包裹運送很緩慢, 隔夜送達完全不可能, 直到兩個西雅圖兄弟冒著一切風險, 為所有人改造了送貨產業。</desc>
     <date>20260811</date>
@@ -81409,7 +82501,23 @@
       <stereo>stereo</stereo>
     </audio>
   </programme>
+  <programme channel="History Channel" start="20260811114500 +0800" stop="20260811124000 +0800">
+    <title lang="zh">建構世界的食品 第5季第9集 </title>
+    <desc>在二十世紀初的美國, 那個時代裡「汽水」幾乎等同於「可樂」的代名詞, 小規模經營的汽水製造商查爾斯．李柏爾．格里格 (Charles Leiper Grigg) , 勇敢無懼、毫不退縮地挑戰龐大的企業巨頭。他決定推出一種完全嶄新、與眾不同的飲料, 試圖在壟斷格局中開闢出屬於自己的道路。</desc>
+    <date>20260811</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
   <programme channel="History" start="20260811124000 +0800" stop="20260811131000 +0800">
+    <title lang="zh">城市探密極限篇 第1季第5集 </title>
+    <desc>這個科技國不僅擁有智慧型手機和電視；強烈的文化傳統也塑造出充滿極端行為的社會。跟著尹西蒙, 進行一場不適合懦弱者的旅程。</desc>
+    <date>20260811</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History Channel" start="20260811124000 +0800" stop="20260811131000 +0800">
     <title lang="zh">城市探密極限篇 第1季第5集 </title>
     <desc>這個科技國不僅擁有智慧型手機和電視；強烈的文化傳統也塑造出充滿極端行為的社會。跟著尹西蒙, 進行一場不適合懦弱者的旅程。</desc>
     <date>20260811</date>
@@ -81425,7 +82533,23 @@
       <stereo>stereo</stereo>
     </audio>
   </programme>
+  <programme channel="History Channel" start="20260811131000 +0800" stop="20260811134000 +0800">
+    <title lang="zh">城市探密極限篇 第1季第6集 </title>
+    <desc>西蒙要挖掘北臺灣的祕密面貌並克服一切。除了加入原住民部落, 西蒙也將遊覽怪誕的農場、瘋狂的景觀以及令人毛骨悚然的墓地。</desc>
+    <date>20260811</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
   <programme channel="History" start="20260811134000 +0800" stop="20260811143000 +0800">
+    <title lang="zh">丹·艾克洛德之不可思議事件 第3季第9集 </title>
+    <desc>從利用投石機拋射屍體, 到將動物變成致命武器, 甚至研發由鴿子導引的飛彈, 這些故事揭示了歷史上最荒謬、也最令人瞠目結舌的武器背後, 所隱藏的真實背景。</desc>
+    <date>20260811</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History Channel" start="20260811134000 +0800" stop="20260811143000 +0800">
     <title lang="zh">丹·艾克洛德之不可思議事件 第3季第9集 </title>
     <desc>從利用投石機拋射屍體, 到將動物變成致命武器, 甚至研發由鴿子導引的飛彈, 這些故事揭示了歷史上最荒謬、也最令人瞠目結舌的武器背後, 所隱藏的真實背景。</desc>
     <date>20260811</date>
@@ -81441,7 +82565,23 @@
       <stereo>stereo</stereo>
     </audio>
   </programme>
+  <programme channel="History Channel" start="20260811143000 +0800" stop="20260811152500 +0800">
+    <title lang="zh">新加坡10件你不知道的事</title>
+    <desc>本節目將以栩栩如生的細節, 講述在這個小國家連當地人都不知道的奇聞軼事, 披露歷史傳說、人物和地點背後的故事。</desc>
+    <date>20260811</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
   <programme channel="History" start="20260811152500 +0800" stop="20260811162000 +0800">
+    <title lang="zh">建構世界的食品 第5季第9集 </title>
+    <desc>在二十世紀初的美國, 那個時代裡「汽水」幾乎等同於「可樂」的代名詞, 小規模經營的汽水製造商查爾斯．李柏爾．格里格 (Charles Leiper Grigg) , 勇敢無懼、毫不退縮地挑戰龐大的企業巨頭。他決定推出一種完全嶄新、與眾不同的飲料, 試圖在壟斷格局中開闢出屬於自己的道路。</desc>
+    <date>20260811</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History Channel" start="20260811152500 +0800" stop="20260811162000 +0800">
     <title lang="zh">建構世界的食品 第5季第9集 </title>
     <desc>在二十世紀初的美國, 那個時代裡「汽水」幾乎等同於「可樂」的代名詞, 小規模經營的汽水製造商查爾斯．李柏爾．格里格 (Charles Leiper Grigg) , 勇敢無懼、毫不退縮地挑戰龐大的企業巨頭。他決定推出一種完全嶄新、與眾不同的飲料, 試圖在壟斷格局中開闢出屬於自己的道路。</desc>
     <date>20260811</date>
@@ -81457,7 +82597,23 @@
       <stereo>stereo</stereo>
     </audio>
   </programme>
+  <programme channel="History Channel" start="20260811162000 +0800" stop="20260811172000 +0800">
+    <title lang="zh">丹尼斯·奎德的神聖奇觀 第2季第15集 </title>
+    <desc>歷經數千年的歲月流轉, 人類憑藉創造力建起令人驚歎的壯麗建築。無論是位於教廷之城的壯觀聖堂, 還是高掛於祕魯雲層中的隱沒古都, 本集將深入追尋這些建物背後延續千年的神祕故事。</desc>
+    <date>20260811</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
   <programme channel="History" start="20260811172000 +0800" stop="20260811181500 +0800">
+    <title lang="zh">當鋪之星 第24季第621集 </title>
+    <desc>當一名賣家帶著由《陰屍路》演員簽名的人偶系列進店時, 查姆會上鉤嗎?當另一名賣家帶來《搖滾高中》的電影海報, 科里卻顯得異常冷靜。</desc>
+    <date>20260811</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History Channel" start="20260811172000 +0800" stop="20260811181500 +0800">
     <title lang="zh">當鋪之星 第24季第621集 </title>
     <desc>當一名賣家帶著由《陰屍路》演員簽名的人偶系列進店時, 查姆會上鉤嗎?當另一名賣家帶來《搖滾高中》的電影海報, 科里卻顯得異常冷靜。</desc>
     <date>20260811</date>
@@ -81473,7 +82629,23 @@
       <stereo>stereo</stereo>
     </audio>
   </programme>
+  <programme channel="History Channel" start="20260811181500 +0800" stop="20260811191000 +0800">
+    <title lang="zh">丹尼·崔橋的考古揭祕 第1季第5集 </title>
+    <desc>傳說中的怪物竟然真實存在、最致命的史前動物亦重現眼前, 這些驚人發現讓全世界陷入震驚與恐懼。</desc>
+    <date>20260811</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
   <programme channel="History" start="20260811191000 +0800" stop="20260811200500 +0800">
+    <title lang="zh">歷史重大謎團 第5季第6集 </title>
+    <desc>1942 年 2 月 24 日, 日本轟炸珍珠港後不久, 軍方雷達在洛杉磯上空偵測到疑似敵機的目標。究竟是甚麼引發了這場所謂的「洛杉磯之戰」?</desc>
+    <date>20260811</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History Channel" start="20260811191000 +0800" stop="20260811200500 +0800">
     <title lang="zh">歷史重大謎團 第5季第6集 </title>
     <desc>1942 年 2 月 24 日, 日本轟炸珍珠港後不久, 軍方雷達在洛杉磯上空偵測到疑似敵機的目標。究竟是甚麼引發了這場所謂的「洛杉磯之戰」?</desc>
     <date>20260811</date>
@@ -81489,7 +82661,23 @@
       <stereo>stereo</stereo>
     </audio>
   </programme>
+  <programme channel="History Channel" start="20260811200500 +0800" stop="20260811210500 +0800">
+    <title lang="zh">先驅者1952</title>
+    <desc>《先驅者1952》重新回顧了仍然被列為失踪的聯合國士兵的犧牲。這部電影揭示了法國營在韓戰中的角色以及這場戰爭持續的人類代價。</desc>
+    <date>20260811</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
   <programme channel="History" start="20260811210500 +0800" stop="20260811220000 +0800">
+    <title lang="zh">Vat 69: 馬來西亞任務部隊</title>
+    <desc>該部隊由英國空降特勤隊訓練, 成立於1969年, 負責與復甦的共產黨戰鬥。節目要探討英雄主義與馬來西亞精英突擊隊的犧牲。</desc>
+    <date>20260811</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History Channel" start="20260811210500 +0800" stop="20260811220000 +0800">
     <title lang="zh">Vat 69: 馬來西亞任務部隊</title>
     <desc>該部隊由英國空降特勤隊訓練, 成立於1969年, 負責與復甦的共產黨戰鬥。節目要探討英雄主義與馬來西亞精英突擊隊的犧牲。</desc>
     <date>20260811</date>
@@ -81505,7 +82693,23 @@
       <stereo>stereo</stereo>
     </audio>
   </programme>
+  <programme channel="History Channel" start="20260811220000 +0800" stop="20260811225000 +0800">
+    <title lang="zh">湯姆漢克斯: 二戰風雲 第1集 </title>
+    <desc>1939年9月, 在阿道夫•希特勒與約瑟夫•史達林之間祕密協議的默許之下, 德國以閃電般的坦克戰術入侵波蘭, 使整個歐洲再次陷入戰爭之中。</desc>
+    <date>20260811</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
   <programme channel="History" start="20260811225000 +0800" stop="20260811234500 +0800">
+    <title lang="zh">湯姆漢克斯: 二戰風雲 第2集 </title>
+    <desc>在擊敗波蘭之後, 希特勒把目光轉向西方, 計畫對法國發動攻擊, 並準備利用法軍防線中的薄弱環節。英國首相邱吉爾則急忙設法撤離盟軍部隊。</desc>
+    <date>20260811</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History Channel" start="20260811225000 +0800" stop="20260811234500 +0800">
     <title lang="zh">湯姆漢克斯: 二戰風雲 第2集 </title>
     <desc>在擊敗波蘭之後, 希特勒把目光轉向西方, 計畫對法國發動攻擊, 並準備利用法軍防線中的薄弱環節。英國首相邱吉爾則急忙設法撤離盟軍部隊。</desc>
     <date>20260811</date>
@@ -81521,7 +82725,23 @@
       <stereo>stereo</stereo>
     </audio>
   </programme>
+  <programme channel="History Channel" start="20260811234500 +0800" stop="20260812004000 +0800">
+    <title lang="zh">沼澤人類 第14季第13集 </title>
+    <desc>特洛伊在他最愛的蜂蜜穴遇上大麻煩。丹尼爾追捕稱為「海盜」的傳奇短吻鱷。勒朗和波克喬普對抗巫毒詛咒, 並面對喪屍短吻鱷。</desc>
+    <date>20260811</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
   <programme channel="History" start="20260812004000 +0800" stop="20260812014000 +0800">
+    <title lang="zh">先驅者1952</title>
+    <desc>《先驅者1952》重新回顧了仍然被列為失踪的聯合國士兵的犧牲。這部電影揭示了法國營在韓戰中的角色以及這場戰爭持續的人類代價。</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History Channel" start="20260812004000 +0800" stop="20260812014000 +0800">
     <title lang="zh">先驅者1952</title>
     <desc>《先驅者1952》重新回顧了仍然被列為失踪的聯合國士兵的犧牲。這部電影揭示了法國營在韓戰中的角色以及這場戰爭持續的人類代價。</desc>
     <date>20260812</date>
@@ -81537,7 +82757,23 @@
       <stereo>stereo</stereo>
     </audio>
   </programme>
+  <programme channel="History Channel" start="20260812014000 +0800" stop="20260812023000 +0800">
+    <title lang="zh">湯姆漢克斯: 二戰風雲 第1集 </title>
+    <desc>1939年9月, 在阿道夫•希特勒與約瑟夫•史達林之間祕密協議的默許之下, 德國以閃電般的坦克戰術入侵波蘭, 使整個歐洲再次陷入戰爭之中。</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
   <programme channel="History" start="20260812023000 +0800" stop="20260812032500 +0800">
+    <title lang="zh">湯姆漢克斯: 二戰風雲 第2集 </title>
+    <desc>在擊敗波蘭之後, 希特勒把目光轉向西方, 計畫對法國發動攻擊, 並準備利用法軍防線中的薄弱環節。英國首相邱吉爾則急忙設法撤離盟軍部隊。</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History Channel" start="20260812023000 +0800" stop="20260812032500 +0800">
     <title lang="zh">湯姆漢克斯: 二戰風雲 第2集 </title>
     <desc>在擊敗波蘭之後, 希特勒把目光轉向西方, 計畫對法國發動攻擊, 並準備利用法軍防線中的薄弱環節。英國首相邱吉爾則急忙設法撤離盟軍部隊。</desc>
     <date>20260812</date>
@@ -81553,7 +82789,23 @@
       <stereo>stereo</stereo>
     </audio>
   </programme>
+  <programme channel="History Channel" start="20260812032500 +0800" stop="20260812042000 +0800">
+    <title lang="zh">丹尼·崔橋的考古揭祕 第1季第5集 </title>
+    <desc>傳說中的怪物竟然真實存在、最致命的史前動物亦重現眼前, 這些驚人發現讓全世界陷入震驚與恐懼。</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
   <programme channel="History" start="20260812042000 +0800" stop="20260812051500 +0800">
+    <title lang="zh">歷史重大謎團 第5季第6集 </title>
+    <desc>1942 年 2 月 24 日, 日本轟炸珍珠港後不久, 軍方雷達在洛杉磯上空偵測到疑似敵機的目標。究竟是甚麼引發了這場所謂的「洛杉磯之戰」?</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History Channel" start="20260812042000 +0800" stop="20260812051500 +0800">
     <title lang="zh">歷史重大謎團 第5季第6集 </title>
     <desc>1942 年 2 月 24 日, 日本轟炸珍珠港後不久, 軍方雷達在洛杉磯上空偵測到疑似敵機的目標。究竟是甚麼引發了這場所謂的「洛杉磯之戰」?</desc>
     <date>20260812</date>
@@ -81569,7 +82821,23 @@
       <stereo>stereo</stereo>
     </audio>
   </programme>
+  <programme channel="History Channel" start="20260812051500 +0800" stop="20260812061000 +0800">
+    <title lang="zh">Vat 69: 馬來西亞任務部隊</title>
+    <desc>該部隊由英國空降特勤隊訓練, 成立於1969年, 負責與復甦的共產黨戰鬥。節目要探討英雄主義與馬來西亞精英突擊隊的犧牲。</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
   <programme channel="History" start="20260812061000 +0800" stop="20260812070500 +0800">
+    <title lang="zh">沼澤人類 第14季第13集 </title>
+    <desc>特洛伊在他最愛的蜂蜜穴遇上大麻煩。丹尼爾追捕稱為「海盜」的傳奇短吻鱷。勒朗和波克喬普對抗巫毒詛咒, 並面對喪屍短吻鱷。</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History Channel" start="20260812061000 +0800" stop="20260812070500 +0800">
     <title lang="zh">沼澤人類 第14季第13集 </title>
     <desc>特洛伊在他最愛的蜂蜜穴遇上大麻煩。丹尼爾追捕稱為「海盜」的傳奇短吻鱷。勒朗和波克喬普對抗巫毒詛咒, 並面對喪屍短吻鱷。</desc>
     <date>20260812</date>
@@ -81585,7 +82853,23 @@
       <stereo>stereo</stereo>
     </audio>
   </programme>
+  <programme channel="History Channel" start="20260812070500 +0800" stop="20260812080000 +0800">
+    <title lang="zh">丹尼·崔橋的考古揭祕 第1季第5集 </title>
+    <desc>傳說中的怪物竟然真實存在、最致命的史前動物亦重現眼前, 這些驚人發現讓全世界陷入震驚與恐懼。</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
   <programme channel="History" start="20260812080000 +0800" stop="20260812085500 +0800">
+    <title lang="zh">歷史重大謎團 第5季第6集 </title>
+    <desc>1942 年 2 月 24 日, 日本轟炸珍珠港後不久, 軍方雷達在洛杉磯上空偵測到疑似敵機的目標。究竟是甚麼引發了這場所謂的「洛杉磯之戰」?</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History Channel" start="20260812080000 +0800" stop="20260812085500 +0800">
     <title lang="zh">歷史重大謎團 第5季第6集 </title>
     <desc>1942 年 2 月 24 日, 日本轟炸珍珠港後不久, 軍方雷達在洛杉磯上空偵測到疑似敵機的目標。究竟是甚麼引發了這場所謂的「洛杉磯之戰」?</desc>
     <date>20260812</date>
@@ -81601,7 +82885,23 @@
       <stereo>stereo</stereo>
     </audio>
   </programme>
+  <programme channel="History Channel" start="20260812085500 +0800" stop="20260812095500 +0800">
+    <title lang="zh">先驅者1952</title>
+    <desc>《先驅者1952》重新回顧了仍然被列為失踪的聯合國士兵的犧牲。這部電影揭示了法國營在韓戰中的角色以及這場戰爭持續的人類代價。</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
   <programme channel="History" start="20260812095500 +0800" stop="20260812105000 +0800">
+    <title lang="zh">Vat 69: 馬來西亞任務部隊</title>
+    <desc>該部隊由英國空降特勤隊訓練, 成立於1969年, 負責與復甦的共產黨戰鬥。節目要探討英雄主義與馬來西亞精英突擊隊的犧牲。</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History Channel" start="20260812095500 +0800" stop="20260812105000 +0800">
     <title lang="zh">Vat 69: 馬來西亞任務部隊</title>
     <desc>該部隊由英國空降特勤隊訓練, 成立於1969年, 負責與復甦的共產黨戰鬥。節目要探討英雄主義與馬來西亞精英突擊隊的犧牲。</desc>
     <date>20260812</date>
@@ -81617,7 +82917,23 @@
       <stereo>stereo</stereo>
     </audio>
   </programme>
+  <programme channel="History Channel" start="20260812105000 +0800" stop="20260812114500 +0800">
+    <title lang="zh">湯姆漢克斯: 二戰風雲 第1集 </title>
+    <desc>1939年9月, 在阿道夫•希特勒與約瑟夫•史達林之間祕密協議的默許之下, 德國以閃電般的坦克戰術入侵波蘭, 使整個歐洲再次陷入戰爭之中。</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
   <programme channel="History" start="20260812114500 +0800" stop="20260812124000 +0800">
+    <title lang="zh">湯姆漢克斯: 二戰風雲 第2集 </title>
+    <desc>在擊敗波蘭之後, 希特勒把目光轉向西方, 計畫對法國發動攻擊, 並準備利用法軍防線中的薄弱環節。英國首相邱吉爾則急忙設法撤離盟軍部隊。</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History Channel" start="20260812114500 +0800" stop="20260812124000 +0800">
     <title lang="zh">湯姆漢克斯: 二戰風雲 第2集 </title>
     <desc>在擊敗波蘭之後, 希特勒把目光轉向西方, 計畫對法國發動攻擊, 並準備利用法軍防線中的薄弱環節。英國首相邱吉爾則急忙設法撤離盟軍部隊。</desc>
     <date>20260812</date>
@@ -81633,7 +82949,23 @@
       <stereo>stereo</stereo>
     </audio>
   </programme>
+  <programme channel="History Channel" start="20260812124000 +0800" stop="20260812133500 +0800">
+    <title lang="zh">沼澤人類 第14季第13集 </title>
+    <desc>特洛伊在他最愛的蜂蜜穴遇上大麻煩。丹尼爾追捕稱為「海盜」的傳奇短吻鱷。勒朗和波克喬普對抗巫毒詛咒, 並面對喪屍短吻鱷。</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
   <programme channel="History" start="20260812133500 +0800" stop="20260812143000 +0800">
+    <title lang="zh">丹尼·崔橋的考古揭祕 第1季第5集 </title>
+    <desc>傳說中的怪物竟然真實存在、最致命的史前動物亦重現眼前, 這些驚人發現讓全世界陷入震驚與恐懼。</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History Channel" start="20260812133500 +0800" stop="20260812143000 +0800">
     <title lang="zh">丹尼·崔橋的考古揭祕 第1季第5集 </title>
     <desc>傳說中的怪物竟然真實存在、最致命的史前動物亦重現眼前, 這些驚人發現讓全世界陷入震驚與恐懼。</desc>
     <date>20260812</date>
@@ -81649,7 +82981,23 @@
       <stereo>stereo</stereo>
     </audio>
   </programme>
+  <programme channel="History Channel" start="20260812143000 +0800" stop="20260812152500 +0800">
+    <title lang="zh">Vat 69: 馬來西亞任務部隊</title>
+    <desc>該部隊由英國空降特勤隊訓練, 成立於1969年, 負責與復甦的共產黨戰鬥。節目要探討英雄主義與馬來西亞精英突擊隊的犧牲。</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
   <programme channel="History" start="20260812152500 +0800" stop="20260812162000 +0800">
+    <title lang="zh">湯姆漢克斯: 二戰風雲 第2集 </title>
+    <desc>在擊敗波蘭之後, 希特勒把目光轉向西方, 計畫對法國發動攻擊, 並準備利用法軍防線中的薄弱環節。英國首相邱吉爾則急忙設法撤離盟軍部隊。</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History Channel" start="20260812152500 +0800" stop="20260812162000 +0800">
     <title lang="zh">湯姆漢克斯: 二戰風雲 第2集 </title>
     <desc>在擊敗波蘭之後, 希特勒把目光轉向西方, 計畫對法國發動攻擊, 並準備利用法軍防線中的薄弱環節。英國首相邱吉爾則急忙設法撤離盟軍部隊。</desc>
     <date>20260812</date>
@@ -81665,7 +83013,23 @@
       <stereo>stereo</stereo>
     </audio>
   </programme>
+  <programme channel="History Channel" start="20260812162000 +0800" stop="20260812172000 +0800">
+    <title lang="zh">歷史重大謎團 第5季第6集 </title>
+    <desc>1942 年 2 月 24 日, 日本轟炸珍珠港後不久, 軍方雷達在洛杉磯上空偵測到疑似敵機的目標。究竟是甚麼引發了這場所謂的「洛杉磯之戰」?</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
   <programme channel="History" start="20260812172000 +0800" stop="20260812182000 +0800">
+    <title lang="zh">先驅者1952</title>
+    <desc>《先驅者1952》重新回顧了仍然被列為失踪的聯合國士兵的犧牲。這部電影揭示了法國營在韓戰中的角色以及這場戰爭持續的人類代價。</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History Channel" start="20260812172000 +0800" stop="20260812182000 +0800">
     <title lang="zh">先驅者1952</title>
     <desc>《先驅者1952》重新回顧了仍然被列為失踪的聯合國士兵的犧牲。這部電影揭示了法國營在韓戰中的角色以及這場戰爭持續的人類代價。</desc>
     <date>20260812</date>
@@ -81681,7 +83045,23 @@
       <stereo>stereo</stereo>
     </audio>
   </programme>
+  <programme channel="History Channel" start="20260812182000 +0800" stop="20260812191000 +0800">
+    <title lang="zh">遠古外星人 第15季第232集 </title>
+    <desc>本集《遠古外星人》介紹世界上十大金字塔地點, 從秘魯河谷的250個隱藏金字塔, 到古希臘城市4800年前的遺跡, 再到埃及著名的Giza Plateau金字塔。</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
   <programme channel="History" start="20260812191000 +0800" stop="20260812200500 +0800">
+    <title lang="zh">威廉薛特納神祕檔案 第3季第24集 </title>
+    <desc>數百年來, 一直有美國各地藏有大量寶藏的傳說。失竊的黃金、海盜搶劫、殺人復仇的故事--但這些關於失落寶藏的傳說是否太荒謬了?</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History Channel" start="20260812191000 +0800" stop="20260812200500 +0800">
     <title lang="zh">威廉薛特納神祕檔案 第3季第24集 </title>
     <desc>數百年來, 一直有美國各地藏有大量寶藏的傳說。失竊的黃金、海盜搶劫、殺人復仇的故事--但這些關於失落寶藏的傳說是否太荒謬了?</desc>
     <date>20260812</date>
@@ -81697,7 +83077,23 @@
       <stereo>stereo</stereo>
     </audio>
   </programme>
+  <programme channel="History Channel" start="20260812200500 +0800" stop="20260812210000 +0800">
+    <title lang="zh">丹·艾克洛德之不可思議事件 第2季第2集 </title>
+    <desc>你是否曾經好奇, 天上掉下來的東西裡, 最奇怪最怪異的會是什麼呢?從隕石砸落, 到海鮮從天而降, 甚至還有浴缸掉落下來, 這些全都是難以想像的故事。天空中降下的事物, 往往超乎常理, 讓人既驚訝又困惑。</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
   <programme channel="History" start="20260812210000 +0800" stop="20260812215500 +0800">
+    <title lang="zh">歷史重大謎團 第6季第3集 </title>
+    <desc>這位傳奇的古代統治者, 成吉思汗, 他積累的財富估計在今天的美元中價值120萬億, 他將自己的財富隱藏得如此之好, 以至於至今仍然沒有人能夠挖掘出來。</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History Channel" start="20260812210000 +0800" stop="20260812215500 +0800">
     <title lang="zh">歷史重大謎團 第6季第3集 </title>
     <desc>這位傳奇的古代統治者, 成吉思汗, 他積累的財富估計在今天的美元中價值120萬億, 他將自己的財富隱藏得如此之好, 以至於至今仍然沒有人能夠挖掘出來。</desc>
     <date>20260812</date>
@@ -81713,6 +83109,14 @@
       <stereo>stereo</stereo>
     </audio>
   </programme>
+  <programme channel="History Channel" start="20260812215500 +0800" stop="20260812225000 +0800">
+    <title lang="zh">橡樹島的詛咒 第12季第25集 </title>
+    <desc>在一次可怕的崩潰之後, 夥伴們終於來到了解決通道的邊緣。</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
   <programme channel="History" start="20260812225000 +0800" stop="20260812234500 +0800">
     <title lang="zh">摩根·費里曼之越獄風雲 第2季第14集 </title>
     <desc>一名渴望寫犯罪小說的男子鋃鐺入獄；當他試圖逃離密西西比州最古老和最臭名昭著的帕奇曼農場監獄時, 他成為自己越獄故事的主角。</desc>
@@ -81721,7 +83125,23 @@
       <stereo>stereo</stereo>
     </audio>
   </programme>
+  <programme channel="History Channel" start="20260812225000 +0800" stop="20260812234500 +0800">
+    <title lang="zh">摩根·費里曼之越獄風雲 第2季第14集 </title>
+    <desc>一名渴望寫犯罪小說的男子鋃鐺入獄；當他試圖逃離密西西比州最古老和最臭名昭著的帕奇曼農場監獄時, 他成為自己越獄故事的主角。</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
   <programme channel="History" start="20260812234500 +0800" stop="20260813000000 +0800">
+    <title lang="zh">獨行俠 第11季第1集 </title>
+    <desc>在《獨行俠》最偏遠的地點, 十位新加入的獨行俠必須對抗寒冷和逐漸減少的日照, 在北極圈北方存活下來, 才有機會贏得500,000美元。</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History Channel" start="20260812234500 +0800" stop="20260813000000 +0800">
     <title lang="zh">獨行俠 第11季第1集 </title>
     <desc>在《獨行俠》最偏遠的地點, 十位新加入的獨行俠必須對抗寒冷和逐漸減少的日照, 在北極圈北方存活下來, 才有機會贏得500,000美元。</desc>
     <date>20260812</date>
@@ -302447,9 +303867,6 @@ eフィーバー機動戦士ガンダムSEEDクライマックス導入SP</desc>
   <channel id="Sky Sport Bundesliga DE">
     <display-name lang="zh">Sky Sport Bundesliga DE</display-name>
   </channel>
-  <channel id="History Channel">
-    <display-name lang="zh">History Channel</display-name>
-  </channel>
   <programme channel="Sky Sport F1 DE" start="20260806060000 +0800" stop="20260806070000 +0800">
     <title lang="zh">Motorsport: Rallye Finnland</title>
     <desc>Ob auf Asphalt, Schnee oder Schotter – die FIA Rallye-Weltmeisterschaft WRC steht für Motorsport-Abenteuer. Die Higlights der vergangenen Session. (Senderinfo).</desc>
@@ -303645,846 +305062,6 @@ eフィーバー機動戦士ガンダムSEEDクライマックス導入SP</desc>
   <programme channel="Sky Sport Bundesliga DE" start="20260809124500 +0800" stop="20260810060000 +0800">
     <title lang="zh">Fußball: 2. Bundesliga</title>
     <desc>Die 2. Fußball-Bundesliga ist nach der -Bundesliga die höchste Spielklasse im deutschen Männerfußball. Im heutigen fußballerischen Volksmund bezeichnet man sie auch als „Unterhaus“, während die 1. Liga „Oberhaus“ genannt wird. Etabliert wurde die 2. Bundesliga 1974, elf Jahre nach der Gründung ihrer großen Schwester. So sollte die wirtschaftliche Kluft von Profi- und Amateurbereich überwunden werd</desc>
-    <date>20260809</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="History Channel" start="20260806064000 +0800" stop="20260806073000 +0800">
-    <title lang="zh">Ancient Aliens – Unerklärliche Phänomene</title>
-    <desc>Nachdem mehrere Videos der US-Navy unidentifizierte Flugobjekte zeigten, veröffentlichte die amerikanische Regierung im Juni 2021 einen Bericht über die Himmelserscheinungen (Unidentified Aerial Phenomena).</desc>
-    <date>20260806</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="History Channel" start="20260806073000 +0800" stop="20260806081500 +0800">
-    <title lang="zh">Ancient Aliens – Unerklärliche Phänomene</title>
-    <desc>Es ist eines der größten Rätsel der prähistorischen Welt: Warum errichteten Menschen auf fast allen Kontinenten riesige stehende Steine? Nach Ansicht von Prä-Astronautikern könnten die Platzierung dieser Monolithen und ihre geologische Beschaffenheit auf ein außerirdisches Eingreifen hindeuten – und möglicherweise auf eine Technologie, die einst auf der Erde existierte und weitaus fortgeschrittene</desc>
-    <date>20260806</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="History Channel" start="20260806081500 +0800" stop="20260806090000 +0800">
-    <title lang="zh">Secrets Declassified mit David Duchovny</title>
-    <desc>Diese Episode zeigt die verborgenen Orte, an denen die Geschichte heimlich gelenkt wurde. Von Churchills Kriegsbunker – komplett mit einer Direktverbindung zu Präsident Roosevelt, die in seinem privaten Badezimmer versteckt war – bis hin zu einer sowjetischen Waffenbasis in der Wüste, die erst durch eine gewagte U-2-Spionagemission aufgedeckt wurde: Diese Orte wurden für Momente geschaffen, die di</desc>
-    <date>20260806</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="History Channel" start="20260806090000 +0800" stop="20260806094500 +0800">
-    <title lang="zh">Unglaubliche Entdeckungen mit Danny Trejo</title>
-    <desc>Von aus dem Meer geborgenen Bomben aus dem Zweiten Weltkrieg und im Sand vergrabenen Nazi-Bunkern über unter Washington, D.C. versteckte chemische Waffen bis hin zu einer mit der Kamera eingefangenen Supernova – diese explosiven Entdeckungen beweisen, dass die Explosionen der Vergangenheit unsere Welt auch heute noch erschüttern können. (Senderinfo).</desc>
-    <date>20260806</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="History Channel" start="20260806094500 +0800" stop="20260806103000 +0800">
-    <title lang="zh">The UnXplained mit William Shatner</title>
-    <desc>Seit Tausenden von Jahren ist die Menschheit von der Vorstellung fasziniert, dass der Mensch eines Tages durch die Zeit reisen wird. Was aber, wenn Zeitreisen bereits stattgefunden haben? Einige der größten Wissenschaftler der Welt sind der festen Überzeugung, dass diese verblüffende Leistung theoretisch möglich ist. Ist es also wirklich zu weit hergeholt zu glauben, dass es einigen Menschen gelun</desc>
-    <date>20260806</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="History Channel" start="20260806103000 +0800" stop="20260806111500 +0800">
-    <title lang="zh">The UnXplained mit William Shatner</title>
-    <desc>Die Männer, denen die Ehre zuteilwurde, Präsident der Vereinigten Staaten zu sein, werden als angesehene Führungspersönlichkeiten gefeiert, ihre Namen sind in den Annalen der Geschichte verewigt. Aber es gibt viele bizarre Geschichten über US-Präsidenten, die sich nicht erklären lassen und immer noch rätselhaft sind. Könnte die Wahrheit hinter diesen erstaunlichen Berichten Amerikas Vergangenheit </desc>
-    <date>20260806</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="History Channel" start="20260806111500 +0800" stop="20260806120000 +0800">
-    <title lang="zh">Faszination Wasser</title>
-    <desc>Seit mehr als 100 Jahren ist Helgoland ein Zentrum der internationalen Nordsee-Forschung. Meeresbiologe Uli Kunz untersucht, wie Unterwasserlärm der Nordsee schadet, und zeigt, warum das Watt so wichtig ist.</desc>
-    <date>20260806</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="History Channel" start="20260806120000 +0800" stop="20260806124500 +0800">
-    <title lang="zh">Faszination Wasser</title>
-    <desc>85 Millionen Menschen leben im Einzugsgebiet der Ostsee. Tausende Wracks am Meeresgrund zeugen davon, wie Handel und Krieg das Schicksal der Region seit Jahrhunderten prägen. Doch die Ostsee ist immer für eine Überraschung gut. In der Kieler Bucht untersucht Uli Kunz eine Pflanze, die für das gesamte Ökosystem von zentraler Bedeutung ist: Seegras. Heute weiß man, dass eine Seegraswiese pro Hektar </desc>
-    <date>20260806</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="History Channel" start="20260806124500 +0800" stop="20260806132500 +0800">
-    <title lang="zh">Secrets Declassified mit David Duchovny</title>
-    <desc>Diese Episode zeigt die verborgenen Orte, an denen die Geschichte heimlich gelenkt wurde. Von Churchills Kriegsbunker – komplett mit einer Direktverbindung zu Präsident Roosevelt, die in seinem privaten Badezimmer versteckt war – bis hin zu einer sowjetischen Waffenbasis in der Wüste, die erst durch eine gewagte U-2-Spionagemission aufgedeckt wurde: Diese Orte wurden für Momente geschaffen, die di</desc>
-    <date>20260806</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="History Channel" start="20260806132500 +0800" stop="20260806140500 +0800">
-    <title lang="zh">Unglaubliche Entdeckungen mit Danny Trejo</title>
-    <desc>Von aus dem Meer geborgenen Bomben aus dem Zweiten Weltkrieg und im Sand vergrabenen Nazi-Bunkern über unter Washington, D.C. versteckte chemische Waffen bis hin zu einer mit der Kamera eingefangenen Supernova – diese explosiven Entdeckungen beweisen, dass die Explosionen der Vergangenheit unsere Welt auch heute noch erschüttern können. (Senderinfo).</desc>
-    <date>20260806</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="History Channel" start="20260806140500 +0800" stop="20260806144500 +0800">
-    <title lang="zh">The UnXplained mit William Shatner</title>
-    <desc>Seit Tausenden von Jahren ist die Menschheit von der Vorstellung fasziniert, dass der Mensch eines Tages durch die Zeit reisen wird. Was aber, wenn Zeitreisen bereits stattgefunden haben? Einige der größten Wissenschaftler der Welt sind der festen Überzeugung, dass diese verblüffende Leistung theoretisch möglich ist. Ist es also wirklich zu weit hergeholt zu glauben, dass es einigen Menschen gelun</desc>
-    <date>20260806</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="History Channel" start="20260806144500 +0800" stop="20260806152500 +0800">
-    <title lang="zh">The UnXplained mit William Shatner</title>
-    <desc>Die Männer, denen die Ehre zuteilwurde, Präsident der Vereinigten Staaten zu sein, werden als angesehene Führungspersönlichkeiten gefeiert, ihre Namen sind in den Annalen der Geschichte verewigt. Aber es gibt viele bizarre Geschichten über US-Präsidenten, die sich nicht erklären lassen und immer noch rätselhaft sind. Könnte die Wahrheit hinter diesen erstaunlichen Berichten Amerikas Vergangenheit </desc>
-    <date>20260806</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="History Channel" start="20260806152500 +0800" stop="20260806155000 +0800">
-    <title lang="zh">Forged with Steele</title>
-    <desc>Alec kreiert einen stilvollen und tödlichen Stockdegen – eine versteckte Klinge, die in einem Spazierstock verborgen ist. Dieses Design aus dem 18. Jahrhundert hat Funktionen, die er noch nie zuvor angefertigt hat, beispielsweise einen akkuraten Verriegelungsmechanismus. Es bleibt zu hoffen, dass dieser Gehstock nicht zur Tortur wird. (Senderinfo).</desc>
-    <date>20260806</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="History Channel" start="20260806155000 +0800" stop="20260806163000 +0800">
-    <title lang="zh">The UnBelievable mit Dan Aykroyd</title>
-    <desc>Stellen Sie sich eine Stadt vor, in der man nur mit einer Seilbahn fahren kann, oder eine Stadt, in der es von seltsamen Affen wimmelt, und sogar einen Ort, an dem es einen wunderschönen Wasserfall gibt, der Blut spuckt. Es geht auf eine Tour zu den ungewöhnlichsten Orten der Geschichte (Senderinfo).</desc>
-    <date>20260806</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="History Channel" start="20260806163000 +0800" stop="20260806171000 +0800">
-    <title lang="zh">The UnBelievable mit Dan Aykroyd</title>
-    <desc>Wussten Sie, dass Bärte tödlich sein können? Oder dass ein Rasenmäher einmal einen Zuschauer bei einem Fußballspiel getötet hat? Oder dass jemand gestorben ist, weil er zu viel Wasser getrunken hat? Dies sind nur einige der wilden und verrückten Todesfälle, die wirklich unglaublich sind. (Senderinfo).</desc>
-    <date>20260806</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="History Channel" start="20260806171000 +0800" stop="20260806175000 +0800">
-    <title lang="zh">The UnBelievable mit Dan Aykroyd</title>
-    <desc>Einige der genialsten Innovationen der Geschichte sind auch die bizarrsten. Wie ein voll funktionsfähiges Auto, das in der Luft schwebt. Oder Kleidung, die aus der beliebtesten Kalziumquelle aller Menschen besteht. Wie wäre es mit einem Roboterhund, der Feuer spuckt? Dies sind die Geschichten der skurrilsten Erfindungen der Geschichte. (Senderinfo).</desc>
-    <date>20260806</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="History Channel" start="20260806175000 +0800" stop="20260806183000 +0800">
-    <title lang="zh">The UnBelievable mit Dan Aykroyd</title>
-    <desc>Von der unerwartet grausamen Sportart Zehenringen bis hin zu einem erbitterten Wettbewerb zwischen den hässlichsten Haustieren der Welt oder sogar den erschütternden Ursprüngen einiger unserer beliebtesten Schulhofkonfrontationen – diese Episode erkundet die Welt der bizarren Spiele, von denen eines merkwürdiger ist als das andere. (Senderinfo).</desc>
-    <date>20260806</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="History Channel" start="20260806183000 +0800" stop="20260806191500 +0800">
-    <title lang="zh">Ancient Aliens – Unerklärliche Phänomene</title>
-    <desc>Diese Episode zählt die zehn größten Vertuschungen von Alien-Vorfällen auf, vom berühmten Roswell-Zwischenfall über eine geheime Militärbasis, die Gerüchten zufolge ET-Technologie beherbergt, bis hin zu kürzlich veröffentlichten UFO-Videos, die von Kameras an Bord von Navy-Kampfflugzeugen aufgenommen wurden. Das wirft die Frage auf, ob es eine massive Vertuschung der Wahrheit über die Anwesenheit </desc>
-    <date>20260806</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="History Channel" start="20260806191500 +0800" stop="20260806200000 +0800">
-    <title lang="zh">Ancient Aliens – Unerklärliche Phänomene</title>
-    <desc>Wissenschaftler wissen heute, dass sieben menschenähnliche Arten Jahrtausende lang neben dem Homo sapiens lebten. Es fragt sich, warum nur der Mensch überlebt hat. Giorgio A. Tsoukalos, David Childress und William Henry erforschen gemeinsam mit Rabbi Ariel bar Tzadok und der Filmemacherin Caroline Cory das Geheimnis des menschlichen Genoms, um herauszufinden, ob der Mensch das Ergebnis eines außer</desc>
-    <date>20260806</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="History Channel" start="20260806200000 +0800" stop="20260806204500 +0800">
-    <title lang="zh">Ancient Aliens – Unerklärliche Phänomene</title>
-    <desc>Nachdem mehrere Videos der US-Navy unidentifizierte Flugobjekte zeigten, veröffentlichte die amerikanische Regierung im Juni 2021 einen Bericht über die Himmelserscheinungen (Unidentified Aerial Phenomena).</desc>
-    <date>20260806</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="History Channel" start="20260806204500 +0800" stop="20260806213000 +0800">
-    <title lang="zh">Ancient Aliens – Unerklärliche Phänomene</title>
-    <desc>Es ist eines der größten Rätsel der prähistorischen Welt: Warum errichteten Menschen auf fast allen Kontinenten riesige stehende Steine? Nach Ansicht von Prä-Astronautikern könnten die Platzierung dieser Monolithen und ihre geologische Beschaffenheit auf ein außerirdisches Eingreifen hindeuten – und möglicherweise auf eine Technologie, die einst auf der Erde existierte und weitaus fortgeschrittene</desc>
-    <date>20260806</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="History Channel" start="20260806213000 +0800" stop="20260806222000 +0800">
-    <title lang="zh">The Proof is Out There – Auf den Spuren des Unerklärlichen</title>
-    <desc>Beweist ein Video, das dem Kongress kürzlich von der US-Marine vorgelegt wurde, ein für alle Mal, dass UFOs wirklich existieren? Sind die neuesten angeblichen Aufnahmen des Monsters von Loch Ness der überzeugendste Beweis für die Existenz dieses Wesens seit langer Zeit? Wie beißt sich ein Zombie-Fischkopf durch eine Blechdose? Und Meeresforscher entdecken eine mysteriöse "Yellow Brick Road" auf de</desc>
-    <date>20260806</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="History Channel" start="20260806222000 +0800" stop="20260806230500 +0800">
-    <title lang="zh">The Proof is Out There – Auf den Spuren des Unerklärlichen</title>
-    <desc>Ein Video, das eine seltsame Formation aus flackernden Lichtern zeigt, könnte der neueste Beweis sein, dass Houston ein UFO-Hotspot ist. Was ist das mysteriöse menschenartige Wesen, das auf einem verlassenen Dachboden gefilmt wurde? Wurde die Regierung beim Transport außerirdischer Technologie in einer streng geheimen Militärbasis erwischt? Und die jüngste Bigfoot-Sichtung in Provo, Utah, scheint </desc>
-    <date>20260806</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="History Channel" start="20260806230500 +0800" stop="20260806235000 +0800">
-    <title lang="zh">The UnXplained mit William Shatner</title>
-    <desc>Im Laufe der Geschichte haben Berichte über unerklärliche körperliche und geistige Leiden morbide Neugier und spürbare Angst ausgelöst. Von mysteriösen Wunden, die ohne ersichtlichen Grund auftreten, bis hin zu einem seltsamen Wahn, der die Menschen dazu bringt, sich zu Tode zu tanzen. Sind diese bizarren Leiden lediglich Einbildungen des Geistes? Oder könnten sie von unsichtbaren Kräften herrühre</desc>
-    <date>20260806</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="History Channel" start="20260806235000 +0800" stop="20260807004000 +0800">
-    <title lang="zh">The UnXplained mit William Shatner</title>
-    <desc>Über den ganzen Globus verstreut liegen geheimnisvolle Ruinen, die in sandigen Wüsten begraben sind, auf hoch aufragenden Bergen thronen oder im Herzen dichter Dschungel verborgen sind. Diese uralten Bauwerke sind stumme Wächter der Vergangenheit, deren wahre Geschichte von der Zeit ausgelöscht zu sein scheint. Kann die moderne Archäologie das Rätsel entschlüsseln, wie – und warum – diese Meisterw</desc>
-    <date>20260806</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="History Channel" start="20260807004000 +0800" stop="20260807012500 +0800">
-    <title lang="zh">History's Greatest Mysteries</title>
-    <desc>Es ist eine der bekanntesten Geschichten aus der Bibel: Gott schickt eine Flut, die fast alle Lebewesen auf der Erde auslöscht, bis auf Noah, seine Familie und die Tiere, die er in seiner sagenhaften Arche rettet. Seit Tausenden von Jahren wird die Geschichte erzählt, aber es ist wenig darüber bekannt, was mit der Arche geschah. Können wissenschaftliche Beweise zeigen, ob es wirklich eine große Fl</desc>
-    <date>20260806</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="History Channel" start="20260807012500 +0800" stop="20260807020500 +0800">
-    <title lang="zh">History's Greatest Mysteries</title>
-    <desc>Es ist der einzige ungelöste Fall von Luftpiraterie in der Geschichte: 1971 entführt ein Mann einen Flug der Northwest Orient Airlines und fordert vier Fallschirme und 200.000 Dollar. Er springt mit dem Geld aus dem Flugzeug und wird nie wieder gesehen. Können neue Beweise endlich die Identität des anonymen Entführers aufdecken, der unter dem Namen D.B. Cooper bekannt ist? (Senderinfo).</desc>
-    <date>20260806</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="History Channel" start="20260807020500 +0800" stop="20260807025500 +0800">
-    <title lang="zh">The Proof is Out There – Auf den Spuren des Unerklärlichen</title>
-    <desc>Was ist die Wahrheit hinter der kürzlichen Sichtung eines Chupacabra in der Nähe des Zoos von Amarillo, der von einer Kamera aufgenommen wurde? Ist ein Luftbild, das über Costa Rica aufgenommen wurde, das beste UFO-Bild, das je gemacht wurde? Sind seltsame Geräusche, die auf dem Mars aufgezeichnet wurden, eine Botschaft von einer außerirdischen Spezies? Und welche glutäugigen Kreaturen lauern in e</desc>
-    <date>20260806</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="History Channel" start="20260807025500 +0800" stop="20260807034000 +0800">
-    <title lang="zh">The Proof is Out There – Auf den Spuren des Unerklärlichen</title>
-    <desc>Hat ein Mann in der Türkei Aufnahmen von außerirdischen Piloten in einem UFO-Cockpit gemacht? Was hat es mit den seltsamen Lichtern auf sich, die seit der Zeit vor dem Bürgerkrieg wiederholt über dem Brown Mountain in North Carolina gesichtet wurden? Ist ein australischer Mann auf dem Bürgersteig über eine außerirdische Leiche gestolpert? Und wer oder was hat Tiere in Stein verwandelt? Tony und se</desc>
-    <date>20260806</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="History Channel" start="20260807034000 +0800" stop="20260807042500 +0800">
-    <title lang="zh">The UnXplained mit William Shatner</title>
-    <desc>Es gibt nichts Faszinierenderes als einen Code, der nicht geknackt werden kann. Seit Jahrhunderten hat die Menschheit raffinierte Wege gefunden, um wertvolle Informationen zu verstecken – von rätselhaften Puzzles bis hin zu komplexen Chiffren und geheimen Symbolen. Wenn die unknackbaren Codes der Geschichte entschlüsselt werden können ... könnten wir dann Antworten auf einige der größten Geheimnis</desc>
-    <date>20260806</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="History Channel" start="20260807042500 +0800" stop="20260807051000 +0800">
-    <title lang="zh">The UnXplained mit William Shatner</title>
-    <desc>Der Zweite Weltkrieg war der größte und tödlichste Konflikt in der Geschichte der Menschheit. Von 1939 bis 1945 lieferten sich mehr als fünfzig Nationen erschütternde Kämpfe – und in dieser Zeit entstanden eine Reihe von faszinierenden und hartnäckigen Geheimnissen. Fast achtzig Jahre später sind die seltsamen Geschichten über alles, vom verlorenen Gold bis hin zu Geheimgesellschaften und hochentw</desc>
-    <date>20260806</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="History Channel" start="20260807051000 +0800" stop="20260807055500 +0800">
-    <title lang="zh">Ancient Aliens – Unerklärliche Phänomene</title>
-    <desc>Einige der berühmtesten heiligen Tempel der Welt wurden auf den Ruinen von weitaus älteren Bauwerken errichtet. Es fragt sich, was die frühen Menschen dazu veranlasste, an denselben Orten immer wieder neu zu bauen. Besitzen diese Orte eine besondere Kraft? Und könnten sie Orte sein, an denen die Menschen mit Außerirdischen in Kontakt getreten sind? (Senderinfo).</desc>
-    <date>20260806</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="History Channel" start="20260807055500 +0800" stop="20260807064000 +0800">
-    <title lang="zh">Ancient Aliens – Unerklärliche Phänomene</title>
-    <desc>Überall auf der Welt sprechen hochrangige Regierungsmitglieder offen über unidentifizierte Himmelserscheinungen (Unidentified Aerial Phenomena). Aber warum gerade jetzt? Prä-Astronautiker behaupten, dass die Beweise zu eindeutig geworden sind, um sie zu ignorieren – und dass die Wahrheit über eine außerirdische Präsenz auf der Erde bald ans Licht kommen wird. (Senderinfo).</desc>
-    <date>20260806</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="History Channel" start="20260807064000 +0800" stop="20260807073000 +0800">
-    <title lang="zh">Ancient Aliens – Unerklärliche Phänomene</title>
-    <desc>Vor etwa 2600 Jahren verschwand das heiligste Relikt der antiken Welt plötzlich aus der Geschichte: die Bundeslade. Die Beschreibungen der unglaublichen Kraft der Bundeslade könnten darauf hindeuten, dass es sich um ein hochentwickeltes technologisches Gerät handelte. Könnte es sein, dass sie einen unbestreitbaren Beweis für die außerirdische Vergangenheit der Menschheit liefert, falls sie je gefu</desc>
-    <date>20260807</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="History Channel" start="20260807073000 +0800" stop="20260807081500 +0800">
-    <title lang="zh">Ancient Aliens – Unerklärliche Phänomene</title>
-    <desc>In den Überlieferungen der Ureinwohner Nordamerikas finden sich Geschichten über die Ahnen der Sterne – mächtige Wesen, die in der fernen Vergangenheit auf die Erde kamen und manchmal sogar heute noch anwesend sind. Die alten Berichte und Darstellungen dieser Besucher könnten tiefgreifende Wahrheiten sowohl über die Ursprünge der Menschheit als auch über ihre Zukunft in den Sternen offenbaren. (Se</desc>
-    <date>20260807</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="History Channel" start="20260807081500 +0800" stop="20260807090000 +0800">
-    <title lang="zh">History's Greatest Mysteries</title>
-    <desc>15 Jahre lang versuchten die USA und Mexiko, El Chapo, den obersten Chef des Sinaloa-Drogenkartells, zu stellen. Er schaffte es 2001 und 2015, aus den mexikanischen Hochsicherheitsgefängnissen zu entkommen. Wie konnte er 2016 geschnappt werden?</desc>
-    <date>20260807</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="History Channel" start="20260807090000 +0800" stop="20260807094500 +0800">
-    <title lang="zh">History's Deadliest mit Ving Rhames</title>
-    <desc>Von verheerenden Hurrikanen und Tsunamis bis hin zu Erdbeben, Überschwemmungen und Bränden – diese Episode enthüllt die tödlichsten Naturkatastrophen, die jemals registriert wurden. (Senderinfo).</desc>
-    <date>20260807</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="History Channel" start="20260807094500 +0800" stop="20260807103000 +0800">
-    <title lang="zh">Wunder und Heiligtümer mit Dennis Quaid</title>
-    <desc>In der Bibel gibt es zwei "Archen.</desc>
-    <date>20260807</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="History Channel" start="20260807103000 +0800" stop="20260807111500 +0800">
-    <title lang="zh">Wunder und Heiligtümer mit Dennis Quaid</title>
-    <desc>Das Streben nach Unsterblichkeit fesselt und verunsichert uns schon seit Tausenden von Jahren. Von den Heilkräften des heiligen Grals, den Jesus beim letzten Abendmahl benutzte, über den geheimnisvollen Jungbrunnen bis hin zum sagenumwobenen Stein der Weisen. Können diese lange gesuchten Reliquien die Macht verleihen, ewig zu leben? Und wenn ja, wo könnten sie sein? (Senderinfo).</desc>
-    <date>20260807</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="History Channel" start="20260807111500 +0800" stop="20260807120000 +0800">
-    <title lang="zh">Faszination Wasser</title>
-    <desc>Ein mächtiger Eisschild bedeckt fast die gesamte Insel, nur die Küsten Grönlands sind bewohnt. Auch deshalb ist Grönland ein Naturparadies, in dem es viel zu erforschen gibt. Uli Kunz führt durch diesen besonderen Lebensraum und erkundet die Phänomene der Arktis. Wie kommen die mythischen Polarlichter zustande? Wie schützen sich Pflanzen und Tiere vor dem Erfrieren? Und was hat es mit den merkwürd</desc>
-    <date>20260807</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="History Channel" start="20260807120000 +0800" stop="20260807124500 +0800">
-    <title lang="zh">Faszination Wasser</title>
-    <desc>Der Chagos-Archipel im Indischen Ozean ist ein Inselparadies und einer der größten Meeresnationalparks. Warum sind die Korallenriffe hier gesünder und artenreicher als in anderen Regionen? Gemeinsam mit einem Team von Forschenden geht der Meeresbiologe und-Moderator Uli Kunz auf Entdeckungstour: Wie nutzen Haie, Mantarochen und Seevögel das Schutzgebiet? Welche Arten kommen vor? Und wie beeinfluss</desc>
-    <date>20260807</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="History Channel" start="20260807124500 +0800" stop="20260807132500 +0800">
-    <title lang="zh">History's Greatest Mysteries</title>
-    <desc>Ein unantastbarer Drogenbaron stand an der Spitze eines kriminellen Imperiums und wurde zum meistgesuchten Mann der Welt. Fünfzehn Jahre lang versuchten die USA und Mexiko, El Chapo aufzuspüren, doch er war ihnen stets einen Schritt voraus. Wie gelang es den Ermittlern schließlich, El Chapo vor Gericht zu bringen? (Senderinfo).</desc>
-    <date>20260807</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="History Channel" start="20260807132500 +0800" stop="20260807140500 +0800">
-    <title lang="zh">History's Deadliest mit Ving Rhames</title>
-    <desc>Von verheerenden Hurrikanen und Tsunamis bis hin zu Erdbeben, Überschwemmungen und Bränden – diese Episode enthüllt die tödlichsten Naturkatastrophen, die jemals registriert wurden. (Senderinfo).</desc>
-    <date>20260807</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="History Channel" start="20260807140500 +0800" stop="20260807144500 +0800">
-    <title lang="zh">Wunder und Heiligtümer mit Dennis Quaid</title>
-    <desc>In der Bibel gibt es zwei "Archen.</desc>
-    <date>20260807</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="History Channel" start="20260807144500 +0800" stop="20260807152500 +0800">
-    <title lang="zh">Wunder und Heiligtümer mit Dennis Quaid</title>
-    <desc>Das Streben nach Unsterblichkeit fesselt und verunsichert uns schon seit Tausenden von Jahren. Von den Heilkräften des heiligen Grals, den Jesus beim letzten Abendmahl benutzte, über den geheimnisvollen Jungbrunnen bis hin zum sagenumwobenen Stein der Weisen. Können diese lange gesuchten Reliquien die Macht verleihen, ewig zu leben? Und wenn ja, wo könnten sie sein? (Senderinfo).</desc>
-    <date>20260807</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="History Channel" start="20260807152500 +0800" stop="20260807155000 +0800">
-    <title lang="zh">Forged with Steele</title>
-    <desc>Alec nimmt nicht nur eine, sondern gleich zwei furchterregende Waffen in Angriff: ein brutales Marine-Enterbeil und eine gigantische, furchterregende Sense, die eines Sensenmannes würdig wäre. Beide haben eine besonders riskante Schmiedetechnik gemeinsam, die voller Gefahren steckt. (Senderinfo).</desc>
-    <date>20260807</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="History Channel" start="20260807155000 +0800" stop="20260807163000 +0800">
-    <title lang="zh">The UnBelievable mit Dan Aykroyd</title>
-    <desc>Wir kennen die Geschichten von großen Kriegen, die mit bahnbrechenden Waffen geführt wurden, aber was ist mit allem, was dazwischen liegt? Von Raketen, die von Tauben bemannt werden, über einen Helm, der mit Schusswaffen ausgestattet ist, bis hin zu einem Brandsatz, der wie eine amerikanische Freizeitbeschäftigung aussieht. Diese Episode erzählt die Geschichten von unkonventionellen Waffen, eine u</desc>
-    <date>20260807</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="History Channel" start="20260807163000 +0800" stop="20260807171000 +0800">
-    <title lang="zh">The UnBelievable mit Dan Aykroyd</title>
-    <desc>In dieser Folge geht es um die seltsamsten und grausamsten Jobs aller Zeiten. Von Nachtarbeitern, die im viktorianischen London die Straßen von Exkrementen säubern, über professionelle Trauernde, die bei Beerdigungen weinen, bis hin zu den unerschrockenen Hirschurin-Sammlern. Dies sind die unglaublichsten Jobs aller Zeiten! (Senderinfo).</desc>
-    <date>20260807</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="History Channel" start="20260807171000 +0800" stop="20260807175000 +0800">
-    <title lang="zh">The UnBelievable mit Dan Aykroyd</title>
-    <desc>Einige der heldenhaftesten Persönlichkeiten der Welt überwinden die tückischsten, unmöglichsten und geradezu bizarren Umstände. Wie ein Mann, der die Apokalypse überlebt, oder eine Frau, die nicht nur in eine, sondern in drei Schiffskatastrophen verwickelt ist. Und eine Katze, die sich im Kampf als unbesiegbar erweist. Dies sind die Geschichten vom Überleben, vom Erfolg und vom Wiedersehen allen W</desc>
-    <date>20260807</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="History Channel" start="20260807175000 +0800" stop="20260807183000 +0800">
-    <title lang="zh">The UnBelievable mit Dan Aykroyd</title>
-    <desc>Würden Sie glauben, dass die Anfänge der modernen Endoskopie tatsächlich einem professionellen Schwertschlucker zu verdanken sind? Oder dass Schlafmangel seltsame Vorteile haben könnte? Wie wäre es mit dem Trinken von Erbrochenem im Namen der Wissenschaft? Dies sind die Geschichten der bizarrsten, undenkbarsten und skandalösesten Experimente aller Zeiten. (Senderinfo).</desc>
-    <date>20260807</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="History Channel" start="20260807183000 +0800" stop="20260807191500 +0800">
-    <title lang="zh">Ancient Aliens – Unerklärliche Phänomene</title>
-    <desc>Einige der berühmtesten heiligen Tempel der Welt wurden auf den Ruinen von weitaus älteren Bauwerken errichtet. Es fragt sich, was die frühen Menschen dazu veranlasste, an denselben Orten immer wieder neu zu bauen. Besitzen diese Orte eine besondere Kraft? Und könnten sie Orte sein, an denen die Menschen mit Außerirdischen in Kontakt getreten sind? (Senderinfo).</desc>
-    <date>20260807</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="History Channel" start="20260807191500 +0800" stop="20260807200000 +0800">
-    <title lang="zh">Ancient Aliens – Unerklärliche Phänomene</title>
-    <desc>Überall auf der Welt sprechen hochrangige Regierungsmitglieder offen über unidentifizierte Himmelserscheinungen (Unidentified Aerial Phenomena). Aber warum gerade jetzt? Prä-Astronautiker behaupten, dass die Beweise zu eindeutig geworden sind, um sie zu ignorieren – und dass die Wahrheit über eine außerirdische Präsenz auf der Erde bald ans Licht kommen wird. (Senderinfo).</desc>
-    <date>20260807</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="History Channel" start="20260807200000 +0800" stop="20260807204500 +0800">
-    <title lang="zh">Ancient Aliens – Unerklärliche Phänomene</title>
-    <desc>Vor etwa 2600 Jahren verschwand das heiligste Relikt der antiken Welt plötzlich aus der Geschichte: die Bundeslade. Die Beschreibungen der unglaublichen Kraft der Bundeslade könnten darauf hindeuten, dass es sich um ein hochentwickeltes technologisches Gerät handelte. Könnte es sein, dass sie einen unbestreitbaren Beweis für die außerirdische Vergangenheit der Menschheit liefert, falls sie je gefu</desc>
-    <date>20260807</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="History Channel" start="20260807204500 +0800" stop="20260807213000 +0800">
-    <title lang="zh">Ancient Aliens – Unerklärliche Phänomene</title>
-    <desc>In den Überlieferungen der Ureinwohner Nordamerikas finden sich Geschichten über die Ahnen der Sterne – mächtige Wesen, die in der fernen Vergangenheit auf die Erde kamen und manchmal sogar heute noch anwesend sind. Die alten Berichte und Darstellungen dieser Besucher könnten tiefgreifende Wahrheiten sowohl über die Ursprünge der Menschheit als auch über ihre Zukunft in den Sternen offenbaren. (Se</desc>
-    <date>20260807</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="History Channel" start="20260807213000 +0800" stop="20260807222000 +0800">
-    <title lang="zh">The Proof is Out There – Auf den Spuren des Unerklärlichen</title>
-    <desc>Was ist die Wahrheit hinter der kürzlichen Sichtung eines Chupacabra in der Nähe des Zoos von Amarillo, der von einer Kamera aufgenommen wurde? Ist ein Luftbild, das über Costa Rica aufgenommen wurde, das beste UFO-Bild, das je gemacht wurde? Sind seltsame Geräusche, die auf dem Mars aufgezeichnet wurden, eine Botschaft von einer außerirdischen Spezies? Und welche glutäugigen Kreaturen lauern in e</desc>
-    <date>20260807</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="History Channel" start="20260807222000 +0800" stop="20260807230500 +0800">
-    <title lang="zh">The Proof is Out There – Auf den Spuren des Unerklärlichen</title>
-    <desc>Hat ein Mann in der Türkei Aufnahmen von außerirdischen Piloten in einem UFO-Cockpit gemacht? Was hat es mit den seltsamen Lichtern auf sich, die seit der Zeit vor dem Bürgerkrieg wiederholt über dem Brown Mountain in North Carolina gesichtet wurden? Ist ein australischer Mann auf dem Bürgersteig über eine außerirdische Leiche gestolpert? Und wer oder was hat Tiere in Stein verwandelt? Tony und se</desc>
-    <date>20260807</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="History Channel" start="20260807230500 +0800" stop="20260807235000 +0800">
-    <title lang="zh">The UnXplained mit William Shatner</title>
-    <desc>Es gibt nichts Faszinierenderes als einen Code, der nicht geknackt werden kann. Seit Jahrhunderten hat die Menschheit raffinierte Wege gefunden, um wertvolle Informationen zu verstecken – von rätselhaften Puzzles bis hin zu komplexen Chiffren und geheimen Symbolen. Wenn die unknackbaren Codes der Geschichte entschlüsselt werden können ... könnten wir dann Antworten auf einige der größten Geheimnis</desc>
-    <date>20260807</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="History Channel" start="20260807235000 +0800" stop="20260808004000 +0800">
-    <title lang="zh">The UnXplained mit William Shatner</title>
-    <desc>Der Zweite Weltkrieg war der größte und tödlichste Konflikt in der Geschichte der Menschheit. Von 1939 bis 1945 lieferten sich mehr als fünfzig Nationen erschütternde Kämpfe – und in dieser Zeit entstanden eine Reihe von faszinierenden und hartnäckigen Geheimnissen. Fast achtzig Jahre später sind die seltsamen Geschichten über alles, vom verlorenen Gold bis hin zu Geheimgesellschaften und hochentw</desc>
-    <date>20260807</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="History Channel" start="20260808004000 +0800" stop="20260808012500 +0800">
-    <title lang="zh">History's Greatest Mysteries</title>
-    <desc>Tausende von Menschen schwören, dass sie diesem legendären nordamerikanischen Wesen begegnet sind, aber Bigfoot wurde nie offiziell identifiziert. Während sich die Beweise häufen und die Fotos untersucht werden, bleibt das Rätsel bestehen: Gibt es Bigfoot wirklich? Und wenn ja, was ist es – und wo versteckt es sich? (Senderinfo).</desc>
-    <date>20260807</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="History Channel" start="20260808012500 +0800" stop="20260808020500 +0800">
-    <title lang="zh">History's Greatest Mysteries</title>
-    <desc>Es ist eines der berühmtesten prähistorischen Monumente der Welt. Eine geheimnisvolle Anordnung von Steinen, die seit Jahrtausenden die englische Landschaft schmücken. Doch bis heute weiß niemand, wie das Wahrzeichen gebaut wurde und warum. Kann moderne Technologie seine Geheimnisse endlich lüften? Was ist der wahre Zweck von Stonehenge? (Senderinfo).</desc>
-    <date>20260807</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="History Channel" start="20260808020500 +0800" stop="20260808025500 +0800">
-    <title lang="zh">The Proof is Out There – Auf den Spuren des Unerklärlichen</title>
-    <desc>Was hat es mit dem mysteriösen Seeungeheuer auf sich, das vom Ufer einer kleinen Küstenstadt in Großbritannien gesehen wurde? Sind Beschwörer in der Lage, mit UFOs zu kommunizieren? Wurde ein Feld mit massiven mysteriösen Krügen von Riesen erschaffen? Und der Boden scheint zu atmen. Ist die Erde lebendig? Tony Harris und sein Expertenteam gehen den Hinweisen nach und treffen eine Entscheidung über</desc>
-    <date>20260807</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="History Channel" start="20260808025500 +0800" stop="20260808034000 +0800">
-    <title lang="zh">The Proof is Out There – Auf den Spuren des Unerklärlichen</title>
-    <desc>Ein schlangenartiges Wesen mit grünen Haaren wurde mit der Kamera aufgenommen. Ist die Entdeckung einer antiken Antenne unter dem Wasser der Antarktis ein Beweis dafür, dass die Nazis einst den Südpol kolonisiert haben? Können sich große Felsbrocken im Death Valley von selbst bewegen? Und hat ein Mann eine gallertartige außerirdische Lebensform auf seinem Küchenboden gefunden? Tony Harris und sein</desc>
-    <date>20260807</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="History Channel" start="20260808034000 +0800" stop="20260808042500 +0800">
-    <title lang="zh">The UnXplained mit William Shatner</title>
-    <desc>Seit den Anfängen der Menschheit haben Erzählungen über monströse Kreaturen, die in den Schatten unserer Welt lauern, sowohl Faszination als auch Angst ausgelöst. Heute tun wir diese Geschichten oft als Mythen und Legenden ab, aber übersehen wir dabei eine potenziell erschreckende Realität? Angesichts der Tatsache, dass Wissenschaftler jedes Jahr bis zu 18.000 neue Tierarten entdecken, ist es da n</desc>
-    <date>20260807</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="History Channel" start="20260808042500 +0800" stop="20260808051000 +0800">
-    <title lang="zh">The UnXplained mit William Shatner</title>
-    <desc>Die Ausgrabung von Ruinen aus der Vergangenheit ist für unser Verständnis alter Zivilisationen von entscheidender Bedeutung. Doch manchmal werfen die Überreste dieser Kulturen mehr Fragen auf als sie beantworten. Warum sind zum Beispiel einst große Reiche wie die Maya oder das blühende Volk der Khmer in Angkor Wat plötzlich verschwunden? Und welche Geheimnisse verbergen sich unter der Asche der rö</desc>
-    <date>20260807</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="History Channel" start="20260808051000 +0800" stop="20260808055500 +0800">
-    <title lang="zh">Ancient Aliens – Unerklärliche Phänomene</title>
-    <desc>Seit 2017 veröffentlicht die Marine Fotos und Videos von unidentifizierten Luftphänomenen (UPA) – und Prä-Astronautiker vermuten, dass die unglaublichen Bilder fast identisch mit jahrhundertalten Berichten sind. Könnten fliegende Pyramiden, glockenförmige Raumschiffe und zylindrische Objekte außerirdische Raumschiffe darstellen, die seit Tausenden von Jahren über den Himmel der Erde fliegen? (Send</desc>
-    <date>20260807</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="History Channel" start="20260808055500 +0800" stop="20260808064000 +0800">
-    <title lang="zh">Ancient Aliens – Unerklärliche Phänomene</title>
-    <desc>Millionen von Menschen auf der ganzen Welt haben von Begegnungen mit schattenhaften Wesen berichtet, die Angst, Atemnot und sogar Lähmungen verursachen. Ist es möglich, dass die sogenannten Schattenmenschen mehr sind als bloße Hirngespinste? Könnten sie Besucher aus anderen Welten sein oder sogar aus anderen Dimensionen? (Senderinfo).</desc>
-    <date>20260807</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="History Channel" start="20260808064000 +0800" stop="20260808073000 +0800">
-    <title lang="zh">Ancient Aliens – Unerklärliche Phänomene</title>
-    <desc>Überall in der antiken Welt erzählte man sich Geschichten über feuerspeiende Drachen. Obwohl sie furchterregend waren, wurden sie oft als Vermittler von großem Wissen verehrt und als Begründer der Zivilisation angesehen. Ist es möglich, dass das, was unsere Vorfahren als geflügelte Ungeheuer beschrieben, die vom Himmel herabstiegen, Besucher aus anderen Welten waren? (Senderinfo).</desc>
-    <date>20260808</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="History Channel" start="20260808073000 +0800" stop="20260808081500 +0800">
-    <title lang="zh">Ancient Aliens – Unerklärliche Phänomene</title>
-    <desc>Heute glauben mehr Menschen als je zuvor, dass unidentifizierte Flugobjekte außerirdischen Ursprungs sind. Aber wenn Außerirdische aus Lichtjahren Entfernung auf die Erde gekommen sind, könnten sie dann in der Lage sein, sowohl Zeit als auch Raum zu manipulieren? Könnte es sogar sein, dass die UFOs an unserem Himmel keine Besucher von anderen Planeten sind, sondern aus unserer eigenen Zukunft stam</desc>
-    <date>20260808</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="History Channel" start="20260808081500 +0800" stop="20260808090000 +0800">
-    <title lang="zh">Zukunft ohne Menschen</title>
-    <desc>In einer Welt ohne Menschen verwandelt sich Wasser vom Lebensspender zum Zerstörer – es überschwemmt Städte, lässt Dämme brechen und setzt uralte Kräfte frei, die lange Zeit unter Kontrolle gehalten wurden. Von New Orleans über London bis hin zu den Pyramiden von Gizeh: Wenn die größten technischen Errungenschaften der Zivilisation zusammenbrechen, kehrt die Natur mit aller Macht zurück und schrei</desc>
-    <date>20260808</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="History Channel" start="20260808090000 +0800" stop="20260808094500 +0800">
-    <title lang="zh">Zukunft ohne Menschen</title>
-    <desc>Wenn die Menschheit verschwindet, bricht die globale Einzelhandelsmaschinerie zusammen – Einkaufszentren verfallen, Schifffahrtswege werden zu Sprengstoff, und gespenstische Lebensmittelgeschäfte werden zu Schlachtfeldern für Nagetiere, Raubtiere und die Zeit. Doch von Goldgegenständen bis hin zu Honiggläsern könnten einige Überreste der Konsumkultur die Zivilisation selbst überdauern. (Senderinfo</desc>
-    <date>20260808</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="History Channel" start="20260808094500 +0800" stop="20260808103500 +0800">
-    <title lang="zh">Verfluchte Schätze</title>
-    <desc>Diese Episode führt ins alte Ägypten, ins mittelalterliche Britannien, nach Nordamerika während der Kreidezeit und zur Nordwestpassage zur Zeit der arktischen Erforschung, wo die Ursprünge der Flüche um König Tutanchamun, den Stein von Scone, des T-Rex Sue und Landseers Gemälde "Man Proposes, God Disposes" aufgedeckt werden. (Senderinfo).</desc>
-    <date>20260808</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="History Channel" start="20260808103500 +0800" stop="20260808112500 +0800">
-    <title lang="zh">Verfluchte Schätze</title>
-    <desc>In dieser Folge führt die Jagd ins angelsächsische England, ins mittelalterliche Europa, nach China unter seinem ersten Kaiser und nach Ägypten, als die Pharaonen noch herrschten. Dabei sollen die Ursprünge der Flüche um den Schatz von Staffordshire, den Rubin des Schwarzen Prinzen, die Terrakotta-Armee und die legendäre Büste der Nofretete aufgeklärt werden. (Senderinfo).</desc>
-    <date>20260808</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="History Channel" start="20260808112500 +0800" stop="20260808121000 +0800">
-    <title lang="zh">Faszination Wasser</title>
-    <desc>Per Slackline über die Victoriafälle: Moderator Uli Kunz erkundet die Wasserfälle der Erde – und erforscht damit eines der faszinierendsten Naturphänomene der Welt. (Senderinfo).</desc>
-    <date>20260808</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="History Channel" start="20260808121000 +0800" stop="20260808125500 +0800">
-    <title lang="zh">Faszination Wasser</title>
-    <desc>Wo Süß- und Salzwasser sich mischen, entstehen faszinierende Zwischenwelten aus Land und Wasser. Echte Spezialisten für das Überleben im Brackwasser sind Bullenhaie, die Uli Kunz auf Tauchgängen vor Mosambik beobachtet. \n\nIm Okavangodelta in Botswana, einem der größten Binnendeltas der Erde, lassen saisonale Überflutungen Feucht- und Sumpfgebiete enormen Ausmaßes entstehen. Selbst Landtiere wie </desc>
-    <date>20260808</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="History Channel" start="20260808125500 +0800" stop="20260808133500 +0800">
-    <title lang="zh">Zukunft ohne Menschen</title>
-    <desc>In einer Welt ohne Menschen verwandelt sich Wasser vom Lebensspender zum Zerstörer – es überschwemmt Städte, lässt Dämme brechen und setzt uralte Kräfte frei, die lange Zeit unter Kontrolle gehalten wurden. Von New Orleans über London bis hin zu den Pyramiden von Gizeh: Wenn die größten technischen Errungenschaften der Zivilisation zusammenbrechen, kehrt die Natur mit aller Macht zurück und schrei</desc>
-    <date>20260808</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="History Channel" start="20260808133500 +0800" stop="20260808134000 +0800">
-    <title lang="zh">Zukunft ohne Menschen</title>
-    <desc>Wenn die Menschheit verschwindet, bricht die globale Einzelhandelsmaschinerie zusammen – Einkaufszentren verfallen, Schifffahrtswege werden zu Sprengstoff, und gespenstische Lebensmittelgeschäfte werden zu Schlachtfeldern für Nagetiere, Raubtiere und die Zeit. Doch von Goldgegenständen bis hin zu Honiggläsern könnten einige Überreste der Konsumkultur die Zivilisation selbst überdauern. (Senderinfo</desc>
-    <date>20260808</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="History Channel" start="20260808134000 +0800" stop="20260808142000 +0800">
-    <title lang="zh">Zukunft ohne Menschen</title>
-    <desc>Wenn die Menschheit verschwindet, bricht die globale Einzelhandelsmaschinerie zusammen – Einkaufszentren verfallen, Schifffahrtswege werden zu Sprengstoff, und gespenstische Lebensmittelgeschäfte werden zu Schlachtfeldern für Nagetiere, Raubtiere und die Zeit. Doch von Goldgegenständen bis hin zu Honiggläsern könnten einige Überreste der Konsumkultur die Zivilisation selbst überdauern. (Senderinfo</desc>
-    <date>20260808</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="History Channel" start="20260808142000 +0800" stop="20260808150500 +0800">
-    <title lang="zh">Verfluchte Schätze</title>
-    <desc>Diese Episode führt ins alte Ägypten, ins mittelalterliche Britannien, nach Nordamerika während der Kreidezeit und zur Nordwestpassage zur Zeit der arktischen Erforschung, wo die Ursprünge der Flüche um König Tutanchamun, den Stein von Scone, des T-Rex Sue und Landseers Gemälde "Man Proposes, God Disposes" aufgedeckt werden. (Senderinfo).</desc>
-    <date>20260808</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="History Channel" start="20260808150500 +0800" stop="20260808155000 +0800">
-    <title lang="zh">Verfluchte Schätze</title>
-    <desc>In dieser Folge führt die Jagd ins angelsächsische England, ins mittelalterliche Europa, nach China unter seinem ersten Kaiser und nach Ägypten, als die Pharaonen noch herrschten. Dabei sollen die Ursprünge der Flüche um den Schatz von Staffordshire, den Rubin des Schwarzen Prinzen, die Terrakotta-Armee und die legendäre Büste der Nofretete aufgeklärt werden. (Senderinfo).</desc>
-    <date>20260808</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="History Channel" start="20260808155000 +0800" stop="20260808163000 +0800">
-    <title lang="zh">The UnBelievable mit Dan Aykroyd</title>
-    <desc>Man sagt, dass es nicht auf das Ziel ankommt, sondern auf die Reise, die einen dorthin bringt. Von der Weltraumreise eines Hundes über eine erschütternde Geschichte vom Überleben in der Arktis bis hin zu verschiedenen Reisen durch die Zeit – diese Reisen sind so außergewöhnlich, dass sie wirklich unglaublich sind. (Senderinfo).</desc>
-    <date>20260808</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="History Channel" start="20260808163000 +0800" stop="20260808171000 +0800">
-    <title lang="zh">The UnBelievable mit Dan Aykroyd</title>
-    <desc>Außergewöhnliche Verbrechen werden oft mit außergewöhnlichen Strafen geahndet. So wie ein Schwein, dessen blutiger Amoklauf vor Gericht endet, oder ein Musikliebhaber, der sich stundenlang klassischen Sinfonien hingeben muss, weil seine Beats die Wände zum Beben bringen. Und ein Trinker, dessen Trunkenheit in der Öffentlichkeit ihn zur öffentlichen Unterhaltung macht. Diese merkwürdigen Strafen ha</desc>
-    <date>20260808</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="History Channel" start="20260808171000 +0800" stop="20260808175000 +0800">
-    <title lang="zh">The UnBelievable mit Dan Aykroyd</title>
-    <desc>Die Geschichte ist gespickt mit brillanten, lebensverändernden Entdeckungen – von Gold über verlorene Schätze bis hin zu wissenschaftlichen Erkenntnissen. Aber manche Entdeckungen sind alles andere als gewöhnlich. Wie abgetrennte Füße an einem Strand oder der Fund eines winzigen außerirdischen Wesens. Jede Entdeckung ist merkwürdiger als die vorherige und absolut unglaublich. (Senderinfo).</desc>
-    <date>20260808</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="History Channel" start="20260808175000 +0800" stop="20260808183000 +0800">
-    <title lang="zh">The UnBelievable mit Dan Aykroyd</title>
-    <desc>Stellen Sie sich einen Mann vor, der an Dutzenden von Ballons durch den Himmel schwebt, die alle an einem einzigen Gartenstuhl befestigt sind. Oder einen Zirkus, der von einem Team von Artisten geleitet wird, die nur durch ein Vergrößerungsglas sichtbar sind. Wie wäre es mit einem radfahrenden Großvater, der sich als unschlagbar für seine jugendlichen Kollegen erweist? Dies sind die Geschichten de</desc>
-    <date>20260808</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="History Channel" start="20260808183000 +0800" stop="20260808191500 +0800">
-    <title lang="zh">Ancient Aliens – Unerklärliche Phänomene</title>
-    <desc>Seit 2017 veröffentlicht die Marine Fotos und Videos von unidentifizierten Luftphänomenen (UPA) – und Prä-Astronautiker vermuten, dass die unglaublichen Bilder fast identisch mit jahrhundertalten Berichten sind. Könnten fliegende Pyramiden, glockenförmige Raumschiffe und zylindrische Objekte außerirdische Raumschiffe darstellen, die seit Tausenden von Jahren über den Himmel der Erde fliegen? (Send</desc>
-    <date>20260808</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="History Channel" start="20260808191500 +0800" stop="20260808200000 +0800">
-    <title lang="zh">Ancient Aliens – Unerklärliche Phänomene</title>
-    <desc>Millionen von Menschen auf der ganzen Welt haben von Begegnungen mit schattenhaften Wesen berichtet, die Angst, Atemnot und sogar Lähmungen verursachen. Ist es möglich, dass die sogenannten Schattenmenschen mehr sind als bloße Hirngespinste? Könnten sie Besucher aus anderen Welten sein oder sogar aus anderen Dimensionen? (Senderinfo).</desc>
-    <date>20260808</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="History Channel" start="20260808200000 +0800" stop="20260808204500 +0800">
-    <title lang="zh">Beyond Skinwalker Ranch – Geheimnissen auf der Spur</title>
-    <desc>Andy und Paul tun sich mit dem ursprünglichen Ermittler der Skinwalker Ranch zusammen, um eine verlassene Ranch in Taos, New Mexico, zu untersuchen, von der der Besitzer behauptet, sie sei von bösartigen Dämonen befallen. Ihre Versuche, mit diesem Phänomen zu kommunizieren, führen zu einem schaurigen "Gespräch". (Senderinfo).</desc>
-    <date>20260808</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="History Channel" start="20260808204500 +0800" stop="20260808212500 +0800">
-    <title lang="zh">Beyond Skinwalker Ranch – Geheimnissen auf der Spur</title>
-    <desc>Die fesselndsten Ermittlungen aus der zweiten Staffel enthalten schockierende Beweise, verblüffende Berichte, verrückte Experimente, bizarre Phänomene und nie zuvor gesehenes Filmmaterial. (Senderinfo).</desc>
-    <date>20260808</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="History Channel" start="20260808212500 +0800" stop="20260808221000 +0800">
-    <title lang="zh">Beyond Skinwalker Ranch – Geheimnissen auf der Spur</title>
-    <desc>Andy und Paul machen sich auf den Weg nach Nordkalifornien, um einen der faszinierendsten Einsatzorte von Brandon Fugal zu untersuchen: den berüchtigten Energie-Hotspot Mount Shasta. Dort stellen sie fest, dass die ungeheuerlichen Überlieferungen, die sich um den Berg ranken, durch handfeste Daten unterstützt werden. (Senderinfo).</desc>
-    <date>20260808</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="History Channel" start="20260808221000 +0800" stop="20260808225500 +0800">
-    <title lang="zh">Beyond Skinwalker Ranch – Geheimnissen auf der Spur</title>
-    <desc>Als Katie Paiges ältere Schwester nach fast 50 Jahren zum ersten Mal auf die Ranch in Colorado zurückkehrt, auf der sie beide als Kinder schreckliche, unerklärliche Dinge erlebt haben, reagiert die Ranch darauf. (Senderinfo).</desc>
-    <date>20260808</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="History Channel" start="20260808225500 +0800" stop="20260808234000 +0800">
-    <title lang="zh">Mythos – Die größten Rätsel der Geschichte</title>
-    <desc>Der Mythos von El Dorado beginnt mit der brutalen Eroberung Südamerikas durch die spanischen Konquistadoren. Seit dem 17. Jahrhundert jagen sie dem Traum einer Stadt aus purem Gold nach. Liegen soll die Goldstadt irgendwo in den undurchdringlichen Regenwäldern Südamerikas. Historikerinnen und Historiker suchen bis heute nach Spuren in der Region. Der französische Entdecker Thierry Jamin ist fest d</desc>
-    <date>20260808</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="History Channel" start="20260808234000 +0800" stop="20260809002500 +0800">
-    <title lang="zh">Mythos – Die größten Rätsel der Geschichte</title>
-    <desc>Mätresse des Cäsar oder unbeugsame Herrscherin von Ägypten? Die Archäologin Kathleen Martinez ist überzeugt: Viele der römischen Quellen sind reinste Propaganda. Eine kluge und gewiefte Herrscherin, die ihre Macht und ihren Einfluss durch geschickte Diplomatie und militärische Allianzen sichert. Doch wer war sie wirklich? Wie ist sie gestorben, und wo liegt sie begraben? Die mittlerweile verscholl</desc>
-    <date>20260808</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="History Channel" start="20260809002500 +0800" stop="20260809011000 +0800">
-    <title lang="zh">Mythos – Die größten Rätsel der Geschichte</title>
-    <desc>Uralte Geschichten und archäologische Funde erzählen von geheimnisvollen Frauen und ihren magischen Praktiken. Doch was hat es mit ihrer mysteriösen Macht auf sich? Ende der 90er-Jahre machen Archäologen in Rom einen erstaunlichen Fund: Fluchtafeln und Puppen, die in der Antike womöglich für Schadenszauber genutzt werden. Magie ist damals Teil des Alltags, doch mit der Christianisierung gerät die </desc>
-    <date>20260808</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="History Channel" start="20260809011000 +0800" stop="20260809023500 +0800">
-    <title lang="zh">Ancient Aliens – Die Ursprünge</title>
-    <desc>Auf der ganzen Welt gelten heilige Stätten seit langem als Tore zu den Sternen. Vom Tempelberg in Jerusalem und dem Pluto-Tor in der Türkei bis hin zum Tor der Götter in Peru und sogar anomalen Zonen wie dem Bermuda-Dreieck und der Zone der Stille in Mexiko – diesen Orten wird oft nachgesagt, dass sie Portale zu anderen Welten beherbergen. Könnte mehr hinter diesen Legenden stecken? Wenn ja, könnt</desc>
-    <date>20260808</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="History Channel" start="20260809023500 +0800" stop="20260809040000 +0800">
-    <title lang="zh">Ancient Aliens – Die Ursprünge</title>
-    <desc>In der Antike glaubte man, dass die Götter nicht aus der Ferne zusahen, sondern unter uns herrschten. Wenn ihre Herrschaft endete, ging die Macht auf ihre Nachkommen über, wodurch königliche Blutlinien entstanden, von denen manche glauben, dass sie bis heute fortbestehen. Könnten diese Dynastien mehr als nur Mythos sein? Könnten die Könige und Pharaonen der Antike hybride Wesen gewesen sein – teil</desc>
-    <date>20260808</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="History Channel" start="20260809040000 +0800" stop="20260809052500 +0800">
-    <title lang="zh">Ancient Aliens – Die Ursprünge</title>
-    <desc>Flutmythen haben sich über Jahrtausende in verschiedenen Kulturen gehalten und erzählen von Ereignissen, die die Erde neu geformt haben sollen. In der Bibel symbolisiert die Sintflut die göttliche Reinigung. Noch älter ist eine sumerische Legende, die von König Ziusudra und seinem Überleben einer großen Flut berichtet. In Flutgeschichten kommen oft mächtige Wesen vor, die als Götter beschrieben we</desc>
-    <date>20260808</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="History Channel" start="20260809052500 +0800" stop="20260809065000 +0800">
-    <title lang="zh">Ancient Aliens – Die Ursprünge</title>
-    <desc>In Kulturen auf der ganzen Welt finden sich alte Berichte über monströse Kreaturen, die oft eng mit den Göttern selbst verbunden sind. Von den tierischen Gottheiten Ägyptens über den geflügelten Garuda Indiens bis hin zu Seeungeheuern wie Leviathan, Kraken und Hydra – solche Wesen haben seit jeher die Fantasie der Menschheit beflügelt. Anhänger der Prä-Astronautik-Theorie vermuten, dass einige die</desc>
-    <date>20260808</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="History Channel" start="20260809065000 +0800" stop="20260809081500 +0800">
-    <title lang="zh">Ancient Aliens – Die Ursprünge</title>
-    <desc>Seit Jahrhunderten beschäftigt die Menschheit eine tiefgründige Frage: Sind wir allein im Universum? Von den alten Philosophen, die sich andere bewohnte Welten vorstellten, bis hin zu modernen Organisationen wie SETI und NASA, die den Himmel absuchen, hat die Suche nach außerirdischem Leben nie aufgehört. Neue Hinweise – von fehlerhaften Signalen bis hin zu möglichen Biosignaturen im Weltraum – de</desc>
-    <date>20260809</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="History Channel" start="20260809081500 +0800" stop="20260809090000 +0800">
-    <title lang="zh">Top Secret – Die UFO-Akten</title>
-    <desc>Als ein Einwohner von Kelowna im Mai 2024 darauf hofft, spektakuläre Nordlichter zu sehen, beobachtet er eine Reihe leuchtender Kugeln, die am Himmel schweben. Anhand des Exoplaneten GJ 9827 d als theoretischer Grundlage stellen Experten fest, dass herkömmliche Erklärungen nicht ausreichen, um das Gesehene zu erklären. (Senderinfo).</desc>
-    <date>20260809</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="History Channel" start="20260809090000 +0800" stop="20260809094500 +0800">
-    <title lang="zh">Secrets Declassified mit David Duchovny</title>
-    <desc>Diese Episode zeigt die verborgenen Orte, an denen die Geschichte heimlich gelenkt wurde. Von Churchills Kriegsbunker – komplett mit einer Direktverbindung zu Präsident Roosevelt, die in seinem privaten Badezimmer versteckt war – bis hin zu einer sowjetischen Waffenbasis in der Wüste, die erst durch eine gewagte U-2-Spionagemission aufgedeckt wurde: Diese Orte wurden für Momente geschaffen, die di</desc>
-    <date>20260809</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="History Channel" start="20260809094500 +0800" stop="20260809103000 +0800">
-    <title lang="zh">Mysterium Bermudadreieck</title>
-    <desc>Gibt es neue Hinweise auf das größte Rätsel des Bermudadreiecks? Mike Barnette, Jimmy Gadomski und das Ermittlerteam sind wieder auf der Spur eines berühmten Falls: das Verschwinden von sieben Flugzeugen der US Navy im Jahr 1945. Dieser mysteriöse Fall diente als Inspiration für den Film "Unheimliche Begegnung der dritten Art" und begründete den schlechten Ruf des Bermuda-Dreiecks. Mike und Jimmy </desc>
-    <date>20260809</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="History Channel" start="20260809103000 +0800" stop="20260809111500 +0800">
-    <title lang="zh">Mysterium Bermudadreieck</title>
-    <desc>Das Team begibt sich zu einem abgelegenen Ziel, von dem es glaubt, dass es sich um die lange verschollene "Marine Sulphur Queen" handelt. Dieser riesige Tanker verschwand 1963 mit einer 39-köpfigen Besatzung und ist eines der bekanntesten Wracks im Bermudadreieck. Nur ein paar Rettungswesten und kleine Trümmerteile werden jemals gefunden. Ist das Schiff durch eine Explosion gesunken, die durch die</desc>
-    <date>20260809</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="History Channel" start="20260809111500 +0800" stop="20260809120000 +0800">
-    <title lang="zh">Mysterium Bermudadreieck</title>
-    <desc>Sind Piraten auf der Suche nach Opfern im Bermudadreieck unterwegs? Das Team befasst sich mit dem verzwickten Fall eines vermissten Luxusboots namens "Saba Bank".</desc>
-    <date>20260809</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="History Channel" start="20260809120000 +0800" stop="20260809124500 +0800">
-    <title lang="zh">Mysterium Bermudadreieck</title>
-    <desc>Das Team untersucht ein Schiffswrack, das eines der ersten Opfer des Bermudadreiecks sein könnte: die lange verschollene SS D.H. Mount. Kurz nach Ende des Bürgerkriegs verlässt die Mount New York mit 22 Pro-Union-Politikern an Bord. Das Schiff verschwindet in einem Gewässer, das später als Bermuda-Dreieck bekannt werden wird. Die Politiker hatten im Vorfeld der Reise Morddrohungen erhalten. Das Wr</desc>
-    <date>20260809</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="History Channel" start="20260809124500 +0800" stop="20260809133000 +0800">
-    <title lang="zh">Top Secret – Die UFO-Akten</title>
-    <desc>Als ein Einwohner von Kelowna im Mai 2024 darauf hofft, spektakuläre Nordlichter zu sehen, beobachtet er eine Reihe leuchtender Kugeln, die am Himmel schweben. Anhand des Exoplaneten GJ 9827 d als theoretischer Grundlage stellen Experten fest, dass herkömmliche Erklärungen nicht ausreichen, um das Gesehene zu erklären. (Senderinfo).</desc>
-    <date>20260809</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="History Channel" start="20260809133000 +0800" stop="20260810060000 +0800">
-    <title lang="zh">Secrets Declassified mit David Duchovny</title>
-    <desc>Diese Episode zeigt die verborgenen Orte, an denen die Geschichte heimlich gelenkt wurde. Von Churchills Kriegsbunker – komplett mit einer Direktverbindung zu Präsident Roosevelt, die in seinem privaten Badezimmer versteckt war – bis hin zu einer sowjetischen Waffenbasis in der Wüste, die erst durch eine gewagte U-2-Spionagemission aufgedeckt wurde: Diese Orte wurden für Momente geschaffen, die di</desc>
     <date>20260809</date>
     <audio>
       <stereo>stereo</stereo>
