@@ -10,4 +10,4 @@ live_merged.m3u
 myself.m3u
 ppv_cache.m3u
 *.log
-*.bak
+*.bak.env

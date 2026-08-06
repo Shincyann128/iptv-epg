@@ -26,11 +26,10 @@ MYSELF_CACHE = REPO_ROOT / "myself.m3u"
 DYNAMIC_LOCAL_CACHE = REPO_ROOT / "dynamic_local_cache.m3u"
 DYNAMIC_LOCAL_URL = "http://m3u.sjbox.cc/113.m3u"
 DYNAMIC_LOCAL_CACHE_TTL = 3 * 3600  # 3 hours; sports merge still runs every 15 min
-FWC4K_URL = "http://82.156.243.185:33389/fwc.m3u"
 TV1288_URL = "https://itv.tv1288.xyz"
 TV1288_CACHE = REPO_ROOT / "tv1288_cache.txt"
 TV1288_CACHE_MAX_AGE = 24 * 3600  # merge skips cache older than 24h
-SOURCES = ["FWC4K", "看球通", "咖啡直播", "咪咕直播", "看球吧", "popo直播", "live-event", "damizhibo"]
+SOURCES = ["看球通", "咖啡直播", "咪咕直播", "看球吧", "popo直播", "live-event", "damizhibo"]
 REPLAY_KEYWORDS = ("回放", "录像", "VOD")
 
 DYNAMIC_LOCAL_TARGET_ORDER = [
@@ -43,9 +42,9 @@ DYNAMIC_LOCAL_TARGET_ORDER = [
 DYNAMIC_LOCAL_TARGETS = set(DYNAMIC_LOCAL_TARGET_ORDER)
 
 # ── Source short names & ordering ──
-SOURCE_SHORT = {"FWC4K": "4K杜比", "咖啡直播": "咖啡", "咪咕直播": "咪咕", "看球吧": "看球吧", "看球通": "看球通", "popo直播": "popo", "live-event": "看个球", "damizhibo": "dami"}
-# Within output groups: 4K杜比 → 咖啡 → 咪咕 → 看个球 → popo → dami → 看球吧 → 看球通
-SOURCE_ORDER = {"FWC4K": -1, "咖啡直播": 0, "咪咕直播": 1, "live-event": 2, "popo直播": 3, "damizhibo": 4, "看球吧": 5, "看球通": 6}
+SOURCE_SHORT = {"咖啡直播": "咖啡", "咪咕直播": "咪咕", "看球吧": "看球吧", "看球通": "看球通", "popo直播": "popo", "live-event": "看个球", "damizhibo": "dami"}
+# 咖啡 → 咪咕 → 看个球 → popo → dami → 看球吧 → 看球通
+SOURCE_ORDER = {"咖啡直播": 0, "咪咕直播": 1, "live-event": 2, "popo直播": 3, "damizhibo": 4, "看球吧": 5, "看球通": 6}
 SPORT_ORDER = {"足球": 0, "篮球": 1, "电竞": 2, "综合": 3, "回放": 4}
 
 # ── Static category ordering (unchanged) ──
@@ -516,41 +515,6 @@ def parse_tv1288(raw_name: str, group: str) -> dict:
     return {"sport": "综合", "is_match": False, "display_extra": f"{display_time} {body}".strip(), "sort_time": display_time}
 
 
-def parse_fwc4k(raw_name: str, group: str) -> dict | None:
-    """Parse FWC4K event entry; keep only live-window fixtures."""
-    if group != "4K杜比视界世界杯正赛":
-        return None
-
-    text = raw_name.strip()
-    m = re.match(r'^(.+?)_(\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2})_(\d+)$', text)
-    if not m:
-        return None
-
-    teams, dt_str, _ts_ms = m.groups()
-    parts = re.split(r'\s+v\.\s+', teams, maxsplit=1)
-    if len(parts) != 2:
-        return None
-
-    try:
-        match_dt = datetime.strptime(dt_str, "%Y-%m-%d %H:%M:%S").replace(tzinfo=BJ_TZ)
-    except ValueError:
-        return None
-
-    now = datetime.now(BJ_TZ)
-    if not (match_dt - timedelta(minutes=10) <= now <= match_dt + timedelta(hours=2, minutes=45)):
-        return None
-
-    return {
-        "sport": "足球",
-        "is_match": True,
-        "league": "世界杯",
-        "team1": clean_team(parts[0]),
-        "team2": clean_team(parts[1]),
-        "sort_time": match_dt.strftime("%Y-%m-%d %H:%M:%S"),
-        "display_time": match_dt.strftime("%m-%d %H:%M"),
-    }
-
-
 # Source parser dispatch
 SOURCE_PARSERS = {
     "咖啡直播": parse_kafei,
@@ -559,7 +523,6 @@ SOURCE_PARSERS = {
     "popo直播": parse_kafei,   # popozhibo 格式与咖啡直播相同: 联赛 Team vs Team | 线路
     "live-event": parse_liveevent,
     "damizhibo": parse_damizhibo,
-    "FWC4K": parse_fwc4k,
     "咪咕直播": parse_tv1288,
 }
 
@@ -664,10 +627,7 @@ def render_sports_display(entry: dict) -> str:
         return f"[{src}] {raw}"
 
     parts = [f"[{src}]"]
-    if src == "4K杜比" and entry.get("display_time"):
-        parts.append(entry["display_time"])
-    else:
-        if league:
+    if league:
             parts.append(league)
     parts.append(f"{team1} vs {team2}")
 
@@ -1310,50 +1270,6 @@ def fetch_liveevent_entries() -> list[dict]:
     return parse_m3u("\n".join(resolved), source="live-event")
 
 
-def _fwc4k_playlist_is_live(url: str) -> bool:
-    """Return True only for real live event playlists, not end*.ts placeholders."""
-    import urllib.request
-
-    try:
-        req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
-        with urllib.request.urlopen(req, timeout=8) as resp:
-            text = resp.read(4096).decode("utf-8", errors="ignore")
-    except Exception:
-        return False
-
-    if "#EXT-X-ENDLIST" in text:
-        return False
-    if re.search(r'(^|/)end\d+\.ts', text):
-        return False
-    return bool(".ts" in text or "/s?n=" in text or "#EXT-X-MEDIA-SEQUENCE" in text)
-
-
-def fetch_fwc4k_entries() -> list[dict]:
-    """Fetch FWC4K events and keep only currently live 4K Dolby World Cup matches."""
-    import urllib.request
-
-    try:
-        req = urllib.request.Request(FWC4K_URL, headers={"User-Agent": "Mozilla/5.0"})
-        with urllib.request.urlopen(req, timeout=15) as resp:
-            text = resp.read().decode("utf-8")
-    except Exception as exc:
-        raise RuntimeError(f"FWC4K 不可用: {exc}")
-
-    raw_entries = parse_m3u(text, source="FWC4K")
-    candidates = []
-    for e in raw_entries:
-        if e.get("group") != "4K杜比视界世界杯正赛":
-            continue
-        if not parse_fwc4k(e.get("name", ""), e.get("group", "")):
-            continue
-        if not _fwc4k_playlist_is_live(e.get("url", "")):
-            continue
-        candidates.append(e)
-
-    print(f"  FWC4K: raw={len(raw_entries)} live={len(candidates)}", file=sys.stderr)
-    return candidates
-
-
 def fetch_damizhibo_entries() -> list[dict]:
     """Fetch M3U from damizhibo.com, filter to only live matches.
 
@@ -1393,6 +1309,7 @@ def fetch_damizhibo_entries() -> list[dict]:
     return filtered
 
 
+
 def write_atomic(path: Path, content: str):
     path.parent.mkdir(parents=True, exist_ok=True)
     with NamedTemporaryFile("w", encoding="utf-8", delete=False, dir=path.parent) as tmp:
@@ -1401,13 +1318,13 @@ def write_atomic(path: Path, content: str):
     tmp_path.replace(path)
 
 
+
 def main() -> int:
     all_entries = []
 
     # Sports only. Static 自用/动态地方台 channels are served by tvlive/cameralive and must not enter this merge.
     sports_entries = []
     for label, fn in (
-        ("FWC4K", fetch_fwc4k_entries),
         ("看球通", fetch_kqt_entries),
         ("咖啡直播", fetch_kafei_entries),
         ("咪咕直播", fetch_tv1288_entries),
