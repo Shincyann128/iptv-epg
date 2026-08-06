@@ -67247,9 +67247,6 @@
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <channel id="NTV Plus">
-    <display-name lang="zh">NTV Plus</display-name>
-  </channel>
   <channel id="History">
     <display-name lang="zh">History</display-name>
     <icon src="https://epg.pw/media/images/epg/2025/01/28/20250128162729505950_39" />
@@ -67262,382 +67259,9 @@
     <display-name lang="zh">BBC News</display-name>
     <icon src="https://epg.pw/media/images/epg/2025/01/28/20250128172128779451_28" />
   </channel>
-  <programme channel="CNBC" start="20260805000000 +0800" stop="20260805003000 +0800">
-    <title lang="zh">Halftime Report</title>
-    <desc>'Halftime Report' is on the front lines of CNBC's market coverage. Host CNBC's Scott Wapner and the Street's top investors get to the heart of the action as it's happening and help set the agenda for the rest of the day</desc>
-    <date>20260805</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="CNBC" start="20260805003000 +0800" stop="20260805010000 +0800">
-    <title lang="zh">Halftime Report</title>
-    <desc>'Halftime Report' is on the front lines of CNBC's market coverage. Host CNBC's Scott Wapner and the Street's top investors get to the heart of the action as it's happening and help set the agenda for the rest of the day</desc>
-    <date>20260805</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="CNBC" start="20260805010000 +0800" stop="20260805013000 +0800">
-    <title lang="zh">The Exchange</title>
-    <desc>CNBC's ‘The Exchange' is the newsroom-based program for today's investor. The show focuses on in-depth reporting around the most important and interesting stories to today's markets and investors. CNBC's deep roster of skilled reporters, guided by anchor Kelly Evans, provide actionable information to viewers as they make daily investment decisions.</desc>
-    <date>20260805</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="CNBC" start="20260805013000 +0800" stop="20260805020000 +0800">
-    <title lang="zh">The Exchange</title>
-    <desc>CNBC's “The Exchange” is the newsroom-based program for today's Investor. The show focuses on in-depth reporting around the most important and interesting stories to today's markets and investors. CNBC's deep roster of skilled reporters, guided by anchor Kelly Evans, provide actionable information to viewers as they make daily investment decisions.</desc>
-    <date>20260805</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="CNBC" start="20260805020000 +0800" stop="20260805023000 +0800">
-    <title lang="zh">Power Lunch</title>
-    <desc>CNBC's Kelly Evans and Brian Sullivan take you through the heart of the business day bringing you the latest developments and instant analysis on the stocks and stories driving the day's agenda. Airing CNBC's award-winning business news coverage, “Power Lunch” delves into the economy, markets, politics, technology and more.</desc>
-    <date>20260805</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="CNBC" start="20260805023000 +0800" stop="20260805030000 +0800">
-    <title lang="zh">Power Lunch</title>
-    <desc>CNBC's Kelly Evans and Brian Sullivan take you through the heart of the business day bringing you the latest developments and instant analysis on the stocks and stories driving the day's agenda. Airing CNBC's award-winning business news coverage, “Power Lunch” delves into the economy, markets, politics, technology and more.</desc>
-    <date>20260805</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="CNBC" start="20260805030000 +0800" stop="20260805033000 +0800">
-    <title lang="zh">Closing Bell</title>
-    <desc>Anything can happen between the bells of the trading day. But what happens during the last hour could be what matters most. Hosted by CNBC's Scott Wapner, “Closing Bell” guides you through the most important hour of the trading day. The show takes a close-up look at how the markets are moving, what's driving them and how investors are reacting.</desc>
-    <date>20260805</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="CNBC" start="20260805033000 +0800" stop="20260805040000 +0800">
-    <title lang="zh">Closing Bell</title>
-    <desc>Anything can happen between the bells of the trading day. But what happens during the last hour could be what matters most. Hosted by CNBC's Scott Wapner, “Closing Bell” guides you through the most important hour of the trading day. The show takes a close-up look at how the markets are moving, what's driving them and how investors are reacting.</desc>
-    <date>20260805</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="CNBC" start="20260805040000 +0800" stop="20260805043000 +0800">
-    <title lang="zh">Closing Bell: Overtime</title>
-    <desc>When the bell rings, the action does not end. “Closing Bell: Overtime” takes you through all of the after-hours moves including breaking news, corporate earnings and post-market trading. Big investors, smart strategists and top money managers debate actionable ideas and the big market themes of the day, and get viewers ready for tomorrow's trading day.</desc>
-    <date>20260805</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="CNBC" start="20260805043000 +0800" stop="20260805050000 +0800">
-    <title lang="zh">Closing Bell: Overtime</title>
-    <desc>When the bell rings, the action does not end. “Closing Bell: Overtime” takes you through all of the after-hours moves including breaking news, corporate earnings and post-market trading. Big investors, smart strategists and top money managers debate actionable ideas and the big market themes of the day, and get viewers ready for tomorrow's trading day.</desc>
-    <date>20260805</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="CNBC" start="20260805050000 +0800" stop="20260805053000 +0800">
-    <title lang="zh">Fast Money</title>
-    <desc>“Fast Money” is America's post-market show. Hosted by Melissa Lee and a roundtable of top traders, “Fast Money” breaks through the noise of the day, to bring you the actionable news that matters most to investors.</desc>
-    <date>20260805</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="CNBC" start="20260805053000 +0800" stop="20260805060000 +0800">
-    <title lang="zh">Fast Money</title>
-    <desc>“Fast Money” is America's post-market show. Hosted by Melissa Lee and a roundtable of top traders, “Fast Money” breaks through the noise of the day, to bring you the actionable news that matters most to investors.</desc>
-    <date>20260805</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="CNBC" start="20260805060000 +0800" stop="20260805070000 +0800">
-    <title lang="zh">U.s. Markets Edition</title>
-    <desc>U.S. Markets Edition delivers key takeaways from the most impactful interviews and insights from CNBC's programming in the US. As global markets become more interconnected, this program ensures audiences in Asia stay informed on major developments shaping the business world overnight.</desc>
-    <date>20260805</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="CNBC" start="20260805070000 +0800" stop="20260805073000 +0800">
-    <title lang="zh">Squawk Box Asia</title>
-    <desc>Squawk Box Asia is CNBC's flagship show that sets the news agenda and takes viewers through the pre-game and the opening of Asia's business trading day, covering the top market moving stories and views from the top CEOs, asset managers and newsmakers</desc>
-    <date>20260805</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="CNBC" start="20260805073000 +0800" stop="20260805080000 +0800">
-    <title lang="zh">Squawk Box Asia</title>
-    <desc>Squawk Box Asia is CNBC's flagship show that sets the news agenda and takes viewers through the pre-game and the opening of Asia's business trading day, covering the top market moving stories and views from the top CEOs, asset managers and newsmakers</desc>
-    <date>20260805</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="CNBC" start="20260805080000 +0800" stop="20260805083000 +0800">
-    <title lang="zh">Squawk Box Asia</title>
-    <desc>Squawk Box Asia is CNBC's flagship show that sets the news agenda and takes viewers through the pre-game and the opening of Asia's business trading day, covering the top market moving stories and views from the top CEOs, asset managers and newsmakers</desc>
-    <date>20260805</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="CNBC" start="20260805083000 +0800" stop="20260805090000 +0800">
-    <title lang="zh">Squawk Box Asia</title>
-    <desc>Squawk Box Asia is CNBC's flagship show that sets the news agenda and takes viewers through the pre-game and the opening of Asia's business trading day, covering the top market moving stories and views from the top CEOs, asset managers and newsmakers</desc>
-    <date>20260805</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="CNBC" start="20260805090000 +0800" stop="20260805093000 +0800">
-    <title lang="zh">Squawk Box Asia</title>
-    <desc>Squawk Box Asia is CNBC's flagship show that sets the news agenda and takes viewers through the pre-game and the opening of Asia's business trading day, covering the top market moving stories and views from the top CEOs, asset managers and newsmakers</desc>
-    <date>20260805</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="CNBC" start="20260805093000 +0800" stop="20260805100000 +0800">
-    <title lang="zh">Squawk Box Asia</title>
-    <desc>Squawk Box Asia is CNBC's flagship show that sets the news agenda and takes viewers through the pre-game and the opening of Asia's business trading day, covering the top market moving stories and views from the top CEOs, asset managers and newsmakers</desc>
-    <date>20260805</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="CNBC" start="20260805100000 +0800" stop="20260805103000 +0800">
-    <title lang="zh">The China Connection</title>
-    <desc>The China Connection delivers in-depth analysis of China's economy, markets and its relationship with the global landscape. Emily Chan brings you expert insights, exclusive interviews, covering key sectors, trade developments and policy shifts.</desc>
-    <date>20260805</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="CNBC" start="20260805103000 +0800" stop="20260805110000 +0800">
-    <title lang="zh">The China Connection</title>
-    <desc>The China Connection delivers in-depth analysis of China's economy, markets and its relationship with the global landscape. Emily Chan brings you expert insights, exclusive interviews, covering key sectors, trade developments and policy shifts.</desc>
-    <date>20260805</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="CNBC" start="20260805110000 +0800" stop="20260805113000 +0800">
-    <title lang="zh">Inside India</title>
-    <desc>CNBC's Inside India gives you news and market commentary on the emerging powerhouse, businesses and people behind its rise. Inside India goes beyond the headlines to give you the edge and insights - this is your gateway to the India story.</desc>
-    <date>20260805</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="CNBC" start="20260805113000 +0800" stop="20260805120000 +0800">
-    <title lang="zh">Inside India</title>
-    <desc>CNBC's Inside India gives you news and market commentary on the emerging powerhouse, businesses and people behind its rise. Inside India goes beyond the headlines to give you the edge and insights - this is your gateway to the India story.</desc>
-    <date>20260805</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="CNBC" start="20260805120000 +0800" stop="20260805123000 +0800">
-    <title lang="zh">Access Middle East</title>
-    <desc>Access Middle East is your window into Middle East power, money, and influence. With exclusive interviews and high-level analysis, the program brings viewers closer to the decision-makers deploying capital and driving innovation in one of the world's most dynamic regions.</desc>
-    <date>20260805</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="CNBC" start="20260805123000 +0800" stop="20260805130000 +0800">
-    <title lang="zh">Access Middle East</title>
-    <desc>Access Middle East is your window into Middle East power, money, and influence. With exclusive interviews and high-level analysis, the program brings viewers closer to the decision-makers deploying capital and driving innovation in one of the world's most dynamic regions.</desc>
-    <date>20260805</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="CNBC" start="20260805130000 +0800" stop="20260805133000 +0800">
-    <title lang="zh">Europe Early Edition</title>
-    <desc>Start your trading day with Europe Early Edition as European financial centres take the reins of global markets. With breaking news, key earnings and data, as well as interviews with market makers and C-Suite executives from across the globe, Europe Early Edition is essential viewing to be prepared for the day's session.</desc>
-    <date>20260805</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="CNBC" start="20260805133000 +0800" stop="20260805140000 +0800">
-    <title lang="zh">Europe Early Edition</title>
-    <desc>Start your trading day with Europe Early Edition as European financial centres take the reins of global markets. With breaking news, key earnings and data, as well as interviews with market makers and C-Suite executives from across the globe, Europe Early Edition is essential viewing to be prepared for the day's session.</desc>
-    <date>20260805</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="CNBC" start="20260805140000 +0800" stop="20260805143000 +0800">
-    <title lang="zh">Squawk Box Europe</title>
-    <desc>It's one hour until the opening bell in Europe and Squawk Box Europe has everything you need to prepare for the first trade. Steve Sedgwick, Karen Tso and Julianna Tatelbaum take on the most complex stories of the day with instant analysis on how you can make your money work around the news.</desc>
-    <date>20260805</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="CNBC" start="20260805143000 +0800" stop="20260805150000 +0800">
-    <title lang="zh">Squawk Box Europe</title>
-    <desc>It's one hour until the opening bell in Europe and Squawk Box Europe has everything you need to prepare for the first trade. Steve Sedgwick, Karen Tso and Julianna Tatelbaum take on the most complex stories of the day with instant analysis on how you can make your money work around the news.</desc>
-    <date>20260805</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="CNBC" start="20260805150000 +0800" stop="20260805153000 +0800">
-    <title lang="zh">Squawk Box Europe</title>
-    <desc>It's one hour until the opening bell in Europe and Squawk Box Europe has everything you need to prepare for the first trade. Steve Sedgwick, Karen Tso and Julianna Tatelbaum take on the most complex stories of the day with instant analysis on how you can make your money work around the news.</desc>
-    <date>20260805</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="CNBC" start="20260805153000 +0800" stop="20260805160000 +0800">
-    <title lang="zh">Squawk Box Europe</title>
-    <desc>It's one hour until the opening bell in Europe and Squawk Box Europe has everything you need to prepare for the first trade. Steve Sedgwick, Karen Tso and Julianna Tatelbaum take on the most complex stories of the day with instant analysis on how you can make your money work around the news.</desc>
-    <date>20260805</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="CNBC" start="20260805160000 +0800" stop="20260805163000 +0800">
-    <title lang="zh">Squawk Box Europe</title>
-    <desc>It's one hour until the opening bell in Europe and Squawk Box Europe has everything you need to prepare for the first trade. Steve Sedgwick, Karen Tso and Julianna Tatelbaum take on the most complex stories of the day with instant analysis on how you can make your money work around the news.</desc>
-    <date>20260805</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="CNBC" start="20260805163000 +0800" stop="20260805170000 +0800">
-    <title lang="zh">Squawk Box Europe</title>
-    <desc>It's one hour until the opening bell in Europe and Squawk Box Europe has everything you need to prepare for the first trade. Steve Sedgwick, Karen Tso and Julianna Tatelbaum take on the most complex stories of the day with instant analysis on how you can make your money work around the news.</desc>
-    <date>20260805</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="CNBC" start="20260805170000 +0800" stop="20260805173000 +0800">
-    <title lang="zh">Morning Call</title>
-    <desc>Morning Call, anchored by Morgan Brennan, delivers the essential market intelligence that drives the trading day ahead. The program captures breaking business news as it unfolds and tracks pre market equity moves, commodity swings, U.S. futures, and overnight action across global markets.</desc>
-    <date>20260805</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="CNBC" start="20260805173000 +0800" stop="20260805180000 +0800">
-    <title lang="zh">Morning Call</title>
-    <desc>Morning Call, anchored by Morgan Brennan, delivers the essential market intelligence that drives the trading day ahead. The program captures breaking business news as it unfolds and tracks pre market equity moves, commodity swings, U.S. futures, and overnight action across global markets.</desc>
-    <date>20260805</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="CNBC" start="20260805180000 +0800" stop="20260805183000 +0800">
-    <title lang="zh">US Squawk Box</title>
-    <desc>“Squawk Box” is the ultimate pre-market morning news and talk program, where the biggest names in business and politics tell their most important stories. Anchored by Joe Kernen, Becky Quick and Andrew Ross Sorkin, the show brings Wall Street to Main Street. It's a must-see for everyone from the professional trader to the casual investor.</desc>
-    <date>20260805</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="CNBC" start="20260805183000 +0800" stop="20260805190000 +0800">
-    <title lang="zh">US Squawk Box</title>
-    <desc>“Squawk Box” is the ultimate pre-market morning news and talk program, where the biggest names in business and politics tell their most important stories. Anchored by Joe Kernen, Becky Quick and Andrew Ross Sorkin, the show brings Wall Street to Main Street. It's a must-see for everyone from the professional trader to the casual investor.</desc>
-    <date>20260805</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="CNBC" start="20260805190000 +0800" stop="20260805193000 +0800">
-    <title lang="zh">US Squawk Box</title>
-    <desc>“Squawk Box” is the ultimate pre-market morning news and talk program, where the biggest names in business and politics tell their most important stories. Anchored by Joe Kernen, Becky Quick and Andrew Ross Sorkin, the show brings Wall Street to Main Street. It's a must-see for everyone from the professional trader to the casual investor.</desc>
-    <date>20260805</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="CNBC" start="20260805193000 +0800" stop="20260805200000 +0800">
-    <title lang="zh">US Squawk Box</title>
-    <desc>“Squawk Box” is the ultimate pre-market morning news and talk program, where the biggest names in business and politics tell their most important stories. Anchored by Joe Kernen, Becky Quick and Andrew Ross Sorkin, the show brings Wall Street to Main Street. It's a must-see for everyone from the professional trader to the casual investor.</desc>
-    <date>20260805</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="CNBC" start="20260805200000 +0800" stop="20260805203000 +0800">
-    <title lang="zh">US Squawk Box</title>
-    <desc>“Squawk Box” is the ultimate pre-market morning news and talk program, where the biggest names in business and politics tell their most important stories. Anchored by Joe Kernen, Becky Quick and Andrew Ross Sorkin, the show brings Wall Street to Main Street. It's a must-see for everyone from the professional trader to the casual investor.</desc>
-    <date>20260805</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="CNBC" start="20260805203000 +0800" stop="20260805210000 +0800">
-    <title lang="zh">US Squawk Box</title>
-    <desc>“Squawk Box” is the ultimate pre-market morning news and talk program, where the biggest names in business and politics tell their most important stories. Anchored by Joe Kernen, Becky Quick and Andrew Ross Sorkin, the show brings Wall Street to Main Street. It's a must-see for everyone from the professional trader to the casual investor.</desc>
-    <date>20260805</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="CNBC" start="20260805210000 +0800" stop="20260805213000 +0800">
-    <title lang="zh">Squawk On The Street</title>
-    <desc>Headquartered live on the floor of the New York Stock Exchange (NYSE) where the biggest companies in the world trade, “Squawk On The Street” tracks the action of every stock and gives you access to the treasury, currency and commodity action in real time.</desc>
-    <date>20260805</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="CNBC" start="20260805213000 +0800" stop="20260805220000 +0800">
-    <title lang="zh">Squawk On The Street</title>
-    <desc>Headquartered live on the floor of the New York Stock Exchange (NYSE) where the biggest companies in the world trade, “Squawk On The Street” tracks the action of every stock and gives you access to the treasury, currency and commodity action in real time.</desc>
-    <date>20260805</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="CNBC" start="20260805220000 +0800" stop="20260805223000 +0800">
-    <title lang="zh">Squawk On The Street</title>
-    <desc>Headquartered live on the floor of the New York Stock Exchange (NYSE) where the biggest companies in the world trade, “Squawk On The Street” tracks the action of every stock and gives you access to the treasury, currency and commodity action in real time.</desc>
-    <date>20260805</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="CNBC" start="20260805223000 +0800" stop="20260805230000 +0800">
-    <title lang="zh">Squawk On The Street</title>
-    <desc>Headquartered live on the floor of the New York Stock Exchange (NYSE) where the biggest companies in the world trade, “Squawk On The Street” tracks the action of every stock and gives you access to the treasury, currency and commodity action in real time.</desc>
-    <date>20260805</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="CNBC" start="20260805230000 +0800" stop="20260805233000 +0800">
-    <title lang="zh">Squawk On The Street</title>
-    <desc>Headquartered live on the floor of the New York Stock Exchange (NYSE) where the biggest companies in the world trade, “Squawk On The Street” tracks the action of every stock and gives you access to the treasury, currency and commodity action in real time.</desc>
-    <date>20260805</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="CNBC" start="20260805233000 +0800" stop="20260806000000 +0800">
-    <title lang="zh">Squawk On The Street</title>
-    <desc>Headquartered live on the floor of the New York Stock Exchange (NYSE) where the biggest companies in the world trade, “Squawk On The Street” tracks the action of every stock and gives you access to the treasury, currency and commodity action in real time.</desc>
-    <date>20260805</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
+  <channel id="NTV Plus">
+    <display-name lang="zh">NTV Plus</display-name>
+  </channel>
   <programme channel="CNBC" start="20260806000000 +0800" stop="20260806003000 +0800">
     <title lang="zh">Halftime Report</title>
     <desc>'Halftime Report' is on the front lines of CNBC's market coverage. Host CNBC's Scott Wapner and the Street's top investors get to the heart of the action as it's happening and help set the agenda for the rest of the day</desc>
@@ -69654,426 +69278,378 @@
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="BBC News" start="20260805000000 +0800" stop="20260805003000 +0800">
-    <title lang="zh">Verified Live</title>
-    <desc>Matthew Amroliwala presents all the latest global and UK news, live from London.</desc>
-    <date>20260805</date>
+  <programme channel="CNBC" start="20260812000000 +0800" stop="20260812003000 +0800">
+    <title lang="zh">Halftime Report</title>
+    <desc>'Halftime Report' is on the front lines of CNBC's market coverage. Host CNBC's Scott Wapner and the Street's top investors get to the heart of the action as it's happening and help set the agenda for the rest of the day</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="BBC News" start="20260805003000 +0800" stop="20260805010000 +0800">
-    <title lang="zh">Focus On Africa</title>
-    <desc>The biggest African and international stories from the BBC.</desc>
-    <date>20260805</date>
+  <programme channel="CNBC" start="20260812003000 +0800" stop="20260812010000 +0800">
+    <title lang="zh">Halftime Report</title>
+    <desc>'Halftime Report' is on the front lines of CNBC's market coverage. Host CNBC's Scott Wapner and the Street's top investors get to the heart of the action as it's happening and help set the agenda for the rest of the day</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="BBC News" start="20260805010000 +0800" stop="20260805013000 +0800">
-    <title lang="zh">The World Today With Maryam Moshiri</title>
-    <desc>Watch the best of the BBC's journalism from around the world.</desc>
-    <date>20260805</date>
+  <programme channel="CNBC" start="20260812010000 +0800" stop="20260812013000 +0800">
+    <title lang="zh">The Exchange</title>
+    <desc>CNBC's ‘The Exchange' is the newsroom-based program for today's investor. The show focuses on in-depth reporting around the most important and interesting stories to today's markets and investors. CNBC's deep roster of skilled reporters, guided by anchor Kelly Evans, provide actionable information to viewers as they make daily investment decisions.</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="BBC News" start="20260805013000 +0800" stop="20260805020000 +0800">
-    <title lang="zh">The World Today With Maryam Moshiri</title>
-    <desc>Watch the best of the BBC's journalism from around the world.</desc>
-    <date>20260805</date>
+  <programme channel="CNBC" start="20260812013000 +0800" stop="20260812020000 +0800">
+    <title lang="zh">The Exchange</title>
+    <desc>CNBC's “The Exchange” is the newsroom-based program for today's Investor. The show focuses on in-depth reporting around the most important and interesting stories to today's markets and investors. CNBC's deep roster of skilled reporters, guided by anchor Kelly Evans, provide actionable information to viewers as they make daily investment decisions.</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="BBC News" start="20260805020000 +0800" stop="20260805023000 +0800">
-    <title lang="zh">The World Today With Maryam Moshiri</title>
-    <desc>Watch the best of the BBC's journalism from around the world.</desc>
-    <date>20260805</date>
+  <programme channel="CNBC" start="20260812020000 +0800" stop="20260812023000 +0800">
+    <title lang="zh">Power Lunch</title>
+    <desc>CNBC's Kelly Evans and Brian Sullivan take you through the heart of the business day bringing you the latest developments and instant analysis on the stocks and stories driving the day's agenda. Airing CNBC's award-winning business news coverage, “Power Lunch” delves into the economy, markets, politics, technology and more.</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="BBC News" start="20260805023000 +0800" stop="20260805030000 +0800">
-    <title lang="zh">The World Today With Maryam Moshiri</title>
-    <desc>Watch the best of the BBC's journalism from around the world.</desc>
-    <date>20260805</date>
+  <programme channel="CNBC" start="20260812023000 +0800" stop="20260812030000 +0800">
+    <title lang="zh">Power Lunch</title>
+    <desc>CNBC's Kelly Evans and Brian Sullivan take you through the heart of the business day bringing you the latest developments and instant analysis on the stocks and stories driving the day's agenda. Airing CNBC's award-winning business news coverage, “Power Lunch” delves into the economy, markets, politics, technology and more.</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="BBC News" start="20260805030000 +0800" stop="20260805033000 +0800">
-    <title lang="zh">The Context USA</title>
-    <desc>Special coverage from Washington DC and London, focusing on President Trump's second term.</desc>
-    <date>20260805</date>
+  <programme channel="CNBC" start="20260812030000 +0800" stop="20260812033000 +0800">
+    <title lang="zh">Closing Bell</title>
+    <desc>Anything can happen between the bells of the trading day. But what happens during the last hour could be what matters most. Hosted by CNBC's Scott Wapner, “Closing Bell” guides you through the most important hour of the trading day. The show takes a close-up look at how the markets are moving, what's driving them and how investors are reacting.</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="BBC News" start="20260805033000 +0800" stop="20260805040000 +0800">
-    <title lang="zh">The Context USA</title>
-    <desc>Special coverage from Washington DC and London, focusing on President Trump's second term.</desc>
-    <date>20260805</date>
+  <programme channel="CNBC" start="20260812033000 +0800" stop="20260812040000 +0800">
+    <title lang="zh">Closing Bell</title>
+    <desc>Anything can happen between the bells of the trading day. But what happens during the last hour could be what matters most. Hosted by CNBC's Scott Wapner, “Closing Bell” guides you through the most important hour of the trading day. The show takes a close-up look at how the markets are moving, what's driving them and how investors are reacting.</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="BBC News" start="20260805040000 +0800" stop="20260805043000 +0800">
-    <title lang="zh">The Context</title>
-    <desc>A regular panel of guests from across the political spectrum discuss the biggest international stories of the day.</desc>
-    <date>20260805</date>
+  <programme channel="CNBC" start="20260812040000 +0800" stop="20260812043000 +0800">
+    <title lang="zh">Closing Bell: Overtime</title>
+    <desc>When the bell rings, the action does not end. “Closing Bell: Overtime” takes you through all of the after-hours moves including breaking news, corporate earnings and post-market trading. Big investors, smart strategists and top money managers debate actionable ideas and the big market themes of the day, and get viewers ready for tomorrow's trading day.</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="BBC News" start="20260805043000 +0800" stop="20260805050000 +0800">
-    <title lang="zh">The Context</title>
-    <desc>A regular panel of guests from across the political spectrum discuss the biggest international stories of the day.</desc>
-    <date>20260805</date>
+  <programme channel="CNBC" start="20260812043000 +0800" stop="20260812050000 +0800">
+    <title lang="zh">Closing Bell: Overtime</title>
+    <desc>When the bell rings, the action does not end. “Closing Bell: Overtime” takes you through all of the after-hours moves including breaking news, corporate earnings and post-market trading. Big investors, smart strategists and top money managers debate actionable ideas and the big market themes of the day, and get viewers ready for tomorrow's trading day.</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="BBC News" start="20260805050000 +0800" stop="20260805053000 +0800">
-    <title lang="zh">BBC World News America</title>
-    <desc>The BBC presents in-depth reports on the major international and US news of the day presented from Washington DC.</desc>
-    <date>20260805</date>
+  <programme channel="CNBC" start="20260812050000 +0800" stop="20260812053000 +0800">
+    <title lang="zh">Fast Money</title>
+    <desc>“Fast Money” is America's post-market show. Hosted by Melissa Lee and a roundtable of top traders, “Fast Money” breaks through the noise of the day, to bring you the actionable news that matters most to investors.</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="BBC News" start="20260805053000 +0800" stop="20260805060000 +0800">
-    <title lang="zh">Newsnight</title>
-    <desc>Insights and global interviews on the crucial news stories of the day.</desc>
-    <date>20260805</date>
+  <programme channel="CNBC" start="20260812053000 +0800" stop="20260812060000 +0800">
+    <title lang="zh">Fast Money</title>
+    <desc>“Fast Money” is America's post-market show. Hosted by Melissa Lee and a roundtable of top traders, “Fast Money” breaks through the noise of the day, to bring you the actionable news that matters most to investors.</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="BBC News" start="20260805060000 +0800" stop="20260805070000 +0800">
-    <title lang="zh">BBC World News America</title>
-    <desc>The BBC presents in-depth reports on the major international and US news of the day presented from Washington DC.</desc>
-    <date>20260805</date>
+  <programme channel="CNBC" start="20260812060000 +0800" stop="20260812070000 +0800">
+    <title lang="zh">U.s. Markets Edition</title>
+    <desc>U.S. Markets Edition delivers key takeaways from the most impactful interviews and insights from CNBC's programming in the US. As global markets become more interconnected, this program ensures audiences in Asia stay informed on major developments shaping the business world overnight.</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="BBC News" start="20260805070000 +0800" stop="20260805073000 +0800">
-    <title lang="zh">BBC News</title>
-    <desc>The latest news from the BBC.</desc>
-    <date>20260805</date>
+  <programme channel="CNBC" start="20260812070000 +0800" stop="20260812073000 +0800">
+    <title lang="zh">Squawk Box Asia</title>
+    <desc>Squawk Box Asia is CNBC's flagship show that sets the news agenda and takes viewers through the pre-game and the opening of Asia's business trading day, covering the top market moving stories and views from the top CEOs, asset managers and newsmakers</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="BBC News" start="20260805073000 +0800" stop="20260805080000 +0800">
-    <title lang="zh">Newscast</title>
-    <desc>Lighthearted discussion of the day's news.</desc>
-    <date>20260805</date>
+  <programme channel="CNBC" start="20260812073000 +0800" stop="20260812080000 +0800">
+    <title lang="zh">Squawk Box Asia</title>
+    <desc>Squawk Box Asia is CNBC's flagship show that sets the news agenda and takes viewers through the pre-game and the opening of Asia's business trading day, covering the top market moving stories and views from the top CEOs, asset managers and newsmakers</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="BBC News" start="20260805080000 +0800" stop="20260805083000 +0800">
-    <title lang="zh">BBC News</title>
-    <desc>The latest news from the BBC.</desc>
-    <date>20260805</date>
+  <programme channel="CNBC" start="20260812080000 +0800" stop="20260812083000 +0800">
+    <title lang="zh">Squawk Box Asia</title>
+    <desc>Squawk Box Asia is CNBC's flagship show that sets the news agenda and takes viewers through the pre-game and the opening of Asia's business trading day, covering the top market moving stories and views from the top CEOs, asset managers and newsmakers</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="BBC News" start="20260805083000 +0800" stop="20260805090000 +0800">
-    <title lang="zh">Tech Now (R)</title>
-    <desc>Yasmin Morgan-Griffiths finds out how new technologies are being used to measure the world's forests in more detail than ever before. Suranjana Tewari takes us inside a robotics factory in Beijing.</desc>
-    <date>20260805</date>
+  <programme channel="CNBC" start="20260812083000 +0800" stop="20260812090000 +0800">
+    <title lang="zh">Squawk Box Asia</title>
+    <desc>Squawk Box Asia is CNBC's flagship show that sets the news agenda and takes viewers through the pre-game and the opening of Asia's business trading day, covering the top market moving stories and views from the top CEOs, asset managers and newsmakers</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="BBC News" start="20260805090000 +0800" stop="20260805093000 +0800">
-    <title lang="zh">Newsday</title>
-    <desc>Live from Singapore, the latest international news from the BBC.</desc>
-    <date>20260805</date>
+  <programme channel="CNBC" start="20260812090000 +0800" stop="20260812093000 +0800">
+    <title lang="zh">Squawk Box Asia</title>
+    <desc>Squawk Box Asia is CNBC's flagship show that sets the news agenda and takes viewers through the pre-game and the opening of Asia's business trading day, covering the top market moving stories and views from the top CEOs, asset managers and newsmakers</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="BBC News" start="20260805093000 +0800" stop="20260805094500 +0800">
-    <title lang="zh">Business Today</title>
-    <desc>Bringing the latest business news and up-to-date informed analysis from Singapore and around the world.</desc>
-    <date>20260805</date>
+  <programme channel="CNBC" start="20260812093000 +0800" stop="20260812100000 +0800">
+    <title lang="zh">Squawk Box Asia</title>
+    <desc>Squawk Box Asia is CNBC's flagship show that sets the news agenda and takes viewers through the pre-game and the opening of Asia's business trading day, covering the top market moving stories and views from the top CEOs, asset managers and newsmakers</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="BBC News" start="20260805094500 +0800" stop="20260805100000 +0800">
-    <title lang="zh">BBC Sport</title>
-    <desc>A round-up of the day's sporting action, plus talking points, analysis and original journalism.</desc>
-    <date>20260805</date>
+  <programme channel="CNBC" start="20260812100000 +0800" stop="20260812103000 +0800">
+    <title lang="zh">The China Connection</title>
+    <desc>The China Connection delivers in-depth analysis of China's economy, markets and its relationship with the global landscape. Emily Chan brings you expert insights, exclusive interviews, covering key sectors, trade developments and policy shifts.</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="BBC News" start="20260805100000 +0800" stop="20260805103000 +0800">
-    <title lang="zh">Newsday</title>
-    <desc>Live from Singapore, the latest international news from the BBC.</desc>
-    <date>20260805</date>
+  <programme channel="CNBC" start="20260812103000 +0800" stop="20260812110000 +0800">
+    <title lang="zh">The China Connection</title>
+    <desc>The China Connection delivers in-depth analysis of China's economy, markets and its relationship with the global landscape. Emily Chan brings you expert insights, exclusive interviews, covering key sectors, trade developments and policy shifts.</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="BBC News" start="20260805103000 +0800" stop="20260805104500 +0800">
-    <title lang="zh">Business Today</title>
-    <desc>Bringing the latest business news and up-to-date informed analysis from Singapore and around the world.</desc>
-    <date>20260805</date>
+  <programme channel="CNBC" start="20260812110000 +0800" stop="20260812113000 +0800">
+    <title lang="zh">Inside India</title>
+    <desc>CNBC's Inside India gives you news and market commentary on the emerging powerhouse, businesses and people behind its rise. Inside India goes beyond the headlines to give you the edge and insights - this is your gateway to the India story.</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="BBC News" start="20260805104500 +0800" stop="20260805110000 +0800">
-    <title lang="zh">Asia Specific</title>
-    <desc>Asia Specific brings you essential insights and conversations on the stories and trends shaping Asia Pacific, unpacked by those who know it best. Hosted in Singapore by Mariko Oi.</desc>
-    <date>20260805</date>
+  <programme channel="CNBC" start="20260812113000 +0800" stop="20260812120000 +0800">
+    <title lang="zh">Inside India</title>
+    <desc>CNBC's Inside India gives you news and market commentary on the emerging powerhouse, businesses and people behind its rise. Inside India goes beyond the headlines to give you the edge and insights - this is your gateway to the India story.</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="BBC News" start="20260805110000 +0800" stop="20260805113000 +0800">
-    <title lang="zh">Newsday</title>
-    <desc>Live from Singapore, the latest international news from the BBC.</desc>
-    <date>20260805</date>
+  <programme channel="CNBC" start="20260812120000 +0800" stop="20260812123000 +0800">
+    <title lang="zh">Access Middle East</title>
+    <desc>Access Middle East is your window into Middle East power, money, and influence. With exclusive interviews and high-level analysis, the program brings viewers closer to the decision-makers deploying capital and driving innovation in one of the world's most dynamic regions.</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="BBC News" start="20260805113000 +0800" stop="20260805114500 +0800">
-    <title lang="zh">Business Today</title>
-    <desc>Bringing the latest business news and up-to-date informed analysis from Singapore and around the world.</desc>
-    <date>20260805</date>
+  <programme channel="CNBC" start="20260812123000 +0800" stop="20260812130000 +0800">
+    <title lang="zh">Access Middle East</title>
+    <desc>Access Middle East is your window into Middle East power, money, and influence. With exclusive interviews and high-level analysis, the program brings viewers closer to the decision-makers deploying capital and driving innovation in one of the world's most dynamic regions.</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="BBC News" start="20260805114500 +0800" stop="20260805120000 +0800">
-    <title lang="zh">Asia Specific (R)</title>
-    <desc>Asia Specific brings you essential insights and conversations on the stories and trends shaping Asia Pacific, unpacked by those who know it best. Hosted in Singapore by Mariko Oi.</desc>
-    <date>20260805</date>
+  <programme channel="CNBC" start="20260812130000 +0800" stop="20260812133000 +0800">
+    <title lang="zh">Europe Early Edition</title>
+    <desc>Start your trading day with Europe Early Edition as European financial centres take the reins of global markets. With breaking news, key earnings and data, as well as interviews with market makers and C-Suite executives from across the globe, Europe Early Edition is essential viewing to be prepared for the day's session.</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="BBC News" start="20260805120000 +0800" stop="20260805123000 +0800">
-    <title lang="zh">BBC News</title>
-    <desc>The latest news from the BBC.</desc>
-    <date>20260805</date>
+  <programme channel="CNBC" start="20260812133000 +0800" stop="20260812140000 +0800">
+    <title lang="zh">Europe Early Edition</title>
+    <desc>Start your trading day with Europe Early Edition as European financial centres take the reins of global markets. With breaking news, key earnings and data, as well as interviews with market makers and C-Suite executives from across the globe, Europe Early Edition is essential viewing to be prepared for the day's session.</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="BBC News" start="20260805123000 +0800" stop="20260805130000 +0800">
-    <title lang="zh">Business Today</title>
-    <desc>Business Today. Bringing the latest business news and up-to-date informed analysis from London and around the world.</desc>
-    <date>20260805</date>
+  <programme channel="CNBC" start="20260812140000 +0800" stop="20260812143000 +0800">
+    <title lang="zh">Squawk Box Europe</title>
+    <desc>It's one hour until the opening bell in Europe and Squawk Box Europe has everything you need to prepare for the first trade. Steve Sedgwick, Karen Tso and Julianna Tatelbaum take on the most complex stories of the day with instant analysis on how you can make your money work around the news.</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="BBC News" start="20260805130000 +0800" stop="20260805133000 +0800">
-    <title lang="zh">BBC News</title>
-    <desc>The latest news from the BBC.</desc>
-    <date>20260805</date>
+  <programme channel="CNBC" start="20260812143000 +0800" stop="20260812150000 +0800">
+    <title lang="zh">Squawk Box Europe</title>
+    <desc>It's one hour until the opening bell in Europe and Squawk Box Europe has everything you need to prepare for the first trade. Steve Sedgwick, Karen Tso and Julianna Tatelbaum take on the most complex stories of the day with instant analysis on how you can make your money work around the news.</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="BBC News" start="20260805133000 +0800" stop="20260805140000 +0800">
-    <title lang="zh">Business Today</title>
-    <desc>Business Today. Bringing the latest business news and up-to-date informed analysis from London and around the world.</desc>
-    <date>20260805</date>
+  <programme channel="CNBC" start="20260812150000 +0800" stop="20260812153000 +0800">
+    <title lang="zh">Squawk Box Europe</title>
+    <desc>It's one hour until the opening bell in Europe and Squawk Box Europe has everything you need to prepare for the first trade. Steve Sedgwick, Karen Tso and Julianna Tatelbaum take on the most complex stories of the day with instant analysis on how you can make your money work around the news.</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="BBC News" start="20260805140000 +0800" stop="20260805143000 +0800">
-    <title lang="zh">BBC News</title>
-    <desc>The latest news from the BBC.</desc>
-    <date>20260805</date>
+  <programme channel="CNBC" start="20260812153000 +0800" stop="20260812160000 +0800">
+    <title lang="zh">Squawk Box Europe</title>
+    <desc>It's one hour until the opening bell in Europe and Squawk Box Europe has everything you need to prepare for the first trade. Steve Sedgwick, Karen Tso and Julianna Tatelbaum take on the most complex stories of the day with instant analysis on how you can make your money work around the news.</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="BBC News" start="20260805143000 +0800" stop="20260805150000 +0800">
-    <title lang="zh">Business Today</title>
-    <desc>Business Today. Bringing the latest business news and up-to-date informed analysis from London and around the world.</desc>
-    <date>20260805</date>
+  <programme channel="CNBC" start="20260812160000 +0800" stop="20260812163000 +0800">
+    <title lang="zh">Squawk Box Europe</title>
+    <desc>It's one hour until the opening bell in Europe and Squawk Box Europe has everything you need to prepare for the first trade. Steve Sedgwick, Karen Tso and Julianna Tatelbaum take on the most complex stories of the day with instant analysis on how you can make your money work around the news.</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="BBC News" start="20260805150000 +0800" stop="20260805153000 +0800">
-    <title lang="zh">BBC News</title>
-    <desc>The latest news from the BBC.</desc>
-    <date>20260805</date>
+  <programme channel="CNBC" start="20260812163000 +0800" stop="20260812170000 +0800">
+    <title lang="zh">Squawk Box Europe</title>
+    <desc>It's one hour until the opening bell in Europe and Squawk Box Europe has everything you need to prepare for the first trade. Steve Sedgwick, Karen Tso and Julianna Tatelbaum take on the most complex stories of the day with instant analysis on how you can make your money work around the news.</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="BBC News" start="20260805153000 +0800" stop="20260805160000 +0800">
-    <title lang="zh">BBC News</title>
-    <desc>The latest news from the BBC.</desc>
-    <date>20260805</date>
+  <programme channel="CNBC" start="20260812170000 +0800" stop="20260812173000 +0800">
+    <title lang="zh">Morning Call</title>
+    <desc>Morning Call, anchored by Morgan Brennan, delivers the essential market intelligence that drives the trading day ahead. The program captures breaking business news as it unfolds and tracks pre market equity moves, commodity swings, U.S. futures, and overnight action across global markets.</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="BBC News" start="20260805160000 +0800" stop="20260805163000 +0800">
-    <title lang="zh">BBC News</title>
-    <desc>The latest news from the BBC.</desc>
-    <date>20260805</date>
+  <programme channel="CNBC" start="20260812173000 +0800" stop="20260812180000 +0800">
+    <title lang="zh">Morning Call</title>
+    <desc>Morning Call, anchored by Morgan Brennan, delivers the essential market intelligence that drives the trading day ahead. The program captures breaking business news as it unfolds and tracks pre market equity moves, commodity swings, U.S. futures, and overnight action across global markets.</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="BBC News" start="20260805163000 +0800" stop="20260805170000 +0800">
-    <title lang="zh">BBC News</title>
-    <desc>The latest news from the BBC.</desc>
-    <date>20260805</date>
+  <programme channel="CNBC" start="20260812180000 +0800" stop="20260812183000 +0800">
+    <title lang="zh">US Squawk Box</title>
+    <desc>“Squawk Box” is the ultimate pre-market morning news and talk program, where the biggest names in business and politics tell their most important stories. Anchored by Joe Kernen, Becky Quick and Andrew Ross Sorkin, the show brings Wall Street to Main Street. It's a must-see for everyone from the professional trader to the casual investor.</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="BBC News" start="20260805170000 +0800" stop="20260805173000 +0800">
-    <title lang="zh">BBC News</title>
-    <desc>The latest news from the BBC.</desc>
-    <date>20260805</date>
+  <programme channel="CNBC" start="20260812183000 +0800" stop="20260812190000 +0800">
+    <title lang="zh">US Squawk Box</title>
+    <desc>“Squawk Box” is the ultimate pre-market morning news and talk program, where the biggest names in business and politics tell their most important stories. Anchored by Joe Kernen, Becky Quick and Andrew Ross Sorkin, the show brings Wall Street to Main Street. It's a must-see for everyone from the professional trader to the casual investor.</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="BBC News" start="20260805173000 +0800" stop="20260805180000 +0800">
-    <title lang="zh">BBC News</title>
-    <desc>The latest news from the BBC.</desc>
-    <date>20260805</date>
+  <programme channel="CNBC" start="20260812190000 +0800" stop="20260812193000 +0800">
+    <title lang="zh">US Squawk Box</title>
+    <desc>“Squawk Box” is the ultimate pre-market morning news and talk program, where the biggest names in business and politics tell their most important stories. Anchored by Joe Kernen, Becky Quick and Andrew Ross Sorkin, the show brings Wall Street to Main Street. It's a must-see for everyone from the professional trader to the casual investor.</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="BBC News" start="20260805180000 +0800" stop="20260805183000 +0800">
-    <title lang="zh">BBC News</title>
-    <desc>The latest news from the BBC.</desc>
-    <date>20260805</date>
+  <programme channel="CNBC" start="20260812193000 +0800" stop="20260812200000 +0800">
+    <title lang="zh">US Squawk Box</title>
+    <desc>“Squawk Box” is the ultimate pre-market morning news and talk program, where the biggest names in business and politics tell their most important stories. Anchored by Joe Kernen, Becky Quick and Andrew Ross Sorkin, the show brings Wall Street to Main Street. It's a must-see for everyone from the professional trader to the casual investor.</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="BBC News" start="20260805183000 +0800" stop="20260805184500 +0800">
-    <title lang="zh">Business Today</title>
-    <desc>Business Today. Bringing the latest business news and up-to-date informed analysis from London and around the world.</desc>
-    <date>20260805</date>
+  <programme channel="CNBC" start="20260812200000 +0800" stop="20260812203000 +0800">
+    <title lang="zh">US Squawk Box</title>
+    <desc>“Squawk Box” is the ultimate pre-market morning news and talk program, where the biggest names in business and politics tell their most important stories. Anchored by Joe Kernen, Becky Quick and Andrew Ross Sorkin, the show brings Wall Street to Main Street. It's a must-see for everyone from the professional trader to the casual investor.</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="BBC News" start="20260805184500 +0800" stop="20260805190000 +0800">
-    <title lang="zh">BBC News</title>
-    <desc>The latest news from the BBC.</desc>
-    <date>20260805</date>
+  <programme channel="CNBC" start="20260812203000 +0800" stop="20260812210000 +0800">
+    <title lang="zh">US Squawk Box</title>
+    <desc>“Squawk Box” is the ultimate pre-market morning news and talk program, where the biggest names in business and politics tell their most important stories. Anchored by Joe Kernen, Becky Quick and Andrew Ross Sorkin, the show brings Wall Street to Main Street. It's a must-see for everyone from the professional trader to the casual investor.</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="BBC News" start="20260805190000 +0800" stop="20260805193000 +0800">
-    <title lang="zh">BBC News Now</title>
-    <desc>All the big stories, live as they happen, presented by Lucy Hockings.</desc>
-    <date>20260805</date>
+  <programme channel="CNBC" start="20260812210000 +0800" stop="20260812213000 +0800">
+    <title lang="zh">Squawk On The Street</title>
+    <desc>Headquartered live on the floor of the New York Stock Exchange (NYSE) where the biggest companies in the world trade, “Squawk On The Street” tracks the action of every stock and gives you access to the treasury, currency and commodity action in real time.</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="BBC News" start="20260805193000 +0800" stop="20260805200000 +0800">
-    <title lang="zh">BBC News Now</title>
-    <desc>All the big stories, live as they happen, presented by Lucy Hockings.</desc>
-    <date>20260805</date>
+  <programme channel="CNBC" start="20260812213000 +0800" stop="20260812220000 +0800">
+    <title lang="zh">Squawk On The Street</title>
+    <desc>Headquartered live on the floor of the New York Stock Exchange (NYSE) where the biggest companies in the world trade, “Squawk On The Street” tracks the action of every stock and gives you access to the treasury, currency and commodity action in real time.</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="BBC News" start="20260805200000 +0800" stop="20260805203000 +0800">
-    <title lang="zh">BBC News Now</title>
-    <desc>All the big stories, live as they happen, presented by Lucy Hockings.</desc>
-    <date>20260805</date>
+  <programme channel="CNBC" start="20260812220000 +0800" stop="20260812223000 +0800">
+    <title lang="zh">Squawk On The Street</title>
+    <desc>Headquartered live on the floor of the New York Stock Exchange (NYSE) where the biggest companies in the world trade, “Squawk On The Street” tracks the action of every stock and gives you access to the treasury, currency and commodity action in real time.</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="BBC News" start="20260805203000 +0800" stop="20260805210000 +0800">
-    <title lang="zh">BBC News Now</title>
-    <desc>All the big stories, live as they happen, presented by Lucy Hockings.</desc>
-    <date>20260805</date>
+  <programme channel="CNBC" start="20260812223000 +0800" stop="20260812230000 +0800">
+    <title lang="zh">Squawk On The Street</title>
+    <desc>Headquartered live on the floor of the New York Stock Exchange (NYSE) where the biggest companies in the world trade, “Squawk On The Street” tracks the action of every stock and gives you access to the treasury, currency and commodity action in real time.</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="BBC News" start="20260805210000 +0800" stop="20260805213000 +0800">
-    <title lang="zh">BBC News Now</title>
-    <desc>All the big stories, live as they happen, presented by Lucy Hockings.</desc>
-    <date>20260805</date>
+  <programme channel="CNBC" start="20260812230000 +0800" stop="20260812233000 +0800">
+    <title lang="zh">Squawk On The Street</title>
+    <desc>Headquartered live on the floor of the New York Stock Exchange (NYSE) where the biggest companies in the world trade, “Squawk On The Street” tracks the action of every stock and gives you access to the treasury, currency and commodity action in real time.</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="BBC News" start="20260805213000 +0800" stop="20260805214500 +0800">
-    <title lang="zh">Business Today </title>
-    <desc>Business Today. Bringing the latest business news and up-to-date informed analysis from New York and around the world.</desc>
-    <date>20260805</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="BBC News" start="20260805214500 +0800" stop="20260805220000 +0800">
-    <title lang="zh">BBC News Now</title>
-    <desc>All the big stories, live as they happen, presented by Lucy Hockings.</desc>
-    <date>20260805</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="BBC News" start="20260805220000 +0800" stop="20260805223000 +0800">
-    <title lang="zh">Verified Live</title>
-    <desc>Matthew Amroliwala presents all the latest global and UK news, live from London.</desc>
-    <date>20260805</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="BBC News" start="20260805223000 +0800" stop="20260805230000 +0800">
-    <title lang="zh">Verified Live</title>
-    <desc>Matthew Amroliwala presents all the latest global and UK news, live from London.</desc>
-    <date>20260805</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="BBC News" start="20260805230000 +0800" stop="20260805233000 +0800">
-    <title lang="zh">Verified Live</title>
-    <desc>Matthew Amroliwala presents all the latest global and UK news, live from London.</desc>
-    <date>20260805</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="BBC News" start="20260805233000 +0800" stop="20260805234500 +0800">
-    <title lang="zh">Business Today</title>
-    <desc>Business Today. Bringing the latest business news and up-to-date informed analysis from London and around the world.</desc>
-    <date>20260805</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="BBC News" start="20260805234500 +0800" stop="20260806000000 +0800">
-    <title lang="zh">Verified Live</title>
-    <desc>Matthew Amroliwala presents all the latest global and UK news, live from London.</desc>
-    <date>20260805</date>
+  <programme channel="CNBC" start="20260812233000 +0800" stop="20260813000000 +0800">
+    <title lang="zh">Squawk On The Street</title>
+    <desc>Headquartered live on the floor of the New York Stock Exchange (NYSE) where the biggest companies in the world trade, “Squawk On The Street” tracks the action of every stock and gives you access to the treasury, currency and commodity action in real time.</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
@@ -72494,306 +72070,418 @@
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="NTV Plus" start="20260805003000 +0800" stop="20260805010000 +0800">
-    <title lang="zh">美食新聞報道[粵]</title>
-    <desc>香港匯聚環球美食！黃嘉雯、倪嘉雯、蔡景行、施焯日、黃婧靈等主持四出試食，帶來真實食評；推介自駕覓食好去處，發掘各區「掃街」名物、名人愛店，驗證網上「抵食」傳聞；又會相約居港的外國人，到訪經他們認證的家鄉風味食肆。星級大廚、食評家、美食KOL、各區地膽及的士司機亦會帶路「搵食」，帶來精彩推介；識食之人還會細說美食典故。節目緊貼最新飲食潮流，速遞美食優惠，讓觀眾掌握最滋味、抵食的飲食情報。</desc>
-    <date>20260805</date>
+  <programme channel="BBC News" start="20260812000000 +0800" stop="20260812003000 +0800">
+    <title lang="zh">Verified Live</title>
+    <desc>Matthew Amroliwala presents all the latest global and UK news, live from London.</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="NTV Plus" start="20260805010000 +0800" stop="20260805013000 +0800">
-    <title lang="zh">尋找隱世家[粵/日]</title>
-    <desc>拜訪日本各地過著獨特生活方式的家庭，花一晚時間體驗他們的日常生活、傳統和價值觀。</desc>
-    <date>20260805</date>
+  <programme channel="BBC News" start="20260812003000 +0800" stop="20260812010000 +0800">
+    <title lang="zh">Focus On Africa</title>
+    <desc>The biggest African and international stories from the BBC.</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="NTV Plus" start="20260805013000 +0800" stop="20260805013500 +0800">
-    <title lang="zh">保誠精選「寵愛寶」呈獻：社畜求生101[粵][PG]</title>
-    <desc>TVB A.I.生成動畫《社畜求生101》故事簡介：警方臥底喵喵阿星為追查離奇失蹤案，潛入「獅人公司」偽裝成普通職員，試圖接近獅子總裁，搜集其犯罪證據。然而，一向智勇雙全的阿星卻完全不懂上班模式，屢屢犯錯，險些被趕出公司。在搭檔肥狗阿花的職場指導下，阿星逐漸領悟社畜求生法則，最終能否步步高升，拉倒獅子王？又能否揭開背後的黑暗真相？</desc>
-    <date>20260805</date>
+  <programme channel="BBC News" start="20260812010000 +0800" stop="20260812013000 +0800">
+    <title lang="zh">The World Today With Maryam Moshiri</title>
+    <desc>Watch the best of the BBC's journalism from around the world.</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="NTV Plus" start="20260805013500 +0800" stop="20260805014000 +0800">
-    <title lang="zh">勁歌推介[粵]</title>
-    <desc />
-    <date>20260805</date>
+  <programme channel="BBC News" start="20260812013000 +0800" stop="20260812020000 +0800">
+    <title lang="zh">The World Today With Maryam Moshiri</title>
+    <desc>Watch the best of the BBC's journalism from around the world.</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="NTV Plus" start="20260805014000 +0800" stop="20260805020500 +0800">
-    <title lang="zh">娛樂新聞報道[粵]</title>
-    <desc>每晚緊貼香港娛樂圈的消息，以至世界各地的影視娛樂新聞，報道藝人最新動態、劇集和電影宣傳、演唱會精華、頒獎禮盛況等，甚至遠赴外地採訪娛樂盛事、追蹤各地影星，專訪觀眾熟悉的歌、影、視紅人，讓大家瞬間掌握影視娛樂圈的動態和最新消息。</desc>
-    <date>20260805</date>
+  <programme channel="BBC News" start="20260812020000 +0800" stop="20260812023000 +0800">
+    <title lang="zh">The World Today With Maryam Moshiri</title>
+    <desc>Watch the best of the BBC's journalism from around the world.</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="NTV Plus" start="20260805020500 +0800" stop="20260805023500 +0800">
-    <title lang="zh">原住台灣之鐵道行[粵/普]</title>
-    <desc>鄭書孟發掘嘉義的地道好玩。到太平雲梯吊橋下觀賞神級靚景，牛高馬大的書孟何以腳震震？隱藏於阿里山腳的鵝肉鴨肉小吃，普遍小菜盛惠百元台幣，書孟一一秒殺招牌名菜鹽水鵝、啤酒鴨湯、奮起湖石篙筍，每碟足料份量，超滿足！書孟到牧場「賽鵝」初體驗，又親親牛牛學擠牛奶，他的擠奶姿勢卻是……介紹嘉義一流住宿，勿錯過一泊三食的限定燒肉套餐，書孟有口福，品嚐由淡到濃郁的澳洲上等和牛，一一將牛板腱肉、牛小排放進肚中。</desc>
-    <date>20260805</date>
+  <programme channel="BBC News" start="20260812023000 +0800" stop="20260812030000 +0800">
+    <title lang="zh">The World Today With Maryam Moshiri</title>
+    <desc>Watch the best of the BBC's journalism from around the world.</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="NTV Plus" start="20260805023500 +0800" stop="20260805033000 +0800">
-    <title lang="zh">川內相親#24[粵/普]</title>
-    <desc>尹岐被廢黜，上官婧卻對他不離不棄。尹崢雖被停職，卻堅持要查假幣案以討回公道。陳錫雖被尹崢擒獲，卻在審訊後成功趁亂逃脫。看到尹崢呈上的證據，新川主不得不忍痛作出最後決定，廢黜尹嵩的嫡長主之位，將其流放。</desc>
-    <date>20260805</date>
+  <programme channel="BBC News" start="20260812030000 +0800" stop="20260812033000 +0800">
+    <title lang="zh">The Context USA</title>
+    <desc>Special coverage from Washington DC and London, focusing on President Trump's second term.</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="NTV Plus" start="20260805033000 +0800" stop="20260805060000 +0800">
-    <title lang="zh">OT無限loop</title>
-    <desc>每晚深夜，公司仲有邊個未收工？有屋企唔返，咁搏命係愛定係責任？閉路電視全程無間斷直擊，《社畜求生101》主角阿星同阿花捱更抵夜職場血淚史！</desc>
-    <date>20260805</date>
+  <programme channel="BBC News" start="20260812033000 +0800" stop="20260812040000 +0800">
+    <title lang="zh">The Context USA</title>
+    <desc>Special coverage from Washington DC and London, focusing on President Trump's second term.</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="NTV Plus" start="20260805060000 +0800" stop="20260805063000 +0800">
-    <title lang="zh">#後生仔傾吓偈[粵]</title>
-    <desc>今集請來電競公司創辦人鍾培生(Derek)，以專業角度傾打機！先報上「機齡」，六號再次曝露年代鴻溝！一眾KOL暢談打機的童年回憶，包括字典機、手機的歷久不衰小遊戲，迷你養寵物遊戲機、線上小遊戲……打機虛耗人生？荒廢學業？浪費金錢？Derek要扭轉這些說法，將打機變得正能量！Derek細說電競生態，從發掘電競人才，以至電競選手的收入都話你知。點先可以成為頂尖的電競選手？原來都好講Package！</desc>
-    <date>20260805</date>
+  <programme channel="BBC News" start="20260812040000 +0800" stop="20260812043000 +0800">
+    <title lang="zh">The Context</title>
+    <desc>A regular panel of guests from across the political spectrum discuss the biggest international stories of the day.</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="NTV Plus" start="20260805063000 +0800" stop="20260805070000 +0800">
-    <title lang="zh">#後生仔傾吓偈[粵]</title>
-    <desc>嘉賓鍾培生(Derek)再臨，這次分享拍短片心得，他堅持隔日網上出Post，因為香港現時好需要愛？爆紅KOL有何成功秘技？勤力、器材二者兼備，出片數量越多越好，垃圾片無問題，只要肯嘗試，一部手機已可，而Derek的轉捩點竟是一隻野豬？怎樣揀選適合自己的短片題材？Derek傳授出片「AB Test」不二法則，終令眾人逐步走出盲點。繼而帶來吸睛短片的成功要素，以及處理負評的得體技巧，秒杪袋錢入你袋！</desc>
-    <date>20260805</date>
+  <programme channel="BBC News" start="20260812043000 +0800" stop="20260812050000 +0800">
+    <title lang="zh">The Context</title>
+    <desc>A regular panel of guests from across the political spectrum discuss the biggest international stories of the day.</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="NTV Plus" start="20260805070000 +0800" stop="20260805073000 +0800">
-    <title lang="zh">娛樂新聞報道[粵]</title>
-    <desc>每晚緊貼香港娛樂圈的消息，以至世界各地的影視娛樂新聞，報道藝人最新動態、劇集和電影宣傳、演唱會精華、頒獎禮盛況等，甚至遠赴外地採訪娛樂盛事、追蹤各地影星，專訪觀眾熟悉的歌、影、視紅人，讓大家瞬間掌握影視娛樂圈的動態和最新消息。</desc>
-    <date>20260805</date>
+  <programme channel="BBC News" start="20260812050000 +0800" stop="20260812053000 +0800">
+    <title lang="zh">BBC World News America</title>
+    <desc>The BBC presents in-depth reports on the major international and US news of the day presented from Washington DC.</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="NTV Plus" start="20260805073000 +0800" stop="20260805080000 +0800">
-    <title lang="zh">尋找隱世家[粵/日]</title>
-    <desc>拜訪日本各地過著獨特生活方式的家庭，花一晚時間體驗他們的日常生活、傳統和價值觀。</desc>
-    <date>20260805</date>
+  <programme channel="BBC News" start="20260812053000 +0800" stop="20260812060000 +0800">
+    <title lang="zh">Newsnight</title>
+    <desc>Insights and global interviews on the crucial news stories of the day.</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="NTV Plus" start="20260805080000 +0800" stop="20260805083000 +0800">
-    <title lang="zh">美食新聞報道[粵]</title>
-    <desc>香港匯聚環球美食！黃嘉雯、倪嘉雯、蔡景行、施焯日、黃婧靈等主持四出試食，帶來真實食評；推介自駕覓食好去處，發掘各區「掃街」名物、名人愛店，驗證網上「抵食」傳聞；又會相約居港的外國人，到訪經他們認證的家鄉風味食肆。星級大廚、食評家、美食KOL、各區地膽及的士司機亦會帶路「搵食」，帶來精彩推介；識食之人還會細說美食典故。節目緊貼最新飲食潮流，速遞美食優惠，讓觀眾掌握最滋味、抵食的飲食情報。</desc>
-    <date>20260805</date>
+  <programme channel="BBC News" start="20260812060000 +0800" stop="20260812070000 +0800">
+    <title lang="zh">BBC World News America</title>
+    <desc>The BBC presents in-depth reports on the major international and US news of the day presented from Washington DC.</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="NTV Plus" start="20260805083000 +0800" stop="20260805090000 +0800">
-    <title lang="zh">3日2夜[粵]</title>
-    <desc>主持張曦雯、陳庭欣、陳偉琪、楊潮凱、朱智賢、歐陽巧瑩、周奕瑋、Super Girls、李旻芳、潘梓鋒、蔣家旻、鄺潔楹、伍富橋等，走訪多個近年自由行熱門國家及城市，包括：泰國華欣及芭堤雅、巴西里約熱內盧、日本九州及沖繩、中國內蒙古、俄羅斯海參崴及伊爾庫茨克、蒙古國烏蘭巴托、馬爾代夫、澳洲坎培拉及黃金海岸，以及韓國濟州、保寧、橫城、安東、平昌等地，在三日兩夜的行程中，從多角度感受每個地方的獨特韻味！</desc>
-    <date>20260805</date>
+  <programme channel="BBC News" start="20260812070000 +0800" stop="20260812073000 +0800">
+    <title lang="zh">BBC News</title>
+    <desc>The latest news from the BBC.</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="NTV Plus" start="20260805090000 +0800" stop="20260805100000 +0800">
-    <title lang="zh">交易現場[粵]</title>
-    <desc />
-    <date>20260805</date>
+  <programme channel="BBC News" start="20260812073000 +0800" stop="20260812080000 +0800">
+    <title lang="zh">The Climate Question (R) </title>
+    <desc>The Earth is warming due to climate change. But how hot could it really get? Author Kate Marvel discusses her life in climate modelling, and how climate science can't be separated from human emotions.</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="NTV Plus" start="20260805100000 +0800" stop="20260805101000 +0800">
-    <title lang="zh">致富證券特約:早市戰報[粵]</title>
-    <desc />
-    <date>20260805</date>
+  <programme channel="BBC News" start="20260812080000 +0800" stop="20260812083000 +0800">
+    <title lang="zh">BBC News</title>
+    <desc>The latest news from the BBC.</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="NTV Plus" start="20260805101000 +0800" stop="20260805102000 +0800">
-    <title lang="zh">摩根大通特約 :通悉牛熊[粵]</title>
-    <desc />
-    <date>20260805</date>
+  <programme channel="BBC News" start="20260812083000 +0800" stop="20260812090000 +0800">
+    <title lang="zh">Tech Now (R) </title>
+    <desc>Adrienne Murray has rare access to Microsoft's Quantum Lab in Denmark. Ammie Sekhon checks out the action and innovation at this year's Red Bull Soapbox Race.</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="NTV Plus" start="20260805102000 +0800" stop="20260805114000 +0800">
-    <title lang="zh">致富證券特約:早市戰報[粵]</title>
-    <desc />
-    <date>20260805</date>
+  <programme channel="BBC News" start="20260812090000 +0800" stop="20260812093000 +0800">
+    <title lang="zh">Newsday</title>
+    <desc>Live from Singapore, the latest international news from the BBC.</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="NTV Plus" start="20260805114000 +0800" stop="20260805121500 +0800">
-    <title lang="zh">交易現場[粵] 及 好嘢港多啲[粵]</title>
-    <desc />
-    <date>20260805</date>
+  <programme channel="BBC News" start="20260812093000 +0800" stop="20260812094500 +0800">
+    <title lang="zh">Business Today</title>
+    <desc>Bringing the latest business news and up-to-date informed analysis from Singapore and around the world.</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="NTV Plus" start="20260805121500 +0800" stop="20260805131500 +0800">
-    <title lang="zh">川內相親#24[粵/普]</title>
-    <desc>尹岐被廢黜，上官婧卻對他不離不棄。尹崢雖被停職，卻堅持要查假幣案以討回公道。陳錫雖被尹崢擒獲，卻在審訊後成功趁亂逃脫。看到尹崢呈上的證據，新川主不得不忍痛作出最後決定，廢黜尹嵩的嫡長主之位，將其流放。</desc>
-    <date>20260805</date>
+  <programme channel="BBC News" start="20260812094500 +0800" stop="20260812100000 +0800">
+    <title lang="zh">BBC Sport</title>
+    <desc>A round-up of the day's sporting action, plus talking points, analysis and original journalism.</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="NTV Plus" start="20260805131500 +0800" stop="20260805134500 +0800">
-    <title lang="zh">美食新聞報道[粵] 及 保誠精選「寵愛寶」呈獻：社畜求生101[粵][PG]</title>
-    <desc>香港匯聚環球美食！黃嘉雯、倪嘉雯、蔡景行、施焯日、黃婧靈等主持四出試食，帶來真實食評；推介自駕覓食好去處，發掘各區「掃街」名物、名人愛店，驗證網上「抵食」傳聞；又會相約居港的外國人，到訪經他們認證的家鄉風味食肆。星級大廚、食評家、美食KOL、各區地膽及的士司機亦會帶路「搵食」，帶來精彩推介；識食之人還會細說美食典故。節目緊貼最新飲食潮流，速遞美食優惠，讓觀眾掌握最滋味、抵食的飲食情報。</desc>
-    <date>20260805</date>
+  <programme channel="BBC News" start="20260812100000 +0800" stop="20260812103000 +0800">
+    <title lang="zh">Newsday</title>
+    <desc>Live from Singapore, the latest international news from the BBC.</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="NTV Plus" start="20260805134500 +0800" stop="20260805141500 +0800">
-    <title lang="zh">開卷[粵]</title>
-    <desc>創作故事，如何開始？Patrick Sir推薦由荷里活著名「劇本醫生」撰寫的編劇「教科書」，書本列出故事寫作七個步驟，每個步驟對故事推進、角色成長都有作用。這書同時啟發了電影編導鄭文輝，他分享編寫劇本的心得，還即席將七個步驟套用到周星馳經典《食神》。書中亦提及對白的重要性，輝導亦披露星爺度對白的嚴謹要求。從不看小說？聽畢韻婷、樂文分別推介引領讀者思考人生，以及教人探索細微日常的小說，可會就此改變？</desc>
-    <date>20260805</date>
+  <programme channel="BBC News" start="20260812103000 +0800" stop="20260812104500 +0800">
+    <title lang="zh">Business Today</title>
+    <desc>Bringing the latest business news and up-to-date informed analysis from Singapore and around the world.</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="NTV Plus" start="20260805141500 +0800" stop="20260805144500 +0800">
-    <title lang="zh">娛樂新聞報道[粵]</title>
-    <desc>每晚緊貼香港娛樂圈的消息，以至世界各地的影視娛樂新聞，報道藝人最新動態、劇集和電影宣傳、演唱會精華、頒獎禮盛況等，甚至遠赴外地採訪娛樂盛事、追蹤各地影星，專訪觀眾熟悉的歌、影、視紅人，讓大家瞬間掌握影視娛樂圈的動態和最新消息。</desc>
-    <date>20260805</date>
+  <programme channel="BBC News" start="20260812104500 +0800" stop="20260812110000 +0800">
+    <title lang="zh">Asia Specific</title>
+    <desc>Asia Specific brings you essential insights and conversations on the stories and trends shaping Asia Pacific, unpacked by those who know it best. Hosted in Singapore by Mariko Oi.</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="NTV Plus" start="20260805144500 +0800" stop="20260805151500 +0800">
-    <title lang="zh">尋找隱世家[粵/日]</title>
-    <desc>拜訪日本各地過著獨特生活方式的家庭，花一晚時間體驗他們的日常生活、傳統和價值觀。</desc>
-    <date>20260805</date>
+  <programme channel="BBC News" start="20260812110000 +0800" stop="20260812113000 +0800">
+    <title lang="zh">Newsday</title>
+    <desc>Live from Singapore, the latest international news from the BBC.</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="NTV Plus" start="20260805151500 +0800" stop="20260805155000 +0800">
-    <title lang="zh">鬼上你架車2[粵][PG] 及 香港美心月餅呈獻:用心‧家的中秋味道[粵]</title>
-    <desc>這個可能是電視史上「最恐怖，亦需要家長回條」才可以收看的鬼故節目，每集主持人方力申及唐劍康，都會請來嘉賓在車上分享真人真事或他們曾經聽聞最恐怖、最詭異的靈異故事，同集更會「加映」各行各業講鬼故。</desc>
-    <date>20260805</date>
+  <programme channel="BBC News" start="20260812113000 +0800" stop="20260812114500 +0800">
+    <title lang="zh">Business Today</title>
+    <desc>Bringing the latest business news and up-to-date informed analysis from Singapore and around the world.</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="NTV Plus" start="20260805155000 +0800" stop="20260805162000 +0800">
-    <title lang="zh">交易現場[粵]</title>
-    <desc />
-    <date>20260805</date>
+  <programme channel="BBC News" start="20260812114500 +0800" stop="20260812120000 +0800">
+    <title lang="zh">Asia Specific (R)</title>
+    <desc>Asia Specific brings you essential insights and conversations on the stories and trends shaping Asia Pacific, unpacked by those who know it best. Hosted in Singapore by Mariko Oi.</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="NTV Plus" start="20260805162000 +0800" stop="20260805165000 +0800">
-    <title lang="zh">原住台灣之鐵道行[粵/普]</title>
-    <desc>鄭書孟尋覓嘉義迷人香味，品嚐古早味早點煎粿，蘿蔔糕加煎蛋配搭好新鮮！老闆細說炮製火紅雞肉飯的獨門秘笈，書孟受教了！紅爆手信涼蛋捲有何吸引力？又在檜意森活村感受檜木清香及和風體驗，了解珍貴歷史地圖，長知識也。踏進花花餐廳花香撲鼻，了解大男孩老闆的少女心，每道菜式能吃出花的模樣，食物都變為精緻藝術品。傳承百年的花磚藝術，每個圖案均代表幸福密語，連鑲嵌高矮位置也講究，書孟試玩花磚上釉體驗，順道沾上幸福。</desc>
-    <date>20260805</date>
+  <programme channel="BBC News" start="20260812120000 +0800" stop="20260812123000 +0800">
+    <title lang="zh">BBC News</title>
+    <desc>The latest news from the BBC.</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="NTV Plus" start="20260805165000 +0800" stop="20260805172500 +0800">
-    <title lang="zh">原住台灣之鐵道行[粵/普]</title>
-    <desc>鄭書孟造訪台南菁寮老街，見證傳統婚禮習俗及有趣嫁妝。品嚐菁寮社區農家菜「割稻飯」，洋溢家鄉味道。參觀百年工藝，小小的手織草籃，領悟背後艱辛血汗工夫。來到木造保安車站，買張幸福紀念車票、來一趟糖廠新玩法！糖廠改建的文創園區，有超乎想像的玩意，書孟挑戰刺激天堂鞦韆；還簽生死狀幹甚麼？發掘園區靜態一面，神秘地方放天燈浪漫一刻。糖廠又化身親民價甜品店，多款限定口味冰淇淋，享受紅豆滿瀉和中秋蛋黃月餅般味道。</desc>
-    <date>20260805</date>
+  <programme channel="BBC News" start="20260812123000 +0800" stop="20260812130000 +0800">
+    <title lang="zh">Business Today</title>
+    <desc>Business Today. Bringing the latest business news and up-to-date informed analysis from London and around the world.</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="NTV Plus" start="20260805172500 +0800" stop="20260805175500 +0800">
-    <title lang="zh">美食新聞報道[粵]</title>
-    <desc>香港匯聚環球美食！黃嘉雯、倪嘉雯、蔡景行、施焯日、黃婧靈等主持四出試食，帶來真實食評；推介自駕覓食好去處，發掘各區「掃街」名物、名人愛店，驗證網上「抵食」傳聞；又會相約居港的外國人，到訪經他們認證的家鄉風味食肆。星級大廚、食評家、美食KOL、各區地膽及的士司機亦會帶路「搵食」，帶來精彩推介；識食之人還會細說美食典故。節目緊貼最新飲食潮流，速遞美食優惠，讓觀眾掌握最滋味、抵食的飲食情報。</desc>
-    <date>20260805</date>
+  <programme channel="BBC News" start="20260812130000 +0800" stop="20260812133000 +0800">
+    <title lang="zh">BBC News</title>
+    <desc>The latest news from the BBC.</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="NTV Plus" start="20260805175500 +0800" stop="20260805183000 +0800">
-    <title lang="zh">野外步出3玩野加大馬[粵]</title>
-    <desc>奶仔這集邀來《聲夢傳奇2馬來西亞》參賽者林桔欣擔任嘉賓，但甫見面就說錯話令梏欣心碎。二人這次挑戰瀑布下降，上山期間奶仔問起桔欣的參賽、入行經過，意外發現原來彼此是「師兄妹」。抵達瀑布頂，由桔欣率先登場。雖然她一開始便兩次跣低，但性格勇敢的她仍能順利完成。奶仔在港曾有兩次瀑降經驗，可會令他表現較佳？奶仔深入探問桔欣的內心世界，原來在其堅強外表下，曾有過一段於恐懼中成長的經歷，她還透露於初戀身心受傷！</desc>
-    <date>20260805</date>
+  <programme channel="BBC News" start="20260812133000 +0800" stop="20260812140000 +0800">
+    <title lang="zh">Business Today</title>
+    <desc>Business Today. Bringing the latest business news and up-to-date informed analysis from London and around the world.</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="NTV Plus" start="20260805183000 +0800" stop="20260805190000 +0800">
-    <title lang="zh">唔滾唔知有料到[粵] 及 香港美心月餅呈獻:用心‧家的中秋味道[粵]</title>
-    <desc>在湖南省，甚麼食材都可造成臘味。由農戶自製的臘味火鍋，還於競爭激烈的餐飲業界打倒對手成為榜首。臘味火鍋看似重口味，主持們吃起來，都覺得味道剛剛好。火鍋內還放進橙、蒜等配料，發揮了甚麼作用？位於湖南西北部的張家界，有款火鍋稱為「三下鍋」，其出處說法紛紜，最重要卻是夠美味！三下鍋有兩種煮法，分別是湯鍋與乾鍋。雖然乾鍋由湯鍋演變出來，慧儀、韻婷慕名品嚐，發現湯鍋、乾鍋卻各具風味，麻、辣、香都做能到極致！</desc>
-    <date>20260805</date>
+  <programme channel="BBC News" start="20260812140000 +0800" stop="20260812143000 +0800">
+    <title lang="zh">BBC News</title>
+    <desc>The latest news from the BBC.</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="NTV Plus" start="20260805190000 +0800" stop="20260805200000 +0800">
-    <title lang="zh">川內相親#25[粵/普]</title>
-    <desc>想殺死尹嵩的小廝原來是陳錫，幸好尹崢及時趕到；尹岐擔心上官婧跟著自己吃苦，打算與她和離；其後尹岐得知上官婧要招贅婿，立即趕到丹川；尹岐前往招婿現場，參與比試，並希望能與上官婧見面，當面向她道歉。</desc>
-    <date>20260805</date>
+  <programme channel="BBC News" start="20260812143000 +0800" stop="20260812150000 +0800">
+    <title lang="zh">Business Today</title>
+    <desc>Business Today. Bringing the latest business news and up-to-date informed analysis from London and around the world.</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="NTV Plus" start="20260805200000 +0800" stop="20260805203000 +0800">
-    <title lang="zh">美食新聞報道[粵]</title>
-    <desc>香港匯聚環球美食！黃嘉雯、倪嘉雯、蔡景行、施焯日、黃婧靈等主持四出試食，帶來真實食評；推介自駕覓食好去處，發掘各區「掃街」名物、名人愛店，驗證網上「抵食」傳聞；又會相約居港的外國人，到訪經他們認證的家鄉風味食肆。星級大廚、食評家、美食KOL、各區地膽及的士司機亦會帶路「搵食」，帶來精彩推介；識食之人還會細說美食典故。節目緊貼最新飲食潮流，速遞美食優惠，讓觀眾掌握最滋味、抵食的飲食情報。</desc>
-    <date>20260805</date>
+  <programme channel="BBC News" start="20260812150000 +0800" stop="20260812153000 +0800">
+    <title lang="zh">BBC News</title>
+    <desc>The latest news from the BBC.</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="NTV Plus" start="20260805203000 +0800" stop="20260805210000 +0800">
-    <title lang="zh">尋找隱世家[粵/日]</title>
-    <desc>拜訪日本各地過著獨特生活方式的家庭，花一晚時間體驗他們的日常生活、傳統和價值觀。</desc>
-    <date>20260805</date>
+  <programme channel="BBC News" start="20260812153000 +0800" stop="20260812160000 +0800">
+    <title lang="zh">BBC News</title>
+    <desc>The latest news from the BBC.</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="NTV Plus" start="20260805210000 +0800" stop="20260805213000 +0800">
-    <title lang="zh">娛樂新聞報道 及 保誠精選「寵愛寶」呈獻：社畜求生101[粵]</title>
-    <desc>每晚緊貼香港娛樂圈的消息，以至世界各地的影視娛樂新聞，報道藝人最新動態、劇集和電影宣傳、演唱會精華、頒獎禮盛況等，甚至遠赴外地採訪娛樂盛事、追蹤各地影星，專訪觀眾熟悉的歌、影、視紅人，讓大家瞬間掌握影視娛樂圈的動態和最新消息。</desc>
-    <date>20260805</date>
+  <programme channel="BBC News" start="20260812160000 +0800" stop="20260812163000 +0800">
+    <title lang="zh">BBC News</title>
+    <desc>The latest news from the BBC.</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="NTV Plus" start="20260805213000 +0800" stop="20260805223000 +0800">
-    <title lang="zh">向世界挑戰[粵/普]</title>
-    <desc>台灣屏東縣恆春鎮及宜蘭縣頭城鎮有一項流傳過百年，配合中元節而舉行的競技活動，選手要在塗滿牛油的柱子上迅速攻頂，搶奪棚頂上的順風旗。本集新加坡前國家田徑隊代表兼歌手沈志豪就要來挑戰這項名為豎孤棚的比賽。</desc>
-    <date>20260805</date>
+  <programme channel="BBC News" start="20260812163000 +0800" stop="20260812170000 +0800">
+    <title lang="zh">BBC News</title>
+    <desc>The latest news from the BBC.</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="NTV Plus" start="20260805223000 +0800" stop="20260805233000 +0800">
-    <title lang="zh">千王之王#5[粵]</title>
-    <desc>土豪洪彪、洪豹父子野心併吞全廣州市賭場，幸得「南神眼」羅四海鎮壓搗亂，洪氏父子懷恨在心。譚小棠是當地著名花旦，弟譚昇出千被羅四海所擒，譚小棠為救弟與羅四海談判，最後更發展成愛情故事。彪聘北方千王卓一夫與羅四海鬥法，洪彪後來改以收買南北千王於旗下。惜兩人最終逃不過洪彪的種種陰謀，羅四海被害致雙目失明，卓一夫則被挑斷手筋，兩人決集千術之精華授予譚昇以報仇。之後昇以過人千術擊敗洪家與卓莉，成為千王之王。</desc>
-    <date>20260805</date>
+  <programme channel="BBC News" start="20260812170000 +0800" stop="20260812173000 +0800">
+    <title lang="zh">BBC News</title>
+    <desc>The latest news from the BBC.</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="NTV Plus" start="20260805233000 +0800" stop="20260806003000 +0800">
-    <title lang="zh">千王之王#6[粵]</title>
-    <desc>土豪洪彪、洪豹父子野心併吞全廣州市賭場，幸得「南神眼」羅四海鎮壓搗亂，洪氏父子懷恨在心。譚小棠是當地著名花旦，弟譚昇出千被羅四海所擒，譚小棠為救弟與羅四海談判，最後更發展成愛情故事。彪聘北方千王卓一夫與羅四海鬥法，洪彪後來改以收買南北千王於旗下。惜兩人最終逃不過洪彪的種種陰謀，羅四海被害致雙目失明，卓一夫則被挑斷手筋，兩人決集千術之精華授予譚昇以報仇。之後昇以過人千術擊敗洪家與卓莉，成為千王之王。</desc>
-    <date>20260805</date>
+  <programme channel="BBC News" start="20260812173000 +0800" stop="20260812180000 +0800">
+    <title lang="zh">BBC News</title>
+    <desc>The latest news from the BBC.</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="BBC News" start="20260812180000 +0800" stop="20260812183000 +0800">
+    <title lang="zh">BBC News</title>
+    <desc>The latest news from the BBC.</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="BBC News" start="20260812183000 +0800" stop="20260812184500 +0800">
+    <title lang="zh">Business Today</title>
+    <desc>Business Today. Bringing the latest business news and up-to-date informed analysis from London and around the world.</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="BBC News" start="20260812184500 +0800" stop="20260812190000 +0800">
+    <title lang="zh">BBC News</title>
+    <desc>The latest news from the BBC.</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="BBC News" start="20260812190000 +0800" stop="20260812193000 +0800">
+    <title lang="zh">BBC News Now</title>
+    <desc>All the big stories, live as they happen, presented by Lucy Hockings.</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="BBC News" start="20260812193000 +0800" stop="20260812200000 +0800">
+    <title lang="zh">BBC News Now</title>
+    <desc>All the big stories, live as they happen, presented by Lucy Hockings.</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="BBC News" start="20260812200000 +0800" stop="20260812203000 +0800">
+    <title lang="zh">BBC News Now</title>
+    <desc>All the big stories, live as they happen, presented by Lucy Hockings.</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="BBC News" start="20260812203000 +0800" stop="20260812210000 +0800">
+    <title lang="zh">BBC News Now</title>
+    <desc>All the big stories, live as they happen, presented by Lucy Hockings.</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="BBC News" start="20260812210000 +0800" stop="20260812213000 +0800">
+    <title lang="zh">BBC News Now</title>
+    <desc>All the big stories, live as they happen, presented by Lucy Hockings.</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="BBC News" start="20260812213000 +0800" stop="20260812214500 +0800">
+    <title lang="zh">Business Today </title>
+    <desc>Business Today. Bringing the latest business news and up-to-date informed analysis from New York and around the world.</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="BBC News" start="20260812214500 +0800" stop="20260812220000 +0800">
+    <title lang="zh">BBC News Now</title>
+    <desc>All the big stories, live as they happen, presented by Lucy Hockings.</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="BBC News" start="20260812220000 +0800" stop="20260812230000 +0800">
+    <title lang="zh">BBC News: Solar Eclipse Live</title>
+    <desc>Live build-up to the solar eclipse from the BBC's teams around the world and across the UK.</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="BBC News" start="20260812230000 +0800" stop="20260812233000 +0800">
+    <title lang="zh">BBC News: Solar Eclipse Live</title>
+    <desc>Live build-up to the solar eclipse from the BBC's teams around the world and across the UK.</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="BBC News" start="20260812233000 +0800" stop="20260812234500 +0800">
+    <title lang="zh">Business Today</title>
+    <desc>Business Today. Bringing the latest business news and up-to-date informed analysis from London and around the world.</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="BBC News" start="20260812234500 +0800" stop="20260813000000 +0800">
+    <title lang="zh">BBC News: Solar Eclipse Live</title>
+    <desc>Live build-up to the solar eclipse from the BBC's teams around the world and across the UK.</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
@@ -74582,7 +74270,7 @@
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="NTV Plus" start="20260811233000 +0800" stop="20260812000000 +0800">
+  <programme channel="NTV Plus" start="20260811233000 +0800" stop="20260812003000 +0800">
     <title lang="zh">千王之王#14[粵]</title>
     <desc>土豪洪彪、洪豹父子野心併吞全廣州市賭場，幸得「南神眼」羅四海鎮壓搗亂，洪氏父子懷恨在心。當地著名花旦譚小棠，因弟譚昇出千被四海所擒，小棠為救弟與四海談判，最後更發展成知己。洪彪聘北方千王卓一夫與四海鬥法，洪彪後來改以收買南北千王於旗下，惜兩人最終逃不過洪彪的種種陰謀，四海被害致雙目失明，一夫則被挑斷手筋，兩人決集千術之精華授予譚昇以報仇。之後譚昇以過人千術擊敗洪家與一夫養女卓莉，成為千王之王。</desc>
     <date>20260811</date>
@@ -74590,186 +74278,298 @@
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="History" start="20260805004000 +0800" stop="20260805023000 +0800">
-    <title lang="zh">戰爭證詞: 日本記憶中的二次世界大戰</title>
-    <desc>本節目講述日本「15年戰爭」的故事, 並聚焦於生活在日本本島的平民。本紀錄片從帝國快速崛起, 一路追蹤到最後的毀滅時刻。</desc>
-    <date>20260805</date>
+  <programme channel="NTV Plus" start="20260812003000 +0800" stop="20260812010000 +0800">
+    <title lang="zh">美食新聞報道[粵]</title>
+    <desc>香港匯聚環球美食！倪嘉雯、蔡景行、施焯日、黃婧靈等主持四出試食，帶來真實食評；推介自駕覓食好去處，發掘各區「掃街」名物、名人愛店，驗證網上「抵食」傳聞；並會相約「星級飯腳」開餐，到他們喜愛的「飯堂」品嚐佳餚。星級大廚、食評家、美食KOL、各區地膽及的士司機亦會帶路「搵食」，帶來精彩推介；識食之人還會細說美食典故。節目緊貼最新飲食潮流，速遞美食優惠，讓觀眾掌握最滋味、抵食的飲食情報。</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="History" start="20260805023000 +0800" stop="20260805032500 +0800">
-    <title lang="zh">百慕達三角洲: 進入受詛咒的水域 第2季第12集 </title>
-    <desc>團隊揭開百慕達三角洲的最大謎團: 最離奇的失蹤船隻和飛機, 以及據說藏在致命三角洲背後的奇怪且強大的力量。</desc>
-    <date>20260805</date>
+  <programme channel="NTV Plus" start="20260812010000 +0800" stop="20260812013000 +0800">
+    <title lang="zh">尋找隱世家[粵/日]</title>
+    <desc>拜訪日本各地過著獨特生活方式的家庭，花一晚時間體驗他們的日常生活、傳統和價值觀。</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="History" start="20260805032500 +0800" stop="20260805042000 +0800">
-    <title lang="zh">丹尼·崔橋的考古揭祕 第1季第4集 </title>
-    <desc>從失落古城中的無價之寶, 到隱藏在牆後的手抄古卷, 本集帶觀眾深入洞穴、地道與墓室, 揭開歷史深處的祕密。</desc>
-    <date>20260805</date>
+  <programme channel="NTV Plus" start="20260812013000 +0800" stop="20260812013500 +0800">
+    <title lang="zh">勁歌推介[粵]</title>
+    <desc />
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="History" start="20260805042000 +0800" stop="20260805051500 +0800">
-    <title lang="zh">歷史重大謎團 第5季第5集 </title>
-    <desc>都靈裹屍布上那幅令人不寒而慄的影像, 數百萬人為之着迷。但我們究竟看見了甚麼?它又是如何形成的?</desc>
-    <date>20260805</date>
+  <programme channel="NTV Plus" start="20260812013500 +0800" stop="20260812020500 +0800">
+    <title lang="zh">娛樂新聞報道[粵]</title>
+    <desc>每晚緊貼香港娛樂圈的消息，以至世界各地的影視娛樂新聞，報道藝人最新動態、劇集和電影宣傳、演唱會精華、頒獎禮盛況等，甚至遠赴外地採訪娛樂盛事、追蹤各地影星，專訪觀眾熟悉的歌、影、視紅人，讓大家瞬間掌握影視娛樂圈的動態和最新消息。</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="History" start="20260805051500 +0800" stop="20260805061000 +0800">
-    <title lang="zh">特種部隊 第1季第3集 </title>
-    <desc>泰國的海軍偵察訓練是世界上最艱難的訓練之一。從喝眼鏡蛇的血到致命的夜間游泳測試, 我們揭示了成為泰國海軍偵察兵所需的條件。</desc>
-    <date>20260805</date>
+  <programme channel="NTV Plus" start="20260812020500 +0800" stop="20260812023500 +0800">
+    <title lang="zh">原住台灣之鐵道行[粵/普]</title>
+    <desc>鄭書孟到南投近百年歷史、碩果僅存的日式木造集集車站；再到台灣最美的車埕車站，品嚐木頭煙燻烤的木桶便當，木頭清香撲鼻；又可在木材體驗工場印製木圖騰，漫遊木業小鎮。泥土都會跳舞？書孟發掘台灣唯一「活盆地」，細聽原始草泥炭土的由來。住進生態民宿，看看民宿主人追求低碳環保之家；獨一無二觀星行程，近距離「觸摸」閃爍星空。南投孕育出品質上乘的「時計果」，領教徒手即剝即吃鮮甜水果肉之秘技，何以要用吊網種植？</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="History" start="20260805061000 +0800" stop="20260805070500 +0800">
-    <title lang="zh">沼澤人類 第14季第12集 </title>
-    <desc>一道冷鋒恐怕會凍結短吻鱷季。特洛伊期待溫暖的水可以拯救這個日子。唐混合特殊果汁, 引誘大型短吻鱷。喬伊和查克對一組開放的水閘賭上一切。</desc>
-    <date>20260805</date>
+  <programme channel="NTV Plus" start="20260812023500 +0800" stop="20260812033000 +0800">
+    <title lang="zh">川內相親#29[粵/普]</title>
+    <desc>新川主積勞成疾，尹岐聞訊立刻趕回新川探望，父子終於和解。新川主大病初癒，決定帶尹峻一同巡守新川，臨行前將元儲印信交給尹崢，並答應將李薇扶正。尹崢與李薇終於補辦了正式婚禮，家人們都為二人感到由衷的欣慰。</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="History" start="20260805070500 +0800" stop="20260805080000 +0800">
-    <title lang="zh">丹尼·崔橋的考古揭祕 第1季第4集 </title>
-    <desc>從失落古城中的無價之寶, 到隱藏在牆後的手抄古卷, 本集帶觀眾深入洞穴、地道與墓室, 揭開歷史深處的祕密。</desc>
-    <date>20260805</date>
+  <programme channel="NTV Plus" start="20260812033000 +0800" stop="20260812060000 +0800">
+    <title lang="zh">OT無限loop</title>
+    <desc>每晚深夜，公司仲有邊個未收工？有屋企唔返，咁搏命係愛定係責任？閉路電視全程無間斷直擊，《社畜求生101》主角阿星同阿花捱更抵夜職場血淚史！</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="History" start="20260805080000 +0800" stop="20260805085500 +0800">
-    <title lang="zh">歷史重大謎團 第5季第5集 </title>
-    <desc>都靈裹屍布上那幅令人不寒而慄的影像, 數百萬人為之着迷。但我們究竟看見了甚麼?它又是如何形成的?</desc>
-    <date>20260805</date>
+  <programme channel="NTV Plus" start="20260812060000 +0800" stop="20260812063000 +0800">
+    <title lang="zh">#後生仔傾吓偈[粵]</title>
+    <desc>後生仔細說幕前演藝人的辛酸，六號年資遠不及童星Bella。傾傾吓，「獎門人」曾志偉駕臨錄影廠，KOL又驚又喜，盈盈率先和獎門人「相認」！後生仔珍惜請教獎門人的機會，如何當一位稱職的主持？眾人不忘感激六號循循善誘的教導，六號老懷安慰。主持最重要有個人風格，照稿讀更是大忌！獎門人身經百戰，今時今日做直播節目仍會緊張？他更憶述華姐競選的驚險蝦碌場面，當時徹底活用前輩「肥姐」教落的司儀秘訣，又塞錢入你袋！</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="History" start="20260805085500 +0800" stop="20260805105000 +0800">
-    <title lang="zh">戰爭證詞: 日本記憶中的二次世界大戰</title>
-    <desc>本節目講述日本「15年戰爭」的故事, 並聚焦於生活在日本本島的平民。本紀錄片從帝國快速崛起, 一路追蹤到最後的毀滅時刻。</desc>
-    <date>20260805</date>
+  <programme channel="NTV Plus" start="20260812063000 +0800" stop="20260812070000 +0800">
+    <title lang="zh">#後生仔傾吓偈[粵]</title>
+    <desc>藝人只能等待機會？獎門人分享親身經驗，帶出把握Sell橋機會，藝人都可以反客為主。後生仔即席為TVB構思新節目，盈盈私心想找「外援」拍戀愛真人騷？此外，獎門人亦細說為電視業添新血的計劃。KOL分享於電視行業的得着，如挑戰帶來的成功感、為觀眾提供歡樂的使命感，更可於巨大壓力下成長和進步。除了幕前之外，幕後崗位亦勞苦功高。後生仔難忘節目製作的團隊合作，而導演、撰稿等人員的專業，更令眾人由衷佩服！</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="History" start="20260805105000 +0800" stop="20260805114500 +0800">
-    <title lang="zh">特種部隊 第1季第3集 </title>
-    <desc>泰國的海軍偵察訓練是世界上最艱難的訓練之一。從喝眼鏡蛇的血到致命的夜間游泳測試, 我們揭示了成為泰國海軍偵察兵所需的條件。</desc>
-    <date>20260805</date>
+  <programme channel="NTV Plus" start="20260812070000 +0800" stop="20260812073000 +0800">
+    <title lang="zh">娛樂新聞報道[粵]</title>
+    <desc>每晚緊貼香港娛樂圈的消息，以至世界各地的影視娛樂新聞，報道藝人最新動態、劇集和電影宣傳、演唱會精華、頒獎禮盛況等，甚至遠赴外地採訪娛樂盛事、追蹤各地影星，專訪觀眾熟悉的歌、影、視紅人，讓大家瞬間掌握影視娛樂圈的動態和最新消息。</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="History" start="20260805114500 +0800" stop="20260805124000 +0800">
-    <title lang="zh">百慕達三角洲: 進入受詛咒的水域 第2季第12集 </title>
-    <desc>團隊揭開百慕達三角洲的最大謎團: 最離奇的失蹤船隻和飛機, 以及據說藏在致命三角洲背後的奇怪且強大的力量。</desc>
-    <date>20260805</date>
+  <programme channel="NTV Plus" start="20260812073000 +0800" stop="20260812080000 +0800">
+    <title lang="zh">尋找隱世家[粵/日]</title>
+    <desc>拜訪日本各地過著獨特生活方式的家庭，花一晚時間體驗他們的日常生活、傳統和價值觀。</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="History" start="20260805124000 +0800" stop="20260805133500 +0800">
-    <title lang="zh">沼澤人類 第14季第12集 </title>
-    <desc>一道冷鋒恐怕會凍結短吻鱷季。特洛伊期待溫暖的水可以拯救這個日子。唐混合特殊果汁, 引誘大型短吻鱷。喬伊和查克對一組開放的水閘賭上一切。</desc>
-    <date>20260805</date>
+  <programme channel="NTV Plus" start="20260812080000 +0800" stop="20260812083000 +0800">
+    <title lang="zh">美食新聞報道[粵]</title>
+    <desc>香港匯聚環球美食！倪嘉雯、蔡景行、施焯日、黃婧靈等主持四出試食，帶來真實食評；推介自駕覓食好去處，發掘各區「掃街」名物、名人愛店，驗證網上「抵食」傳聞；並會相約「星級飯腳」開餐，到他們喜愛的「飯堂」品嚐佳餚。星級大廚、食評家、美食KOL、各區地膽及的士司機亦會帶路「搵食」，帶來精彩推介；識食之人還會細說美食典故。節目緊貼最新飲食潮流，速遞美食優惠，讓觀眾掌握最滋味、抵食的飲食情報。</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="History" start="20260805133500 +0800" stop="20260805143000 +0800">
-    <title lang="zh">丹尼·崔橋的考古揭祕 第1季第4集 </title>
-    <desc>從失落古城中的無價之寶, 到隱藏在牆後的手抄古卷, 本集帶觀眾深入洞穴、地道與墓室, 揭開歷史深處的祕密。</desc>
-    <date>20260805</date>
+  <programme channel="NTV Plus" start="20260812083000 +0800" stop="20260812090000 +0800">
+    <title lang="zh">3日2夜[粵]</title>
+    <desc>李旻芳、潘梓鋒到達慶尚北道的安東市，參觀韓國知名的民族村「河回村」，並參與韓國三大國際慶典之一的假面舞節。二人又在安東舊市場品嚐名菜「安東燉雞」，最後往平昌的度假村，暢玩室內水上樂園及享受水療按摩。</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="History" start="20260805143000 +0800" stop="20260805152500 +0800">
-    <title lang="zh">城市祕境 第2季第8集 </title>
-    <desc>探索被遺忘的沙勞越懷特·拉賈王朝, 並揭開消失的獵人頭部落「伊班族」。</desc>
-    <date>20260805</date>
+  <programme channel="NTV Plus" start="20260812090000 +0800" stop="20260812100000 +0800">
+    <title lang="zh">交易現場[粵]</title>
+    <desc />
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="History" start="20260805152500 +0800" stop="20260805162000 +0800">
-    <title lang="zh">百慕達三角洲: 進入受詛咒的水域 第2季第12集 </title>
-    <desc>團隊揭開百慕達三角洲的最大謎團: 最離奇的失蹤船隻和飛機, 以及據說藏在致命三角洲背後的奇怪且強大的力量。</desc>
-    <date>20260805</date>
+  <programme channel="NTV Plus" start="20260812100000 +0800" stop="20260812101000 +0800">
+    <title lang="zh">致富證券特約:早市戰報[粵]</title>
+    <desc />
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="History" start="20260805162000 +0800" stop="20260805172000 +0800">
-    <title lang="zh">歷史重大謎團 第5季第5集 </title>
-    <desc>都靈裹屍布上那幅令人不寒而慄的影像, 數百萬人為之着迷。但我們究竟看見了甚麼?它又是如何形成的?</desc>
-    <date>20260805</date>
+  <programme channel="NTV Plus" start="20260812101000 +0800" stop="20260812102000 +0800">
+    <title lang="zh">摩根大通特約 :通悉牛熊[粵]</title>
+    <desc />
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="History" start="20260805172000 +0800" stop="20260805191000 +0800">
-    <title lang="zh">戰爭證詞: 日本記憶中的二次世界大戰</title>
-    <desc>本節目講述日本「15年戰爭」的故事, 並聚焦於生活在日本本島的平民。本紀錄片從帝國快速崛起, 一路追蹤到最後的毀滅時刻。</desc>
-    <date>20260805</date>
+  <programme channel="NTV Plus" start="20260812102000 +0800" stop="20260812114000 +0800">
+    <title lang="zh">致富證券特約:早市戰報[粵]</title>
+    <desc />
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="History" start="20260805191000 +0800" stop="20260805200500 +0800">
-    <title lang="zh">威廉薛特納神祕檔案 第3季第23集 </title>
-    <desc>誰是開膛手傑克?這個問題讓警方調查人員、歷史學家和不跑現場的偵探都很困惑。無數的書籍、電影和電視節目都根據開膛手的命案加以改編。</desc>
-    <date>20260805</date>
+  <programme channel="NTV Plus" start="20260812114000 +0800" stop="20260812121500 +0800">
+    <title lang="zh">交易現場[粵] 及 好嘢港多啲[粵]</title>
+    <desc />
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="History" start="20260805200500 +0800" stop="20260805210000 +0800">
-    <title lang="zh">丹·艾克洛德之不可思議事件 第2季第1集 </title>
-    <desc>你知道嗎?留鬍子有時候竟然可能致命, 你是否聽說過這樣匪夷所思的事情?還有, 一場足球比賽之中, 曾經發生過割草機意外奪走觀眾生命的驚人事件。又或者, 如果我告訴你, 竟然有人因為喝下過量的清水而死亡, 你能想像得到嗎?這些全都是最瘋狂、最不可思議的故事, 這些死亡經歷既令人震驚又讓人難以置信。</desc>
-    <date>20260805</date>
+  <programme channel="NTV Plus" start="20260812121500 +0800" stop="20260812131500 +0800">
+    <title lang="zh">川內相親#29[粵/普]</title>
+    <desc>新川主積勞成疾，尹岐聞訊立刻趕回新川探望，父子終於和解。新川主大病初癒，決定帶尹峻一同巡守新川，臨行前將元儲印信交給尹崢，並答應將李薇扶正。尹崢與李薇終於補辦了正式婚禮，家人們都為二人感到由衷的欣慰。</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="History" start="20260805210000 +0800" stop="20260805215500 +0800">
-    <title lang="zh">歷史重大謎團 第6季第2集 </title>
-    <desc>在英國倫德爾沙姆森林附近的美國空軍基地外發生了一個超現實的事件, 這個事件成為了一個國際傳說, 也是歷史上最奇怪的未確認遭遇之一。</desc>
-    <date>20260805</date>
+  <programme channel="NTV Plus" start="20260812131500 +0800" stop="20260812134500 +0800">
+    <title lang="zh">美食新聞報道[粵]</title>
+    <desc>香港匯聚環球美食！倪嘉雯、蔡景行、施焯日、黃婧靈等主持四出試食，帶來真實食評；推介自駕覓食好去處，發掘各區「掃街」名物、名人愛店，驗證網上「抵食」傳聞；並會相約「星級飯腳」開餐，到他們喜愛的「飯堂」品嚐佳餚。星級大廚、食評家、美食KOL、各區地膽及的士司機亦會帶路「搵食」，帶來精彩推介；識食之人還會細說美食典故。節目緊貼最新飲食潮流，速遞美食優惠，讓觀眾掌握最滋味、抵食的飲食情報。</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="History" start="20260805215500 +0800" stop="20260805225000 +0800">
-    <title lang="zh">橡樹島的詛咒 第12季第24集 </title>
-    <desc>當團隊急忙準備金坑進行本季最深和最後的挖掘時, 在馬爾他, 夥伴們發現了一條將馬爾他騎士與橡樹島相連的家族血脈。</desc>
-    <date>20260805</date>
+  <programme channel="NTV Plus" start="20260812134500 +0800" stop="20260812141500 +0800">
+    <title lang="zh">開卷[粵][PG]</title>
+    <desc>Patrick Sir向兩位女拍檔推薦收納「壞男孩」特點的書籍，教女生們篩走「壞特質」男生。書中提醒女生不要輕易被情感要脅，韻婷卻有另一番看法？組合「廿四味」成員李凱賢寵愛女兒，對愛女將來的男友有何準則？好男生願花錢和時間於另一半身上，埋單「AA制」觀念卻往往是矛盾之端……想令渣男變好的情境規範下，泳芍帶來維繫開放式關係的讀物，還為渣男一詞重新定義。韻婷的介紹則較貼題，令人意識到揀渣男都要有要求！</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="History" start="20260805225000 +0800" stop="20260805234500 +0800">
-    <title lang="zh">摩根·費里曼之越獄風雲 第2季第13集 </title>
-    <desc>在南北戰爭期間, 一次大膽的越獄行動解救了數百名北方聯盟的士兵。這位越獄主謀成為戰俘後, 被送往弗吉尼亞州里士滿的利比監獄, 在那裏他策劃了史上其中一次最大規模的集體越獄。</desc>
-    <date>20260805</date>
+  <programme channel="NTV Plus" start="20260812141500 +0800" stop="20260812144500 +0800">
+    <title lang="zh">娛樂新聞報道[粵]</title>
+    <desc>每晚緊貼香港娛樂圈的消息，以至世界各地的影視娛樂新聞，報道藝人最新動態、劇集和電影宣傳、演唱會精華、頒獎禮盛況等，甚至遠赴外地採訪娛樂盛事、追蹤各地影星，專訪觀眾熟悉的歌、影、視紅人，讓大家瞬間掌握影視娛樂圈的動態和最新消息。</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="History" start="20260805234500 +0800" stop="20260806004000 +0800">
-    <title lang="zh">山地硬漢 第13季第12集 </title>
-    <desc>勞羅逐漸接近艾迪塔羅德賽事的終點, 他沿著白令海海岸線橫越長達二百六十英里的冰層, 最終朝著終點城市諾姆前進；與此同時, 馬蒂和他的朋友戴夫則把各種補給物資運往偏遠荒野中的一間木屋。</desc>
-    <date>20260805</date>
+  <programme channel="NTV Plus" start="20260812144500 +0800" stop="20260812151500 +0800">
+    <title lang="zh">尋找隱世家[粵/日]</title>
+    <desc>拜訪日本各地過著獨特生活方式的家庭，花一晚時間體驗他們的日常生活、傳統和價值觀。</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV Plus" start="20260812151500 +0800" stop="20260812155000 +0800">
+    <title lang="zh">鬼上你架車2[粵][PG]</title>
+    <desc>這個可能是電視史上「最恐怖，亦需要家長回條」才可以收看的鬼故節目，每集主持人方力申及唐劍康，都會請來嘉賓在車上分享真人真事或他們曾經聽聞最恐怖、最詭異的靈異故事，同集更會「加映」各行各業講鬼故。</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV Plus" start="20260812155000 +0800" stop="20260812162000 +0800">
+    <title lang="zh">交易現場[粵]</title>
+    <desc />
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV Plus" start="20260812162000 +0800" stop="20260812165000 +0800">
+    <title lang="zh">原住台灣之鐵道行[粵/普]</title>
+    <desc>鄭書孟尋訪南投打卡秘境，與農作物筊白筍美人相會，達人講解「美人腿」的種植方法，最大功臣莫過於田園裏的「浮萍」？筊白筍入饌的創意菜式有美容功效，淨化身心。書孟逐一認識趣致可愛的多肉植物小世界，細聽種植貼士，長知識！書孟品嚐星空造型的宇宙巧克力，製作巧奪天工，還加入日月潭紅茶及熱情果研製，躍動味蕾。埔里出現日式鳥居？了解它與南投的緣份。在日式古蹟食堂吃着玫瑰清香的牛奶鍋與泡芙，書孟瞬間爆發少女心。</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV Plus" start="20260812165000 +0800" stop="20260812172500 +0800">
+    <title lang="zh">原住台灣之鐵道行[粵/普]</title>
+    <desc>鄭書孟到台灣人後花園宜蘭，在頭城老街發現文青歐式麵包店，人手即製意式鴨胸麵包，外脆內軟，贏晒CP值！書孟忽然求藥籤？自己的藥還可自己造，跟師傅體驗用雙腳磨藥，了解各款藥材特性與效用。書孟在魯班街學習榫卯技術，親手刨木製作筷子，果然木工不易做。將軍茶葉蛋，採用辣椒滷蛋方法別具一格，敲殼方法與眾不同，有何獨門秘方？再喝一碗四海八仙湯特別醒神。書孟搭乘蹦蹦車尋訪太平山上秘境，慢行見晴懷古步道，洗滌身心。</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV Plus" start="20260812172500 +0800" stop="20260812175500 +0800">
+    <title lang="zh">美食新聞報道[粵]</title>
+    <desc>香港匯聚環球美食！倪嘉雯、蔡景行、施焯日、黃婧靈等主持四出試食，帶來真實食評；推介自駕覓食好去處，發掘各區「掃街」名物、名人愛店，驗證網上「抵食」傳聞；並會相約「星級飯腳」開餐，到他們喜愛的「飯堂」品嚐佳餚。星級大廚、食評家、美食KOL、各區地膽及的士司機亦會帶路「搵食」，帶來精彩推介；識食之人還會細說美食典故。節目緊貼最新飲食潮流，速遞美食優惠，讓觀眾掌握最滋味、抵食的飲食情報。</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV Plus" start="20260812175500 +0800" stop="20260812183000 +0800">
+    <title lang="zh">野外步出3玩野加大馬[粵]</title>
+    <desc>敏芝於清晨突襲睡夢中的奶仔，着他駕車起行向山林出發。到達一片油棕林，兩人挑戰以長鈎收集油棕樹的果實。他們幾經接力都未能成功，怎料專家接手一下子即成。導遊兼教練帶隊走進尼亞國家公園，結果竟是跟主持們玩蟲蟲，奶仔更收到特別「禮物」。原來這是一趟考古之旅，目的地是發現東南亞最古老現代人頭骨的尼亞洞，遊人可在此感受數萬年前的歷史氣息。當地人還會於沒有現代裝備下攀高採收燕窩，奶仔膽粗粗想學師，但卻秒速放棄！</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV Plus" start="20260812183000 +0800" stop="20260812190000 +0800">
+    <title lang="zh">唔滾唔知有料到[粵]</title>
+    <desc>北京的爐肉，有點像香港常見的燒肉。不過，醃製爐肉所需的功夫和心機卻非常講究。食爐肉前要先試北京烤鴨？皆因烤鴨與爐肉都是出自同一爐，韻婷這次更發現一直弄錯了北京烤鴨的正宗吃法。慧儀親試醃肉的過程，扎孔步驟極費氣力！轉往另一間食店來個「砂鍋爐肉丸子燒白菜」，嚐到白菜濃湯的重口味，卻吃不出爐肉味道，何解？走進廚房，看看主廚如何搓製爐肉丸子。一連十五集，試過不同地方、不同方式的火鍋，主持最難忘的是哪一鍋？</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV Plus" start="20260812190000 +0800" stop="20260812200000 +0800">
+    <title lang="zh">川內相親#30[粵/普]</title>
+    <desc>新一屆女子擢選來臨，李薇與尹崢早就想取消不合理的和親聯姻舊制，但今年擢選已經開始，兩人便商議進行變革，將選秀變為選賢。轉眼又到了中秋節，這次由李薇全權置辦宴會。她給尹崢的驚喜不光是一碗長壽麵⋯</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV Plus" start="20260812200000 +0800" stop="20260812203000 +0800">
+    <title lang="zh">美食新聞報道[粵]</title>
+    <desc>香港匯聚環球美食！倪嘉雯、蔡景行、施焯日、黃婧靈等主持四出試食，帶來真實食評；推介自駕覓食好去處，發掘各區「掃街」名物、名人愛店，驗證網上「抵食」傳聞；並會相約「星級飯腳」開餐，到他們喜愛的「飯堂」品嚐佳餚。星級大廚、食評家、美食KOL、各區地膽及的士司機亦會帶路「搵食」，帶來精彩推介；識食之人還會細說美食典故。節目緊貼最新飲食潮流，速遞美食優惠，讓觀眾掌握最滋味、抵食的飲食情報。</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV Plus" start="20260812203000 +0800" stop="20260812210000 +0800">
+    <title lang="zh">尋找隱世家[粵/日]</title>
+    <desc>拜訪日本各地過著獨特生活方式的家庭，花一晚時間體驗他們的日常生活、傳統和價值觀。</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV Plus" start="20260812210000 +0800" stop="20260812213000 +0800">
+    <title lang="zh">娛樂新聞報道</title>
+    <desc>每晚緊貼香港娛樂圈的消息，以至世界各地的影視娛樂新聞，報道藝人最新動態、劇集和電影宣傳、演唱會精華、頒獎禮盛況等，甚至遠赴外地採訪娛樂盛事、追蹤各地影星，專訪觀眾熟悉的歌、影、視紅人，讓大家瞬間掌握影視娛樂圈的動態和最新消息。</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV Plus" start="20260812213000 +0800" stop="20260812223000 +0800">
+    <title lang="zh">向世界挑戰[粵/普]</title>
+    <desc>本集將派出新加坡女藝人謝韻儀前往澳洲埃文代爾，參加一項被列入健力士世界紀錄的高輪單車比賽。雖然同樣是單車家族，但高輪單車的構造有別於一般的單車，要駕馭它也需要不同的技巧，韻儀能否挑戰成功呢？</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV Plus" start="20260812223000 +0800" stop="20260812233000 +0800">
+    <title lang="zh">千王之王#15[粵]</title>
+    <desc>土豪洪彪、洪豹父子野心併吞全廣州市賭場，幸得「南神眼」羅四海鎮壓搗亂，洪氏父子懷恨在心。當地著名花旦譚小棠，因弟譚昇出千被四海所擒，小棠為救弟與四海談判，最後更發展成知己。洪彪聘北方千王卓一夫與四海鬥法，洪彪後來改以收買南北千王於旗下，惜兩人最終逃不過洪彪的種種陰謀，四海被害致雙目失明，一夫則被挑斷手筋，兩人決集千術之精華授予譚昇以報仇。之後譚昇以過人千術擊敗洪家與一夫養女卓莉，成為千王之王。</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="NTV Plus" start="20260812233000 +0800" stop="20260813000000 +0800">
+    <title lang="zh">千王之王#16[粵]</title>
+    <desc>土豪洪彪、洪豹父子野心併吞全廣州市賭場，幸得「南神眼」羅四海鎮壓搗亂，洪氏父子懷恨在心。當地著名花旦譚小棠，因弟譚昇出千被四海所擒，小棠為救弟與四海談判，最後更發展成知己。洪彪聘北方千王卓一夫與四海鬥法，洪彪後來改以收買南北千王於旗下，惜兩人最終逃不過洪彪的種種陰謀，四海被害致雙目失明，一夫則被挑斷手筋，兩人決集千術之精華授予譚昇以報仇。之後譚昇以過人千術擊敗洪家與一夫養女卓莉，成為千王之王。</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
@@ -75974,10 +75774,218 @@
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="History" start="20260811234500 +0800" stop="20260812000000 +0800">
+  <programme channel="History" start="20260811234500 +0800" stop="20260812004000 +0800">
     <title lang="zh">沼澤人類 第14季第13集 </title>
     <desc>特洛伊在他最愛的蜂蜜穴遇上大麻煩。丹尼爾追捕稱為「海盜」的傳奇短吻鱷。勒朗和波克喬普對抗巫毒詛咒, 並面對喪屍短吻鱷。</desc>
     <date>20260811</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History" start="20260812004000 +0800" stop="20260812014000 +0800">
+    <title lang="zh">先驅者1952</title>
+    <desc>《先驅者1952》重新回顧了仍然被列為失踪的聯合國士兵的犧牲。這部電影揭示了法國營在韓戰中的角色以及這場戰爭持續的人類代價。</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History" start="20260812014000 +0800" stop="20260812023000 +0800">
+    <title lang="zh">湯姆漢克斯: 二戰風雲 第1集 </title>
+    <desc>1939年9月, 在阿道夫•希特勒與約瑟夫•史達林之間祕密協議的默許之下, 德國以閃電般的坦克戰術入侵波蘭, 使整個歐洲再次陷入戰爭之中。</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History" start="20260812023000 +0800" stop="20260812032500 +0800">
+    <title lang="zh">湯姆漢克斯: 二戰風雲 第2集 </title>
+    <desc>在擊敗波蘭之後, 希特勒把目光轉向西方, 計畫對法國發動攻擊, 並準備利用法軍防線中的薄弱環節。英國首相邱吉爾則急忙設法撤離盟軍部隊。</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History" start="20260812032500 +0800" stop="20260812042000 +0800">
+    <title lang="zh">丹尼·崔橋的考古揭祕 第1季第5集 </title>
+    <desc>傳說中的怪物竟然真實存在、最致命的史前動物亦重現眼前, 這些驚人發現讓全世界陷入震驚與恐懼。</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History" start="20260812042000 +0800" stop="20260812051500 +0800">
+    <title lang="zh">歷史重大謎團 第5季第6集 </title>
+    <desc>1942 年 2 月 24 日, 日本轟炸珍珠港後不久, 軍方雷達在洛杉磯上空偵測到疑似敵機的目標。究竟是甚麼引發了這場所謂的「洛杉磯之戰」?</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History" start="20260812051500 +0800" stop="20260812061000 +0800">
+    <title lang="zh">Vat 69: 馬來西亞任務部隊</title>
+    <desc>該部隊由英國空降特勤隊訓練, 成立於1969年, 負責與復甦的共產黨戰鬥。節目要探討英雄主義與馬來西亞精英突擊隊的犧牲。</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History" start="20260812061000 +0800" stop="20260812070500 +0800">
+    <title lang="zh">沼澤人類 第14季第13集 </title>
+    <desc>特洛伊在他最愛的蜂蜜穴遇上大麻煩。丹尼爾追捕稱為「海盜」的傳奇短吻鱷。勒朗和波克喬普對抗巫毒詛咒, 並面對喪屍短吻鱷。</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History" start="20260812070500 +0800" stop="20260812080000 +0800">
+    <title lang="zh">丹尼·崔橋的考古揭祕 第1季第5集 </title>
+    <desc>傳說中的怪物竟然真實存在、最致命的史前動物亦重現眼前, 這些驚人發現讓全世界陷入震驚與恐懼。</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History" start="20260812080000 +0800" stop="20260812085500 +0800">
+    <title lang="zh">歷史重大謎團 第5季第6集 </title>
+    <desc>1942 年 2 月 24 日, 日本轟炸珍珠港後不久, 軍方雷達在洛杉磯上空偵測到疑似敵機的目標。究竟是甚麼引發了這場所謂的「洛杉磯之戰」?</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History" start="20260812085500 +0800" stop="20260812095500 +0800">
+    <title lang="zh">先驅者1952</title>
+    <desc>《先驅者1952》重新回顧了仍然被列為失踪的聯合國士兵的犧牲。這部電影揭示了法國營在韓戰中的角色以及這場戰爭持續的人類代價。</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History" start="20260812095500 +0800" stop="20260812105000 +0800">
+    <title lang="zh">Vat 69: 馬來西亞任務部隊</title>
+    <desc>該部隊由英國空降特勤隊訓練, 成立於1969年, 負責與復甦的共產黨戰鬥。節目要探討英雄主義與馬來西亞精英突擊隊的犧牲。</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History" start="20260812105000 +0800" stop="20260812114500 +0800">
+    <title lang="zh">湯姆漢克斯: 二戰風雲 第1集 </title>
+    <desc>1939年9月, 在阿道夫•希特勒與約瑟夫•史達林之間祕密協議的默許之下, 德國以閃電般的坦克戰術入侵波蘭, 使整個歐洲再次陷入戰爭之中。</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History" start="20260812114500 +0800" stop="20260812124000 +0800">
+    <title lang="zh">湯姆漢克斯: 二戰風雲 第2集 </title>
+    <desc>在擊敗波蘭之後, 希特勒把目光轉向西方, 計畫對法國發動攻擊, 並準備利用法軍防線中的薄弱環節。英國首相邱吉爾則急忙設法撤離盟軍部隊。</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History" start="20260812124000 +0800" stop="20260812133500 +0800">
+    <title lang="zh">沼澤人類 第14季第13集 </title>
+    <desc>特洛伊在他最愛的蜂蜜穴遇上大麻煩。丹尼爾追捕稱為「海盜」的傳奇短吻鱷。勒朗和波克喬普對抗巫毒詛咒, 並面對喪屍短吻鱷。</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History" start="20260812133500 +0800" stop="20260812143000 +0800">
+    <title lang="zh">丹尼·崔橋的考古揭祕 第1季第5集 </title>
+    <desc>傳說中的怪物竟然真實存在、最致命的史前動物亦重現眼前, 這些驚人發現讓全世界陷入震驚與恐懼。</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History" start="20260812143000 +0800" stop="20260812152500 +0800">
+    <title lang="zh">Vat 69: 馬來西亞任務部隊</title>
+    <desc>該部隊由英國空降特勤隊訓練, 成立於1969年, 負責與復甦的共產黨戰鬥。節目要探討英雄主義與馬來西亞精英突擊隊的犧牲。</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History" start="20260812152500 +0800" stop="20260812162000 +0800">
+    <title lang="zh">湯姆漢克斯: 二戰風雲 第2集 </title>
+    <desc>在擊敗波蘭之後, 希特勒把目光轉向西方, 計畫對法國發動攻擊, 並準備利用法軍防線中的薄弱環節。英國首相邱吉爾則急忙設法撤離盟軍部隊。</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History" start="20260812162000 +0800" stop="20260812172000 +0800">
+    <title lang="zh">歷史重大謎團 第5季第6集 </title>
+    <desc>1942 年 2 月 24 日, 日本轟炸珍珠港後不久, 軍方雷達在洛杉磯上空偵測到疑似敵機的目標。究竟是甚麼引發了這場所謂的「洛杉磯之戰」?</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History" start="20260812172000 +0800" stop="20260812182000 +0800">
+    <title lang="zh">先驅者1952</title>
+    <desc>《先驅者1952》重新回顧了仍然被列為失踪的聯合國士兵的犧牲。這部電影揭示了法國營在韓戰中的角色以及這場戰爭持續的人類代價。</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History" start="20260812182000 +0800" stop="20260812191000 +0800">
+    <title lang="zh">遠古外星人 第15季第232集 </title>
+    <desc>本集《遠古外星人》介紹世界上十大金字塔地點, 從秘魯河谷的250個隱藏金字塔, 到古希臘城市4800年前的遺跡, 再到埃及著名的Giza Plateau金字塔。</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History" start="20260812191000 +0800" stop="20260812200500 +0800">
+    <title lang="zh">威廉薛特納神祕檔案 第3季第24集 </title>
+    <desc>數百年來, 一直有美國各地藏有大量寶藏的傳說。失竊的黃金、海盜搶劫、殺人復仇的故事--但這些關於失落寶藏的傳說是否太荒謬了?</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History" start="20260812200500 +0800" stop="20260812210000 +0800">
+    <title lang="zh">丹·艾克洛德之不可思議事件 第2季第2集 </title>
+    <desc>你是否曾經好奇, 天上掉下來的東西裡, 最奇怪最怪異的會是什麼呢?從隕石砸落, 到海鮮從天而降, 甚至還有浴缸掉落下來, 這些全都是難以想像的故事。天空中降下的事物, 往往超乎常理, 讓人既驚訝又困惑。</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History" start="20260812210000 +0800" stop="20260812215500 +0800">
+    <title lang="zh">歷史重大謎團 第6季第3集 </title>
+    <desc>這位傳奇的古代統治者, 成吉思汗, 他積累的財富估計在今天的美元中價值120萬億, 他將自己的財富隱藏得如此之好, 以至於至今仍然沒有人能夠挖掘出來。</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History" start="20260812215500 +0800" stop="20260812225000 +0800">
+    <title lang="zh">橡樹島的詛咒 第12季第25集 </title>
+    <desc>在一次可怕的崩潰之後, 夥伴們終於來到了解決通道的邊緣。</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History" start="20260812225000 +0800" stop="20260812234500 +0800">
+    <title lang="zh">摩根·費里曼之越獄風雲 第2季第14集 </title>
+    <desc>一名渴望寫犯罪小說的男子鋃鐺入獄；當他試圖逃離密西西比州最古老和最臭名昭著的帕奇曼農場監獄時, 他成為自己越獄故事的主角。</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="History" start="20260812234500 +0800" stop="20260813000000 +0800">
+    <title lang="zh">獨行俠 第11季第1集 </title>
+    <desc>在《獨行俠》最偏遠的地點, 十位新加入的獨行俠必須對抗寒冷和逐漸減少的日照, 在北極圈北方存活下來, 才有機會贏得500,000美元。</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
@@ -135797,254 +135805,6 @@ eフィーバー機動戦士ガンダムSEEDクライマックス導入SP</desc>
     <display-name lang="zh">惊艳台</display-name>
     <icon src="https://epg.pw/media/images/epg/2025/09/17/20250917053815516450_58.jpg" />
   </channel>
-  <programme channel="CNN" start="20260805000000 +0800" stop="20260805010000 +0800">
-    <title lang="zh">One World</title>
-    <desc>One World</desc>
-    <date>20260805</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="CNN" start="20260805010000 +0800" stop="20260805020000 +0800">
-    <title lang="zh">Amanpour</title>
-    <desc>Amanpour</desc>
-    <date>20260805</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="CNN" start="20260805020000 +0800" stop="20260805030000 +0800">
-    <title lang="zh">Isa Soares Tonight</title>
-    <desc>Isa Soares Tonight</desc>
-    <date>20260805</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="CNN" start="20260805030000 +0800" stop="20260805040000 +0800">
-    <title lang="zh">What We Know with Max Foster</title>
-    <desc>What We Know with Max Foster</desc>
-    <date>20260805</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="CNN" start="20260805040000 +0800" stop="20260805044500 +0800">
-    <title lang="zh">Quest Means Business</title>
-    <desc>Quest Means Business</desc>
-    <date>20260805</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="CNN" start="20260805044500 +0800" stop="20260805050000 +0800">
-    <title lang="zh">Connecting Africa</title>
-    <desc>Connecting Africa</desc>
-    <date>20260805</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="CNN" start="20260805050000 +0800" stop="20260805053000 +0800">
-    <title lang="zh">The Lead with Jake Tapper</title>
-    <desc>The Lead with Jake Tapper</desc>
-    <date>20260805</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="CNN" start="20260805053000 +0800" stop="20260805060000 +0800">
-    <title lang="zh">World Sport</title>
-    <desc>World Sport/ Best of World Sport 2010</desc>
-    <date>20260805</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="CNN" start="20260805060000 +0800" stop="20260805070000 +0800">
-    <title lang="zh">The Brief with Jim Sciutto</title>
-    <desc>The Brief with Jim Sciutto</desc>
-    <date>20260805</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="CNN" start="20260805070000 +0800" stop="20260805080000 +0800">
-    <title lang="zh">Erin Burnett OutFront</title>
-    <desc>Erin Burnett OutFront</desc>
-    <date>20260805</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="CNN" start="20260805080000 +0800" stop="20260805090000 +0800">
-    <title lang="zh">Anderson Cooper 360</title>
-    <desc>Anderson Cooper 360</desc>
-    <date>20260805</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="CNN" start="20260805090000 +0800" stop="20260805100000 +0800">
-    <title lang="zh">The Source with Kaitlan Collins</title>
-    <desc>The Source with Kaitlan Collins</desc>
-    <date>20260805</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="CNN" start="20260805100000 +0800" stop="20260805110000 +0800">
-    <title lang="zh">CNN NewsNight</title>
-    <desc>CNN NewsNight</desc>
-    <date>20260805</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="CNN" start="20260805110000 +0800" stop="20260805120000 +0800">
-    <title lang="zh">Laura Coates Live</title>
-    <desc>Laura Coates Live</desc>
-    <date>20260805</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="CNN" start="20260805120000 +0800" stop="20260805130000 +0800">
-    <title lang="zh">The Story Is With Elex Michaelson</title>
-    <desc>The Story Is With Elex Michaelson</desc>
-    <date>20260805</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="CNN" start="20260805130000 +0800" stop="20260805134500 +0800">
-    <title lang="zh">The Story Is With Elex Michaelson</title>
-    <desc>The Story Is With Elex Michaelson</desc>
-    <date>20260805</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="CNN" start="20260805134500 +0800" stop="20260805140000 +0800">
-    <title lang="zh">World Sport</title>
-    <desc>World Sport/ Best of World Sport 2010</desc>
-    <date>20260805</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="CNN" start="20260805140000 +0800" stop="20260805150000 +0800">
-    <title lang="zh">CNN Newsroom</title>
-    <desc>CNN Newsroom</desc>
-    <date>20260805</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="CNN" start="20260805150000 +0800" stop="20260805154500 +0800">
-    <title lang="zh">CNN Newsroom</title>
-    <desc>CNN Newsroom</desc>
-    <date>20260805</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="CNN" start="20260805154500 +0800" stop="20260805160000 +0800">
-    <title lang="zh">World Sport</title>
-    <desc>World Sport/ Best of World Sport 2010</desc>
-    <date>20260805</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="CNN" start="20260805160000 +0800" stop="20260805170000 +0800">
-    <title lang="zh">CNN Newsroom</title>
-    <desc>CNN Newsroom</desc>
-    <date>20260805</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="CNN" start="20260805170000 +0800" stop="20260805180000 +0800">
-    <title lang="zh">CNN Headline Express</title>
-    <desc>CNN Headline Express</desc>
-    <date>20260805</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="CNN" start="20260805180000 +0800" stop="20260805190000 +0800">
-    <title lang="zh">CNN This Morning</title>
-    <desc>CNN This Morning</desc>
-    <date>20260805</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="CNN" start="20260805190000 +0800" stop="20260805200000 +0800">
-    <title lang="zh">CNN News Central</title>
-    <desc>CNN News Central</desc>
-    <date>20260805</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="CNN" start="20260805200000 +0800" stop="20260805203000 +0800">
-    <title lang="zh">CNN News Central</title>
-    <desc>CNN News Central</desc>
-    <date>20260805</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="CNN" start="20260805203000 +0800" stop="20260805210000 +0800">
-    <title lang="zh">World Sport</title>
-    <desc>World Sport/ Best of World Sport 2010</desc>
-    <date>20260805</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="CNN" start="20260805210000 +0800" stop="20260805214500 +0800">
-    <title lang="zh">Connect the World</title>
-    <desc>Connect the World: Best Connectors of the Day</desc>
-    <date>20260805</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="CNN" start="20260805214500 +0800" stop="20260805220000 +0800">
-    <title lang="zh">World Sport</title>
-    <desc>World Sport/ Best of World Sport 2010</desc>
-    <date>20260805</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="CNN" start="20260805220000 +0800" stop="20260805224500 +0800">
-    <title lang="zh">Connect the World</title>
-    <desc>Connect the World: Best Connectors of the Day</desc>
-    <date>20260805</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="CNN" start="20260805224500 +0800" stop="20260805230000 +0800">
-    <title lang="zh">Marketplace Middle East</title>
-    <desc>Marketplace Middle East</desc>
-    <date>20260805</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="CNN" start="20260805230000 +0800" stop="20260806000000 +0800">
-    <title lang="zh">One World</title>
-    <desc>One World</desc>
-    <date>20260805</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
   <programme channel="CNN" start="20260806000000 +0800" stop="20260806010000 +0800">
     <title lang="zh">One World</title>
     <desc>One World</desc>
@@ -137573,7 +137333,7 @@ eフィーバー機動戦士ガンダムSEEDクライマックス導入SP</desc>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="CNN" start="20260812000000 +0800" stop="20260813000000 +0800">
+  <programme channel="CNN" start="20260812000000 +0800" stop="20260812004500 +0800">
     <title lang="zh">One World</title>
     <desc>One World</desc>
     <date>20260812</date>
@@ -137581,98 +137341,250 @@ eフィーバー機動戦士ガンダムSEEDクライマックス導入SP</desc>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="松视1" start="20260805000000 +0800" stop="20260805020000 +0800">
-    <title lang="zh">我的性愛專屬女僕</title>
-    <desc>七瀨愛麗絲.網羅日本最強片商，提供熱門AV女優主演的最新、最熱門的薄碼劇情片。欲拒還迎的人妻、老公上司是個猛男、隔壁單身女老是傳出靡靡之音、女友的姊姊教我怎麼呵護妹妹、新來的佣人手巧嘴更巧、去做個指壓消除疲勞卻連腿都軟了…喜歡劇情片嗎？松視1台讓您腦洞大開，幻想無限。</desc>
-    <date>20260805</date>
+  <programme channel="CNN" start="20260812004500 +0800" stop="20260812010000 +0800">
+    <title lang="zh">African Voices Playmakers</title>
+    <desc>African Voices Playmakers</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="松视1" start="20260805020000 +0800" stop="20260805040000 +0800">
-    <title lang="zh">性慾過剩治療院</title>
-    <desc>素人.網羅日本最強片商，提供熱門AV女優主演的最新、最熱門的薄碼劇情片。欲拒還迎的人妻、老公上司是個猛男、隔壁單身女老是傳出靡靡之音、女友的姊姊教我怎麼呵護妹妹、新來的佣人手巧嘴更巧、去做個指壓消除疲勞卻連腿都軟了…喜歡劇情片嗎？松視1台讓您腦洞大開，幻想無限。</desc>
-    <date>20260805</date>
+  <programme channel="CNN" start="20260812010000 +0800" stop="20260812020000 +0800">
+    <title lang="zh">Amanpour</title>
+    <desc>Amanpour</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="松视1" start="20260805040000 +0800" stop="20260805060000 +0800">
-    <title lang="zh">人妻猥褻中出診察室</title>
-    <desc>明里紬.網羅日本最強片商，提供熱門AV女優主演的最新、最熱門的薄碼劇情片。欲拒還迎的人妻、老公上司是個猛男、隔壁單身女老是傳出靡靡之音、女友的姊姊教我怎麼呵護妹妹、新來的佣人手巧嘴更巧、去做個指壓消除疲勞卻連腿都軟了…喜歡劇情片嗎？松視1台讓您腦洞大開，幻想無限。</desc>
-    <date>20260805</date>
+  <programme channel="CNN" start="20260812020000 +0800" stop="20260812030000 +0800">
+    <title lang="zh">Isa Soares Tonight</title>
+    <desc>Isa Soares Tonight</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="松视1" start="20260805060000 +0800" stop="20260805080000 +0800">
-    <title lang="zh">不孕的我請大哥幫忙播種</title>
-    <desc>森日向子.網羅日本最強片商，提供熱門AV女優主演的最新、最熱門的薄碼劇情片。欲拒還迎的人妻、老公上司是個猛男、隔壁單身女老是傳出靡靡之音、女友的姊姊教我怎麼呵護妹妹、新來的佣人手巧嘴更巧、去做個指壓消除疲勞卻連腿都軟了…喜歡劇情片嗎？松視1台讓您腦洞大開，幻想無限。</desc>
-    <date>20260805</date>
+  <programme channel="CNN" start="20260812030000 +0800" stop="20260812040000 +0800">
+    <title lang="zh">What We Know with Max Foster</title>
+    <desc>What We Know with Max Foster</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="松视1" start="20260805080000 +0800" stop="20260805100000 +0800">
-    <title lang="zh">巨乳乾妹跑來和我同居</title>
-    <desc>胡桃櫻.網羅日本最強片商，提供熱門AV女優主演的最新、最熱門的薄碼劇情片。欲拒還迎的人妻、老公上司是個猛男、隔壁單身女老是傳出靡靡之音、女友的姊姊教我怎麼呵護妹妹、新來的佣人手巧嘴更巧、去做個指壓消除疲勞卻連腿都軟了…喜歡劇情片嗎？松視1台讓您腦洞大開，幻想無限。</desc>
-    <date>20260805</date>
+  <programme channel="CNN" start="20260812040000 +0800" stop="20260812050000 +0800">
+    <title lang="zh">Quest Means Business</title>
+    <desc>Quest Means Business</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="松视1" start="20260805100000 +0800" stop="20260805120000 +0800">
-    <title lang="zh">纖細美人弓背高潮暴走</title>
-    <desc>上田紗奈.網羅日本最強片商，提供熱門AV女優主演的最新、最熱門的薄碼劇情片。欲拒還迎的人妻、老公上司是個猛男、隔壁單身女老是傳出靡靡之音、女友的姊姊教我怎麼呵護妹妹、新來的佣人手巧嘴更巧、去做個指壓消除疲勞卻連腿都軟了…喜歡劇情片嗎？松視1台讓您腦洞大開，幻想無限。</desc>
-    <date>20260805</date>
+  <programme channel="CNN" start="20260812050000 +0800" stop="20260812053000 +0800">
+    <title lang="zh">The Lead with Jake Tapper</title>
+    <desc>The Lead with Jake Tapper</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="松视1" start="20260805120000 +0800" stop="20260805140000 +0800">
-    <title lang="zh">游泳選手的秘密特訓</title>
-    <desc>素人.網羅日本最強片商，提供熱門AV女優主演的最新、最熱門的薄碼劇情片。欲拒還迎的人妻、老公上司是個猛男、隔壁單身女老是傳出靡靡之音、女友的姊姊教我怎麼呵護妹妹、新來的佣人手巧嘴更巧、去做個指壓消除疲勞卻連腿都軟了…喜歡劇情片嗎？松視1台讓您腦洞大開，幻想無限。</desc>
-    <date>20260805</date>
+  <programme channel="CNN" start="20260812053000 +0800" stop="20260812060000 +0800">
+    <title lang="zh">World Sport</title>
+    <desc>World Sport/ Best of World Sport 2010</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="松视1" start="20260805140000 +0800" stop="20260805160000 +0800">
-    <title lang="zh">在未婚夫旁被X到高潮</title>
-    <desc>八木奈奈.網羅日本最強片商，提供熱門AV女優主演的最新、最熱門的薄碼劇情片。欲拒還迎的人妻、老公上司是個猛男、隔壁單身女老是傳出靡靡之音、女友的姊姊教我怎麼呵護妹妹、新來的佣人手巧嘴更巧、去做個指壓消除疲勞卻連腿都軟了…喜歡劇情片嗎？松視1台讓您腦洞大開，幻想無限。</desc>
-    <date>20260805</date>
+  <programme channel="CNN" start="20260812060000 +0800" stop="20260812070000 +0800">
+    <title lang="zh">The Brief with Jim Sciutto</title>
+    <desc>The Brief with Jim Sciutto</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="松视1" start="20260805160000 +0800" stop="20260805180000 +0800">
-    <title lang="zh">月付式社區女性任你插</title>
-    <desc>素人.網羅日本最強片商，提供熱門AV女優主演的最新、最熱門的薄碼劇情片。欲拒還迎的人妻、老公上司是個猛男、隔壁單身女老是傳出靡靡之音、女友的姊姊教我怎麼呵護妹妹、新來的佣人手巧嘴更巧、去做個指壓消除疲勞卻連腿都軟了…喜歡劇情片嗎？松視1台讓您腦洞大開，幻想無限。</desc>
-    <date>20260805</date>
+  <programme channel="CNN" start="20260812070000 +0800" stop="20260812080000 +0800">
+    <title lang="zh">Erin Burnett OutFront</title>
+    <desc>Erin Burnett OutFront</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="松视1" start="20260805180000 +0800" stop="20260805200000 +0800">
-    <title lang="zh">暴走思春男找乾媽排解</title>
-    <desc>?田?.網羅日本最強片商，提供熱門AV女優主演的最新、最熱門的薄碼劇情片。欲拒還迎的人妻、老公上司是個猛男、隔壁單身女老是傳出靡靡之音、女友的姊姊教我怎麼呵護妹妹、新來的佣人手巧嘴更巧、去做個指壓消除疲勞卻連腿都軟了…喜歡劇情片嗎？松視1台讓您腦洞大開，幻想無限。</desc>
-    <date>20260805</date>
+  <programme channel="CNN" start="20260812080000 +0800" stop="20260812090000 +0800">
+    <title lang="zh">Anderson Cooper 360</title>
+    <desc>Anderson Cooper 360</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="松视1" start="20260805200000 +0800" stop="20260805220000 +0800">
-    <title lang="zh">老婆是時間管理大師</title>
-    <desc>一乃葵.網羅日本最強片商，提供熱門AV女優主演的最新、最熱門的薄碼劇情片。欲拒還迎的人妻、老公上司是個猛男、隔壁單身女老是傳出靡靡之音、女友的姊姊教我怎麼呵護妹妹、新來的佣人手巧嘴更巧、去做個指壓消除疲勞卻連腿都軟了…喜歡劇情片嗎？松視1台讓您腦洞大開，幻想無限。</desc>
-    <date>20260805</date>
+  <programme channel="CNN" start="20260812090000 +0800" stop="20260812100000 +0800">
+    <title lang="zh">The Source with Kaitlan Collins</title>
+    <desc>The Source with Kaitlan Collins</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="松视1" start="20260805220000 +0800" stop="20260806000000 +0800">
-    <title lang="zh">裸臀人妻背後活塞中出</title>
-    <desc>七瀨愛麗絲.網羅日本最強片商，提供熱門AV女優主演的最新、最熱門的薄碼劇情片。欲拒還迎的人妻、老公上司是個猛男、隔壁單身女老是傳出靡靡之音、女友的姊姊教我怎麼呵護妹妹、新來的佣人手巧嘴更巧、去做個指壓消除疲勞卻連腿都軟了…喜歡劇情片嗎？松視1台讓您腦洞大開，幻想無限。</desc>
-    <date>20260805</date>
+  <programme channel="CNN" start="20260812100000 +0800" stop="20260812110000 +0800">
+    <title lang="zh">CNN NewsNight</title>
+    <desc>CNN NewsNight</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="CNN" start="20260812110000 +0800" stop="20260812120000 +0800">
+    <title lang="zh">Laura Coates Live</title>
+    <desc>Laura Coates Live</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="CNN" start="20260812120000 +0800" stop="20260812130000 +0800">
+    <title lang="zh">The Story Is With Elex Michaelson</title>
+    <desc>The Story Is With Elex Michaelson</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="CNN" start="20260812130000 +0800" stop="20260812134500 +0800">
+    <title lang="zh">The Story Is With Elex Michaelson</title>
+    <desc>The Story Is With Elex Michaelson</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="CNN" start="20260812134500 +0800" stop="20260812140000 +0800">
+    <title lang="zh">World Sport</title>
+    <desc>World Sport/ Best of World Sport 2010</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="CNN" start="20260812140000 +0800" stop="20260812150000 +0800">
+    <title lang="zh">CNN Newsroom</title>
+    <desc>CNN Newsroom</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="CNN" start="20260812150000 +0800" stop="20260812154500 +0800">
+    <title lang="zh">CNN Newsroom</title>
+    <desc>CNN Newsroom</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="CNN" start="20260812154500 +0800" stop="20260812160000 +0800">
+    <title lang="zh">World Sport</title>
+    <desc>World Sport/ Best of World Sport 2010</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="CNN" start="20260812160000 +0800" stop="20260812170000 +0800">
+    <title lang="zh">CNN Newsroom</title>
+    <desc>CNN Newsroom</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="CNN" start="20260812170000 +0800" stop="20260812180000 +0800">
+    <title lang="zh">CNN Headline Express</title>
+    <desc>CNN Headline Express</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="CNN" start="20260812180000 +0800" stop="20260812190000 +0800">
+    <title lang="zh">CNN This Morning</title>
+    <desc>CNN This Morning</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="CNN" start="20260812190000 +0800" stop="20260812200000 +0800">
+    <title lang="zh">CNN News Central</title>
+    <desc>CNN News Central</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="CNN" start="20260812200000 +0800" stop="20260812203000 +0800">
+    <title lang="zh">CNN News Central</title>
+    <desc>CNN News Central</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="CNN" start="20260812203000 +0800" stop="20260812210000 +0800">
+    <title lang="zh">World Sport</title>
+    <desc>World Sport/ Best of World Sport 2010</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="CNN" start="20260812210000 +0800" stop="20260812214500 +0800">
+    <title lang="zh">Connect the World</title>
+    <desc>Connect the World: Best Connectors of the Day</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="CNN" start="20260812214500 +0800" stop="20260812220000 +0800">
+    <title lang="zh">World Sport</title>
+    <desc>World Sport/ Best of World Sport 2010</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="CNN" start="20260812220000 +0800" stop="20260812224500 +0800">
+    <title lang="zh">Connect the World</title>
+    <desc>Connect the World: Best Connectors of the Day</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="CNN" start="20260812224500 +0800" stop="20260812230000 +0800">
+    <title lang="zh">Marketplace Asia</title>
+    <desc>Marketplace Asia</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="CNN" start="20260812230000 +0800" stop="20260813000000 +0800">
+    <title lang="zh">One World</title>
+    <desc>One World</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="CNN" start="20260813000000 +0800" stop="20260814000000 +0800">
+    <title lang="zh">One World</title>
+    <desc>One World</desc>
+    <date>20260813</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
@@ -138253,7 +138165,7 @@ eフィーバー機動戦士ガンダムSEEDクライマックス導入SP</desc>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="松视1" start="20260812000000 +0800" stop="20260813000000 +0800">
+  <programme channel="松视1" start="20260812000000 +0800" stop="20260812020000 +0800">
     <title lang="zh">和處男下屬出差的那晚</title>
     <desc>海老?碧.網羅日本最強片商，提供熱門AV女優主演的最新、最熱門的薄碼劇情片。欲拒還迎的人妻、老公上司是個猛男、隔壁單身女老是傳出靡靡之音、女友的姊姊教我怎麼呵護妹妹、新來的佣人手巧嘴更巧、去做個指壓消除疲勞卻連腿都軟了…喜歡劇情片嗎？松視1台讓您腦洞大開，幻想無限。</desc>
     <date>20260812</date>
@@ -138261,98 +138173,98 @@ eフィーバー機動戦士ガンダムSEEDクライマックス導入SP</desc>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="松视2" start="20260805000000 +0800" stop="20260805020000 +0800">
-    <title lang="zh">火辣淋漓的小穴</title>
-    <desc>Alice Reign, Baby Bambi, Darcy Dark, Eva Red, Kenn.........歡迎來到赤裸的成人娛樂世界~人的內心總埋藏著一股不為人知的慾望,松視2台將勾起藏在您內心深處的小惡魔,帶您體驗西洋激情狂放的驚喜快感,現實生活中不會出現的私密禁忌,AV女優的蜜穴探索,一起進入失控的情慾宇宙吧~</desc>
-    <date>20260805</date>
+  <programme channel="松视1" start="20260812020000 +0800" stop="20260812040000 +0800">
+    <title lang="zh">乾爹只用十秒就給我全世界</title>
+    <desc>五芭.網羅日本最強片商，提供熱門AV女優主演的最新、最熱門的薄碼劇情片。欲拒還迎的人妻、老公上司是個猛男、隔壁單身女老是傳出靡靡之音、女友的姊姊教我怎麼呵護妹妹、新來的佣人手巧嘴更巧、去做個指壓消除疲勞卻連腿都軟了…喜歡劇情片嗎？松視1台讓您腦洞大開，幻想無限。</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="松视2" start="20260805020000 +0800" stop="20260805040000 +0800">
-    <title lang="zh">大黑屌比臉還要大</title>
-    <desc>Jill Kassidy, Ashley Lane, Allie Nicole, Ella Hugh.........歡迎來到赤裸的成人娛樂世界~人的內心總埋藏著一股不為人知的慾望,松視2台將勾起藏在您內心深處的小惡魔,帶您體驗西洋激情狂放的驚喜快感,現實生活中不會出現的私密禁忌,AV女優的蜜穴探索,一起進入失控的情慾宇宙吧~</desc>
-    <date>20260805</date>
+  <programme channel="松视1" start="20260812040000 +0800" stop="20260812060000 +0800">
+    <title lang="zh">冷淡丈夫的熱情兒子</title>
+    <desc>廣瀨百合.網羅日本最強片商，提供熱門AV女優主演的最新、最熱門的薄碼劇情片。欲拒還迎的人妻、老公上司是個猛男、隔壁單身女老是傳出靡靡之音、女友的姊姊教我怎麼呵護妹妹、新來的佣人手巧嘴更巧、去做個指壓消除疲勞卻連腿都軟了…喜歡劇情片嗎？松視1台讓您腦洞大開，幻想無限。</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="松视2" start="20260805040000 +0800" stop="20260805060000 +0800">
-    <title lang="zh">誘惑色淫攝影師</title>
-    <desc>Claire Castel, Lana Rhoades, Alexis Crystal, Loven.........歡迎來到赤裸的成人娛樂世界~人的內心總埋藏著一股不為人知的慾望,松視2台將勾起藏在您內心深處的小惡魔,帶您體驗西洋激情狂放的驚喜快感,現實生活中不會出現的私密禁忌,AV女優的蜜穴探索,一起進入失控的情慾宇宙吧~</desc>
-    <date>20260805</date>
+  <programme channel="松视1" start="20260812060000 +0800" stop="20260812080000 +0800">
+    <title lang="zh">愛妻是鎮上大叔的性處理器</title>
+    <desc>二宮光.網羅日本最強片商，提供熱門AV女優主演的最新、最熱門的薄碼劇情片。欲拒還迎的人妻、老公上司是個猛男、隔壁單身女老是傳出靡靡之音、女友的姊姊教我怎麼呵護妹妹、新來的佣人手巧嘴更巧、去做個指壓消除疲勞卻連腿都軟了…喜歡劇情片嗎？松視1台讓您腦洞大開，幻想無限。</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="松视2" start="20260805060000 +0800" stop="20260805080000 +0800">
-    <title lang="zh">俄羅斯女校的潛規則</title>
-    <desc>Anna Polina, Tiffany Doll, Taylor Sands, Lola Tayl.........歡迎來到赤裸的成人娛樂世界~人的內心總埋藏著一股不為人知的慾望,松視2台將勾起藏在您內心深處的小惡魔,帶您體驗西洋激情狂放的驚喜快感,現實生活中不會出現的私密禁忌,AV女優的蜜穴探索,一起進入失控的情慾宇宙吧~</desc>
-    <date>20260805</date>
+  <programme channel="松视1" start="20260812080000 +0800" stop="20260812100000 +0800">
+    <title lang="zh">被夜襲的人妻</title>
+    <desc>八乃翼.網羅日本最強片商，提供熱門AV女優主演的最新、最熱門的薄碼劇情片。欲拒還迎的人妻、老公上司是個猛男、隔壁單身女老是傳出靡靡之音、女友的姊姊教我怎麼呵護妹妹、新來的佣人手巧嘴更巧、去做個指壓消除疲勞卻連腿都軟了…喜歡劇情片嗎？松視1台讓您腦洞大開，幻想無限。</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="松视2" start="20260805080000 +0800" stop="20260805100000 +0800">
-    <title lang="zh">性愛幻想成真</title>
-    <desc>Alex Ginger, Billie Star, Bruno SX, Figi, Figi, Fi.........歡迎來到赤裸的成人娛樂世界~人的內心總埋藏著一股不為人知的慾望,松視2台將勾起藏在您內心深處的小惡魔,帶您體驗西洋激情狂放的驚喜快感,現實生活中不會出現的私密禁忌,AV女優的蜜穴探索,一起進入失控的情慾宇宙吧~</desc>
-    <date>20260805</date>
+  <programme channel="松视1" start="20260812100000 +0800" stop="20260812120000 +0800">
+    <title lang="zh">隔壁小姐愛上我的粗硬屌</title>
+    <desc>安達夕莉.網羅日本最強片商，提供熱門AV女優主演的最新、最熱門的薄碼劇情片。欲拒還迎的人妻、老公上司是個猛男、隔壁單身女老是傳出靡靡之音、女友的姊姊教我怎麼呵護妹妹、新來的佣人手巧嘴更巧、去做個指壓消除疲勞卻連腿都軟了…喜歡劇情片嗎？松視1台讓您腦洞大開，幻想無限。</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="松视2" start="20260805100000 +0800" stop="20260805120000 +0800">
-    <title lang="zh">分手快樂淫浸黑棒亂舞中</title>
-    <desc>Kendra Sunderland, Megan Rain, Ariana Marie, Anya .........歡迎來到赤裸的成人娛樂世界~人的內心總埋藏著一股不為人知的慾望,松視2台將勾起藏在您內心深處的小惡魔,帶您體驗西洋激情狂放的驚喜快感,現實生活中不會出現的私密禁忌,AV女優的蜜穴探索,一起進入失控的情慾宇宙吧~</desc>
-    <date>20260805</date>
+  <programme channel="松视1" start="20260812120000 +0800" stop="20260812140000 +0800">
+    <title lang="zh">包你高潮按摩院</title>
+    <desc>素人.網羅日本最強片商，提供熱門AV女優主演的最新、最熱門的薄碼劇情片。欲拒還迎的人妻、老公上司是個猛男、隔壁單身女老是傳出靡靡之音、女友的姊姊教我怎麼呵護妹妹、新來的佣人手巧嘴更巧、去做個指壓消除疲勞卻連腿都軟了…喜歡劇情片嗎？松視1台讓您腦洞大開，幻想無限。</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="松视2" start="20260805120000 +0800" stop="20260805140000 +0800">
-    <title lang="zh">巨屌請進門</title>
-    <desc>Alien, Olga Winter, Jenna Presley, Angelica Heart,.........歡迎來到赤裸的成人娛樂世界~人的內心總埋藏著一股不為人知的慾望,松視2台將勾起藏在您內心深處的小惡魔,帶您體驗西洋激情狂放的驚喜快感,現實生活中不會出現的私密禁忌,AV女優的蜜穴探索,一起進入失控的情慾宇宙吧~</desc>
-    <date>20260805</date>
+  <programme channel="松视1" start="20260812140000 +0800" stop="20260812160000 +0800">
+    <title lang="zh">落入地獄陷阱的美人妻</title>
+    <desc>市來真尋.網羅日本最強片商，提供熱門AV女優主演的最新、最熱門的薄碼劇情片。欲拒還迎的人妻、老公上司是個猛男、隔壁單身女老是傳出靡靡之音、女友的姊姊教我怎麼呵護妹妹、新來的佣人手巧嘴更巧、去做個指壓消除疲勞卻連腿都軟了…喜歡劇情片嗎？松視1台讓您腦洞大開，幻想無限。</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="松视2" start="20260805140000 +0800" stop="20260805160000 +0800">
-    <title lang="zh">上床獻出放蕩自我</title>
-    <desc>Clea Gaultier, Cherry Kiss, Tiffany Leiddi, Loveni.........歡迎來到赤裸的成人娛樂世界~人的內心總埋藏著一股不為人知的慾望,松視2台將勾起藏在您內心深處的小惡魔,帶您體驗西洋激情狂放的驚喜快感,現實生活中不會出現的私密禁忌,AV女優的蜜穴探索,一起進入失控的情慾宇宙吧~</desc>
-    <date>20260805</date>
+  <programme channel="松视1" start="20260812160000 +0800" stop="20260812180000 +0800">
+    <title lang="zh">巨乳阿姨專吃大肉棒</title>
+    <desc>素人.網羅日本最強片商，提供熱門AV女優主演的最新、最熱門的薄碼劇情片。欲拒還迎的人妻、老公上司是個猛男、隔壁單身女老是傳出靡靡之音、女友的姊姊教我怎麼呵護妹妹、新來的佣人手巧嘴更巧、去做個指壓消除疲勞卻連腿都軟了…喜歡劇情片嗎？松視1台讓您腦洞大開，幻想無限。</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="松视2" start="20260805160000 +0800" stop="20260805180000 +0800">
-    <title lang="zh">翹臀妞熱愛操後庭花</title>
-    <desc>Yoha, Angelina Cole, Jasmine Black, Angel Diamond,.........歡迎來到赤裸的成人娛樂世界~人的內心總埋藏著一股不為人知的慾望,松視2台將勾起藏在您內心深處的小惡魔,帶您體驗西洋激情狂放的驚喜快感,現實生活中不會出現的私密禁忌,AV女優的蜜穴探索,一起進入失控的情慾宇宙吧~</desc>
-    <date>20260805</date>
+  <programme channel="松视1" start="20260812180000 +0800" stop="20260812200000 +0800">
+    <title lang="zh">鋼琴家教的肉棒療癒性愛課</title>
+    <desc>白都四季.網羅日本最強片商，提供熱門AV女優主演的最新、最熱門的薄碼劇情片。欲拒還迎的人妻、老公上司是個猛男、隔壁單身女老是傳出靡靡之音、女友的姊姊教我怎麼呵護妹妹、新來的佣人手巧嘴更巧、去做個指壓消除疲勞卻連腿都軟了…喜歡劇情片嗎？松視1台讓您腦洞大開，幻想無限。</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="松视2" start="20260805180000 +0800" stop="20260805200000 +0800">
-    <title lang="zh">我們都愛黑心大蘿蔔</title>
-    <desc>Allie Haze, Flash Brown, Dani Daniels, Keisha Grey.........歡迎來到赤裸的成人娛樂世界~人的內心總埋藏著一股不為人知的慾望,松視2台將勾起藏在您內心深處的小惡魔,帶您體驗西洋激情狂放的驚喜快感,現實生活中不會出現的私密禁忌,AV女優的蜜穴探索,一起進入失控的情慾宇宙吧~</desc>
-    <date>20260805</date>
+  <programme channel="松视1" start="20260812200000 +0800" stop="20260812220000 +0800">
+    <title lang="zh">老江湖插10秒就高潮</title>
+    <desc>月野江翠.網羅日本最強片商，提供熱門AV女優主演的最新、最熱門的薄碼劇情片。欲拒還迎的人妻、老公上司是個猛男、隔壁單身女老是傳出靡靡之音、女友的姊姊教我怎麼呵護妹妹、新來的佣人手巧嘴更巧、去做個指壓消除疲勞卻連腿都軟了…喜歡劇情片嗎？松視1台讓您腦洞大開，幻想無限。</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="松视2" start="20260805200000 +0800" stop="20260805220000 +0800">
-    <title lang="zh">辣妞就是愛中出</title>
-    <desc>Emily Willis, Little Caprice, Kali Roses, Gizelle .........歡迎來到赤裸的成人娛樂世界~人的內心總埋藏著一股不為人知的慾望,松視2台將勾起藏在您內心深處的小惡魔,帶您體驗西洋激情狂放的驚喜快感,現實生活中不會出現的私密禁忌,AV女優的蜜穴探索,一起進入失控的情慾宇宙吧~</desc>
-    <date>20260805</date>
+  <programme channel="松视1" start="20260812220000 +0800" stop="20260813000000 +0800">
+    <title lang="zh">阿姨愛上粗硬長鮮肉棒</title>
+    <desc>沖宮那美.網羅日本最強片商，提供熱門AV女優主演的最新、最熱門的薄碼劇情片。欲拒還迎的人妻、老公上司是個猛男、隔壁單身女老是傳出靡靡之音、女友的姊姊教我怎麼呵護妹妹、新來的佣人手巧嘴更巧、去做個指壓消除疲勞卻連腿都軟了…喜歡劇情片嗎？松視1台讓您腦洞大開，幻想無限。</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="松视2" start="20260805220000 +0800" stop="20260806000000 +0800">
-    <title lang="zh">黑美人緊濕潮穴</title>
-    <desc>Brianna Taylor,Brown Sugar,Jordan Love,Jazmine Cas.........歡迎來到赤裸的成人娛樂世界~人的內心總埋藏著一股不為人知的慾望,松視2台將勾起藏在您內心深處的小惡魔,帶您體驗西洋激情狂放的驚喜快感,現實生活中不會出現的私密禁忌,AV女優的蜜穴探索,一起進入失控的情慾宇宙吧~</desc>
-    <date>20260805</date>
+  <programme channel="松视1" start="20260813000000 +0800" stop="20260814000000 +0800">
+    <title lang="zh">婚前戀上按摩師的屌</title>
+    <desc>百永紗里奈.網羅日本最強片商，提供熱門AV女優主演的最新、最熱門的薄碼劇情片。欲拒還迎的人妻、老公上司是個猛男、隔壁單身女老是傳出靡靡之音、女友的姊姊教我怎麼呵護妹妹、新來的佣人手巧嘴更巧、去做個指壓消除疲勞卻連腿都軟了…喜歡劇情片嗎？松視1台讓您腦洞大開，幻想無限。</desc>
+    <date>20260813</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
@@ -138933,7 +138845,7 @@ eフィーバー機動戦士ガンダムSEEDクライマックス導入SP</desc>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="松视2" start="20260812000000 +0800" stop="20260813000000 +0800">
+  <programme channel="松视2" start="20260812000000 +0800" stop="20260812020000 +0800">
     <title lang="zh">相互按摩濕穴愛撫</title>
     <desc>Cindy Shine, Baby Nicols, Shrima Malati, Casey Har.........歡迎來到赤裸的成人娛樂世界~人的內心總埋藏著一股不為人知的慾望,松視2台將勾起藏在您內心深處的小惡魔,帶您體驗西洋激情狂放的驚喜快感,現實生活中不會出現的私密禁忌,AV女優的蜜穴探索,一起進入失控的情慾宇宙吧~</desc>
     <date>20260812</date>
@@ -138941,98 +138853,98 @@ eフィーバー機動戦士ガンダムSEEDクライマックス導入SP</desc>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="潘朵拉" start="20260805000000 +0800" stop="20260805020000 +0800">
-    <title lang="zh">繼女們對父親的肉棒感到興趣</title>
-    <desc>潘朵啦完美台將家庭的成人娛樂享受高規格化，讓觀眾在家裡就能自在的欣賞到限制級的多樣化節目</desc>
-    <date>20260805</date>
+  <programme channel="松视2" start="20260812020000 +0800" stop="20260812040000 +0800">
+    <title lang="zh">雙性戀空姐的客戶至上</title>
+    <desc>Claire Castel, Lola Reve, Alexis Crystal, Vanda Lu.........歡迎來到赤裸的成人娛樂世界~人的內心總埋藏著一股不為人知的慾望,松視2台將勾起藏在您內心深處的小惡魔,帶您體驗西洋激情狂放的驚喜快感,現實生活中不會出現的私密禁忌,AV女優的蜜穴探索,一起進入失控的情慾宇宙吧~</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="潘朵拉" start="20260805020000 +0800" stop="20260805040000 +0800">
-    <title lang="zh">純情教師發情學生</title>
-    <desc>潘朵啦完美台將家庭的成人娛樂享受高規格化，讓觀眾在家裡就能自在的欣賞到限制級的多樣化節目</desc>
-    <date>20260805</date>
+  <programme channel="松视2" start="20260812040000 +0800" stop="20260812060000 +0800">
+    <title lang="zh">淫慾豪宅內的瘋狂性愛</title>
+    <desc>Tiffany Doll, Abbie Cat, Ava Courcelles, Szilvia L.........歡迎來到赤裸的成人娛樂世界~人的內心總埋藏著一股不為人知的慾望,松視2台將勾起藏在您內心深處的小惡魔,帶您體驗西洋激情狂放的驚喜快感,現實生活中不會出現的私密禁忌,AV女優的蜜穴探索,一起進入失控的情慾宇宙吧~</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="潘朵拉" start="20260805040000 +0800" stop="20260805060000 +0800">
-    <title lang="zh">女上司教會我的事</title>
-    <desc>潘朵啦完美台將家庭的成人娛樂享受高規格化，讓觀眾在家裡就能自在的欣賞到限制級的多樣化節目</desc>
-    <date>20260805</date>
+  <programme channel="松视2" start="20260812060000 +0800" stop="20260812080000 +0800">
+    <title lang="zh">性愛高潮夜未眠</title>
+    <desc>Angelo Godshack,Brandi Love,Jay Snakes,Ricky Rasca.........歡迎來到赤裸的成人娛樂世界~人的內心總埋藏著一股不為人知的慾望,松視2台將勾起藏在您內心深處的小惡魔,帶您體驗西洋激情狂放的驚喜快感,現實生活中不會出現的私密禁忌,AV女優的蜜穴探索,一起進入失控的情慾宇宙吧~</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="潘朵拉" start="20260805060000 +0800" stop="20260805080000 +0800">
-    <title lang="zh">小姨子懷孕姊夫變臉</title>
-    <desc>潘朵啦完美台將家庭的成人娛樂享受高規格化，讓觀眾在家裡就能自在的欣賞到限制級的多樣化節目</desc>
-    <date>20260805</date>
+  <programme channel="松视2" start="20260812080000 +0800" stop="20260812100000 +0800">
+    <title lang="zh">放假做愛天經地義</title>
+    <desc>Amirah Adara,Ursula,Mea Melone,Blanche Bradburry,C.........歡迎來到赤裸的成人娛樂世界~人的內心總埋藏著一股不為人知的慾望,松視2台將勾起藏在您內心深處的小惡魔,帶您體驗西洋激情狂放的驚喜快感,現實生活中不會出現的私密禁忌,AV女優的蜜穴探索,一起進入失控的情慾宇宙吧~</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="潘朵拉" start="20260805080000 +0800" stop="20260805100000 +0800">
-    <title lang="zh">魔鏡號之隔著玻璃戴綠帽</title>
-    <desc>潘朵啦完美台將家庭的成人娛樂享受高規格化，讓觀眾在家裡就能自在的欣賞到限制級的多樣化節目</desc>
-    <date>20260805</date>
+  <programme channel="松视2" start="20260812100000 +0800" stop="20260812120000 +0800">
+    <title lang="zh">脫掉芭蕾舞裙淫上鋼管群棒</title>
+    <desc>Shalina Devine, Aleska Diamond, Gina Gerson, Ava C.........歡迎來到赤裸的成人娛樂世界~人的內心總埋藏著一股不為人知的慾望,松視2台將勾起藏在您內心深處的小惡魔,帶您體驗西洋激情狂放的驚喜快感,現實生活中不會出現的私密禁忌,AV女優的蜜穴探索,一起進入失控的情慾宇宙吧~</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="潘朵拉" start="20260805100000 +0800" stop="20260805120000 +0800">
-    <title lang="zh">傲嬌妹不敢自己睡</title>
-    <desc>潘朵啦完美台將家庭的成人娛樂享受高規格化，讓觀眾在家裡就能自在的欣賞到限制級的多樣化節目</desc>
-    <date>20260805</date>
+  <programme channel="松视2" start="20260812120000 +0800" stop="20260812140000 +0800">
+    <title lang="zh">需要被滿足的濕穴</title>
+    <desc>Alma Banks, Develine Foxy, Lea Lexis, Clara G, Bri.........歡迎來到赤裸的成人娛樂世界~人的內心總埋藏著一股不為人知的慾望,松視2台將勾起藏在您內心深處的小惡魔,帶您體驗西洋激情狂放的驚喜快感,現實生活中不會出現的私密禁忌,AV女優的蜜穴探索,一起進入失控的情慾宇宙吧~</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="潘朵拉" start="20260805120000 +0800" stop="20260805140000 +0800">
-    <title lang="zh">誘惑NTR測試妻子的真心</title>
-    <desc>潘朵啦完美台將家庭的成人娛樂享受高規格化，讓觀眾在家裡就能自在的欣賞到限制級的多樣化節目</desc>
-    <date>20260805</date>
+  <programme channel="松视2" start="20260812140000 +0800" stop="20260812160000 +0800">
+    <title lang="zh">閏蜜們的情趣小秘密</title>
+    <desc>Adelaida,Elin Holm,Elizabeth Evans,Kamilla,Linlin,.........歡迎來到赤裸的成人娛樂世界~人的內心總埋藏著一股不為人知的慾望,松視2台將勾起藏在您內心深處的小惡魔,帶您體驗西洋激情狂放的驚喜快感,現實生活中不會出現的私密禁忌,AV女優的蜜穴探索,一起進入失控的情慾宇宙吧~</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="潘朵拉" start="20260805140000 +0800" stop="20260805160000 +0800">
-    <title lang="zh">被插壞的女人們</title>
-    <desc>潘朵啦完美台將家庭的成人娛樂享受高規格化，讓觀眾在家裡就能自在的欣賞到限制級的多樣化節目</desc>
-    <date>20260805</date>
+  <programme channel="松视2" start="20260812160000 +0800" stop="20260812180000 +0800">
+    <title lang="zh">塞好塞滿一個都不能漏</title>
+    <desc>Natalia Starr, Haley Reed , Avi Love, Janice Griff.........歡迎來到赤裸的成人娛樂世界~人的內心總埋藏著一股不為人知的慾望,松視2台將勾起藏在您內心深處的小惡魔,帶您體驗西洋激情狂放的驚喜快感,現實生活中不會出現的私密禁忌,AV女優的蜜穴探索,一起進入失控的情慾宇宙吧~</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="潘朵拉" start="20260805160000 +0800" stop="20260805180000 +0800">
-    <title lang="zh">與人妻尋求慰藉的溫泉之旅</title>
-    <desc>潘朵啦完美台將家庭的成人娛樂享受高規格化，讓觀眾在家裡就能自在的欣賞到限制級的多樣化節目</desc>
-    <date>20260805</date>
+  <programme channel="松视2" start="20260812180000 +0800" stop="20260812200000 +0800">
+    <title lang="zh">色情按摩師</title>
+    <desc>Chloe Cherry, Megan Winters, Domenic Kane, Moka Mo.........歡迎來到赤裸的成人娛樂世界~人的內心總埋藏著一股不為人知的慾望,松視2台將勾起藏在您內心深處的小惡魔,帶您體驗西洋激情狂放的驚喜快感,現實生活中不會出現的私密禁忌,AV女優的蜜穴探索,一起進入失控的情慾宇宙吧~</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="潘朵拉" start="20260805180000 +0800" stop="20260805200000 +0800">
-    <title lang="zh">沒脫就很誘人無敵豐滿J罩杯</title>
-    <desc>潘朵啦完美台將家庭的成人娛樂享受高規格化，讓觀眾在家裡就能自在的欣賞到限制級的多樣化節目</desc>
-    <date>20260805</date>
+  <programme channel="松视2" start="20260812200000 +0800" stop="20260812220000 +0800">
+    <title lang="zh">巴塞隆納之夜</title>
+    <desc>Romy Indy, Clea Gaultier, Ginebra Bellucci, Lina L.........歡迎來到赤裸的成人娛樂世界~人的內心總埋藏著一股不為人知的慾望,松視2台將勾起藏在您內心深處的小惡魔,帶您體驗西洋激情狂放的驚喜快感,現實生活中不會出現的私密禁忌,AV女優的蜜穴探索,一起進入失控的情慾宇宙吧~</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="潘朵拉" start="20260805200000 +0800" stop="20260805220000 +0800">
-    <title lang="zh">蕩婦護士淫語誘惑患者</title>
-    <desc>潘朵啦完美台將家庭的成人娛樂享受高規格化，讓觀眾在家裡就能自在的欣賞到限制級的多樣化節目</desc>
-    <date>20260805</date>
+  <programme channel="松视2" start="20260812220000 +0800" stop="20260813000000 +0800">
+    <title lang="zh">老婆在外找人做愛</title>
+    <desc>Clara Mia, Alice Martin, Tiffany Leiddi, Carollina.........歡迎來到赤裸的成人娛樂世界~人的內心總埋藏著一股不為人知的慾望,松視2台將勾起藏在您內心深處的小惡魔,帶您體驗西洋激情狂放的驚喜快感,現實生活中不會出現的私密禁忌,AV女優的蜜穴探索,一起進入失控的情慾宇宙吧~</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="潘朵拉" start="20260805220000 +0800" stop="20260806000000 +0800">
-    <title lang="zh">人妻濕漉漉的同情</title>
-    <desc>潘朵啦完美台將家庭的成人娛樂享受高規格化，讓觀眾在家裡就能自在的欣賞到限制級的多樣化節目</desc>
-    <date>20260805</date>
+  <programme channel="松视2" start="20260813000000 +0800" stop="20260814000000 +0800">
+    <title lang="zh">美女床上三人行</title>
+    <desc>Alexis Crystal, Talia Mint, Rebecca Volpetti, Liv .........歡迎來到赤裸的成人娛樂世界~人的內心總埋藏著一股不為人知的慾望,松視2台將勾起藏在您內心深處的小惡魔,帶您體驗西洋激情狂放的驚喜快感,現實生活中不會出現的私密禁忌,AV女優的蜜穴探索,一起進入失控的情慾宇宙吧~</desc>
+    <date>20260813</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
@@ -139613,7 +139525,7 @@ eフィーバー機動戦士ガンダムSEEDクライマックス導入SP</desc>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="潘朵拉" start="20260812000000 +0800" stop="20260813000000 +0800">
+  <programme channel="潘朵拉" start="20260812000000 +0800" stop="20260812020000 +0800">
     <title lang="zh">與四位比基尼辣妹的配對遊戲</title>
     <desc>潘朵啦完美台將家庭的成人娛樂享受高規格化，讓觀眾在家裡就能自在的欣賞到限制級的多樣化節目</desc>
     <date>20260812</date>
@@ -139621,98 +139533,98 @@ eフィーバー機動戦士ガンダムSEEDクライマックス導入SP</desc>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="惊艳台" start="20260805000000 +0800" stop="20260805020000 +0800">
-    <title lang="zh">漫畫巨乳少女穿越來取精</title>
-    <desc>我是一個同人漫畫家，這份工作帶給我最大的樂趣就是畫女主角，女主角?醬是一個為了正義與邪惡奮鬥的美少女戰士！就在這時，姬醬突然從我的漫畫中跑出來，出現在我的面前！並說他被調來消滅這個世界的邪惡。正當我一頭霧水的時候姬醬以正義之名用她的巨乳跟溫暖的口腔把我心中的雜念消除!</desc>
-    <date>20260805</date>
+  <programme channel="潘朵拉" start="20260812020000 +0800" stop="20260812040000 +0800">
+    <title lang="zh">女主管見我大鵰逼著一砲雙響</title>
+    <desc>潘朵啦完美台將家庭的成人娛樂享受高規格化，讓觀眾在家裡就能自在的欣賞到限制級的多樣化節目</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="惊艳台" start="20260805020000 +0800" stop="20260805040000 +0800">
-    <title lang="zh">隔壁土味人妻竟然都穿性感內衣</title>
-    <desc>自陽台掉落女性內衣… 看來是隔壁鄰居的內衣，可憐又溫柔還有著巨乳。在這之後我就無法直視她，某天受不了偷偷拿內衣聞時被她發現，她反而招手邀我進去她家裡…</desc>
-    <date>20260805</date>
+  <programme channel="潘朵拉" start="20260812040000 +0800" stop="20260812060000 +0800">
+    <title lang="zh">性慾房屋之女優業務</title>
+    <desc>潘朵啦完美台將家庭的成人娛樂享受高規格化，讓觀眾在家裡就能自在的欣賞到限制級的多樣化節目</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="惊艳台" start="20260805040000 +0800" stop="20260805060000 +0800">
-    <title lang="zh">跟甜美女友的私密時光</title>
-    <desc>請準備好您的雙聲道耳機，讓您體會一下天使萌的親密私語約會！從早上到晚上一直緊貼在一起的身歷其境的性感體驗！由於本片為立體聲錄製，請您慢慢感受從右到左從前到後全方位是視覺聽覺饗宴！</desc>
-    <date>20260805</date>
+  <programme channel="潘朵拉" start="20260812060000 +0800" stop="20260812080000 +0800">
+    <title lang="zh">兒子娶這老婆真不錯</title>
+    <desc>潘朵啦完美台將家庭的成人娛樂享受高規格化，讓觀眾在家裡就能自在的欣賞到限制級的多樣化節目</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="惊艳台" start="20260805060000 +0800" stop="20260805080000 +0800">
-    <title lang="zh">女友妹妹的性教育開發</title>
-    <desc>去我女朋友家那天，她的妹妹亞美醬正在客廳裡放空耍廢…她在家無防備的樣子，讓我可以看到她的內褲…她好像對甚麼都不懂，基於一個大哥哥的立場，我出手教了她些東西，像是喇舌、吹喇叭等等… 但從那天起，對高潮的渴望變得更加強烈的亞美醬，偷偷地挖呀挖地，並滿足了她的性慾…</desc>
-    <date>20260805</date>
+  <programme channel="潘朵拉" start="20260812080000 +0800" stop="20260812100000 +0800">
+    <title lang="zh">猜猜丈夫肉棒在哪裡</title>
+    <desc>潘朵啦完美台將家庭的成人娛樂享受高規格化，讓觀眾在家裡就能自在的欣賞到限制級的多樣化節目</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="惊艳台" start="20260805080000 +0800" stop="20260805100000 +0800">
-    <title lang="zh">隔壁欲求不滿的巨乳人妻</title>
-    <desc>有一天，夕子因為不記得有買的宅配送到家而被困擾，這時住在隔壁的年輕人出面幫她擺脫了麻煩。這天以後，她與隔壁的年輕人越來越熟悉，後來得知他還是處男時，不自覺地撲上去誘惑了他。她一邊溫柔地教他如何做愛，一邊跨坐在他的大雞巴上，用盡全身力氣搖晃臀部，直到用過的保險套散落滿地…</desc>
-    <date>20260805</date>
+  <programme channel="潘朵拉" start="20260812100000 +0800" stop="20260812120000 +0800">
+    <title lang="zh">喝醉搞上痴女負責到乾掉</title>
+    <desc>潘朵啦完美台將家庭的成人娛樂享受高規格化，讓觀眾在家裡就能自在的欣賞到限制級的多樣化節目</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="惊艳台" start="20260805100000 +0800" stop="20260805120000 +0800">
-    <title lang="zh">要這樣用力捅才能發音</title>
-    <desc>新人配音員佐藤乃乃果聲音低沉，連續試鏡都落選。有人告訴經理，乃乃果要想大聲說話，就必須要有高潮體驗。乃乃果不好意思地在她信任的經理面前暴露裸體，她的身體很快就被弄得火熱，因而噴出大量潮水，乃乃果就在這樣激烈的性愛中發出從未有過的尖叫喘息聲，自此，她便能夠駕輕就熟的成為一名優秀的配音員了…</desc>
-    <date>20260805</date>
+  <programme channel="潘朵拉" start="20260812120000 +0800" stop="20260812140000 +0800">
+    <title lang="zh">在義父的垃圾屋中墮落</title>
+    <desc>潘朵啦完美台將家庭的成人娛樂享受高規格化，讓觀眾在家裡就能自在的欣賞到限制級的多樣化節目</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="惊艳台" start="20260805120000 +0800" stop="20260805140000 +0800">
-    <title lang="zh">專摳奶頭的壞壞色情按摩</title>
-    <desc>這是一家能夠提供體驗絕頂快感的夢幻按摩店！除了提供您絕頂高潮體驗，還能讓您經歷超越乳頭快感的極限！摳您奶頭讓您就算已經射了，還會讓您再次勃起，用各種玩法刺激你全身上下，爽到你連續射精、不斷高潮，享受陣陣絕頂快感！您一定不能錯過…</desc>
-    <date>20260805</date>
+  <programme channel="潘朵拉" start="20260812140000 +0800" stop="20260812160000 +0800">
+    <title lang="zh">老公的朋友好強硬</title>
+    <desc>潘朵啦完美台將家庭的成人娛樂享受高規格化，讓觀眾在家裡就能自在的欣賞到限制級的多樣化節目</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="惊艳台" start="20260805140000 +0800" stop="20260805160000 +0800">
-    <title lang="zh">姐的10年炮片生涯很可以</title>
-    <desc>我們以採訪的形式深入了解了FALENOstar專屬女優友田彩也香的10年炮片生涯！為了在鏡頭展現觀眾喜歡的樣子，她一直保密到家私下的“真性情”和“性取向”將在此一併公開！回首童年的性慾覺醒，意料之外的私生活，與初出道時看到男優劇大肉棒的快樂回憶及夜闌人靜時的反思！這是您從沒見過的彩也香，路過走過不能錯過！</desc>
-    <date>20260805</date>
+  <programme channel="潘朵拉" start="20260812160000 +0800" stop="20260812180000 +0800">
+    <title lang="zh">與飯店房務人員的快樂時光</title>
+    <desc>潘朵啦完美台將家庭的成人娛樂享受高規格化，讓觀眾在家裡就能自在的欣賞到限制級的多樣化節目</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="惊艳台" start="20260805160000 +0800" stop="20260805180000 +0800">
-    <title lang="zh">與女上司出差幹到精盡人亡</title>
-    <desc>在我工作的灰暗日子裡突然看見了光明！這次出差將可以與憧憬的女上司兩人獨處，而且她還喝醉酒展現出平常我看不見的樣貌，讓我那根肉棒無法壓抑地勃起…</desc>
-    <date>20260805</date>
+  <programme channel="潘朵拉" start="20260812180000 +0800" stop="20260812200000 +0800">
+    <title lang="zh">表姊不愛穿衣服</title>
+    <desc>潘朵啦完美台將家庭的成人娛樂享受高規格化，讓觀眾在家裡就能自在的欣賞到限制級的多樣化節目</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="惊艳台" start="20260805180000 +0800" stop="20260805200000 +0800">
-    <title lang="zh">全射進來吧 讓我受孕</title>
-    <desc>「我應該還是想生個孩子。」聽到阿香講這個話後，FALENO決定送給阿香一個寶寶。特地幫她安排了兩天一夜的溫泉旅遊，在這兩天時間內一定讓她懷孕，大肉棒的壯丁賣力幹，從客房幹到溫泉池、再到走廊，不斷內射又中出，幹到她哭著求饒也無妨，一定讓她懷孕…</desc>
-    <date>20260805</date>
+  <programme channel="潘朵拉" start="20260812200000 +0800" stop="20260812220000 +0800">
+    <title lang="zh">妻子同意丈夫扭曲的性癖</title>
+    <desc>潘朵啦完美台將家庭的成人娛樂享受高規格化，讓觀眾在家裡就能自在的欣賞到限制級的多樣化節目</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="惊艳台" start="20260805200000 +0800" stop="20260805220000 +0800">
-    <title lang="zh">阿北你們不要這樣</title>
-    <desc>笑容燦爛的小南來到了一間三個老男人合租的房屋，他們先是輪流品嘗小南誘人的胴體，發現她具有一身潮吹的好本領，老男人們開始跟小南玩起了4P ，盡情的在她體內為所欲為…</desc>
-    <date>20260805</date>
+  <programme channel="潘朵拉" start="20260812220000 +0800" stop="20260813000000 +0800">
+    <title lang="zh">人妻見巨棒握著不肯放</title>
+    <desc>潘朵啦完美台將家庭的成人娛樂享受高規格化，讓觀眾在家裡就能自在的欣賞到限制級的多樣化節目</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="惊艳台" start="20260805220000 +0800" stop="20260806000000 +0800">
-    <title lang="zh">極上肉體的交尾神技</title>
-    <desc>這是…超乎想象的極品肉體小姐姐，天川空緊急移籍到FALENO了！她除了優越的肉體，還有對性的強烈探究心，擅長人體打樁、騎乘位、口內技等等，您一定不能錯過！</desc>
-    <date>20260805</date>
+  <programme channel="潘朵拉" start="20260813000000 +0800" stop="20260814000000 +0800">
+    <title lang="zh">請享用我的J罩杯老婆</title>
+    <desc>潘朵啦完美台將家庭的成人娛樂享受高規格化，讓觀眾在家裡就能自在的欣賞到限制級的多樣化節目</desc>
+    <date>20260813</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
@@ -140253,7 +140165,7 @@ eフィーバー機動戦士ガンダムSEEDクライマックス導入SP</desc>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="惊艳台" start="20260812000000 +0800" stop="20260813000000 +0800">
+  <programme channel="惊艳台" start="20260812000000 +0800" stop="20260812020000 +0800">
     <title lang="zh">公公想抱孫 出精又出力</title>
     <desc>本來以為兒子娶了美麗的妻子後終於可以抱孫子了。結果我這個傻兒子一直工作太忙而忽略了他的妻子，看來想要抱孫子這件事就只好由我這個做公公的來代勞了。讓我射在媳婦的體內，只有讓她早日懷孕才有機會抱孫了。</desc>
     <date>20260812</date>
@@ -140261,106 +140173,98 @@ eフィーバー機動戦士ガンダムSEEDクライマックス導入SP</desc>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="松视3" start="20260805001000 +0800" stop="20260805021000 +0800">
-    <title lang="zh">極上淫蕩狐狸精</title>
-    <desc>韓嫣.你還在搜尋無修正？松視3台就是要給你全時段無碼HD高畫質成人影片。讓你電視一開，隨手可得。華人強片、清純小妞、小麥色辣妹、肉食系女大生、爆乳痴女、淫亂人妻、泡泡浴女郎應有盡有，全身上下讓你看得一清二楚，讓你高喊無碼萬萬歲！</desc>
-    <date>20260805</date>
+  <programme channel="惊艳台" start="20260812020000 +0800" stop="20260812040000 +0800">
+    <title lang="zh">人妻的淫亂員工旅遊</title>
+    <desc>我跟妻子真綾是雙薪家庭，自從她去員工旅遊回來後，行為就開始有點怪怪的。有一天，當我不小心翻看妻子留下的DVD時，才發現原來員工旅遊的烤肉趴她喝醉了，雖然前面很歡樂正常，但夜裡男同事趁她酒醉睡著的時候，爬上了她的床，先摸上她那兩顆大奶、接著翻開衣服舔、然後挺起老二硬插進去…雖然很氣，但我老二竟然也不自覺地硬了起來…</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="松视3" start="20260805021000 +0800" stop="20260805041000 +0800">
-    <title lang="zh">巨根處男High玩半套店</title>
-    <desc>小夜夜.你還在搜尋無修正？松視3台就是要給你全時段無碼HD高畫質成人影片。讓你電視一開，隨手可得。華人強片、清純小妞、小麥色辣妹、肉食系女大生、爆乳痴女、淫亂人妻、泡泡浴女郎應有盡有，全身上下讓你看得一清二楚，讓你高喊無碼萬萬歲！</desc>
-    <date>20260805</date>
+  <programme channel="惊艳台" start="20260812040000 +0800" stop="20260812060000 +0800">
+    <title lang="zh">喝醉被鮮肉上司強勢壓床</title>
+    <desc>阿香是個OL，工作的上司雖然年輕，但常常對她毛手毛腳性騷擾，不堪其擾。但無可奈何，這次要跟這個年輕上司一起出差，不小心在商務會議結束後的酒會上喝醉了。接著阿香被帶到旅館裡，開始了漫長的ㄧ夜…</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="松视3" start="20260805041000 +0800" stop="20260805061000 +0800">
-    <title lang="zh">正妹被X到哎哎叫</title>
-    <desc>霞由良.你還在搜尋無修正？松視3台就是要給你全時段無碼HD高畫質成人影片。讓你電視一開，隨手可得。華人強片、清純小妞、小麥色辣妹、肉食系女大生、爆乳痴女、淫亂人妻、泡泡浴女郎應有盡有，全身上下讓你看得一清二楚，讓你高喊無碼萬萬歲！</desc>
-    <date>20260805</date>
+  <programme channel="惊艳台" start="20260812060000 +0800" stop="20260812080000 +0800">
+    <title lang="zh">隔壁住小王 偷吃真方便</title>
+    <desc>我應公司的要求搬到了鄉下，但鄉下的生活實在平淡無奇，唯一讓我開心的是在我公寓倒垃圾時遇見了隔壁的人妻，他彎腰倒垃圾的那個翹臀，讓我不禁想入非非。有天我醉醺醺地回家，在公寓樓梯上巧遇了她，趁著酒意我對她暗示是否給幹，沒想到她竟然答應了！她就這樣進了我的住處，接吻到一半突然發現窗戶看到隔壁她家的老公…</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="松视3" start="20260805061000 +0800" stop="20260805081000 +0800">
-    <title lang="zh">超變態美眉愛打砲</title>
-    <desc>菊川三葉.你還在搜尋無修正？松視3台就是要給你全時段無碼HD高畫質成人影片。讓你電視一開，隨手可得。華人強片、清純小妞、小麥色辣妹、肉食系女大生、爆乳痴女、淫亂人妻、泡泡浴女郎應有盡有，全身上下讓你看得一清二楚，讓你高喊無碼萬萬歲！</desc>
-    <date>20260805</date>
+  <programme channel="惊艳台" start="20260812080000 +0800" stop="20260812100000 +0800">
+    <title lang="zh">回老家被巨乳姐瘋狂榨精</title>
+    <desc>大學畢業後我就搬到東京工作，趁著最近三天假期，我回到鄉下的父母家，在家裡我遇到多年沒見的姐姐，她已經辭掉了工作，變成穿著隨便的魚乾女＋啃老族。不過我被姐姐隱藏的巨乳吸引了，她穿得很寬鬆所以乳房很明顯，我無法控制自己的興奮，開始瘋狂撫摸、按摩她的乳房，結果意外喚醒了姐姐「休眠」很久的性慾……完蛋了…</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="松视3" start="20260805081000 +0800" stop="20260805091000 +0800">
-    <title lang="zh">氣質美人的秘密情色活動</title>
-    <desc>素人.你還在搜尋無修正？松視3台就是要給你全時段無碼HD高畫質成人影片。讓你電視一開，隨手可得。華人強片、清純小妞、小麥色辣妹、肉食系女大生、爆乳痴女、淫亂人妻、泡泡浴女郎應有盡有，全身上下讓你看得一清二楚，讓你高喊無碼萬萬歲！</desc>
-    <date>20260805</date>
+  <programme channel="惊艳台" start="20260812100000 +0800" stop="20260812120000 +0800">
+    <title lang="zh">不倫妻去溫泉被瘋狂內射</title>
+    <desc>?木奈美是個極其淫蕩的情婦，她的身材、技術、性格，都狠狠地勾起男人的慾望，她決定把自己鎖在溫泉旅館中，在這幾個晚上的時間，她將與男人享受在瘋狂性愛中，無套、中出、騎乘位樣樣來，不倫人妻萬歲…</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="松视3" start="20260805091000 +0800" stop="20260805101000 +0800">
-    <title lang="zh">超肉慾巨乳女大生</title>
-    <desc>素人.你還在搜尋無修正？松視3台就是要給你全時段無碼HD高畫質成人影片。讓你電視一開，隨手可得。華人強片、清純小妞、小麥色辣妹、肉食系女大生、爆乳痴女、淫亂人妻、泡泡浴女郎應有盡有，全身上下讓你看得一清二楚，讓你高喊無碼萬萬歲！</desc>
-    <date>20260805</date>
+  <programme channel="惊艳台" start="20260812120000 +0800" stop="20260812140000 +0800">
+    <title lang="zh">渴望被粗肉棒亂插的美人妻</title>
+    <desc>DAHLIA專屬女優蒼山愛奈來啦，身材一絕又高度敏感的她，這次解除了中出禁令，當一根根粗壯的雞巴插入她時，她完全忘記了自己的丈夫，臣服於快感和精液下，來看愛奈出軌、性愛成癮的全過程，首次中出、3P、玩具性交都在片中！</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="松视3" start="20260805101000 +0800" stop="20260805121000 +0800">
-    <title lang="zh">敏感美乳身體</title>
-    <desc>三花玲奈.你還在搜尋無修正？松視3台就是要給你全時段無碼HD高畫質成人影片。讓你電視一開，隨手可得。華人強片、清純小妞、小麥色辣妹、肉食系女大生、爆乳痴女、淫亂人妻、泡泡浴女郎應有盡有，全身上下讓你看得一清二楚，讓你高喊無碼萬萬歲！</desc>
-    <date>20260805</date>
+  <programme channel="惊艳台" start="20260812140000 +0800" stop="20260812160000 +0800">
+    <title lang="zh">人妻當模特被攝影師狂插</title>
+    <desc>里音原本是設計師，結婚後她辭去了工作，成為了家庭主婦。她的丈夫在一家內衣公司工作，出於某種原因，採用了里音設計的內衣，但拍攝商品當天，模特兒突然生病不能來，里音被要求代替模特兒上場。雖然一開始會進行試拍，但最後會只剩模特兒跟攝影師。隨著擺出的姿勢越來越淫蕩，里音的內褲竟也越來越濕，每次的快門聲都讓她更興奮，最終她忘記了自己的老公，開始一次又一次地瘋狂地享受著別人的肉棒。</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="松视3" start="20260805121000 +0800" stop="20260805141000 +0800">
-    <title lang="zh">飼養的小女僕 天天給我幹</title>
-    <desc>椿真晝.你還在搜尋無修正？松視3台就是要給你全時段無碼HD高畫質成人影片。讓你電視一開，隨手可得。華人強片、清純小妞、小麥色辣妹、肉食系女大生、爆乳痴女、淫亂人妻、泡泡浴女郎應有盡有，全身上下讓你看得一清二楚，讓你高喊無碼萬萬歲！</desc>
-    <date>20260805</date>
+  <programme channel="惊艳台" start="20260812160000 +0800" stop="20260812180000 +0800">
+    <title lang="zh">美乳人妻教處男同事如何做愛</title>
+    <desc>有一天，工作結束後，由於突如其來的大雨，我不得不和比我年長的五十嵐小姐一起過夜，看著全身都濕透的她的身體讓我感到緊張，當她發現我是處男時，竟說 要教我如何做愛，於是我們就這樣發生性行為了。即使我知道她已婚，但當她再次約我出去時，我還是無法抗拒邀約。</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="松视3" start="20260805141000 +0800" stop="20260805161000 +0800">
-    <title lang="zh">淫慾教師美鮑調教</title>
-    <desc>樂奈子.你還在搜尋無修正？松視3台就是要給你全時段無碼HD高畫質成人影片。讓你電視一開，隨手可得。華人強片、清純小妞、小麥色辣妹、肉食系女大生、爆乳痴女、淫亂人妻、泡泡浴女郎應有盡有，全身上下讓你看得一清二楚，讓你高喊無碼萬萬歲！</desc>
-    <date>20260805</date>
+  <programme channel="惊艳台" start="20260812180000 +0800" stop="20260812200000 +0800">
+    <title lang="zh">女友姐姐解開我的貞操帶了</title>
+    <desc>我跟女友住在一起，女友總是懷疑我會出軌，所以決定讓我戴著貞操帶。有一天，女友的姐姐?來我們家借住1週，當天晚上我洗完澡後走到客廳，看到坐在沙發上的凜，竟忍不住勃起了！這時凜發現了我的貞操帶，興奮地開始玩弄我的貞操帶…「姐姐，把你的胸部借給我吧，我已經忍無可忍了！」</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="松视3" start="20260805161000 +0800" stop="20260805181000 +0800">
-    <title lang="zh">美熟女精液狂飲泉</title>
-    <desc>明日香里乃.你還在搜尋無修正？松視3台就是要給你全時段無碼HD高畫質成人影片。讓你電視一開，隨手可得。華人強片、清純小妞、小麥色辣妹、肉食系女大生、爆乳痴女、淫亂人妻、泡泡浴女郎應有盡有，全身上下讓你看得一清二楚，讓你高喊無碼萬萬歲！</desc>
-    <date>20260805</date>
+  <programme channel="惊艳台" start="20260812200000 +0800" stop="20260812220000 +0800">
+    <title lang="zh">打工妹酒後掏出店長肉棒</title>
+    <desc>身為中年大叔店長的我真的開始走運了！？平常認真沉穩的新人打工妹小野，與她喝酒後居然變身成為喇叭魔人！把我的肉棒一抓起來就吞吞吐吐離不開了…</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="松视3" start="20260805181000 +0800" stop="20260805201000 +0800">
-    <title lang="zh">頂級風俗店色情全套服務</title>
-    <desc>松永智惠理.你還在搜尋無修正？松視3台就是要給你全時段無碼HD高畫質成人影片。讓你電視一開，隨手可得。華人強片、清純小妞、小麥色辣妹、肉食系女大生、爆乳痴女、淫亂人妻、泡泡浴女郎應有盡有，全身上下讓你看得一清二楚，讓你高喊無碼萬萬歲！</desc>
-    <date>20260805</date>
+  <programme channel="惊艳台" start="20260812220000 +0800" stop="20260813000000 +0800">
+    <title lang="zh">隔壁老漢逼我偷人</title>
+    <desc>人妻愛奈和她丈夫搬進了新屋，新婚跟丈夫感情好，晚上嘿咻聲音有點大，引起隔壁大叔的不滿。有天，愛奈聞到隔壁的氣味不佳有點噁，她隻身到鄰居家抗議。結果垃圾房裡的大叔一出來，就怒氣沖沖把她拖進自己的房間，宣洩平常被愛奈做愛吵到的怨氣，強行扒光她的衣服，還給她餵食強力春藥，這時愛奈的身體變得無法控制…</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="松视3" start="20260805201000 +0800" stop="20260805221000 +0800">
-    <title lang="zh">偷腥妻打野泡湯</title>
-    <desc>喜代葉.你還在搜尋無修正？松視3台就是要給你全時段無碼HD高畫質成人影片。讓你電視一開，隨手可得。華人強片、清純小妞、小麥色辣妹、肉食系女大生、爆乳痴女、淫亂人妻、泡泡浴女郎應有盡有，全身上下讓你看得一清二楚，讓你高喊無碼萬萬歲！</desc>
-    <date>20260805</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="松视3" start="20260805221000 +0800" stop="20260806001000 +0800">
-    <title lang="zh">天使與魔鬼今晚你想要哪個</title>
-    <desc>大橋未久.你還在搜尋無修正？松視3台就是要給你全時段無碼HD高畫質成人影片。讓你電視一開，隨手可得。華人強片、清純小妞、小麥色辣妹、肉食系女大生、爆乳痴女、淫亂人妻、泡泡浴女郎應有盡有，全身上下讓你看得一清二楚，讓你高喊無碼萬萬歲！</desc>
-    <date>20260805</date>
+  <programme channel="惊艳台" start="20260813000000 +0800" stop="20260814000000 +0800">
+    <title lang="zh">挑戰史上最大潮噴發</title>
+    <desc>橋本有菜史上最大級噴射量！固執愛撫促進尿意與春藥讓人感度到達極限小穴失禁、大量潮吹！腰部顫抖，瘋狂噴發的激烈性愛映像！無法控制的絕頂性愛紀錄！超白皙美肌的美腿美臀，您一定不能錯過！</desc>
+    <date>20260813</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
@@ -140997,10 +140901,122 @@ eフィーバー機動戦士ガンダムSEEDクライマックス導入SP</desc>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="松视3" start="20260811231000 +0800" stop="20260812000000 +0800">
+  <programme channel="松视3" start="20260811231000 +0800" stop="20260812001000 +0800">
     <title lang="zh">性愛夜市之催情叫賣巨乳妹</title>
     <desc>李娜娜.你還在搜尋無修正？松視3台就是要給你全時段無碼HD高畫質成人影片。讓你電視一開，隨手可得。華人強片、清純小妞、小麥色辣妹、肉食系女大生、爆乳痴女、淫亂人妻、泡泡浴女郎應有盡有，全身上下讓你看得一清二楚，讓你高喊無碼萬萬歲！</desc>
     <date>20260811</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="松视3" start="20260812001000 +0800" stop="20260812011000 +0800">
+    <title lang="zh">絕倫巨乳螢光x潤滑x霓虹燈</title>
+    <desc>黎兒.你還在搜尋無修正？松視3台就是要給你全時段無碼HD高畫質成人影片。讓你電視一開，隨手可得。華人強片、清純小妞、小麥色辣妹、肉食系女大生、爆乳痴女、淫亂人妻、泡泡浴女郎應有盡有，全身上下讓你看得一清二楚，讓你高喊無碼萬萬歲！</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="松视3" start="20260812011000 +0800" stop="20260812021000 +0800">
+    <title lang="zh">巨乳女社工到府服務</title>
+    <desc>孟若羽.你還在搜尋無修正？松視3台就是要給你全時段無碼HD高畫質成人影片。讓你電視一開，隨手可得。華人強片、清純小妞、小麥色辣妹、肉食系女大生、爆乳痴女、淫亂人妻、泡泡浴女郎應有盡有，全身上下讓你看得一清二楚，讓你高喊無碼萬萬歲！</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="松视3" start="20260812021000 +0800" stop="20260812041000 +0800">
+    <title lang="zh">混血美女四處狩獵</title>
+    <desc>仲村沙理.你還在搜尋無修正？松視3台就是要給你全時段無碼HD高畫質成人影片。讓你電視一開，隨手可得。華人強片、清純小妞、小麥色辣妹、肉食系女大生、爆乳痴女、淫亂人妻、泡泡浴女郎應有盡有，全身上下讓你看得一清二楚，讓你高喊無碼萬萬歲！</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="松视3" start="20260812041000 +0800" stop="20260812061000 +0800">
+    <title lang="zh">露天溫泉湯裡的三人交流</title>
+    <desc>沖仁美.你還在搜尋無修正？松視3台就是要給你全時段無碼HD高畫質成人影片。讓你電視一開，隨手可得。華人強片、清純小妞、小麥色辣妹、肉食系女大生、爆乳痴女、淫亂人妻、泡泡浴女郎應有盡有，全身上下讓你看得一清二楚，讓你高喊無碼萬萬歲！</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="松视3" start="20260812061000 +0800" stop="20260812071000 +0800">
+    <title lang="zh">噴精祭典顏射噴滿臉</title>
+    <desc>朝比奈菜菜子.你還在搜尋無修正？松視3台就是要給你全時段無碼HD高畫質成人影片。讓你電視一開，隨手可得。華人強片、清純小妞、小麥色辣妹、肉食系女大生、爆乳痴女、淫亂人妻、泡泡浴女郎應有盡有，全身上下讓你看得一清二楚，讓你高喊無碼萬萬歲！</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="松视3" start="20260812071000 +0800" stop="20260812081000 +0800">
+    <title lang="zh">肉棒素描激情開肏</title>
+    <desc>西川千尋.你還在搜尋無修正？松視3台就是要給你全時段無碼HD高畫質成人影片。讓你電視一開，隨手可得。華人強片、清純小妞、小麥色辣妹、肉食系女大生、爆乳痴女、淫亂人妻、泡泡浴女郎應有盡有，全身上下讓你看得一清二楚，讓你高喊無碼萬萬歲！</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="松视3" start="20260812081000 +0800" stop="20260812101000 +0800">
+    <title lang="zh">粗屌撐開的嫩穴超感激破處</title>
+    <desc>堇美香.你還在搜尋無修正？松視3台就是要給你全時段無碼HD高畫質成人影片。讓你電視一開，隨手可得。華人強片、清純小妞、小麥色辣妹、肉食系女大生、爆乳痴女、淫亂人妻、泡泡浴女郎應有盡有，全身上下讓你看得一清二楚，讓你高喊無碼萬萬歲！</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="松视3" start="20260812101000 +0800" stop="20260812121000 +0800">
+    <title lang="zh">寂寞搞上女友的好友</title>
+    <desc>樂奈子.你還在搜尋無修正？松視3台就是要給你全時段無碼HD高畫質成人影片。讓你電視一開，隨手可得。華人強片、清純小妞、小麥色辣妹、肉食系女大生、爆乳痴女、淫亂人妻、泡泡浴女郎應有盡有，全身上下讓你看得一清二楚，讓你高喊無碼萬萬歲！</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="松视3" start="20260812121000 +0800" stop="20260812141000 +0800">
+    <title lang="zh">深夜淫蕩的美魔女</title>
+    <desc>春奈.你還在搜尋無修正？松視3台就是要給你全時段無碼HD高畫質成人影片。讓你電視一開，隨手可得。華人強片、清純小妞、小麥色辣妹、肉食系女大生、爆乳痴女、淫亂人妻、泡泡浴女郎應有盡有，全身上下讓你看得一清二楚，讓你高喊無碼萬萬歲！</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="松视3" start="20260812141000 +0800" stop="20260812161000 +0800">
+    <title lang="zh">人妻不倫溫泉</title>
+    <desc>水野葵.你還在搜尋無修正？松視3台就是要給你全時段無碼HD高畫質成人影片。讓你電視一開，隨手可得。華人強片、清純小妞、小麥色辣妹、肉食系女大生、爆乳痴女、淫亂人妻、泡泡浴女郎應有盡有，全身上下讓你看得一清二楚，讓你高喊無碼萬萬歲！</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="松视3" start="20260812161000 +0800" stop="20260812181000 +0800">
+    <title lang="zh">可愛女高潮到不要不要的</title>
+    <desc>素人.你還在搜尋無修正？松視3台就是要給你全時段無碼HD高畫質成人影片。讓你電視一開，隨手可得。華人強片、清純小妞、小麥色辣妹、肉食系女大生、爆乳痴女、淫亂人妻、泡泡浴女郎應有盡有，全身上下讓你看得一清二楚，讓你高喊無碼萬萬歲！</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="松视3" start="20260812181000 +0800" stop="20260812201000 +0800">
+    <title lang="zh">口爆處男小鮮肉</title>
+    <desc>北山柑菜.你還在搜尋無修正？松視3台就是要給你全時段無碼HD高畫質成人影片。讓你電視一開，隨手可得。華人強片、清純小妞、小麥色辣妹、肉食系女大生、爆乳痴女、淫亂人妻、泡泡浴女郎應有盡有，全身上下讓你看得一清二楚，讓你高喊無碼萬萬歲！</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="松视3" start="20260812201000 +0800" stop="20260812221000 +0800">
+    <title lang="zh">極道辣妹S騷貨狂幹組長</title>
+    <desc>夏川?衣.你還在搜尋無修正？松視3台就是要給你全時段無碼HD高畫質成人影片。讓你電視一開，隨手可得。華人強片、清純小妞、小麥色辣妹、肉食系女大生、爆乳痴女、淫亂人妻、泡泡浴女郎應有盡有，全身上下讓你看得一清二楚，讓你高喊無碼萬萬歲！</desc>
+    <date>20260812</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="松视3" start="20260812221000 +0800" stop="20260813000000 +0800">
+    <title lang="zh">裸體日性愛本能大解放</title>
+    <desc>溫芮欣.你還在搜尋無修正？松視3台就是要給你全時段無碼HD高畫質成人影片。讓你電視一開，隨手可得。華人強片、清純小妞、小麥色辣妹、肉食系女大生、爆乳痴女、淫亂人妻、泡泡浴女郎應有盡有，全身上下讓你看得一清二楚，讓你高喊無碼萬萬歲！</desc>
+    <date>20260812</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>
@@ -142217,102 +142233,6 @@ eフィーバー機動戦士ガンダムSEEDクライマックス導入SP</desc>
   <channel id="TSN West 4K CA">
     <display-name lang="zh">TSN West 4K CA</display-name>
   </channel>
-  <programme channel="TSN East 4K CA" start="20260805130000 +0800" stop="20260805160000 +0800">
-    <title lang="zh">Next live 4K event August 6 at 7:30pm EST</title>
-    <desc>Watch in 4K: CFL Football: Calgary at Toronto.</desc>
-    <date>20260805</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="TSN West 4K CA" start="20260805130000 +0800" stop="20260805160000 +0800">
-    <title lang="zh">Next live 4K event August 6 at 7:30pm EST</title>
-    <desc>Watch in 4K: CFL Football: Calgary at Toronto.</desc>
-    <date>20260805</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="TSN East 4K CA" start="20260805160000 +0800" stop="20260805223000 +0800">
-    <title lang="zh">Next live 4K event August 6 at 7:30pm EST</title>
-    <desc>Watch in 4K: CFL Football: Calgary at Toronto.</desc>
-    <date>20260805</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="TSN West 4K CA" start="20260805160000 +0800" stop="20260805223000 +0800">
-    <title lang="zh">Next live 4K event August 6 at 7:30pm EST</title>
-    <desc>Watch in 4K: CFL Football: Calgary at Toronto.</desc>
-    <date>20260805</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="TSN East 4K CA" start="20260805223000 +0800" stop="20260806030000 +0800">
-    <title lang="zh">Next live 4K event August 6 at 7:30pm EST</title>
-    <desc>Watch in 4K: CFL Football: Calgary at Toronto.</desc>
-    <date>20260805</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="TSN West 4K CA" start="20260805223000 +0800" stop="20260806030000 +0800">
-    <title lang="zh">Next live 4K event August 6 at 7:30pm EST</title>
-    <desc>Watch in 4K: CFL Football: Calgary at Toronto.</desc>
-    <date>20260805</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="TSN East 4K CA" start="20260806030000 +0800" stop="20260806060000 +0800">
-    <title lang="zh">Next live 4K event August 6 at 7:30pm EST</title>
-    <desc>Watch in 4K: CFL Football: Calgary at Toronto.</desc>
-    <date>20260805</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="TSN West 4K CA" start="20260806030000 +0800" stop="20260806060000 +0800">
-    <title lang="zh">Next live 4K event August 6 at 7:30pm EST</title>
-    <desc>Watch in 4K: CFL Football: Calgary at Toronto.</desc>
-    <date>20260805</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="TSN East 4K CA" start="20260806060000 +0800" stop="20260806100000 +0800">
-    <title lang="zh">Next live 4K event August 6 at 7:30pm EST</title>
-    <desc>Watch in 4K: CFL Football: Calgary at Toronto.</desc>
-    <date>20260805</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="TSN West 4K CA" start="20260806060000 +0800" stop="20260806100000 +0800">
-    <title lang="zh">Next live 4K event August 6 at 7:30pm EST</title>
-    <desc>Watch in 4K: CFL Football: Calgary at Toronto.</desc>
-    <date>20260805</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="TSN East 4K CA" start="20260806100000 +0800" stop="20260806130000 +0800">
-    <title lang="zh">Next live 4K event August 6 at 7:30pm EST</title>
-    <desc>Watch in 4K: CFL Football: Calgary at Toronto.</desc>
-    <date>20260805</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
-  <programme channel="TSN West 4K CA" start="20260806100000 +0800" stop="20260806130000 +0800">
-    <title lang="zh">Next live 4K event August 6 at 7:30pm EST</title>
-    <desc>Watch in 4K: CFL Football: Calgary at Toronto.</desc>
-    <date>20260805</date>
-    <audio>
-      <stereo>stereo</stereo>
-    </audio>
-  </programme>
   <programme channel="TSN East 4K CA" start="20260806130000 +0800" stop="20260806160000 +0800">
     <title lang="zh">Next live 4K event August 6 at 7:30pm EST</title>
     <desc>Watch in 4K: CFL Football: Calgary at Toronto.</desc>
@@ -142457,7 +142377,7 @@ eフィーバー機動戦士ガンダムSEEDクライマックス導入SP</desc>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="TSN East 4K CA" start="20260807223000 +0800" stop="20260808120000 +0800">
+  <programme channel="TSN East 4K CA" start="20260807223000 +0800" stop="20260808030000 +0800">
     <title lang="zh">Next live 4K event August 7 at 9:00pm EST</title>
     <desc>Watch in 4K: CFL Football: Ottawa at Saskatchewan.</desc>
     <date>20260807</date>
@@ -142465,10 +142385,122 @@ eフィーバー機動戦士ガンダムSEEDクライマックス導入SP</desc>
       <stereo>stereo</stereo>
     </audio>
   </programme>
-  <programme channel="TSN West 4K CA" start="20260807223000 +0800" stop="20260808120000 +0800">
+  <programme channel="TSN West 4K CA" start="20260807223000 +0800" stop="20260808030000 +0800">
     <title lang="zh">Next live 4K event August 7 at 9:00pm EST</title>
     <desc>Watch in 4K: CFL Football: Ottawa at Saskatchewan.</desc>
     <date>20260807</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TSN East 4K CA" start="20260808030000 +0800" stop="20260808060000 +0800">
+    <title lang="zh">Next live 4K event August 7 at 9:00pm EST</title>
+    <desc>Watch in 4K: CFL Football: Ottawa at Saskatchewan.</desc>
+    <date>20260807</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TSN West 4K CA" start="20260808030000 +0800" stop="20260808060000 +0800">
+    <title lang="zh">Next live 4K event August 7 at 9:00pm EST</title>
+    <desc>Watch in 4K: CFL Football: Ottawa at Saskatchewan.</desc>
+    <date>20260807</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TSN East 4K CA" start="20260808060000 +0800" stop="20260808100000 +0800">
+    <title lang="zh">Next live 4K event August 7 at 9:00pm EST</title>
+    <desc>Watch in 4K: CFL Football: Ottawa at Saskatchewan.</desc>
+    <date>20260807</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TSN West 4K CA" start="20260808060000 +0800" stop="20260808100000 +0800">
+    <title lang="zh">Next live 4K event August 7 at 9:00pm EST</title>
+    <desc>Watch in 4K: CFL Football: Ottawa at Saskatchewan.</desc>
+    <date>20260807</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TSN East 4K CA" start="20260808100000 +0800" stop="20260808130000 +0800">
+    <title lang="zh">Next live 4K event August 7 at 9:00pm EST</title>
+    <desc>Watch in 4K: CFL Football: Ottawa at Saskatchewan.</desc>
+    <date>20260807</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TSN West 4K CA" start="20260808100000 +0800" stop="20260808130000 +0800">
+    <title lang="zh">Next live 4K event August 7 at 9:00pm EST</title>
+    <desc>Watch in 4K: CFL Football: Ottawa at Saskatchewan.</desc>
+    <date>20260807</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TSN East 4K CA" start="20260808130000 +0800" stop="20260808160000 +0800">
+    <title lang="zh">Next live 4K event August 7 at 9:00pm EST</title>
+    <desc>Watch in 4K: CFL Football: Ottawa at Saskatchewan.</desc>
+    <date>20260808</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TSN West 4K CA" start="20260808130000 +0800" stop="20260808160000 +0800">
+    <title lang="zh">Next live 4K event August 7 at 9:00pm EST</title>
+    <desc>Watch in 4K: CFL Football: Ottawa at Saskatchewan.</desc>
+    <date>20260808</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TSN East 4K CA" start="20260808160000 +0800" stop="20260808200000 +0800">
+    <title lang="zh">Next live 4K event August 7 at 9:00pm EST</title>
+    <desc>Watch in 4K: CFL Football: Ottawa at Saskatchewan.</desc>
+    <date>20260808</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TSN West 4K CA" start="20260808160000 +0800" stop="20260808200000 +0800">
+    <title lang="zh">Next live 4K event August 7 at 9:00pm EST</title>
+    <desc>Watch in 4K: CFL Football: Ottawa at Saskatchewan.</desc>
+    <date>20260808</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TSN East 4K CA" start="20260808200000 +0800" stop="20260808210000 +0800">
+    <title lang="zh">Next live 4K event August 7 at 9:00pm EST</title>
+    <desc>Watch in 4K: CFL Football: Ottawa at Saskatchewan.</desc>
+    <date>20260808</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TSN West 4K CA" start="20260808200000 +0800" stop="20260808210000 +0800">
+    <title lang="zh">Next live 4K event August 7 at 9:00pm EST</title>
+    <desc>Watch in 4K: CFL Football: Ottawa at Saskatchewan.</desc>
+    <date>20260808</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TSN East 4K CA" start="20260808210000 +0800" stop="20260809120000 +0800">
+    <title lang="zh">Live: CFL Football</title>
+    <desc>The Saskatchewan Roughriders host the Ottawa Redblacks at Mosaic Stadium for a Week 10 CFL game. The home Roughriders count on starting quarterback Trevor Harris to lead the air game, while the Redblacks look to quarterback Jake Maier.</desc>
+    <date>20260808</date>
+    <audio>
+      <stereo>stereo</stereo>
+    </audio>
+  </programme>
+  <programme channel="TSN West 4K CA" start="20260808210000 +0800" stop="20260809120000 +0800">
+    <title lang="zh">Live: CFL Football</title>
+    <desc>The Saskatchewan Roughriders host the Ottawa Redblacks at Mosaic Stadium for a Week 10 CFL game. The home Roughriders count on starting quarterback Trevor Harris to lead the air game, while the Redblacks look to quarterback Jake Maier.</desc>
+    <date>20260808</date>
     <audio>
       <stereo>stereo</stereo>
     </audio>

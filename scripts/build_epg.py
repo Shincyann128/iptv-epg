@@ -3,6 +3,7 @@ import copy
 import gzip
 import io
 import json
+import sys
 import time
 import urllib.request
 import xml.etree.ElementTree as ET
@@ -339,8 +340,15 @@ def main():
     })
 
     stats = {}
+    failures = []
     for source_key, epg_map in targets_by_source.items():
-        stats[source_key] = parse_source(source_key, source_urls[source_key], epg_map, root)
+        st = parse_source(source_key, source_urls[source_key], epg_map, root)
+        stats[source_key] = st
+        wanted = len(epg_map)
+        if wanted > 0 and st.get('programmes', 0) == 0:
+            err = st.get('error', '')
+            hint = f"fetch error: {err[:120]}" if err else "no fetch error — likely all epg_name mismatches or empty source"
+            failures.append(f"{source_key}: wanted {wanted} epg_names but 0 programmes ({hint})")
 
     tree = ET.ElementTree(root)
     ET.indent(tree, space='  ')
@@ -349,13 +357,19 @@ def main():
     with gzip.open(OUT_GZ, 'wb') as f:
         f.write(OUT_XML.read_bytes())
 
-    print(json.dumps({
+    result = {
         'sources_used': {k: {'wanted_epg_names': len(v), **stats.get(k, {})} for k, v in targets_by_source.items()},
         'output_xml': str(OUT_XML),
         'output_gz': str(OUT_GZ),
         'size_xml': OUT_XML.stat().st_size,
         'size_gz': OUT_GZ.stat().st_size,
-    }, ensure_ascii=False, indent=2))
+    }
+    if failures:
+        result['failures'] = failures
+        print(json.dumps(result, ensure_ascii=False, indent=2))
+        print(f"BUILD FAILED: {len(failures)} source(s) produced 0 programmes: {', '.join(f.split(':')[0] for f in failures)}")
+        sys.exit(1)
+    print(json.dumps(result, ensure_ascii=False, indent=2))
 
 
 if __name__ == '__main__':
