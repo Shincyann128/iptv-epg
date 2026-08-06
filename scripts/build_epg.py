@@ -8,7 +8,7 @@ import time
 import urllib.request
 import xml.etree.ElementTree as ET
 from collections import defaultdict
-from datetime import datetime
+from datetime import datetime, timedelta
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
@@ -23,10 +23,11 @@ SOURCE_MODE = {
     'CN': 'epgpw_local',
     'SD': 'keep_offset',
     'BJ': 'keep_offset',
+    'ERW': 'keep_offset',
     'HK': 'epgpw_local',
     'TW': 'epgpw_local',
-    'JP': 'keep_offset',
-    'JPT': 'keep_offset',
+    'JP': 'epgpw_local',
+    'JPT': 'epgpw_local',
     'GB': 'epgpw_local',
     'US': 'epgpw_local',
     'CA': 'epgpw_local',
@@ -36,6 +37,8 @@ SOURCE_TZ = {
     'CN': ZoneInfo('Asia/Shanghai'),
     'HK': ZoneInfo('Asia/Hong_Kong'),
     'TW': ZoneInfo('Asia/Taipei'),
+    'JP': ZoneInfo('Asia/Tokyo'),
+    'JPT': ZoneInfo('Asia/Tokyo'),
     'GB': ZoneInfo('Europe/London'),
     'US': ZoneInfo('America/New_York'),
     'CA': ZoneInfo('America/Toronto'),
@@ -68,17 +71,32 @@ def convert_xmltv_time(dt_str: str, source_key: str) -> str:
     digits = parts[0]
     if len(digits) < 14:
         return dt_str
+    # Normalize seconds to :00 — japanterebi (JP) timestamps carry a stray 22-second
+    # offset on ~67% of rows (e.g. 13:00:22), which otherwise creates duplicate
+    # programme rows next to the clean :00 versions of the same slot.
+    digits = digits[:12] + '00'
     mode = SOURCE_MODE[source_key]
     if mode == 'keep_offset':
         tz_part = parts[1] if len(parts) > 1 else '+0000'
-        aware = datetime.strptime(f'{digits[:14]} {tz_part}', '%Y%m%d%H%M%S %z')
+        aware = datetime.strptime(f'{digits} {tz_part}', '%Y%m%d%H%M%S %z')
         bj_dt = aware.astimezone(BJ_TZ)
         return bj_dt.strftime('%Y%m%d%H%M%S +0800')
 
-    naive = datetime.strptime(digits[:14], '%Y%m%d%H%M%S')
+    naive = datetime.strptime(digits, '%Y%m%d%H%M%S')
     local_dt = naive.replace(tzinfo=SOURCE_TZ[source_key])
     bj_dt = local_dt.astimezone(BJ_TZ)
     return bj_dt.strftime('%Y%m%d%H%M%S +0800')
+
+
+def fix_stop_after_start(start: str, stop: str) -> str:
+    """japanterebi (JP) emits ~3% of rows with stop dated one day BEFORE start
+    (e.g. start 08-06 13:30 -> stop 08-05 15:30). Those are cross-midnight rows
+    whose stop date was written wrongly. Push stop forward one day so ordering
+    is restored; the title/timing otherwise matches the real slot."""
+    if len(start) >= 14 and len(stop) >= 14 and stop[:14] <= start[:14]:
+        dt = datetime.strptime(stop[:14], '%Y%m%d%H%M%S') + timedelta(days=1)
+        return dt.strftime('%Y%m%d%H%M%S') + stop[14:]
+    return stop
 
 
 def parse_bj_time(dt_str: str) -> datetime | None:
@@ -130,7 +148,10 @@ def should_replace_existing(existing: dict, candidate_start: str, candidate_stop
 def append_programme(root_out: ET.Element, programme_seen: set, last_programme_by_target: dict,
                      target_name: str, elem: ET.Element, start: str, stop: str, title: str,
                      source_key: str) -> bool:
-    key = (target_name, start, stop, title)
+    # Dedup by (target, start, stop) — NOT title: japanterebi emits duplicate
+    # rows for the same slot with slightly different titles (clean :00 version
+    # plus 22-second-offset version); only one should survive.
+    key = (target_name, start, stop)
     if key in programme_seen:
         return False
 
@@ -316,6 +337,7 @@ def parse_source(source_key: str, url: str, targets_by_epg_name: dict, root_out:
                 title = title_elem.text.strip() if title_elem is not None and title_elem.text else ''
                 start = convert_xmltv_time(start_raw, source_key)
                 stop = convert_xmltv_time(stop_raw, source_key)
+                stop = fix_stop_after_start(start, stop)
                 for target_name in targets:
                     new_prog = copy.deepcopy(elem)
                     if append_programme(root_out, programme_seen, last_programme_by_target,

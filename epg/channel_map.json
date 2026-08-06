@@ -12,7 +12,8 @@
     "TW": "https://epg.pw/xmltv/epg_TW.xml.gz",
     "DE": "https://epg.pw/xmltv/epg_DE.xml.gz",
     "SD": "https://raw.githubusercontent.com/sggc/SD-EPG/refs/heads/main/EPG/sggc-desc.xml.gz",
-    "CA": "https://epg.pw/xmltv/epg_CA.xml.gz"
+    "CA": "https://epg.pw/xmltv/epg_CA.xml.gz",
+    "ERW": "https://e.erw.cc/e.xml.gz"
   },
   "channels": {
     "ABC": {
@@ -630,10 +631,10 @@
       "notes": "不要选ESPN2 (Alternate)"
     },
     "ESPN8: The Ocho": {
-      "enabled": true,
+      "enabled": false,
       "source": "US",
       "epg_name": "ESPN8 The Ocho",
-      "notes": ""
+      "reason": "US 源无此频道(epg.pw 未收录 ESPN8)"
     },
     "ESPNEWS": {
       "enabled": true,
@@ -2437,20 +2438,24 @@
       ]
     },
     "云南娱乐": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-06, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "China.m3u",
         "china-backup.m3u"
-      ]
+      ],
+      "source": "ERW",
+      "epg_name": "云南娱乐",
+      "notes": "e.erw.cc 当日节目单"
     },
     "云南都市": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-06, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "China.m3u",
         "china-backup.m3u"
-      ]
+      ],
+      "source": "ERW",
+      "epg_name": "云南都市",
+      "notes": "e.erw.cc 当日节目单"
     },
     "云和新闻综合": {
       "enabled": false,
@@ -2468,9 +2473,9 @@
     },
     "五星体育": {
       "enabled": true,
-      "source": "CN",
+      "source": "ERW",
       "epg_name": "五星体育",
-      "notes": "上海五星体育"
+      "notes": "e.erw.cc 当日节目单(无未来预告)"
     },
     "井研综合": {
       "enabled": false,
@@ -4936,28 +4941,34 @@
       ]
     },
     "陕西秦腔": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-06, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "China.m3u",
         "china-backup.m3u"
-      ]
+      ],
+      "source": "ERW",
+      "epg_name": "陕西秦腔",
+      "notes": "e.erw.cc 当日节目单"
     },
     "陕西都市青春": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-06, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "China.m3u",
         "china-backup.m3u"
-      ]
+      ],
+      "source": "ERW",
+      "epg_name": "陕西都市青春",
+      "notes": "e.erw.cc 当日节目单"
     },
     "陕西银龄": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-06, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "China.m3u",
         "china-backup.m3u"
-      ]
+      ],
+      "source": "ERW",
+      "epg_name": "陕西银龄",
+      "notes": "e.erw.cc 当日节目单"
     },
     "雅安新闻综合": {
       "enabled": false,
