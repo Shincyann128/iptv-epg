@@ -29,7 +29,7 @@ DYNAMIC_LOCAL_CACHE_TTL = 3 * 3600  # 3 hours; sports merge still runs every 15 
 TV1288_URL = "https://itv.tv1288.xyz"
 TV1288_CACHE = REPO_ROOT / "tv1288_cache.txt"
 TV1288_CACHE_MAX_AGE = 24 * 3600  # merge skips cache older than 24h
-SOURCES = ["看球通", "咖啡直播", "咪咕直播", "咪咕赛事", "看球吧", "live-event", "damizhibo"]
+SOURCES = ["看球通", "咖啡直播", "咪咕直播", "看球吧", "live-event", "damizhibo"]
 REPLAY_KEYWORDS = ("回放", "录像", "VOD")
 
 DYNAMIC_LOCAL_TARGET_ORDER = [
@@ -42,9 +42,9 @@ DYNAMIC_LOCAL_TARGET_ORDER = [
 DYNAMIC_LOCAL_TARGETS = set(DYNAMIC_LOCAL_TARGET_ORDER)
 
 # ── Source short names & ordering ──
-SOURCE_SHORT = {"咖啡直播": "咖啡", "咪咕直播": "咪咕", "咪咕赛事": "咪咕", "看球吧": "看球吧", "看球通": "看球通", "live-event": "看个球", "damizhibo": "dami"}
+SOURCE_SHORT = {"咖啡直播": "咖啡", "咪咕直播": "咪咕", "看球吧": "看球吧", "看球通": "看球通", "live-event": "看个球", "damizhibo": "dami"}
 
-SOURCE_ORDER = {"咖啡直播": 0, "咪咕赛事": 1, "咪咕直播": 2, "live-event": 3, "damizhibo": 4, "看球吧": 5, "看球通": 6}
+SOURCE_ORDER = {"咖啡直播": 0, "咪咕直播": 2, "live-event": 3, "damizhibo": 4, "看球吧": 5, "看球通": 6}
 SPORT_ORDER = {"足球": 0, "篮球": 1, "电竞": 2, "综合": 3, "回放": 4}
 
 # ── Static category ordering (unchanged) ──
@@ -515,11 +515,6 @@ def parse_tv1288(raw_name: str, group: str) -> dict:
     return {"sport": "综合", "is_match": False, "display_extra": f"{display_time} {body}".strip(), "sort_time": display_time}
 
 
-def parse_migu(name: str, group: str) -> dict:
-    """咪咕赛事固定频道（4k-1 / 播01~53）：无对局信息，原样输出。"""
-    return {"sport": "综合", "is_match": False, "display_extra": name, "sort_time": ""}
-
-
 # Source parser dispatch
 SOURCE_PARSERS = {
     "咖啡直播": parse_kafei,
@@ -528,7 +523,6 @@ SOURCE_PARSERS = {
     "live-event": parse_liveevent,
     "damizhibo": parse_damizhibo,
     "咪咕直播": parse_tv1288,
-    "咪咕赛事": parse_migu,
 }
 
 # ══════════════════════════════════════════════════
@@ -1319,40 +1313,6 @@ def write_atomic(path: Path, content: str):
 
 
 
-def fetch_migu_entries() -> list[dict]:
-    import urllib.parse
-    migu_url = "https://raw.githubusercontent.com/suxuang/myIPTV/main/" + urllib.parse.quote("咪咕直播.txt")
-    """咪咕赛事直播频道（suxuang/myIPTV 源的 咪咕赛事 组）。
-
-    这些是国内中转 CDN（vip.lqcc.xyz 等），海外 VPS 无法探测（超时），
-    但用户播放端（国内网络）可访问。因此跳过 HLS 探测直接输出。
-    只取 咪咕赛事 组，跳过 rtmp 和非 m3u8 条目，按频道名去重。"""
-    import urllib.request
-    req = urllib.request.Request(migu_url, headers={"User-Agent": "Mozilla/5.0"})
-    with urllib.request.urlopen(req, timeout=20) as resp:
-        text = resp.read().decode("utf-8", errors="replace")
-    entries = []
-    in_group = False
-    seen = set()
-    for ln in text.splitlines():
-        ln = ln.strip()
-        if ln.endswith("#genre#"):
-            in_group = (ln.split(",")[0] == "咪咕赛事")
-            continue
-        if not in_group or "," not in ln:
-            continue
-        name, url = ln.split(",", 1)
-        name, url = name.strip(), url.strip()
-        if not url.startswith("http") or "m3u8" not in url:
-            continue
-        if name in seen:
-            continue
-        seen.add(name)
-        entries.append({"source": "咪咕赛事", "group": "咪咕", "name": name, "url": url, "attrs": 'group-title="咪咕"'})
-    print(f"  migu: {len(entries)} channels", file=sys.stderr)
-    return entries
-
-
 def main() -> int:
     all_entries = []
 
@@ -1361,7 +1321,6 @@ def main() -> int:
     for label, fn in (
         ("看球通", fetch_kqt_entries),
         ("咖啡直播", fetch_kafei_entries),
-        ("咪咕赛事", fetch_migu_entries),
         ("咪咕直播", fetch_tv1288_entries),
         ("看球吧", fetch_kanqiu_entries),
         ("live-event", fetch_liveevent_entries),
