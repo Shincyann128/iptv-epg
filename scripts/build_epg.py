@@ -26,8 +26,8 @@ SOURCE_MODE = {
     'ERW': 'keep_offset',
     'HK': 'epgpw_local',
     'TW': 'epgpw_local',
-    'JP': 'epgpw_local',
-    'JPT': 'epgpw_local',
+    'JP': 'keep_offset',  # japanterebi: +0000 是真 UTC（おはよう日本 20:00UTC=JST次日5:00）
+    'JPT': 'epgpw_local',  # epg.pw JP: +0000 是 JST 墙钟（おはよう日本 04:00 JST）
     'GB': 'epgpw_local',
     'US': 'epgpw_local',
     'CA': 'epgpw_local',
