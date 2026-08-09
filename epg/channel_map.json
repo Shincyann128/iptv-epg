@@ -4903,6 +4903,13 @@
         "china-backup.m3u"
       ]
     },
+    "豬哥亮歌廳秀": {
+      "enabled": false,
+      "reason": "auto-added 2026-08-10, needs EPG config",
+      "playlist_files": [
+        "Taiwan-Backup.m3u"
+      ]
+    },
     "車迷TV": {
       "enabled": false,
       "reason": "auto-added 2026-08-05, needs EPG config",
