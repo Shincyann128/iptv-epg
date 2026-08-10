@@ -2,7 +2,7 @@ name: update-epg
 
 on:
   schedule:
-    - cron: '10 0 * * *'  # 北京时间每天 08:10
+    - cron: '0 3 * * *'  # 北京时间每天 11:00（等 epg.pw 等上游更新完当天节目再 build）
   workflow_dispatch:
   repository_dispatch:
     types: [myself-updated]
