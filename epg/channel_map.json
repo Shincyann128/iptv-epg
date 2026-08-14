@@ -761,13 +761,6 @@
       "source": "JP",
       "epg_name": "フジテレビ"
     },
-    "Fuji TV NEXT": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-06, needs EPG config",
-      "playlist_files": [
-        "Japan-Backup.m3u"
-      ]
-    },
     "Fuji TV Next": {
       "enabled": true,
       "source": "JP",
@@ -806,6 +799,13 @@
       "source": "JP",
       "epg_name": "GAORA SPORTS"
     },
+    "GAORA SPORTS": {
+      "enabled": false,
+      "reason": "auto-added 2026-08-15, needs EPG config",
+      "playlist_files": [
+        "Japan-Backup.m3u"
+      ]
+    },
     "GINX Esports TV": {
       "enabled": false,
       "reason": "auto-added 2026-08-05, needs EPG config",
@@ -839,13 +839,6 @@
       "reason": "auto-added 2026-08-05, needs EPG config",
       "playlist_files": [
         "Taiwan-Backup.m3u"
-      ]
-    },
-    "Gaora Sports": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-06, needs EPG config",
-      "playlist_files": [
-        "Japan-Backup.m3u"
       ]
     },
     "Global Trekker": {
@@ -957,16 +950,6 @@
       "source": "JP",
       "epg_name": "KBS京都"
     },
-    "KBS World": {
-      "enabled": true,
-      "playlist_files": [
-        "Japan-Backup.m3u",
-        "Japan.m3u"
-      ],
-      "source_hint": "JP",
-      "source": "HK",
-      "epg_name": "KBS World"
-    },
     "KDFW FOX 4 Dallas Fort Worth TX": {
       "enabled": true,
       "source": "US",
@@ -1001,6 +984,13 @@
       "enabled": true,
       "source": "JP",
       "epg_name": "キッズステーション HD"
+    },
+    "Kids Station TV": {
+      "enabled": false,
+      "reason": "auto-added 2026-08-15, needs EPG config",
+      "playlist_files": [
+        "Japan-Backup.m3u"
+      ]
     },
     "Kids Staton": {
       "enabled": false,
@@ -1444,15 +1434,6 @@
         "Japan-Backup.m3u"
       ]
     },
-    "Nittele Plus": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-06, needs EPG config",
-      "playlist_files": [
-        "Japan-Backup.m3u",
-        "Japan.m3u"
-      ],
-      "source_hint": "JP"
-    },
     "Pet Club TV": {
       "enabled": false,
       "reason": "auto-added 2026-08-05, needs EPG config",
@@ -1468,6 +1449,13 @@
     "Pigoo (NSFW)": {
       "enabled": false,
       "reason": "auto-added 2026-08-05, needs EPG config",
+      "playlist_files": [
+        "Japan-Backup.m3u"
+      ]
+    },
+    "Pigoo NSFW": {
+      "enabled": false,
+      "reason": "auto-added 2026-08-15, needs EPG config",
       "playlist_files": [
         "Japan-Backup.m3u"
       ]
@@ -1596,22 +1584,6 @@
       "enabled": true,
       "source": "JP",
       "epg_name": "音楽・ライブ！　スペースシャワーTV HD"
-    },
-    "Space Shower TV (HD)": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-06, needs EPG config",
-      "playlist_files": [
-        "Japan-Backup.m3u"
-      ]
-    },
-    "Sport Live Plus": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-06, needs EPG config",
-      "playlist_files": [
-        "Japan-Backup.m3u",
-        "Japan.m3u"
-      ],
-      "source_hint": "JP"
     },
     "Sport live plus": {
       "enabled": true,
@@ -1895,6 +1867,13 @@
       "enabled": true,
       "source": "JP",
       "epg_name": "V☆パラダイス"
+    },
+    "V Paradise NSFW": {
+      "enabled": false,
+      "reason": "auto-added 2026-08-15, needs EPG config",
+      "playlist_files": [
+        "Japan-Backup.m3u"
+      ]
     },
     "WOWOW Cinema": {
       "enabled": true,
