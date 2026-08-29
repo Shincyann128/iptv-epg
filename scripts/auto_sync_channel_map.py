@@ -27,6 +27,10 @@ EXCLUDE_FILES = {
     "cameralive.m3u",
     "livecam.m3u",
     "migu.m3u",
+    "fc2.m3u",
+    "xxx.m3u",
+    "miamitv.m3u",
+    "china-backup.m3u",
 }
 
 BJ_TZ = ZoneInfo("Asia/Shanghai")
@@ -147,6 +151,8 @@ def verify_exact() -> None:
 
 
 def commit_and_push(missing: list[str], extra: list[str]) -> None:
+    run(["git", "config", "user.name", "github-actions[bot]"], EPG_REPO)
+    run(["git", "config", "user.email", "41898282+github-actions[bot]@users.noreply.github.com"], EPG_REPO)
     run(["git", "add", "epg/channel_map.json", "scripts/auto_sync_channel_map.py"], EPG_REPO)
     diff = run(["git", "diff", "--cached", "--quiet"], EPG_REPO, check=False)
     if diff.returncode == 0:
