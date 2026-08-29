@@ -1510,14 +1510,6 @@
       ],
       "source_hint": "US"
     },
-    "NEW KPOP": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-06, needs EPG config",
-      "playlist_files": [
-        "Japan.m3u"
-      ],
-      "source_hint": "JP"
-    },
     "NFL Network": {
       "enabled": false,
       "reason": "auto-added 2026-08-29, needs EPG config",
@@ -1538,15 +1530,6 @@
       "enabled": true,
       "source": "JP",
       "epg_name": "ＮＨＫ　ＢＳ"
-    },
-    "NHK BS (Sub Ch.)": {
-      "enabled": true,
-      "playlist_files": [
-        "Japan-Backup.m3u",
-        "Japan.m3u"
-      ],
-      "source_hint": "JP",
-      "alias_of": "NHK BS"
     },
     "NHK BS 備用": {
       "enabled": true,
@@ -1801,11 +1784,6 @@
       "playlist_files": [
         "Taiwan-Backup.m3u"
       ]
-    },
-    "Pigoo": {
-      "enabled": true,
-      "source": "JP",
-      "epg_name": "アイドル専門チャンネルＰｉｇｏｏ"
     },
     "Pigoo (NSFW)": {
       "enabled": false,
@@ -2540,16 +2518,6 @@
         "Japan-Backup.m3u"
       ]
     },
-    "TOKYO MX2 (HD 720p)": {
-      "enabled": true,
-      "playlist_files": [
-        "Japan-Backup.m3u",
-        "Japan.m3u"
-      ],
-      "source_hint": "JP",
-      "source": "JP",
-      "epg_name": "Tokyo MX2"
-    },
     "TOP BARÇA": {
       "enabled": false,
       "reason": "auto-added 2026-08-06, needs EPG config",
@@ -3042,14 +3010,6 @@
       "source": "JP",
       "epg_name": "読売テレビ",
       "notes": "关西地方台 ytv"
-    },
-    "しまじろうチャンネル": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-06, needs EPG config",
-      "playlist_files": [
-        "Japan.m3u"
-      ],
-      "source_hint": "JP"
     },
     "ぴあ落語ざんまい": {
       "enabled": false,
