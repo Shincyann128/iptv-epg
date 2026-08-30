@@ -172,25 +172,60 @@
       "source": "JP",
       "epg_name": "ＢＳ朝日１"
     },
+    "BS Asahi 4K": {
+      "enabled": false,
+      "reason": "auto-added 2026-08-30, needs EPG config",
+      "playlist_files": [
+        "japan.m3u"
+      ]
+    },
     "BS Fuji": {
       "enabled": true,
       "source": "JP",
       "epg_name": "ＢＳフジ・181"
+    },
+    "BS Fuji 4K": {
+      "enabled": false,
+      "reason": "auto-added 2026-08-30, needs EPG config",
+      "playlist_files": [
+        "japan.m3u"
+      ]
     },
     "BS NTV": {
       "enabled": true,
       "source": "JP",
       "epg_name": "ＢＳ日テレ"
     },
+    "BS NTV 4K": {
+      "enabled": false,
+      "reason": "auto-added 2026-08-30, needs EPG config",
+      "playlist_files": [
+        "japan.m3u"
+      ]
+    },
     "BS TBS": {
       "enabled": true,
       "source": "JP",
       "epg_name": "ＢＳ－ＴＢＳ"
     },
+    "BS TBS 4K": {
+      "enabled": false,
+      "reason": "auto-added 2026-08-30, needs EPG config",
+      "playlist_files": [
+        "japan.m3u"
+      ]
+    },
     "BS TV Tokyo": {
       "enabled": true,
       "source": "JP",
       "epg_name": "BSテレ東"
+    },
+    "BS TV Tokyo 4K": {
+      "enabled": false,
+      "reason": "auto-added 2026-08-30, needs EPG config",
+      "playlist_files": [
+        "japan.m3u"
+      ]
     },
     "BS Yoshimoto": {
       "enabled": true,
@@ -654,6 +689,13 @@
       ],
       "source_hint": "US"
     },
+    "DLife": {
+      "enabled": false,
+      "reason": "auto-added 2026-08-30, needs EPG config",
+      "playlist_files": [
+        "japan.m3u"
+      ]
+    },
     "DW德國之聲": {
       "enabled": false,
       "reason": "auto-added 2026-08-05, needs EPG config",
@@ -1071,6 +1113,13 @@
       "source": "JP",
       "epg_name": "ホームドラマチャンネル　韓流・時代劇・国内ドラマ"
     },
+    "Hoso Daigaku EX": {
+      "enabled": false,
+      "reason": "auto-added 2026-08-30, needs EPG config",
+      "playlist_files": [
+        "japan.m3u"
+      ]
+    },
     "INULTRA": {
       "enabled": false,
       "reason": "auto-added 2026-08-05, needs EPG config",
@@ -1127,6 +1176,13 @@
       "enabled": true,
       "source": "JP",
       "epg_name": "KBS京都"
+    },
+    "KBS World": {
+      "enabled": false,
+      "reason": "auto-added 2026-08-30, needs EPG config",
+      "playlist_files": [
+        "japan.m3u"
+      ]
     },
     "KDFW FOX 4 Dallas Fort Worth TX": {
       "enabled": true,
@@ -1342,6 +1398,13 @@
       ],
       "source_hint": "US"
     },
+    "Me-Tele NEXT": {
+      "enabled": false,
+      "reason": "auto-added 2026-08-30, needs EPG config",
+      "playlist_files": [
+        "japan.m3u"
+      ]
+    },
     "Me-Tele Next": {
       "enabled": true,
       "source": "JP",
@@ -1486,6 +1549,13 @@
       ],
       "source_hint": "US"
     },
+    "NECO Ch": {
+      "enabled": false,
+      "reason": "auto-added 2026-08-30, needs EPG config",
+      "playlist_files": [
+        "japan.m3u"
+      ]
+    },
     "NESN": {
       "enabled": false,
       "reason": "auto-added 2026-08-29, needs EPG config",
@@ -1530,6 +1600,13 @@
       "enabled": true,
       "source": "JP",
       "epg_name": "ＮＨＫ　ＢＳ"
+    },
+    "NHK BS 2": {
+      "enabled": false,
+      "reason": "auto-added 2026-08-30, needs EPG config",
+      "playlist_files": [
+        "japan.m3u"
+      ]
     },
     "NHK BS 備用": {
       "enabled": true,
@@ -1601,6 +1678,13 @@
       ],
       "source_hint": "JP",
       "alias_of": "NHK G"
+    },
+    "NHK G 2": {
+      "enabled": false,
+      "reason": "auto-added 2026-08-30, needs EPG config",
+      "playlist_files": [
+        "japan.m3u"
+      ]
     },
     "NHK G AVC 1080p": {
       "enabled": true,
@@ -1752,6 +1836,13 @@
       "reason": "auto-added 2026-08-06, needs EPG config",
       "playlist_files": [
         "Japan-Backup.m3u"
+      ]
+    },
+    "Nittele Plus": {
+      "enabled": false,
+      "reason": "auto-added 2026-08-30, needs EPG config",
+      "playlist_files": [
+        "japan.m3u"
       ]
     },
     "Now Sports 4K 1 HK": {
@@ -2277,6 +2368,13 @@
         "Sports.m3u"
       ],
       "source_hint": "US"
+    },
+    "Sport Live Plus": {
+      "enabled": false,
+      "reason": "auto-added 2026-08-30, needs EPG config",
+      "playlist_files": [
+        "japan.m3u"
+      ]
     },
     "Sport live plus": {
       "enabled": true,
