@@ -46,6 +46,7 @@ while IFS= read -r remote_name; do
     # Fetch and write
     gh api "repos/$REPO/contents/$remote_name" --jq '.content' 2>>"$LOG" | base64 -d > "${dest}.tmp"
     mv "${dest}.tmp" "$dest"
+    chmod 664 "$dest"
     echo "$remote_sha" > "$sha_file"
     UPDATED=$((UPDATED + 1))
     echo "OK: $remote_name -> $local_name ($(wc -c < "$dest") bytes)" >> "$LOG"
@@ -71,6 +72,7 @@ if [ -n "$EPG_SHA" ]; then
         curl -fsSL --max-time 60 "$EPG_RAW_URL" -o "${EPG_DEST}.tmp" 2>>"$LOG"
         if [ -s "${EPG_DEST}.tmp" ]; then
             mv "${EPG_DEST}.tmp" "$EPG_DEST"
+            chmod 664 "$EPG_DEST"
             echo "$EPG_SHA" > "$EPG_SHA_FILE"
             echo "EPG: updated ($(wc -c < "$EPG_DEST") bytes)" >> "$LOG"
         else
