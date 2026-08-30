@@ -32,6 +32,7 @@ SOURCE_MODE = {
     'US': 'epgpw_local',
     'CA': 'epgpw_local',
     'DE': 'epgpw_local',
+    'FR': 'epgpw_local',
 }
 SOURCE_TZ = {
     'CN': ZoneInfo('Asia/Shanghai'),
@@ -43,6 +44,7 @@ SOURCE_TZ = {
     'US': ZoneInfo('America/New_York'),
     'CA': ZoneInfo('America/Toronto'),
     'DE': ZoneInfo('Europe/Berlin'),
+    'FR': ZoneInfo('Europe/Paris'),
 }
 
 

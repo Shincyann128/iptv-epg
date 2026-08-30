@@ -13,7 +13,8 @@
     "DE": "https://epg.pw/xmltv/epg_DE.xml.gz",
     "SD": "https://raw.githubusercontent.com/sggc/SD-EPG/refs/heads/main/EPG/sggc-desc.xml.gz",
     "CA": "https://epg.pw/xmltv/epg_CA.xml.gz",
-    "ERW": "https://e.erw.cc/e.xml.gz"
+    "ERW": "https://e.erw.cc/e.xml.gz",
+    "FR": "https://epg.pw/xmltv/epg_FR.xml.gz"
   },
   "channels": {
     "ABC": {
@@ -31,12 +32,12 @@
       "source_hint": "US"
     },
     "ACC Network": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Sports.m3u"
       ],
-      "source_hint": "US"
+      "source": "US",
+      "epg_name": "ACC Network"
     },
     "ANIMAX": {
       "enabled": true,
@@ -55,11 +56,12 @@
       ]
     },
     "ARIRANG阿里郎頻道": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "ARIRANG阿里郎頻道"
     },
     "AT-X": {
       "enabled": true,
@@ -76,20 +78,21 @@
       "epg_name": "AXN"
     },
     "Action Channel": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Japan-Backup.m3u"
-      ]
+      ],
+      "source": "JP",
+      "epg_name": "アクションチャンネル"
     },
     "Action Channel (AXN)": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-06, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Japan-Backup.m3u",
         "Japan.m3u"
       ],
-      "source_hint": "JP"
+      "source": "JP",
+      "epg_name": "アクションチャンネル"
     },
     "Action Channel(AXN)": {
       "enabled": true,
@@ -107,12 +110,12 @@
       "epg_name": "Al Jazeera English"
     },
     "Altitude Sports": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Sports.m3u"
       ],
-      "source_hint": "US"
+      "source": "US",
+      "epg_name": "Altitude Sports"
     },
     "Animal Planet": {
       "enabled": true,
@@ -173,11 +176,12 @@
       "epg_name": "ＢＳ朝日１"
     },
     "BS Asahi 4K": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-30, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "japan.m3u"
-      ]
+      ],
+      "source": "JP",
+      "epg_name": "BS朝日 4K"
     },
     "BS Fuji": {
       "enabled": true,
@@ -185,11 +189,12 @@
       "epg_name": "ＢＳフジ・181"
     },
     "BS Fuji 4K": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-30, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "japan.m3u"
-      ]
+      ],
+      "source": "JP",
+      "epg_name": "BSフジ 4K"
     },
     "BS NTV": {
       "enabled": true,
@@ -197,11 +202,12 @@
       "epg_name": "ＢＳ日テレ"
     },
     "BS NTV 4K": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-30, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "japan.m3u"
-      ]
+      ],
+      "source": "JP",
+      "epg_name": "BS日テレ 4K"
     },
     "BS TBS": {
       "enabled": true,
@@ -209,11 +215,12 @@
       "epg_name": "ＢＳ－ＴＢＳ"
     },
     "BS TBS 4K": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-30, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "japan.m3u"
-      ]
+      ],
+      "source": "JP",
+      "epg_name": "BS-TBS 4K"
     },
     "BS TV Tokyo": {
       "enabled": true,
@@ -221,11 +228,12 @@
       "epg_name": "BSテレ東"
     },
     "BS TV Tokyo 4K": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-30, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "japan.m3u"
-      ]
+      ],
+      "source": "JP",
+      "epg_name": "BSテレ東 4K"
     },
     "BS Yoshimoto": {
       "enabled": true,
@@ -273,11 +281,12 @@
       "epg_name": "ＢＳ朝日１"
     },
     "BS10": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Japan-Backup.m3u"
-      ]
+      ],
+      "source": "JPT",
+      "epg_name": "ＢＳ１０"
     },
     "BS11": {
       "enabled": true,
@@ -288,27 +297,28 @@
       "epg_name": "BS11 イレブン"
     },
     "BS12": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Japan-Backup.m3u"
-      ]
+      ],
+      "source": "JPT",
+      "epg_name": "BS12トゥエルビ"
     },
     "Big Ten Network": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Sports.m3u"
       ],
-      "source_hint": "US"
+      "source": "US",
+      "epg_name": "Big Ten Network HD"
     },
     "Billiard TV": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Sports.m3u"
       ],
-      "source_hint": "US"
+      "source": "US",
+      "epg_name": "Billiard TV"
     },
     "Bloomberg": {
       "enabled": true,
@@ -320,11 +330,12 @@
       "epg_name": "Bloomberg"
     },
     "Bloomberg TV": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "Bloomberg TV"
     },
     "Bloomberg TV+": {
       "enabled": true,
@@ -336,52 +347,52 @@
       "epg_name": "Bloomberg TV"
     },
     "Bowling TV": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Sports.m3u"
       ],
-      "source_hint": "US"
+      "source": "US",
+      "epg_name": "Bowling TV"
     },
     "CANAL+ Foot FR": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Sports.m3u"
       ],
-      "source_hint": "US"
+      "source": "FR",
+      "epg_name": "CANAL+FOOT"
     },
     "CANAL+ Sport 360 FR": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Sports.m3u"
       ],
-      "source_hint": "US"
+      "source": "FR",
+      "epg_name": "CANAL+SPORT360"
     },
     "CANAL+ Sport FR": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Sports.m3u"
       ],
-      "source_hint": "US"
+      "source": "FR",
+      "epg_name": "CANAL+SPORT"
     },
     "CBS Sports Golazo Network": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Sports.m3u"
       ],
-      "source_hint": "US"
+      "source": "US",
+      "epg_name": "CBS Sports Golazo Network"
     },
     "CBS Sports Network": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Sports.m3u"
       ],
-      "source_hint": "US"
+      "source": "US",
+      "epg_name": "CBS Sports Network HD"
     },
     "CCTV-4K超高清": {
       "enabled": true,
@@ -584,11 +595,12 @@
       "epg_name": "CINEMAX"
     },
     "CLASSICA 古典樂": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "CLASSICA 古典樂"
     },
     "CNBC": {
       "enabled": true,
@@ -597,11 +609,12 @@
       "notes": "国际新闻台固定一份源即可"
     },
     "CNBC Asia 財經台": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "CNBC Asia 財經台"
     },
     "CNN": {
       "enabled": true,
@@ -643,43 +656,44 @@
       "epg_name": "チャンネル銀河　歴史ドラマ・サスペンス・日本のうた"
     },
     "Chicago Sports Network": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Sports.m3u"
       ],
-      "source_hint": "US"
+      "source": "US",
+      "epg_name": "CHSN Chicago Sports Network"
     },
     "CinemaWorld": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "CinemaWorld"
     },
     "Clarity 4K": {
       "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "reason": "源里无对应频道",
       "playlist_files": [
         "International4K.m3u"
       ],
       "source_hint": "GB"
     },
     "DAZN 1 DE": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Sports.m3u"
       ],
-      "source_hint": "US"
+      "source": "DE",
+      "epg_name": "DAZN 1"
     },
     "DAZN 2 DE": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Sports.m3u"
       ],
-      "source_hint": "US"
+      "source": "DE",
+      "epg_name": "DAZN 2"
     },
     "DAZN Ringside": {
       "enabled": false,
@@ -690,18 +704,20 @@
       "source_hint": "US"
     },
     "DLife": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-30, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "japan.m3u"
-      ]
+      ],
+      "source": "JP",
+      "epg_name": "Dlife"
     },
     "DW德國之聲": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "DW德國之聲"
     },
     "Deportes por M+ ES": {
       "enabled": false,
@@ -717,11 +733,12 @@
       "epg_name": "ディスカバリーチャンネル"
     },
     "Discovery Channel": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-06, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Japan-Backup.m3u"
-      ]
+      ],
+      "source": "JP",
+      "epg_name": "ディスカバリーチャンネル"
     },
     "Disney Channel": {
       "enabled": true,
@@ -739,18 +756,20 @@
       "epg_name": "Dlife"
     },
     "DreamWorks 夢工廠動畫": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "DreamWorks 夢工廠動畫"
     },
     "ELTV生活英語台": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "ELTV生活英語台"
     },
     "ESPN": {
       "enabled": true,
@@ -759,12 +778,12 @@
       "notes": ""
     },
     "ESPN Deportes": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Sports.m3u"
       ],
-      "source_hint": "US"
+      "source": "US",
+      "epg_name": "ESPN Deportes HD"
     },
     "ESPN2": {
       "enabled": true,
@@ -805,20 +824,20 @@
       "epg_name": "Euronews"
     },
     "Eurosport 1 FR": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Sports.m3u"
       ],
-      "source_hint": "US"
+      "source": "FR",
+      "epg_name": "Eurosport 1"
     },
     "Eurosport 2 FR": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Sports.m3u"
       ],
-      "source_hint": "US"
+      "source": "FR",
+      "epg_name": "Eurosport 2"
     },
     "F1 TV": {
       "enabled": false,
@@ -854,12 +873,12 @@
       "source_hint": "JP"
     },
     "FOX Deportes": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Sports.m3u"
       ],
-      "source_hint": "US"
+      "source": "US",
+      "epg_name": "Fox Deportes HD"
     },
     "FOX LOCAL Dallas-Fort Worth": {
       "enabled": true,
@@ -868,35 +887,36 @@
       "notes": "复用KDFW-DT节目单"
     },
     "FOX Soccer Plus": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Sports.m3u"
       ],
-      "source_hint": "US"
+      "source": "US",
+      "epg_name": "Fox Soccer Plus HD"
     },
     "FRANCE24 英文台": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "FRANCE24 英文台"
     },
     "FS1": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Sports.m3u"
       ],
-      "source_hint": "US"
+      "source": "US",
+      "epg_name": "FS1 HD"
     },
     "FS2": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Sports.m3u"
       ],
-      "source_hint": "US"
+      "source": "US",
+      "epg_name": "FS2 HD"
     },
     "FUEL TV": {
       "enabled": false,
@@ -912,19 +932,20 @@
       "epg_name": "ファミリー劇場"
     },
     "Family Gekijyo": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-06, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Japan-Backup.m3u"
-      ]
+      ],
+      "source": "JP",
+      "epg_name": "ファミリー劇場"
     },
     "Fight Network": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Sports.m3u"
       ],
-      "source_hint": "US"
+      "source": "US",
+      "epg_name": "Fight Network"
     },
     "Fighting TV Samurai": {
       "enabled": true,
@@ -955,13 +976,13 @@
       "epg_name": "フジテレビＮＥＸＴ　ライブ・プレミアム"
     },
     "Fuji TV ONE": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-06, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Japan-Backup.m3u",
         "Japan.m3u"
       ],
-      "source_hint": "JP"
+      "source": "JP",
+      "epg_name": "フジテレビＯＮＥ スポーツ・バラエティ"
     },
     "Fuji TV One": {
       "enabled": true,
@@ -969,13 +990,13 @@
       "epg_name": "フジテレビＯＮＥ　スポーツ・バラエティ"
     },
     "Fuji TV TWO": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-06, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Japan-Backup.m3u",
         "Japan.m3u"
       ],
-      "source_hint": "JP"
+      "source": "JP",
+      "epg_name": "フジテレビＴＷＯ ドラマ・アニメ"
     },
     "Fuji TV Two": {
       "enabled": true,
@@ -988,27 +1009,29 @@
       "epg_name": "GAORA SPORTS"
     },
     "GAORA SPORTS": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-15, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Japan-Backup.m3u"
-      ]
+      ],
+      "source": "JP",
+      "epg_name": "GAORA SPORTS"
     },
     "GINX Esports TV": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "GINX Esports TV"
     },
     "GOLF LIFE": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Japan-Backup.m3u",
         "Japan.m3u"
       ],
-      "source_hint": "JP"
+      "source": "JP",
+      "epg_name": "ゴルフネットワーク"
     },
     "GSTV": {
       "enabled": true,
@@ -1016,11 +1039,12 @@
       "epg_name": "ジュエリー☆GSTV"
     },
     "GSTV (CS)": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-06, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Japan-Backup.m3u"
-      ]
+      ],
+      "source": "JP",
+      "epg_name": "ジュエリー☆ＧＳＴＶ"
     },
     "GagaOOLala 精選LGBTQ+好劇": {
       "enabled": false,
@@ -1030,19 +1054,20 @@
       ]
     },
     "Global Trekker": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "Global Trekker"
     },
     "Golf Channel": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Sports.m3u"
       ],
-      "source_hint": "US"
+      "source": "US",
+      "epg_name": "Golf Channel HD"
     },
     "Golf Network": {
       "enabled": true,
@@ -1063,11 +1088,12 @@
       "epg_name": "グリーンチャンネルHD"
     },
     "HBO": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "HBO"
     },
     "HBO Boxing": {
       "enabled": false,
@@ -1078,11 +1104,12 @@
       "source_hint": "US"
     },
     "HITS頻道": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "HITS頻道"
     },
     "History": {
       "enabled": true,
@@ -1102,11 +1129,12 @@
       "notes": "原DE德语源错误，改HK英文"
     },
     "History 歷史頻道": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "History 歷史頻道"
     },
     "Home Drama Channel": {
       "enabled": true,
@@ -1121,26 +1149,28 @@
       ]
     },
     "INULTRA": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "INULTRA"
     },
     "INULTRA 4K PL": {
       "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "reason": "源里无对应频道",
       "playlist_files": [
         "International4K.m3u"
       ],
       "source_hint": "GB"
     },
     "JCOM BS": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-06, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Japan-Backup.m3u"
-      ]
+      ],
+      "source": "JPT",
+      "epg_name": "J:COM BS"
     },
     "JSport 1": {
       "enabled": true,
@@ -1178,11 +1208,12 @@
       "epg_name": "KBS京都"
     },
     "KBS World": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-30, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "japan.m3u"
-      ]
+      ],
+      "source": "JP",
+      "epg_name": "KBS WORLD HD"
     },
     "KDFW FOX 4 Dallas Fort Worth TX": {
       "enabled": true,
@@ -1220,33 +1251,36 @@
       "epg_name": "キッズステーション HD"
     },
     "Kids Station TV": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-15, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Japan-Backup.m3u"
-      ]
+      ],
+      "source": "JP",
+      "epg_name": "キッズステーション HD"
     },
     "Kids Staton": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-06, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Japan-Backup.m3u"
-      ]
+      ],
+      "source": "JP",
+      "epg_name": "キッズステーション HD"
     },
     "LFCTV UK": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Sports.m3u"
       ],
-      "source_hint": "US"
+      "source": "GB",
+      "epg_name": "LFCTV HD"
     },
     "LUXE TV Channel": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "LUXE TV Channel"
     },
     "LaLa TV": {
       "enabled": true,
@@ -1271,11 +1305,12 @@
       "source_hint": "JP"
     },
     "Lifetime 娛樂頻道": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "Lifetime 娛樂頻道"
     },
     "Liga de Campeones por M+ ES": {
       "enabled": false,
@@ -1295,27 +1330,28 @@
       "epg_name": "LiveABC互動英語頻道"
     },
     "Love Nature": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "Love Nature"
     },
     "Love Nature 4K": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "International4K.m3u"
       ],
-      "source_hint": "GB"
+      "source": "HK",
+      "epg_name": "Love Nature 4K"
     },
     "Love Nature 4K CA": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "International4K.m3u"
       ],
-      "source_hint": "GB"
+      "source": "CA",
+      "epg_name": "Love Nature"
     },
     "MBS": {
       "enabled": true,
@@ -1331,12 +1367,12 @@
       "source_hint": "JP"
     },
     "MLB Network": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Sports.m3u"
       ],
-      "source_hint": "US"
+      "source": "US",
+      "epg_name": "MLB Network HD"
     },
     "MOMO親子台": {
       "enabled": true,
@@ -1348,20 +1384,20 @@
       "epg_name": "MOMO親子台"
     },
     "MSG": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Sports.m3u"
       ],
-      "source_hint": "US"
+      "source": "US",
+      "epg_name": "MSG National"
     },
     "MSGSN": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Sports.m3u"
       ],
-      "source_hint": "US"
+      "source": "US",
+      "epg_name": "MSG National"
     },
     "MTV": {
       "enabled": true,
@@ -1369,34 +1405,36 @@
       "epg_name": "MTV HD"
     },
     "MUSIC ON! TV（エムオン!）": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Japan-Backup.m3u"
-      ]
+      ],
+      "source": "JP",
+      "epg_name": "MUSIC ON! TV（エムオン!）"
     },
     "MUTV UK": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Sports.m3u"
       ],
-      "source_hint": "US"
+      "source": "GB",
+      "epg_name": "MUTV HD"
     },
     "MagellanTV頻道": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "麥哲倫頻道 HD"
     },
     "Marquee Sports Network": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Sports.m3u"
       ],
-      "source_hint": "US"
+      "source": "US",
+      "epg_name": "Marquee Sports Network HD"
     },
     "Me-Tele NEXT": {
       "enabled": false,
@@ -1411,11 +1449,12 @@
       "epg_name": "エンタメ～テレＨＤ☆"
     },
     "Mezzo Live HD": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "Mezzo Live HD"
     },
     "Mnet": {
       "enabled": true,
@@ -1447,13 +1486,13 @@
       "epg_name": "ミュージック・エア"
     },
     "Music Japan": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Japan-Backup.m3u",
         "Japan.m3u"
       ],
-      "source_hint": "JP"
+      "source": "JP",
+      "epg_name": "ミュージック・ジャパンTV"
     },
     "Music Japan TV": {
       "enabled": true,
@@ -1462,13 +1501,13 @@
       "notes": "auto-match score=0.61"
     },
     "Music ON TV": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-06, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Japan-Backup.m3u",
         "Japan.m3u"
       ],
-      "source_hint": "JP"
+      "source": "JP",
+      "epg_name": "MUSIC ON! TV（エムオン!）"
     },
     "Music On! TV": {
       "enabled": true,
@@ -1476,11 +1515,12 @@
       "epg_name": "MUSIC ON! TV（エムオン!）"
     },
     "My Cinema Europe HD 我的歐洲電影": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "My Cinema Europe HD 我的歐洲電影"
     },
     "Mystery Channel": {
       "enabled": true,
@@ -1488,20 +1528,20 @@
       "epg_name": "ミステリーチャンネル"
     },
     "NASCAR Channel": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Sports.m3u"
       ],
-      "source_hint": "US"
+      "source": "US",
+      "epg_name": "NASCAR Channel"
     },
     "NBA TV": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Sports.m3u"
       ],
-      "source_hint": "US"
+      "source": "US",
+      "epg_name": "NBA TV HD"
     },
     "NBC 5 Dallas-Fort Worth News": {
       "enabled": true,
@@ -1510,91 +1550,92 @@
       "notes": "Dallas NBC本地台"
     },
     "NBC Sports Bay Area": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Sports.m3u"
       ],
-      "source_hint": "US"
+      "source": "US",
+      "epg_name": "NBC Sports Bay Area HD"
     },
     "NBC Sports Boston": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Sports.m3u"
       ],
-      "source_hint": "US"
+      "source": "US",
+      "epg_name": "NBC Sports Boston HD"
     },
     "NBC Sports California": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Sports.m3u"
       ],
-      "source_hint": "US"
+      "source": "US",
+      "epg_name": "NBC Sports California HD"
     },
     "NBC Sports NOW": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Sports.m3u"
       ],
-      "source_hint": "US"
+      "source": "US",
+      "epg_name": "NBC Sports Now"
     },
     "NBC Sports Philadelphia": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Sports.m3u"
       ],
-      "source_hint": "US"
+      "source": "US",
+      "epg_name": "NBC Sports Philadelphia HD"
     },
     "NECO Ch": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-30, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "japan.m3u"
-      ]
+      ],
+      "source": "JP",
+      "epg_name": "映画･チャンネルNECO-HD"
     },
     "NESN": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Sports.m3u"
       ],
-      "source_hint": "US"
+      "source": "US",
+      "epg_name": "NESN+ New England Sports Network Plus"
     },
     "NESN 4K": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "International4K.m3u"
       ],
-      "source_hint": "GB"
+      "source": "US",
+      "epg_name": "NESN+ New England Sports Network Plus"
     },
     "NESN+": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Sports.m3u"
       ],
-      "source_hint": "US"
+      "source": "US",
+      "epg_name": "NESN+ New England Sports Network Plus"
     },
     "NFL Network": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Sports.m3u"
       ],
-      "source_hint": "US"
+      "source": "US",
+      "epg_name": "NFL Network HD"
     },
     "NFL RedZone": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Sports.m3u"
       ],
-      "source_hint": "US"
+      "source": "US",
+      "epg_name": "NFL RedZone HD"
     },
     "NHK BS": {
       "enabled": true,
@@ -1602,11 +1643,12 @@
       "epg_name": "ＮＨＫ　ＢＳ"
     },
     "NHK BS 2": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-30, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "japan.m3u"
-      ]
+      ],
+      "source": "JP",
+      "epg_name": "ＮＨＫ　ＢＳ"
     },
     "NHK BS 備用": {
       "enabled": true,
@@ -1631,26 +1673,27 @@
     },
     "NHK BS8K JP": {
       "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "reason": "JP源无BS8K（只有BS4K系）",
       "playlist_files": [
         "International4K.m3u"
       ],
       "source_hint": "GB"
     },
     "NHK BSP4K": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Japan-Backup.m3u"
-      ]
+      ],
+      "source": "JP",
+      "epg_name": "NHK BS4K"
     },
     "NHK BSP4K JP": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "International4K.m3u"
       ],
-      "source_hint": "GB"
+      "source": "JP",
+      "epg_name": "NHK BS4K"
     },
     "NHK E": {
       "enabled": true,
@@ -1680,11 +1723,12 @@
       "alias_of": "NHK G"
     },
     "NHK G 2": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-30, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "japan.m3u"
-      ]
+      ],
+      "source": "JP",
+      "epg_name": "NHK東京　総合"
     },
     "NHK G AVC 1080p": {
       "enabled": true,
@@ -1707,11 +1751,12 @@
       "alias_of": "NHK G"
     },
     "NHK WORLD-JAPAN": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "NHK WORLD-JAPAN"
     },
     "NHK World Japan": {
       "enabled": true,
@@ -1733,26 +1778,28 @@
       "epg_name": "NHK World-Japan"
     },
     "NHK 総合": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Japan-Backup.m3u"
-      ]
+      ],
+      "source": "JP",
+      "epg_name": "NHK東京　総合"
     },
     "NHK教育(Eテレ)": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Japan-Backup.m3u"
-      ]
+      ],
+      "source": "JP",
+      "epg_name": "NHK東京　教育"
     },
     "NHL Network": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Sports.m3u"
       ],
-      "source_hint": "US"
+      "source": "US",
+      "epg_name": "NHL Network HD"
     },
     "NTV": {
       "enabled": true,
@@ -1790,11 +1837,12 @@
       "epg_name": "ナショナル ジオグラフィック"
     },
     "National Geographic Japan": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-06, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Japan-Backup.m3u"
-      ]
+      ],
+      "source": "JP",
+      "epg_name": "ナショナル ジオグラフィック"
     },
     "Neco Channel": {
       "enabled": true,
@@ -1820,11 +1868,12 @@
       "epg_name": "Nice TV 靖天歡樂台"
     },
     "Nick Jr. 兒童頻道": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "Nick Jr. 兒童頻道"
     },
     "Nihon Eiga Senmon": {
       "enabled": true,
@@ -1832,34 +1881,36 @@
       "epg_name": "日本映画専門チャンネル"
     },
     "Nittele G+": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-06, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Japan-Backup.m3u"
-      ]
+      ],
+      "source": "JP",
+      "epg_name": "日テレジータス"
     },
     "Nittele Plus": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-30, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "japan.m3u"
-      ]
+      ],
+      "source": "JP",
+      "epg_name": "日テレプラス ドラマ・アニメ・音楽ライブ"
     },
     "Now Sports 4K 1 HK": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "International4K.m3u"
       ],
-      "source_hint": "GB"
+      "source": "HK",
+      "epg_name": "Now Sports 4K 1"
     },
     "One Soccer CA": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Sports.m3u"
       ],
-      "source_hint": "US"
+      "source": "CA",
+      "epg_name": "Sportsnet One HD"
     },
     "PFL": {
       "enabled": false,
@@ -1870,25 +1921,28 @@
       "source_hint": "US"
     },
     "Pet Club TV": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "Pet Club TV"
     },
     "Pigoo (NSFW)": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Japan-Backup.m3u"
-      ]
+      ],
+      "source": "JP",
+      "epg_name": "アイドル専門チャンネルＰｉｇｏｏ"
     },
     "Pigoo NSFW": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-15, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Japan-Backup.m3u"
-      ]
+      ],
+      "source": "JP",
+      "epg_name": "アイドル専門チャンネルＰｉｇｏｏ"
     },
     "PokerGO": {
       "enabled": false,
@@ -1899,20 +1953,20 @@
       "source_hint": "US"
     },
     "Premier Sports 1 UK": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Sports.m3u"
       ],
-      "source_hint": "US"
+      "source": "GB",
+      "epg_name": "Premier Sports 1 HD"
     },
     "Premier Sports 2 UK": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Sports.m3u"
       ],
-      "source_hint": "US"
+      "source": "GB",
+      "epg_name": "Premier Sports 2 HD"
     },
     "QVC": {
       "enabled": true,
@@ -1920,56 +1974,60 @@
       "epg_name": "4Ｋ QVC"
     },
     "QVC (CS)": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-06, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Japan-Backup.m3u"
-      ]
+      ],
+      "source": "JP",
+      "epg_name": "ＱＶＣ（キューヴィーシー）"
     },
     "RACER Network": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Sports.m3u"
       ],
-      "source_hint": "US"
+      "source": "US",
+      "epg_name": "RACER Network HD"
     },
     "RMC Sport 1 FR": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Sports.m3u"
       ],
-      "source_hint": "US"
+      "source": "FR",
+      "epg_name": "RMC Sport 1"
     },
     "ROCK Action": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "ROCK Action"
     },
     "ROCK Entertainment": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "ROCK Entertainment"
     },
     "ROCK Xstream搖滾極限頻道": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "ROCK Xstream搖滾極限頻道"
     },
     "Racing TV UK": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Sports.m3u"
       ],
-      "source_hint": "US"
+      "source": "GB",
+      "epg_name": "Racing TV HD"
     },
     "Real Madrid TV ES": {
       "enabled": false,
@@ -2009,12 +2067,12 @@
       "epg_name": "SBN全球財經台"
     },
     "SEC Network": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Sports.m3u"
       ],
-      "source_hint": "US"
+      "source": "US",
+      "epg_name": "SEC Network HD"
     },
     "STOCK VOICE": {
       "enabled": false,
@@ -2061,12 +2119,12 @@
       "source_hint": "US"
     },
     "Sky Sport Austria 1 DE": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Sports.m3u"
       ],
-      "source_hint": "US"
+      "source": "DE",
+      "epg_name": "Sky Sport Austria 1 HD"
     },
     "Sky Sport Basket IT": {
       "enabled": false,
@@ -2105,12 +2163,12 @@
       "source_hint": "US"
     },
     "Sky Sport Golf DE": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Sports.m3u"
       ],
-      "source_hint": "US"
+      "source": "DE",
+      "epg_name": "Sky Sport Golf"
     },
     "Sky Sport Golf IT": {
       "enabled": false,
@@ -2137,12 +2195,12 @@
       "source_hint": "US"
     },
     "Sky Sport Mix DE": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Sports.m3u"
       ],
-      "source_hint": "US"
+      "source": "DE",
+      "epg_name": "Sky Sport Mix"
     },
     "Sky Sport Mix IT": {
       "enabled": false,
@@ -2161,28 +2219,28 @@
       "source_hint": "US"
     },
     "Sky Sport News DE": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Sports.m3u"
       ],
-      "source_hint": "US"
+      "source": "DE",
+      "epg_name": "Sky Sport News"
     },
     "Sky Sport Premier League DE": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Sports.m3u"
       ],
-      "source_hint": "US"
+      "source": "DE",
+      "epg_name": "Sky Sport Premier League"
     },
     "Sky Sport Tennis DE": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Sports.m3u"
       ],
-      "source_hint": "US"
+      "source": "DE",
+      "epg_name": "Sky Sport Tennis"
     },
     "Sky Sport Tennis IT": {
       "enabled": false,
@@ -2193,12 +2251,12 @@
       "source_hint": "US"
     },
     "Sky Sport Top Event DE": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Sports.m3u"
       ],
-      "source_hint": "US"
+      "source": "DE",
+      "epg_name": "Sky Sport Top Event"
     },
     "Sky Sport Uno IT": {
       "enabled": false,
@@ -2209,44 +2267,44 @@
       "source_hint": "US"
     },
     "Sky Sports 1 UHD UK": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "International4K.m3u"
       ],
-      "source_hint": "GB"
+      "source": "GB",
+      "epg_name": "Sky Sports Ultra HD 1"
     },
     "Sky Sports 2 UHD UK": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "International4K.m3u"
       ],
-      "source_hint": "GB"
+      "source": "GB",
+      "epg_name": "Sky Sports Ultra HD 2"
     },
     "Sky Sports Action UK": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Sports.m3u"
       ],
-      "source_hint": "US"
+      "source": "GB",
+      "epg_name": "SkySp ActionHD"
     },
     "Sky Sports Cricket UK": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Sports.m3u"
       ],
-      "source_hint": "US"
+      "source": "GB",
+      "epg_name": "SkySpCricket HD"
     },
     "Sky Sports F1 UHD UK": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "International4K.m3u"
       ],
-      "source_hint": "GB"
+      "source": "GB",
+      "epg_name": "SkySp F1 HD"
     },
     "Sky Sports F1 UK": {
       "enabled": true,
@@ -2256,84 +2314,84 @@
       "notes": "复用F1节目单"
     },
     "Sky Sports Football UK": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Sports.m3u"
       ],
-      "source_hint": "US"
+      "source": "GB",
+      "epg_name": "Sky Sports Football HD"
     },
     "Sky Sports Golf UK": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Sports.m3u"
       ],
-      "source_hint": "US"
+      "source": "GB",
+      "epg_name": "SkySp Golf HD"
     },
     "Sky Sports Main Event UHD UK": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "International4K.m3u"
       ],
-      "source_hint": "GB"
+      "source": "GB",
+      "epg_name": "SkySpMainEvHD"
     },
     "Sky Sports Main Event UK": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Sports.m3u"
       ],
-      "source_hint": "US"
+      "source": "GB",
+      "epg_name": "SkySpMainEvHD"
     },
     "Sky Sports Mix UK": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Sports.m3u"
       ],
-      "source_hint": "US"
+      "source": "GB",
+      "epg_name": "SkySp Mix HD"
     },
     "Sky Sports News UK": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Sports.m3u"
       ],
-      "source_hint": "US"
+      "source": "GB",
+      "epg_name": "SkySp News HD"
     },
     "Sky Sports Premier League UK": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Sports.m3u"
       ],
-      "source_hint": "US"
+      "source": "GB",
+      "epg_name": "SkySp PL HD"
     },
     "Sky Sports Racing UK": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Sports.m3u"
       ],
-      "source_hint": "US"
+      "source": "GB",
+      "epg_name": "SkySp Racing HD"
     },
     "Sky Sports Tennis UK": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Sports.m3u"
       ],
-      "source_hint": "US"
+      "source": "GB",
+      "epg_name": "SkySp Tennis HD"
     },
     "Sky Sports+ UK": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Sports.m3u"
       ],
-      "source_hint": "US"
+      "source": "GB",
+      "epg_name": "SkySp+HD"
     },
     "Sky Stage": {
       "enabled": true,
@@ -2341,12 +2399,12 @@
       "epg_name": "TAKARAZUKA SKY STAGE"
     },
     "Space City Home Network": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Sports.m3u"
       ],
-      "source_hint": "US"
+      "source": "US",
+      "epg_name": "Space City Home Network HD"
     },
     "Space Shower TV": {
       "enabled": true,
@@ -2354,27 +2412,28 @@
       "epg_name": "音楽・ライブ！　スペースシャワーTV HD"
     },
     "Spectrum SportsNet": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Sports.m3u"
       ],
-      "source_hint": "US"
+      "source": "US",
+      "epg_name": "Spectrum SportsNet Lakers HD"
     },
     "Spectrum SportsNet LA": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Sports.m3u"
       ],
-      "source_hint": "US"
+      "source": "US",
+      "epg_name": "Spectrum SportsNet Lakers HD"
     },
     "Sport Live Plus": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-30, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "japan.m3u"
-      ]
+      ],
+      "source": "JP",
+      "epg_name": "スポーツライブ＋"
     },
     "Sport live plus": {
       "enabled": true,
@@ -2382,104 +2441,104 @@
       "epg_name": "スポーツライブ＋"
     },
     "SportsNet 360 CA": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Sports.m3u"
       ],
-      "source_hint": "US"
+      "source": "CA",
+      "epg_name": "Sportsnet 360 HD"
     },
     "SportsNet 4K CA": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "International4K.m3u"
       ],
-      "source_hint": "GB"
+      "source": "CA",
+      "epg_name": "Sportsnet 4K"
     },
     "SportsNet East CA": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Sports.m3u"
       ],
-      "source_hint": "US"
+      "source": "CA",
+      "epg_name": "Sportsnet East HD"
     },
     "SportsNet New York": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Sports.m3u"
       ],
-      "source_hint": "US"
+      "source": "US",
+      "epg_name": "SNY SportsNet New York HD"
     },
     "SportsNet ONE 4K CA": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "International4K.m3u"
       ],
-      "source_hint": "GB"
+      "source": "CA",
+      "epg_name": "Sportsnet One HD"
     },
     "SportsNet ONE CA": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Sports.m3u"
       ],
-      "source_hint": "US"
+      "source": "CA",
+      "epg_name": "Sportsnet One HD"
     },
     "SportsNet Ontario CA": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Sports.m3u"
       ],
-      "source_hint": "US"
+      "source": "CA",
+      "epg_name": "Sportsnet Ontario HD"
     },
     "SportsNet Pacific CA": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Sports.m3u"
       ],
-      "source_hint": "US"
+      "source": "CA",
+      "epg_name": "Sportsnet (Pacific) HD"
     },
     "SportsNet Pittsburgh": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Sports.m3u"
       ],
-      "source_hint": "US"
+      "source": "US",
+      "epg_name": "SportsNet Pittsburgh HD"
     },
     "SportsNet West CA": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Sports.m3u"
       ],
-      "source_hint": "US"
+      "source": "CA",
+      "epg_name": "Sportsnet West HD"
     },
     "SportsNet World CA": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Sports.m3u"
       ],
-      "source_hint": "US"
+      "source": "CA",
+      "epg_name": "Sportsnet World HD"
     },
     "Sportsman Channel": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Sports.m3u"
       ],
-      "source_hint": "US"
+      "source": "US",
+      "epg_name": "Sportsman Channel"
     },
     "Stingray Festival 4K CA": {
       "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "reason": "CA源无Festival变体",
       "playlist_files": [
         "International4K.m3u"
       ],
@@ -2487,7 +2546,7 @@
     },
     "Stingray NOW 4K CA": {
       "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "reason": "CA源无NOW变体",
       "playlist_files": [
         "International4K.m3u"
       ],
@@ -2542,18 +2601,20 @@
       "epg_name": "TBS NEWS"
     },
     "TBS チャンネル 1": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Japan-Backup.m3u"
-      ]
+      ],
+      "source": "JP",
+      "epg_name": "ＴＢＳチャンネル１ 最新ドラマ・音楽・映画"
     },
     "TBS チャンネル 2": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Japan-Backup.m3u"
-      ]
+      ],
+      "source": "JP",
+      "epg_name": "ＴＢＳチャンネル２ 名作ドラマ・スポーツ・アニメ"
     },
     "TLC旅遊生活": {
       "enabled": true,
@@ -2565,44 +2626,44 @@
       "epg_name": "TLC旅遊生活頻道"
     },
     "TNT Sports 1 UK": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Sports.m3u"
       ],
-      "source_hint": "US"
+      "source": "GB",
+      "epg_name": "TNT Sports 1 HD"
     },
     "TNT Sports 2 UK": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Sports.m3u"
       ],
-      "source_hint": "US"
+      "source": "GB",
+      "epg_name": "TNT Sports 2 HD"
     },
     "TNT Sports 3 UK": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Sports.m3u"
       ],
-      "source_hint": "US"
+      "source": "GB",
+      "epg_name": "TNT Sports 3 HD"
     },
     "TNT Sports 4 UK": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Sports.m3u"
       ],
-      "source_hint": "US"
+      "source": "GB",
+      "epg_name": "TNT Sports 4 HD"
     },
     "TNT Sports Ultimate UHD UK": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "International4K.m3u"
       ],
-      "source_hint": "GB"
+      "source": "GB",
+      "epg_name": "TNT Sports Ultimate HD"
     },
     "TOKYO MX1": {
       "enabled": true,
@@ -2610,11 +2671,12 @@
       "epg_name": "Tokyo MX1"
     },
     "TOKYO MX2": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Japan-Backup.m3u"
-      ]
+      ],
+      "source": "JP",
+      "epg_name": "Tokyo MX2"
     },
     "TOP BARÇA": {
       "enabled": false,
@@ -2625,34 +2687,36 @@
       "source_hint": "JP"
     },
     "TRACE Sport Stars": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "TRACE Sport Stars"
     },
     "TRACE Urban": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "TRACE Urban"
     },
     "TSN 4K CA": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "International4K.m3u"
       ],
-      "source_hint": "GB"
+      "source": "CA",
+      "epg_name": "TSN 4K"
     },
     "TSN The Ocho CA": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Sports.m3u"
       ],
-      "source_hint": "US"
+      "source": "CA",
+      "epg_name": "TSN HD"
     },
     "TSN West 4K CA": {
       "enabled": true,
@@ -2661,52 +2725,52 @@
       "notes": "TSN West 4K (CA源只有单一TSN 4K)"
     },
     "TSN1 CA": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Sports.m3u"
       ],
-      "source_hint": "US"
+      "source": "CA",
+      "epg_name": "TSN 1"
     },
     "TSN2 CA": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Sports.m3u"
       ],
-      "source_hint": "US"
+      "source": "CA",
+      "epg_name": "TSN 2"
     },
     "TSN3 CA": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Sports.m3u"
       ],
-      "source_hint": "US"
+      "source": "CA",
+      "epg_name": "TSN 3"
     },
     "TSN4 CA": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Sports.m3u"
       ],
-      "source_hint": "US"
+      "source": "CA",
+      "epg_name": "TSN 4"
     },
     "TSN5 CA": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Sports.m3u"
       ],
-      "source_hint": "US"
+      "source": "CA",
+      "epg_name": "TSN 5"
     },
     "TUDN": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Sports.m3u"
       ],
-      "source_hint": "US"
+      "source": "US",
+      "epg_name": "TUDN"
     },
     "TV Asahi": {
       "enabled": true,
@@ -2734,11 +2798,12 @@
       "epg_name": "テレビ東京"
     },
     "TV5MONDE STYLE HD 生活時尚": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "TV5MONDE STYLE HD 生活時尚"
     },
     "TVB Plus": {
       "enabled": false,
@@ -2757,11 +2822,12 @@
       "epg_name": "TVBS"
     },
     "TVBS台劇台": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "TVBS精采台"
     },
     "TVBS新聞": {
       "enabled": true,
@@ -2773,11 +2839,12 @@
       "epg_name": "TVBS新聞"
     },
     "TVBS新聞台": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "TVBS 新聞台"
     },
     "TVBS歡樂台": {
       "enabled": true,
@@ -2805,18 +2872,20 @@
       "epg_name": "TVBS精采台"
     },
     "TVBS綜藝台": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "TVBS歡樂台"
     },
     "TVB星河國語": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "靖天映畫"
     },
     "Tabi Channel": {
       "enabled": true,
@@ -2833,27 +2902,28 @@
       "epg_name": "TaiwanPlus"
     },
     "Takarazuka Sky Stage": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-06, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Japan-Backup.m3u"
-      ]
+      ],
+      "source": "JP",
+      "epg_name": "タカラヅカ・スカイ・ステージ"
     },
     "Tennis Channel": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Sports.m3u"
       ],
-      "source_hint": "US"
+      "source": "US",
+      "epg_name": "Tennis Channel HD"
     },
     "Tennis Channel 2": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Sports.m3u"
       ],
-      "source_hint": "US"
+      "source": "US",
+      "epg_name": "Tennis Channel HD"
     },
     "Tetsudo Channel": {
       "enabled": true,
@@ -2881,12 +2951,12 @@
       "epg_name": "Tokyo MX2"
     },
     "Travelxp 4K HDR EU": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "International4K.m3u"
       ],
-      "source_hint": "GB"
+      "source": "GB",
+      "epg_name": "Travelxp"
     },
     "UFC": {
       "enabled": false,
@@ -2902,11 +2972,12 @@
       "epg_name": "V☆パラダイス"
     },
     "V Paradise NSFW": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-15, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Japan-Backup.m3u"
-      ]
+      ],
+      "source": "JP",
+      "epg_name": "Ｖ☆パラダイス"
     },
     "Vamos por M+ ES": {
       "enabled": false,
@@ -2946,20 +3017,20 @@
       "source_hint": "JP"
     },
     "Willow": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Sports.m3u"
       ],
-      "source_hint": "US"
+      "source": "US",
+      "epg_name": "Willow Cricket HD"
     },
     "World Fishing Network": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Sports.m3u"
       ],
-      "source_hint": "US"
+      "source": "US",
+      "epg_name": "World Fishing Network HD (US)"
     },
     "World Poker Tour": {
       "enabled": false,
@@ -2970,20 +3041,21 @@
       "source_hint": "US"
     },
     "YES Network": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Sports.m3u"
       ],
-      "source_hint": "US"
+      "source": "US",
+      "epg_name": "Yes Network"
     },
     "[V]頻道": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u",
         "taiwan.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "MTV"
     },
     "amc電影台": {
       "enabled": true,
@@ -2995,36 +3067,36 @@
       "epg_name": "amc電影台"
     },
     "beIN SPORTS": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Sports.m3u"
       ],
-      "source_hint": "US"
+      "source": "US",
+      "epg_name": "beIN Sports USA HD"
     },
     "beIN Sports 1 FR": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Sports.m3u"
       ],
-      "source_hint": "US"
+      "source": "FR",
+      "epg_name": "beIN SPORTS 1"
     },
     "beIN Sports 2 FR": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Sports.m3u"
       ],
-      "source_hint": "US"
+      "source": "FR",
+      "epg_name": "beIN SPORTS 2"
     },
     "beIN Sports 3 FR": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Sports.m3u"
       ],
-      "source_hint": "US"
+      "source": "FR",
+      "epg_name": "beIN SPORTS 3"
     },
     "cctv16-4k": {
       "enabled": true,
@@ -3065,11 +3137,12 @@
       ]
     },
     "fun探索娛樂台": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "fun探索娛樂台"
     },
     "that’s 70s": {
       "enabled": false,
@@ -3127,13 +3200,13 @@
       "source_hint": "JP"
     },
     "アニマックスFREE": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Japan-Backup.m3u",
         "Japan.m3u"
       ],
-      "source_hint": "JP"
+      "source": "JP",
+      "epg_name": "アニマックス"
     },
     "エンタメニュース POWERED BY ORICON NEWS": {
       "enabled": false,
@@ -3154,12 +3227,12 @@
       "source_hint": "JP"
     },
     "エンタメ～テレDEEP": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-06, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Japan.m3u"
       ],
-      "source_hint": "JP"
+      "source": "JP",
+      "epg_name": "エンタメ～テレＨＤ☆"
     },
     "オリコンニュース": {
       "enabled": false,
@@ -3215,18 +3288,20 @@
       "source_hint": "JP"
     },
     "テレビ朝日": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Japan-Backup.m3u"
-      ]
+      ],
+      "source": "JP",
+      "epg_name": "テレビ朝日"
     },
     "テレビ東京(テレ東)": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Japan-Backup.m3u"
-      ]
+      ],
+      "source": "JP",
+      "epg_name": "テレビ東京"
     },
     "パチンコ・パチスロ": {
       "enabled": true,
@@ -3247,11 +3322,12 @@
       "source_hint": "JP"
     },
     "フジテレビ": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Japan-Backup.m3u"
-      ]
+      ],
+      "source": "JP",
+      "epg_name": "フジテレビ"
     },
     "フジテレビNEXT ライブ・プレミアム": {
       "enabled": true,
@@ -3264,18 +3340,20 @@
       "epg_name": "フジテレビＮＥＸＴ ライブ・プレミアム"
     },
     "フジテレビONE スポーツ・バラエティ": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Japan-Backup.m3u"
-      ]
+      ],
+      "source": "JP",
+      "epg_name": "フジテレビＯＮＥ　スポーツ・バラエティ"
     },
     "フジテレビTWO ドラマ・アニメ": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Japan-Backup.m3u"
-      ]
+      ],
+      "source": "JP",
+      "epg_name": "フジテレビＴＷＯ　ドラマ・アニメ"
     },
     "ペットTV": {
       "enabled": false,
@@ -3490,11 +3568,12 @@
       "notes": "e.erw.cc 当日节目单(无未来预告)"
     },
     "亞洲旅遊台": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "亞洲旅遊台"
     },
     "人間衛視": {
       "enabled": true,
@@ -3524,18 +3603,20 @@
       "epg_name": "八大第一台"
     },
     "八大精彩台": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "八大精彩台"
     },
     "八大綜藝台": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "八大綜藝台"
     },
     "公視": {
       "enabled": true,
@@ -3616,12 +3697,12 @@
       "epg_name": "刺激ストロングチャンネル"
     },
     "刺激ストロングSPORTS": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-06, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Japan.m3u"
       ],
-      "source_hint": "JP"
+      "source": "JP",
+      "epg_name": "刺激ストロングチャンネル"
     },
     "動物星球": {
       "enabled": true,
@@ -3688,25 +3769,28 @@
       "notes": "北京联通专属源"
     },
     "半島國際新聞台": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "半島國際新聞台"
     },
     "博斯無限二台": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "博斯無限二台"
     },
     "博斯無限台": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "博斯無限台"
     },
     "博斯網球": {
       "enabled": true,
@@ -3718,11 +3802,12 @@
       "epg_name": "博斯網球台"
     },
     "博斯網球台": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "博斯網球台"
     },
     "博斯運動I": {
       "enabled": true,
@@ -3734,39 +3819,44 @@
       "epg_name": "博斯運動一台"
     },
     "博斯運動II": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "博斯運動二台"
     },
     "博斯運動一台": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "博斯運動一台"
     },
     "博斯運動二台": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "博斯運動二台"
     },
     "博斯高球1": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "博斯高球1台"
     },
     "博斯高球2": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "博斯高球2台"
     },
     "博斯高球I": {
       "enabled": true,
@@ -3778,32 +3868,36 @@
       "epg_name": "博斯高球一台"
     },
     "博斯高球二台": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "博斯高球二台"
     },
     "博斯高球台": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "博斯高球台"
     },
     "博斯魅力": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "博斯魅力台"
     },
     "博斯魅力台": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "博斯魅力台"
     },
     "原住民族電視台": {
       "enabled": true,
@@ -3866,12 +3960,13 @@
       "epg_name": "吉林卫视"
     },
     "唯心": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u",
         "taiwan.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "唯心電視台"
     },
     "四川卫视": {
       "enabled": true,
@@ -3925,11 +4020,12 @@
       "epg_name": "國會頻道2"
     },
     "大愛二台": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "大愛二台"
     },
     "大愛電視": {
       "enabled": true,
@@ -3955,18 +4051,20 @@
       ]
     },
     "好消息": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "好消息"
     },
     "好消息2台": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "好消息2台"
     },
     "好萊塢電影": {
       "enabled": true,
@@ -4072,11 +4170,12 @@
       "epg_name": "山西卫视"
     },
     "幸福空間居家台": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "幸福空間居家台"
     },
     "广东卫视4K": {
       "enabled": true,
@@ -4095,18 +4194,20 @@
       "epg_name": "延边卫视"
     },
     "影迷數位紀實台": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "影迷數位紀實台"
     },
     "影迷數位電影台": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "影迷數位電影台"
     },
     "愛爾達寵物運動台": {
       "enabled": false,
@@ -4116,11 +4217,12 @@
       ]
     },
     "愛爾達生活旅遊台": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "愛爾達生活旅遊台"
     },
     "懷舊經典電影-FastTV飛速看": {
       "enabled": false,
@@ -4138,18 +4240,20 @@
       "source_hint": "JP"
     },
     "探索亞洲": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "Discovery Asia"
     },
     "日テレ NEWS 24": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Japan-Backup.m3u"
-      ]
+      ],
+      "source": "JP",
+      "epg_name": "日テレNEWS24"
     },
     "日テレNEWSセレクト": {
       "enabled": false,
@@ -4160,11 +4264,12 @@
       "source_hint": "JP"
     },
     "日本テレビ(日テレ)": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Japan-Backup.m3u"
-      ]
+      ],
+      "source": "JP",
+      "epg_name": "日本テレビ"
     },
     "日韓電影大賞-FastTV飛速看": {
       "enabled": false,
@@ -4182,27 +4287,29 @@
       "source_hint": "JP"
     },
     "時代劇TV（Powered by 時代劇専門チャンネル）": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Japan-Backup.m3u",
         "Japan.m3u"
       ],
-      "source_hint": "JP"
+      "source": "JP",
+      "epg_name": "時代劇専門チャンネル"
     },
     "時尚運動X": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "時尚運動X"
     },
     "智林體育台": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "智林體育台"
     },
     "朝鲜中央电视台": {
       "enabled": false,
@@ -4245,32 +4352,36 @@
       "epg_name": "東森財經新聞台"
     },
     "東森購物一台": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "東森購物一台"
     },
     "東森購物三台": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "東森購物三台"
     },
     "東森購物二台": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "東森購物二台"
     },
     "東森購物四台": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "東森購物四台"
     },
     "東森超視": {
       "enabled": true,
@@ -4325,11 +4436,12 @@
       "epg_name": "民視台灣台"
     },
     "民視影劇台": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "民視影劇台"
     },
     "民視新聞台": {
       "enabled": true,
@@ -4341,11 +4453,12 @@
       "epg_name": "民視新聞台"
     },
     "民視旅遊台": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "民視旅遊台"
     },
     "民視生活通-FastTV飛速看": {
       "enabled": false,
@@ -4520,11 +4633,12 @@
       "notes": "4K台先复用普通卫视节目单"
     },
     "滾動力rollor": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "滾動力rollor"
     },
     "無線新聞台": {
       "enabled": false,
@@ -4614,11 +4728,12 @@
       "epg_name": "緯來電影台"
     },
     "緯來體育台": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "緯來體育台"
     },
     "翡翠台": {
       "enabled": true,
@@ -4671,12 +4786,13 @@
       "epg_name": "華視教育體育文化台"
     },
     "華視新聞資訊": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u",
         "taiwan.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "華視新聞資訊HD"
     },
     "西藏卫视": {
       "enabled": true,
@@ -4688,11 +4804,12 @@
       "epg_name": "西藏卫视"
     },
     "視納華仁紀實頻道": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "視納華仁紀實頻道"
     },
     "観るたび PRODUCED by るるぶ": {
       "enabled": false,
@@ -4704,32 +4821,36 @@
       "source_hint": "JP"
     },
     "豬哥亮歌廳秀": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-10, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "豬哥亮歌廳秀"
     },
     "車迷TV": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "車迷TV"
     },
     "達文西頻道": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "達文西頻道"
     },
     "采昌影劇台": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "采昌影劇台"
     },
     "金光布袋戲": {
       "enabled": true,
@@ -4787,11 +4908,12 @@
       "notes": "e.erw.cc 当日节目单"
     },
     "電影原聲台CMusic": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "電影原聲台CMusic"
     },
     "靖天卡通台": {
       "enabled": true,
@@ -4893,20 +5015,21 @@
       "epg_name": "非凡新聞台"
     },
     "韓國娛樂台 KMTV": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Taiwan-Backup.m3u"
-      ]
+      ],
+      "source": "TW",
+      "epg_name": "韓國娛樂台 KMTV"
     },
     "韓流チャンネル": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-05, needs EPG config",
+      "enabled": true,
       "playlist_files": [
         "Japan-Backup.m3u",
         "Japan.m3u"
       ],
-      "source_hint": "JP"
+      "source": "JP",
+      "epg_name": "KBS World　韓流専門チャンネル"
     },
     "香蕉直擊台": {
       "enabled": true,
