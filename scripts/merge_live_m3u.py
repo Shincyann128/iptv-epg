@@ -1092,12 +1092,47 @@ def fetch_kafei_entries() -> list[dict]:
     from collections import Counter
     status_dist = Counter(i.get("status", "?") for i in items)
     entries = module.build_entries(items)
-    if len(entries) < 10:
+    # CDN liveness probe: kafeizhibo's CDN (hello.ooo0ooo.top / pul-tenm.gkykp.com)
+    # has been observed returning 404/403 for all overseas IPs while the API stays
+    # alive. Skip entries whose stream URL is dead so merged output doesn't carry
+    # broken lines. Probe once per distinct URL, dedupe by URL.
+    import urllib.request
+    import concurrent.futures as cf
+
+    def _alive(url: str) -> bool:
+        try:
+            req = urllib.request.Request(
+                url, method="HEAD",
+                headers={
+                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                    "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0 Safari/537.36",
+                    "Referer": "https://kafeizhibo.cc/live/living",
+                },
+            )
+            with urllib.request.urlopen(req, timeout=8) as resp:
+                return 200 <= resp.status < 400
+        except Exception:
+            return False
+
+    probe_map = {}
+    with cf.ThreadPoolExecutor(max_workers=8) as ex:
+        future_map = {ex.submit(_alive, e["url"]): e for e in entries}
+        for fut in cf.as_completed(future_map):
+            e = future_map[fut]
+            try:
+                probe_map[e["url"]] = fut.result()
+            except Exception:
+                probe_map[e["url"]] = False
+    live_entries = [e for e in entries if probe_map.get(e["url"], False)]
+    dead = len(entries) - len(live_entries)
+    if dead:
+        print(f"  coffee: raw={len(entries)} dead_cdn_skipped={dead}", file=sys.stderr)
+    if len(live_entries) < 10:
         print(
-            f"  coffee DEBUG: raw={len(items)} status_dist={dict(status_dist)} built={len(entries)}",
+            f"  coffee DEBUG: raw={len(items)} status_dist={dict(status_dist)} built={len(entries)} alive={len(live_entries)}",
             file=sys.stderr,
         )
-    text = module.render(entries)
+    text = module.render(live_entries)
     return parse_m3u(text, source="咖啡直播")
 
 

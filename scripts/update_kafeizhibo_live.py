@@ -4,8 +4,8 @@ import urllib.request
 from pathlib import Path
 from urllib.parse import urljoin
 
-API_URL = "https://www.kafeizhibo.com/api/v1/archor"
-BASE_URL = "https://www.kafeizhibo.com"
+API_URL = "https://kafeizhibo.cc/api/v1/archor"
+BASE_URL = "https://kafeizhibo.cc"
 OUTPUT_FILE = Path(__file__).resolve().parents[1] / "kafeizhibo_live.m3u"
 USER_AGENT = "Mozilla/5.0 (Hermes Agent)"
 
@@ -16,7 +16,7 @@ def fetch_archors():
         headers={
             "User-Agent": USER_AGENT,
             "Accept": "application/json,text/plain,*/*",
-            "Referer": "https://www.kafeizhibo.com/live/living",
+            "Referer": "https://kafeizhibo.cc/live/living",
         },
     )
     with urllib.request.urlopen(req, timeout=30) as resp:
@@ -105,7 +105,7 @@ def build_entries(items: list[dict]) -> list[dict]:
 def render(entries: list[dict]) -> str:
     lines = [
         "#EXTM3U",
-        "# Generated from https://www.kafeizhibo.com/live/living",
+        "# Generated from https://kafeizhibo.cc/live/living",
         "# Auto-updated by GitHub Actions every 2 hours",
         "",
     ]
