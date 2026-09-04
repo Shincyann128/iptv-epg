@@ -16,7 +16,7 @@ import sys
 import urllib.request
 import ssl
 
-API_BASE = "https://aapi2.xbncs.com"
+API_BASE = "https://aapi20.xbncs.com"
 PAGE_SIZE = 30
 CHANNEL_PARAMS = "channelId=3&platform=1"
 HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
@@ -97,6 +97,14 @@ def fetch_room_info(room_id: int) -> dict:
 
 def generate_m3u(rooms: list) -> str:
     """Generate M3U content from room list."""
+    import re
+    import time
+
+    # 死链过滤：解析 pullUrl 中 auth_key 的 Unix 时间戳，超过 24h 视为已结束
+    # （API 不清理历史房间，state 字段新旧都是 1，不可靠）
+    AUTH_MAX_AGE_HOURS = 24
+    now_ts = int(time.time())
+
     lines = ["#EXTM3U"]
     for r in rooms:
         rid = r.get("roomId")
@@ -109,6 +117,14 @@ def generate_m3u(rooms: list) -> str:
         stream_url = pull_url or push_url
         if not stream_url:
             continue
+
+        # 过滤过期死链（仅对有 auth_key 的 URL）
+        auth_match = re.search(r"auth_key=(\d{10})-", stream_url)
+        if auth_match:
+            auth_ts = int(auth_match.group(1))
+            age_hours = (now_ts - auth_ts) / 3600
+            if age_hours > AUTH_MAX_AGE_HOURS:
+                continue  # 跳过死链
 
         title = r.get("title", "Unknown")
         nick = info.get("nickName", "") or r.get("nickName", "")
