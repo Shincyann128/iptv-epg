@@ -4315,6 +4315,22 @@
       "enabled": false,
       "reason": "无匹配EPG源"
     },
+    "朝鲜中央电视台备用1": {
+      "enabled": false,
+      "reason": "auto-added 2026-09-05, needs EPG config",
+      "playlist_files": [
+        "News.m3u"
+      ],
+      "source_hint": "US"
+    },
+    "朝鲜中央电视台备用2": {
+      "enabled": false,
+      "reason": "auto-added 2026-09-05, needs EPG config",
+      "playlist_files": [
+        "News.m3u"
+      ],
+      "source_hint": "US"
+    },
     "東森幼幼": {
       "enabled": true,
       "playlist_files": [
