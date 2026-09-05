@@ -354,30 +354,6 @@
       "source": "US",
       "epg_name": "Bowling TV"
     },
-    "CANAL+ Foot FR": {
-      "enabled": true,
-      "playlist_files": [
-        "Sports.m3u"
-      ],
-      "source": "FR",
-      "epg_name": "CANAL+FOOT"
-    },
-    "CANAL+ Sport 360 FR": {
-      "enabled": true,
-      "playlist_files": [
-        "Sports.m3u"
-      ],
-      "source": "FR",
-      "epg_name": "CANAL+SPORT360"
-    },
-    "CANAL+ Sport FR": {
-      "enabled": true,
-      "playlist_files": [
-        "Sports.m3u"
-      ],
-      "source": "FR",
-      "epg_name": "CANAL+SPORT"
-    },
     "CBS Sports Golazo Network": {
       "enabled": true,
       "playlist_files": [
@@ -393,13 +369,6 @@
       ],
       "source": "US",
       "epg_name": "CBS Sports Network HD"
-    },
-    "CCTV-4K超高清": {
-      "enabled": true,
-      "source": "CN",
-      "epg_name": "CCTV4K",
-      "alias_of": "CCTV4K",
-      "notes": "4K台用CCTV4K节目单"
     },
     "CCTV1": {
       "enabled": true,
@@ -2102,170 +2071,6 @@
       "source": "JPT",
       "epg_name": "スカイA"
     },
-    "Sky Sport 24 IT": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
-      "playlist_files": [
-        "Sports.m3u"
-      ],
-      "source_hint": "US"
-    },
-    "Sky Sport Arena IT": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
-      "playlist_files": [
-        "Sports.m3u"
-      ],
-      "source_hint": "US"
-    },
-    "Sky Sport Austria 1 DE": {
-      "enabled": true,
-      "playlist_files": [
-        "Sports.m3u"
-      ],
-      "source": "DE",
-      "epg_name": "Sky Sport Austria 1 HD"
-    },
-    "Sky Sport Basket IT": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
-      "playlist_files": [
-        "Sports.m3u"
-      ],
-      "source_hint": "US"
-    },
-    "Sky Sport Bundesliga DE": {
-      "enabled": true,
-      "source": "DE",
-      "epg_name": "Sky Sport Bundesliga",
-      "notes": "epg.pw DE源"
-    },
-    "Sky Sport Calcio IT": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
-      "playlist_files": [
-        "Sports.m3u"
-      ],
-      "source_hint": "US"
-    },
-    "Sky Sport F1 DE": {
-      "enabled": true,
-      "source": "DE",
-      "epg_name": "SKY Sport F1",
-      "notes": "epg.pw DE源"
-    },
-    "Sky Sport F1 IT": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
-      "playlist_files": [
-        "Sports.m3u"
-      ],
-      "source_hint": "US"
-    },
-    "Sky Sport Golf DE": {
-      "enabled": true,
-      "playlist_files": [
-        "Sports.m3u"
-      ],
-      "source": "DE",
-      "epg_name": "Sky Sport Golf"
-    },
-    "Sky Sport Golf IT": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
-      "playlist_files": [
-        "Sports.m3u"
-      ],
-      "source_hint": "US"
-    },
-    "Sky Sport Legend IT": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
-      "playlist_files": [
-        "Sports.m3u"
-      ],
-      "source_hint": "US"
-    },
-    "Sky Sport Max IT": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
-      "playlist_files": [
-        "Sports.m3u"
-      ],
-      "source_hint": "US"
-    },
-    "Sky Sport Mix DE": {
-      "enabled": true,
-      "playlist_files": [
-        "Sports.m3u"
-      ],
-      "source": "DE",
-      "epg_name": "Sky Sport Mix"
-    },
-    "Sky Sport Mix IT": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
-      "playlist_files": [
-        "Sports.m3u"
-      ],
-      "source_hint": "US"
-    },
-    "Sky Sport MotoGP IT": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
-      "playlist_files": [
-        "Sports.m3u"
-      ],
-      "source_hint": "US"
-    },
-    "Sky Sport News DE": {
-      "enabled": true,
-      "playlist_files": [
-        "Sports.m3u"
-      ],
-      "source": "DE",
-      "epg_name": "Sky Sport News"
-    },
-    "Sky Sport Premier League DE": {
-      "enabled": true,
-      "playlist_files": [
-        "Sports.m3u"
-      ],
-      "source": "DE",
-      "epg_name": "Sky Sport Premier League"
-    },
-    "Sky Sport Tennis DE": {
-      "enabled": true,
-      "playlist_files": [
-        "Sports.m3u"
-      ],
-      "source": "DE",
-      "epg_name": "Sky Sport Tennis"
-    },
-    "Sky Sport Tennis IT": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
-      "playlist_files": [
-        "Sports.m3u"
-      ],
-      "source_hint": "US"
-    },
-    "Sky Sport Top Event DE": {
-      "enabled": true,
-      "playlist_files": [
-        "Sports.m3u"
-      ],
-      "source": "DE",
-      "epg_name": "Sky Sport Top Event"
-    },
-    "Sky Sport Uno IT": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
-      "playlist_files": [
-        "Sports.m3u"
-      ],
-      "source_hint": "US"
-    },
     "Sky Sports 1 UHD UK": {
       "enabled": true,
       "playlist_files": [
@@ -3073,30 +2878,6 @@
       ],
       "source": "US",
       "epg_name": "beIN Sports USA HD"
-    },
-    "beIN Sports 1 FR": {
-      "enabled": true,
-      "playlist_files": [
-        "Sports.m3u"
-      ],
-      "source": "FR",
-      "epg_name": "beIN SPORTS 1"
-    },
-    "beIN Sports 2 FR": {
-      "enabled": true,
-      "playlist_files": [
-        "Sports.m3u"
-      ],
-      "source": "FR",
-      "epg_name": "beIN SPORTS 2"
-    },
-    "beIN Sports 3 FR": {
-      "enabled": true,
-      "playlist_files": [
-        "Sports.m3u"
-      ],
-      "source": "FR",
-      "epg_name": "beIN SPORTS 3"
     },
     "cctv16-4k": {
       "enabled": true,
