@@ -3323,30 +3323,33 @@
       "epg_name": "云南卫视"
     },
     "云南娱乐": {
-      "enabled": true,
+      "enabled": false,
       "playlist_files": [
         "China.m3u",
         "china-backup.m3u"
       ],
       "source": "ERW",
       "epg_name": "云南娱乐",
-      "notes": "e.erw.cc 当日节目单"
+      "notes": "e.erw.cc 当日节目单",
+      "reason": "ERW源(e.erw.cc)已失效404，待换源"
     },
     "云南都市": {
-      "enabled": true,
+      "enabled": false,
       "playlist_files": [
         "China.m3u",
         "china-backup.m3u"
       ],
       "source": "ERW",
       "epg_name": "云南都市",
-      "notes": "e.erw.cc 当日节目单"
+      "notes": "e.erw.cc 当日节目单",
+      "reason": "ERW源(e.erw.cc)已失效404，待换源"
     },
     "五星体育": {
-      "enabled": true,
+      "enabled": false,
       "source": "ERW",
       "epg_name": "五星体育",
-      "notes": "e.erw.cc 当日节目单(无未来预告)"
+      "notes": "e.erw.cc 当日节目单(无未来预告)",
+      "reason": "ERW源(e.erw.cc)已失效404，待换源"
     },
     "亞洲旅遊台": {
       "enabled": true,
@@ -4315,17 +4318,18 @@
       "notes": "4K台先复用普通卫视节目单"
     },
     "浙江国际": {
-      "enabled": true,
+      "enabled": false,
       "playlist_files": [
         "China.m3u",
         "china-backup.m3u"
       ],
       "source": "ERW",
-      "epg_name": "浙江国际"
+      "epg_name": "浙江国际",
+      "reason": "ERW源(e.erw.cc)已失效404，待换源"
     },
     "浙江教科": {
-      "enabled": true,
-      "reason": "auto-added 2026-08-06, needs EPG config",
+      "enabled": false,
+      "reason": "ERW源(e.erw.cc)已失效404，待换源",
       "playlist_files": [
         "China.m3u",
         "china-backup.m3u"
@@ -4352,8 +4356,8 @@
       "epg_name": "浙江民生"
     },
     "浙江经济": {
-      "enabled": true,
-      "reason": "auto-added 2026-08-06, needs EPG config",
+      "enabled": false,
+      "reason": "ERW源(e.erw.cc)已失效404，待换源",
       "playlist_files": [
         "China.m3u",
         "china-backup.m3u"
@@ -4675,34 +4679,37 @@
       "epg_name": "鏡電視新聞台"
     },
     "陕西秦腔": {
-      "enabled": true,
+      "enabled": false,
       "playlist_files": [
         "China.m3u",
         "china-backup.m3u"
       ],
       "source": "ERW",
       "epg_name": "陕西秦腔",
-      "notes": "e.erw.cc 当日节目单"
+      "notes": "e.erw.cc 当日节目单",
+      "reason": "ERW源(e.erw.cc)已失效404，待换源"
     },
     "陕西都市青春": {
-      "enabled": true,
+      "enabled": false,
       "playlist_files": [
         "China.m3u",
         "china-backup.m3u"
       ],
       "source": "ERW",
       "epg_name": "陕西都市青春",
-      "notes": "e.erw.cc 当日节目单"
+      "notes": "e.erw.cc 当日节目单",
+      "reason": "ERW源(e.erw.cc)已失效404，待换源"
     },
     "陕西银龄": {
-      "enabled": true,
+      "enabled": false,
       "playlist_files": [
         "China.m3u",
         "china-backup.m3u"
       ],
       "source": "ERW",
       "epg_name": "陕西银龄",
-      "notes": "e.erw.cc 当日节目单"
+      "notes": "e.erw.cc 当日节目单",
+      "reason": "ERW源(e.erw.cc)已失效404，待换源"
     },
     "電影原聲台CMusic": {
       "enabled": true,
