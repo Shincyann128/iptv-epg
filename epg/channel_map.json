@@ -412,6 +412,14 @@
       "epg_name": "CCTV-15 音乐",
       "notes": ""
     },
+    "CCTV16 4K": {
+      "enabled": false,
+      "reason": "auto-added 2026-09-06, needs EPG config",
+      "playlist_files": [
+        "China4K.m3u"
+      ],
+      "source_hint": "CN"
+    },
     "CCTV17": {
       "enabled": true,
       "source": "CN",
@@ -3508,6 +3516,14 @@
       "source": "CN",
       "epg_name": "北京卫视",
       "notes": ""
+    },
+    "北京卫视4K": {
+      "enabled": false,
+      "reason": "auto-added 2026-09-06, needs EPG config",
+      "playlist_files": [
+        "China4K.m3u"
+      ],
+      "source_hint": "CN"
     },
     "北京卫视4K超高清": {
       "enabled": true,
