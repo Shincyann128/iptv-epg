@@ -404,7 +404,7 @@
     "CCTV1": {
       "enabled": true,
       "source": "CN",
-      "epg_name": "CCTV-1综合",
+      "epg_name": "CCTV-1 综合",
       "notes": "epg.pw CN新ID(545998)，旧CCTV1已无数据"
     },
     "CCTV10": {
@@ -422,19 +422,19 @@
     "CCTV12": {
       "enabled": true,
       "source": "CN",
-      "epg_name": "CCTV-12法制",
+      "epg_name": "CCTV-12 社会与法",
       "notes": ""
     },
     "CCTV13": {
       "enabled": true,
       "source": "CN",
-      "epg_name": "CCTV-13新闻",
+      "epg_name": "CCTV-13 新闻",
       "notes": ""
     },
     "CCTV14": {
       "enabled": true,
       "source": "CN",
-      "epg_name": "CCTV-14少儿",
+      "epg_name": "CCTV-14 少儿",
       "notes": ""
     },
     "CCTV15": {
@@ -452,7 +452,7 @@
     "CCTV2": {
       "enabled": true,
       "source": "CN",
-      "epg_name": "CCTV-2财经",
+      "epg_name": "CCTV-2 财经",
       "notes": ""
     },
     "CCTV3": {
@@ -464,7 +464,7 @@
     "CCTV4": {
       "enabled": true,
       "source": "CN",
-      "epg_name": "CCTV-4国际",
+      "epg_name": "CCTV-4 (亚洲)",
       "notes": "epg.pw CN用CCTV-4 (亚洲)/CCTV-4国际等"
     },
     "CCTV4K超高清": {
@@ -487,7 +487,7 @@
     "CCTV5": {
       "enabled": true,
       "source": "CN",
-      "epg_name": "CCTV-5体育",
+      "epg_name": "CCTV-5 体育",
       "notes": ""
     },
     "CCTV5+": {
@@ -499,25 +499,25 @@
     "CCTV6": {
       "enabled": true,
       "source": "CN",
-      "epg_name": "CCTV-6电影",
+      "epg_name": "CCTV-6 电影",
       "notes": ""
     },
     "CCTV7": {
       "enabled": true,
       "source": "CN",
-      "epg_name": "CCTV-7国防军事",
+      "epg_name": "CCTV-7 国防军事",
       "notes": ""
     },
     "CCTV8": {
       "enabled": true,
       "source": "CN",
-      "epg_name": "CCTV-8电视剧",
+      "epg_name": "CCTV-8 电视剧",
       "notes": ""
     },
     "CCTV9": {
       "enabled": true,
       "source": "CN",
-      "epg_name": "CCTV-9纪录",
+      "epg_name": "CCTV-9 纪录",
       "notes": ""
     },
     "CCTV世界地理": {
