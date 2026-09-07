@@ -17,6 +17,13 @@
     "FR": "https://epg.pw/xmltv/epg_FR.xml.gz"
   },
   "channels": {
+    "- ぷれいば！～ゲーム専門チャンネル～": {
+      "enabled": false,
+      "reason": "auto-added 2026-09-08, needs EPG config",
+      "playlist_files": [
+        "Japan-Backup.m3u"
+      ]
+    },
     "ABC": {
       "enabled": true,
       "source": "JP",
@@ -77,6 +84,27 @@
       "source": "HK",
       "epg_name": "AXN"
     },
+    "AbemaTV CM (VPN JP)": {
+      "enabled": false,
+      "reason": "auto-added 2026-09-08, needs EPG config",
+      "playlist_files": [
+        "Japan-Backup.m3u"
+      ]
+    },
+    "AbemaTV NEWS (VPN JP)": {
+      "enabled": false,
+      "reason": "auto-added 2026-09-08, needs EPG config",
+      "playlist_files": [
+        "Japan-Backup.m3u"
+      ]
+    },
+    "AbemaTV NEWSPLUS (VPN JP)": {
+      "enabled": false,
+      "reason": "auto-added 2026-09-08, needs EPG config",
+      "playlist_files": [
+        "Japan-Backup.m3u"
+      ]
+    },
     "Action Channel": {
       "enabled": true,
       "playlist_files": [
@@ -126,6 +154,34 @@
       "enabled": true,
       "source": "JP",
       "epg_name": "アニマックス"
+    },
+    "Anime 24/7 (ROKU)": {
+      "enabled": false,
+      "reason": "auto-added 2026-09-08, needs EPG config",
+      "playlist_files": [
+        "Japan-Backup.m3u"
+      ]
+    },
+    "Anime Visión (Spain)": {
+      "enabled": false,
+      "reason": "auto-added 2026-09-08, needs EPG config",
+      "playlist_files": [
+        "Japan-Backup.m3u"
+      ]
+    },
+    "Anime Visión Classics (Spain)": {
+      "enabled": false,
+      "reason": "auto-added 2026-09-08, needs EPG config",
+      "playlist_files": [
+        "Japan-Backup.m3u"
+      ]
+    },
+    "AnimeXHIDIVE (ROKU)": {
+      "enabled": false,
+      "reason": "auto-added 2026-09-08, needs EPG config",
+      "playlist_files": [
+        "Japan-Backup.m3u"
+      ]
     },
     "Apple f1": {
       "enabled": false,
@@ -187,6 +243,13 @@
       "enabled": true,
       "source": "JP",
       "epg_name": "ＢＳフジ・181"
+    },
+    "BS Fuji 182 (ConvergeTV)": {
+      "enabled": false,
+      "reason": "auto-added 2026-09-08, needs EPG config",
+      "playlist_files": [
+        "Japan-Backup.m3u"
+      ]
     },
     "BS Fuji 4K": {
       "enabled": true,
@@ -288,6 +351,13 @@
       "source": "JPT",
       "epg_name": "ＢＳ１０"
     },
+    "BS10 Orange Channel (ConvergeTV)": {
+      "enabled": false,
+      "reason": "auto-added 2026-09-08, needs EPG config",
+      "playlist_files": [
+        "Japan-Backup.m3u"
+      ]
+    },
     "BS11": {
       "enabled": true,
       "playlist_files": [
@@ -303,6 +373,13 @@
       ],
       "source": "JPT",
       "epg_name": "BS12トゥエルビ"
+    },
+    "BS4 Nittele Premium (ConvergeTV)": {
+      "enabled": false,
+      "reason": "auto-added 2026-09-08, needs EPG config",
+      "playlist_files": [
+        "Japan-Backup.m3u"
+      ]
     },
     "Big Ten Network": {
       "enabled": true,
@@ -505,6 +582,13 @@
       ],
       "source": "SD",
       "epg_name": "CCTV世界地理"
+    },
+    "CGNTV Japan (HD)": {
+      "enabled": false,
+      "reason": "auto-added 2026-09-08, needs EPG config",
+      "playlist_files": [
+        "Japan-Backup.m3u"
+      ]
     },
     "CGTN": {
       "enabled": true,
@@ -841,6 +925,13 @@
       ],
       "source_hint": "US"
     },
+    "FILMRISE Anime (TCL)": {
+      "enabled": false,
+      "reason": "auto-added 2026-09-08, needs EPG config",
+      "playlist_files": [
+        "Japan-Backup.m3u"
+      ]
+    },
     "FNNプライムオンライン": {
       "enabled": false,
       "reason": "auto-added 2026-08-06, needs EPG config",
@@ -902,6 +993,13 @@
         "Japan.m3u"
       ],
       "source_hint": "JP"
+    },
+    "FUELTV": {
+      "enabled": false,
+      "reason": "auto-added 2026-09-08, needs EPG config",
+      "playlist_files": [
+        "Japan-Backup.m3u"
+      ]
     },
     "Family Gekijo": {
       "enabled": true,
@@ -980,6 +1078,13 @@
       "source": "JP",
       "epg_name": "フジテレビＴＷＯ　ドラマ・アニメ"
     },
+    "Fuji Terebi (MOV3)": {
+      "enabled": false,
+      "reason": "auto-added 2026-09-08, needs EPG config",
+      "playlist_files": [
+        "Japan-Backup.m3u"
+      ]
+    },
     "GAORA": {
       "enabled": true,
       "source": "JP",
@@ -992,6 +1097,13 @@
       ],
       "source": "JP",
       "epg_name": "GAORA SPORTS"
+    },
+    "GAORA ZERO": {
+      "enabled": false,
+      "reason": "auto-added 2026-09-08, needs EPG config",
+      "playlist_files": [
+        "Japan-Backup.m3u"
+      ]
     },
     "GINX Esports TV": {
       "enabled": true,
@@ -1079,6 +1191,13 @@
         "Sports.m3u"
       ],
       "source_hint": "US"
+    },
+    "HISTORY CHANNEL": {
+      "enabled": false,
+      "reason": "auto-added 2026-09-08, needs EPG config",
+      "playlist_files": [
+        "Japan-Backup.m3u"
+      ]
     },
     "HITS頻道": {
       "enabled": true,
@@ -1335,6 +1454,13 @@
       "source": "JP",
       "epg_name": "毎日テレビ"
     },
+    "MBS ニュース": {
+      "enabled": false,
+      "reason": "auto-added 2026-09-08, needs EPG config",
+      "playlist_files": [
+        "Japan-Backup.m3u"
+      ]
+    },
     "MBSニュース": {
       "enabled": false,
       "reason": "auto-added 2026-08-06, needs EPG config",
@@ -1342,6 +1468,13 @@
         "Japan.m3u"
       ],
       "source_hint": "JP"
+    },
+    "MEN'S NECO CHANNEL": {
+      "enabled": false,
+      "reason": "auto-added 2026-09-08, needs EPG config",
+      "playlist_files": [
+        "Japan-Backup.m3u"
+      ]
     },
     "MLB Network": {
       "enabled": true,
@@ -1635,6 +1768,13 @@
       "source_hint": "JP",
       "alias_of": "NHK BS"
     },
+    "NHK BS101 Premium (Contra)": {
+      "enabled": false,
+      "reason": "auto-added 2026-09-08, needs EPG config",
+      "playlist_files": [
+        "Japan-Backup.m3u"
+      ]
+    },
     "NHK BS4K": {
       "enabled": true,
       "source": "JP",
@@ -1719,6 +1859,20 @@
       "source": "JP",
       "epg_name": "NHK大阪　総合"
     },
+    "NHK G Tokyo (MOV3)": {
+      "enabled": false,
+      "reason": "auto-added 2026-09-08, needs EPG config",
+      "playlist_files": [
+        "Japan-Backup.m3u"
+      ]
+    },
+    "NHK G Yamagata (Test Transmission)": {
+      "enabled": false,
+      "reason": "auto-added 2026-09-08, needs EPG config",
+      "playlist_files": [
+        "Japan-Backup.m3u"
+      ]
+    },
     "NHK G 備用": {
       "enabled": true,
       "playlist_files": [
@@ -1735,6 +1889,13 @@
       "source": "TW",
       "epg_name": "NHK WORLD-JAPAN"
     },
+    "NHK World (Tokyo Landscape)": {
+      "enabled": false,
+      "reason": "auto-added 2026-09-08, needs EPG config",
+      "playlist_files": [
+        "Japan-Backup.m3u"
+      ]
+    },
     "NHK World Japan": {
       "enabled": true,
       "playlist_files": [
@@ -1743,6 +1904,20 @@
       ],
       "source": "JP",
       "epg_name": "NHK World-Japan"
+    },
+    "NHK World Japan (FULL HD)": {
+      "enabled": false,
+      "reason": "auto-added 2026-09-08, needs EPG config",
+      "playlist_files": [
+        "Japan-Backup.m3u"
+      ]
+    },
+    "NHK World Japan (Main Ch)": {
+      "enabled": false,
+      "reason": "auto-added 2026-09-08, needs EPG config",
+      "playlist_files": [
+        "Japan-Backup.m3u"
+      ]
     },
     "NHK World-Japan": {
       "enabled": true,
@@ -1835,6 +2010,13 @@
       "source": "HK",
       "epg_name": "NewsWorld"
     },
+    "Newsworld (Japan Sub)": {
+      "enabled": false,
+      "reason": "auto-added 2026-09-08, needs EPG config",
+      "playlist_files": [
+        "Japan-Backup.m3u"
+      ]
+    },
     "Nice TV 靖天歡樂台": {
       "enabled": true,
       "playlist_files": [
@@ -1856,6 +2038,13 @@
       "enabled": true,
       "source": "JP",
       "epg_name": "日本映画専門チャンネル"
+    },
+    "NipponTV - NTV (MOV3)": {
+      "enabled": false,
+      "reason": "auto-added 2026-09-08, needs EPG config",
+      "playlist_files": [
+        "Japan-Backup.m3u"
+      ]
     },
     "Nittele G+": {
       "enabled": true,
@@ -2034,6 +2223,13 @@
       ],
       "source_hint": "JP"
     },
+    "Reuters 60°": {
+      "enabled": false,
+      "reason": "auto-added 2026-09-08, needs EPG config",
+      "playlist_files": [
+        "Japan-Backup.m3u"
+      ]
+    },
     "SBN全球財經台": {
       "enabled": true,
       "playlist_files": [
@@ -2073,6 +2269,13 @@
       "enabled": true,
       "source": "JP",
       "epg_name": "ショップチャンネル"
+    },
+    "Shop Channel (JP)": {
+      "enabled": false,
+      "reason": "auto-added 2026-09-08, needs EPG config",
+      "playlist_files": [
+        "Japan-Backup.m3u"
+      ]
     },
     "Sky A": {
       "enabled": true,
@@ -2365,6 +2568,20 @@
       ],
       "source_hint": "GB"
     },
+    "Stockvoice TV Japan": {
+      "enabled": false,
+      "reason": "auto-added 2026-09-08, needs EPG config",
+      "playlist_files": [
+        "Japan-Backup.m3u"
+      ]
+    },
+    "Stockvoice TV Live": {
+      "enabled": false,
+      "reason": "auto-added 2026-09-08, needs EPG config",
+      "playlist_files": [
+        "Japan-Backup.m3u"
+      ]
+    },
     "Strongman Champions League": {
       "enabled": false,
       "reason": "auto-added 2026-08-29, needs EPG config",
@@ -2408,10 +2625,24 @@
       "source": "JP",
       "epg_name": "TBS NEWS"
     },
+    "TBS NEWS DIG (TVerチャンネル)": {
+      "enabled": false,
+      "reason": "auto-added 2026-09-08, needs EPG config",
+      "playlist_files": [
+        "Japan-Backup.m3u"
+      ]
+    },
     "TBS News": {
       "enabled": true,
       "source": "JP",
       "epg_name": "TBS NEWS"
+    },
+    "TBS Terebi (MOV3)": {
+      "enabled": false,
+      "reason": "auto-added 2026-09-08, needs EPG config",
+      "playlist_files": [
+        "Japan-Backup.m3u"
+      ]
     },
     "TBS チャンネル 1": {
       "enabled": true,
@@ -2428,6 +2659,20 @@
       ],
       "source": "JP",
       "epg_name": "ＴＢＳチャンネル２ 名作ドラマ・スポーツ・アニメ"
+    },
+    "TBS系 (TVerチャンネル)": {
+      "enabled": false,
+      "reason": "auto-added 2026-09-08, needs EPG config",
+      "playlist_files": [
+        "Japan-Backup.m3u"
+      ]
+    },
+    "TCL Anime (TCL+)": {
+      "enabled": false,
+      "reason": "auto-added 2026-09-08, needs EPG config",
+      "playlist_files": [
+        "Japan-Backup.m3u"
+      ]
     },
     "TLC旅遊生活": {
       "enabled": true,
@@ -2490,6 +2735,13 @@
       ],
       "source": "JP",
       "epg_name": "Tokyo MX2"
+    },
+    "TOKYOMX チャンネル": {
+      "enabled": false,
+      "reason": "auto-added 2026-09-08, needs EPG config",
+      "playlist_files": [
+        "Japan-Backup.m3u"
+      ]
     },
     "TOP BARÇA": {
       "enabled": false,
@@ -2605,6 +2857,13 @@
       "source": "JP",
       "epg_name": "テレビ大阪"
     },
+    "TV TOKYO HD": {
+      "enabled": false,
+      "reason": "auto-added 2026-09-08, needs EPG config",
+      "playlist_files": [
+        "Japan-Backup.m3u"
+      ]
+    },
     "TV Tokyo": {
       "enabled": true,
       "source": "JP",
@@ -2617,6 +2876,13 @@
       ],
       "source": "TW",
       "epg_name": "TV5MONDE STYLE HD 生活時尚"
+    },
+    "TVAsahi (MOV3)": {
+      "enabled": false,
+      "reason": "auto-added 2026-09-08, needs EPG config",
+      "playlist_files": [
+        "Japan-Backup.m3u"
+      ]
     },
     "TVB Plus": {
       "enabled": false,
@@ -2742,6 +3008,34 @@
       "enabled": true,
       "source": "JP",
       "epg_name": "鉄道チャンネル"
+    },
+    "That's 70s": {
+      "enabled": false,
+      "reason": "auto-added 2026-09-08, needs EPG config",
+      "playlist_files": [
+        "Japan-Backup.m3u"
+      ]
+    },
+    "That's 80s": {
+      "enabled": false,
+      "reason": "auto-added 2026-09-08, needs EPG config",
+      "playlist_files": [
+        "Japan-Backup.m3u"
+      ]
+    },
+    "That's 90s & 00s": {
+      "enabled": false,
+      "reason": "auto-added 2026-09-08, needs EPG config",
+      "playlist_files": [
+        "Japan-Backup.m3u"
+      ]
+    },
+    "That's ROCK": {
+      "enabled": false,
+      "reason": "auto-added 2026-09-08, needs EPG config",
+      "playlist_files": [
+        "Japan-Backup.m3u"
+      ]
     },
     "The Cinema": {
       "enabled": true,
@@ -2971,6 +3265,20 @@
       "epg_name": "読売テレビ",
       "notes": "关西地方台 ytv"
     },
+    "《09.30終》FREETV ニュース • POWERED by 17LIVE": {
+      "enabled": false,
+      "reason": "auto-added 2026-09-08, needs EPG config",
+      "playlist_files": [
+        "Japan-Backup.m3u"
+      ]
+    },
+    "おとなの歓楽街 by MEN'S NECO": {
+      "enabled": false,
+      "reason": "auto-added 2026-09-08, needs EPG config",
+      "playlist_files": [
+        "Japan-Backup.m3u"
+      ]
+    },
     "ぴあ落語ざんまい": {
       "enabled": false,
       "reason": "auto-added 2026-08-05, needs EPG config",
@@ -2988,6 +3296,13 @@
       ],
       "source_hint": "JP"
     },
+    "アイドル・グラビア": {
+      "enabled": false,
+      "reason": "auto-added 2026-09-08, needs EPG config",
+      "playlist_files": [
+        "Japan-Backup.m3u"
+      ]
+    },
     "アニマックスFREE": {
       "enabled": true,
       "playlist_files": [
@@ -2996,6 +3311,13 @@
       ],
       "source": "JP",
       "epg_name": "アニマックス"
+    },
+    "ウェザーニュース LIVE": {
+      "enabled": false,
+      "reason": "auto-added 2026-09-08, needs EPG config",
+      "playlist_files": [
+        "Japan-Backup.m3u"
+      ]
     },
     "エンタメニュース POWERED BY ORICON NEWS": {
       "enabled": false,
@@ -3014,6 +3336,13 @@
         "Japan.m3u"
       ],
       "source_hint": "JP"
+    },
+    "エンタメ～テレ DEEP": {
+      "enabled": false,
+      "reason": "auto-added 2026-09-08, needs EPG config",
+      "playlist_files": [
+        "Japan-Backup.m3u"
+      ]
     },
     "エンタメ～テレDEEP": {
       "enabled": true,
@@ -3059,6 +3388,13 @@
       "source": "JP",
       "epg_name": "グリーンチャンネル"
     },
+    "ゴルフ": {
+      "enabled": false,
+      "reason": "auto-added 2026-09-08, needs EPG config",
+      "playlist_files": [
+        "Japan-Backup.m3u"
+      ]
+    },
     "ショップチャンネル": {
       "enabled": true,
       "playlist_files": [
@@ -3067,6 +3403,13 @@
       "source_hint": "JP",
       "source": "JP",
       "epg_name": "ショップチャンネル"
+    },
+    "スカイ A - サプリ": {
+      "enabled": false,
+      "reason": "auto-added 2026-09-08, needs EPG config",
+      "playlist_files": [
+        "Japan-Backup.m3u"
+      ]
     },
     "セクシーエンタメチャンネル": {
       "enabled": false,
@@ -3091,6 +3434,20 @@
       ],
       "source": "JP",
       "epg_name": "テレビ東京"
+    },
+    "テレ朝系 (TVerチャンネル)": {
+      "enabled": false,
+      "reason": "auto-added 2026-09-08, needs EPG config",
+      "playlist_files": [
+        "Japan-Backup.m3u"
+      ]
+    },
+    "テレ東系 (TVerチャンネル)": {
+      "enabled": false,
+      "reason": "auto-added 2026-09-08, needs EPG config",
+      "playlist_files": [
+        "Japan-Backup.m3u"
+      ]
     },
     "パチンコ・パチスロ": {
       "enabled": true,
@@ -3144,6 +3501,13 @@
       "source": "JP",
       "epg_name": "フジテレビＴＷＯ　ドラマ・アニメ"
     },
+    "フジテレビ系 (TVerチャンネル)": {
+      "enabled": false,
+      "reason": "auto-added 2026-09-08, needs EPG config",
+      "playlist_files": [
+        "Japan-Backup.m3u"
+      ]
+    },
     "ペットTV": {
       "enabled": false,
       "reason": "auto-added 2026-08-05, needs EPG config",
@@ -3160,6 +3524,13 @@
         "Japan.m3u"
       ],
       "source_hint": "JP"
+    },
+    "ユーロニュース": {
+      "enabled": false,
+      "reason": "auto-added 2026-09-08, needs EPG config",
+      "playlist_files": [
+        "Japan-Backup.m3u"
+      ]
     },
     "ワンニャンチャンネル": {
       "enabled": false,
@@ -3927,6 +4298,13 @@
       "source": "TW",
       "epg_name": "寰宇新聞台灣台"
     },
+    "将棋": {
+      "enabled": false,
+      "reason": "auto-added 2026-09-08, needs EPG config",
+      "playlist_files": [
+        "Japan-Backup.m3u"
+      ]
+    },
     "小公視": {
       "enabled": true,
       "playlist_files": [
@@ -4055,6 +4433,20 @@
       "source": "JP",
       "epg_name": "日テレNEWS24"
     },
+    "日テレ NEWS24 (TVerチャンネル)": {
+      "enabled": false,
+      "reason": "auto-added 2026-09-08, needs EPG config",
+      "playlist_files": [
+        "Japan-Backup.m3u"
+      ]
+    },
+    "日テレNEWS": {
+      "enabled": false,
+      "reason": "auto-added 2026-09-08, needs EPG config",
+      "playlist_files": [
+        "Japan-Backup.m3u"
+      ]
+    },
     "日テレNEWSセレクト": {
       "enabled": false,
       "reason": "auto-added 2026-08-06, needs EPG config",
@@ -4062,6 +4454,13 @@
         "Japan.m3u"
       ],
       "source_hint": "JP"
+    },
+    "日テレ系 (TVerチャンネル)": {
+      "enabled": false,
+      "reason": "auto-added 2026-09-08, needs EPG config",
+      "playlist_files": [
+        "Japan-Backup.m3u"
+      ]
     },
     "日本テレビ(日テレ)": {
       "enabled": true,
@@ -4076,6 +4475,20 @@
       "reason": "auto-added 2026-08-05, needs EPG config",
       "playlist_files": [
         "Taiwan-Backup.m3u"
+      ]
+    },
+    "日ﾃﾚﾌﾟﾛﾚｽ ｱｰｶｲ部": {
+      "enabled": false,
+      "reason": "auto-added 2026-09-08, needs EPG config",
+      "playlist_files": [
+        "Japan-Backup.m3u"
+      ]
+    },
+    "映画 (R15+)": {
+      "enabled": false,
+      "reason": "auto-added 2026-09-08, needs EPG config",
+      "playlist_files": [
+        "Japan-Backup.m3u"
       ]
     },
     "映画（年齢制限あり）": {
@@ -4457,6 +4870,13 @@
       "source": "TW",
       "epg_name": "滾動力rollor"
     },
+    "演歌・歌謡": {
+      "enabled": false,
+      "reason": "auto-added 2026-09-08, needs EPG config",
+      "playlist_files": [
+        "Japan-Backup.m3u"
+      ]
+    },
     "無線新聞台": {
       "enabled": false,
       "reason": "auto-added 2026-08-05, needs EPG config",
@@ -4683,6 +5103,20 @@
       "reason": "auto-added 2026-08-05, needs EPG config",
       "playlist_files": [
         "Taiwan-Backup.m3u"
+      ]
+    },
+    "釣り": {
+      "enabled": false,
+      "reason": "auto-added 2026-09-08, needs EPG config",
+      "playlist_files": [
+        "Japan-Backup.m3u"
+      ]
+    },
+    "鉄道・旅": {
+      "enabled": false,
+      "reason": "auto-added 2026-09-08, needs EPG config",
+      "playlist_files": [
+        "Japan-Backup.m3u"
       ]
     },
     "鏡電視新聞台": {
