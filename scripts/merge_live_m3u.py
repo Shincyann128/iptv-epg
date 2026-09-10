@@ -29,6 +29,11 @@ DYNAMIC_LOCAL_CACHE_TTL = 3 * 3600  # 3 hours; sports merge still runs every 15 
 TV1288_URL = "https://itv.tv1288.xyz"
 TV1288_CACHE = REPO_ROOT / "tv1288_cache.txt"
 TV1288_CACHE_MAX_AGE = 24 * 3600  # merge skips cache older than 24h
+
+# 中外双侧实测都不可达的主机（黑名单）：这些主机的中外探针一致返回 404/DNS 失败，
+# 属于"源站自己把死链写进了页面"，与本机所在地区无关，发布列表中一律剔除。
+# 注意：不要把 pul-tenm.gkykp.com 这类"只对海外 403、国内 200"的主机放进这里。
+DEAD_STREAM_HOSTS = {"hello.ooo0ooo.top", "live.666666.zip", "stream.sports3.win"}
 SOURCES = ["看球通", "咖啡直播", "咪咕直播", "看球吧", "live-event", "damizhibo"]
 REPLAY_KEYWORDS = ("回放", "录像", "VOD")
 
@@ -1092,41 +1097,62 @@ def fetch_kafei_entries() -> list[dict]:
     from collections import Counter
     status_dist = Counter(i.get("status", "?") for i in items)
     entries = module.build_entries(items)
-    # CDN liveness probe: kafeizhibo's CDN (hello.ooo0ooo.top / pul-tenm.gkykp.com)
-    # has been observed returning 404/403 for all overseas IPs while the API stays
-    # alive. Skip entries whose stream URL is dead so merged output doesn't carry
-    # broken lines. Probe once per distinct URL, dedupe by URL.
+    # CDN 存活探测（三态）——本脚本跑在美西机器上，而 kafeizhibo 的 CDN
+    # (hello.ooo0ooo.top / pul-tenm.gkykp.com) 对海外 IP 是按地区拒绝，返回
+    # 403/404 并不代表源死了：实测 pul-tenm(腾讯云) 美西 403、国内 200 且能拉
+    # 出 ~1MB 真 TS 分片。所以判据必须是"全球都死"才丢，否则会把自己能播的
+    # 国内线路删掉（曾把 6 条腾讯云线路全删，导致咖啡组只剩 1 条）：
+    #   200/206                 -> alive
+    #   403/451                 -> 地区限制，保留（国内可播）
+    #   404 / DNS 失败 / 超时    -> dead，丢弃
+    # 黑名单 = 中外双侧实测都死的主机。
+    DEAD_HOSTS = DEAD_STREAM_HOSTS
+
     import urllib.request
+    import urllib.error
     import concurrent.futures as cf
 
-    def _alive(url: str) -> bool:
+    def _verdict(url: str) -> str:
+        host = url.split("/")[2] if "//" in url else ""
+        if host in DEAD_HOSTS:
+            return "dead"
         try:
             req = urllib.request.Request(
-                url, method="HEAD",
+                url,
                 headers={
                     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
                     "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0 Safari/537.36",
+                    "Range": "bytes=0-1023",
                     "Referer": "https://kafeizhibo.cc/live/living",
                 },
             )
             with urllib.request.urlopen(req, timeout=8) as resp:
-                return 200 <= resp.status < 400
+                return "alive" if 200 <= resp.status < 400 else "dead"
+        except urllib.error.HTTPError as e:
+            if e.code in (403, 451):  # 地区限制：保留，国内可播
+                return "geo"
+            return "dead"
         except Exception:
-            return False
+            return "dead"
 
     probe_map = {}
     with cf.ThreadPoolExecutor(max_workers=8) as ex:
-        future_map = {ex.submit(_alive, e["url"]): e for e in entries}
+        future_map = {ex.submit(_verdict, e["url"]): e for e in entries}
         for fut in cf.as_completed(future_map):
             e = future_map[fut]
             try:
                 probe_map[e["url"]] = fut.result()
             except Exception:
-                probe_map[e["url"]] = False
-    live_entries = [e for e in entries if probe_map.get(e["url"], False)]
-    dead = len(entries) - len(live_entries)
-    if dead:
-        print(f"  coffee: raw={len(entries)} dead_cdn_skipped={dead}", file=sys.stderr)
+                probe_map[e["url"]] = "dead"
+    live_entries = [e for e in entries if probe_map.get(e["url"], "dead") != "dead"]
+    geo = sum(1 for e in entries if probe_map.get(e["url"]) == "geo")
+    dead = sum(1 for e in entries if probe_map.get(e["url"]) == "dead")
+    if dead or geo:
+        print(
+            f"  coffee: raw={len(entries)} kept={len(live_entries)} "
+            f"geo_kept={geo} dead_skipped={dead}",
+            file=sys.stderr,
+        )
     if len(live_entries) < 10:
         print(
             f"  coffee DEBUG: raw={len(items)} status_dist={dict(status_dist)} built={len(entries)} alive={len(live_entries)}",
@@ -1274,9 +1300,14 @@ def fetch_liveevent_entries() -> list[dict]:
         raise RuntimeError(f"live-event Docker 不可用: {exc}")
 
     # Resolve each proxy URL to the actual CDN stream URL
+    # 用 GET + Range 解析 302（HEAD 对同一路径时好时坏：有时 404 有时 302）
+    # 解析不出来 / 解析回 127.0.0.1 / 落到占位片 → 整条丢弃，
+    # 绝不能把 http://127.0.0.1:28989/... 发到手机上（必然打不开）。
+    PLACEHOLDER_HOSTS = ("cdn.jsdelivr.net", "raw.githubusercontent.com")
     lines = text.splitlines()
     resolved = []
     skip_next = False
+    dropped = 0
     for i, line in enumerate(lines):
         if skip_next:
             skip_next = False
@@ -1285,16 +1316,36 @@ def fetch_liveevent_entries() -> list[dict]:
             skip_next = True
             continue
         if line.startswith("http://127.0.0.1:28989/"):
-            # Resolve through local proxy
+            cdn_url = ""
             try:
-                req = urllib.request.Request(line, method="HEAD")
+                req = urllib.request.Request(
+                    line,
+                    headers={
+                        "Range": "bytes=0-1023",
+                        "User-Agent": "ExoPlayerLib/2.18.7",
+                    },
+                )
                 with urllib.request.urlopen(req, timeout=10) as resp:
                     cdn_url = resp.geturl()
-                    if cdn_url and cdn_url != line:
-                        line = cdn_url
             except Exception:
-                pass  # keep original if resolve fails
+                cdn_url = ""
+            bad = (
+                not cdn_url
+                or cdn_url == line
+                or "127.0.0.1" in cdn_url
+                or "localhost" in cdn_url
+                or any(h in cdn_url for h in PLACEHOLDER_HOSTS)
+            )
+            if bad:
+                if resolved and resolved[-1].startswith("#EXTINF"):
+                    resolved.pop()
+                dropped += 1
+                continue
+            line = cdn_url
         resolved.append(line)
+
+    if dropped:
+        print(f"  live-event: dropped_unresolved={dropped}", file=sys.stderr)
 
     return parse_m3u("\n".join(resolved), source="live-event")
 
@@ -1322,8 +1373,10 @@ def fetch_damizhibo_entries() -> list[dict]:
 
     entries = parse_m3u(text, source="damizhibo")
 
-    # Filter: remove 录像 groups, placeholder entries, and non-live matches
+    # Filter: remove 录像 groups, placeholder entries, dead-stream hosts,
+    # and non-live matches
     filtered = []
+    dead_host = 0
     for e in entries:
         # Skip 录像 groups
         if "录像" in e.get("group", ""):
@@ -1332,9 +1385,17 @@ def fetch_damizhibo_entries() -> list[dict]:
         name = e.get("name", "")
         if "官网" in name or "dami.live" in name or "ricetv" in name:
             continue
+        # Skip hosts that are dead for everyone (源站自己保留了死链)
+        host = e.get("url", "").split("/")[2] if "//" in e.get("url", "") else ""
+        if host in DEAD_STREAM_HOSTS:
+            dead_host += 1
+            continue
         filtered.append(e)
 
-    print(f"  damizhibo: raw={len(entries)} filtered={len(filtered)}", file=sys.stderr)
+    print(
+        f"  damizhibo: raw={len(entries)} filtered={len(filtered)} dead_host_skipped={dead_host}",
+        file=sys.stderr,
+    )
     return filtered
 
 
