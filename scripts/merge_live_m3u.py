@@ -604,51 +604,69 @@ def cluster_matches(entries: list[dict]) -> list[list[dict]]:
 #  Display-name rendering
 # ══════════════════════════════════════════════════
 
-def render_sports_display(entry: dict) -> str:
-    """Build uniform display name for a sports entry.
+_DISPLAY_BAD_RE = re.compile(r"[\[\]|｜]")
+_DISPLAY_WS_RE = re.compile(r"\s+")
+_DISPLAY_FMT_RE = re.compile(r"(?<![A-Za-z])(?:flv|hls)(?![A-Za-z])", re.I)
+_DISPLAY_VS_RE = re.compile(r"\s*[Vv][Ss]\s*")
 
-    Format: [src_short] league team1 vs team2 | extra_info
+
+def _clean_display_segment(text) -> str:
+    """清掉频道名里的 [] |、FLV/HLS 标记并压空白（APTV 友好）。"""
+    s = _DISPLAY_BAD_RE.sub(" ", str(text or ""))
+    s = _DISPLAY_FMT_RE.sub(" ", s)
+    s = _DISPLAY_WS_RE.sub(" ", s)
+    s = _DISPLAY_VS_RE.sub("vs", s)
+    return s.strip(" -·、,")
+
+
+def render_sports_display(entry: dict) -> str:
+    """Build uniform, cleaned display name for a sports entry.
+
+    Format: src league team1vs team2·extra   (no brackets, no pipe, no FLV/HLS tag)
     Non-match entries fall back to cleaned raw name.
     """
-    src = entry.get("source_short", entry.get("source", "?"))
-    league = entry.get("league", "")
-    team1 = entry.get("team1", "")
-    team2 = entry.get("team2", "")
+    src = _clean_display_segment(entry.get("source_short") or entry.get("source") or "?")
+    league = _clean_display_segment(entry.get("league", ""))
+    team1 = _clean_display_segment(entry.get("team1", ""))
+    team2 = _clean_display_segment(entry.get("team2", ""))
 
     if not entry.get("is_match") or not (team1 and team2):
         # Non-match or parse failure: use display_extra or cleaned raw name
-        extra = entry.get("display_extra", "")
-        if extra:
-            return f"[{src}] {extra}"
-        raw = entry.get("raw_name", "")
-        # Try to clean the raw name — strip source prefix
-        m = re.match(r'^\[[^\]]+\]\s*(.*)$', raw)
-        if m:
-            raw = m.group(1)
-        raw = normalize_text(raw) if raw else raw
-        if not raw:
-            raw = entry.get("name", src)
-        return f"[{src}] {raw}"
+        body = _clean_display_segment(entry.get("display_extra", ""))
+        if not body:
+            body = _clean_display_segment(entry.get("raw_name", ""))
+            if src and body.startswith(src):
+                body = body[len(src):].strip(" -·、,")
+        if not body:
+            body = _clean_display_segment(entry.get("name", src))
+        # 尾部的短主播名（如看球吧）：能判定为重复就去掉，否则有 "vs" 时用 · 分隔
+        mm = re.match(r'^(.*?)\s+([\u4e00-\u9fff]{2,5}(?:[-–][\u4e00-\u9fff]{2,5})?)$', body)
+        if mm:
+            head, tail = mm.group(1), mm.group(2)
+            chunks = [c for c in re.split(r'[-–]', tail) if c]
+            if head and all(c in head for c in chunks):
+                body = head
+            elif "vs" in head:
+                body = f"{head}·{tail}"
+        return f"{src} {body}".strip()
 
-    parts = [f"[{src}]"]
-    if league:
-            parts.append(league)
-    parts.append(f"{team1} vs {team2}")
+    head = " ".join(p for p in (src, league) if p)
+    match = f"{team1}vs{team2}"
 
-    base = " ".join(parts)
+    # Extra info (FLV/HLS 标记不显示 —— APTV 两者都能播)
+    extras: list[str] = []
+    for key in ("line_label", "anchor"):
+        v = _clean_display_segment(entry.get(key, ""))
+        if v and v not in extras:
+            extras.append(v)
 
-    # Extra info
-    extras = []
-    if entry.get("line_label"):
-        extras.append(entry["line_label"])
-    if entry.get("anchor"):
-        extras.append(entry["anchor"])
-    if entry.get("format"):
-        extras.append(entry["format"])
+    # 附加信息已包含在标题里就不重复显示
+    joined = (head + match).replace(" ", "")
+    extras = [x for x in extras if x.replace(" ", "") not in joined]
 
     if extras:
-        return f"{base} | {' | '.join(extras)}"
-    return base
+        return f"{head} {match}·{'·'.join(extras)}".strip()
+    return f"{head} {match}".strip()
 
 
 def render_sports_group_title(entry: dict) -> str:
