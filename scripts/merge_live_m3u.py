@@ -33,7 +33,9 @@ TV1288_CACHE_MAX_AGE = 24 * 3600  # merge skips cache older than 24h
 # 中外双侧实测都不可达的主机（黑名单）：这些主机的中外探针一致返回 404/DNS 失败，
 # 属于"源站自己把死链写进了页面"，与本机所在地区无关，发布列表中一律剔除。
 # 注意：不要把 pul-tenm.gkykp.com 这类"只对海外 403、国内 200"的主机放进这里。
-DEAD_STREAM_HOSTS = {"hello.ooo0ooo.top", "live.666666.zip", "stream.sports3.win"}
+# 2026-09-11 用户实测 hello.ooo0ooo.top 在国内能播，已从黑名单移除（那是海外探针误判）。
+# 教训：海外 VPS 探针判"双侧死"也不可靠，用户报能播就放回来，不要反复测。
+DEAD_STREAM_HOSTS = {"live.666666.zip", "stream.sports3.win"}
 SOURCES = ["看球通", "咖啡直播", "咪咕直播", "看球吧", "live-event", "damizhibo"]
 REPLAY_KEYWORDS = ("回放", "录像", "VOD")
 
