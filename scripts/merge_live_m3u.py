@@ -1097,65 +1097,27 @@ def fetch_kafei_entries() -> list[dict]:
     from collections import Counter
     status_dist = Counter(i.get("status", "?") for i in items)
     entries = module.build_entries(items)
-    # CDN 存活探测（三态）——本脚本跑在美西机器上，而 kafeizhibo 的 CDN
-    # (hello.ooo0ooo.top / pul-tenm.gkykp.com) 对海外 IP 是按地区拒绝，返回
-    # 403/404 并不代表源死了：实测 pul-tenm(腾讯云) 美西 403、国内 200 且能拉
-    # 出 ~1MB 真 TS 分片。所以判据必须是"全球都死"才丢，否则会把自己能播的
-    # 国内线路删掉（曾把 6 条腾讯云线路全删，导致咖啡组只剩 1 条）：
-    #   200/206                 -> alive
-    #   403/451                 -> 地区限制，保留（国内可播）
-    #   404 / DNS 失败 / 超时    -> dead，丢弃
-    # 黑名单 = 中外双侧实测都死的主机。
+    # 只做静态黑名单过滤，不做任何网络探活。
+    # 原因：本脚本跑在美西机器上，而 kafeizhibo 的 CDN（pul-tenm.gkykp.com 腾讯云）
+    # 对海外 IP 返回 403 只是地区限制，国内 200 且能拉出真 TS 分片。用海外探活做过滤
+    # 会把自己国内可播的线路删掉（曾把 6 条腾讯云线路全删，咖啡组只剩 1 条）。
+    # 黑名单 = 中外双侧实测都死的主机（源站自己把死链写进了页面），与地区无关。
     DEAD_HOSTS = DEAD_STREAM_HOSTS
-
-    import urllib.request
-    import urllib.error
-    import concurrent.futures as cf
-
-    def _verdict(url: str) -> str:
-        host = url.split("/")[2] if "//" in url else ""
-        if host in DEAD_HOSTS:
-            return "dead"
-        try:
-            req = urllib.request.Request(
-                url,
-                headers={
-                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-                    "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0 Safari/537.36",
-                    "Range": "bytes=0-1023",
-                    "Referer": "https://kafeizhibo.cc/live/living",
-                },
-            )
-            with urllib.request.urlopen(req, timeout=8) as resp:
-                return "alive" if 200 <= resp.status < 400 else "dead"
-        except urllib.error.HTTPError as e:
-            if e.code in (403, 451):  # 地区限制：保留，国内可播
-                return "geo"
-            return "dead"
-        except Exception:
-            return "dead"
-
-    probe_map = {}
-    with cf.ThreadPoolExecutor(max_workers=8) as ex:
-        future_map = {ex.submit(_verdict, e["url"]): e for e in entries}
-        for fut in cf.as_completed(future_map):
-            e = future_map[fut]
-            try:
-                probe_map[e["url"]] = fut.result()
-            except Exception:
-                probe_map[e["url"]] = "dead"
-    live_entries = [e for e in entries if probe_map.get(e["url"], "dead") != "dead"]
-    geo = sum(1 for e in entries if probe_map.get(e["url"]) == "geo")
-    dead = sum(1 for e in entries if probe_map.get(e["url"]) == "dead")
-    if dead or geo:
+    live_entries = [
+        e
+        for e in entries
+        if (e["url"].split("/")[2] if "//" in e["url"] else "") not in DEAD_HOSTS
+    ]
+    skipped = len(entries) - len(live_entries)
+    if skipped:
         print(
             f"  coffee: raw={len(entries)} kept={len(live_entries)} "
-            f"geo_kept={geo} dead_skipped={dead}",
+            f"dead_host_skipped={skipped} (no probe)",
             file=sys.stderr,
         )
-    if len(live_entries) < 10:
+    if not live_entries:
         print(
-            f"  coffee DEBUG: raw={len(items)} status_dist={dict(status_dist)} built={len(entries)} alive={len(live_entries)}",
+            f"  coffee DEBUG: raw={len(items)} status_dist={dict(status_dist)} built={len(entries)}",
             file=sys.stderr,
         )
     text = module.render(live_entries)
