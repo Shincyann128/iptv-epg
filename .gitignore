@@ -12,3 +12,8 @@ ppv_cache.m3u
 *.log
 *.bak
 .env
+
+# runtime outputs / state
+看球通.m3u
+fc2_rotate/
+*.bak-*
