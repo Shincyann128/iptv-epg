@@ -1731,6 +1731,13 @@
       "source": "US",
       "epg_name": "NESN+ New England Sports Network Plus"
     },
+    "NEW KPOP": {
+      "enabled": false,
+      "reason": "auto-added 2026-09-27, needs EPG config",
+      "playlist_files": [
+        "Japan-Backup.m3u"
+      ]
+    },
     "NFL Network": {
       "enabled": true,
       "playlist_files": [
@@ -1751,6 +1758,13 @@
       "enabled": true,
       "source": "JP",
       "epg_name": "ＮＨＫ　ＢＳ"
+    },
+    "NHK BS (Sub Ch.)": {
+      "enabled": false,
+      "reason": "auto-added 2026-09-27, needs EPG config",
+      "playlist_files": [
+        "Japan-Backup.m3u"
+      ]
     },
     "NHK BS 2": {
       "enabled": true,
@@ -1817,14 +1831,6 @@
       "source": "JP",
       "epg_name": "NHK東京　教育"
     },
-    "NHK E 備用": {
-      "enabled": true,
-      "playlist_files": [
-        "Japan.m3u"
-      ],
-      "source_hint": "JP",
-      "alias_of": "NHK E"
-    },
     "NHK G": {
       "enabled": true,
       "source": "JP",
@@ -1872,14 +1878,6 @@
       "playlist_files": [
         "Japan-Backup.m3u"
       ]
-    },
-    "NHK G 備用": {
-      "enabled": true,
-      "playlist_files": [
-        "Japan.m3u"
-      ],
-      "source_hint": "JP",
-      "alias_of": "NHK G"
     },
     "NHK WORLD-JAPAN": {
       "enabled": true,
@@ -2426,6 +2424,13 @@
       "enabled": true,
       "source": "JP",
       "epg_name": "音楽・ライブ！　スペースシャワーTV HD"
+    },
+    "Space Shower TV (HD)": {
+      "enabled": false,
+      "reason": "auto-added 2026-09-27, needs EPG config",
+      "playlist_files": [
+        "Japan-Backup.m3u"
+      ]
     },
     "Spectrum SportsNet": {
       "enabled": true,
@@ -3275,6 +3280,13 @@
     "おとなの歓楽街 by MEN'S NECO": {
       "enabled": false,
       "reason": "auto-added 2026-09-08, needs EPG config",
+      "playlist_files": [
+        "Japan-Backup.m3u"
+      ]
+    },
+    "しまじろうチャンネル": {
+      "enabled": false,
+      "reason": "auto-added 2026-09-27, needs EPG config",
       "playlist_files": [
         "Japan-Backup.m3u"
       ]
