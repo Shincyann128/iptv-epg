@@ -447,6 +447,174 @@
       "source": "US",
       "epg_name": "CBS Sports Network HD"
     },
+    "CCTV 怀旧剧场": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-08, needs EPG config",
+      "playlist_files": [
+        "homeonly.m3u"
+      ]
+    },
+    "CCTV 第一剧场": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-08, needs EPG config",
+      "playlist_files": [
+        "homeonly.m3u"
+      ]
+    },
+    "CCTV 风云剧场": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-08, needs EPG config",
+      "playlist_files": [
+        "homeonly.m3u"
+      ]
+    },
+    "CCTV-1 综合": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-08, needs EPG config",
+      "playlist_files": [
+        "homeonly.m3u"
+      ]
+    },
+    "CCTV-10 科教": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-08, needs EPG config",
+      "playlist_files": [
+        "homeonly.m3u"
+      ]
+    },
+    "CCTV-11 戏曲": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-08, needs EPG config",
+      "playlist_files": [
+        "homeonly.m3u"
+      ]
+    },
+    "CCTV-12 社会与法": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-08, needs EPG config",
+      "playlist_files": [
+        "homeonly.m3u"
+      ]
+    },
+    "CCTV-13 新闻": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-08, needs EPG config",
+      "playlist_files": [
+        "homeonly.m3u"
+      ]
+    },
+    "CCTV-14 少儿": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-08, needs EPG config",
+      "playlist_files": [
+        "homeonly.m3u"
+      ]
+    },
+    "CCTV-15 音乐": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-08, needs EPG config",
+      "playlist_files": [
+        "homeonly.m3u"
+      ]
+    },
+    "CCTV-16 4K": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-08, needs EPG config",
+      "playlist_files": [
+        "homeonly.m3u"
+      ]
+    },
+    "CCTV-16 奥林匹克": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-08, needs EPG config",
+      "playlist_files": [
+        "homeonly.m3u"
+      ]
+    },
+    "CCTV-17 农业农村": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-08, needs EPG config",
+      "playlist_files": [
+        "homeonly.m3u"
+      ]
+    },
+    "CCTV-2 财经": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-08, needs EPG config",
+      "playlist_files": [
+        "homeonly.m3u"
+      ]
+    },
+    "CCTV-3 综艺": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-08, needs EPG config",
+      "playlist_files": [
+        "homeonly.m3u"
+      ]
+    },
+    "CCTV-4 中文国际": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-08, needs EPG config",
+      "playlist_files": [
+        "homeonly.m3u"
+      ]
+    },
+    "CCTV-4K 超高清": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-08, needs EPG config",
+      "playlist_files": [
+        "homeonly.m3u"
+      ]
+    },
+    "CCTV-5 体育": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-08, needs EPG config",
+      "playlist_files": [
+        "homeonly.m3u"
+      ]
+    },
+    "CCTV-5+ 体育赛事": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-08, needs EPG config",
+      "playlist_files": [
+        "homeonly.m3u"
+      ]
+    },
+    "CCTV-6 电影": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-08, needs EPG config",
+      "playlist_files": [
+        "homeonly.m3u"
+      ]
+    },
+    "CCTV-7 国防军事": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-08, needs EPG config",
+      "playlist_files": [
+        "homeonly.m3u"
+      ]
+    },
+    "CCTV-8 电视剧": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-08, needs EPG config",
+      "playlist_files": [
+        "homeonly.m3u"
+      ]
+    },
+    "CCTV-8K 超高清": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-08, needs EPG config",
+      "playlist_files": [
+        "homeonly.m3u"
+      ]
+    },
+    "CCTV-9 纪录": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-08, needs EPG config",
+      "playlist_files": [
+        "homeonly.m3u"
+      ]
+    },
     "CCTV1": {
       "enabled": true,
       "source": "CN",
@@ -583,6 +751,13 @@
       "source": "SD",
       "epg_name": "CCTV世界地理"
     },
+    "CETV-1": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-08, needs EPG config",
+      "playlist_files": [
+        "homeonly.m3u"
+      ]
+    },
     "CGNTV Japan (HD)": {
       "enabled": false,
       "reason": "auto-added 2026-09-08, needs EPG config",
@@ -636,6 +811,41 @@
       "enabled": true,
       "source": "CN",
       "epg_name": "CGTN阿语"
+    },
+    "CGTN 俄语": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-08, needs EPG config",
+      "playlist_files": [
+        "homeonly.m3u"
+      ]
+    },
+    "CGTN 法语": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-08, needs EPG config",
+      "playlist_files": [
+        "homeonly.m3u"
+      ]
+    },
+    "CGTN 纪录": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-08, needs EPG config",
+      "playlist_files": [
+        "homeonly.m3u"
+      ]
+    },
+    "CGTN 西班牙语": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-08, needs EPG config",
+      "playlist_files": [
+        "homeonly.m3u"
+      ]
+    },
+    "CGTN 阿拉伯语": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-08, needs EPG config",
+      "playlist_files": [
+        "homeonly.m3u"
+      ]
     },
     "CI 罪案偵查頻道": {
       "enabled": true,
@@ -3597,6 +3807,13 @@
       "source": "TW",
       "epg_name": "三立綜合台"
     },
+    "东南卫视": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-08, needs EPG config",
+      "playlist_files": [
+        "homeonly.m3u"
+      ]
+    },
     "东方卫视": {
       "enabled": true,
       "playlist_files": [
@@ -4177,6 +4394,13 @@
       "source": "JPT",
       "epg_name": "囲碁・将棋チャンネル"
     },
+    "国学频道": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-08, needs EPG config",
+      "playlist_files": [
+        "homeonly.m3u"
+      ]
+    },
     "國外電影精選-FastTV飛速看": {
       "enabled": false,
       "reason": "auto-added 2026-08-05, needs EPG config",
@@ -4233,6 +4457,13 @@
         "Taiwan-Backup.m3u"
       ]
     },
+    "天津卫视": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-08, needs EPG config",
+      "playlist_files": [
+        "homeonly.m3u"
+      ]
+    },
     "好消息": {
       "enabled": true,
       "playlist_files": [
@@ -4275,6 +4506,13 @@
       ],
       "source": "SD",
       "epg_name": "安多卫视"
+    },
+    "安徽卫视": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-08, needs EPG config",
+      "playlist_files": [
+        "homeonly.m3u"
+      ]
     },
     "客家好劇-FastTV飛速看": {
       "enabled": false,
@@ -4335,6 +4573,13 @@
       "source": "TW",
       "epg_name": "尼克兒童頻道"
     },
+    "山东卫视": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-08, needs EPG config",
+      "playlist_files": [
+        "homeonly.m3u"
+      ]
+    },
     "山东卫视4K": {
       "enabled": true,
       "source": "CN",
@@ -4367,12 +4612,26 @@
       "source": "TW",
       "epg_name": "幸福空間居家台"
     },
+    "广东卫视": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-08, needs EPG config",
+      "playlist_files": [
+        "homeonly.m3u"
+      ]
+    },
     "广东卫视4K": {
       "enabled": true,
       "source": "CN",
       "epg_name": "广东卫视",
       "alias_of": "广东卫视",
       "notes": "4K台先复用普通卫视节目单"
+    },
+    "广西卫视": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-08, needs EPG config",
+      "playlist_files": [
+        "homeonly.m3u"
+      ]
     },
     "延边卫视": {
       "enabled": true,
@@ -4436,6 +4695,13 @@
       ],
       "source": "TW",
       "epg_name": "Discovery Asia"
+    },
+    "新疆卫视": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-08, needs EPG config",
+      "playlist_files": [
+        "homeonly.m3u"
+      ]
     },
     "日テレ NEWS 24": {
       "enabled": true,
@@ -4726,12 +4992,33 @@
       "source": "TW",
       "epg_name": "民視綜藝台"
     },
+    "江苏卫视": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-08, needs EPG config",
+      "playlist_files": [
+        "homeonly.m3u"
+      ]
+    },
     "江苏卫视4K": {
       "enabled": true,
       "source": "CN",
       "epg_name": "江苏卫视",
       "alias_of": "江苏卫视",
       "notes": "4K台先复用普通卫视节目单"
+    },
+    "江西卫视": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-08, needs EPG config",
+      "playlist_files": [
+        "homeonly.m3u"
+      ]
+    },
+    "河北卫视": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-08, needs EPG config",
+      "playlist_files": [
+        "homeonly.m3u"
+      ]
     },
     "河南卫视": {
       "enabled": true,
@@ -4824,6 +5111,13 @@
       "source": "CN",
       "epg_name": "浙江钱江都市"
     },
+    "海南卫视": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-08, needs EPG config",
+      "playlist_files": [
+        "homeonly.m3u"
+      ]
+    },
     "海峡卫视": {
       "enabled": true,
       "playlist_files": [
@@ -4894,6 +5188,13 @@
       "reason": "auto-added 2026-08-05, needs EPG config",
       "playlist_files": [
         "Taiwan-Backup.m3u"
+      ]
+    },
+    "甘肃卫视": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-08, needs EPG config",
+      "playlist_files": [
+        "homeonly.m3u"
       ]
     },
     "精彩陸劇1台-FastTV飛速看": {
@@ -5077,6 +5378,13 @@
       "source": "TW",
       "epg_name": "豬哥亮歌廳秀"
     },
+    "贵州卫视": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-08, needs EPG config",
+      "playlist_files": [
+        "homeonly.m3u"
+      ]
+    },
     "車迷TV": {
       "enabled": true,
       "playlist_files": [
@@ -5084,6 +5392,13 @@
       ],
       "source": "TW",
       "epg_name": "車迷TV"
+    },
+    "辽宁卫视": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-08, needs EPG config",
+      "playlist_files": [
+        "homeonly.m3u"
+      ]
     },
     "達文西頻道": {
       "enabled": true,
@@ -5100,6 +5415,13 @@
       ],
       "source": "TW",
       "epg_name": "采昌影劇台"
+    },
+    "重庆卫视": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-08, needs EPG config",
+      "playlist_files": [
+        "homeonly.m3u"
+      ]
     },
     "金光布袋戲": {
       "enabled": true,
@@ -5139,6 +5461,13 @@
       ],
       "source": "TW",
       "epg_name": "鏡電視新聞台"
+    },
+    "陕西卫视": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-08, needs EPG config",
+      "playlist_files": [
+        "homeonly.m3u"
+      ]
     },
     "陕西秦腔": {
       "enabled": false,
@@ -5180,6 +5509,13 @@
       ],
       "source": "TW",
       "epg_name": "電影原聲台CMusic"
+    },
+    "青海卫视": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-08, needs EPG config",
+      "playlist_files": [
+        "homeonly.m3u"
+      ]
     },
     "靖天卡通台": {
       "enabled": true,
@@ -5313,6 +5649,13 @@
         "Japan.m3u"
       ],
       "source_hint": "JP"
+    },
+    "黑龙江卫视": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-08, needs EPG config",
+      "playlist_files": [
+        "homeonly.m3u"
+      ]
     },
     "龍祥時代": {
       "enabled": false,
