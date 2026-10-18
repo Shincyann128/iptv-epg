@@ -24,6 +24,13 @@
         "Japan-Backup.m3u"
       ]
     },
+    "4K超清": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
     "ABC": {
       "enabled": true,
       "source": "JP",
@@ -205,6 +212,125 @@
       "epg_name": "BBC Two HD",
       "notes": ""
     },
+    "BRTV体育休闲高清": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
+    "BRTV北京卫视": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
+    "BRTV北京卫视高清": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
+    "BRTV卡酷少儿": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
+    "BRTV卡酷少儿高清": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
+    "BRTV影视": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
+    "BRTV影视高清": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
+    "BRTV文艺": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
+    "BRTV文艺高清": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
+    "BRTV新闻": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
+    "BRTV新闻高清": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
+    "BRTV生活": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
+    "BRTV生活高清": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
+    "BRTV纪实科教": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
+    "BRTV纪实科教高清": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
+    "BRTV财经": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
+    "BRTV财经高清": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
     "BS 10": {
       "enabled": true,
       "source": "JPT",
@@ -381,6 +507,13 @@
         "Japan-Backup.m3u"
       ]
     },
+    "BTV国际频道": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
     "Big Ten Network": {
       "enabled": true,
       "playlist_files": [
@@ -482,11 +615,25 @@
         "homeonly.m3u"
       ]
     },
+    "CCTV-10高清": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
     "CCTV-11 戏曲": {
       "enabled": false,
       "reason": "auto-added 2026-10-08, needs EPG config",
       "playlist_files": [
         "homeonly.m3u"
+      ]
+    },
+    "CCTV-11高清": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
       ]
     },
     "CCTV-12 社会与法": {
@@ -496,11 +643,25 @@
         "homeonly.m3u"
       ]
     },
+    "CCTV-12高清": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
     "CCTV-13 新闻": {
       "enabled": false,
       "reason": "auto-added 2026-10-08, needs EPG config",
       "playlist_files": [
         "homeonly.m3u"
+      ]
+    },
+    "CCTV-13高清": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
       ]
     },
     "CCTV-14 少儿": {
@@ -510,11 +671,25 @@
         "homeonly.m3u"
       ]
     },
+    "CCTV-14高清": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
     "CCTV-15 音乐": {
       "enabled": false,
       "reason": "auto-added 2026-10-08, needs EPG config",
       "playlist_files": [
         "homeonly.m3u"
+      ]
+    },
+    "CCTV-15高清": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
       ]
     },
     "CCTV-16 4K": {
@@ -531,11 +706,32 @@
         "homeonly.m3u"
       ]
     },
+    "CCTV-16高清": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
     "CCTV-17 农业农村": {
       "enabled": false,
       "reason": "auto-added 2026-10-08, needs EPG config",
       "playlist_files": [
         "homeonly.m3u"
+      ]
+    },
+    "CCTV-17高清": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
+    "CCTV-1高清": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
       ]
     },
     "CCTV-2 财经": {
@@ -545,11 +741,25 @@
         "homeonly.m3u"
       ]
     },
+    "CCTV-2高清": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
     "CCTV-3 综艺": {
       "enabled": false,
       "reason": "auto-added 2026-10-08, needs EPG config",
       "playlist_files": [
         "homeonly.m3u"
+      ]
+    },
+    "CCTV-3高清": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
       ]
     },
     "CCTV-4 中文国际": {
@@ -566,11 +776,39 @@
         "homeonly.m3u"
       ]
     },
+    "CCTV-4欧洲高清": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
+    "CCTV-4美洲高清": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
+    "CCTV-4高清": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
     "CCTV-5 体育": {
       "enabled": false,
       "reason": "auto-added 2026-10-08, needs EPG config",
       "playlist_files": [
         "homeonly.m3u"
+      ]
+    },
+    "CCTV-5+": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
       ]
     },
     "CCTV-5+ 体育赛事": {
@@ -580,6 +818,13 @@
         "homeonly.m3u"
       ]
     },
+    "CCTV-5高清": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
     "CCTV-6 电影": {
       "enabled": false,
       "reason": "auto-added 2026-10-08, needs EPG config",
@@ -587,11 +832,25 @@
         "homeonly.m3u"
       ]
     },
+    "CCTV-6高清": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
     "CCTV-7 国防军事": {
       "enabled": false,
       "reason": "auto-added 2026-10-08, needs EPG config",
       "playlist_files": [
         "homeonly.m3u"
+      ]
+    },
+    "CCTV-7高清": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
       ]
     },
     "CCTV-8 电视剧": {
@@ -608,11 +867,25 @@
         "homeonly.m3u"
       ]
     },
+    "CCTV-8高清": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
     "CCTV-9 纪录": {
       "enabled": false,
       "reason": "auto-added 2026-10-08, needs EPG config",
       "playlist_files": [
         "homeonly.m3u"
+      ]
+    },
+    "CCTV-9高清": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
       ]
     },
     "CCTV1": {
@@ -758,6 +1031,27 @@
         "homeonly.m3u"
       ]
     },
+    "CETV1高清": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
+    "CETV2": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
+    "CETV4": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
     "CGNTV Japan (HD)": {
       "enabled": false,
       "reason": "auto-added 2026-09-08, needs EPG config",
@@ -819,11 +1113,25 @@
         "homeonly.m3u"
       ]
     },
+    "CGTN 俄语高清": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
     "CGTN 法语": {
       "enabled": false,
       "reason": "auto-added 2026-10-08, needs EPG config",
       "playlist_files": [
         "homeonly.m3u"
+      ]
+    },
+    "CGTN 法语高清": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
       ]
     },
     "CGTN 纪录": {
@@ -833,6 +1141,20 @@
         "homeonly.m3u"
       ]
     },
+    "CGTN 英文纪录高清": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
+    "CGTN 英语高清": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
     "CGTN 西班牙语": {
       "enabled": false,
       "reason": "auto-added 2026-10-08, needs EPG config",
@@ -840,11 +1162,32 @@
         "homeonly.m3u"
       ]
     },
+    "CGTN 西班牙语高清": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
     "CGTN 阿拉伯语": {
       "enabled": false,
       "reason": "auto-added 2026-10-08, needs EPG config",
       "playlist_files": [
         "homeonly.m3u"
+      ]
+    },
+    "CGTN 阿拉伯语高清": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
+    "CHC动作电影": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
       ]
     },
     "CI 罪案偵查頻道": {
@@ -3814,6 +4157,13 @@
         "homeonly.m3u"
       ]
     },
+    "东南卫视高清": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
     "东方卫视": {
       "enabled": true,
       "playlist_files": [
@@ -3829,6 +4179,34 @@
       "epg_name": "东方卫视",
       "alias_of": "东方卫视",
       "notes": "4K台先复用普通卫视节目单"
+    },
+    "东方卫视4K超高清": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
+    "东方卫视高清": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
+    "中国交通": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
+    "中国天气": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
     },
     "中天娛樂": {
       "enabled": true,
@@ -3985,6 +4363,20 @@
       ],
       "source_hint": "JP"
     },
+    "优购物": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
+    "光影": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
     "八大第一": {
       "enabled": true,
       "playlist_files": [
@@ -4061,6 +4453,13 @@
       "source": "CN",
       "epg_name": "兵团卫视"
     },
+    "兵团卫视高清": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
     "内蒙古卫视": {
       "enabled": true,
       "playlist_files": [
@@ -4069,6 +4468,27 @@
       ],
       "source": "CN",
       "epg_name": "内蒙古卫视"
+    },
+    "内蒙古卫视高清": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
+    "军事": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
+    "军旅剧场": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
     },
     "农林卫视": {
       "enabled": true,
@@ -4096,6 +4516,20 @@
       "source": "JP",
       "epg_name": "刺激ストロングチャンネル"
     },
+    "动作影院": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
+    "动画": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
     "動物星球": {
       "enabled": true,
       "playlist_files": [
@@ -4110,6 +4544,14 @@
       "source": "BJ",
       "epg_name": "BRTV体育休闲高清",
       "notes": "北京联通专属源"
+    },
+    "北京卡酷少儿": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing.m3u"
+      ],
+      "source_hint": "BJ"
     },
     "北京卫视": {
       "enabled": true,
@@ -4132,6 +4574,21 @@
       "alias_of": "北京卫视",
       "notes": "4K台用普通北京卫视节目单"
     },
+    "北京卫视4K超高清 SDR": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
+    "北京国际": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing.m3u"
+      ],
+      "source_hint": "BJ"
+    },
     "北京影视": {
       "enabled": true,
       "source": "BJ",
@@ -4149,6 +4606,13 @@
       "source": "BJ",
       "epg_name": "BRTV新闻高清",
       "notes": "北京联通专属源"
+    },
+    "北京朝阳": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
     },
     "北京生活": {
       "enabled": true,
@@ -4307,11 +4771,32 @@
       "source": "TW",
       "epg_name": "原住民族電視台"
     },
+    "厦门卫视": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
+    "古装剧场": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
     "台灣傳奇-FastTV飛速看": {
       "enabled": false,
       "reason": "auto-added 2026-08-05, needs EPG config",
       "playlist_files": [
         "Taiwan-Backup.m3u"
+      ]
+    },
+    "台球": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
       ]
     },
     "台視": {
@@ -4359,6 +4844,13 @@
       "source": "CN",
       "epg_name": "吉林卫视"
     },
+    "吉林卫视高清": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
     "唯心": {
       "enabled": true,
       "playlist_files": [
@@ -4367,6 +4859,20 @@
       ],
       "source": "TW",
       "epg_name": "唯心電視台"
+    },
+    "喜剧影院": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
+    "嘉佳卡通": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
     },
     "四川卫视": {
       "enabled": true,
@@ -4384,6 +4890,27 @@
       "alias_of": "四川卫视",
       "notes": "4K台先复用普通卫视节目单"
     },
+    "四川卫视4K超高清": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
+    "四川卫视高清": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
+    "四海钓鱼": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
     "囲碁・将棋ライト": {
       "enabled": true,
       "playlist_files": [
@@ -4393,6 +4920,13 @@
       "source_hint": "JP",
       "source": "JPT",
       "epg_name": "囲碁・将棋チャンネル"
+    },
+    "国学": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
     },
     "国学频道": {
       "enabled": false,
@@ -4425,6 +4959,27 @@
       ],
       "source": "TW",
       "epg_name": "國會頻道2"
+    },
+    "地理": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
+    "城市剧场": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
+    "墨宝": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
     },
     "大愛二台": {
       "enabled": true,
@@ -4464,6 +5019,34 @@
         "homeonly.m3u"
       ]
     },
+    "天津卫视高清": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
+    "央广购物": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
+    "央广购物精选": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
+    "好学生": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
     "好消息": {
       "enabled": true,
       "playlist_files": [
@@ -4498,6 +5081,13 @@
       "source": "CN",
       "epg_name": "宁夏卫视"
     },
+    "宁夏卫视高清": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
     "安多卫视": {
       "enabled": true,
       "playlist_files": [
@@ -4512,6 +5102,13 @@
       "reason": "auto-added 2026-10-08, needs EPG config",
       "playlist_files": [
         "homeonly.m3u"
+      ]
+    },
+    "安徽卫视高清": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
       ]
     },
     "客家好劇-FastTV飛速看": {
@@ -4529,6 +5126,27 @@
       ],
       "source": "TW",
       "epg_name": "客家電視台"
+    },
+    "家庭影院": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
+    "家有购物": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
+    "密云电视台": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
     },
     "寰宇新聞台": {
       "enabled": true,
@@ -4564,6 +5182,13 @@
       "source": "TW",
       "epg_name": "小公視"
     },
+    "少儿动画": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
     "尼克兒童頻道": {
       "enabled": true,
       "playlist_files": [
@@ -4587,6 +5212,27 @@
       "alias_of": "山东卫视",
       "notes": "4K台先复用普通卫视节目单"
     },
+    "山东卫视4K超高清": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
+    "山东卫视高清": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
+    "山东教育": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
     "山东教育卫视": {
       "enabled": true,
       "playlist_files": [
@@ -4603,6 +5249,13 @@
       ],
       "source": "CN",
       "epg_name": "山西卫视"
+    },
+    "平谷电视台": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
     },
     "幸福空間居家台": {
       "enabled": true,
@@ -4626,11 +5279,32 @@
       "alias_of": "广东卫视",
       "notes": "4K台先复用普通卫视节目单"
     },
+    "广东卫视4K超高清": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
+    "广东卫视高清": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
     "广西卫视": {
       "enabled": false,
       "reason": "auto-added 2026-10-08, needs EPG config",
       "playlist_files": [
         "homeonly.m3u"
+      ]
+    },
+    "延庆电视台": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
       ]
     },
     "延边卫视": {
@@ -4680,6 +5354,20 @@
         "Taiwan-Backup.m3u"
       ]
     },
+    "戏曲": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
+    "房山电视台": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
     "手塚プロダクションTV": {
       "enabled": false,
       "reason": "auto-added 2026-08-06, needs EPG config",
@@ -4696,11 +5384,25 @@
       "source": "TW",
       "epg_name": "Discovery Asia"
     },
+    "收视指南": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
     "新疆卫视": {
       "enabled": false,
       "reason": "auto-added 2026-10-08, needs EPG config",
       "playlist_files": [
         "homeonly.m3u"
+      ]
+    },
+    "新疆卫视高清": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
       ]
     },
     "日テレ NEWS 24": {
@@ -4760,6 +5462,20 @@
       "reason": "auto-added 2026-09-08, needs EPG config",
       "playlist_files": [
         "Japan-Backup.m3u"
+      ]
+    },
+    "早教": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
+    "星影": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
       ]
     },
     "映画 (R15+)": {
@@ -4917,6 +5633,20 @@
       ],
       "source_hint": "JP"
     },
+    "武侠剧场": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
+    "武术": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
     "民視": {
       "enabled": true,
       "playlist_files": [
@@ -4992,6 +5722,13 @@
       "source": "TW",
       "epg_name": "民視綜藝台"
     },
+    "求索4K": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
     "江苏卫视": {
       "enabled": false,
       "reason": "auto-added 2026-10-08, needs EPG config",
@@ -5006,6 +5743,20 @@
       "alias_of": "江苏卫视",
       "notes": "4K台先复用普通卫视节目单"
     },
+    "江苏卫视4K超高清": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
+    "江苏卫视高清": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
     "江西卫视": {
       "enabled": false,
       "reason": "auto-added 2026-10-08, needs EPG config",
@@ -5013,11 +5764,25 @@
         "homeonly.m3u"
       ]
     },
+    "江西卫视高清": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
     "河北卫视": {
       "enabled": false,
       "reason": "auto-added 2026-10-08, needs EPG config",
       "playlist_files": [
         "homeonly.m3u"
+      ]
+    },
+    "河北卫视高清": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
       ]
     },
     "河南卫视": {
@@ -5028,6 +5793,13 @@
       ],
       "source": "CN",
       "epg_name": "河南卫视"
+    },
+    "河南卫视高清": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
     },
     "浙江卫视": {
       "enabled": true,
@@ -5044,6 +5816,20 @@
       "epg_name": "浙江卫视",
       "alias_of": "浙江卫视",
       "notes": "4K台先复用普通卫视节目单"
+    },
+    "浙江卫视4K超高清": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
+    "浙江卫视高清": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
     },
     "浙江国际": {
       "enabled": false,
@@ -5118,6 +5904,13 @@
         "homeonly.m3u"
       ]
     },
+    "海南卫视高清": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
     "海峡卫视": {
       "enabled": true,
       "playlist_files": [
@@ -5126,6 +5919,27 @@
       ],
       "source": "CN",
       "epg_name": "海峡卫视"
+    },
+    "淘Baby": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
+    "淘娱乐": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
+    "淘电影": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
     },
     "深圳卫视": {
       "enabled": true,
@@ -5143,6 +5957,20 @@
       "alias_of": "深圳卫视",
       "notes": "4K台先复用普通卫视节目单"
     },
+    "深圳卫视4K超高清": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
+    "深圳卫视高清": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
     "湖北卫视": {
       "enabled": true,
       "playlist_files": [
@@ -5151,6 +5979,13 @@
       ],
       "source": "CN",
       "epg_name": "湖北卫视"
+    },
+    "湖北卫视高清": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
     },
     "湖南卫视": {
       "enabled": true,
@@ -5168,6 +6003,20 @@
       "alias_of": "湖南卫视",
       "notes": "4K台先复用普通卫视节目单"
     },
+    "湖南卫视4K超高清": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
+    "湖南卫视高清": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
     "滾動力rollor": {
       "enabled": true,
       "playlist_files": [
@@ -5183,6 +6032,13 @@
         "Japan-Backup.m3u"
       ]
     },
+    "热播剧场": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
     "無線新聞台": {
       "enabled": false,
       "reason": "auto-added 2026-08-05, needs EPG config",
@@ -5190,11 +6046,67 @@
         "Taiwan-Backup.m3u"
       ]
     },
+    "爱上4K": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
+    "爱生活": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
+    "环球旅游": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
     "甘肃卫视": {
       "enabled": false,
       "reason": "auto-added 2026-10-08, needs EPG config",
       "playlist_files": [
         "homeonly.m3u"
+      ]
+    },
+    "甘肃卫视高清": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
+    "睛彩广场舞": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
+    "睛彩竞技": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
+    "睛彩篮球": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
+    "睛彩青少": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
       ]
     },
     "精彩陸劇1台-FastTV飛速看": {
@@ -5209,6 +6121,13 @@
       "reason": "auto-added 2026-08-05, needs EPG config",
       "playlist_files": [
         "Taiwan-Backup.m3u"
+      ]
+    },
+    "精选": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
       ]
     },
     "精選動漫台": {
@@ -5285,6 +6204,27 @@
       "source": "TW",
       "epg_name": "緯來體育台"
     },
+    "经典电影": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
+    "美人": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
+    "美妆": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
     "翡翠台": {
       "enabled": true,
       "playlist_files": [
@@ -5293,6 +6233,20 @@
       ],
       "source": "CN",
       "epg_name": "翡翠台"
+    },
+    "聚鲨环球": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
+    "聚鲨环球精选": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
     },
     "芭樂直擊台": {
       "enabled": false,
@@ -5344,6 +6298,13 @@
       "source": "TW",
       "epg_name": "華視新聞資訊HD"
     },
+    "萌宠TV": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
     "西藏卫视": {
       "enabled": true,
       "playlist_files": [
@@ -5352,6 +6313,13 @@
       ],
       "source": "CN",
       "epg_name": "西藏卫视"
+    },
+    "西藏卫视高清": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
     },
     "視納華仁紀實頻道": {
       "enabled": true,
@@ -5370,6 +6338,20 @@
       ],
       "source_hint": "JP"
     },
+    "解密": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
+    "证券服务": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
     "豬哥亮歌廳秀": {
       "enabled": true,
       "playlist_files": [
@@ -5385,6 +6367,20 @@
         "homeonly.m3u"
       ]
     },
+    "贵州卫视高清": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
+    "足球": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
     "車迷TV": {
       "enabled": true,
       "playlist_files": [
@@ -5398,6 +6394,20 @@
       "reason": "auto-added 2026-10-08, needs EPG config",
       "playlist_files": [
         "homeonly.m3u"
+      ]
+    },
+    "辽宁卫视高清": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
+    "通州电视台": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
       ]
     },
     "達文西頻道": {
@@ -5423,6 +6433,20 @@
         "homeonly.m3u"
       ]
     },
+    "重庆卫视高清": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
+    "重温经典": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
     "金光布袋戲": {
       "enabled": true,
       "playlist_files": [
@@ -5439,6 +6463,20 @@
         "Taiwan-Backup.m3u"
       ]
     },
+    "金鹰卡通": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
+    "金鹰纪实高清": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
     "釣り": {
       "enabled": false,
       "reason": "auto-added 2026-09-08, needs EPG config",
@@ -5453,6 +6491,13 @@
         "Japan-Backup.m3u"
       ]
     },
+    "鉴赏": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
     "鏡電視新聞台": {
       "enabled": true,
       "playlist_files": [
@@ -5462,11 +6507,25 @@
       "source": "TW",
       "epg_name": "鏡電視新聞台"
     },
+    "门头沟电视台": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
     "陕西卫视": {
       "enabled": false,
       "reason": "auto-added 2026-10-08, needs EPG config",
       "playlist_files": [
         "homeonly.m3u"
+      ]
+    },
+    "陕西卫视高清": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
       ]
     },
     "陕西秦腔": {
@@ -5633,6 +6692,13 @@
       "source": "JP",
       "epg_name": "KBS World　韓流専門チャンネル"
     },
+    "音乐现场": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
     "香蕉直擊台": {
       "enabled": true,
       "playlist_files": [
@@ -5641,6 +6707,20 @@
       ],
       "source": "TW",
       "epg_name": "香蕉台"
+    },
+    "高网": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
+    },
+    "魅力时尚": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
+      ]
     },
     "麻雀": {
       "enabled": false,
@@ -5655,6 +6735,13 @@
       "reason": "auto-added 2026-10-08, needs EPG config",
       "playlist_files": [
         "homeonly.m3u"
+      ]
+    },
+    "黑龙江卫视高清": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-19, needs EPG config",
+      "playlist_files": [
+        "Beijing-Full.m3u"
       ]
     },
     "龍祥時代": {
