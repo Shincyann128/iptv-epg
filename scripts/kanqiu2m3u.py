@@ -17,26 +17,42 @@ import json
 import sys
 import os
 import argparse
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime
 from urllib.request import Request, urlopen
 from urllib.error import URLError, HTTPError
 
 # ── 配置 ───────────────────────────────────────────
 
+# 2026-10-18 看球吧 API 换域：旧 zhiboapi*.zb6.fun / bszb.me 全部 NXDOMAIN。
+# 新发现链 = /apiline/apiline.json（主备两条）→ [{name,url}] → /api/health/check 探活
+APILINE_SOURCES = [
+    "https://hw3-apiline.zegaowl1.cn/apiline/apiline.json",
+    "https://hw1-apiline.zegaowl2.cn/apiline/apiline.json",
+]
+APILINE_FALLBACK = [
+    "https://hw3-livestreamfeed1.zegaowl1.cn",
+    "https://hw1-livestreamfeed1.zegaowl2.cn",
+    "https://livestreamfeed1.123kq.live",
+]
+# 旧域名（已失效，留作最后兜底）
 API_CANDIDATES = [
     "https://zhiboapi3003.zb6.fun",
     "https://zhiboapi1001.bszb.me",
     "https://zhiboapi2002.zb6.fun",
 ]
 
+API_HEALTH = "/api/health/check"
 API_HOME = "/webapi/home/getHomeData"
 API_MATCH_FOOTBALL = "/api/football/getMatchInfo"
 API_MATCH_BASKETBALL = "/api/basketball/getMatchInfo"
 
 HEADERS = {
     "Content-Type": "application/json",
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36",
     "Accept": "application/json",
+    "Origin": "https://kq8svip.net",
+    "Referer": "https://kq8svip.net/",
 }
 
 # ── 网络 ────────────────────────────────────────────
@@ -53,7 +69,27 @@ def api_post(base, path, data=None):
         return {"error": str(e)}
 
 
+def discover_bases():
+    """从 /apiline/apiline.json 拿到当前可用的 API 线路（换域自救）。"""
+    for src in APILINE_SOURCES:
+        try:
+            req = Request(src, headers={"User-Agent": HEADERS["User-Agent"]})
+            with urlopen(req, timeout=10) as r:
+                items = json.loads(r.read().decode("utf-8"))
+            bases = [it.get("url") for it in items if isinstance(it, dict) and it.get("url")]
+            if bases:
+                return bases
+        except (URLError, HTTPError, Exception):
+            continue
+    return list(APILINE_FALLBACK)
+
+
 def find_api():
+    for base in discover_bases():
+        r = api_post(base, API_HOME, {})
+        if r.get("status") == 0:
+            return base, r
+    # 最后兜底：老域名（正常情况下已失效）
     for base in API_CANDIDATES:
         r = api_post(base, API_HOME, {})
         if r.get("status") == 0:
@@ -64,20 +100,43 @@ def find_api():
 # ── 数据提取 ────────────────────────────────────────
 
 
+def _hls_sibling(url, timeout=6):
+    """看球吧 FLV 流通常有同名 .m3u8 变体（真 HLS），APTV 只能播 HLS。"""
+    if not url.endswith(".flv"):
+        return False
+    cand = url[:-4] + ".m3u8"
+    try:
+        req = Request(cand, headers={"User-Agent": HEADERS["User-Agent"]})
+        with urlopen(req, timeout=timeout) as r:
+            head = r.read(32)
+        return head.lstrip().startswith(b"#EXTM3U")
+    except (URLError, HTTPError, Exception):
+        return False
+
+
+def resolve_stream(url):
+    """返回 (最终URL, 格式)：优先同名 .m3u8 变体，退回原地址。"""
+    if _hls_sibling(url):
+        return url[:-4] + ".m3u8", "HLS"
+    return url, ("HLS" if ".m3u8" in url else "FLV")
+
+
 def extract_recommend_lives(data):
     """从 getHomeData 的 recommend_lives 提取当前直播流"""
     payload = data.get("data", data)  # 兼容 {status, data} 和直接 data
-    streams = []
-    for live in payload.get("recommend_lives", []):
-        url = live.get("pull_url", "") or ""
-        if not url:
-            continue
+    lives = [l for l in payload.get("recommend_lives", []) if (l.get("pull_url") or "")]
+    if not lives:
+        return []
+    urls = [l["pull_url"] for l in lives]
+    with ThreadPoolExecutor(max_workers=8) as ex:
+        resolved = list(ex.map(resolve_stream, urls))
 
+    streams = []
+    for live, (url, fmt) in zip(lives, resolved):
         title = live.get("title", "")
         badge = (live.get("badge_text") or "").strip()
         nick = live.get("anchor", {}).get("nick_name", "")
         hot = live.get("hot", 0)
-        fmt = "HLS" if ".m3u8" in url else "FLV"
 
         # 精简频道名：去掉 badge 中已重复的部分
         display = title.strip()
@@ -165,7 +224,7 @@ def main():
             nick = a.get("nick_name", "")
             title = live.get("title", "") or str(args.match_id)
             badge = (live.get("badge_text") or "").strip()
-            fmt = "HLS" if ".m3u8" in url else "FLV"
+            url, fmt = resolve_stream(url)
             display = f"{title} [{nick}]" if nick else title
             all_streams.append({
                 "name": display,
