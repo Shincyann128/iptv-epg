@@ -8,6 +8,7 @@ a uniform `[src] league team1 vs team2 | extra` format.
 
 import importlib.util
 import io
+import json
 import re
 import sys
 import unicodedata
@@ -446,6 +447,20 @@ def parse_liveevent(raw_name: str, group: str) -> dict:
     }
 
 
+_DAMIZHIBO_BASKETBALL_HINTS = (
+    "NBA", "CBA", "WNBA", "NBL", "B联赛", "KBL", "PBA", "EuroLeague", "欧篮",
+    "篮球", "篮", "Big3", "BIG3", "ABA", "VTB",
+)
+
+
+def damizhibo_sport(league: str, home: str, away: str) -> str:
+    """粗略判定 dami 的 list.json 条目属于篮球还是足球（该接口不带 sport 字段）。"""
+    haystack = f"{league} {home} {away}".upper()
+    if any(hint.upper() in haystack for hint in _DAMIZHIBO_BASKETBALL_HINTS):
+        return "篮球"
+    return "足球"
+
+
 def parse_damizhibo(raw_name: str, group: str) -> dict:
     """Parse damizhibo.com entry name.
 
@@ -712,9 +727,14 @@ def process_sports_entries(raw_entries: list[dict]) -> list[dict]:
         name = e.get("name", "")
         m = re.match(r'^\[[^\]]+\]\s*(.*)$', name)
         raw = m.group(1) if m else name
-        result = parser(raw, e.get("group", "综合"))
-        if result:
-            entry = {**e, **result}
+        if isinstance(e.get("parsed"), dict):
+            # 抓取器已经给出精确字段（如 damizhibo 的 list.json），跳过正则解析
+            parsed_result = e["parsed"]
+        else:
+            parsed_result = parser(raw, e.get("group", "综合"))
+        if parsed_result:
+            entry = {**e, **parsed_result}
+            entry.pop("parsed", None)
             entry["source_short"] = SOURCE_SHORT.get(source, source)
             entry["raw_name"] = name
             parsed.append(entry)
@@ -1333,52 +1353,105 @@ def fetch_liveevent_entries() -> list[dict]:
 
 
 def fetch_damizhibo_entries() -> list[dict]:
-    """Fetch M3U from damizhibo.com, filter to only live matches.
+    """Fetch live match streams from damizhibo.com.
 
-    Filters out:
-    - 录像 (replay) entries
-    - Placeholder entries (官网：)
-    - Future matches not yet in live window
+    数据源（2026-10-29 起）：https://damizhibo.com/list.json
+    官网给播放器用的 iptv.m3u 从 2026-10-27 22:12（北京）起停止更新（文件冻结、
+    last-modified 不再变化），而站点自己的 list.json 是实时的：每场含
+    league_name / match_time(北京) / home_team / away_team / signals[m3u8 直链]。
+
+    过滤：
+    - 只看直播窗口内的比赛（开赛前 30 分钟 ~ 开赛后 3 小时）
+    - 只要 play_type == "m3u8"（iframe 包装的 PPV/vivo 线路跳过）
+    - 跳过 DEAD_STREAM_HOSTS
     """
     import urllib.request
 
-    url = "https://damizhibo.com/iptv.m3u"
+    url = "https://damizhibo.com/list.json"
     try:
         req = urllib.request.Request(
             url,
-            headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
+            headers={
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+                "Referer": "https://damizhibo.com/",
+            },
         )
         with urllib.request.urlopen(req, timeout=15) as resp:
-            text = resp.read().decode("utf-8")
+            payload = json.loads(resp.read().decode("utf-8"))
     except Exception as exc:
-        raise RuntimeError(f"damizhibo 不可用: {exc}")
+        raise RuntimeError(f"damizhibo list.json 不可用: {exc}")
 
-    entries = parse_m3u(text, source="damizhibo")
+    if not isinstance(payload, list):
+        raise RuntimeError("damizhibo list.json 格式异常")
 
-    # Filter: remove 录像 groups, placeholder entries, dead-stream hosts,
-    # and non-live matches
-    filtered = []
-    dead_host = 0
-    for e in entries:
-        # Skip 录像 groups
-        if "录像" in e.get("group", ""):
+    now = datetime.now(BJ_TZ)
+    entries: list[dict] = []
+    off_window = dead_host = no_signal = 0
+
+    for match in payload:
+        try:
+            match_dt = datetime.strptime(
+                str(match.get("match_time", "")).strip(), "%Y-%m-%d %H:%M:%S"
+            ).replace(tzinfo=BJ_TZ)
+        except ValueError:
             continue
-        # Skip placeholder entries (官网：)
-        name = e.get("name", "")
-        if "官网" in name or "dami.live" in name or "ricetv" in name:
+
+        # 直播窗口：开赛前 30 分钟 ~ 开赛后 3 小时
+        if not (match_dt - timedelta(minutes=30) <= now <= match_dt + timedelta(hours=3)):
+            off_window += 1
             continue
-        # Skip hosts that are dead for everyone (源站自己保留了死链)
-        host = e.get("url", "").split("/")[2] if "//" in e.get("url", "") else ""
-        if host in DEAD_STREAM_HOSTS:
-            dead_host += 1
+
+        league = str(match.get("league_name") or "").strip()
+        home = str(match.get("home_team") or "").strip()
+        away = str(match.get("away_team") or "").strip()
+        if not (home and away):
             continue
-        filtered.append(e)
+
+        sport = damizhibo_sport(league, home, away)
+        signals = match.get("signals") or []
+        if not signals:
+            no_signal += 1
+            continue
+
+        for sig in signals:
+            if sig.get("play_type") != "m3u8":
+                continue
+            stream_url = str(sig.get("url") or "").strip()
+            if not stream_url.startswith("http"):
+                continue
+            host = stream_url.split("/")[2] if "//" in stream_url else ""
+            if host in DEAD_STREAM_HOSTS:
+                dead_host += 1
+                continue
+            label = str(sig.get("label") or "").strip()
+            stamp = match_dt.strftime("%m-%d %H:%M")
+            entries.append(
+                {
+                    "source": "damizhibo",
+                    "group": "篮球直播" if sport == "篮球" else "足球直播",
+                    "name": f"{'🏀' if sport == '篮球' else '⚽'} {stamp} {league} {home}vs{away} [{label}]",
+                    "url": stream_url,
+                    "attrs": "",
+                    # 跳过 lib 正则解析：list.json 字段本身就精确，
+                    # 多词联赛名（如 English National League）交给正则会被拆错。
+                    "parsed": {
+                        "sport": sport,
+                        "is_match": True,
+                        "league": league,
+                        "team1": home,
+                        "team2": away,
+                        "line_label": label,
+                        "sort_time": stamp,
+                    },
+                }
+            )
 
     print(
-        f"  damizhibo: raw={len(entries)} filtered={len(filtered)} dead_host_skipped={dead_host}",
+        f"  damizhibo(list.json): matches={len(payload)} signals={len(entries)} "
+        f"off_window={off_window} no_signal={no_signal} dead_host_skipped={dead_host}",
         file=sys.stderr,
     )
-    return filtered
+    return entries
 
 
 
