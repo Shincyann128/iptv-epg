@@ -24,6 +24,104 @@
         "Japan-Backup.m3u"
       ]
     },
+    "07-10 勇士 vs 独行侠 (720p)": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-30, needs EPG config",
+      "playlist_files": [
+        "nba_mavs.m3u"
+      ]
+    },
+    "07-12 湖人 vs 独行侠 (720p)": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-30, needs EPG config",
+      "playlist_files": [
+        "nba_mavs.m3u"
+      ]
+    },
+    "07-14 独行侠 vs 灰熊 (720p)": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-30, needs EPG config",
+      "playlist_files": [
+        "nba_mavs.m3u"
+      ]
+    },
+    "07-17 独行侠 vs 雷霆 (720p)": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-30, needs EPG config",
+      "playlist_files": [
+        "nba_mavs.m3u"
+      ]
+    },
+    "07-18 独行侠 vs 尼克斯 (720p)": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-30, needs EPG config",
+      "playlist_files": [
+        "nba_mavs.m3u"
+      ]
+    },
+    "10-09 火箭 vs 独行侠 (720p)": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-30, needs EPG config",
+      "playlist_files": [
+        "nba_mavs.m3u"
+      ]
+    },
+    "10-11 独行侠 vs 火箭 (720p)": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-30, needs EPG config",
+      "playlist_files": [
+        "nba_mavs.m3u"
+      ]
+    },
+    "10-15 鹈鹕 vs 独行侠 (720p)": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-30, needs EPG config",
+      "playlist_files": [
+        "nba_mavs.m3u"
+      ]
+    },
+    "10-17 老鹰 vs 独行侠 (720p)": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-30, needs EPG config",
+      "playlist_files": [
+        "nba_mavs.m3u"
+      ]
+    },
+    "10-22 独行侠 vs 火箭 (720p)": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-30, needs EPG config",
+      "playlist_files": [
+        "nba_mavs.m3u"
+      ]
+    },
+    "10-24 独行侠 vs 步行者 (720p)": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-30, needs EPG config",
+      "playlist_files": [
+        "nba_mavs.m3u"
+      ]
+    },
+    "10-25 马刺 vs 独行侠 (720p)": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-30, needs EPG config",
+      "playlist_files": [
+        "nba_mavs.m3u"
+      ]
+    },
+    "10-27 独行侠 vs 热火 (720p)": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-30, needs EPG config",
+      "playlist_files": [
+        "nba_mavs.m3u"
+      ]
+    },
+    "10-29 雷霆 vs 独行侠 (720p)": {
+      "enabled": false,
+      "reason": "auto-added 2026-10-30, needs EPG config",
+      "playlist_files": [
+        "nba_mavs.m3u"
+      ]
+    },
     "4K超清": {
       "enabled": false,
       "reason": "auto-added 2026-10-19, needs EPG config",
