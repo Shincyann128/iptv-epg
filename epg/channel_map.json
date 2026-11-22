@@ -2514,6 +2514,13 @@
         "Japan-Backup.m3u"
       ]
     },
+    "NHK G · tsb直连": {
+      "enabled": false,
+      "reason": "auto-added 2026-11-23, needs EPG config",
+      "playlist_files": [
+        "nhk_tsb.m3u"
+      ]
+    },
     "NHK WORLD-JAPAN": {
       "enabled": true,
       "playlist_files": [
