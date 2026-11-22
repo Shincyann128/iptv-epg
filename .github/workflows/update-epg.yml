@@ -55,6 +55,9 @@ jobs:
       - name: Build EPG
         run: python scripts/build_epg.py
 
+      - name: Supplement Japan and Taiwan EPG
+        run: python scripts/supplement_jptw.py --playlist-dir iptv-private
+
       - name: Verify output
         run: |
           test -s epg/epg.xml
