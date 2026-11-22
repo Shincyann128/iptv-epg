@@ -1637,14 +1637,6 @@
       "source": "US",
       "epg_name": "FS2 HD"
     },
-    "FUEL TV": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-06, needs EPG config",
-      "playlist_files": [
-        "Japan.m3u"
-      ],
-      "source_hint": "JP"
-    },
     "FUELTV": {
       "enabled": false,
       "reason": "auto-added 2026-09-08, needs EPG config",
@@ -2424,14 +2416,6 @@
       ],
       "source": "JP",
       "epg_name": "ＮＨＫ　ＢＳ"
-    },
-    "NHK BS 備用": {
-      "enabled": true,
-      "playlist_files": [
-        "Japan.m3u"
-      ],
-      "source_hint": "JP",
-      "alias_of": "NHK BS"
     },
     "NHK BS101 Premium (Contra)": {
       "enabled": false,
@@ -5582,14 +5566,6 @@
       "playlist_files": [
         "Japan-Backup.m3u"
       ]
-    },
-    "映画（年齢制限あり）": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-06, needs EPG config",
-      "playlist_files": [
-        "Japan.m3u"
-      ],
-      "source_hint": "JP"
     },
     "時代劇TV（Powered by 時代劇専門チャンネル）": {
       "enabled": true,
