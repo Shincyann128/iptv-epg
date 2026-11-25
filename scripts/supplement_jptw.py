@@ -94,6 +94,7 @@ def overlay(root, feeds, jp, taiwan, now):
     remove = set()
     add = []
     new_channels = []
+    missing = []
     for incoming, targets in feeds:
         source = row_index(incoming)
         for cid, name in targets.items():
@@ -119,6 +120,16 @@ def overlay(root, feeds, jp, taiwan, now):
                 if fresh(programmes[name],now):
                     print(f'Using fresh existing base schedule for {name}')
                     continue
+                if not good:
+                    # Upstream permanently dropped this exact id (e.g. Rakuten
+                    # re-issued the channel under a new id). There is nothing to
+                    # overlay, so publish with whatever the base build has (or
+                    # without a guide) instead of failing the whole 645-channel
+                    # refresh over one channel. A stale-but-nonempty source feed
+                    # still fails hard below.
+                    missing.append(name)
+                    print(f'WARNING: no schedule source for {name}; keeping base data as-is')
+                    continue
                 raise ValueError(f'no fresh schedule for {name}; will not publish a partial build')
             remove.update(programmes[name]); programmes[name] = good; add.extend(good); applied.add(name)
             if name not in chars:
@@ -137,7 +148,7 @@ def overlay(root, feeds, jp, taiwan, now):
         for p in programmes[name]:
             q=copy.deepcopy(p); q.set('channel',i); add.append(q)
     root[:] = [c for c in root if c.tag=='channel'] + new_channels + [p for p in root if p.tag!='channel' and p not in remove] + add
-    return len(applied), aliases
+    return len(applied), aliases, missing
 
 
 def main():
@@ -164,12 +175,14 @@ def main():
     guides = [(base,fixed([n for rows in TOKYO.values() for n in rows]+['TVBS新聞'])), (osaka_xml,fixed(osaka.STATIONS.values())), (tw_xml,fixed(['中天新聞台','龍祥時代','cna'])), (fast_xml,fast_targets)]
     xml = args.epg_dir/'epg.xml'
     tree=ET.parse(xml)
-    applied,aliases=overlay(tree.getroot(),guides,jp,taiwan,now)
+    applied,aliases,missing=overlay(tree.getroot(),guides,jp,taiwan,now)
     ET.indent(tree,space='  ')
     data=ET.tostring(tree.getroot(), encoding='utf-8', xml_declaration=True)
     xml.write_bytes(data)
     (args.epg_dir/'epg.xml.gz').write_bytes(gzip.compress(data,mtime=0))
     print(f'Japan/Taiwan schedules supplemented: {applied}; Japan tvg-id aliases: {aliases}')
+    if missing:
+        print(f'Channels published without a guide (upstream id gone): {", ".join(missing)}')
 
 
 if __name__ == '__main__':
