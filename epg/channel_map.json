@@ -1391,22 +1391,6 @@
       ],
       "source_hint": "GB"
     },
-    "DAZN 1 DE": {
-      "enabled": true,
-      "playlist_files": [
-        "Sports.m3u"
-      ],
-      "source": "DE",
-      "epg_name": "DAZN 1"
-    },
-    "DAZN 2 DE": {
-      "enabled": true,
-      "playlist_files": [
-        "Sports.m3u"
-      ],
-      "source": "DE",
-      "epg_name": "DAZN 2"
-    },
     "DAZN Ringside": {
       "enabled": false,
       "reason": "auto-added 2026-08-29, needs EPG config",
@@ -1430,14 +1414,6 @@
       ],
       "source": "TW",
       "epg_name": "DW德國之聲"
-    },
-    "Deportes por M+ ES": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
-      "playlist_files": [
-        "Sports.m3u"
-      ],
-      "source_hint": "US"
     },
     "Discovery": {
       "enabled": true,
@@ -1806,14 +1782,6 @@
       "source": "JP",
       "epg_name": "ゴルフネットワーク"
     },
-    "Golf por M+ ES": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
-      "playlist_files": [
-        "Sports.m3u"
-      ],
-      "source_hint": "US"
-    },
     "Green Channel": {
       "enabled": true,
       "source": "JP",
@@ -1849,6 +1817,20 @@
       ],
       "source": "TW",
       "epg_name": "HITS頻道"
+    },
+    "HOY 78 資訊": {
+      "enabled": false,
+      "reason": "auto-added 2026-11-27, needs EPG config",
+      "playlist_files": [
+        "taiwan.m3u"
+      ]
+    },
+    "HOY TV 77": {
+      "enabled": false,
+      "reason": "auto-added 2026-11-27, needs EPG config",
+      "playlist_files": [
+        "taiwan.m3u"
+      ]
     },
     "History": {
       "enabled": true,
@@ -2026,14 +2008,6 @@
       "source": "JPT",
       "epg_name": "女性チャンネル♪LaLa TV"
     },
-    "LaLiga por M+ ES": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
-      "playlist_files": [
-        "Sports.m3u"
-      ],
-      "source_hint": "US"
-    },
     "Lemino TV": {
       "enabled": false,
       "reason": "auto-added 2026-08-05, needs EPG config",
@@ -2050,14 +2024,6 @@
       ],
       "source": "TW",
       "epg_name": "Lifetime 娛樂頻道"
-    },
-    "Liga de Campeones por M+ ES": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
-      "playlist_files": [
-        "Sports.m3u"
-      ],
-      "source_hint": "US"
     },
     "LiveABC互動英語頻道": {
       "enabled": true,
@@ -2514,13 +2480,6 @@
         "Japan-Backup.m3u"
       ]
     },
-    "NHK G · tsb直连": {
-      "enabled": false,
-      "reason": "auto-added 2026-11-27, needs EPG config",
-      "playlist_files": [
-        "nhk_tsb.m3u"
-      ]
-    },
     "NHK WORLD-JAPAN": {
       "enabled": true,
       "playlist_files": [
@@ -2795,14 +2754,6 @@
       "source": "US",
       "epg_name": "RACER Network HD"
     },
-    "RMC Sport 1 FR": {
-      "enabled": true,
-      "playlist_files": [
-        "Sports.m3u"
-      ],
-      "source": "FR",
-      "epg_name": "RMC Sport 1"
-    },
     "ROCK Action": {
       "enabled": true,
       "playlist_files": [
@@ -2834,14 +2785,6 @@
       ],
       "source": "GB",
       "epg_name": "Racing TV HD"
-    },
-    "Real Madrid TV ES": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
-      "playlist_files": [
-        "Sports.m3u"
-      ],
-      "source_hint": "US"
     },
     "Red Bull TV": {
       "enabled": false,
@@ -3712,14 +3655,6 @@
       "source": "GB",
       "epg_name": "Travelxp"
     },
-    "UFC": {
-      "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
-      "playlist_files": [
-        "Sports.m3u"
-      ],
-      "source_hint": "US"
-    },
     "V Paradise": {
       "enabled": true,
       "source": "JP",
@@ -3733,13 +3668,12 @@
       "source": "JP",
       "epg_name": "Ｖ☆パラダイス"
     },
-    "Vamos por M+ ES": {
+    "ViuTV": {
       "enabled": false,
-      "reason": "auto-added 2026-08-29, needs EPG config",
+      "reason": "auto-added 2026-11-27, needs EPG config",
       "playlist_files": [
-        "Sports.m3u"
-      ],
-      "source_hint": "US"
+        "taiwan.m3u"
+      ]
     },
     "WOWOW Cinema": {
       "enabled": true,
@@ -3777,14 +3711,6 @@
       ],
       "source": "US",
       "epg_name": "Willow Cricket HD"
-    },
-    "World Fishing Network": {
-      "enabled": true,
-      "playlist_files": [
-        "Sports.m3u"
-      ],
-      "source": "US",
-      "epg_name": "World Fishing Network HD (US)"
     },
     "World Poker Tour": {
       "enabled": false,
@@ -5494,6 +5420,13 @@
         "Beijing-Full.m3u"
       ]
     },
+    "无线新闻": {
+      "enabled": false,
+      "reason": "auto-added 2026-11-27, needs EPG config",
+      "playlist_files": [
+        "taiwan.m3u"
+      ]
+    },
     "日テレ NEWS 24": {
       "enabled": true,
       "playlist_files": [
@@ -5558,6 +5491,13 @@
       "reason": "auto-added 2026-10-19, needs EPG config",
       "playlist_files": [
         "Beijing-Full.m3u"
+      ]
+    },
+    "明珠台": {
+      "enabled": false,
+      "reason": "auto-added 2026-11-27, needs EPG config",
+      "playlist_files": [
+        "taiwan.m3u"
       ]
     },
     "星影": {
@@ -6113,6 +6053,48 @@
         "Japan-Backup.m3u"
       ]
     },
+    "澳視澳門": {
+      "enabled": false,
+      "reason": "auto-added 2026-11-27, needs EPG config",
+      "playlist_files": [
+        "taiwan.m3u"
+      ]
+    },
+    "澳視綜藝": {
+      "enabled": false,
+      "reason": "auto-added 2026-11-27, needs EPG config",
+      "playlist_files": [
+        "taiwan.m3u"
+      ]
+    },
+    "澳視葡文": {
+      "enabled": false,
+      "reason": "auto-added 2026-11-27, needs EPG config",
+      "playlist_files": [
+        "taiwan.m3u"
+      ]
+    },
+    "澳視資訊": {
+      "enabled": false,
+      "reason": "auto-added 2026-11-27, needs EPG config",
+      "playlist_files": [
+        "taiwan.m3u"
+      ]
+    },
+    "澳視體育": {
+      "enabled": false,
+      "reason": "auto-added 2026-11-27, needs EPG config",
+      "playlist_files": [
+        "taiwan.m3u"
+      ]
+    },
+    "澳門衛視": {
+      "enabled": false,
+      "reason": "auto-added 2026-11-27, needs EPG config",
+      "playlist_files": [
+        "taiwan.m3u"
+      ]
+    },
     "热播剧场": {
       "enabled": false,
       "reason": "auto-added 2026-10-19, needs EPG config",
@@ -6314,6 +6296,20 @@
       ],
       "source": "CN",
       "epg_name": "翡翠台"
+    },
+    "翡翠台 4K": {
+      "enabled": false,
+      "reason": "auto-added 2026-11-27, needs EPG config",
+      "playlist_files": [
+        "taiwan.m3u"
+      ]
+    },
+    "翡翠台北美版": {
+      "enabled": false,
+      "reason": "auto-added 2026-11-27, needs EPG config",
+      "playlist_files": [
+        "taiwan.m3u"
+      ]
     },
     "聚鲨环球": {
       "enabled": false,
