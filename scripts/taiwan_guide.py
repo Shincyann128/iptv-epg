@@ -3,6 +3,7 @@
 import argparse
 import gzip
 from collections import Counter
+from collections import defaultdict
 from datetime import date, datetime, timedelta, timezone
 from html.parser import HTMLParser
 import json
@@ -80,19 +81,35 @@ def parse_ls(payload):
     if not page.rows or not re.fullmatch(r'\d{4}-\d{2}', page.month or ''):
         raise ValueError('No official LS TIME rows/month found')
     year, month = map(int, page.month.split('-'))
-    points = []
+    by_date = defaultdict(list)
     for day, clock, title in page.rows:
         m, d = map(int, day.split('/'))
         y = year + (m == 1 and month == 12) - (m == 12 and month == 1)
         h, n = map(int, clock.split(':'))
         when = datetime(y, m, d, h, n, tzinfo=TAIPEI)
-        if not title or (points and when <= points[-1][0]):
-            raise ValueError('LS TIME row is blank or out of order')
-        points.append((when, title))
-    # The guide lists starts only: stop at the next start, including midnight
-    # rollover. Leave the final stop unspecified rather than guessing.
-    return [(when, points[i+1][0] if i+1 < len(points) else None, title)
-            for i, (when, title) in enumerate(points)]
+        by_date[when.date()].append((when, title))
+
+    points = []
+    for day, entries in by_date.items():
+        # The site can publish a whole day's film titles before it has their
+        # start times. Every row in that case is displayed as 00:00.
+        if len(entries) > 1 and all(not start.hour and not start.minute for start, _ in entries):
+            print(f'WARNING: LS TIME has no confirmed start times for {day}')
+            continue
+        for when, title in entries:
+            if not title or (points and when <= points[-1][0]):
+                raise ValueError('LS TIME row is blank or out of order')
+            points.append((when, title))
+
+    # Stop at the next announced start if there is no intervening day without
+    # a schedule. Keep the stop unknown across a gap and on the final row.
+    programmes = []
+    for i, (when, title) in enumerate(points):
+        next_start = points[i+1][0] if i+1 < len(points) else None
+        if next_start is not None and (next_start.date() - when.date()).days > 1:
+            next_start = None
+        programmes.append((when, next_start, title))
+    return programmes
 
 
 def parse_cti(payload):
@@ -131,7 +148,7 @@ def parse_cna(payload):
     return rows
 
 
-def format_guide(rows_by_channel, first, end):
+def format_guide(rows_by_channel, first, end, *, optional_channels=()):
     root = ET.Element('tv', {'generator-info-name': 'Taiwan EPG supplement'})
     stamp = lambda v: v.strftime('%Y%m%d%H%M%S %z')
     lo = datetime.combine(first, datetime.min.time(), TAIPEI)
@@ -141,9 +158,13 @@ def format_guide(rows_by_channel, first, end):
         ET.SubElement(c, 'display-name', lang=lang).text = name
         ET.SubElement(c, 'url').text = url
     for cid, _, _, lang in CHANNELS:
-        rows = sorted({(s, e, t) for s, e, t in rows_by_channel[cid]
+        source_rows = rows_by_channel.get(cid, ()) if cid in optional_channels else rows_by_channel[cid]
+        rows = sorted({(s, e, t) for s, e, t in source_rows
                        if s < hi and (e > lo if e else s >= lo)}, key=lambda x: x[0])
         if not rows or not any(s.date() == first for s, _, _ in rows):
+            if cid in optional_channels:
+                print(f'WARNING: {cid} has no complete guide for {first}; retaining the base schedule')
+                continue
             raise ValueError(f'{cid}: no programmes starting on {first}')
         prev_start = prev_end = None
         for s, e, t in rows:

@@ -53,10 +53,20 @@ def base_extras():
 
 
 def tw_extras():
-    today = datetime.now(BJ).date()
-    query = urlencode(dict(chid=52, start=today-timedelta(days=1), end=today+timedelta(days=8), callback='ctiEPG'))
-    rows = {'中天新聞台':tw.parse_cti(tw.fetch(tw.CTI+'?'+query)), '龍祥時代':tw.parse_ls(tw.fetch(tw.LS)), 'cna':tw.parse_cna(tw.fetch(tw.TW))}
-    return ET.fromstring(tw.format_guide(rows,today,today+timedelta(days=8)))
+    now = datetime.now(BJ)
+    today = now.date()
+    end = today+timedelta(days=8)
+    query = urlencode(dict(chid=52, start=today-timedelta(days=1), end=end, callback='ctiEPG'))
+    rows = {'中天新聞台':tw.parse_cti(tw.fetch(tw.CTI+'?'+query)),
+            '龍祥時代':tw.parse_ls(tw.fetch(tw.LS)),
+            'cna':tw.parse_cna(tw.fetch(tw.TW))}
+    guide = ET.fromstring(tw.format_guide(rows,today,end,optional_channels={'龍祥時代'}))
+    ls_programmes = guide.findall('programme[@channel="龍祥時代"]')
+    if ls_programmes and not fresh(ls_programmes, now):
+        print('WARNING: LS TIME guide is too short; retaining the base schedule')
+        for programme in ls_programmes:
+            guide.remove(programme)
+    return guide
 
 
 def osaka_extras():
