@@ -28,6 +28,9 @@ STATE = Path.home() / ".hermes/data/sky_token_state.json"
 BACKUP_DIR = Path.home() / ".hermes/profiles/code/backups/iptv/sky-refresh"
 ALLOWED_HOSTS = {"cdnlivetv.tv", "stream.bottledesk.net"}
 CHANNELS = {
+    "TNT Sports 1": "TNT Sports 1 UK",
+    "TNT Sports 2": "TNT Sports 2 UK",
+    "TNT Sports 3": "TNT Sports 3 UK",
     "Sky Sports Main Event": "Sky Sports Main Event UK",
     "Sky Sports Premier League": "Sky Sports Premier League UK",
     "Sky Sports Football": "Sky Sports Football UK",
@@ -38,8 +41,6 @@ CHANNELS = {
     "Sky Sports Racing": "Sky Sports Racing UK",
     "Sky Sports Mix": "Sky Sports Mix UK",
     "Sky Sports Golf": "Sky Sports Golf UK",
-    "TNT Sports 1": "TNT Sports 1 UK",
-    "TNT Sports 2": "TNT Sports 2 UK",
 }
 
 
